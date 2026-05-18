@@ -1,0 +1,518 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-roboto), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-roboto), system-ui, sans-serif;
+  --font-heading: var(--font-roboto), system-ui, sans-serif;
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  --color-brand-red: var(--brand-red);
+  --color-brand-red-dark: var(--brand-red-dark);
+  --color-brand-red-soft: var(--brand-red-soft);
+  --color-brand-mint: var(--brand-mint);
+  --color-brand-mint-soft: var(--brand-mint-soft);
+  --color-brand-slate: var(--brand-slate);
+  --color-brand-slate-dark: var(--brand-slate-dark);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-gray: var(--brand-gray);
+  --color-brand-gray-medium: var(--brand-gray-medium);
+  --color-brand-charcoal: var(--brand-charcoal);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Alertis brand tokens — editorial refinement */
+  --brand-red: #bf000d;
+  --brand-red-dark: #8a0008;
+  --brand-red-soft: #fbe6e8;
+  --brand-mint: #d9e9e7;
+  --brand-mint-soft: #ecf4f3;
+  --brand-slate: #495369;
+  --brand-slate-dark: #2d3548;
+  --brand-cream: #f5fafa;
+  --brand-gray: #383f40;
+  --brand-gray-medium: #656d6f;
+  --brand-charcoal: #1a1f24;
+
+  /* shadcn semantic tokens */
+  --background: #ffffff;
+  --foreground: #383f40;
+  --card: #ffffff;
+  --card-foreground: #383f40;
+  --popover: #ffffff;
+  --popover-foreground: #383f40;
+  --primary: #bf000d;
+  --primary-foreground: #ffffff;
+  --secondary: #d9e9e7;
+  --secondary-foreground: #383f40;
+  --muted: #f5fafa;
+  --muted-foreground: #656d6f;
+  --accent: #f5fafa;
+  --accent-foreground: #383f40;
+  --destructive: #bf000d;
+  --border: #ebe9e6;
+  --input: #ebe9e6;
+  --ring: #bf000d;
+  --chart-1: #bf000d;
+  --chart-2: #495369;
+  --chart-3: #d9e9e7;
+  --chart-4: #656d6f;
+  --chart-5: #383f40;
+  --radius: 0.5rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #383f40;
+  --sidebar-primary: #bf000d;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5fafa;
+  --sidebar-accent-foreground: #383f40;
+  --sidebar-border: #ebe9e6;
+  --sidebar-ring: #bf000d;
+}
+
+.dark {
+  --background: #1a1f2c;
+  --foreground: #f5fafa;
+  --card: #232a3a;
+  --card-foreground: #f5fafa;
+  --popover: #232a3a;
+  --popover-foreground: #f5fafa;
+  --primary: #e63946;
+  --primary-foreground: #ffffff;
+  --secondary: #2d3548;
+  --secondary-foreground: #f5fafa;
+  --muted: #2d3548;
+  --muted-foreground: #9ca5b3;
+  --accent: #2d3548;
+  --accent-foreground: #f5fafa;
+  --destructive: #e63946;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.15);
+  --ring: #e63946;
+  --chart-1: #e63946;
+  --chart-2: #8b95a8;
+  --chart-3: #d9e9e7;
+  --chart-4: #656d6f;
+  --chart-5: #f5fafa;
+  --sidebar: #232a3a;
+  --sidebar-foreground: #f5fafa;
+  --sidebar-primary: #e63946;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2d3548;
+  --sidebar-accent-foreground: #f5fafa;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #e63946;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  /* All headings: Roboto with strong hierarchy via weight + tracking */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    color: var(--brand-charcoal);
+  }
+  h1 {
+    font-size: clamp(2.25rem, 5vw, 4.25rem);
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+  }
+  h2 {
+    font-size: clamp(1.75rem, 3.2vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+  }
+  h3 {
+    font-size: clamp(1.25rem, 1.8vw, 1.625rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+  }
+  h4 {
+    font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  ::selection {
+    background-color: var(--brand-red);
+    color: #ffffff;
+  }
+  ::-moz-selection {
+    background-color: var(--brand-red);
+    color: #ffffff;
+  }
+
+  /* Refined focus visible */
+  *:focus-visible {
+    outline: 2px solid var(--brand-red);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Subtle scrollbar (webkit) */
+  ::-webkit-scrollbar { width: 12px; height: 12px; }
+  ::-webkit-scrollbar-track { background: #fafaf8; }
+  ::-webkit-scrollbar-thumb {
+    background: #d9d6d1;
+    border: 3px solid #fafaf8;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--brand-red); }
+}
+
+@layer components {
+  /* Formation content (imported from WP, rendered via dangerouslySetInnerHTML) */
+  .formation-prose {
+    color: var(--brand-gray);
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+  .formation-prose > * + * {
+    margin-top: 1rem;
+  }
+  .formation-prose h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--brand-charcoal);
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid color-mix(in oklab, var(--brand-gray-medium) 20%, transparent);
+  }
+  .formation-prose h2:first-child {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .formation-prose h3 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: var(--brand-charcoal);
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .formation-prose h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--brand-charcoal);
+    margin-top: 1.25rem;
+  }
+  .formation-prose p {
+    line-height: 1.7;
+  }
+  .formation-prose strong {
+    color: var(--brand-charcoal);
+    font-weight: 600;
+  }
+  .formation-prose ul,
+  .formation-prose ol {
+    padding-left: 1.5rem;
+  }
+  .formation-prose ul {
+    list-style: none;
+  }
+  .formation-prose ul > li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    line-height: 1.65;
+  }
+  .formation-prose ul > li::before {
+    content: "";
+    position: absolute;
+    left: -1rem;
+    top: 0.7rem;
+    width: 0.375rem;
+    height: 1px;
+    background: var(--brand-red);
+  }
+  .formation-prose ol {
+    list-style: decimal;
+  }
+  .formation-prose ol > li {
+    margin-bottom: 0.5rem;
+    line-height: 1.65;
+    padding-left: 0.25rem;
+  }
+  .formation-prose blockquote {
+    border-left: 3px solid var(--brand-red);
+    padding-left: 1.25rem;
+    color: var(--brand-gray-medium);
+    font-style: italic;
+  }
+
+  /* Partners marquee: needs instant scroll for the rAF auto-scroll loop to
+     work (global body has scroll-behavior: smooth which interpolates each
+     0.5px increment and effectively freezes the marquee). */
+  .partners-marquee {
+    scroll-behavior: auto;
+  }
+
+  /* Drag-scroll container: thin discreet scrollbar + image-drag prevention */
+  .drag-scroller {
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in oklab, var(--brand-gray-medium) 30%, transparent)
+      transparent;
+    /* Auto so programmatic scrollLeft updates during drag are instant (1:1 with cursor) */
+    scroll-behavior: auto;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .drag-scroller.is-dragging {
+    cursor: grabbing;
+  }
+  /* WebKit scrollbar — thin and brand-tinted */
+  .drag-scroller::-webkit-scrollbar {
+    height: 6px;
+  }
+  .drag-scroller::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .drag-scroller::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--brand-gray-medium) 25%, transparent);
+    border-radius: 999px;
+    transition: background 0.2s;
+  }
+  .drag-scroller::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--brand-red) 50%, transparent);
+  }
+  /* Prevent native image drag inside drag-scroller */
+  .drag-scroller img {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+
+  /* Editorial eyebrow label */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--brand-red);
+  }
+  .eyebrow::before {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1px;
+    background: currentColor;
+  }
+
+  /* Section number indicator */
+  .section-number {
+    font-family: var(--font-sans);
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(4rem, 10vw, 8rem);
+    line-height: 1;
+    color: var(--brand-red);
+    opacity: 0.06;
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+    letter-spacing: -0.05em;
+  }
+
+  /* Accent — replaces the old serif-italic with a clean underline emphasis */
+  .accent-word {
+    color: var(--brand-red);
+    font-weight: inherit;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  /* Refined link with custom underline */
+  .editorial-link {
+    position: relative;
+    color: var(--brand-charcoal);
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  .editorial-link:hover {
+    background-size: 0% 1px;
+  }
+
+  /* Hairline rule */
+  .hairline {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--brand-gray-medium) 20%,
+      var(--brand-gray-medium) 80%,
+      transparent
+    );
+    opacity: 0.2;
+  }
+}
+
+@layer utilities {
+  /* Subtle film grain overlay */
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    z-index: 1;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: multiply;
+  }
+  .grain-light::before {
+    opacity: 0.025;
+    mix-blend-mode: screen;
+  }
+
+  /* Editorial dot grid */
+  .dot-grid {
+    background-image: radial-gradient(
+      circle,
+      rgba(72, 83, 105, 0.15) 1px,
+      transparent 1px
+    );
+    background-size: 28px 28px;
+  }
+
+  /* Subtle diagonal lines */
+  .diagonal-lines {
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 6px,
+      rgba(191, 0, 13, 0.04) 6px,
+      rgba(191, 0, 13, 0.04) 7px
+    );
+  }
+
+  /* Marquee animation */
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+  .animate-marquee-slow {
+    animation: marquee 60s linear infinite;
+  }
+  .pause-on-hover:hover .animate-marquee,
+  .pause-on-hover:hover .animate-marquee-slow {
+    animation-play-state: paused;
+  }
+
+  /* Hero carousel auto-advance progress bar */
+  @keyframes hero-progress {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+  /* Reveal animations */
+  @keyframes reveal-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-reveal {
+    animation: reveal-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  }
+
+  /* Container queries */
+  .container-wide {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .container-wide { padding-inline: 2.5rem; }
+  }
+}
