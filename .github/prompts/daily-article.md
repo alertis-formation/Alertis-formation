@@ -54,8 +54,10 @@ Le sujet doit :
 - Revendiquer la **certification Qualiopi** pour Alertis. La formulation
   acceptable est *"démarche qualité"* uniquement.
 - Promesses commerciales creuses ("le meilleur", "le seul", "garanti").
-- Spam du mot "Alertis" dans le corps de l'article (1 mention max, à
-  la fin, dans le call-to-action).
+- **Aucune mention** du nom "Alertis", "Alertis Formation" ou de
+  l'organisme dans le corps de l'article (le lecteur est déjà sur le
+  site). Le CTA final renvoie vers `/contact` ou une page formation
+  **sans nommer la marque**.
 
 ---
 
@@ -126,13 +128,19 @@ type Article = {
 (60–90 mots max par bloc `p`). Pas de "nous savons que…", pas de
 remplissage. Tu écris pour un préventeur qui veut une info actionnable.
 
-**Call-to-action discret** en dernier bloc `p`, formulé naturellement.
+**Call-to-action discret** en dernier bloc `p`, formulé naturellement,
+**sans citer le nom de la marque**.
 Exemples acceptables :
 
 - *"Pour former vos équipes sur ce sujet, prenez contact via [notre
   page contact](/contact)."*
 - *"Découvrez nos sessions [SST](/formations/sst) ou [PRAP](/formations/prap)
   pour aller plus loin."*
+
+Exemples **interdits** :
+
+- *"Pour former vos équipes, Alertis Formation vous accompagne…"* ❌
+- *"Alertis propose des sessions adaptées…"* ❌
 
 Pas de bouton flashy, pas de majuscules, pas de "RÉSERVEZ MAINTENANT".
 
