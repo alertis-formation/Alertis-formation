@@ -1,0 +1,49 @@
+name: Article quotidien
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 10h Paris (hiver) / 11h Paris (été) — GitHub Actions ne gère pas les TZ
+  workflow_dispatch:      # Bouton "Run workflow" manuel dans l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-article
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "Alertis Article Bot"
+          git config user.email "info@alertis.fr"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run Claude Code
+        uses: anthropics/claude-code-action@v1
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Lis le fichier `.github/prompts/daily-article.md` et exécute toutes
+            les étapes qui y sont décrites. C'est ta seule consigne. Va.
