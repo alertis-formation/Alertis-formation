@@ -75,7 +75,8 @@ export type ArticleBlock =
   | { type: "h3"; text: string }
   | { type: "p"; text: string }
   | { type: "ul"; items: string[] }
-  | { type: "quote"; text: string };
+  | { type: "quote"; text: string }
+  | { type: "cta"; text: string; href: string; label: string };
 
 export type Article = {
   title: string;
@@ -2608,8 +2609,10 @@ export const articles: Record<string, Article> = {
         text: "Un DUERP qui n'est pas tenu à jour perd rapidement sa valeur — à la fois comme outil de management et comme document juridique.",
       },
       {
-        type: "p",
-        text: "Pour former vos équipes à l'évaluation des risques professionnels, Alertis Formation vous accompagne. Prenez contact via [notre page contact](/contact).",
+        type: "cta",
+        text: "Pour former vos équipes à l'évaluation des risques professionnels,",
+        label: "prenez contact via notre page dédiée",
+        href: "/contact",
       },
     ],
   },

@@ -159,6 +159,20 @@ export default async function ArticlePage({
                     </blockquote>
                   );
                 }
+                if (block.type === "cta") {
+                  return (
+                    <p key={i} className="text-[color:var(--brand-gray-medium)]">
+                      {block.text}{" "}
+                      <Link
+                        href={block.href}
+                        className="font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"
+                      >
+                        {block.label}
+                      </Link>
+                      .
+                    </p>
+                  );
+                }
                 return null;
               })}
             </div>

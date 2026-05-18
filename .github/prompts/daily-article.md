@@ -99,7 +99,8 @@ type ArticleBlock =
   | { type: "h3"; text: string }
   | { type: "p"; text: string }
   | { type: "ul"; items: string[] }
-  | { type: "quote"; text: string };
+  | { type: "quote"; text: string }
+  | { type: "cta"; text: string; href: string; label: string };
 
 type Article = {
   title: string;
@@ -112,6 +113,24 @@ type Article = {
 };
 ```
 
+🚫 **AUCUN markdown ni HTML dans les champs `text`.** Les champs `text`,
+`items`, `label` sont rendus comme du **texte brut** par React. Le
+balisage `[lien](/url)` apparaîtrait littéralement à l'écran. Pour
+créer un lien cliquable, **utilise uniquement le bloc `cta`** :
+
+```ts
+{
+  type: "cta",
+  text: "Pour former vos équipes sur ce sujet,",     // phrase sans lien
+  label: "prenez contact via notre page dédiée",     // texte cliquable
+  href: "/contact",                                  // URL interne
+}
+```
+
+Le composant ajoute automatiquement le `.` final après le lien. Le bloc
+`cta` est **réservé au dernier bloc** de l'article. Un seul `cta` par
+article.
+
 **Contraintes de rédaction** :
 
 | Champ          | Règle                                                         |
@@ -122,25 +141,51 @@ type Article = {
 | `category`     | Réutilise une catégorie existante si possible                 |
 | `publishedAt`  | Date du jour (commande `date -u +%Y-%m-%d`)                   |
 | `readingTime`  | 4 à 8 minutes, cohérent avec la longueur                      |
-| `content`      | 8 à 15 blocs ; commence par un `p` d'introduction ; alterne `h2`, `p`, `ul`, occasionnellement `h3` et `quote` |
+| `content`      | 8 à 15 blocs ; commence par un `p` d'introduction ; alterne `h2`, `p`, `ul`, occasionnellement `h3` et `quote` ; termine par **exactement un** bloc `cta` |
 
 **Ton** : français professionnel, phrases courtes, paragraphes aérés
 (60–90 mots max par bloc `p`). Pas de "nous savons que…", pas de
 remplissage. Tu écris pour un préventeur qui veut une info actionnable.
 
-**Call-to-action discret** en dernier bloc `p`, formulé naturellement,
-**sans citer le nom de la marque**.
+**Call-to-action obligatoire en dernier bloc, type `cta`**, formulé
+naturellement et **sans citer le nom de la marque**.
+
 Exemples acceptables :
 
-- *"Pour former vos équipes sur ce sujet, prenez contact via [notre
-  page contact](/contact)."*
-- *"Découvrez nos sessions [SST](/formations/sst) ou [PRAP](/formations/prap)
-  pour aller plus loin."*
+```ts
+{
+  type: "cta",
+  text: "Pour former vos équipes sur ce sujet,",
+  label: "prenez contact via notre page dédiée",
+  href: "/contact",
+}
+```
+
+```ts
+{
+  type: "cta",
+  text: "Pour aller plus loin sur la gestion des risques psychosociaux,",
+  label: "découvrez notre formation PSSM",
+  href: "/formations",
+}
+```
 
 Exemples **interdits** :
 
-- *"Pour former vos équipes, Alertis Formation vous accompagne…"* ❌
-- *"Alertis propose des sessions adaptées…"* ❌
+- *"Pour former vos équipes, Alertis Formation vous accompagne…"* ❌ (marque)
+- *"… [notre page contact](/contact)."* dans un bloc `p` ❌ (markdown)
+- Plus d'un bloc `cta` ❌
+- Un `cta` au milieu de l'article ❌
+
+URLs valides à utiliser pour le `href` :
+
+- `/contact` — page contact générique
+- `/formations` — liste des formations
+- `/formations/sst`, `/formations/prap`, `/formations/incendie`,
+  `/formations/habilitation-electrique` — pages formation spécifiques
+- `/articles?categorie=veille` — veille réglementaire
+
+Si tu n'es pas sûr qu'une URL existe, **utilise `/contact`** par défaut.
 
 Pas de bouton flashy, pas de majuscules, pas de "RÉSERVEZ MAINTENANT".
 
