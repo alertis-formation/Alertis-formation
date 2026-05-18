@@ -46,6 +46,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: '--dangerously-skip-permissions --max-turns 60'
           prompt: |
             Lis le fichier `.github/prompts/daily-article.md` et exécute toutes
             les étapes qui y sont décrites. C'est ta seule consigne. Va.
