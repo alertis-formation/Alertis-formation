@@ -87,6 +87,34 @@ curl -sS -L -o "public/images/articles/${SLUG}.jpg" "<url large2x>"
 **Licence Pexels** : usage commercial autorisé, sans attribution
 obligatoire. Pas besoin d'ajouter de crédit photo dans l'article.
 
+⚠️ **Point d'attention pour les sujets sensibles** :
+
+Si l'article traite d'un **sujet psychologique, médical ou stigmatisant**
+(RPS, burn-out, dépression, addictions, suicide, harcèlement, accident
+grave, maladie professionnelle…), **évite les portraits de personnes
+identifiables**. Une personne pourrait se reconnaître et se voir
+associée publiquement à un trouble qu'elle n'a pas — risque juridique
+et éthique.
+
+Pour ces sujets, requête Pexels orientée vers des **visuels neutres** :
+
+- Mains, silhouettes de dos, ombres
+- Objets symboliques (casque de chantier, mannequin RCP, extincteur,
+  document, écran, escalier, fenêtre…)
+- Paysages, lieux de travail vides, ambiance bureau
+- Détails graphiques (textures, géométrie)
+
+Exemples de mots-clés Pexels adaptés :
+- RPS / santé mentale → `dark window office`, `empty office chair`,
+  `hands on keyboard`, `silhouette window`
+- Addictions → `coffee cup desk`, `empty meeting room`
+- Accident grave → `safety helmet`, `warning sign`, `construction site`
+- Harcèlement → `office corridor`, `closed door office`
+
+Pour les sujets **techniques/opérationnels** (SST, incendie, électrique,
+HACCP, PRAP), les portraits sont OK : *firefighter*, *first aid
+training*, *electrician*, *kitchen worker*, *warehouse worker*…
+
 ---
 
 ## Étape 4 — Construire l'objet Article
