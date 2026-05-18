@@ -1,9 +1,0 @@
-﻿Title: Contact
-Slug: contact
-Type: page
-Date: 2021-11-05 16:23:05
-URL: https://alertisformation.com/contact/
-Excerpt: 
----
-
-Une question sur nos formations ou sur l'accompagnement Alertis ? N'hÃ©sitez pas Ã nous contacter, notre Ã©quipe vous rÃ©pondra rapidement. Le formulaire ci-dessous vous permet de nous envoyer directement votre demande. Nous reviendrons vers vous dans les plus brefs dÃ©lais pour vous accompagner.
