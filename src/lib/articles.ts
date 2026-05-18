@@ -42,6 +42,7 @@ export const articleSlugs = [
   "erc-guidelines-2025-rotterdam-recommandations-europeennes-rcp",
   "laerdal-qcpr-mannequins-connectes-formation-rcp",
   "formation-incendie-realite-virtuelle-vr-evacuation-extincteurs",
+  "duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique",
 ] as const;
 
 /**
@@ -2537,6 +2538,78 @@ export const articles: Record<string, Article> = {
       {
         type: "p",
         text: "Pour ceux qui veulent en savoir plus : Virteem, Leeveo, PreventiRisk, MSécurité, YouRescue proposent des démonstrations sur leurs sites respectifs.",
+      },
+    ],
+  },
+
+  "duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique": {
+    title:
+      "DUERP : guide pratique pour rédiger et mettre à jour le document unique",
+    excerpt:
+      "Le Document Unique d'Évaluation des Risques Professionnels est obligatoire dès le premier salarié. Ce guide vous accompagne, étape par étape, pour le rédiger ou le mettre à jour efficacement.",
+    publishedAt: "2026-05-18",
+    category: "Prévention",
+    readingTime: 6,
+    image:
+      "/images/articles/duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est le socle de toute politique de prévention en entreprise. Trop souvent perçu comme une formalité administrative, il peut au contraire devenir un véritable outil de pilotage — à condition d'être construit avec méthode et mis à jour régulièrement.",
+      },
+      { type: "h2", text: "Qui est concerné et quelle obligation ?" },
+      {
+        type: "p",
+        text: "Toute entreprise ou association employant au moins un salarié doit disposer d'un DUERP. Les articles L.4121-1 et L.4121-3 du Code du travail imposent à l'employeur d'évaluer les risques pour la santé et la sécurité des travailleurs et de consigner les résultats par écrit. L'absence de document ou un contenu insuffisant peut engager la responsabilité de l'employeur en cas d'accident.",
+      },
+      { type: "h2", text: "Les quatre étapes pour construire le DUERP" },
+      {
+        type: "ul",
+        items: [
+          "Définir les unités de travail : postes, services ou activités homogènes",
+          "Identifier les dangers potentiels liés à chaque unité",
+          "Évaluer le niveau de risque en croisant probabilité et gravité",
+          "Rédiger un plan d'actions avec responsable, délai et indicateur de suivi",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Définir les unités de travail : le point de départ",
+      },
+      {
+        type: "p",
+        text: "Une unité de travail regroupe des salariés exposés aux mêmes conditions. Elle peut désigner un poste (cariste, hôte de caisse), un service (logistique, accueil) ou une activité transverse (déplacements professionnels, travail sur écran). Plus le découpage est précis, plus les risques identifiés sont utiles. Un regroupement trop large masque des expositions réelles.",
+      },
+      { type: "h2", text: "Coter les risques : probabilité et gravité" },
+      {
+        type: "p",
+        text: "La méthode la plus répandue croise deux critères : la probabilité qu'un événement survienne et la gravité potentielle de ses conséquences. Le produit donne un score qui permet de classer les risques et de prioriser les actions. Ce n'est pas la seule méthode — certains secteurs ajoutent un axe « fréquence d'exposition » — mais c'est la plus accessible pour une PME ou une TPE.",
+      },
+      {
+        type: "h2",
+        text: "Le plan d'actions : ce qui donne de la valeur au DUERP",
+      },
+      {
+        type: "p",
+        text: "Sans plan d'actions, le DUERP reste un diagnostic sans suite. Chaque risque prioritaire doit déboucher sur une mesure concrète : formation, équipement de protection, réaménagement de poste, procédure. Chaque action doit avoir un pilote nommé et un délai réaliste. C'est ce plan qui transforme le document en levier opérationnel.",
+      },
+      { type: "h2", text: "Quand mettre à jour le DUERP ?" },
+      {
+        type: "ul",
+        items: [
+          "Au moins une fois par an pour les entreprises d'au moins 11 salariés",
+          "Lors de tout aménagement modifiant de façon importante les conditions de travail",
+          "Après un accident du travail ou un signalement de maladie professionnelle",
+          "Lorsqu'une information nouvelle sur un risque est portée à la connaissance de l'employeur",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Un DUERP qui n'est pas tenu à jour perd rapidement sa valeur — à la fois comme outil de management et comme document juridique.",
+      },
+      {
+        type: "p",
+        text: "Pour former vos équipes à l'évaluation des risques professionnels, Alertis Formation vous accompagne. Prenez contact via [notre page contact](/contact).",
       },
     ],
   },
