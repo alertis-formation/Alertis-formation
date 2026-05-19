@@ -69,7 +69,7 @@ L'attestation est valable 4 ans et doit être renouvelée par une formation de r
 
 Le PRAP IBC (Industrie, BTP, Commerce et activités de bureau) s'adresse aux salariés des secteurs industriels, du bâtiment, du commerce et du tertiaire. Le PRAP 2S (Sanitaire et Social) concerne les professionnels exerçant auprès de personnes — EHPAD, structures handicap, aide à domicile, hôpital — et intègre la manutention de personnes à mobilité réduite.
 
-Le PRAP IBC dure 2 jours (14 heures) en initial, avec un MAC de 1 jour (7 heures) tous les 24 mois. Le PRAP 2S, plus exigeant en raison de la mobilisation de personnes, dure 4 jours (28 heures) en initial, avec un MAC de 2 jours (14 heures) tous les 24 mois. Les deux formations sont certifiantes INRS.`,
+Le PRAP IBC dure 2 jours (14 heures) en initial, avec un MAC de 1 jour (7 heures) tous les 24 mois. Le PRAP 2S, plus exigeant en raison de la mobilisation de personnes, dure 4 jours (28 heures) en initial, avec un MAC de 2 jours (14 heures) tous les 24 mois. À l'issue, chaque participant reçoit un certificat d'acteur PRAP (IBC ou 2S), valable 24 mois.`,
     links: [
       { label: "Formations Ergonomie & PRAP", href: "/formations-ergonomie" },
     ],

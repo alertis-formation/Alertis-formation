@@ -16,11 +16,22 @@ type Formation = {
 
 const featured: Formation[] = [
   {
+    slug: "/formations/formation-afgsu2",
+    title: "AFGSU niveau 2",
+    category: "AFGSU",
+    description:
+      "Formation obligatoire pour les professionnels de santé inscrits au Code de la santé publique. Prise en charge des urgences vitales en équipe, matériel d'urgence et risques NRBC-E.",
+    duration: "21 heures",
+    audience: "Professionnels de santé",
+    format: "Intra ou inter-entreprises",
+    image: "/formations/formation-afgsu2.jpg",
+  },
+  {
     slug: "/formations/formation-sst-sauveteur-secouriste-du-travail",
     title: "Sauveteur Secouriste du Travail",
     category: "Secourisme",
     description:
-      "Formation initiale de 14h pour intervenir efficacement en cas d'accident dans l'entreprise. Certification INRS reconnue, valable 24 mois.",
+      "Formation initiale pour intervenir efficacement en cas d'accident dans l'entreprise. Certificat SST INRS + carte de SST, valables 24 mois.",
     duration: "14 heures",
     audience: "Tout salarié",
     format: "Intra ou inter-entreprises",
@@ -36,18 +47,6 @@ const featured: Formation[] = [
     audience: "Personnel désigné",
     format: "Présentiel sur site",
     image: "/images/image-1.png",
-  },
-  {
-    slug: "/formations/formation-incendie",
-    title: "Manipulation d'extincteurs",
-    category: "Sécurité incendie",
-    description:
-      "Formation pratique avec feu réel ou bac à feu écologique. Vos équipes apprennent à choisir le bon extincteur et à intervenir efficacement.",
-    duration: "3 heures",
-    audience: "Tout salarié",
-    format: "Présentiel sur site",
-    image:
-      "/images/prevention-des-risques-electriques-l-importance-de-l-habilitation-professionne.png",
   },
 ];
 

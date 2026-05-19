@@ -8,7 +8,7 @@ export const metadata = {
   title:
     "Formation gestes et postures, PRAP IBC & 2S : prévention TMS en entreprise",
   description:
-    "Formation ergonomie au travail : gestes et postures, PRAP IBC (industrie, BTP, tertiaire), PRAP 2S (sanitaire et social), prévention des TMS. Certification INRS, sessions intra et inter-entreprises.",
+    "Formation ergonomie au travail : gestes et postures, PRAP IBC (industrie, BTP, tertiaire), PRAP 2S (sanitaire et social), prévention des TMS. Certificat d'acteur PRAP délivré à l'issue, sessions intra et inter-entreprises.",
   alternates: { canonical: "/formations-ergonomie" },
   openGraph: {
     title: "Formations Ergonomie — Gestes et postures, PRAP, TMS",
@@ -78,8 +78,8 @@ export default function ErgonomiePage() {
             bullets: [
               "PRAP IBC (Industrie, Bâtiment, Commerce)",
               "PRAP 2S (Sanitaire et social)",
-              "Certification INRS reconnue",
-              "Maintien et actualisation des compétences",
+              "Certificat d'acteur PRAP délivré à l'issue de l'évaluation",
+              "Maintien et actualisation des compétences (MAC PRAP)",
             ],
           },
         ]}

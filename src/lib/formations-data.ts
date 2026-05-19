@@ -98,7 +98,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-prap-2s-sanitaire-et-social",
     title: "Formation PRAP 2S sanitaire et social",
-    excerpt: "PRAP 2S (Sanitaire et Social), 28h certifiantes INRS en 2 × 2 jours non consécutifs. Pour EHPAD, hôpital, handicap, aide à domicile : manutention de personnes, prévention TMS, démarche participative.",
+    excerpt: "PRAP 2S ALM (Sanitaire et Social), 28h en 2 × 2 jours non consécutifs. Certificat d'acteur PRAP 2S ALM délivré à l'issue de l'évaluation certificative INRS (valable 24 mois). Pour EHPAD, hôpital, handicap, aide à domicile : manutention de personnes, prévention TMS, démarche participative.",
     image: "/formations/formation-prap-2s-sanitaire-et-social.jpg",
     category: "ergonomie",
     categoryLabel: "Ergonomie",
@@ -108,7 +108,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-prap-ibc",
     title: "Formation PRAP IBC",
-    excerpt: "PRAP IBC (Industrie, BTP, Commerce, Bureau), certifiante INRS. Chaque salarié devient acteur de sa prévention TMS : observation, analyse, propositions d'amélioration.",
+    excerpt: "PRAP IBC (Industrie, BTP, Commerce, Bureau). Certificat d'acteur PRAP IBC délivré à l'issue (valable 24 mois). Chaque salarié devient acteur de sa prévention TMS : observation, analyse, propositions d'amélioration.",
     image: "/formations/formation-prap-ibc.jpg",
     category: "ergonomie",
     categoryLabel: "Ergonomie",

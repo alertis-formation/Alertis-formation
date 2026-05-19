@@ -932,9 +932,9 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-gestes-et-postures-etablissements-de-soins-ehpad": {
     intro:
-      "Gestes et Postures spécifique aux établissements de soins (EHPAD, hôpitaux). {heuresLabel|14 heures} pour maîtriser les techniques de manutention de personnes (transferts, rehaussements, retournements) et préserver à la fois la santé du soignant et la dignité du résident.",
+      "Gestes et Postures spécifique aux établissements de soins (EHPAD, hôpitaux). {heuresLabel|7 heures} pour maîtriser les techniques de manutention de personnes (transferts, rehaussements, retournements) et préserver à la fois la santé du soignant et la dignité du résident.",
     description:
-      "La manutention de personnes est l'une des activités les plus à risque de TMS en milieu de soins. Mal pratiquée, elle abîme le dos du soignant et atteint la dignité du résident — parfois douloureusement. La formation aborde l'évaluation préalable de l'autonomie (méthode ALM, qui place le résident en acteur de son déplacement quand c'est possible), les techniques manuelles sécurisées (transfert lit-fauteuil, rehaussement, retournement) et surtout l'usage approprié des aides techniques : lève-personne, drap de glissement, verticalisateur. Sur {joursLabel|2 jours}, dont une grande partie en pratique dans votre service, chaque soignant intègre une approche qui préserve à la fois son corps et la qualité de la relation au résident.",
+      "La manutention de personnes est l'une des activités les plus à risque de TMS en milieu de soins. Mal pratiquée, elle abîme le dos du soignant et atteint la dignité du résident — parfois douloureusement. La formation aborde l'évaluation préalable de l'autonomie (méthode ALM, qui place le résident en acteur de son déplacement quand c'est possible), les techniques manuelles sécurisées (transfert lit-fauteuil, rehaussement, retournement) et surtout l'usage approprié des aides techniques : lève-personne, drap de glissement, verticalisateur. Sur {joursLabel|1 jour}, dont une grande partie en pratique dans votre service, chaque soignant intègre une approche qui préserve à la fois son corps et la qualité de la relation au résident.",
     objectifs: [
       "Comprendre les TMS dans les métiers du soin",
       "Maîtriser les techniques de manutention de personnes dépendantes",
@@ -957,7 +957,7 @@ export const formationsContent: Record<string, FormationContent> = {
     intro:
       "PRAP IBC (Prévention des Risques liés à l'Activité Physique — Industrie, BTP, Commerce). Formation INRS qui transforme le salarié en acteur de la prévention sur son propre poste.",
     description:
-      "Le PRAP IBC va plus loin qu'une simple formation Gestes et Postures : c'est une démarche INRS qui transforme l'opérateur en acteur de la prévention. Au-delà des gestes corrects, le salarié apprend à analyser sa propre situation de travail (postures, manutentions, organisation, environnement), à identifier les facteurs de risque, et — surtout — à proposer des pistes d'amélioration concrètes à sa hiérarchie. Cette dimension « acteur » est essentielle : c'est elle qui transforme les remontées terrain en évolutions réelles du poste, du matériel ou de l'organisation. La formation se conclut par une évaluation INRS débouchant sur un certificat valable 24 mois.",
+      "Le PRAP IBC est une démarche INRS distincte des formations Gestes et Postures : elle transforme l'opérateur en acteur de la prévention sur son propre poste de travail. Le salarié apprend à analyser sa situation de travail (postures, manutentions, organisation, environnement), à identifier les facteurs de risque et — surtout — à proposer des pistes d'amélioration concrètes à sa hiérarchie. Cette dimension « acteur » est essentielle : c'est elle qui transforme les remontées terrain en évolutions réelles du poste, du matériel ou de l'organisation. La formation se conclut par une évaluation certificative INRS débouchant sur le certificat d'acteur PRAP IBC, valable 24 mois.",
     objectifs: [
       "Identifier et signaler les situations à risque dans son activité",
       "Proposer des pistes d'amélioration de son poste",
@@ -975,33 +975,34 @@ export const formationsContent: Record<string, FormationContent> = {
       "Salariés des secteurs industrie, BTP, commerce exposés à des risques physiques — opérateurs, manutentionnaires, ouvriers, employés de commerce.",
     prerequis: "Aucun.",
     notes: [
-      "Certificat PRAP IBC INRS valable 24 mois",
+      "Certificat d'acteur PRAP IBC délivré à l'issue de l'évaluation certificative INRS, valable 24 mois",
     ],
   },
 
   "formation-prap-2s-sanitaire-et-social": {
     intro:
-      "PRAP 2S (Prévention des Risques liés à l'Activité Physique — Sanitaire et Social). Formation INRS spécifique aux métiers du soin et de l'accompagnement de personnes. Intègre la mobilisation des résidents et les approches type ALM.",
+      "PRAP 2S ALM (Prévention des Risques liés à l'Activité Physique — Sanitaire et Social, méthode Accompagnement à la Mobilité). Formation INRS spécifique aux métiers du soin et de l'accompagnement de personnes. À l'issue, le stagiaire devient acteur PRAP 2S ALM, validé par une évaluation certificative INRS.",
     description:
-      "La déclinaison sanitaire et sociale du PRAP est plus longue et plus exigeante que la version IBC, parce que le geste de soin n'est pas une manutention comme une autre : il engage la dignité, l'autonomie et le ressenti du résident. La formation reprend les principes du PRAP — devenir acteur de la prévention — et les applique à la mobilisation des personnes : évaluation de l'autonomie, méthode ALM (Accompagnement à la Mobilité), techniques manuelles sécurisées, utilisation à bon escient des aides techniques. Sur {joursLabel|4 jours} (28 heures minimum selon le référentiel INRS, déployées en 2 × 2 jours non consécutifs pour favoriser l'intersession sur le terrain), le soignant intègre une démarche durable de prévention pour lui-même et pour son équipe, conclue par une évaluation INRS débouchant sur un certificat de 24 mois.",
+      "Le PRAP 2S est une démarche INRS pour le secteur sanitaire et médico-social, parce que le geste de soin n'est pas une manutention comme une autre : il engage la dignité, l'autonomie et le ressenti du résident. La formation reprend les principes du PRAP — devenir acteur de la prévention — et les applique à la mobilisation des personnes : évaluation de l'autonomie, méthode ALM (Accompagnement à la Mobilité), techniques manuelles sécurisées, utilisation à bon escient des aides techniques. Sur {joursLabel|4 jours} (28 heures selon le référentiel INRS, déployées en 2 × 2 jours non consécutifs pour favoriser l'intersession sur le terrain), le soignant intègre une démarche durable de prévention pour lui-même et pour son équipe. La formation se conclut par une évaluation certificative INRS d'environ 40 minutes par stagiaire, donnant lieu, en cas de réussite, à la délivrance du certificat d'acteur PRAP 2S ALM valable 24 mois.",
     objectifs: [
       "Repérer les situations à risque dans son travail au contact de personnes",
-      "Maîtriser les principes de mobilisation respectant l'autonomie du résident",
+      "Maîtriser les principes de mobilisation respectant l'autonomie du résident (méthode ALM)",
       "Utiliser à bon escient les aides techniques",
       "Devenir acteur de la prévention dans son service",
+      "Obtenir le certificat d'acteur PRAP 2S ALM (évaluation certificative INRS)",
     ],
     programme: [
       "Activité physique en sanitaire/social et impact sur la santé",
       "Mobilisation des personnes : méthode ALM, déplacements, transferts",
       "Aides techniques : choix et utilisation",
       "Démarche d'amélioration continue dans le service",
-      "Évaluation INRS",
+      "Évaluation certificative INRS (~40 min/stagiaire) — délivrance du certificat d'acteur PRAP 2S ALM",
     ],
     publicConcerne:
       "Aides-soignants, AMP, AVS, ASH, infirmiers en EHPAD, MAS, FAM, hôpital, aide à domicile.",
     prerequis: "Aucun.",
     notes: [
-      "Certificat PRAP 2S INRS valable 24 mois",
+      "Certificat d'acteur PRAP 2S ALM délivré à l'issue de l'évaluation certificative INRS (~40 min/stagiaire), valable 24 mois",
     ],
   },
 
