@@ -87,7 +87,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-et-postures-etablissements-de-soins-ehpad",
-    title: "Formation gestes et postures établissements de soins EHPAD",
+    title: "Formation gestes et postures établissement de soins EHPAD",
     excerpt: "Manutention de personnes à mobilité réduite en EHPAD et établissements de soins : transferts, rehaussements, utilisation des aides techniques. Prévention TMS du personnel soignant.",
     image: "/formations/formation-gestes-et-postures-etablissements-de-soins-ehpad.png",
     category: "ergonomie",
@@ -97,7 +97,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-prap-2s-sanitaire-et-social",
-    title: "Formation PRAP 2S sanitaire et social",
+    title: "PRAP 2S ALM (Sanitaire et Sociale)",
     excerpt: "PRAP 2S ALM (Sanitaire et Social), 28h en 2 × 2 jours non consécutifs. Certificat d'acteur PRAP 2S ALM délivré à l'issue de l'évaluation certificative INRS (valable 24 mois). Pour EHPAD, hôpital, handicap, aide à domicile : manutention de personnes, prévention TMS, démarche participative.",
     image: "/formations/formation-prap-2s-sanitaire-et-social.jpg",
     category: "ergonomie",
@@ -107,7 +107,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-prap-ibc",
-    title: "Formation PRAP IBC",
+    title: "PRAP IBC (Industrie Bâtiment Commerce)",
     excerpt: "PRAP IBC (Industrie, BTP, Commerce, Bureau). Certificat d'acteur PRAP IBC délivré à l'issue (valable 24 mois). Chaque salarié devient acteur de sa prévention TMS : observation, analyse, propositions d'amélioration.",
     image: "/formations/formation-prap-ibc.jpg",
     category: "ergonomie",
@@ -117,7 +117,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-prevention-des-tms-troubles-musculosquelettiques",
-    title: "Formation TMS",
+    title: "Formation prévention des TMS",
     excerpt: "Prévention des troubles musculo-squelettiques (TMS), 1ère cause de maladie professionnelle en France. Identifier les contraintes, ajuster les postes, ancrer les bons gestes.",
     image: "/formations/formation-prevention-des-tms-troubles-musculosquelettiques.jpg",
     category: "ergonomie",
@@ -137,7 +137,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-bs-be-manoeuvre",
-    title: "Habilitation électrique BS BE manoeuvre",
+    title: "Habilitation électrique BS BE Manœuvre",
     excerpt: "Habilitation BS (interventions élémentaires hors tension : ampoule, prise, interrupteur) et BE Manœuvre (réarmement, mise en marche). Pour non-électriciens. Conforme NF C18-510.",
     image: "/formations/habilitation-electrique-bs-be-manoeuvre.jpg",
     category: "habilitation-electrique",
@@ -167,7 +167,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-br-b1-b2-bc",
-    title: "Recyclage habilitation électrique BR B1 B2 BC",
+    title: "Recyclage Habilitation électrique BR B1 B2 BC",
     excerpt: "Recyclage électricien BR / B1 / B2 / BC tous les 3 ans (recommandation NF C18-510 et INRS) : mise à jour des évolutions normatives, retour d'expérience, pratique sur platine.",
     image: "/formations/recyclage-habilitation-electrique-br-b1-b2-bc.jpg",
     category: "habilitation-electrique",
@@ -177,7 +177,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-bs-be",
-    title: "Recyclage habilitation électrique BS BE",
+    title: "Recyclage Habilitation électrique BS BE Manœuvre",
     excerpt: "Recyclage BS et BE Manœuvre tous les 3 ans : rappels sur les interventions de remplacement et raccordement hors tension, manœuvres autorisées, gestes de premier secours.",
     image: "/formations/recyclage-habilitation-electrique-bs-be.jpg",
     category: "habilitation-electrique",
@@ -187,7 +187,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-h0-b0",
-    title: "Recyclage habilitation électrique H0 B0",
+    title: "Recyclage Habilitation électrique H0 B0",
     excerpt: "Recyclage B0 / H0 / H0V pour non-électriciens, tous les 3 ans : rappel des risques électriques, distances de sécurité, conduite à tenir en cas d'accident électrique.",
     image: "/formations/recyclage-habilitation-electrique-h0-b0.jpg",
     category: "habilitation-electrique",
@@ -197,7 +197,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-cse-chsct",
-    title: "Formation CSE / CHSCT",
+    title: "Formation CSE CHSCT (-300 salariés) Comité Social Economique - Comité d’Hygiène, de Sécurité, des Conditions de Travail",
     excerpt: "Formation obligatoire des membres CSE / CSSCT (L.2315-18 du Code du travail) : santé-sécurité, analyse des risques, enquêtes accidents, droit d'alerte. 3 ou 5 jours selon effectif.",
     image: "/formations/formation-cse-chsct.png",
     category: "prevention",
@@ -207,7 +207,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestion-des-situations-durgence-en-creche",
-    title: "Formation gestion des situations d’urgence en crèche",
+    title: "Formation Gestes d'Urgence Petite Enfance",
     excerpt: "Réagir face aux urgences en crèche : convulsions, étouffement, traumatismes, fièvre. Protocole d'alerte, communication avec les parents, coordination avec les secours.",
     image: "/formations/formation-gestion-des-situations-durgence-en-creche.jpg",
     category: "prevention",
@@ -217,7 +217,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-hygiene-alimentaire-haccp",
-    title: "Formation hygiène alimentaire HACCP",
+    title: "Formation HACCP — Hygiène alimentaire",
     excerpt: "Méthode HACCP obligatoire en restauration commerciale et collective (arrêté du 5 octobre 2011) : 7 principes, plan de maîtrise sanitaire, traçabilité, chaîne du froid.",
     image: "/formations/formation-hygiene-alimentaire-haccp.png",
     category: "prevention",
@@ -237,7 +237,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-ppms-plan-particulier-mise-en-surete",
-    title: "Formation PPMS",
+    title: "Formation PPMS — Gestion des situations d'urgence",
     excerpt: "PPMS — Plan Particulier de Mise en Sûreté pour établissements scolaires et crèches : risques majeurs, intrusion, confinement, évacuation, exercice annuel obligatoire.",
     image: "/formations/formation-ppms-plan-particulier-mise-en-surete.jpg",
     category: "prevention",
@@ -247,7 +247,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-travaux-en-hauteur",
-    title: "Formation travaux en hauteur",
+    title: "Formation travail en hauteur — utilisation des EPI",
     excerpt: "Prévention des chutes de hauteur, 2ème cause d'accidents mortels au travail : EPI antichute (harnais, longes), points d'ancrage, échafaudages, PEMP. Conforme R4323-58.",
     image: "/formations/formation-travaux-en-hauteur.png",
     category: "prevention",
@@ -267,7 +267,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "safety-day-incendie",
-    title: "Safety Day – Journée sécurité atelier incendie",
+    title: "Safety day Incendie",
     excerpt: "Atelier incendie en Safety Day avec bac à flammes écologique ou extincteur laser : manipulation d'extincteurs, classes de feu, départ de feu, évacuation en équipe.",
     image: "/formations/safety-day-incendie.jpg",
     category: "safety-day",
@@ -297,7 +297,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-defibrillateur",
-    title: "Formation défibrillateur (DSA / DAE)",
+    title: "Formation défibrillateur (DAE)",
     excerpt: "Maîtriser le défibrillateur automatisé externe (DAE / DSA) en milieu professionnel : reconnaître l'arrêt cardiaque, alerter, RCP, mise en œuvre du DAE en moins de 3 minutes.",
     image: "/formations/formation-defibrillateur.jpg",
     category: "secourisme",
@@ -307,7 +307,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-formateur-sst",
-    title: "Formation formateur SST",
+    title: "Formation de formateur SST",
     excerpt: "Devenez formateur SST certifié INRS : pédagogie active, animation de groupe, maîtrise du référentiel V8. MAC tous les 36 mois pour conserver la certification.",
     image: "/formations/formation-formateur-sst.jpg",
     category: "secourisme",
@@ -317,7 +317,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gqs-gestes-qui-sauvent",
-    title: "Formation GQS Gestes Qui Sauvent",
+    title: "Atelier GQS — Gestes Qui Sauvent",
     excerpt: "Formation Gestes Qui Sauvent (GQS) — 2h homologuée Ministère de l'Intérieur : alerter, masser, défibriller. Sensibilisation grand public et tous publics en entreprise.",
     image: "/formations/formation-gqs-gestes-qui-sauvent.jpg",
     category: "secourisme",
@@ -327,7 +327,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-mac-formateur-sst",
-    title: "Formation MAC formateur SST",
+    title: "Recyclage formateur SST (MAC FO SST)",
     excerpt: "MAC formateur SST — tous les 36 mois pour maintenir le certificat de formateur INRS : actualisation du référentiel V8, retours d'expérience, évaluation.",
     image: "/formations/formation-mac-formateur-sst.jpg",
     category: "secourisme",
@@ -337,7 +337,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-oxygenotherapie",
-    title: "Formation oxygénothérapie",
+    title: "Formation SST oxygénothérapie",
     excerpt: "Mise en œuvre de l'oxygénothérapie d'urgence en milieu professionnel : reconnaître une détresse respiratoire, choisir le bon masque, régler le débit, surveiller le patient.",
     image: "/formations/formation-oxygenotherapie.jpg",
     category: "secourisme",
@@ -347,7 +347,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-psc-premiers-secours-citoyen",
-    title: "Formation PSC Premiers Secours Citoyen",
+    title: "Formation PSC — Premier Secours Citoyen",
     excerpt: "PSC — Premier Secours Citoyen pour tous : alerte, hémorragies, étouffement, PLS, RCP, défibrillateur. Attestation de participation Alertis (le diplôme d'État PSC est réservé aux associations agréées).",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
@@ -357,7 +357,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-recyclage-psc",
-    title: "Formation recyclage PSC",
+    title: "Recyclage PSC — Premier Secours Citoyen",
     excerpt: "Recyclage PSC pour maintenir vos compétences de Premier Secours Citoyen : mise à jour des techniques et gestes selon les dernières recommandations.",
     image: "/formations/formation-recyclage-psc.jpg",
     category: "secourisme",
@@ -367,7 +367,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-recyclage-sst-mac-sst",
-    title: "Formation recyclage SST (MAC SST)",
+    title: "Recyclage SST — MAC SST",
     excerpt: "MAC SST — tous les 24 mois pour conserver la certification de Sauveteur Secouriste du Travail. Mise à jour des gestes et nouveau référentiel INRS V8.",
     image: "/formations/formation-recyclage-sst-mac-sst.jpg",
     category: "secourisme",
@@ -377,7 +377,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-sst-sauveteur-secouriste-du-travail",
-    title: "Formation SST Sauveteur Secouriste du Travail",
+    title: "Formation SST — Sauveteur Secouriste du Travail",
     excerpt: "SST — Sauveteur Secouriste du Travail, formation INRS obligatoire (R4224-15) dans les ateliers à risques et chantiers > 20 personnes. Certificat valable 24 mois.",
     image: "/formations/formation-sst-sauveteur-secouriste-du-travail.jpg",
     category: "secourisme",
@@ -387,7 +387,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-appareil-respiratoire-isolant",
-    title: "Formation à l’appareil respiratoire isolant",
+    title: "Formation ARI — Appareil Respiratoire Isolant",
     excerpt: "Port et utilisation de l'Appareil Respiratoire Isolant (ARI) : équipement, contrôle, intervention en atmosphère toxique ou sous-oxygénée. Pour équipiers de seconde intervention.",
     image: "/formations/formation-appareil-respiratoire-isolant.jpg",
     category: "securite-incendie",
@@ -407,7 +407,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-equipier-de-premiere-intervention",
-    title: "Formation équipier de première intervention (EPI)",
+    title: "Formation EPI — Équipier de Première Intervention",
     excerpt: "Formation EPI obligatoire (R4227-39) : intervenir sur un départ de feu avec un extincteur, donner l'alerte, encadrer l'évacuation. Théorie + feu réel ou réalité virtuelle.",
     image: "/formations/formation-equipier-de-premiere-intervention.jpg",
     category: "securite-incendie",
@@ -417,7 +417,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-equipier-de-seconde-intervention",
-    title: "Formation équipier de seconde intervention (ESI)",
+    title: "Formation ESI — Équipier de Seconde Intervention",
     excerpt: "Formation ESI pour sites industriels et ICPE : intervention en équipe sur sinistre déclaré, port de l'ARI, utilisation des RIA, attaque coordonnée du feu en attendant les secours.",
     image: "/formations/formation-equipier-de-seconde-intervention.jpg",
     category: "securite-incendie",
@@ -447,7 +447,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-incendie-en-etablissement-recevant-du-public",
-    title: "Formation incendie en ERP",
+    title: "Formation incendie ERP O & R (internat/hôtel)",
     excerpt: "Formation incendie pour ERP (Établissement Recevant du Public) : obligations du Règlement de Sécurité, guide-file, serre-file, accueil des secours, registre de sécurité.",
     image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
     category: "securite-incendie",
@@ -457,7 +457,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-incendie-en-immeuble-de-grande-hauteur",
-    title: "Formation incendie en IGH",
+    title: "Formation incendie IGH",
     excerpt: "Formation incendie spécifique aux Immeubles de Grande Hauteur (IGH) : compartimentage, désenfumage, ascenseurs prioritaires, intervention du PC sécurité, évacuation par niveaux.",
     image: "/formations/formation-incendie-en-immeuble-de-grande-hauteur.jpg",
     category: "securite-incendie",
@@ -467,7 +467,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-incendie-en-realite-virtuelle",
-    title: "Formation incendie en réalité virtuelle (VR)",
+    title: "Formation incendie en réalité virtuelle",
     excerpt: "Formation incendie immersive en VR : départ de feu simulé en 360°, choix de l'extincteur adapté, conduite à tenir. Aucune fumée, sans risque, idéal en intérieur.",
     image: "/formations/formation-incendie-en-realite-virtuelle.jpg",
     category: "securite-incendie",
@@ -487,7 +487,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-incendie-etablissements-de-soins-type-j-u",
-    title: "Formation incendie établissements de soins type J/U",
+    title: "Formation incendie ERP J/U (EHPAD/Hôpital)",
     excerpt: "Formation incendie pour EHPAD et établissements de soins (ERP type J et U) : transferts horizontaux, mise en sûreté des résidents non valides, arrêté du 25 juin 1980.",
     image: "/formations/formation-incendie-etablissements-de-soins-type-j-u.jpg",
     category: "securite-incendie",
@@ -497,7 +497,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-incendie-evacuation-guide-serre-file",
-    title: "Formation incendie évacuation guide serre-file",
+    title: "Formation évacuation — guide-file et serre-file",
     excerpt: "Formation guide-file et serre-file : organiser et sécuriser l'évacuation des locaux, gérer les points de rassemblement, vérifier que personne ne reste à l'intérieur.",
     image: "/formations/formation-incendie-evacuation-guide-serre-file.jpg",
     category: "securite-incendie",
@@ -507,7 +507,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-manipulation-extincteur",
-    title: "Formation manipulation extincteur",
+    title: "Formation manipulation extincteurs (MEX)",
     excerpt: "Apprendre à manipuler un extincteur eau, CO₂ ou poudre face à un feu réel maîtrisé (bac à flammes écologique) : choisir le bon agent, attaquer le feu, sécuriser la zone.",
     image: "/formations/formation-manipulation-extincteur.jpg",
     category: "securite-incendie",
@@ -517,7 +517,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-premier-temoin-incendie",
-    title: "Formation premier témoin incendie",
+    title: "Formation PTI — Premier Témoin Incendie",
     excerpt: "Premier témoin face à un départ de feu : reconnaître les signaux d'alerte, donner l'alerte interne et externe, sécuriser la zone et déclencher la procédure d'évacuation.",
     image: "/formations/formation-premier-temoin-incendie.jpg",
     category: "securite-incendie",
@@ -527,7 +527,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-ssi-systeme-de-securite-incendie",
-    title: "Formation SSI Système de Sécurité Incendie",
+    title: "Formation SSI — Système de Sécurité Incendie",
     excerpt: "Comprendre et exploiter un Système de Sécurité Incendie (SSI) : détection automatique, mise en sécurité, désenfumage, asservissements, lecture du tableau de signalisation.",
     image: "/formations/formation-ssi-systeme-de-securite-incendie.jpg",
     category: "securite-incendie",
@@ -557,7 +557,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-cse-chsct-plus-300",
-    title: "Formation CSE CHSCT (+300 salariés)",
+    title: "Formation CSE CHSCT (+300 salariés) Comité Social Economique - Comité d’Hygiène, de Sécurité, des Conditions de Travail",
     excerpt: "Formation Santé Sécurité Conditions de Travail (SSCT) des membres du CSE pour les entreprises de plus de 300 salariés. Pour maîtriser la mission SSCT héritée de l'ancien CHSCT.",
     image: "/formations/formation-cse-chsct.png",
     category: "prevention",
@@ -567,7 +567,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-centre-commercial-3h",
-    title: "Formation gestes et postures centre commercial",
+    title: "Formation gestes et postures centre commercial (3h)",
     excerpt: "Gestes et Postures spécifique centre commercial et grande distribution — format court. Mise en rayon, station debout et manutention en magasin.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -577,7 +577,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-centre-commercial-7h",
-    title: "Formation gestes et postures centre commercial",
+    title: "Formation gestes et postures centre commercial (7h)",
     excerpt: "Gestes et Postures spécifique centre commercial et grande distribution — format journée. Analyse de poste, mise en rayon, manutention et prévention TMS.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -597,7 +597,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-hotellerie-3h",
-    title: "Formation gestes et postures hôtellerie",
+    title: "Formation gestes et postures hôtellerie (3h)",
     excerpt: "Gestes et Postures spécifique hôtellerie — format court. Réfection des lits, manutention bagages et postures en chambre.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -607,7 +607,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-hotellerie-7h",
-    title: "Formation gestes et postures hôtellerie",
+    title: "Formation gestes et postures hôtellerie (7h)",
     excerpt: "Gestes et Postures spécifique hôtellerie — format journée. Analyse de poste, manutention, réfection des lits et plan de prévention.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -617,7 +617,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-nettoyage-3h",
-    title: "Formation gestes et postures personnel de nettoyage",
+    title: "Formation gestes et postures personnel de nettoyage (3h)",
     excerpt: "Gestes et Postures spécifique au personnel de nettoyage — format court. Manutention matériel, postures basses et gestes répétitifs.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -627,7 +627,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-nettoyage-7h",
-    title: "Formation gestes et postures personnel de nettoyage",
+    title: "Formation gestes et postures personnel de nettoyage (7h)",
     excerpt: "Gestes et Postures spécifique au personnel de nettoyage — format journée. Analyse de poste, manutention, postures et plan de prévention.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -647,7 +647,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-restauration-cuisine-3h",
-    title: "Formation gestes et postures restauration et cuisine",
+    title: "Formation gestes et postures restauration et cuisine (3h)",
     excerpt: "Gestes et Postures spécifique restauration et cuisine — format court. Postures de travail, manutention et prévention TMS adaptées au métier.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -657,7 +657,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-restauration-cuisine-7h",
-    title: "Formation gestes et postures restauration et cuisine",
+    title: "Formation gestes et postures restauration et cuisine (7h)",
     excerpt: "Gestes et Postures spécifique restauration et cuisine — format journée. Analyse des postes, manutention, postures et prévention TMS.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -667,7 +667,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-travail-ecran-3h",
-    title: "Formation gestes et postures travail sur écran",
+    title: "Formation gestes et postures travail sur écran (3h)",
     excerpt: "Formation Gestes et Postures travail sur écran — format court de. Réglages du poste, étirements et prévention de la sédentarité.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -677,7 +677,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gestes-postures-travail-ecran-7h",
-    title: "Formation gestes et postures travail sur écran",
+    title: "Formation gestes et postures travail sur écran (7h)",
     excerpt: "Formation Gestes et Postures travail sur écran — format journée complète. Analyse de poste, ergonomie, étirements, prévention TMS et fatigue visuelle.",
     image: "/formations/formation-gestes-et-postures.jpg",
     category: "ergonomie",
@@ -687,7 +687,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gqs-initiation-3h",
-    title: "Initiation secourisme gestes qui sauvent GQS",
+    title: "Initiation GQS (3h) — Gestes Qui Sauvent",
     excerpt: "Initiation Gestes Qui Sauvent. Pour ancrer les bons réflexes face aux urgences vitales — étouffement, hémorragie, arrêt cardiaque.",
     image: "/formations/formation-gqs-gestes-qui-sauvent.jpg",
     category: "secourisme",
@@ -727,7 +727,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-psc-creche-petite-enfance",
-    title: "Formation secourisme PSC crèche petite enfance",
+    title: "Formation PSC crèche petite enfance",
     excerpt: "Formation PSC adaptée petite enfance. Pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
@@ -737,7 +737,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-psc-milieu-professionnel",
-    title: "Formation secourisme PSC milieu professionnel",
+    title: "Formation PSC milieu professionnel",
     excerpt: "Formation PSC adaptée milieu professionnel. Pour maîtriser les gestes de premiers secours dans le contexte du lieu de travail.",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
@@ -747,7 +747,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-recyclage-psc-creche-petite-enfance",
-    title: "Recyclage secourisme PSC crèche petite enfance",
+    title: "Recyclage PSC crèche petite enfance",
     excerpt: "Recyclage du PSC petite enfance. 3h30 pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
     image: "/formations/formation-recyclage-psc.jpg",
     category: "secourisme",
@@ -757,7 +757,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-recyclage-psc-milieu-professionnel",
-    title: "Formation secourisme PSC milieu professionnel",
+    title: "Formation PSC milieu professionnel",
     excerpt: "Recyclage du PSC milieu professionnel. 3h30 pour réactualiser les gestes acquis et intégrer les évolutions des recommandations.",
     image: "/formations/formation-recyclage-psc.jpg",
     category: "secourisme",
@@ -797,7 +797,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-vehicule-electrique",
-    title: "Habilitation électrique VE véhicule électrique",
+    title: "Habilitation électrique véhicule électrique (VE)",
     excerpt: "Habilitation électrique Véhicule Électrique (VE). Pour intervenir en sécurité sur les véhicules électriques et hybrides — automobile, utilitaires, deux-roues.",
     image: "/formations/habilitation-electrique-h0-b0.jpg",
     category: "habilitation-electrique",
@@ -807,7 +807,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-haute-tension",
-    title: "Recyclage Habilitation électrique basse et haute tension B1v B2v BR BC BE / H1v H2v HC",
+    title: "Recyclage Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC)",
     excerpt: "Recyclage de l'habilitation électrique haute tension. Pour conserver les titres B1v/B2v/BR/BC/BE et H1v/H2v/HC.",
     image: "/formations/recyclage-habilitation-electrique-br-b1-b2-bc.jpg",
     category: "habilitation-electrique",
@@ -817,7 +817,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-vehicule-electrique",
-    title: "Recyclage Habilitation électrique VE véhicule électrique",
+    title: "Recyclage Habilitation électrique véhicule électrique (VE)",
     excerpt: "Recyclage de l'habilitation électrique VE, tous les 3 ans pour conserver son titre d'habilitation et intégrer les évolutions normatives.",
     image: "/formations/recyclage-habilitation-electrique-h0-b0.jpg",
     category: "habilitation-electrique",
