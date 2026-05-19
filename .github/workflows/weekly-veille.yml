@@ -1,9 +1,9 @@
-name: Article quotidien
+name: Veille réglementaire hebdomadaire
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 8h Paris (hiver) / 9h Paris (été) — GitHub Actions ne gère pas les TZ
-  workflow_dispatch:      # Bouton "Run workflow" manuel dans l'onglet Actions
+    - cron: '0 6 * * 1'  # Lundi 6h UTC → 7h Paris (hiver) / 8h Paris (été). GH Actions ajoute typiquement 1-3h de délai.
+  workflow_dispatch:      # Bouton "Run workflow" manuel
 
 permissions:
   contents: write
@@ -11,13 +11,13 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: daily-article
+  group: weekly-veille
   cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
 
     steps:
       - name: Checkout
@@ -46,7 +46,8 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: '--dangerously-skip-permissions --max-turns 60'
+          claude_args: '--dangerously-skip-permissions --max-turns 90'
           prompt: |
-            Lis le fichier `.github/prompts/daily-article.md` et exécute toutes
-            les étapes qui y sont décrites. C'est ta seule consigne. Va.
+            Lis le fichier `.github/prompts/weekly-veille.md` et exécute
+            toutes les étapes qui y sont décrites. C'est ta seule
+            consigne. Va.

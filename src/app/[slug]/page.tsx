@@ -7,6 +7,7 @@ import { PageShell } from "@/components/site/page-shell";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
 import { articles, articleSlugs } from "@/lib/articles";
+import { linkifyLegalRefs } from "@/lib/legal-refs";
 
 export const dynamicParams = false;
 
@@ -133,7 +134,7 @@ export default async function ArticlePage({
                 if (block.type === "p") {
                   return (
                     <p key={i} className="text-[color:var(--brand-gray-medium)]">
-                      {block.text}
+                      {linkifyLegalRefs(block.text)}
                     </p>
                   );
                 }
@@ -144,7 +145,7 @@ export default async function ArticlePage({
                       className="list-disc pl-6 space-y-2 text-[color:var(--brand-gray-medium)] marker:text-[color:var(--brand-red)]"
                     >
                       {block.items.map((item, j) => (
-                        <li key={j}>{item}</li>
+                        <li key={j}>{linkifyLegalRefs(item)}</li>
                       ))}
                     </ul>
                   );
@@ -155,14 +156,14 @@ export default async function ArticlePage({
                       key={i}
                       className="border-l-4 border-[color:var(--brand-red)] pl-5 py-1 italic text-[color:var(--brand-gray)] text-lg my-8"
                     >
-                      {block.text}
+                      {linkifyLegalRefs(block.text)}
                     </blockquote>
                   );
                 }
                 if (block.type === "cta") {
                   return (
                     <p key={i} className="text-[color:var(--brand-gray-medium)]">
-                      {block.text}{" "}
+                      {linkifyLegalRefs(block.text)}{" "}
                       <Link
                         href={block.href}
                         className="font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"

@@ -45,6 +45,19 @@ Le sujet doit :
    grandes lignes, etc.). Si tu n'es pas certain d'un numéro de décret,
    d'une date ou d'un chiffre, **ne le cite pas**.
 
+**Obligation de sourcer** :
+
+- Si tu cites une référence légale (article du Code du travail, arrêté,
+  décret, norme NF C18-510, recommandation APSAD, brochure INRS ED…),
+  **mentionne-la in extenso dans le texte sous sa forme officielle**
+  (ex. *"L.4121-1"*, *"arrêté du 23 février 2025"*, *"décret 2025-355"*,
+  *"NF C18-510"*, *"ED 6403"*). Le composant `linkifyLegalRefs` du site
+  transforme automatiquement ces patterns en liens vers Légifrance/INRS.
+- En fin d'article, ajoute systématiquement un bloc `p` final
+  *"Référence officielle : …"* citant les sources utilisées.
+- Si tu cites une statistique ou une étude, donne sa source précise
+  dans le texte (ex. *"selon la brochure INRS ED 6127"*).
+
 🚫 **Interdits stricts** :
 
 - Inventer une référence légale (numéro de décret, article, arrêté, date

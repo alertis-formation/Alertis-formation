@@ -7,9 +7,7 @@ export function CookiePreferencesLink({
 }: {
   className?: string;
 }) {
-  const { reopen, consent } = useCookieConsent();
-
-  if (!consent.maps) return null;
+  const { reopen } = useCookieConsent();
 
   return (
     <>
