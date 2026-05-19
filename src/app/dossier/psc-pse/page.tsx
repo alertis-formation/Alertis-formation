@@ -5,7 +5,6 @@ import {
   BookOpen,
   Award,
   Users,
-  ShieldPlus,
   ArrowLeft,
   Mail,
   ArrowRight,
@@ -18,31 +17,20 @@ import {
 } from "@/components/site/document-list";
 
 export const metadata = {
-  title: "Ressources PSC, PSE1 & PSE2 — Premier Secours Citoyen et secours en équipe",
+  title: "Ressources PSC — Premier Secours Citoyen",
   description:
-    "Référentiels 2024 des formations PSC (Premier Secours Citoyen de niveau 1) et PSE1/PSE2 (Premiers Secours en Équipe). Recommandations nationales et supports de formation.",
+    "Référentiel national 2024 du PSC (Premier Secours Citoyen). Recommandations et supports de formation citoyens aux gestes qui sauvent.",
   alternates: { canonical: "/dossier/psc-pse" },
 };
 
-const psc1: DocumentItem[] = [
+const psc: DocumentItem[] = [
   {
     icon: BookOpen,
     title: "Référentiel PSC 2024",
     description:
-      "Recommandations et référentiel national 2024 du PSC (Premier Secours Citoyen de niveau 1). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
+      "Recommandations et référentiel national 2024 du PSC (Premier Secours Citoyen). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
     href: "/docs/referentiel-psc1-2024.pdf",
     fileSize: "1.6 Mo",
-  },
-];
-
-const pse: DocumentItem[] = [
-  {
-    icon: ShieldPlus,
-    title: "Référentiel PSE1 & PSE2 2024",
-    description:
-      "Recommandations et guide de référence 2024 pour les Premiers Secours en Équipe de niveau 1 et de niveau 2. Procédures et techniques pour les acteurs des secours organisés et des associations agréées de sécurité civile.",
-    href: "/docs/referentiel-pse-2024.pdf",
-    fileSize: "5.8 Mo",
   },
 ];
 
@@ -55,17 +43,10 @@ const supportsFormateur: DocumentItem[] = [
     restricted: true,
   },
   {
-    icon: Award,
-    title: "Grilles d'évaluation PSE1 & PSE2",
-    description:
-      "Grilles d'évaluation continue et de validation finale des formations PSE1 et PSE2. Critères d'évaluation par compétence.",
-    restricted: true,
-  },
-  {
     icon: Users,
     title: "Scénarios de mise en situation",
     description:
-      "Bibliothèque de scénarios pédagogiques (cas concrets, simulations) pour les formations PSC, PSE1 et PSE2.",
+      "Bibliothèque de scénarios pédagogiques (cas concrets, simulations) pour les formations PSC.",
     restricted: true,
   },
   {
@@ -80,11 +61,11 @@ const supportsFormateur: DocumentItem[] = [
 export default function DossierPscPsePage() {
   return (
     <PageShell
-      title="Ressources PSC, PSE1 & PSE2"
-      subtitle="Référentiels 2024 des formations citoyennes et en équipe : PSC pour le grand public, PSE1 et PSE2 pour les secouristes des associations agréées de sécurité civile et des services de secours."
+      title="Ressources PSC"
+      subtitle="Référentiel 2024 de la formation Premier Secours Citoyen — la formation grand public aux gestes qui sauvent."
       breadcrumbs={[
         { label: "Espace formateur", href: "/dossier" },
-        { label: "PSC & PSE" },
+        { label: "PSC" },
       ]}
     >
       {/* Intro */}
@@ -93,36 +74,33 @@ export default function DossierPscPsePage() {
           <div className="lg:col-span-7 space-y-5 text-[color:var(--brand-gray-medium)] leading-relaxed">
             <span className="eyebrow">
               <Stethoscope className="size-3.5" />
-              PSC · PSE1 · PSE2 · Référentiels 2024
+              PSC · Référentiel 2024
             </span>
             <h2 className="text-[color:var(--brand-charcoal)]">
-              Premier Secours Citoyen{" "}
-              <span className="text-[color:var(--brand-red)]">et secours en équipe</span>.
+              Premier Secours{" "}
+              <span className="text-[color:var(--brand-red)]">Citoyen</span>.
             </h2>
             <p className="text-lg">
               Le{" "}
               <strong className="text-[color:var(--brand-charcoal)]">PSC</strong>{" "}
-              équipe le citoyen pour intervenir en attendant les secours.
-              Le{" "}
-              <strong className="text-[color:var(--brand-charcoal)]">PSE1</strong>{" "}
-              et le{" "}
-              <strong className="text-[color:var(--brand-charcoal)]">PSE2</strong>{" "}
-              forment les secouristes membres des associations agréées de
-              sécurité civile et des services de secours, à travailler en
-              équipe et avec du matériel spécifique.
+              équipe le citoyen pour intervenir en attendant les secours. Le
+              diplôme d&apos;État PSC relève du ministère de l&apos;Intérieur
+              et n&apos;est délivré que par les associations agréées de
+              sécurité civile : Alertis dispense le contenu pédagogique de
+              référence et remet une attestation de participation.
             </p>
             <p>
-              Les référentiels nationaux 2024 ci-dessous font foi. Ils sont
-              élaborés par les commissions d'experts à partir des sociétés
-              savantes et adaptés au contexte d'intervention des
-              secouristes français.
+              Le référentiel national 2024 ci-dessous fait foi. Il est élaboré
+              par les commissions d&apos;experts à partir des sociétés savantes
+              et adapté au contexte d&apos;intervention des secouristes
+              français.
             </p>
           </div>
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/5] rounded-sm overflow-hidden ring-1 ring-[color:var(--brand-gray-medium)]/10 shadow-md">
               <Image
                 src="/formations/formation-psc-premiers-secours-citoyen.jpg"
-                alt="Formation PSC — Premiers Secours Citoyens"
+                alt="Formation PSC — Premier Secours Citoyen"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
@@ -139,36 +117,25 @@ export default function DossierPscPsePage() {
         </div>
       </section>
 
-      {/* Référentiels publics */}
+      {/* Référentiel public */}
       <section className="py-16 lg:py-20 bg-[color:var(--brand-cream)]">
         <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <DocumentList
             eyebrow="Référentiel PSC · Téléchargement libre"
-            title="Premier Secours Citoyen de niveau 1"
+            title="Premier Secours Citoyen"
             description="Le référentiel PSC 2024, document national de référence pour la formation citoyenne aux premiers secours."
-            items={psc1}
-          />
-        </div>
-      </section>
-
-      <section className="py-16 lg:py-20 bg-white">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10">
-          <DocumentList
-            eyebrow="Référentiel PSE · Téléchargement libre"
-            title="Premiers Secours en Équipe niveaux 1 & 2"
-            description="Recommandations 2024 pour les acteurs des secours organisés : utilisation de matériel, prise en charge à deux ou plus, coordination avec les services de secours."
-            items={pse}
+            items={psc}
           />
         </div>
       </section>
 
       {/* Supports formateur */}
-      <section className="py-16 lg:py-20 bg-[color:var(--brand-cream)]">
+      <section className="py-16 lg:py-20 bg-white">
         <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <DocumentList
             eyebrow="Supports formateur · Accès Alertis"
             title="Grilles, scénarios et livrets participants"
-            description="Supports pédagogiques internes pour conduire et évaluer les formations PSC, PSE1 et PSE2. Réservés aux formateurs missionnés Alertis."
+            description="Supports pédagogiques internes pour conduire et évaluer les formations PSC. Réservés aux formateurs missionnés Alertis."
             items={supportsFormateur}
           />
         </div>
@@ -181,11 +148,11 @@ export default function DossierPscPsePage() {
             <Mail className="size-7" />
           </div>
           <h2 className="text-white mb-4">
-            Organiser une formation PSC, PSE1 ou PSE2&nbsp;?
+            Organiser une formation PSC&nbsp;?
           </h2>
           <p className="text-white/70 leading-relaxed mb-8">
-            Nous formons les citoyens et secouristes sur tout le territoire
-            français — en intra-entreprise, association ou sur notre centre.
+            Nous formons les citoyens sur tout le territoire français — en
+            intra-entreprise ou sur notre centre.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Button

@@ -44,8 +44,8 @@ export function FormationsGridSection() {
           </p>
         </div>
 
-        {/* Six standard categories in a clean 3-col grid */}
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Six standard categories in a clean 3-col grid (2-col on mobile) */}
+        <div className="grid gap-3 sm:gap-5 grid-cols-2 lg:grid-cols-3">
           {formationCategories.map((cat) => {
             const category = slugToCategory[cat.href];
             const count = category
@@ -57,7 +57,7 @@ export function FormationsGridSection() {
               <Link
                 key={cat.href}
                 href={cat.href}
-                className="group relative block aspect-[4/5] overflow-hidden rounded-sm bg-[color:var(--brand-slate)]"
+                className="group relative block aspect-[3/4] sm:aspect-[4/5] overflow-hidden rounded-sm bg-[color:var(--brand-slate)]"
               >
                 {heroImage && (
                   <Image
@@ -74,29 +74,29 @@ export function FormationsGridSection() {
                   className="absolute inset-0 bg-gradient-to-t from-[color:var(--brand-charcoal)]/95 via-[color:var(--brand-charcoal)]/40 to-transparent"
                 />
 
-                <div className="absolute inset-x-0 bottom-0 p-6 lg:p-7">
-                  <div className="flex items-baseline gap-2.5 mb-4">
-                    <span className="font-mono text-4xl md:text-5xl font-bold leading-none text-white tabular-nums drop-shadow-sm">
+                <div className="absolute inset-x-0 bottom-0 p-3 sm:p-6 lg:p-7">
+                  <div className="flex items-baseline gap-1.5 sm:gap-2.5 mb-2 sm:mb-4">
+                    <span className="font-mono text-2xl sm:text-4xl md:text-5xl font-bold leading-none text-white tabular-nums drop-shadow-sm">
                       {String(count).padStart(2, "0")}
                     </span>
-                    <span className="text-xs md:text-sm font-bold uppercase tracking-[0.18em] text-white drop-shadow-sm">
+                    <span className="text-[10px] sm:text-xs md:text-sm font-bold uppercase tracking-[0.15em] sm:tracking-[0.18em] text-white drop-shadow-sm">
                       formation{count > 1 ? "s" : ""}
                     </span>
                   </div>
 
-                  <div className="h-0.5 w-10 bg-[color:var(--brand-red)] mb-4" />
+                  <div className="h-0.5 w-8 sm:w-10 bg-[color:var(--brand-red)] mb-2 sm:mb-4" />
 
-                  <h3 className="text-white text-2xl md:text-[1.65rem] leading-[1.05] mb-3 max-w-[14ch]">
+                  <h3 className="text-white text-base sm:text-2xl md:text-[1.65rem] leading-[1.05] mb-2 sm:mb-3 max-w-[14ch]">
                     {cat.label}
                   </h3>
                   {cat.description && (
-                    <p className="text-sm text-white/75 leading-snug mb-5 max-w-[32ch] line-clamp-2">
+                    <p className="hidden sm:block text-sm text-white/75 leading-snug mb-5 max-w-[32ch] line-clamp-2">
                       {cat.description}
                     </p>
                   )}
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-white group-hover:gap-3 transition-all">
+                  <span className="inline-flex items-center gap-1 sm:gap-1.5 text-xs sm:text-sm font-semibold text-white group-hover:gap-3 transition-all">
                     Découvrir
-                    <ArrowUpRight className="size-4 text-[color:var(--brand-red)]" />
+                    <ArrowUpRight className="size-3 sm:size-4 text-[color:var(--brand-red)]" />
                   </span>
                 </div>
               </Link>

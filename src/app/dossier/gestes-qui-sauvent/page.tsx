@@ -102,7 +102,7 @@ export default function DossierGqsPage() {
               Le contenu pédagogique est aligné sur les recommandations PSC
               (alerter, secourir face à une hémorragie, perte de connaissance,
               arrêt cardiaque) — il constitue la passerelle naturelle vers
-              les formations PSC, SST, PSE1 et PSE2.
+              les formations PSC et SST.
             </p>
           </div>
           <div className="lg:col-span-5">

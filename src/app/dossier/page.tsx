@@ -29,7 +29,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata = {
   title: "Espace formateur — Ressources pédagogiques santé & sécurité au travail",
   description:
-    "L'espace formateur Alertis : ressources pédagogiques officielles (SST, incendie, gestes qui sauvent, PSC/PSE, PRAP), supports de formation, vidéos et accès dédié à nos formateurs missionnés.",
+    "L'espace formateur Alertis : ressources pédagogiques officielles (SST, incendie, gestes qui sauvent, PSC, PRAP), supports de formation, vidéos et accès dédié à nos formateurs missionnés.",
   alternates: { canonical: "/dossier" },
 };
 
@@ -80,14 +80,14 @@ const resources: Resource[] = [
   },
   {
     icon: Stethoscope,
-    title: "PSC, PSE1 & PSE2",
-    shortLabel: "PSC / PSE",
+    title: "PSC — Premier Secours Citoyen",
+    shortLabel: "PSC",
     description:
-      "Référentiels 2024 des formations citoyennes (PSC) et en équipe (PSE1, PSE2). Recommandations nationales, grilles d'évaluation et scénarios de mise en situation.",
+      "Référentiel 2024 de la formation citoyenne aux premiers secours (PSC). Recommandations nationales, grilles d'évaluation et scénarios de mise en situation.",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     href: "/dossier/psc-pse",
-    cta: "Consulter les ressources PSC / PSE",
-    stats: { publics: 2, surDemande: 4 },
+    cta: "Consulter les ressources PSC",
+    stats: { publics: 1, surDemande: 3 },
   },
   {
     icon: Accessibility,
