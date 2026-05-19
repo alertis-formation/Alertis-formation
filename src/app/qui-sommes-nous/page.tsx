@@ -80,9 +80,9 @@ const direction = [
 const qualificationStandards = [
   {
     icon: HeartPulse,
-    domain: "Secourisme (SST, MAC SST)",
+    domain: "Secourisme (SST, MAC SST, PSC, GQS, défibrillateur…)",
     standard:
-      "Certificat de formateur SST délivré par l'INRS, MAC formateur à jour, expérience opérationnelle des gestes d'urgence.",
+      "Formateurs habilités, titulaires du certificat de formateur SST délivré par l'INRS, MAC formateur à jour, expérience opérationnelle des gestes d'urgence. PSC et GQS dispensés selon le contenu officiel du ministère de l'Intérieur (attestation de participation Alertis, le diplôme d'État restant réservé aux associations agréées).",
   },
   {
     icon: Stethoscope,
@@ -100,7 +100,7 @@ const qualificationStandards = [
     icon: Flame,
     domain: "Sécurité incendie (EPI, ESI, évacuation)",
     standard:
-      "Profils sapeurs-pompiers professionnels ou volontaires, SSIAP 1/2/3 selon le niveau, expérience opérationnelle en intervention.",
+      "Formateurs habilités à former en sécurité incendie, profils issus du terrain (sapeurs-pompiers professionnels ou volontaires, SSIAP 1/2/3 selon le niveau), expérience opérationnelle en intervention.",
   },
   {
     icon: Activity,

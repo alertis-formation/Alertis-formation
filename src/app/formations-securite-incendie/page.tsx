@@ -80,7 +80,7 @@ export default function SecuriteIncendiePage() {
               "Entreprises, collectivités, crèches, EHPAD",
               "Immeubles de grande hauteur (IGH)",
               "Sites ICPE et établissements recevant du public",
-              "Sessions de 4 à 12 stagiaires selon le format",
+              "Effectifs limités, calibrés selon le format de la formation",
             ],
           },
         ]}

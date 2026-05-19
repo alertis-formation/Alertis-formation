@@ -220,20 +220,22 @@ export const formationsContent: Record<string, FormationContent> = {
       "Personnes amenées à former des SST en interne — préventeurs, animateurs sécurité, responsables RH formation, infirmiers du travail.",
     prerequis:
       "Être acteur SST à jour de ses compétences (certificat SST INRS en cours de validité) et avoir validé en amont la base en prévention sur le site de l'INRS (autoformation @01015 « Acquérir les bases en prévention »).",
+    validation:
+      "Certification INRS. Évaluation continue (observation des séquences pédagogiques animées par le stagiaire tout au long de la formation), évaluation formative (retours du formateur référent, auto-évaluation) et évaluation certificative finale conforme au référentiel INRS V8. Une attestation individuelle de fin de formation est remise à chaque participant ; en cas de validation de l'évaluation certificative, la carte officielle de formateur SST INRS est délivrée par l'INRS — valable 36 mois.",
     notes: [
-      "Certificat de formateur SST INRS valable 36 mois",
+      "Carte de formateur SST INRS valable 36 mois (MAC tous les 36 mois)",
     ],
   },
 
   "formation-mac-formateur-sst": {
     intro:
-      "Le MAC formateur SST maintient l'habilitation INRS tous les 36 mois. {heuresLabel|21 heures} pour réactualiser la pédagogie, intégrer les évolutions du référentiel et continuer à former.",
+      "Le MAC formateur SST maintient l'habilitation INRS tous les 36 mois. {heuresLabel|21 heures} pour réactualiser la pédagogie, intégrer les évolutions du référentiel et continuer à animer des formations SST. Rappel : le formateur SST conduit les évaluations, mais le certificat SST est délivré par l'INRS, pas par lui-même.",
     description:
-      "Le formateur SST a, comme le SST, une obligation de maintien et actualisation de ses compétences. Le MAC formateur se déroule sur {joursLabel|3 jours} et permet de revenir sur les sessions animées, d'identifier les difficultés rencontrées, de prendre en main les évolutions du référentiel INRS (nouveaux contenus, ajustements pédagogiques) et de remettre en pratique sur des cas types. À l'issue, l'habilitation INRS est prolongée de 36 mois. Sans MAC, le formateur perd son habilitation et ne peut plus délivrer de certificats SST valides.",
+      "Le formateur SST, comme l'acteur SST qu'il forme, a une obligation de maintien et actualisation de ses compétences. Le MAC formateur se déroule sur {joursLabel|3 jours} et permet de revenir sur les sessions animées, d'identifier les difficultés rencontrées, de prendre en main les évolutions du référentiel INRS (nouveaux contenus, ajustements pédagogiques) et de remettre en pratique sur des cas types. À l'issue, l'habilitation INRS est prolongée de 36 mois. Sans MAC, le formateur perd sa compétence de formateur : il ne peut plus animer de sessions SST (le certificat SST des participants est délivré par l'INRS sur la base des évaluations conduites par le formateur — sans formateur habilité, plus de certificat INRS possible).",
     objectifs: [
       "Réactualiser ses compétences de formateur SST",
       "Intégrer les évolutions du référentiel INRS",
-      "Maintenir son habilitation pour 36 mois supplémentaires",
+      "Maintenir ses compétences de formateur SST pour 36 mois supplémentaires",
     ],
     programme: [
       "Retours d'expérience sur les sessions animées",
@@ -242,7 +244,7 @@ export const formationsContent: Record<string, FormationContent> = {
       "Évaluation des acquis",
     ],
     publicConcerne:
-      "Formateurs SST habilités INRS dont le certificat arrive à échéance dans les 12 prochains mois.",
+      "Formateurs SST habilités INRS dont le certificat arrive à échéance.",
     prerequis: "Certificat de formateur SST INRS en cours de validité.",
   },
 
@@ -295,23 +297,33 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-gqs-gestes-qui-sauvent": {
     intro:
-      "La sensibilisation aux Gestes Qui Sauvent (GQS) est une initiation courte de {heuresLabel|2 heures} aux premiers secours d'urgence vitale. Idéale pour sensibiliser un maximum de collaborateurs en peu de temps.",
+      "La sensibilisation aux Gestes Qui Sauvent (GQS) est une initiation courte de {heuresLabel|2 heures} aux premiers secours d'urgence vitale. Dispositif lancé en février 2016 par le ministère de l'Intérieur après les attentats de novembre 2015, dans l'objectif de former à terme 80 % de la population aux gestes qui peuvent sauver une vie. Attention : à ne pas confondre avec la formation Défibrillateur (DAE), qui est une formation distincte.",
     description:
-      "La sensibilisation Gestes Qui Sauvent est née en 2016 d'une volonté gouvernementale d'élever rapidement le niveau de premiers secours de la population. En {heuresLabel|2 heures}, elle se concentre sur les 3 urgences vitales pour lesquelles l'intervention d'un témoin peut réellement sauver une vie : l'arrêt cardiaque (massage + DAE), l'hémorragie massive (compression manuelle, garrot) et l'étouffement (désobstruction des voies aériennes). Le format court permet de sensibiliser une équipe entière en quelques jours, sans bloquer les emplois du temps. Aucune certification n'est délivrée, mais les participants repartent avec les bons gestes.",
+      "La sensibilisation Gestes Qui Sauvent est née en février 2016, sous l'impulsion du ministère de l'Intérieur, dans le sillage des attentats du 13 novembre 2015. L'idée : élever rapidement le niveau de premiers secours de la population pour qu'un témoin formé soit présent dans la majorité des situations d'urgence vitale — objectif national de 80 % de la population formée. En {heuresLabel|2 heures}, le contenu officiel se concentre sur la protection, l'alerte, la surveillance, la position latérale de sécurité, le massage cardiaque avec défibrillation et la compression d'une hémorragie. Alertis n'est pas habilité à délivrer le diplôme officiel GQS (réservé aux associations agréées de sécurité civile et aux services de l'État) : nous dispensons le même contenu pédagogique et délivrons une attestation de participation Alertis. Nous ajoutons par ailleurs deux modules complémentaires qui ne figurent pas dans le référentiel officiel mais qui nous semblent indispensables en milieu professionnel : la pose de garrot tactique et la désobstruction des voies aériennes (étouffement adulte, enfant, nourrisson).",
     objectifs: [
-      "Savoir alerter les secours efficacement",
+      "Savoir protéger, alerter et surveiller une victime",
+      "Réaliser une position latérale de sécurité (PLS)",
       "Reconnaître un arrêt cardiaque et utiliser un défibrillateur",
-      "Réagir face à une hémorragie ou un étouffement",
+      "Réagir face à une hémorragie externe (compression, garrot)",
+      "Réagir face à un étouffement (ajout Alertis hors référentiel)",
     ],
     programme: [
-      "Alerter les secours (15, 18, 112)",
+      "Protéger la zone, alerter les secours (15, 18, 112)",
+      "Surveillance d'une victime et position latérale de sécurité (PLS)",
       "Massage cardiaque et défibrillation automatisée externe",
-      "Compression manuelle d'une hémorragie",
-      "Désobstruction des voies aériennes",
+      "Compression manuelle d'une hémorragie externe",
+      "Pose de garrot tactique (ajout Alertis hors référentiel officiel)",
+      "Désobstruction des voies aériennes — étouffement adulte/enfant/nourrisson (ajout Alertis hors référentiel officiel)",
     ],
     publicConcerne:
-      "Tout public adulte, dès 10 ans. Sensibilisation sans certification, idéale pour de larges populations en peu de temps.",
+      "Tout public adulte, dès 10 ans. Sensibilisation sans diplôme officiel — idéale pour former massivement les collaborateurs d'un site.",
     prerequis: "Aucun.",
+    validation:
+      "Évaluation continue par observation des gestes lors des mises en situation. Une attestation de participation Alertis est remise à chaque participant. Le diplôme d'État GQS, lui, ne peut être délivré que par une association agréée de sécurité civile ou un service public habilité.",
+    notes: [
+      "Attestation de participation Alertis (pas de diplôme d'État GQS)",
+      "Dispositif issu de l'arrêté du 30 juin 2017 (ministère de l'Intérieur)",
+    ],
   },
 
   "formation-defibrillateur": {
