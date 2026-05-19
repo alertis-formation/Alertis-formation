@@ -29,7 +29,7 @@ export type FormationContent = {
  * Most Alertis formations follow the same pedagogical pattern.
  */
 export const DEFAULT_PEDAGOGIE =
-  "La formation alterne apports théoriques (exposés interactifs, supports visuels) et mises en pratique sur matériel pédagogique. Les formateurs Alertis — issus du terrain (pompiers, soignants urgentistes, préventeurs, électriciens habilités) — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.";
+  "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel pédagogique. Les formateurs Alertis — tous diplômés et habilités dans leur spécialité, issus du terrain (sapeurs-pompiers SSIAP, soignants urgentistes, préventeurs INRS, électriciens habilités) — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.";
 
 export const DEFAULT_VALIDATION =
   "Évaluation continue tout au long de la session (mises en situation, QCM, observation des gestes). Une attestation individuelle de fin de formation est remise à chaque participant, mentionnant les compétences acquises et la durée. Notre référent handicap accompagne les adaptations nécessaires (pédagogiques, matérielles, organisationnelles).";
@@ -59,10 +59,11 @@ export const formationsContent: Record<string, FormationContent> = {
       "Personnels non-soignants des établissements de santé (administratifs, techniques, logistiques), structures médico-sociales et collaborateurs de professionnels libéraux de santé (secrétaires médicaux, agents d'accueil, agents d'entretien).",
     prerequis: "Aucun.",
     pedagogie:
-      "La formation alterne apports théoriques (exposés interactifs, supports visuels) et mises en pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
     notes: [
       "Attestation valable 4 ans · remise à niveau obligatoire pour maintien",
       "Formateurs professionnels de santé titulaires de l'attestation de formation de formateur AFGSU, à jour de leurs compétences",
+      "Éligible au financement FIFPL pour les professionnels de santé libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
 
@@ -90,10 +91,11 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Inscription au Code de la santé publique. L'AFGSU niveau 1 n'est pas requise : le niveau 2 intègre l'ensemble des compétences du niveau 1.",
     pedagogie:
-      "La formation alterne apports théoriques (exposés interactifs, supports visuels) et mises en pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
     notes: [
       "Attestation valable 4 ans · remise à niveau obligatoire pour maintien",
       "Formateurs professionnels de santé titulaires de l'attestation de formation de formateur AFGSU, à jour de leurs compétences",
+      "Éligible au financement FIFPL pour les professionnels de santé libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
 
@@ -119,7 +121,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Être titulaire de l'AFGSU 1 en cours de validité (moins de 4 ans).",
     pedagogie:
-      "La formation alterne apports théoriques (exposés interactifs, supports visuels) et mises en pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
   },
 
   "formation-recyclage-afgsu2": {
@@ -144,7 +146,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Être titulaire de l'AFGSU 2 en cours de validité (moins de 4 ans).",
     pedagogie:
-      "La formation alterne apports théoriques (exposés interactifs, supports visuels) et mises en pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
   },
 
   // ───────────────────────── SECOURISME ─────────────────────────
@@ -172,6 +174,7 @@ export const formationsContent: Record<string, FormationContent> = {
     notes: [
       "Certificat SST INRS valable 24 mois · MAC SST obligatoire pour renouveler",
       "Formateurs SST habilités INRS",
+      "Éligible au financement FIFPL pour les professionnels libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
 
@@ -200,7 +203,7 @@ export const formationsContent: Record<string, FormationContent> = {
     intro:
       "Devenez formateur SST habilité par l'INRS. {heuresLabel|56 heures} pour acquérir la pédagogie, les techniques d'animation et la maîtrise du référentiel afin de former vos propres SST en interne.",
     description:
-      "Former un formateur SST, c'est démultiplier la capacité de l'entreprise à déployer la prévention. Cette formation INRS de {joursLabel|8 jours} est exigeante : elle combine la maîtrise technique du référentiel SST, l'acquisition de méthodes pédagogiques actives adaptées à un public adulte, l'animation de séquences théoriques et pratiques (sur mannequins, DAE pédagogique), et la capacité à évaluer rigoureusement les compétences des stagiaires. Le certificat de formateur SST est délivré par l'INRS et permet ensuite d'animer des sessions SST internes ou en organisme. Un MAC formateur tous les 36 mois est obligatoire pour conserver l'habilitation.",
+      "Former un formateur SST, c'est démultiplier la capacité de l'entreprise à déployer la prévention. Cette formation INRS de {joursLabel|8 jours} (56 heures non consécutives, en 4 jours puis 4 jours pour permettre une intersession pratique) est exigeante : elle combine la maîtrise technique du référentiel SST, l'acquisition de méthodes pédagogiques actives adaptées à un public adulte, l'animation de séquences théoriques et pratiques (sur mannequins, DAE pédagogique), et la capacité à évaluer rigoureusement les compétences des stagiaires. Le certificat de formateur SST est délivré par l'INRS et permet ensuite d'animer des sessions SST internes ou en organisme. Un MAC formateur tous les 36 mois est obligatoire pour conserver l'habilitation.",
     objectifs: [
       "Maîtriser le référentiel SST de l'INRS",
       "Concevoir et animer une formation SST conforme",
@@ -216,7 +219,7 @@ export const formationsContent: Record<string, FormationContent> = {
     publicConcerne:
       "Personnes amenées à former des SST en interne — préventeurs, animateurs sécurité, responsables RH formation, infirmiers du travail.",
     prerequis:
-      "Être titulaire d'une AFPS, PSC, SST ou équivalent + connaissances de base en prévention des risques.",
+      "Être acteur SST à jour de ses compétences (certificat SST INRS en cours de validité) et avoir validé en amont la base en prévention sur le site de l'INRS (autoformation @01015 « Acquérir les bases en prévention »).",
     notes: [
       "Certificat de formateur SST INRS valable 36 mois",
     ],
@@ -245,14 +248,14 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-psc-premiers-secours-citoyen": {
     intro:
-      "Le PSC (Prévention et Secours Civiques) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue.",
+      "Le PSC (Prévention et Secours Civiques) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue. Alertis dispense le contenu pédagogique de référence et délivre une attestation de participation : nous ne sommes pas habilités à délivrer le diplôme d'État PSC, qui passe par une association agréée de sécurité civile.",
     description:
-      "Le PSC est la formation de référence en France pour le grand public aux gestes qui sauvent. Elle prépare à intervenir face aux situations d'urgence les plus courantes — étouffement, hémorragie, perte de conscience, arrêt cardiaque, malaise — et donne les bons réflexes pour protéger, alerter et secourir une victime jusqu'à l'arrivée des secours. Dispensée par des formateurs PSC expérimentés, elle alterne théorie courte et pratique intensive sur mannequins. Le certificat est délivré à l'issue de la journée et reste valable à vie, même si un recyclage tous les 3 ans est fortement conseillé pour rester opérationnel.",
+      "Le PSC est la formation de référence en France pour le grand public aux gestes qui sauvent. Elle prépare à intervenir face aux situations d'urgence les plus courantes — étouffement, hémorragie, perte de conscience, arrêt cardiaque, malaise — et donne les bons réflexes pour protéger, alerter et secourir une victime jusqu'à l'arrivée des secours. Dispensée par des formateurs expérimentés, elle alterne théorie courte et pratique intensive sur mannequins. À l'issue de la journée, Alertis remet une attestation de participation détaillant les compétences acquises ; le diplôme d'État PSC, lui, ne peut être délivré que par une association agréée de sécurité civile (Croix-Rouge, Protection civile…). Un recyclage tous les 3 ans est fortement conseillé pour rester opérationnel.",
     objectifs: [
       "Reconnaître une situation d'urgence et alerter les secours",
       "Réaliser les gestes de premiers secours (PLS, RCP, défibrillation)",
       "Réagir face à une hémorragie, un étouffement, une brûlure, un traumatisme",
-      "Obtenir le certificat PSC",
+      "Recevoir une attestation de participation Alertis détaillant les compétences acquises",
     ],
     programme: [
       "Protection et alerte",
@@ -265,7 +268,8 @@ export const formationsContent: Record<string, FormationContent> = {
       "Toute personne souhaitant savoir réagir face à une urgence, à partir de 10 ans — particuliers, salariés, encadrants jeunesse.",
     prerequis: "Aucun.",
     notes: [
-      "Certificat à vie · recyclage conseillé tous les 3 ans",
+      "Attestation de participation Alertis · recyclage conseillé tous les 3 ans",
+      "Diplôme d'État PSC : délivré uniquement par une association agréée de sécurité civile",
     ],
   },
 
@@ -312,9 +316,9 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-defibrillateur": {
     intro:
-      "Formation courte à l'utilisation du défibrillateur automatisé externe (DAE). Obligatoire pour les ERP de catégorie 1 à 3 équipés d'un DAE (décret n°2018-1186) — fortement recommandée partout ailleurs.",
+      "Une minute perdue, c'est 10 % de chances de survie en moins. Le défibrillateur est l'outil qui peut tout changer face à un arrêt cardiaque — encore faut-il savoir s'en servir. Formation courte à l'utilisation du défibrillateur automatisé externe (DAE) : obligatoire pour les ERP de catégorie 1 à 3 équipés d'un DAE (décret n°2018-1186), fortement recommandée partout ailleurs.",
     description:
-      "Un arrêt cardiaque sans intervention immédiate fait chuter les chances de survie de 10 % par minute. Le défibrillateur, déposé en libre accès dans la plupart des ERP, permet à n'importe quel témoin de relancer le cœur — à condition de savoir l'utiliser. Cette formation de {heuresLabel|3 heures} combine théorie sur la chaîne de survie, démonstration et surtout pratique intensive sur mannequin avec un DAE pédagogique. Chacun repart avec la capacité de réaliser un massage cardiaque efficace en alternance avec le DAE, et de garder son sang-froid face à une victime en arrêt cardiaque. Conformément au décret n°2018-1186, les ERP catégorie 1 à 3 équipés d'un DAE doivent former leur personnel.",
+      "Un arrêt cardiaque sans intervention immédiate fait chuter les chances de survie de 10 % par minute. Le défibrillateur, déposé en libre accès dans la plupart des ERP, permet à n'importe quel témoin de relancer le cœur — à condition que celui-ci soit en fibrillation ventriculaire, et à condition de savoir utiliser l'appareil. Le DAE analyse le rythme cardiaque et ne déclenche un choc électrique que si la fibrillation est confirmée : c'est pour cela qu'il est sûr entre toutes les mains. Cette formation de {heuresLabel|3 heures} combine théorie sur la chaîne de survie, démonstration et surtout pratique intensive sur mannequin avec un DAE pédagogique. Chacun repart avec la capacité de réaliser un massage cardiaque efficace en alternance avec le DAE, et de garder son sang-froid face à une victime en arrêt cardiaque. Conformément au décret n°2018-1186, les ERP catégorie 1 à 3 équipés d'un DAE doivent former leur personnel.",
     objectifs: [
       "Reconnaître un arrêt cardiaque",
       "Utiliser un DAE en autonomie et en sécurité",

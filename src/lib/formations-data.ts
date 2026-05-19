@@ -428,7 +428,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-psc-premiers-secours-citoyen",
     title: "Formation PSC Premiers Secours Citoyen",
-    excerpt: "PSC — Prévention et Secours Civiques pour tous : alerte, hémorragies, étouffement, PLS, RCP, défibrillateur. Diplôme délivré par un formateur agréé.",
+    excerpt: "PSC — Prévention et Secours Civiques pour tous : alerte, hémorragies, étouffement, PLS, RCP, défibrillateur. Attestation de participation Alertis (le diplôme d'État PSC est réservé aux associations agréées).",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
     categoryLabel: "Secourisme",

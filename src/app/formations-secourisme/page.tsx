@@ -54,10 +54,10 @@ export default function SecourismePage() {
             description:
               "Gestes d'urgence, mises en situation ou cas concrets en milieu professionnel : chaque entreprise a ses besoins. Alertis propose plusieurs formats combinant apports théoriques, exercices pratiques et scénarios adaptés au terrain.",
             bullets: [
-              "SST (Sauveteur Secouriste du Travail) — 14h, certification INRS",
-              "MAC SST (recyclage) — 7h, tous les 24 mois",
-              "Gestes qui sauvent — 2h, sensibilisation grand public",
-              "Initiation à l'utilisation du défibrillateur (DAE)",
+              "SST (Sauveteur Secouriste du Travail), certification INRS",
+              "MAC SST (recyclage), tous les 24 mois",
+              "Gestes qui sauvent, sensibilisation grand public",
+              "Initiation à l'utilisation du défibrillateur (DAE)…",
             ],
           },
           {
@@ -65,10 +65,10 @@ export default function SecourismePage() {
             description:
               "Au-delà des certifications professionnelles, nous formons aussi vos collaborateurs aux gestes qui sauvent et au PSC — des compétences citoyennes qui font la différence en cas d'urgence, dans l'entreprise comme à l'extérieur.",
             bullets: [
-              "PSC — Prévention et Secours Civiques niveau 1, 7h",
-              "GQS — Gestes Qui Sauvent, 2h",
+              "PSC — Prévention et Secours Civiques",
+              "GQS — Gestes Qui Sauvent",
               "Initiation au défibrillateur (DAE)",
-              "Oxygénothérapie d'urgence",
+              "Oxygénothérapie d'urgence…",
             ],
           },
           {

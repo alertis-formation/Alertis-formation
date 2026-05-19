@@ -90,9 +90,11 @@ export default function FormationsPage() {
                   obligation précise du Code du travail
                 </strong>{" "}
                 ou à un risque concret rencontré sur le terrain. Nos formateurs
-                — issus du métier (pompiers, soignants urgentistes, électriciens
-                habilités, ergonomes) — adaptent les contenus à votre secteur,
-                votre matériel et vos contraintes.
+                — tous diplômés et habilités dans leur spécialité (sapeurs-pompiers
+                SSIAP, soignants urgentistes formateurs AFGSU, formateurs SST
+                INRS, électriciens habilités, formateurs PRAP INRS,
+                ergonomes…) — adaptent les contenus à votre secteur, votre
+                matériel et vos contraintes.
               </p>
               <p className="text-[color:var(--brand-gray-medium)] leading-relaxed">
                 Sessions en{" "}
@@ -103,7 +105,7 @@ export default function FormationsPage() {
                 <strong className="text-[color:var(--brand-charcoal)]">
                   inter-entreprises
                 </strong>{" "}
-                sur nos sites agréés. Intervention partout en France
+                dans nos centres. Intervention partout en France
                 métropolitaine, devis sous 24h.
               </p>
             </div>
@@ -112,8 +114,8 @@ export default function FormationsPage() {
             <ul className="lg:col-span-5 lg:pl-8 lg:border-l lg:border-[color:var(--brand-gray-medium)]/20 space-y-6 lg:self-center">
               {[
                 {
-                  title: "Formateurs issus du terrain",
-                  body: "Pompiers, soignants urgentistes, électriciens habilités, ergonomes — chacun forme dans son domaine d'expertise.",
+                  title: "Formateurs diplômés issus du terrain",
+                  body: "Sapeurs-pompiers SSIAP, soignants urgentistes formateurs AFGSU, formateurs SST INRS, électriciens habilités, formateurs PRAP INRS — chacun diplômé et habilité dans son domaine d'expertise.",
                 },
                 {
                   title: "Conforme Code du travail",
@@ -121,7 +123,7 @@ export default function FormationsPage() {
                 },
                 {
                   title: "Intra ou inter-entreprises",
-                  body: "Chez vous, avec votre matériel et vos consignes — ou en sessions inter dans nos centres agréés.",
+                  body: "Chez vous, avec votre matériel et vos consignes — ou en sessions inter dans nos centres.",
                 },
                 {
                   title: "Devis instantané",

@@ -203,9 +203,10 @@ export default function QuiSommesNousPage() {
               </strong>
               , nous sommes convaincus que la sécurité passe par la
               compréhension, l&apos;humain, et l&apos;action concrète.
-              C&apos;est pourquoi nos formateurs — tous issus du terrain —
-              conçoivent des formations accessibles, utiles et engageantes,
-              pour tous les secteurs d&apos;activité.
+              C&apos;est pourquoi nos formateurs — tous diplômés dans leur
+              domaine et issus du terrain — animent des formations
+              accessibles, utiles et engageantes, pour tous les secteurs
+              d&apos;activité.
             </p>
             <p>
               Nous sommes un organisme de formation spécialisé en sécurité
@@ -214,11 +215,12 @@ export default function QuiSommesNousPage() {
               établissements publics.
             </p>
             <p>
-              Nos formateurs — sapeurs-pompiers, professionnels de la
-              prévention, spécialistes en santé au travail — partagent un même
-              engagement : transmettre des compétences concrètes, utiles et
-              durables. Nous adaptons chaque programme à vos réalités de
-              terrain.
+              Nos formateurs — tous diplômés et habilités dans leur
+              spécialité (sapeurs-pompiers SSIAP, formateurs SST INRS,
+              formateurs AFGSU, électriciens habilités, formateurs PRAP
+              INRS) — partagent un même engagement : transmettre des
+              compétences concrètes, utiles et durables. Nous adaptons
+              chaque programme à vos réalités de terrain.
             </p>
             <p className="text-[color:var(--brand-red)] font-medium border-l-4 border-[color:var(--brand-red)] pl-4 italic">
               Nous ne vendons pas juste des formations : nous aidons les
