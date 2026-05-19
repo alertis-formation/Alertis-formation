@@ -5,6 +5,7 @@ import { FormationsGridSection } from "@/components/sections/formations-grid-sec
 import { FeaturedFormationsSection } from "@/components/sections/featured-formations-section";
 import { NewsSection } from "@/components/sections/news-section";
 import { FaqSection } from "@/components/sections/faq-section";
+import { formationEntries } from "@/lib/formations-data";
 
 export const metadata = {
   title:
@@ -16,7 +17,7 @@ export const metadata = {
     title:
       "Alertis Formation — SST, incendie, habilitation électrique, AFGSU",
     description:
-      "Centre de formation santé & sécurité au travail : 61 formations conformes au Code du travail, formateurs INRS, intervention partout en France.",
+      `Centre de formation santé & sécurité au travail : ${formationEntries.length} formations conformes au Code du travail, formateurs INRS, intervention partout en France.`,
     url: "/",
     type: "website",
   },

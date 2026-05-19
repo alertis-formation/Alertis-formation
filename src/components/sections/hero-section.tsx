@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HeroCarousel } from "./hero-carousel";
+import { formationEntries } from "@/lib/formations-data";
 
 const trustBadges = [
   { label: "Formateurs INRS", icon: Award },
@@ -73,7 +74,7 @@ export async function HeroSection() {
                 className="uppercase tracking-wider font-semibold"
                 render={
                   <Link href="/formations">
-                    <span>Voir les 61 formations</span>
+                    <span>Voir les {formationEntries.length} formations</span>
                     <ArrowUpRight />
                   </Link>
                 }

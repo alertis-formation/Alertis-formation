@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ArrowUpRight, Stethoscope } from "lucide-react";
 import { formationCategories } from "@/lib/site-config";
 import {
+  formationEntries,
   getFormationsByCategory,
   getCategoryHeroImage,
   type FormationCategory,
@@ -38,7 +39,7 @@ export function FormationsGridSection() {
             </h2>
           </div>
           <p className="text-[color:var(--brand-gray-medium)] max-w-sm text-base leading-relaxed">
-            61 formations pour répondre aux obligations réglementaires et
+            {formationEntries.length} formations pour répondre aux obligations réglementaires et
             renforcer la sécurité au quotidien — du SST à l&apos;habilitation BR.
           </p>
         </div>

@@ -47,8 +47,7 @@ const categoryRows: CategoryRow[] = [
 
 export const metadata = {
   title: "Toutes nos formations santé & sécurité au travail",
-  description:
-    "Catalogue complet Alertis : Sécurité Incendie, Secourisme, Habilitation électrique, Ergonomie, Prévention, Safety Day, AFGSU. 61 formations conformes au Code du travail.",
+  description: `Catalogue complet Alertis : Sécurité Incendie, Secourisme, Habilitation électrique, Ergonomie, Prévention, Safety Day, AFGSU. ${formationEntries.length} formations conformes au Code du travail.`,
   alternates: { canonical: "/formations" },
 };
 
@@ -70,7 +69,7 @@ export default function FormationsPage() {
       />
       <PageShell
         title="Toutes nos formations"
-        subtitle="Sept domaines, 61 formations conformes au Code du travail pour outiller vos équipes face aux risques quotidiens — incendie, secourisme, électrique, ergonomie."
+        subtitle={`Sept domaines, ${formationEntries.length} formations conformes au Code du travail pour outiller vos équipes face aux risques quotidiens — incendie, secourisme, électrique, ergonomie.`}
         breadcrumbs={[{ label: "Formations" }]}
       >
         {/* Intro editorial block */}

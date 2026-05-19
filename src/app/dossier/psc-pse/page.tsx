@@ -18,18 +18,18 @@ import {
 } from "@/components/site/document-list";
 
 export const metadata = {
-  title: "Ressources PSC1, PSE1 & PSE2 — Premiers secours civiques et en équipe",
+  title: "Ressources PSC, PSE1 & PSE2 — Premiers secours civiques et en équipe",
   description:
-    "Référentiels 2024 des formations PSC1 (Prévention et Secours Civiques de niveau 1) et PSE1/PSE2 (Premiers Secours en Équipe). Recommandations nationales et supports de formation.",
+    "Référentiels 2024 des formations PSC (Prévention et Secours Civiques de niveau 1) et PSE1/PSE2 (Premiers Secours en Équipe). Recommandations nationales et supports de formation.",
   alternates: { canonical: "/dossier/psc-pse" },
 };
 
 const psc1: DocumentItem[] = [
   {
     icon: BookOpen,
-    title: "Référentiel PSC1 2024",
+    title: "Référentiel PSC 2024",
     description:
-      "Recommandations et référentiel national 2024 du PSC1 (Prévention et Secours Civiques de niveau 1). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
+      "Recommandations et référentiel national 2024 du PSC (Prévention et Secours Civiques de niveau 1). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
     href: "/docs/referentiel-psc1-2024.pdf",
     fileSize: "1.6 Mo",
   },
@@ -49,9 +49,9 @@ const pse: DocumentItem[] = [
 const supportsFormateur: DocumentItem[] = [
   {
     icon: Award,
-    title: "Grilles d'évaluation PSC1",
+    title: "Grilles d'évaluation PSC",
     description:
-      "Grilles d'évaluation des compétences PSC1 par séquence : reconnaissance, alerte, gestes techniques, mises en situation.",
+      "Grilles d'évaluation des compétences PSC par séquence : reconnaissance, alerte, gestes techniques, mises en situation.",
     restricted: true,
   },
   {
@@ -65,14 +65,14 @@ const supportsFormateur: DocumentItem[] = [
     icon: Users,
     title: "Scénarios de mise en situation",
     description:
-      "Bibliothèque de scénarios pédagogiques (cas concrets, simulations) pour les formations PSC1, PSE1 et PSE2.",
+      "Bibliothèque de scénarios pédagogiques (cas concrets, simulations) pour les formations PSC, PSE1 et PSE2.",
     restricted: true,
   },
   {
     icon: BookOpen,
-    title: "Livret participant PSC1",
+    title: "Livret participant PSC",
     description:
-      "Support apprenant à distribuer aux participants de la formation PSC1 : fiches techniques, aide-mémoire des gestes.",
+      "Support apprenant à distribuer aux participants de la formation PSC : fiches techniques, aide-mémoire des gestes.",
     restricted: true,
   },
 ];
@@ -80,11 +80,11 @@ const supportsFormateur: DocumentItem[] = [
 export default function DossierPscPsePage() {
   return (
     <PageShell
-      title="Ressources PSC1, PSE1 & PSE2"
-      subtitle="Référentiels 2024 des formations citoyennes et en équipe : PSC1 pour le grand public, PSE1 et PSE2 pour les secouristes des associations agréées de sécurité civile et des services de secours."
+      title="Ressources PSC, PSE1 & PSE2"
+      subtitle="Référentiels 2024 des formations citoyennes et en équipe : PSC pour le grand public, PSE1 et PSE2 pour les secouristes des associations agréées de sécurité civile et des services de secours."
       breadcrumbs={[
         { label: "Espace formateur", href: "/dossier" },
-        { label: "PSC1 & PSE" },
+        { label: "PSC & PSE" },
       ]}
     >
       {/* Intro */}
@@ -93,7 +93,7 @@ export default function DossierPscPsePage() {
           <div className="lg:col-span-7 space-y-5 text-[color:var(--brand-gray-medium)] leading-relaxed">
             <span className="eyebrow">
               <Stethoscope className="size-3.5" />
-              PSC1 · PSE1 · PSE2 · Référentiels 2024
+              PSC · PSE1 · PSE2 · Référentiels 2024
             </span>
             <h2 className="text-[color:var(--brand-charcoal)]">
               Prévention et secours{" "}
@@ -101,7 +101,7 @@ export default function DossierPscPsePage() {
             </h2>
             <p className="text-lg">
               Le{" "}
-              <strong className="text-[color:var(--brand-charcoal)]">PSC1</strong>{" "}
+              <strong className="text-[color:var(--brand-charcoal)]">PSC</strong>{" "}
               équipe le citoyen pour intervenir en attendant les secours.
               Le{" "}
               <strong className="text-[color:var(--brand-charcoal)]">PSE1</strong>{" "}
@@ -122,7 +122,7 @@ export default function DossierPscPsePage() {
             <div className="relative aspect-[4/5] rounded-sm overflow-hidden ring-1 ring-[color:var(--brand-gray-medium)]/10 shadow-md">
               <Image
                 src="/formations/formation-psc-premiers-secours-citoyen.jpg"
-                alt="Formation PSC1 — Premiers Secours Citoyens"
+                alt="Formation PSC — Premiers Secours Citoyens"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
@@ -143,9 +143,9 @@ export default function DossierPscPsePage() {
       <section className="py-16 lg:py-20 bg-[color:var(--brand-cream)]">
         <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <DocumentList
-            eyebrow="Référentiel PSC1 · Téléchargement libre"
+            eyebrow="Référentiel PSC · Téléchargement libre"
             title="Prévention et Secours Civiques de niveau 1"
-            description="Le référentiel PSC1 2024, document national de référence pour la formation citoyenne aux premiers secours."
+            description="Le référentiel PSC 2024, document national de référence pour la formation citoyenne aux premiers secours."
             items={psc1}
           />
         </div>
@@ -168,7 +168,7 @@ export default function DossierPscPsePage() {
           <DocumentList
             eyebrow="Supports formateur · Accès Alertis"
             title="Grilles, scénarios et livrets participants"
-            description="Supports pédagogiques internes pour conduire et évaluer les formations PSC1, PSE1 et PSE2. Réservés aux formateurs missionnés Alertis."
+            description="Supports pédagogiques internes pour conduire et évaluer les formations PSC, PSE1 et PSE2. Réservés aux formateurs missionnés Alertis."
             items={supportsFormateur}
           />
         </div>
@@ -181,7 +181,7 @@ export default function DossierPscPsePage() {
             <Mail className="size-7" />
           </div>
           <h2 className="text-white mb-4">
-            Organiser une formation PSC1, PSE1 ou PSE2&nbsp;?
+            Organiser une formation PSC, PSE1 ou PSE2&nbsp;?
           </h2>
           <p className="text-white/70 leading-relaxed mb-8">
             Nous formons les citoyens et secouristes sur tout le territoire

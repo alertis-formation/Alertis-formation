@@ -72,7 +72,7 @@ const resources: Resource[] = [
     title: "Gestes qui sauvent",
     shortLabel: "GQS",
     description:
-      "Référentiel national 2024 et supports d'animation pour conduire vos sensibilisations GQS de 2 heures — passerelle naturelle vers le PSC1, le SST et les premiers secours en équipe.",
+      "Référentiel national 2024 et supports d'animation pour conduire vos sensibilisations GQS de 2 heures — passerelle naturelle vers le PSC, le SST et les premiers secours en équipe.",
     image: "/formations/formation-gqs-gestes-qui-sauvent.jpg",
     href: "/dossier/gestes-qui-sauvent",
     cta: "Consulter les ressources GQS",
@@ -80,10 +80,10 @@ const resources: Resource[] = [
   },
   {
     icon: Stethoscope,
-    title: "PSC1, PSE1 & PSE2",
+    title: "PSC, PSE1 & PSE2",
     shortLabel: "PSC / PSE",
     description:
-      "Référentiels 2024 des formations citoyennes (PSC1) et en équipe (PSE1, PSE2). Recommandations nationales, grilles d'évaluation et scénarios de mise en situation.",
+      "Référentiels 2024 des formations citoyennes (PSC) et en équipe (PSE1, PSE2). Recommandations nationales, grilles d'évaluation et scénarios de mise en situation.",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     href: "/dossier/psc-pse",
     cta: "Consulter les ressources PSC / PSE",

@@ -360,7 +360,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Concevoir ses propres supports ou utiliser les supports officiels ?" },
       {
         type: "p",
-        text: "Pour les formations certifiantes (SST, PRAP, PSC1, AFGSU, habilitation électrique), les référentiels officiels font foi et doivent être respectés. Les supports formateur peuvent être personnalisés (charte, exemples métier) mais doivent rester conformes au fond. Pour les sensibilisations sur-mesure, vous disposez de plus de marge — à condition de toujours pouvoir tracer la source de chaque information.",
+        text: "Pour les formations certifiantes (SST, PRAP, PSC, AFGSU, habilitation électrique), les référentiels officiels font foi et doivent être respectés. Les supports formateur peuvent être personnalisés (charte, exemples métier) mais doivent rester conformes au fond. Pour les sensibilisations sur-mesure, vous disposez de plus de marge — à condition de toujours pouvoir tracer la source de chaque information.",
       },
     ],
   },
@@ -439,7 +439,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Cette méthode constitue la colonne vertébrale des formations SST, PSC1, GQS et AFGSU. La connaître, c'est s'équiper d'un cadre mental clair pour ne pas paniquer le jour où ça arrive.",
+        text: "Cette méthode constitue la colonne vertébrale des formations SST, PSC, GQS et AFGSU. La connaître, c'est s'équiper d'un cadre mental clair pour ne pas paniquer le jour où ça arrive.",
       },
     ],
   },
@@ -1209,7 +1209,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Et la formation des salariés ?" },
       {
         type: "p",
-        text: "Même si le DAE est utilisable sans formation, sensibiliser ses équipes aux gestes qui sauvent (GQS, PSC1) et au massage cardiaque renforce massivement les chances de survie. Les formations SST intègrent systématiquement l'utilisation du DAE.",
+        text: "Même si le DAE est utilisable sans formation, sensibiliser ses équipes aux gestes qui sauvent (GQS, PSC) et au massage cardiaque renforce massivement les chances de survie. Les formations SST intègrent systématiquement l'utilisation du DAE.",
       },
     ],
   },
@@ -1544,7 +1544,7 @@ export const articles: Record<string, Article> = {
   "comment-choisir-sa-formation-en-secourisme": {
     title: "Comment choisir sa formation en secourisme ?",
     excerpt:
-      "GQS, PSC1, SST, AFGSU, PSE1, PSE2 : le paysage des formations aux premiers secours est dense. Comment s'y retrouver et choisir la formation adaptée à son besoin.",
+      "GQS, PSC, SST, AFGSU, PSE1, PSE2 : le paysage des formations aux premiers secours est dense. Comment s'y retrouver et choisir la formation adaptée à son besoin.",
     publishedAt: "2025-06-28",
     category: "Secourisme",
     readingTime: 6,
@@ -1552,7 +1552,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Vous voulez vous former aux gestes de premiers secours, mais le sigle GQS / PSC1 / SST / AFGSU vous laisse perplexe ? Le paysage français du secourisme est structuré, mais sa logique n'est pas toujours évidente quand on l'aborde de l'extérieur. Voici comment vous repérer.",
+        text: "Vous voulez vous former aux gestes de premiers secours, mais le sigle GQS / PSC / SST / AFGSU vous laisse perplexe ? Le paysage français du secourisme est structuré, mais sa logique n'est pas toujours évidente quand on l'aborde de l'extérieur. Voici comment vous repérer.",
       },
       { type: "h2", text: "Première question : pourquoi voulez-vous vous former ?" },
       {
@@ -1573,7 +1573,7 @@ export const articles: Record<string, Article> = {
         type: "p",
         text: "Format court de sensibilisation, accessible à tous, sans prérequis. On apprend à alerter, protéger, et réaliser les gestes vitaux face à une hémorragie, une perte de connaissance ou un arrêt cardiaque. Idéal comme première porte d'entrée.",
       },
-      { type: "h3", text: "PSC1 — Prévention et Secours Civiques de niveau 1 (7 heures)" },
+      { type: "h3", text: "PSC — Prévention et Secours Civiques de niveau 1 (7 heures)" },
       {
         type: "p",
         text: "La formation citoyenne de référence, valable à vie (recyclage recommandé tous les 3 ans). Aborde toute la palette des gestes de premiers secours pour un témoin non-professionnel. Souvent demandée pour les concours administratifs, les BAFA, et les fonctions d'animation.",
@@ -1602,14 +1602,14 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "GQS et PSC1 sont pour vous-même et vos proches. SST est pour votre entreprise. PSE1/PSE2 sont pour les équipes de secours. AFGSU est pour les soignants. Voilà la carte mentale qui éclaire 90 % des choix.",
+        text: "GQS et PSC sont pour vous-même et vos proches. SST est pour votre entreprise. PSE1/PSE2 sont pour les équipes de secours. AFGSU est pour les soignants. Voilà la carte mentale qui éclaire 90 % des choix.",
       },
       { type: "h2", text: "Tableau de synthèse" },
       {
         type: "ul",
         items: [
           "Durée 2h — sensibilisation grand public ➜ GQS",
-          "Durée 7h — citoyen, à vie ➜ PSC1",
+          "Durée 7h — citoyen, à vie ➜ PSC",
           "Durée 14h — milieu professionnel, recyclable tous les 24 mois ➜ SST",
           "Durée 7h — recyclage SST ➜ MAC SST",
           "Durée 35h — secouriste associatif ou équipe de secours ➜ PSE1",
@@ -2371,7 +2371,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Notre anticipation chez Alertis" },
       {
         type: "p",
-        text: "En attendant la transposition ANCESU, nous avons ajouté dans les recyclages AFGSU 1 et 2 une slide \"Évolutions 2025-2026 internationales\". Elle informe les stagiaires des grandes lignes du CoSTR 2025, sans modifier les gestes officiels enseignés. C'est important pour les professionnels de santé qui suivent l'actualité scientifique : ils savent ainsi vers quoi on va.",
+        text: "En attendant la transposition ANCESU, nous avons ajouté dans les remises à niveau AFGSU 1 et 2 une slide \"Évolutions 2025-2026 internationales\". Elle informe les stagiaires des grandes lignes du CoSTR 2025, sans modifier les gestes officiels enseignés. C'est important pour les professionnels de santé qui suivent l'actualité scientifique : ils savent ainsi vers quoi on va.",
       },
       {
         type: "p",

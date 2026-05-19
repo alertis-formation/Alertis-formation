@@ -32,6 +32,10 @@ import {
   getFormationById,
   getUpcomingSessionsForFormation,
 } from "@/lib/alertis-api";
+import {
+  interpolateContent,
+  interpolateList,
+} from "@/lib/formation-content-interpolation";
 
 export const dynamicParams = false;
 // Revalidate API data every hour
@@ -235,7 +239,7 @@ export default async function FormationDetailPage({
                 <div className="space-y-12">
                   {/* Intro paragraph — large editorial lead */}
                   <p className="text-lg md:text-xl leading-relaxed text-[color:var(--brand-charcoal)] border-l-2 border-[color:var(--brand-red)] pl-5">
-                    {linkifyLegalRefs(content.intro)}
+                    {linkifyLegalRefs(interpolateContent(content.intro, apiData))}
                   </p>
 
                   {/* Description — contextual paragraph */}
@@ -243,7 +247,7 @@ export default async function FormationDetailPage({
                     <div>
                       <SectionHeader number="01" title="Description" />
                       <p className="mt-6 leading-relaxed text-[color:var(--brand-gray)]">
-                        {linkifyLegalRefs(content.description)}
+                        {linkifyLegalRefs(interpolateContent(content.description, apiData))}
                       </p>
                     </div>
                   )}
@@ -253,7 +257,7 @@ export default async function FormationDetailPage({
                     <FormationSection
                       number="02"
                       title="Objectifs pédagogiques"
-                      items={content.objectifs}
+                      items={interpolateList(content.objectifs, apiData)}
                     />
                   )}
 
@@ -262,7 +266,7 @@ export default async function FormationDetailPage({
                     <FormationSection
                       number="03"
                       title="Programme"
-                      items={content.programme}
+                      items={interpolateList(content.programme, apiData)}
                     />
                   )}
 
@@ -277,7 +281,7 @@ export default async function FormationDetailPage({
                               Public concerné
                             </div>
                             <p className="text-sm leading-relaxed text-[color:var(--brand-gray)]">
-                              {linkifyLegalRefs(content.publicConcerne)}
+                              {linkifyLegalRefs(interpolateContent(content.publicConcerne, apiData))}
                             </p>
                           </div>
                         )}
@@ -287,7 +291,7 @@ export default async function FormationDetailPage({
                               Pré-requis
                             </div>
                             <p className="text-sm leading-relaxed text-[color:var(--brand-gray)]">
-                              {linkifyLegalRefs(content.prerequis)}
+                              {linkifyLegalRefs(interpolateContent(content.prerequis, apiData))}
                             </p>
                           </div>
                         )}

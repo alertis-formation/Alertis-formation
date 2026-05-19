@@ -5,13 +5,18 @@ import { Button } from "@/components/ui/button";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
 import { getFormationsByCategory } from "@/lib/formations-data";
+import { getApiIdForSlug } from "@/lib/alertis-api-mapping";
+import { getFormationById } from "@/lib/alertis-api";
 
-const levels = [
+export const revalidate = 3600;
+
+const levelsConfig = [
   {
     icon: Heart,
     title: "AFGSU niveau 1",
     audience: "Professionnels non médicaux",
-    duration: "21 heures · 3 jours",
+    slug: "formation-afgsu1",
+    fallbackDuration: "14 heures · 2 jours",
     description:
       "Destinée à tout personnel non soignant exerçant en établissement de santé. Initiation aux gestes de premiers secours, gestion des urgences collectives et risques sanitaires majeurs.",
   },
@@ -19,19 +24,36 @@ const levels = [
     icon: Stethoscope,
     title: "AFGSU niveau 2",
     audience: "Soignants et professionnels de santé",
-    duration: "21 heures · 3 jours",
+    slug: "formation-afgsu2",
+    fallbackDuration: "21 heures · 3 jours",
     description:
       "Obligatoire pour les soignants. Approfondit la prise en charge des détresses vitales, l'utilisation du matériel d'urgence et la coordination interprofessionnelle.",
   },
   {
     icon: RefreshCw,
-    title: "Recyclage AFGSU",
-    audience: "Renouvellement des compétences",
-    duration: "7 heures · 1 jour",
+    title: "Remise à niveau AFGSU",
+    audience: "Réactualisation des compétences",
+    slug: "formation-recyclage-afgsu1",
+    fallbackDuration: "7 heures · 1 jour",
     description:
       "Pour maintenir à jour vos réflexes et connaissances tous les 4 ans, niveau 1 ou niveau 2. Mises à jour des recommandations et exercices pratiques.",
   },
 ];
+
+function formatApiDuration(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  const match = raw.match(/^(\d+)H(\d{2})?$/i);
+  if (!match) return raw;
+  const hours = parseInt(match[1], 10);
+  const minutes = match[2] ? parseInt(match[2], 10) : 0;
+  const hoursLabel = minutes > 0 ? `${hours}h${match[2]}` : `${hours} heures`;
+  let days: number;
+  if (hours > 21) days = 4;
+  else if (hours > 14) days = 3;
+  else if (hours > 7) days = 2;
+  else days = 1;
+  return `${hoursLabel} · ${days} jour${days > 1 ? "s" : ""}`;
+}
 
 const objectives = [
   "Intervenir de manière adaptée et coordonnée face à l'urgence",
@@ -43,19 +65,35 @@ const objectives = [
 
 export const metadata = {
   title:
-    "Formation AFGSU 1, AFGSU 2, recyclage : gestes et soins d'urgence",
+    "Formation AFGSU 1, AFGSU 2, remise à niveau : gestes et soins d'urgence",
   description:
-    "Formation AFGSU pour professionnels de santé : niveau 1 (personnels non soignants), niveau 2 (soignants), recyclage tous les 4 ans. Conforme à l'arrêté du 1er juillet 2019, sessions partout en France.",
+    "Formation AFGSU pour professionnels de santé : niveau 1 (personnels non soignants), niveau 2 (soignants), remise à niveau tous les 4 ans. Conforme à l'arrêté du 1er juillet 2019, sessions partout en France.",
   alternates: { canonical: "/nos-formations-afgsu" },
   openGraph: {
-    title: "Formations AFGSU 1, 2 et recyclage — Alertis",
+    title: "Formations AFGSU 1, 2 et remise à niveau — Alertis",
     url: "/nos-formations-afgsu",
     type: "website",
   },
 };
 
-export default function AfgsuPage() {
+export default async function AfgsuPage() {
   const items = getFormationsByCategory("afgsu");
+
+  const levels = await Promise.all(
+    levelsConfig.map(async (lvl) => {
+      const apiId = getApiIdForSlug(lvl.slug);
+      const apiData = apiId ? await getFormationById(apiId) : null;
+      const apiDuration = formatApiDuration(apiData?.duree);
+      return {
+        icon: lvl.icon,
+        title: lvl.title,
+        audience: lvl.audience,
+        duration: apiDuration ?? lvl.fallbackDuration,
+        description: lvl.description,
+      };
+    })
+  );
+
   return (
     <PageShell
       title="Formations AFGSU"
@@ -153,7 +191,7 @@ export default function AfgsuPage() {
       <FormationsList
         category="afgsu"
         title="Nos sessions AFGSU disponibles"
-        subtitle="Initial, recyclage, niveaux 1 et 2 : choisissez la session qui correspond à votre profil."
+        subtitle="Initial, remise à niveau, niveaux 1 et 2 : choisissez la session qui correspond à votre profil."
       />
 
       {/* CTA */}

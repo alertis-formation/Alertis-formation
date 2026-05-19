@@ -11,7 +11,7 @@ const faqs: FaqItem[] = [
     q: "Quelle est la durée de validité d'une formation SST et comment la renouveler ?",
     a: `La certification de Sauveteur Secouriste du Travail (SST) est valable 24 mois à compter de la date de délivrance par l'INRS. Pour conserver vos compétences et votre certification, vous devez suivre un Maintien et Actualisation des Compétences (MAC SST) de 7 heures avant la date d'échéance.
 
-Si le MAC est réalisé après expiration, le salarié perd sa qualification et doit repasser la formation SST initiale de 14 heures. La formation SST reste l'une des plus demandées en entreprise : un salarié SST est obligatoire dans chaque atelier où sont effectués des travaux dangereux et dans chaque chantier de plus de 20 personnes durant plus de 15 jours (article R4224-15 du Code du travail).
+Si le MAC est réalisé après la date d'échéance, la certification n'est pas supprimée mais mise en veille : le salarié ne peut plus exercer en tant que SST tant qu'il n'a pas suivi son MAC de 7 heures. Aucune limite de temps n'est imposée par le référentiel INRS 2026 pour effectuer ce rattrapage par un MAC, sans repasser la formation initiale. La formation SST reste l'une des plus demandées en entreprise : un salarié SST est obligatoire dans chaque atelier où sont effectués des travaux dangereux et dans chaque chantier de plus de 20 personnes durant plus de 15 jours (article R4224-15 du Code du travail).
 
 Nous proposons les sessions SST et MAC SST en intra-entreprise dans toute la France, avec un formateur certifié par l'INRS.`,
     links: [
@@ -55,9 +55,9 @@ Nos sessions d'habilitation électrique (initiale ou recyclage) sont organisées
     q: "Qui doit suivre une formation AFGSU et quelle est la différence entre niveau 1 et niveau 2 ?",
     a: `L'AFGSU (Attestation de Formation aux Gestes et Soins d'Urgence) est obligatoire pour les professionnels de santé et certains personnels travaillant en établissement de santé ou médico-social.
 
-L'AFGSU niveau 1 (12 heures) s'adresse à tout personnel non soignant exerçant en milieu de santé : agents administratifs, techniques, hôteliers. L'AFGSU niveau 2 (21 heures) est destinée aux professionnels de santé inscrits dans la quatrième partie du Code de la santé publique : infirmiers, aides-soignants, médecins, sages-femmes, kinésithérapeutes, manipulateurs radio, étudiants en santé.
+L'AFGSU niveau 1 (14 heures sur 2 jours) s'adresse à tout personnel non soignant exerçant en milieu de santé : agents administratifs, techniques, hôteliers. L'AFGSU niveau 2 (21 heures sur 3 jours) est destinée aux professionnels de santé inscrits dans la quatrième partie du Code de la santé publique : infirmiers, aides-soignants, médecins, sages-femmes, kinésithérapeutes, manipulateurs radio, étudiants en santé.
 
-L'attestation est valable 4 ans et doit être renouvelée par une formation de recyclage de 7 heures. Nous délivrons l'AFGSU 1, l'AFGSU 2 et les recyclages, conformément à l'arrêté du 1er juillet 2019.`,
+L'attestation est valable 4 ans et doit être renouvelée par une formation de remise à niveau de 7 heures. Alertis organise des sessions AFGSU 1, AFGSU 2 et remises à niveau en tant que centre habilité par des CESU. L'attestation officielle est délivrée par le CESU habilitant, conformément à l'arrêté du 1er juillet 2019.`,
     links: [
       { label: "Nos formations AFGSU", href: "/nos-formations-afgsu" },
       { label: "Contact AFGSU", href: "/contact-formation-afgsu" },
@@ -69,7 +69,7 @@ L'attestation est valable 4 ans et doit être renouvelée par une formation de r
 
 Le PRAP IBC (Industrie, BTP, Commerce et activités de bureau) s'adresse aux salariés des secteurs industriels, du bâtiment, du commerce et du tertiaire. Le PRAP 2S (Sanitaire et Social) concerne les professionnels exerçant auprès de personnes — EHPAD, structures handicap, aide à domicile, hôpital — et intègre la manutention de personnes à mobilité réduite.
 
-Les deux formations durent 2 jours (14 heures) et sont certifiantes (INRS). Un recyclage de 7 heures (MAC PRAP) est recommandé tous les 24 mois pour maintenir les compétences.`,
+Le PRAP IBC dure 2 jours (14 heures) en initial, avec un MAC de 1 jour (7 heures) tous les 24 mois. Le PRAP 2S, plus exigeant en raison de la mobilisation de personnes, dure 4 jours (28 heures) en initial, avec un MAC de 2 jours (14 heures) tous les 24 mois. Les deux formations sont certifiantes INRS.`,
     links: [
       { label: "Formations Ergonomie & PRAP", href: "/formations-ergonomie" },
     ],

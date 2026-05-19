@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata = {
   title: "Demande de formation AFGSU",
   description:
-    "Inscription et demande de devis pour une formation AFGSU niveau 1, niveau 2 ou recyclage. Réponse sous 24h ouvrées.",
+    "Inscription et demande de devis pour une formation AFGSU niveau 1, niveau 2 ou remise à niveau. Réponse sous 24h ouvrées.",
   alternates: { canonical: "/contact-formation-afgsu" },
 };
 
@@ -29,7 +29,7 @@ export default function ContactAfgsuPage() {
               <span className="eyebrow">Spécifique AFGSU</span>
               <h2 className="mt-3 text-2xl">Une équipe dédiée santé.</h2>
               <p className="mt-3 text-sm text-[color:var(--brand-gray-medium)] leading-relaxed">
-                Formations AFGSU 1, 2 et recyclage pour les professionnels de
+                Formations AFGSU 1, 2 et remise à niveau pour les professionnels de
                 santé, conformes à l&apos;arrêté du 30 décembre 2014.
               </p>
             </div>

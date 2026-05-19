@@ -4,9 +4,6 @@ import {
   Heart,
   Target,
   Users,
-  Mountain,
-  Bike,
-  Compass,
   ShieldCheck,
   ArrowUpRight,
   Recycle,
@@ -61,25 +58,22 @@ const direction = [
     name: "Cyrille Gagnaire",
     role: "Gérant — Responsable Pédagogique",
     bio: "Cyrille dirige Alertis et forme sur l'incendie, les gestes et postures. Ancien pompier, il allie terrain et pédagogie avec passion.",
-    hobby: "Randonnées en montagne",
-    hobbyIcon: Mountain,
     image: "/team/cyrille-gagnaire.jpg",
+    roleIcon: Flame,
   },
   {
     name: "Rose Rivoirard",
     role: "Directrice Formation & Commerciale",
     bio: "Rose dirige la formation et le commercial. Formatrice de formateurs SST, elle transmet les bons gestes et structure la pédagogie avec énergie.",
-    hobby: "Explore les régions à vélo",
-    hobbyIcon: Bike,
     image: "/team/roselyne-rivoirard.jpg",
+    roleIcon: GraduationCap,
   },
   {
     name: "Bruno Lodier",
     role: "Directeur — Cadre Administratif",
     bio: "Bruno coordonne les opérations et s'assure que tout roule. Véritable facilitateur, il fait le lien entre équipes, clients et terrain.",
-    hobby: "Trail & organisation millimétrée",
-    hobbyIcon: Compass,
     image: "/team/bruno-lodier.jpg",
+    roleIcon: ClipboardCheck,
   },
 ];
 
@@ -94,7 +88,7 @@ const qualificationStandards = [
     icon: Stethoscope,
     domain: "AFGSU 1 & 2",
     standard:
-      "Formateurs agréés CESU (Centre d'enseignement des soins d'urgence), profils soignants (médecins, IDE, ARM) ou paramédicaux qualifiés.",
+      "Formateurs titulaires de l'attestation de formation de formateur AFGSU, professionnels de santé urgentistes (médecins, IDE, ARM) ou paramédicaux qualifiés. Sessions organisées par Alertis en tant que centre habilité par les CESU.",
   },
   {
     icon: Zap,
@@ -339,46 +333,39 @@ export default function QuiSommesNousPage() {
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
-            {direction.map(
-              ({ name, role, bio, hobby, hobbyIcon: HobbyIcon, image }) => (
-                <article
-                  key={name}
-                  className="group flex flex-col items-center text-center"
-                >
-                  <div className="relative size-32 lg:size-36 mb-5">
-                    <div className="absolute inset-0 rounded-full overflow-hidden bg-[color:var(--brand-cream)] ring-4 ring-white shadow-md">
-                      <Image
-                        src={image}
-                        alt={`Portrait de ${name}, ${role}`}
-                        fill
-                        sizes="160px"
-                        className="object-cover"
-                      />
-                    </div>
-                    <span
-                      aria-hidden
-                      className="absolute -bottom-1 -right-1 size-7 rounded-full bg-[color:var(--brand-red)] text-white inline-flex items-center justify-center ring-4 ring-white"
-                    >
-                      <HobbyIcon className="size-3.5" />
-                    </span>
+            {direction.map(({ name, role, bio, image, roleIcon: RoleIcon }) => (
+              <article
+                key={name}
+                className="group flex flex-col items-center text-center"
+              >
+                <div className="relative size-32 lg:size-36 mb-5">
+                  <div className="absolute inset-0 rounded-full overflow-hidden bg-[color:var(--brand-cream)] ring-4 ring-white shadow-md">
+                    <Image
+                      src={image}
+                      alt={`Portrait de ${name}, ${role}`}
+                      fill
+                      sizes="160px"
+                      className="object-cover"
+                    />
                   </div>
-                  <h3 className="text-xl text-[color:var(--brand-charcoal)] leading-tight">
-                    {name}
-                  </h3>
-                  <div className="text-[10px] uppercase tracking-[0.25em] text-[color:var(--brand-red)] font-bold mt-1.5">
-                    {role}
-                  </div>
-                  <p className="mt-4 text-sm text-[color:var(--brand-gray-medium)] leading-[1.6] max-w-xs">
-                    {bio}
-                  </p>
-                  <div className="mt-4 inline-flex items-center gap-2 text-xs text-[color:var(--brand-gray-medium)] italic">
-                    <span>·</span>
-                    <span>{hobby}</span>
-                    <span>·</span>
-                  </div>
-                </article>
-              )
-            )}
+                  <span
+                    aria-hidden
+                    className="absolute -bottom-1 -right-1 size-7 rounded-full bg-[color:var(--brand-red)] text-white inline-flex items-center justify-center ring-4 ring-white"
+                  >
+                    <RoleIcon className="size-3.5" />
+                  </span>
+                </div>
+                <h3 className="text-xl text-[color:var(--brand-charcoal)] leading-tight">
+                  {name}
+                </h3>
+                <div className="text-[10px] uppercase tracking-[0.25em] text-[color:var(--brand-red)] font-bold mt-1.5">
+                  {role}
+                </div>
+                <p className="mt-4 text-sm text-[color:var(--brand-gray-medium)] leading-[1.6] max-w-xs">
+                  {bio}
+                </p>
+              </article>
+            ))}
           </div>
         </div>
       </section>

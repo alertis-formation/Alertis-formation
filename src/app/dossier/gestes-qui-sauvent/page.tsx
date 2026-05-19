@@ -30,7 +30,7 @@ const referentiels: DocumentItem[] = [
     icon: BookOpen,
     title: "Référentiel GQS 2024",
     description:
-      "Recommandations et guide technique 2024 pour la sensibilisation aux gestes qui sauvent. Référentiel national aligné sur les recommandations PSC1 : alerte, hémorragie, perte de connaissance, arrêt cardiaque.",
+      "Recommandations et guide technique 2024 pour la sensibilisation aux gestes qui sauvent. Référentiel national aligné sur les recommandations PSC : alerte, hémorragie, perte de connaissance, arrêt cardiaque.",
     href: "/docs/referentiel-gqs-2024.pdf",
     fileSize: "1.3 Mo",
   },
@@ -99,10 +99,10 @@ export default function DossierGqsPage() {
               l'urgence vitale.
             </p>
             <p>
-              Le contenu pédagogique est aligné sur les recommandations PSC1
+              Le contenu pédagogique est aligné sur les recommandations PSC
               (alerter, secourir face à une hémorragie, perte de connaissance,
               arrêt cardiaque) — il constitue la passerelle naturelle vers
-              les formations PSC1, SST, PSE1 et PSE2.
+              les formations PSC, SST, PSE1 et PSE2.
             </p>
           </div>
           <div className="lg:col-span-5">

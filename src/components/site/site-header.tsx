@@ -28,6 +28,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { formationEntries } from "@/lib/formations-data";
 
 export function SiteHeader({
   ratingSlot,
@@ -74,7 +75,7 @@ export function SiteHeader({
                             Catalogue
                           </span>
                           <h3 className="mt-3 text-2xl leading-tight">
-                            61 formations
+                            {formationEntries.length} formations
                           </h3>
                           <p className="mt-2 text-xs text-[color:var(--brand-gray-medium)] leading-relaxed">
                             Du SST aux habilitations BR, en passant par le

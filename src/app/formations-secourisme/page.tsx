@@ -8,7 +8,7 @@ export const metadata = {
   title:
     "Formation SST, MAC SST, PSC, défibrillateur : secourisme en entreprise",
   description:
-    "Formation Sauveteur Secouriste du Travail (SST), MAC SST, PSC1, défibrillateur (DAE), gestes qui sauvent. Certifications INRS, sessions intra et inter-entreprises partout en France.",
+    "Formation Sauveteur Secouriste du Travail (SST), MAC SST, PSC, défibrillateur (DAE), gestes qui sauvent. Certifications INRS, sessions intra et inter-entreprises partout en France.",
   alternates: { canonical: "/formations-secourisme" },
   openGraph: {
     title: "Formations Secourisme — SST, MAC SST, PSC, DAE",
@@ -45,7 +45,7 @@ export default function SecourismePage() {
       <FormationsList
         category="secourisme"
         title="Nos formations en secourisme"
-        subtitle="SST initial et recyclage, formateurs SST, PSC1, défibrillateur, gestes qui sauvent, oxygénothérapie : l'ensemble du catalogue secourisme."
+        subtitle="SST initial et recyclage, formateurs SST, PSC, défibrillateur, gestes qui sauvent, oxygénothérapie… Découvrez l'ensemble du catalogue secourisme."
       />
       <FormationCategoryContent
         approaches={[
@@ -63,9 +63,9 @@ export default function SecourismePage() {
           {
             title: "Sensibilisation grand public et secours citoyen",
             description:
-              "Au-delà des certifications professionnelles, nous formons aussi vos collaborateurs aux gestes qui sauvent et au PSC1 — des compétences citoyennes qui font la différence en cas d'urgence, dans l'entreprise comme à l'extérieur.",
+              "Au-delà des certifications professionnelles, nous formons aussi vos collaborateurs aux gestes qui sauvent et au PSC — des compétences citoyennes qui font la différence en cas d'urgence, dans l'entreprise comme à l'extérieur.",
             bullets: [
-              "PSC1 — Prévention et Secours Civiques niveau 1, 7h",
+              "PSC — Prévention et Secours Civiques niveau 1, 7h",
               "GQS — Gestes Qui Sauvent, 2h",
               "Initiation au défibrillateur (DAE)",
               "Oxygénothérapie d'urgence",

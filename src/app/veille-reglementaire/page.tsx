@@ -66,7 +66,7 @@ const domains = [
       "Document de référence INRS V9",
       "Code du travail R.4224-15 (SST)",
       "Recommandations ILCOR / ERC",
-      "PSC1 – Arrêté du 24 juillet 2007",
+      "PSC – Arrêté du 24 juillet 2007",
     ],
   },
   {
