@@ -43,6 +43,7 @@ export const articleSlugs = [
   "laerdal-qcpr-mannequins-connectes-formation-rcp",
   "formation-incendie-realite-virtuelle-vr-evacuation-extincteurs",
   "duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique",
+  "exercice-evacuation-incendie-comment-organiser",
 ] as const;
 
 /**
@@ -2613,6 +2614,98 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos équipes à l'évaluation des risques professionnels,",
         label: "prenez contact via notre page dédiée",
         href: "/contact",
+      },
+    ],
+  },
+
+  "exercice-evacuation-incendie-comment-organiser": {
+    title:
+      "Exercice d'évacuation incendie : comment l'organiser efficacement en entreprise",
+    excerpt:
+      "L'exercice d'évacuation incendie est obligatoire — mais son efficacité dépend entièrement de sa préparation. Voici comment le planifier, l'animer et en tirer des enseignements concrets.",
+    publishedAt: "2026-05-19",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image:
+      "/images/articles/exercice-evacuation-incendie-comment-organiser.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Un départ de feu dans un bâtiment laisse peu de temps pour réagir. L'exercice d'évacuation est le seul moyen de s'assurer que chaque salarié connaît les gestes à faire, le trajet à emprunter et son rôle dans le dispositif. Ce n'est pas une formalité administrative : c'est un entraînement grandeur nature dont la qualité peut faire la différence le jour où ça arrive vraiment.",
+      },
+      {
+        type: "h2",
+        text: "Ce que dit la réglementation sur les exercices",
+      },
+      {
+        type: "p",
+        text: "Le Code du travail (articles R.4227-28 et suivants) impose à tout employeur de prendre les mesures nécessaires pour assurer l'évacuation rapide du personnel en cas d'incendie. Pour les établissements recevant du public (ERP), le règlement de sécurité incendie précise les modalités et la fréquence des exercices. Hors ERP, les obligations générales de prévention s'appliquent : la pratique courante est d'organiser au moins un exercice par an, deux étant recommandés pour les sites à risque élevé.",
+      },
+      {
+        type: "h2",
+        text: "Désigner les rôles avant le jour J",
+      },
+      {
+        type: "ul",
+        items: [
+          "Guide d'évacuation : accompagne les occupants vers les sorties de secours et vérifie que sa zone est vide",
+          "Serre-file : ferme la marche et s'assure qu'il ne reste personne derrière lui",
+          "Responsable du point de rassemblement : recense les présents et remonte l'information au responsable de sécurité",
+          "Équipier de première intervention (EPI) : formé à l'usage des extincteurs, autorisé à agir sur un feu naissant avant évacuation",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Préparer le scénario : heure et hypothèse d'incident",
+      },
+      {
+        type: "p",
+        text: "Un exercice annoncé à l'avance avec heure précise ne teste que la mémoire, pas les réflexes. Variez les créneaux — heure de pointe, pause déjeuner, fin de journée — et prévoyez un scénario crédible : sortie principale bloquée, fumée signalée dans un couloir, ascenseur hors service. Ces contraintes forcent les participants à adapter leur itinéraire et révèlent les lacunes du dispositif.",
+      },
+      {
+        type: "h2",
+        text: "Ce qu'il faut observer pendant l'exercice",
+      },
+      {
+        type: "ul",
+        items: [
+          "Temps écoulé entre le déclenchement de l'alarme et l'évacuation totale du bâtiment",
+          "Respect des itinéraires et des sorties de secours désignées",
+          "Comportement des guides et serre-files face à des imprévus",
+          "Prise en charge des personnes à mobilité réduite (PMR) ou en situation de handicap",
+          "Présence et comportement des prestataires et visiteurs le jour de l'exercice",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Le bilan post-exercice : la vraie valeur ajoutée",
+      },
+      {
+        type: "p",
+        text: "Réunissez guides, serre-files et responsable de sécurité dans les 48 heures pour analyser les observations : temps d'évacuation, points de blocage, comportements à risque, signalisation insuffisante. Chaque anomalie doit déboucher sur une action corrective concrète — modification des plans d'évacuation, séance de rappel, renforcement de la signalétique. Consignez tout dans le registre de sécurité : cette traçabilité est obligatoire.",
+      },
+      {
+        type: "quote",
+        text: "Un exercice sans bilan ne forme pas : il rassure faussement. Ce qui compte, c'est la liste des problèmes trouvés — pas le temps record affiché.",
+      },
+      {
+        type: "h2",
+        text: "Les erreurs les plus fréquentes",
+      },
+      {
+        type: "ul",
+        items: [
+          "Organiser l'exercice toujours au même créneau : les salariés jouent le jeu sans vraiment réfléchir",
+          "Omettre les intérimaires, prestataires et visiteurs présents le jour J",
+          "Négliger la gestion des PMR : prévoir des zones d'attente sécurisées ou une procédure d'assistance",
+          "Oublier de consigner l'exercice dans le registre de sécurité",
+        ],
+      },
+      {
+        type: "cta",
+        text: "Pour former vos guides d'évacuation et équipiers de première intervention,",
+        label: "consultez notre page formation incendie",
+        href: "/formations/incendie",
       },
     ],
   },
