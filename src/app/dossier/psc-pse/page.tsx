@@ -18,9 +18,9 @@ import {
 } from "@/components/site/document-list";
 
 export const metadata = {
-  title: "Ressources PSC, PSE1 & PSE2 — Premiers secours civiques et en équipe",
+  title: "Ressources PSC, PSE1 & PSE2 — Premier Secours Citoyen et secours en équipe",
   description:
-    "Référentiels 2024 des formations PSC (Prévention et Secours Civiques de niveau 1) et PSE1/PSE2 (Premiers Secours en Équipe). Recommandations nationales et supports de formation.",
+    "Référentiels 2024 des formations PSC (Premier Secours Citoyen de niveau 1) et PSE1/PSE2 (Premiers Secours en Équipe). Recommandations nationales et supports de formation.",
   alternates: { canonical: "/dossier/psc-pse" },
 };
 
@@ -29,7 +29,7 @@ const psc1: DocumentItem[] = [
     icon: BookOpen,
     title: "Référentiel PSC 2024",
     description:
-      "Recommandations et référentiel national 2024 du PSC (Prévention et Secours Civiques de niveau 1). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
+      "Recommandations et référentiel national 2024 du PSC (Premier Secours Citoyen de niveau 1). Cadre d'intervention citoyen face aux personnes en détresse, techniques de premiers secours conformes aux normes en vigueur.",
     href: "/docs/referentiel-psc1-2024.pdf",
     fileSize: "1.6 Mo",
   },
@@ -96,8 +96,8 @@ export default function DossierPscPsePage() {
               PSC · PSE1 · PSE2 · Référentiels 2024
             </span>
             <h2 className="text-[color:var(--brand-charcoal)]">
-              Prévention et secours{" "}
-              <span className="text-[color:var(--brand-red)]">civiques et en équipe</span>.
+              Premier Secours Citoyen{" "}
+              <span className="text-[color:var(--brand-red)]">et secours en équipe</span>.
             </h2>
             <p className="text-lg">
               Le{" "}
@@ -144,7 +144,7 @@ export default function DossierPscPsePage() {
         <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <DocumentList
             eyebrow="Référentiel PSC · Téléchargement libre"
-            title="Prévention et Secours Civiques de niveau 1"
+            title="Premier Secours Citoyen de niveau 1"
             description="Le référentiel PSC 2024, document national de référence pour la formation citoyenne aux premiers secours."
             items={psc1}
           />

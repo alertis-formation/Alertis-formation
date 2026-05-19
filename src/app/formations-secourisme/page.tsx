@@ -65,7 +65,7 @@ export default function SecourismePage() {
             description:
               "Au-delà des certifications professionnelles, nous formons aussi vos collaborateurs aux gestes qui sauvent et au PSC — des compétences citoyennes qui font la différence en cas d'urgence, dans l'entreprise comme à l'extérieur.",
             bullets: [
-              "PSC — Prévention et Secours Civiques",
+              "PSC — Premier Secours Citoyen",
               "GQS — Gestes Qui Sauvent",
               "Initiation au défibrillateur (DAE)",
               "Oxygénothérapie d'urgence…",

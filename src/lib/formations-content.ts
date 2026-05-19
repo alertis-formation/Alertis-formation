@@ -91,7 +91,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Inscription au Code de la santé publique. L'AFGSU niveau 1 n'est pas requise : le niveau 2 intègre l'ensemble des compétences du niveau 1.",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
     notes: [
       "Attestation valable 4 ans · remise à niveau obligatoire pour maintien",
       "Formateurs professionnels de santé titulaires de l'attestation de formation de formateur AFGSU, à jour de leurs compétences",
@@ -146,7 +146,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Être titulaire de l'AFGSU 2 en cours de validité (moins de 4 ans).",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, ballon insufflateur). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
   },
 
   // ───────────────────────── SECOURISME ─────────────────────────
@@ -154,12 +154,12 @@ export const formationsContent: Record<string, FormationContent> = {
     intro:
       "La formation SST forme vos salariés à porter secours en cas d'accident du travail tout en participant à la prévention des risques. Obligatoire dans les établissements à risques (Code du travail R4224-15) et fortement recommandée partout ailleurs. Certification INRS valable 24 mois.",
     description:
-      "Le Sauveteur Secouriste du Travail occupe un double rôle : il sait porter secours efficacement face à un accident du travail (PLS, RCP, défibrillation, gestion des hémorragies), mais c'est aussi un acteur de la prévention au quotidien. Il sait identifier les situations dangereuses, alerter sa hiérarchie et proposer des améliorations. Sa formation, encadrée par le référentiel INRS, lui donne les outils pour réagir vite et bien — chaque seconde compte sur un arrêt cardiaque, et la présence d'un SST sur site multiplie significativement les chances de survie d'une victime. Le certificat est valable 24 mois et son maintien passe par le MAC SST.",
+      "Le Sauveteur Secouriste du Travail occupe un double rôle : il sait porter secours efficacement face à un accident du travail (PLS, RCP, défibrillation, gestion des hémorragies), mais c'est aussi un acteur de la prévention au quotidien. Il sait identifier les situations dangereuses, alerter sa hiérarchie et proposer des améliorations. Sa formation, encadrée par le référentiel INRS, lui donne les outils pour réagir vite et bien — chaque seconde compte sur un arrêt cardiaque, et la présence d'un SST sur site multiplie significativement les chances de survie d'une victime. À l'issue de l'évaluation certificative, l'acteur SST reçoit son certificat SST INRS et sa carte personnelle de SST. Il bénéficie par équivalence des compétences du PSC (Premier Secours Citoyen) — sans toutefois recevoir le document PSC officiel, qui relève d'une procédure distincte. Le certificat est valable 24 mois et son maintien passe par le MAC SST.",
     objectifs: [
       "Intervenir efficacement face à un accident du travail",
       "Pratiquer les gestes de premiers secours (PLS, RCP, défibrillation, hémorragies)",
       "Identifier les risques dans l'entreprise et participer à la prévention",
-      "Obtenir le certificat SST INRS",
+      "Obtenir le certificat SST INRS et la carte de SST",
     ],
     programme: [
       "Le SST dans la démarche de prévention de l'entreprise",
@@ -172,7 +172,8 @@ export const formationsContent: Record<string, FormationContent> = {
       "Tout salarié, quel que soit le secteur d'activité — administratif, industriel, tertiaire, médical, BTP, restauration.",
     prerequis: "Aucun.",
     notes: [
-      "Certificat SST INRS valable 24 mois · MAC SST obligatoire pour renouveler",
+      "Certificat SST INRS + carte personnelle de SST · valable 24 mois · MAC SST obligatoire pour renouveler",
+      "Équivalence PSC (Premier Secours Citoyen) acquise par compétences — sans délivrance du document officiel PSC",
       "Formateurs SST habilités INRS",
       "Éligible au financement FIFPL pour les professionnels libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
@@ -182,9 +183,9 @@ export const formationsContent: Record<string, FormationContent> = {
     intro:
       "Le Maintien et Actualisation des Compétences (MAC SST) est obligatoire tous les 24 mois pour conserver le certificat SST. {joursLabel|Une journée} pour réviser les gestes, intégrer les évolutions du référentiel INRS et rester opérationnel.",
     description:
-      "Le MAC SST n'est pas un simple rappel : c'est une session d'évaluation et d'actualisation qui conditionne la prolongation du certificat. La journée commence par un retour d'expérience sur les interventions réelles ou simulées vécues depuis la formation initiale, suivie d'une révision complète des conduites à tenir et d'un focus sur les évolutions techniques (notamment sur la RCP et l'usage du DAE). À la fin, chaque SST repart avec un certificat valable 24 mois de plus. Si le MAC n'est pas effectué dans les délais, le certificat SST devient caduc et la formation initiale doit être reprise.",
+      "Le MAC SST n'est pas un simple rappel : c'est une session d'évaluation et d'actualisation qui conditionne la prolongation du certificat. La journée commence par un retour d'expérience sur les interventions réelles ou simulées vécues depuis la formation initiale, suivie d'une révision complète des conduites à tenir et d'un focus sur les évolutions techniques (notamment sur la RCP et l'usage du DAE). À la fin, chaque acteur SST repart avec un certificat et une carte de SST valables 24 mois de plus.",
     objectifs: [
-      "Réactualiser ses compétences de Sauveteur Secouriste du Travail",
+      "Réactualiser ses compétences d'acteur SST",
       "Intégrer les évolutions du référentiel et des recommandations",
       "Renouveler son certificat SST pour 24 mois supplémentaires",
     ],
@@ -195,8 +196,10 @@ export const formationsContent: Record<string, FormationContent> = {
       "Évaluation des compétences sur cas concrets",
     ],
     publicConcerne:
-      "Titulaires d'un certificat SST en cours de validité ou périmé depuis moins de 24 mois.",
-    prerequis: "Certificat SST INRS.",
+      "Acteurs SST titulaires d'un certificat SST INRS.",
+    prerequis: "Certificat d'acteur SST INRS en cours de validité.",
+    validation:
+      "Évaluation continue par observation des gestes lors des mises en situation et évaluation certificative finale conforme au référentiel INRS V8. À l'issue, renouvellement du certificat SST INRS et de la carte personnelle de SST pour 24 mois.",
   },
 
   "formation-formateur-sst": {
@@ -250,9 +253,9 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-psc-premiers-secours-citoyen": {
     intro:
-      "Le PSC (Prévention et Secours Civiques) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue. Alertis dispense le contenu pédagogique de référence et délivre une attestation de participation : nous ne sommes pas habilités à délivrer le diplôme d'État PSC, qui passe par une association agréée de sécurité civile.",
+      "Le PSC (Premier Secours Citoyen) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue. Le diplôme PSC est un diplôme du ministère de l'Intérieur, délivré exclusivement par une association agréée de sécurité civile (Croix-Rouge, Protection civile, FFSS…). Alertis n'est pas habilité à délivrer ce diplôme : nous dispensons le même contenu pédagogique de référence et remettons une attestation de participation Alertis.",
     description:
-      "Le PSC est la formation de référence en France pour le grand public aux gestes qui sauvent. Elle prépare à intervenir face aux situations d'urgence les plus courantes — étouffement, hémorragie, perte de conscience, arrêt cardiaque, malaise — et donne les bons réflexes pour protéger, alerter et secourir une victime jusqu'à l'arrivée des secours. Dispensée par des formateurs expérimentés, elle alterne théorie courte et pratique intensive sur mannequins. À l'issue de la journée, Alertis remet une attestation de participation détaillant les compétences acquises ; le diplôme d'État PSC, lui, ne peut être délivré que par une association agréée de sécurité civile (Croix-Rouge, Protection civile…). Un recyclage tous les 3 ans est fortement conseillé pour rester opérationnel.",
+      "Le PSC est la formation de référence en France pour le grand public aux gestes qui sauvent. Elle prépare à intervenir face aux situations d'urgence les plus courantes — étouffement, hémorragie, perte de conscience, arrêt cardiaque, malaise — et donne les bons réflexes pour protéger, alerter et secourir une victime jusqu'à l'arrivée des secours. Dispensée par des formateurs expérimentés, elle alterne théorie courte et pratique intensive sur mannequins. Le diplôme d'État PSC relève du ministère de l'Intérieur et n'est délivré que par les associations agréées de sécurité civile (Croix-Rouge, Protection civile, Fédération française de sauvetage et de secourisme…) ou les services publics habilités. Alertis n'étant pas une telle structure, nous remettons une attestation de participation Alertis détaillant les compétences acquises. Un recyclage tous les 3 ans est fortement conseillé pour rester opérationnel.",
     objectifs: [
       "Reconnaître une situation d'urgence et alerter les secours",
       "Réaliser les gestes de premiers secours (PLS, RCP, défibrillation)",
@@ -292,7 +295,7 @@ export const formationsContent: Record<string, FormationContent> = {
     ],
     publicConcerne:
       "Toute personne titulaire d'un PSC souhaitant maintenir ses compétences à jour.",
-    prerequis: "Certificat PSC.",
+    prerequis: "Attestation PSC.",
   },
 
   "formation-gqs-gestes-qui-sauvent": {
@@ -349,25 +352,33 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-oxygenotherapie": {
     intro:
-      "Maîtriser l'administration d'oxygène en situation d'urgence ou en soins. {heuresLabel|7 heures} pour les professionnels de santé amenés à gérer une oxygénothérapie ponctuelle ou continue.",
+      "Formation SST enrichie du module oxygénothérapie. {heuresLabel|14 heures} pour devenir Sauveteur Secouriste du Travail et savoir administrer de l'oxygène en situation d'urgence. Attention : l'oxygène médical est classé comme médicament (ANSM) — son administration est un acte délicat qui exige une vraie maîtrise du matériel, des indications et des risques.",
     description:
-      "L'oxygénothérapie est un acte courant en milieu de soins, mais qui demande une vraie maîtrise — du choix du dispositif (lunettes, masque haute concentration, ballon insufflateur) à la surveillance de l'efficacité, en passant par la sécurité du stockage des bouteilles (risque d'explosion en cas de contact avec un corps gras). La journée combine rappels de physiologie respiratoire, présentation détaillée du matériel et mises en situation sur mannequin et cas cliniques. Elle s'adresse aux professionnels de santé ou aux secouristes spécialisés qui peuvent être amenés à administrer de l'O₂ dans un contexte d'urgence ou de soin programmé.",
+      "L'oxygène médical n'est pas un gaz anodin : il est classé comme médicament par l'ANSM, ce qui encadre strictement les conditions d'administration, de stockage et de traçabilité. C'est un acte délicat — un débit mal réglé peut être inefficace ou même délétère selon la pathologie (BPCO, hypercapnie), et une bouteille mal stockée présente un risque d'explosion en cas de contact avec un corps gras. La formation reprend le contenu complet du SST (PLS, RCP, défibrillation, hémorragies, traumatismes) et y ajoute le module oxygénothérapie : choix du dispositif (lunettes nasales, masque haute concentration, BAVU — Ballon Auto-remplisseur à Valve Unidirectionnelle, utilisé pour insuffler de l'air à une victime qui ne respire plus), réglage du débit selon la situation, surveillance de l'efficacité, manipulation et sécurité de la bouteille. Mises en situation sur mannequin et cas concrets.",
     objectifs: [
-      "Identifier les indications de l'oxygénothérapie",
-      "Manipuler le matériel en sécurité (bouteille, manodétendeur, masques)",
-      "Adapter le débit et le dispositif au patient",
-      "Surveiller l'efficacité du traitement",
+      "Maîtriser les gestes du SST (PLS, RCP, défibrillation, hémorragies)",
+      "Comprendre le statut médicament de l'oxygène et ses implications réglementaires",
+      "Identifier les indications et contre-indications de l'oxygénothérapie",
+      "Manipuler le matériel en sécurité (bouteille, manodétendeur, masques, BAVU)",
+      "Adapter le débit et le dispositif à la situation clinique",
     ],
     programme: [
+      "Programme complet du SST (référentiel INRS)",
+      "L'oxygène médical : statut médicament, cadre réglementaire ANSM",
       "Physiologie respiratoire et indications de l'O₂",
-      "Matériel : bouteilles, débitmètres, masques, lunettes, ballon insufflateur",
-      "Sécurité et stockage des bouteilles d'oxygène",
-      "Mise en pratique sur mannequin et cas cliniques",
+      "Matériel : bouteilles, débitmètres, masques, lunettes, BAVU (ballon auto-remplisseur à valve unidirectionnelle)",
+      "Sécurité et stockage des bouteilles d'oxygène (risque d'explosion)",
+      "Mises en situation sur mannequin et cas concrets",
     ],
     publicConcerne:
-      "Professionnels de santé (infirmiers, aides-soignants, médecins), secouristes spécialisés, personnels d'ambulance, équipes de réanimation.",
+      "Salariés désignés SST en milieu à risque où la disponibilité d'oxygène est pertinente : équipes de soins, ambulanciers, secouristes en milieu industriel à risques, sites isolés ou ICPE.",
     prerequis:
-      "Diplôme ou titre de santé, ou formation aux premiers secours.",
+      "Aucun.",
+    notes: [
+      "Certificat SST INRS valable 24 mois · MAC SST oxygénothérapie tous les 24 mois pour renouveler",
+      "Formateurs SST habilités INRS",
+      "L'oxygène médical est classé comme médicament par l'ANSM",
+    ],
   },
 
   // ───────────────────────── SÉCURITÉ INCENDIE ─────────────────────────
