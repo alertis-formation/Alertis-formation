@@ -3,6 +3,7 @@ import { siteConfig, formationCategories } from "@/lib/site-config";
 import { articleSlugs, articles } from "@/lib/articles";
 import { formationEntries } from "@/lib/formations-data";
 import { faqs } from "@/lib/faq";
+import { locations } from "@/lib/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
@@ -72,11 +73,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const locationRoutes: MetadataRoute.Sitemap = locations.map((l) => ({
+    url: `${base}/${l.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
     ...dossierRoutes,
     ...faqRoutes,
+    ...locationRoutes,
     ...formationRoutes,
     ...articleRoutes,
   ];

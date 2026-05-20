@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Phone, Mail, Clock, MapPin, ArrowUpRight } from "lucide-react";
 import { AlertisLogo } from "./alertis-logo";
 import { footerNav, siteConfig } from "@/lib/site-config";
+import { locations } from "@/lib/locations";
 import { InstagramIcon, TikTokIcon, YouTubeIcon } from "./social-icons";
 import { CookiePreferencesLink } from "./cookie-preferences-link";
 
@@ -118,6 +119,24 @@ export function SiteFooter() {
             Demander un devis
             <ArrowUpRight className="size-3.5" />
           </Link>
+        </div>
+      </div>
+
+      {/* Zones d'intervention */}
+      <div className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-4 flex flex-wrap items-center gap-x-5 gap-y-2">
+          <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-[color:var(--brand-mint)]">
+            Zones d&apos;intervention
+          </span>
+          {locations.map((l) => (
+            <Link
+              key={l.slug}
+              href={`/${l.slug}`}
+              className="text-sm text-white/70 hover:text-white transition-colors"
+            >
+              {l.city}
+            </Link>
+          ))}
         </div>
       </div>
 

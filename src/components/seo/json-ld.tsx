@@ -381,3 +381,25 @@ export function ArticleJsonLd({
   };
   return <JsonLd data={data} />;
 }
+
+/**
+ * Service schema for a city / area landing page — reinforces local relevance.
+ */
+export function LocalServiceJsonLd({
+  city,
+  url,
+}: {
+  city: string;
+  url: string;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Formation en santé et sécurité au travail",
+    name: `Formation sécurité au travail à ${city}`,
+    provider: { "@id": `${siteConfig.url}#organization` },
+    areaServed: { "@type": "City", name: city },
+    url: url.startsWith("http") ? url : `${siteConfig.url}${url}`,
+  };
+  return <JsonLd data={data} />;
+}
