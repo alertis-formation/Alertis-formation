@@ -2,19 +2,14 @@ import Link from "next/link";
 import { Phone, Mail, Clock, MapPin, ArrowUpRight } from "lucide-react";
 import { AlertisLogo } from "./alertis-logo";
 import { footerNav, siteConfig } from "@/lib/site-config";
-import {
-  InstagramIcon,
-  TikTokIcon,
-  YouTubeIcon,
-  XIcon,
-} from "./social-icons";
+import { locations } from "@/lib/locations";
+import { InstagramIcon, TikTokIcon, YouTubeIcon } from "./social-icons";
 import { CookiePreferencesLink } from "./cookie-preferences-link";
 
 const socials = [
   { label: "Instagram", icon: InstagramIcon, url: siteConfig.social.instagram },
   { label: "TikTok", icon: TikTokIcon, url: siteConfig.social.tiktok },
   { label: "YouTube", icon: YouTubeIcon, url: siteConfig.social.youtube },
-  { label: "X (Twitter)", icon: XIcon, url: siteConfig.social.twitter },
 ];
 
 export function SiteFooter() {
@@ -124,6 +119,29 @@ export function SiteFooter() {
             Demander un devis
             <ArrowUpRight className="size-3.5" />
           </Link>
+        </div>
+      </div>
+
+      {/* Zones d'intervention */}
+      <div className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-4">
+          <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-[color:var(--brand-mint)] mb-2">
+            Nos formations partout en France
+          </p>
+          <p className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+            {locations.map((l) => (
+              <Link
+                key={l.slug}
+                href={`/${l.slug}`}
+                className="text-sm text-white/70 hover:text-white transition-colors"
+              >
+                {l.city}
+              </Link>
+            ))}
+            <span className="text-sm text-white/45">
+              et dans toute la France
+            </span>
+          </p>
         </div>
       </div>
 

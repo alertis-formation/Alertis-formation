@@ -26,16 +26,18 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
+        // `/_next/` reste crawlable : Googlebot a besoin du CSS/JS pour rendre
+        // les pages. On n'exclut que les routes sans contenu indexable.
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/admin/", "/_next/"],
+        disallow: ["/api/", "/admin/"],
       },
+      // Crawlers IA : accès total, aucune restriction (citations AI search).
       ...aiCrawlers.map((userAgent) => ({
         userAgent,
         allow: "/",
       })),
     ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
-    host: siteConfig.url,
   };
 }

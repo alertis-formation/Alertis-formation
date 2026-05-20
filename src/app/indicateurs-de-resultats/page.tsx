@@ -42,67 +42,6 @@ const headlineStats = [
     label: "Réussite habilitation électrique",
     sub: "Initial et recyclage, du B0 au BR — toutes habilitations confondues.",
   },
-  {
-    icon: Users,
-    value: "TODO",
-    suffix: "",
-    label: "Taux d'abandon",
-    sub: "Sessions interrompues avant la fin (hors cas de force majeure).",
-  },
-];
-
-const detailedStats: {
-  category: string;
-  metrics: { label: string; value: string; note?: string }[];
-}[] = [
-  {
-    category: "Sécurité incendie",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Taux de réussite EPI / ESI", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
-  {
-    category: "Secourisme (SST, MAC SST, PSC, DAE)",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Taux de réussite SST initial", value: "TODO" },
-      { label: "Taux de réussite MAC SST", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
-  {
-    category: "Habilitation électrique",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Taux de réussite (initial + recyclage)", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
-  {
-    category: "Ergonomie (PRAP IBC / 2S, Gestes & postures)",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Taux de réussite PRAP", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
-  {
-    category: "Prévention (CSE, DUERP, RPS)",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
-  {
-    category: "AFGSU 1 & 2",
-    metrics: [
-      { label: "Taux de satisfaction", value: "TODO" },
-      { label: "Taux de validation", value: "TODO" },
-      { label: "Stagiaires formés", value: "TODO" },
-    ],
-  },
 ];
 
 const methodology = [
@@ -174,11 +113,11 @@ export default function IndicateursPage() {
           <div className="text-center mb-12">
             <span className="eyebrow">Vue d&apos;ensemble</span>
             <h2 className="mt-4 text-[color:var(--brand-charcoal)]">
-              Quatre indicateurs{" "}
+              Trois indicateurs{" "}
               <span className="text-[color:var(--brand-red)]">clés</span>.
             </h2>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {headlineStats.map(({ icon: Icon, value, suffix, label, sub }) => {
               const isTodo = value === "TODO";
               return (
@@ -223,71 +162,6 @@ export default function IndicateursPage() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* Detail by category */}
-      <section className="py-20 bg-[color:var(--brand-cream)]">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10">
-          <div className="text-center mb-12">
-            <span className="eyebrow">Détail par domaine</span>
-            <h2 className="mt-4 text-[color:var(--brand-charcoal)]">
-              Résultats détaillés par{" "}
-              <span className="text-[color:var(--brand-red)]">catégorie</span>.
-            </h2>
-            <p className="mt-4 text-[color:var(--brand-gray-medium)] max-w-2xl mx-auto">
-              Chaque grand domaine que nous formons fait l&apos;objet d&apos;un
-              suivi statistique séparé pour permettre une analyse fine de la
-              qualité.
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {detailedStats.map(({ category, metrics }) => (
-              <div
-                key={category}
-                className="bg-white border border-[color:var(--brand-gray-medium)]/10 rounded-sm p-6"
-              >
-                <h3 className="text-base text-[color:var(--brand-charcoal)] mb-4 pb-3 border-b border-[color:var(--brand-gray-medium)]/15">
-                  {category}
-                </h3>
-                <ul className="space-y-3">
-                  {metrics.map(({ label, value, note }) => {
-                    const isTodo = value === "TODO";
-                    return (
-                      <li
-                        key={label}
-                        className="flex items-baseline justify-between gap-3"
-                      >
-                        <span className="text-sm text-[color:var(--brand-gray-medium)] leading-tight">
-                          {label}
-                          {note && (
-                            <span className="block text-[10px] text-[color:var(--brand-gray-medium)]/70 mt-0.5">
-                              {note}
-                            </span>
-                          )}
-                        </span>
-                        <span
-                          className={
-                            isTodo
-                              ? "text-xs font-bold uppercase tracking-wider text-yellow-700 bg-yellow-100 border border-dashed border-yellow-500 px-2 py-0.5 rounded shrink-0"
-                              : "text-base font-bold text-[color:var(--brand-red)] shrink-0"
-                          }
-                        >
-                          {value}
-                        </span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <p className="mt-8 text-xs text-[color:var(--brand-gray-medium)] text-center max-w-2xl mx-auto">
-            Le nombre de stagiaires formés est une estimation arrondie sur la
-            période de référence. Les taux sont calculés sur la totalité des
-            sessions clôturées avec un nombre de réponses au questionnaire
-            d&apos;évaluation supérieur à 5.
-          </p>
         </div>
       </section>
 

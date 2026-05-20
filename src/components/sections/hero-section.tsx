@@ -18,7 +18,7 @@ const trustBadges = [
 const heroStats = [
   { value: "97,4%", label: "Satisfaction stagiaires" },
   { value: "100%", label: "Réussite SST" },
-  { value: "61", label: "Formations au catalogue" },
+  { value: `${formationEntries.length}`, label: "Formations au catalogue" },
   { value: "10+", label: "Ans d'expertise terrain" },
 ];
 
@@ -54,7 +54,8 @@ export async function HeroSection() {
             <div className="space-y-3">
               <span className="eyebrow">Organisme de formation · Santé & sécurité au travail</span>
               <h1 className="!text-balance">
-                Nous formons vos équipes à la{" "}
+                Formation sécurité au travail&nbsp;: nous formons vos équipes
+                à la{" "}
                 <span className="text-[color:var(--brand-red)]">
                   prévention
                 </span>{" "}

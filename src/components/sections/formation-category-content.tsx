@@ -12,12 +12,15 @@ export type CategoryContentProps = {
   approaches: CategoryApproach[];
   ctaTitle?: string;
   ctaDescription?: string;
+  /** Optional contextual link to a related pillar article. */
+  furtherReading?: { label: string; href: string };
 };
 
 export function FormationCategoryContent({
   approaches,
   ctaTitle = "Cette formation vous intéresse ?",
   ctaDescription = "Devis sous 24h, intervention sur tout le territoire, sessions inter ou intra-entreprise.",
+  furtherReading,
 }: CategoryContentProps) {
   return (
     <>
@@ -57,6 +60,25 @@ export function FormationCategoryContent({
               )}
             </div>
           ))}
+          {furtherReading && (
+            <div className="rounded-xl bg-[color:var(--brand-cream)] p-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-red)] mb-1">
+                  À lire
+                </div>
+                <p className="text-sm text-[color:var(--brand-gray)]">
+                  {furtherReading.label}
+                </p>
+              </div>
+              <Link
+                href={furtherReading.href}
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4 shrink-0"
+              >
+                <span>Lire l&apos;article</span>
+                <ArrowRight className="size-4" />
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 

@@ -83,6 +83,11 @@ export default function SecourismePage() {
             ],
           },
         ]}
+        furtherReading={{
+          label:
+            "La formation SST est-elle obligatoire ? Ce que dit le Code du travail",
+          href: "/formation-sst-obligatoire-code-du-travail",
+        }}
       />
     </PageShell>
   );

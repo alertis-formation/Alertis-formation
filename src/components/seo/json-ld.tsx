@@ -46,7 +46,6 @@ export async function OrganizationJsonLd() {
       siteConfig.social.instagram,
       siteConfig.social.tiktok,
       siteConfig.social.youtube,
-      siteConfig.social.twitter,
     ],
     identifier: {
       "@type": "PropertyValue",
@@ -94,14 +93,6 @@ export function WebSiteJsonLd() {
     description: siteConfig.description,
     inLanguage: "fr-FR",
     publisher: { "@id": `${siteConfig.url}#organization` },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${siteConfig.url}/formations?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
   return <JsonLd data={data} />;
 }
@@ -188,7 +179,6 @@ export async function LocalBusinessJsonLd() {
       siteConfig.social.instagram,
       siteConfig.social.tiktok,
       siteConfig.social.youtube,
-      siteConfig.social.twitter,
     ],
   };
   return <JsonLd data={data} />;
@@ -249,7 +239,6 @@ export function CourseJsonLd({
   name,
   description,
   url,
-  category,
   audienceType,
   priceEUR,
   duration,
@@ -260,7 +249,6 @@ export function CourseJsonLd({
   name: string;
   description: string;
   url: string;
-  category?: string;
   /** EducationalAudience.audienceType (e.g. "Professionnels de santé", "Salariés"). */
   audienceType?: string;
   /** Price in euros — set if API returns a tarif. */
@@ -299,7 +287,6 @@ export function CourseJsonLd({
     teaches: name,
   };
 
-  if (category) data.educationalCredentialAwarded = category;
   if (audienceType) {
     data.audience = {
       "@type": "EducationalAudience",
@@ -391,6 +378,28 @@ export function ArticleJsonLd({
       },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${siteConfig.url}${url}` },
+  };
+  return <JsonLd data={data} />;
+}
+
+/**
+ * Service schema for a city / area landing page — reinforces local relevance.
+ */
+export function LocalServiceJsonLd({
+  city,
+  url,
+}: {
+  city: string;
+  url: string;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Formation en santé et sécurité au travail",
+    name: `Formation sécurité au travail à ${city}`,
+    provider: { "@id": `${siteConfig.url}#organization` },
+    areaServed: { "@type": "City", name: city },
+    url: url.startsWith("http") ? url : `${siteConfig.url}${url}`,
   };
   return <JsonLd data={data} />;
 }

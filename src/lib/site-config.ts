@@ -39,10 +39,9 @@ export const siteConfig = {
     ndaRegion: "Auvergne-Rhône-Alpes",
   },
   social: {
-    instagram: "https://www.instagram.com/alertisformation",
+    instagram: "https://www.instagram.com/alertis_formation",
     tiktok: "https://www.tiktok.com/@alertisformation",
     youtube: "https://www.youtube.com/@alertis69",
-    twitter: "https://x.com/alertisformation",
   },
   googleReviewUrl: "https://g.page/r/CWzZO4gxn16CEAI/review",
   rating: {

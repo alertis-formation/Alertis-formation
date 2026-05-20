@@ -67,7 +67,7 @@ export const metadata = {
   title:
     "Formation AFGSU 1, AFGSU 2, remise à niveau : gestes et soins d'urgence",
   description:
-    "Formation AFGSU pour professionnels de santé : niveau 1 (personnels non soignants), niveau 2 (soignants), remise à niveau tous les 4 ans. Conforme à l'arrêté du 1er juillet 2019, sessions partout en France.",
+    "Formation AFGSU pour professionnels de santé : niveau 1 (personnels non soignants), niveau 2 (soignants), remise à niveau tous les 4 ans. Conforme à l'arrêté du 30 décembre 2014 modifié, sessions partout en France.",
   alternates: { canonical: "/nos-formations-afgsu" },
   openGraph: {
     title: "Formations AFGSU 1, 2 et remise à niveau — Alertis",
@@ -97,7 +97,7 @@ export default async function AfgsuPage() {
   return (
     <PageShell
       title="Formations AFGSU"
-      subtitle="Devenez acteur de l'urgence en milieu de soins. Nos formations AFGSU (Attestation de Formation aux Gestes et Soins d'Urgence) couvrent tous les niveaux pour les professionnels de santé, conformément à l'arrêté du 30 décembre 2014."
+      subtitle="Devenez acteur de l'urgence en milieu de soins. Nos formations AFGSU (Attestation de Formation aux Gestes et Soins d'Urgence) couvrent tous les niveaux pour les professionnels de santé, conformément à l'arrêté du 30 décembre 2014 modifié."
       breadcrumbs={[
         { label: "Formations", href: "/formations" },
         { label: "AFGSU" },
@@ -175,6 +175,15 @@ export default async function AfgsuPage() {
               <span className="font-medium">
                 Sessions dans toute la France
               </span>
+            </div>
+            <div className="mt-6">
+              <Link
+                href="/formation-afgsu-obligatoire-niveaux-1-2"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"
+              >
+                <span>À lire : la formation AFGSU est-elle obligatoire ?</span>
+                <ArrowRight className="size-4" />
+              </Link>
             </div>
           </div>
           <ul className="space-y-3 rounded-xl bg-white p-6 ring-1 ring-border">
