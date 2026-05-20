@@ -124,19 +124,24 @@ export function SiteFooter() {
 
       {/* Zones d'intervention */}
       <div className="border-t border-white/10">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-4 flex flex-wrap items-center gap-x-5 gap-y-2">
-          <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-[color:var(--brand-mint)]">
-            Zones d&apos;intervention
-          </span>
-          {locations.map((l) => (
-            <Link
-              key={l.slug}
-              href={`/${l.slug}`}
-              className="text-sm text-white/70 hover:text-white transition-colors"
-            >
-              {l.city}
-            </Link>
-          ))}
+        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-4">
+          <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-[color:var(--brand-mint)] mb-2">
+            Nos formations partout en France
+          </p>
+          <p className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+            {locations.map((l) => (
+              <Link
+                key={l.slug}
+                href={`/${l.slug}`}
+                className="text-sm text-white/70 hover:text-white transition-colors"
+              >
+                {l.city}
+              </Link>
+            ))}
+            <span className="text-sm text-white/45">
+              et dans toute la France
+            </span>
+          </p>
         </div>
       </div>
 

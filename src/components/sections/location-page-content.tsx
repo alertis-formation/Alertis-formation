@@ -1,17 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Calendar, MapPin } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { Button } from "@/components/ui/button";
 import { BreadcrumbJsonLd, LocalServiceJsonLd } from "@/components/seo/json-ld";
+import { getUpcomingSessionsByDepartments } from "@/lib/alertis-api";
 import type { Location } from "@/lib/locations";
 
 /**
- * Rendu d'une page locale. La mise en page est commune ; tout le contenu
- * (intro, tissu économique, secteurs, formations) provient de `data` et est
- * propre à chaque ville.
+ * Rendu d'une page locale. La mise en page est commune ; le contenu
+ * (intro, tissu économique, secteurs, formations) est propre à chaque ville,
+ * et les sessions affichées sont les vraies sessions de l'API pour ses
+ * départements.
  */
-export function LocationPageContent({ data }: { data: Location }) {
+export async function LocationPageContent({ data }: { data: Location }) {
+  const sessions = await getUpcomingSessionsByDepartments(data.departments, 10);
+  const hasSessions = sessions.length > 0;
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -32,23 +37,25 @@ export function LocationPageContent({ data }: { data: Location }) {
         {/* Tissu économique local */}
         <section className="py-16 bg-white">
           <div className="mx-auto max-w-6xl px-6">
-            <figure className="mb-12">
-              <div className="relative aspect-[21/9] overflow-hidden rounded-xl ring-1 ring-border">
-                <Image
-                  src={data.image}
-                  alt={`Formation sécurité au travail à ${data.city}`}
-                  fill
-                  sizes="(max-width: 1152px) 100vw, 1100px"
-                  className="object-cover"
-                  priority
-                />
-              </div>
-              {data.imageCredit && (
-                <figcaption className="mt-1.5 text-[11px] text-[color:var(--brand-gray-medium)]">
-                  {data.imageCredit}
-                </figcaption>
-              )}
-            </figure>
+            {data.image && (
+              <figure className="mb-12">
+                <div className="relative aspect-[21/9] overflow-hidden rounded-xl ring-1 ring-border">
+                  <Image
+                    src={data.image}
+                    alt={`Formation sécurité au travail à ${data.city}`}
+                    fill
+                    sizes="(max-width: 1152px) 100vw, 1100px"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+                {data.imageCredit && (
+                  <figcaption className="mt-1.5 text-[11px] text-[color:var(--brand-gray-medium)]">
+                    {data.imageCredit}
+                  </figcaption>
+                )}
+              </figure>
+            )}
             <div className="mx-auto max-w-3xl">
               <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl mb-6">
                 Le tissu économique de {data.city} et ses enjeux de prévention
@@ -62,8 +69,59 @@ export function LocationPageContent({ data }: { data: Location }) {
           </div>
         </section>
 
+        {/* Prochaines sessions — données live de l'API */}
+        {hasSessions && (
+          <section className="py-16 bg-[color:var(--brand-cream)]">
+            <div className="mx-auto max-w-3xl px-6">
+              <div className="flex items-center gap-2 mb-2">
+                <Calendar className="size-5 text-[color:var(--brand-red)]" />
+                <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl">
+                  Prochaines sessions inter-entreprises à {data.city}
+                </h2>
+              </div>
+              <p className="text-sm text-[color:var(--brand-gray-medium)] mb-6">
+                Calendrier des sessions planifiées près de chez vous. Nous
+                organisons également des formations en intra-entreprise, dans
+                vos locaux et calibrées sur votre activité.
+              </p>
+              <ul className="divide-y divide-[color:var(--brand-gray-medium)]/15 rounded-xl bg-white ring-1 ring-border overflow-hidden">
+                {sessions.map((s) => (
+                  <li
+                    key={s.id}
+                    className="flex items-center justify-between gap-4 p-4"
+                  >
+                    <div>
+                      <div className="text-sm font-bold text-[color:var(--brand-charcoal)]">
+                        {s.formation}
+                      </div>
+                      <div className="text-xs text-[color:var(--brand-gray-medium)] mt-0.5">
+                        {formatDateRange(s.dateDebut, s.dateFin)} · {s.ville}
+                        {s.departement ? ` (${s.departement})` : ""}
+                      </div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-sm font-bold text-[color:var(--brand-charcoal)]">
+                        {formatPrice(s.prixVente)}
+                      </div>
+                      {typeof s.disponibilite === "number" && (
+                        <div className="text-[10px] uppercase tracking-widest text-[color:var(--brand-gray-medium)] mt-0.5">
+                          {s.disponibilite > 0
+                            ? `${s.disponibilite} place${s.disponibilite > 1 ? "s" : ""}`
+                            : "Complet"}
+                        </div>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
         {/* Secteurs */}
-        <section className="py-16 bg-[color:var(--brand-cream)]">
+        <section
+          className={`py-16 ${hasSessions ? "bg-white" : "bg-[color:var(--brand-cream)]"}`}
+        >
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl mb-8">
               Secteurs et besoins de formation à {data.city}
@@ -87,7 +145,9 @@ export function LocationPageContent({ data }: { data: Location }) {
         </section>
 
         {/* Formations prioritaires */}
-        <section className="py-16 bg-white">
+        <section
+          className={`py-16 ${hasSessions ? "bg-[color:var(--brand-cream)]" : "bg-white"}`}
+        >
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl mb-8">
               Les formations prioritaires à {data.city}
@@ -97,7 +157,7 @@ export function LocationPageContent({ data }: { data: Location }) {
                 <Link
                   key={f.href}
                   href={f.href}
-                  className="group flex flex-col rounded-xl p-6 ring-1 ring-[color:var(--brand-gray-medium)]/15 hover:ring-[color:var(--brand-red)] hover:shadow-lg transition-all"
+                  className="group flex flex-col rounded-xl bg-white p-6 ring-1 ring-[color:var(--brand-gray-medium)]/15 hover:ring-[color:var(--brand-red)] hover:shadow-lg transition-all"
                 >
                   <div className="flex items-start justify-between gap-3">
                     <h3 className="text-base font-semibold text-[color:var(--brand-charcoal)] group-hover:text-[color:var(--brand-red)] transition-colors">
@@ -142,4 +202,26 @@ export function LocationPageContent({ data }: { data: Location }) {
       </PageShell>
     </>
   );
+}
+
+function formatDateRange(start: string, end: string): string {
+  const s = new Date(start);
+  const e = new Date(end);
+  const fmt = (d: Date) =>
+    d.toLocaleDateString("fr-FR", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    });
+  return s.toDateString() === e.toDateString()
+    ? fmt(s)
+    : `${fmt(s)} → ${fmt(e)}`;
+}
+
+function formatPrice(price: number): string {
+  return new Intl.NumberFormat("fr-FR", {
+    style: "currency",
+    currency: "EUR",
+    maximumFractionDigits: 0,
+  }).format(price);
 }

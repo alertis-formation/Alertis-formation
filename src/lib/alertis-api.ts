@@ -158,3 +158,45 @@ export async function getAllFormations(): Promise<ApiFormation[]> {
     return [];
   }
 }
+
+/**
+ * Fetch all upcoming inter-entreprise sessions (paginated, no formation filter).
+ * Cached via the fetch revalidate. Returns [] on error.
+ */
+export async function getAllUpcomingSessions(): Promise<ApiSession[]> {
+  try {
+    const all: ApiSession[] = [];
+    let offset = 0;
+    const limit = 100;
+    for (let i = 0; i < 30; i++) {
+      const json = await apiFetch<ApiResponse<ApiSession[]>>(
+        `/sessions?limit=${limit}&offset=${offset}`
+      );
+      const data = json.data ?? [];
+      all.push(...data);
+      if (!json.pagination?.hasMore || data.length === 0) break;
+      offset += limit;
+    }
+    return all;
+  } catch (e) {
+    console.error("[alertis-api] getAllUpcomingSessions failed:", e);
+    return [];
+  }
+}
+
+/**
+ * Upcoming sessions located in the given department codes (e.g. ["31"],
+ * ["75","92","93","94"]), sorted by start date. Used by the area landing pages.
+ */
+export async function getUpcomingSessionsByDepartments(
+  departments: string[],
+  limit = 12
+): Promise<ApiSession[]> {
+  if (departments.length === 0) return [];
+  const set = new Set(departments);
+  const all = await getAllUpcomingSessions();
+  return all
+    .filter((s) => set.has(s.departement))
+    .sort((a, b) => a.dateDebut.localeCompare(b.dateDebut))
+    .slice(0, limit);
+}
