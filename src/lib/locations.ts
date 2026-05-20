@@ -20,6 +20,8 @@ export type Location = {
   slug: string;
   city: string;
   departmentName: string;
+  /** Image d'illustration (vue de la ville), sous public/images/locations/. */
+  image: string;
   /** Meta description propre à la ville (~155-200 caractères). */
   metaDescription: string;
   /** Paragraphe d'accroche, unique à la ville. */
@@ -38,6 +40,7 @@ export const lyon: Location = {
   slug: "formation-securite-lyon",
   city: "Lyon",
   departmentName: "Rhône",
+  image: "/images/locations/formation-securite-lyon.jpg",
   metaDescription:
     "Organisme de formation santé et sécurité au travail intervenant à Lyon et dans le Rhône : SST, incendie, AFGSU, habilitation électrique, gestes et postures. Sessions intra et inter-entreprises.",
   intro:
@@ -102,6 +105,7 @@ export const villeurbanne: Location = {
   slug: "formation-securite-villeurbanne",
   city: "Villeurbanne",
   departmentName: "Rhône",
+  image: "/images/locations/formation-securite-villeurbanne.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Villeurbanne : SST, sécurité incendie, AFGSU, gestes et postures, habilitation électrique. Sessions intra et inter-entreprises pour PME, ERP et médico-social.",
   intro:
@@ -160,6 +164,7 @@ export const grenoble: Location = {
   slug: "formation-securite-grenoble",
   city: "Grenoble",
   departmentName: "Isère",
+  image: "/images/locations/formation-securite-grenoble.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Grenoble et en Isère : SST, habilitation électrique, incendie, AFGSU, gestes et postures. Adaptées à l'industrie de pointe, à la recherche et au BTP.",
   intro:
@@ -219,6 +224,7 @@ export const saintEtienne: Location = {
   slug: "formation-securite-saint-etienne",
   city: "Saint-Étienne",
   departmentName: "Loire",
+  image: "/images/locations/formation-securite-saint-etienne.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Saint-Étienne et dans la Loire : SST, incendie, gestes et postures, PRAP, AFGSU. Adaptées à l'industrie, au BTP et au secteur médico-social.",
   intro:
