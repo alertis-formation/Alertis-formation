@@ -46,7 +46,6 @@ export async function OrganizationJsonLd() {
       siteConfig.social.instagram,
       siteConfig.social.tiktok,
       siteConfig.social.youtube,
-      siteConfig.social.twitter,
     ],
     identifier: {
       "@type": "PropertyValue",
@@ -180,7 +179,6 @@ export async function LocalBusinessJsonLd() {
       siteConfig.social.instagram,
       siteConfig.social.tiktok,
       siteConfig.social.youtube,
-      siteConfig.social.twitter,
     ],
   };
   return <JsonLd data={data} />;

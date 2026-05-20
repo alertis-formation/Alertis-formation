@@ -18,7 +18,7 @@ const trustBadges = [
 const heroStats = [
   { value: "97,4%", label: "Satisfaction stagiaires" },
   { value: "100%", label: "Réussite SST" },
-  { value: "61", label: "Formations au catalogue" },
+  { value: `${formationEntries.length}`, label: "Formations au catalogue" },
   { value: "10+", label: "Ans d'expertise terrain" },
 ];
 

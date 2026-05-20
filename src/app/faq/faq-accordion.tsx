@@ -8,12 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
-export type FaqItem = {
-  q: string;
-  a: string;
-  links?: { label: string; href: string }[];
-};
+import type { FaqItem } from "@/lib/faq";
 
 export function FaqAccordion({ items }: { items: FaqItem[] }) {
   return (
@@ -45,6 +40,15 @@ export function FaqAccordion({ items }: { items: FaqItem[] }) {
                 ))}
               </div>
             ) : null}
+            <div className="mt-4 not-prose whitespace-normal">
+              <Link
+                href={`/faq/${item.slug}`}
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"
+              >
+                <span>Voir la page dédiée à cette question</span>
+                <ArrowUpRight className="size-3.5" />
+              </Link>
+            </div>
           </AccordionContent>
         </AccordionItem>
       ))}

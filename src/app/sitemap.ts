@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig, formationCategories } from "@/lib/site-config";
 import { articleSlugs, articles } from "@/lib/articles";
 import { formationEntries } from "@/lib/formations-data";
+import { faqs } from "@/lib/faq";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
@@ -64,10 +65,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  const faqRoutes: MetadataRoute.Sitemap = faqs.map((f) => ({
+    url: `${base}/faq/${f.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
     ...dossierRoutes,
+    ...faqRoutes,
     ...formationRoutes,
     ...articleRoutes,
   ];

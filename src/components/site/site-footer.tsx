@@ -2,19 +2,13 @@ import Link from "next/link";
 import { Phone, Mail, Clock, MapPin, ArrowUpRight } from "lucide-react";
 import { AlertisLogo } from "./alertis-logo";
 import { footerNav, siteConfig } from "@/lib/site-config";
-import {
-  InstagramIcon,
-  TikTokIcon,
-  YouTubeIcon,
-  XIcon,
-} from "./social-icons";
+import { InstagramIcon, TikTokIcon, YouTubeIcon } from "./social-icons";
 import { CookiePreferencesLink } from "./cookie-preferences-link";
 
 const socials = [
   { label: "Instagram", icon: InstagramIcon, url: siteConfig.social.instagram },
   { label: "TikTok", icon: TikTokIcon, url: siteConfig.social.tiktok },
   { label: "YouTube", icon: YouTubeIcon, url: siteConfig.social.youtube },
-  { label: "X (Twitter)", icon: XIcon, url: siteConfig.social.twitter },
 ];
 
 export function SiteFooter() {

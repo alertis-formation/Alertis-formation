@@ -98,13 +98,6 @@ const nextConfig: NextConfig = {
         destination: "/feed.xml",
         permanent: true,
       },
-      // Anciennes pages FAQ WordPress individuelles (/faq/[sujet]/) →
-      // FAQ consolidée. `:slug+` ne capture pas /faq lui-même.
-      {
-        source: "/faq/:slug+",
-        destination: "/faq",
-        permanent: true,
-      },
       // WP admin / login bots — redirect to home (avoid 404 spam in search console)
       {
         source: "/wp-admin/:path*",
