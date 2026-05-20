@@ -44,6 +44,7 @@ export const articleSlugs = [
   "formation-incendie-realite-virtuelle-vr-evacuation-extincteurs",
   "duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique",
   "exercice-evacuation-incendie-comment-organiser",
+  "tms-troubles-musculo-squelettiques-prevention-entreprise",
 ] as const;
 
 /**
@@ -2706,6 +2707,83 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos guides d'évacuation et équipiers de première intervention,",
         label: "consultez notre page formation incendie",
         href: "/formations/incendie",
+      },
+    ],
+  },
+
+  "tms-troubles-musculo-squelettiques-prevention-entreprise": {
+    title:
+      "TMS au travail : identifier les facteurs de risque et organiser la prévention",
+    excerpt:
+      "Les troubles musculo-squelettiques sont la première cause de maladie professionnelle en France. Facteurs de risque, démarche de prévention et obligations réglementaires : l\'essentiel pour un préventeur.",
+    publishedAt: "2026-05-20",
+    category: "Ergonomie",
+    readingTime: 6,
+    image:
+      "/images/articles/tms-troubles-musculo-squelettiques-prevention-entreprise.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Les troubles musculo-squelettiques (TMS) constituent la première cause de maladie professionnelle reconnue en France, selon les statistiques annuelles de l\'Assurance Maladie - Risques Professionnels. Ils représentent une source considérable d\'absentéisme et de désinsertion professionnelle. Pourtant, les TMS ne sont pas une fatalité : ils résultent d\'expositions identifiables, évaluables et réductibles — à condition d\'agir sur les bons leviers.",
+      },
+      { type: "h2", text: "Qu\'est-ce qu\'un TMS ?" },
+      {
+        type: "p",
+        text: "Un TMS est une atteinte des structures périarticulaires : muscles, tendons, nerfs, ligaments et bourses séreuses. Il se développe de façon progressive, souvent sans traumatisme apparent, en réponse à des contraintes répétées. Les zones corporelles les plus fréquemment touchées en milieu professionnel sont le dos (lombalgies), l\'épaule (tendinites de la coiffe des rotateurs), le coude (épicondylite) et le poignet (syndrome du canal carpien).",
+      },
+      {
+        type: "ul",
+        items: [
+          "Lombalgies : douleurs du bas du dos, liées à la manutention et aux postures prolongées",
+          "Tendinites de l\'épaule : coiffe des rotateurs, courantes chez les opérateurs de chaîne et les métiers du bâtiment",
+          "Épicondylite : atteinte du coude, fréquente dans les métiers de bouche et l\'industrie",
+          "Syndrome du canal carpien : compression du nerf médian au poignet, présent chez les caissiers et utilisateurs intensifs de souris",
+          "Cervicalgies : douleurs cervicales liées au travail sur écran ou au port de charges en hauteur",
+        ],
+      },
+      { type: "h2", text: "Les facteurs de risque : au-delà du geste" },
+      {
+        type: "ul",
+        items: [
+          "Biomécaniques : postures maintenues ou contraintes, efforts excessifs, répétitivité des gestes, vibrations mécaniques",
+          "Organisationnels : cadence élevée, absence de pauses, travail en flux tendu, manque d\'autonomie",
+          "Environnementaux : travail au froid, exposition aux vibrations, mauvais éclairage",
+          "Psychosociaux : forte pression de résultat, manque de soutien managérial, tensions dans l\'équipe, faible latitude décisionnelle",
+        ],
+      },
+      { type: "h2", text: "Tous les secteurs sont concernés" },
+      {
+        type: "p",
+        text: "Il serait inexact de réserver les TMS aux seuls métiers physiques. Les travailleurs de bureau sont exposés aux cervicalgies et aux syndromes du canal carpien. Les soignants et aides à domicile aux lombalgies et aux TMS de l\'épaule. Les caissiers et hôtes de caisse aux TMS du poignet. Les conducteurs aux lombalgies liées aux vibrations. Pour chaque secteur, les facteurs de risque sont spécifiques — et l\'analyse de l\'activité réelle reste indispensable avant toute action de prévention.",
+      },
+      { type: "h2", text: "La démarche de prévention INRS en quatre étapes" },
+      {
+        type: "ul",
+        items: [
+          "Dépistage des situations à risque : entretiens avec les salariés et le médecin du travail, analyse des indicateurs RH (absentéisme, restrictions d\'aptitude)",
+          "Analyse du travail réel : observation des postes, identification des contraintes biomécaniques et organisationnelles",
+          "Plan d\'action : interventions sur les équipements, l\'organisation du travail — et formation des salariés à la prévention des risques liés à l\'activité physique (PRAP)",
+          "Évaluation et suivi : indicateurs à 12 mois, révision du plan d\'action, mise à jour du DUERP",
+        ],
+      },
+      { type: "h2", text: "DUERP : y inscrire les TMS est obligatoire" },
+      {
+        type: "p",
+        text: "En application des articles L.4121-1 et L.4121-3 du Code du travail, l\'employeur est tenu d\'évaluer les risques pour la santé et la sécurité des travailleurs et d\'en consigner les résultats dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). Les TMS doivent y figurer explicitement : facteurs identifiés pour chaque unité de travail, niveau de risque estimé et mesures de prévention envisagées. Un DUERP qui n\'aborde pas les TMS est considéré comme incomplet lors d\'un contrôle de l\'inspection du travail.",
+      },
+      {
+        type: "quote",
+        text: "Prévenir les TMS, c\'est agir sur l\'organisation du travail autant que sur le geste. Un geste bien appris dans une organisation qui impose une cadence ou des postures irréalistes reste un geste qui abîme.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-3. Documentation de référence sur la prévention des TMS disponible sur le site de l\'INRS (inrs.fr).",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos salariés à la prévention des risques liés à l\'activité physique,",
+        label: "découvrez notre formation PRAP",
+        href: "/formations/prap",
       },
     ],
   },
