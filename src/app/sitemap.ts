@@ -1,11 +1,14 @@
 import type { MetadataRoute } from "next";
 import { siteConfig, formationCategories } from "@/lib/site-config";
-import { articleSlugs } from "@/lib/articles";
+import { articleSlugs, articles } from "@/lib/articles";
 import { formationEntries } from "@/lib/formations-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
-  const lastModified = new Date();
+  // Stable date for editorial pages. Using `new Date()` here would reset the
+  // <lastmod> of ~95 URLs on every deploy, teaching Google to distrust them.
+  // Bump manually when a static page's content meaningfully changes.
+  const lastModified = new Date("2026-05-20");
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, lastModified, changeFrequency: "weekly", priority: 1.0 },
@@ -43,14 +46,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articleRoutes: MetadataRoute.Sitemap = articleSlugs.map((slug) => ({
     url: `${base}/${slug}`,
-    lastModified,
+    lastModified: new Date(articles[slug].publishedAt),
     changeFrequency: "monthly",
     priority: 0.7,
+  }));
+
+  const dossierRoutes: MetadataRoute.Sitemap = [
+    "sst",
+    "incendie",
+    "prap",
+    "psc-pse",
+    "gestes-qui-sauvent",
+  ].map((slug) => ({
+    url: `${base}/dossier/${slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.5,
   }));
 
   return [
     ...staticRoutes,
     ...categoryRoutes,
+    ...dossierRoutes,
     ...formationRoutes,
     ...articleRoutes,
   ];

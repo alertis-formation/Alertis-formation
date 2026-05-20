@@ -104,7 +104,6 @@ export default async function FormationDetailPage({
         name={f.title}
         description={f.excerpt}
         url={`/formations/${slug}`}
-        category={apiData?.categorie}
         audienceType={audienceForCategory(f.category)}
         image={f.image}
         priceEUR={parsePriceEUR(apiData?.tarifIntra)}

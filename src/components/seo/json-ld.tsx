@@ -94,14 +94,6 @@ export function WebSiteJsonLd() {
     description: siteConfig.description,
     inLanguage: "fr-FR",
     publisher: { "@id": `${siteConfig.url}#organization` },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${siteConfig.url}/formations?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
   return <JsonLd data={data} />;
 }
@@ -249,7 +241,6 @@ export function CourseJsonLd({
   name,
   description,
   url,
-  category,
   audienceType,
   priceEUR,
   duration,
@@ -260,7 +251,6 @@ export function CourseJsonLd({
   name: string;
   description: string;
   url: string;
-  category?: string;
   /** EducationalAudience.audienceType (e.g. "Professionnels de santé", "Salariés"). */
   audienceType?: string;
   /** Price in euros — set if API returns a tarif. */
@@ -299,7 +289,6 @@ export function CourseJsonLd({
     teaches: name,
   };
 
-  if (category) data.educationalCredentialAwarded = category;
   if (audienceType) {
     data.audience = {
       "@type": "EducationalAudience",

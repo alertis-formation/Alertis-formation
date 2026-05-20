@@ -16,6 +16,10 @@ Si le MAC est réalisé après la date d'échéance, la certification n'est pas 
 Nous proposons les sessions SST et MAC SST en intra-entreprise dans toute la France, avec un formateur certifié par l'INRS.`,
     links: [
       { label: "Formations Secourisme & SST", href: "/formations-secourisme" },
+      {
+        label: "Article : la formation SST est-elle obligatoire ?",
+        href: "/formation-sst-obligatoire-code-du-travail",
+      },
     ],
   },
   {
@@ -49,6 +53,10 @@ Nos sessions d'habilitation électrique (initiale ou recyclage) sont organisées
         label: "Article : prévention des risques électriques",
         href: "/prevention-des-risques-electriques-limportance-de-lhabilitation-professionnelle",
       },
+      {
+        label: "Article : recyclage de l'habilitation électrique",
+        href: "/recyclage-habilitation-electrique-frequence-obligation",
+      },
     ],
   },
   {
@@ -60,6 +68,10 @@ L'AFGSU niveau 1 (14 heures sur 2 jours) s'adresse à tout personnel non soignan
 L'attestation est valable 4 ans et doit être renouvelée par une formation de remise à niveau de 7 heures. Alertis organise des sessions AFGSU 1, AFGSU 2 et remises à niveau en tant que centre habilité par des CESU. L'attestation officielle est délivrée par le CESU habilitant, conformément à l'arrêté du 1er juillet 2019.`,
     links: [
       { label: "Nos formations AFGSU", href: "/nos-formations-afgsu" },
+      {
+        label: "Article : la formation AFGSU est-elle obligatoire ?",
+        href: "/formation-afgsu-obligatoire-niveaux-1-2",
+      },
       { label: "Contact AFGSU", href: "/contact-formation-afgsu" },
     ],
   },

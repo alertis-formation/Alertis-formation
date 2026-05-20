@@ -86,6 +86,11 @@ export default function HabilitationElectriquePage() {
             ],
           },
         ]}
+        furtherReading={{
+          label:
+            "Recyclage de l'habilitation électrique : fréquence, obligation et organisation",
+          href: "/recyclage-habilitation-electrique-frequence-obligation",
+        }}
       />
     </PageShell>
   );

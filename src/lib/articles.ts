@@ -3,6 +3,9 @@
  * Used by `generateStaticParams` and the sitemap.
  */
 export const articleSlugs = [
+  "formation-sst-obligatoire-code-du-travail",
+  "recyclage-habilitation-electrique-frequence-obligation",
+  "formation-afgsu-obligatoire-niveaux-1-2",
   "prevention-des-risques-electriques-limportance-de-lhabilitation-professionnelle",
   "formation-pssm-premiers-secours-en-sante-mentale",
   "formation-incendie-obligatoire-ce-que-dit-la-reglementation",
@@ -90,6 +93,102 @@ export type Article = {
 };
 
 export const articles: Record<string, Article> = {
+  "formation-sst-obligatoire-code-du-travail": {
+    title:
+      "La formation SST est-elle obligatoire ? Ce que dit le Code du travail",
+    excerpt:
+      "Oui, dans des cas précis définis par le Code du travail — et vivement recommandée partout ailleurs. Obligation, nombre de secouristes, validité du certificat : le point complet sur la formation Sauveteur Secouriste du Travail.",
+    publishedAt: "2026-05-19",
+    category: "Secourisme",
+    readingTime: 8,
+    image: "/images/articles/formation-sst-obligatoire-code-du-travail.jpg",
+    content: [
+      { type: "p", text: "La formation SST — Sauveteur Secouriste du Travail — est obligatoire dans deux situations précises définies par le Code du travail : dans chaque atelier où sont réalisés des travaux dangereux, et sur chaque chantier employant au moins 20 personnes pendant plus de 15 jours lorsque des travaux dangereux y sont effectués. En dehors de ces cas, elle n'est pas strictement imposée — mais elle reste vivement recommandée et s'inscrit dans l'obligation générale de sécurité qui pèse sur tout employeur." },
+      { type: "h2", text: "Ce que dit précisément le Code du travail" },
+      { type: "p", text: "L'obligation de former des secouristes figure à l'article R4224-15 du Code du travail. Celui-ci impose qu'un membre du personnel reçoive la formation de secouriste nécessaire pour donner les premiers secours en cas d'urgence dans deux situations :" },
+      { type: "ul", items: ["chaque atelier où sont accomplis des travaux dangereux ;", "chaque chantier employant 20 travailleurs au moins pendant plus de 15 jours, dès lors que des travaux dangereux y sont réalisés."] },
+      { type: "p", text: "L'article R4224-16 complète le dispositif : en l'absence d'infirmier, ou lorsque leur nombre ne permet pas d'assurer une présence permanente, l'employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades. C'est dans ce cadre que s'organise concrètement la présence de Sauveteurs Secouristes du Travail." },
+      { type: "h2", text: "Une obligation de sécurité qui concerne, en réalité, toutes les entreprises" },
+      { type: "p", text: "Même lorsque l'article R4224-15 ne s'applique pas directement, aucun employeur n'est dispensé de prévoir l'organisation des secours. L'article L4121-1 impose en effet de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Disposer de salariés capables d'alerter et de porter secours fait partie intégrante de ces mesures." },
+      { type: "p", text: "Dans les faits, l'inspection du travail comme les services de prévention (Carsat, INRS) considèrent qu'une entreprise doit pouvoir compter, à tout moment et sur chaque site, sur un nombre suffisant de personnes formées aux premiers secours. Le SST est la réponse la plus reconnue à ce besoin." },
+      { type: "quote", text: "Former un Sauveteur Secouriste du Travail, ce n'est pas seulement répondre à une obligation : c'est garantir qu'en cas d'accident, quelqu'un saura agir dans les premières minutes — celles qui comptent le plus." },
+      { type: "h2", text: "Combien de SST faut-il dans l'entreprise ?" },
+      { type: "p", text: "Le Code du travail ne fixe aucun pourcentage. L'INRS recommande d'adapter le nombre de Sauveteurs Secouristes du Travail à la réalité de l'entreprise, en tenant compte :" },
+      { type: "ul", items: ["de l'effectif et de sa répartition entre les différents sites ;", "des horaires de travail, y compris les équipes de nuit et de week-end ;", "des risques propres à l'activité : machines, produits chimiques, travail isolé, etc. ;", "des absences prévisibles — congés, déplacements — afin qu'un secouriste reste toujours présent."] },
+      { type: "p", text: "L'objectif est simple : qu'aucune plage horaire ni aucun site ne se retrouve sans personne formée et disponible." },
+      { type: "h2", text: "Comment se déroule la formation SST ?" },
+      { type: "p", text: "La formation SST initiale dure 14 heures, généralement réparties sur deux jours. Elle alterne apports théoriques et mises en situation pratiques autour de quatre actions clés : protéger, examiner, alerter et secourir. À l'issue de l'évaluation, le stagiaire reçoit un certificat de Sauveteur Secouriste du Travail délivré sous l'autorité de l'INRS et du réseau Assurance Maladie Risques professionnels." },
+      { type: "h3", text: "Un certificat valable 24 mois" },
+      { type: "p", text: "Le certificat SST est valable 24 mois. Pour le conserver, son titulaire doit suivre, avant l'échéance, un Maintien et Actualisation des Compétences (MAC SST) d'une durée de 7 heures. Ce recyclage permet de réviser les gestes et d'intégrer les évolutions éventuelles des recommandations de secourisme." },
+      { type: "h2", text: "Que risque l'employeur qui ne forme personne ?" },
+      { type: "p", text: "L'absence de toute organisation des secours peut être relevée par l'inspection du travail et donner lieu à une mise en demeure, voire à des sanctions. Surtout, en cas d'accident grave, l'employeur qui n'a pris aucune mesure de prévention s'expose à voir sa responsabilité engagée — notamment au titre de la faute inexcusable, lourde de conséquences financières comme humaines." },
+      { type: "p", text: "À l'inverse, une équipe formée réagit vite et bien : elle protège la victime, alerte efficacement les secours et limite la gravité de l'accident." },
+      { type: "cta", text: "Vous souhaitez former des Sauveteurs Secouristes du Travail dans votre entreprise ? Découvrez en détail", href: "/formations-secourisme", label: "nos formations Secourisme & SST" },
+    ],
+  },
+
+  "recyclage-habilitation-electrique-frequence-obligation": {
+    title:
+      "Recyclage de l'habilitation électrique : fréquence, obligation et organisation",
+    excerpt:
+      "Tous les 3 ans : c'est le rythme de recyclage recommandé pour une habilitation électrique. Obligation de l'employeur, norme NF C18-510, cas de recyclage anticipé — voici tout ce qu'il faut savoir.",
+    publishedAt: "2026-05-15",
+    category: "Habilitation électrique",
+    readingTime: 7,
+    image:
+      "/images/articles/recyclage-habilitation-electrique-frequence-obligation.jpg",
+    content: [
+      { type: "p", text: "Le recyclage de l'habilitation électrique est recommandé tous les 3 ans par la norme NF C18-510. Ce délai n'est pas inscrit tel quel dans la loi, mais l'employeur, lui, a une obligation bien réelle : il ne peut habiliter un salarié que si celui-ci a suivi une formation à la prévention du risque électrique et maintient ses compétences à jour. En pratique, le recyclage triennal est donc traité comme une obligation." },
+      { type: "h2", text: "Habilitation, formation, recyclage : qui fait quoi ?" },
+      { type: "p", text: "Trois notions sont souvent confondues. Les distinguer permet de comprendre où se situe réellement l'obligation :" },
+      { type: "ul", items: ["La formation à la prévention du risque électrique est dispensée par un organisme de formation. Elle est obligatoire avant toute habilitation (article R4544-10 du Code du travail).", "L'habilitation est la reconnaissance, par l'employeur, de la capacité d'un salarié à accomplir en sécurité des opérations sur ou au voisinage d'installations électriques. C'est l'employeur — et lui seul — qui la délivre (articles R4544-9 et suivants).", "Le recyclage est la formation périodique qui permet au salarié de conserver ces compétences, et donc à l'employeur de maintenir l'habilitation."] },
+      { type: "quote", text: "Un organisme de formation ne délivre jamais l'habilitation : il forme le salarié et lui remet une attestation. C'est ensuite l'employeur qui habilite, au regard de cette formation, de l'aptitude médicale et du poste réellement occupé." },
+      { type: "h2", text: "Pourquoi un recyclage tous les 3 ans ?" },
+      { type: "p", text: "La norme NF C18-510, qui encadre les opérations sur les installations électriques, recommande de réactualiser la formation au moins tous les 3 ans. Ce rythme s'explique simplement :" },
+      { type: "ul", items: ["les gestes et les procédures de sécurité se perdent lorsqu'ils ne sont pas pratiqués régulièrement ;", "la réglementation et les normes évoluent : consignations, équipements de protection, suivi médical ;", "l'employeur doit pouvoir justifier, à tout moment, que les compétences de ses salariés habilités sont à jour."] },
+      { type: "p", text: "Le délai de 3 ans reste une recommandation : il peut être raccourci selon l'activité, la fréquence réelle des opérations électriques ou le retour d'expérience de l'entreprise." },
+      { type: "h2", text: "Les cas de recyclage anticipé" },
+      { type: "p", text: "Indépendamment du délai de 3 ans, un recyclage — ou au minimum une réévaluation — s'impose dans plusieurs situations :" },
+      { type: "ul", items: ["un changement de fonction ou d'employeur ;", "une interruption prolongée de la pratique des opérations électriques ;", "une modification importante des installations ou des méthodes de travail ;", "une restriction d'aptitude médicale ;", "un constat de non-respect des règles de sécurité, ou une évolution de la réglementation."] },
+      { type: "h2", text: "L'habilitation électrique est-elle vraiment obligatoire ?" },
+      { type: "p", text: "Oui. Dès qu'un salarié effectue des opérations sur des installations électriques ou dans leur voisinage, le Code du travail impose qu'il soit habilité — et donc préalablement formé. Un employeur qui laisse intervenir un salarié non habilité engage gravement sa responsabilité : en cas d'accident, l'absence d'habilitation est l'un des premiers éléments recherchés, et peut caractériser une faute inexcusable." },
+      { type: "h2", text: "Comment organiser le recyclage de vos équipes ?" },
+      { type: "p", text: "Le plus efficace est d'anticiper : tenir à jour un tableau des habilitations avec leur date d'échéance, et programmer les sessions de recyclage plusieurs mois avant. Le contenu de la formation — B0, BS, BE, H0, BR, BC… — doit correspondre exactement aux opérations réellement confiées à chaque salarié, ni plus, ni moins." },
+      { type: "cta", text: "Initial ou recyclage, du B0 au BR : nous formons vos équipes à tous les niveaux d'habilitation électrique. Découvrez", href: "/formations-habilitation-electrique", label: "nos formations habilitation électrique" },
+    ],
+  },
+
+  "formation-afgsu-obligatoire-niveaux-1-2": {
+    title:
+      "Formation AFGSU : est-elle obligatoire ? Niveaux 1, 2 et remise à niveau",
+    excerpt:
+      "L'AFGSU est exigée pour exercer la plupart des professions de santé. Niveaux 1 et 2, validité de 4 ans, organisme habilité : le point complet sur la formation aux gestes et soins d'urgence.",
+    publishedAt: "2026-05-12",
+    category: "AFGSU",
+    readingTime: 7,
+    image: "/images/articles/formation-afgsu-obligatoire-niveaux-1-2.jpg",
+    content: [
+      { type: "p", text: "L'AFGSU — Attestation de Formation aux Gestes et Soins d'Urgence — est obligatoire pour exercer la grande majorité des professions de santé. Elle est intégrée aux référentiels de nombreux diplômes (infirmier, aide-soignant, sage-femme, ambulancier…) et doit être maintenue à jour tout au long de la carrière. Il en existe deux niveaux principaux, selon que l'on exerce ou non une fonction soignante." },
+      { type: "h2", text: "Qu'est-ce que l'AFGSU ?" },
+      { type: "p", text: "L'AFGSU atteste de la capacité à identifier une urgence et à y faire face, seul ou en équipe, dans l'attente des secours spécialisés. Sa formation est encadrée par l'arrêté du 1er juillet 2019 relatif à la formation aux gestes et soins d'urgence. Elle est organisée sous l'égide des CESU — les Centres d'Enseignement des Soins d'Urgence — qui pilotent et valident cet enseignement au niveau régional." },
+      { type: "h2", text: "Les deux niveaux d'AFGSU" },
+      { type: "h3", text: "AFGSU niveau 1" },
+      { type: "p", text: "L'AFGSU de niveau 1 s'adresse aux personnels — administratifs, techniques, d'accueil — qui exercent au sein d'un établissement de santé ou d'une structure médico-sociale sans être soignants. D'une durée de 14 heures réparties sur deux jours, elle apprend à reconnaître une urgence vitale, à donner l'alerte et à réaliser les gestes de premiers secours." },
+      { type: "h3", text: "AFGSU niveau 2" },
+      { type: "p", text: "L'AFGSU de niveau 2 s'adresse aux professionnels de santé inscrits dans la quatrième partie du Code de la santé publique : infirmiers, aides-soignants, médecins, sages-femmes, masseurs-kinésithérapeutes, manipulateurs en électroradiologie, etc. D'une durée de 21 heures réparties sur trois jours, elle reprend les acquis du niveau 1 et les approfondit : urgences vitales et potentielles, prise en charge en équipe, matériel d'urgence, plans sanitaires." },
+      { type: "p", text: "Pour la plupart de ces professions, l'AFGSU de niveau 2 est exigée pour l'obtention du diplôme : elle conditionne donc l'accès au métier." },
+      { type: "h2", text: "Une attestation à réactualiser tous les 4 ans" },
+      { type: "p", text: "L'AFGSU — niveau 1 comme niveau 2 — est valable 4 ans. Pour la conserver, son titulaire doit suivre une formation de réactualisation de 7 heures avant l'échéance. Cette mise à jour est essentielle : les recommandations de secourisme et de réanimation évoluent régulièrement, et les gestes doivent rester parfaitement maîtrisés." },
+      { type: "quote", text: "Laisser expirer son AFGSU, c'est, pour un professionnel de santé, prendre le risque de ne plus être à jour d'une compétence pourtant exigée pour exercer." },
+      { type: "h2", text: "Qui peut dispenser la formation AFGSU ?" },
+      { type: "p", text: "La formation AFGSU ne peut pas être dispensée par n'importe quel organisme. Elle relève des CESU, qui habilitent les centres et les formateurs autorisés à l'enseigner. Les formateurs AFGSU sont des professionnels de santé urgentistes, titulaires de l'attestation de formation de formateur AFGSU." },
+      { type: "p", text: "Alertis Formation intervient à ce titre comme centre habilité par un CESU : nous organisons les sessions et assurons l'enseignement, l'attestation étant délivrée sous l'égide du CESU dont nous dépendons." },
+      { type: "h2", text: "Comment inscrire vos équipes ?" },
+      { type: "p", text: "Que vous soyez un établissement de santé, un EHPAD, un service médico-social ou un employeur de professionnels de santé, nous organisons des sessions AFGSU 1, AFGSU 2 et de réactualisation, adaptées à vos effectifs et à votre calendrier." },
+      { type: "cta", text: "Pour connaître les prochaines sessions et inscrire vos équipes, consultez", href: "/nos-formations-afgsu", label: "nos formations AFGSU" },
+    ],
+  },
+
   "prevention-des-risques-electriques-limportance-de-lhabilitation-professionnelle":
     {
       title:

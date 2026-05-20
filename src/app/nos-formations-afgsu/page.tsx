@@ -176,6 +176,15 @@ export default async function AfgsuPage() {
                 Sessions dans toute la France
               </span>
             </div>
+            <div className="mt-6">
+              <Link
+                href="/formation-afgsu-obligatoire-niveaux-1-2"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"
+              >
+                <span>À lire : la formation AFGSU est-elle obligatoire ?</span>
+                <ArrowRight className="size-4" />
+              </Link>
+            </div>
           </div>
           <ul className="space-y-3 rounded-xl bg-white p-6 ring-1 ring-border">
             {objectives.map((o) => (
