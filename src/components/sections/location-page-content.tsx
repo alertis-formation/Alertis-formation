@@ -32,16 +32,23 @@ export function LocationPageContent({ data }: { data: Location }) {
         {/* Tissu économique local */}
         <section className="py-16 bg-white">
           <div className="mx-auto max-w-6xl px-6">
-            <div className="relative aspect-[21/9] overflow-hidden rounded-xl ring-1 ring-border mb-12">
-              <Image
-                src={data.image}
-                alt={`Formation sécurité au travail à ${data.city}`}
-                fill
-                sizes="(max-width: 1152px) 100vw, 1100px"
-                className="object-cover"
-                priority
-              />
-            </div>
+            <figure className="mb-12">
+              <div className="relative aspect-[21/9] overflow-hidden rounded-xl ring-1 ring-border">
+                <Image
+                  src={data.image}
+                  alt={`Formation sécurité au travail à ${data.city}`}
+                  fill
+                  sizes="(max-width: 1152px) 100vw, 1100px"
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              {data.imageCredit && (
+                <figcaption className="mt-1.5 text-[11px] text-[color:var(--brand-gray-medium)]">
+                  {data.imageCredit}
+                </figcaption>
+              )}
+            </figure>
             <div className="mx-auto max-w-3xl">
               <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl mb-6">
                 Le tissu économique de {data.city} et ses enjeux de prévention
