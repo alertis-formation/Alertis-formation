@@ -602,6 +602,7 @@ export const paris: Location = {
   city: "Paris",
   departmentName: "Île-de-France",
   departments: ["75", "77", "78", "91", "92", "93", "94", "95"],
+  image: "/images/locations/formation-securite-paris.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Paris et en Île-de-France : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -658,6 +659,7 @@ export const toulouse: Location = {
   city: "Toulouse",
   departmentName: "Haute-Garonne",
   departments: ["31"],
+  image: "/images/locations/formation-securite-toulouse.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Toulouse et en Haute-Garonne : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -715,6 +717,7 @@ export const bordeaux: Location = {
   city: "Bordeaux",
   departmentName: "Gironde",
   departments: ["33"],
+  image: "/images/locations/formation-securite-bordeaux.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Bordeaux et en Gironde : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -772,6 +775,7 @@ export const lille: Location = {
   city: "Lille",
   departmentName: "Nord",
   departments: ["59"],
+  image: "/images/locations/formation-securite-lille.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Lille et dans le Nord : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -829,6 +833,7 @@ export const montpellier: Location = {
   city: "Montpellier",
   departmentName: "Hérault",
   departments: ["34"],
+  image: "/images/locations/formation-securite-montpellier.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Montpellier et dans l'Hérault : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -886,6 +891,7 @@ export const strasbourg: Location = {
   city: "Strasbourg",
   departmentName: "Bas-Rhin",
   departments: ["67"],
+  image: "/images/locations/formation-securite-strasbourg.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Strasbourg et dans le Bas-Rhin : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -943,6 +949,7 @@ export const rouen: Location = {
   city: "Rouen",
   departmentName: "Seine-Maritime",
   departments: ["76"],
+  image: "/images/locations/formation-securite-rouen.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Rouen et en Seine-Maritime : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -1000,6 +1007,7 @@ export const nantes: Location = {
   city: "Nantes",
   departmentName: "Loire-Atlantique",
   departments: ["44"],
+  image: "/images/locations/formation-securite-nantes.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Nantes et en Loire-Atlantique : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -1057,6 +1065,7 @@ export const nice: Location = {
   city: "Nice",
   departmentName: "Alpes-Maritimes",
   departments: ["06"],
+  image: "/images/locations/formation-securite-nice.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Nice et dans les Alpes-Maritimes : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -1113,6 +1122,8 @@ export const tours: Location = {
   city: "Tours",
   departmentName: "Indre-et-Loire",
   departments: ["37"],
+  image: "/images/locations/formation-securite-tours.jpg",
+  imageCredit: "Photo : Benjamin Smith / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
     "Formations santé et sécurité au travail à Tours et en Indre-et-Loire : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -1170,6 +1181,7 @@ export const rennes: Location = {
   city: "Rennes",
   departmentName: "Ille-et-Vilaine",
   departments: ["35"],
+  image: "/images/locations/formation-securite-rennes.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Rennes et en Ille-et-Vilaine : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
   intro:
@@ -1227,6 +1239,7 @@ export const aixEnProvence: Location = {
   city: "Aix-en-Provence",
   departmentName: "Bouches-du-Rhône",
   departments: ["13"],
+  image: "/images/locations/formation-securite-aix-en-provence.jpg",
   metaDescription:
     "Formations santé et sécurité au travail à Aix-en-Provence et dans les Bouches-du-Rhône : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises et formations intra.",
   intro:
