@@ -4,7 +4,7 @@ import { PageShell } from "@/components/site/page-shell";
 import { Button } from "@/components/ui/button";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
-import { getFormationsByCategory } from "@/lib/formations-data";
+import { getLiveFormationsByCategory } from "@/lib/formations-live";
 import { getApiIdForSlug } from "@/lib/alertis-api-mapping";
 import { getFormationById } from "@/lib/alertis-api";
 
@@ -77,7 +77,7 @@ export const metadata = {
 };
 
 export default async function AfgsuPage() {
-  const items = getFormationsByCategory("afgsu");
+  const items = await getLiveFormationsByCategory("afgsu");
 
   const levels = await Promise.all(
     levelsConfig.map(async (lvl) => {

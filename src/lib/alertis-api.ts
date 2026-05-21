@@ -93,20 +93,54 @@ async function apiFetch<T>(
 }
 
 /**
- * Fetch a formation by ID. Returns null if not found.
+ * Résultat d'une recherche de formation par ID. On distingue volontairement
+ * trois cas :
+ *  - "ok"        : la formation existe (données dans `formation`)
+ *  - "not-found" : l'API a répondu 404 — la formation a été supprimée du back-office
+ *  - "error"     : panne réseau / API indisponible / clé manquante (statut indéterminé)
+ *
+ * La distinction "not-found" vs "error" est essentielle : une formation
+ * supprimée doit faire disparaître sa page, mais une simple panne API ne doit
+ * PAS désactiver les pages (sinon un cold-start Render couperait tout le site).
+ */
+export type FormationLookup =
+  | { status: "ok"; formation: ApiFormation }
+  | { status: "not-found" }
+  | { status: "error" };
+
+/**
+ * Recherche une formation par ID en distinguant un 404 (formation supprimée)
+ * d'une panne API. Utilisé par les pages /formations/[slug] pour rediriger
+ * les formations retirées du back-office.
+ */
+export async function fetchFormation(id: number): Promise<FormationLookup> {
+  if (!API_KEY) return { status: "error" };
+  try {
+    const res = await fetch(`${API_BASE}/formations/${id}`, {
+      headers: { "X-API-Key": API_KEY },
+      next: { revalidate: 3600 },
+    });
+    if (res.status === 404) return { status: "not-found" };
+    if (!res.ok) {
+      console.error(`[alertis-api] fetchFormation(${id}) HTTP ${res.status}`);
+      return { status: "error" };
+    }
+    const json = (await res.json()) as ApiResponse<ApiFormation>;
+    return { status: "ok", formation: json.data };
+  } catch (e) {
+    console.error(`[alertis-api] fetchFormation(${id}) failed:`, e);
+    return { status: "error" };
+  }
+}
+
+/**
+ * Fetch a formation by ID. Returns null if not found or on error.
  */
 export async function getFormationById(
   id: number
 ): Promise<ApiFormation | null> {
-  try {
-    const json = await apiFetch<ApiResponse<ApiFormation>>(
-      `/formations/${id}`
-    );
-    return json.data;
-  } catch (e) {
-    console.error(`[alertis-api] getFormationById(${id}) failed:`, e);
-    return null;
-  }
+  const result = await fetchFormation(id);
+  return result.status === "ok" ? result.formation : null;
 }
 
 /**
@@ -157,6 +191,19 @@ export async function getAllFormations(): Promise<ApiFormation[]> {
     console.error("[alertis-api] getAllFormations failed:", e);
     return [];
   }
+}
+
+/**
+ * IDs des formations actuellement présentes dans le back-office.
+ *
+ * Renvoie `null` si la liste n'a pas pu être récupérée (API indisponible /
+ * cold-start Render) : les listings doivent alors s'afficher SANS filtrage —
+ * une panne API ne doit jamais vider le catalogue du site.
+ */
+export async function getLiveFormationIds(): Promise<Set<number> | null> {
+  const all = await getAllFormations();
+  if (all.length === 0) return null;
+  return new Set(all.map((f) => f.id));
 }
 
 /**

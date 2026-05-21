@@ -1,13 +1,8 @@
 import Link from "next/link";
-import {
-  ArrowUpRight,
-  FileText,
-  ShieldCheck,
-  Award,
-} from "lucide-react";
+import { ArrowUpRight, ShieldCheck, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HeroCarousel } from "./hero-carousel";
-import { formationEntries } from "@/lib/formations-data";
+import { getLiveFormationCount } from "@/lib/formations-live";
 
 const trustBadges = [
   { label: "Formateurs INRS", icon: Award },
@@ -15,14 +10,14 @@ const trustBadges = [
   { label: "Conforme Code du travail", icon: ShieldCheck },
 ];
 
-const heroStats = [
-  { value: "97,4%", label: "Satisfaction stagiaires" },
-  { value: "100%", label: "Réussite SST" },
-  { value: `${formationEntries.length}`, label: "Formations au catalogue" },
-  { value: "10+", label: "Ans d'expertise terrain" },
-];
-
 export async function HeroSection() {
+  const formationCount = await getLiveFormationCount();
+  const heroStats = [
+    { value: "97,4%", label: "Satisfaction stagiaires" },
+    { value: "100%", label: "Réussite SST" },
+    { value: `${formationCount}`, label: "Formations au catalogue" },
+    { value: "10+", label: "Ans d'expertise terrain" },
+  ];
   return (
     <section className="relative overflow-hidden bg-[color:var(--brand-cream)]">
       {/* Top hairline */}
@@ -75,24 +70,9 @@ export async function HeroSection() {
                 className="uppercase tracking-wider font-semibold"
                 render={
                   <Link href="/formations">
-                    <span>Voir les {formationEntries.length} formations</span>
+                    <span>Voir les {formationCount} formations</span>
                     <ArrowUpRight />
                   </Link>
-                }
-              />
-              <Button
-                size="lg"
-                variant="outline"
-                className="uppercase tracking-wider"
-                render={
-                  <a
-                    href="/catalogue-alertis.pdf"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <FileText />
-                    <span>Catalogue PDF</span>
-                  </a>
                 }
               />
             </div>

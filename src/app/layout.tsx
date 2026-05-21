@@ -12,6 +12,7 @@ import {
   WebSiteJsonLd,
 } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
+import { getLiveFormationCount } from "@/lib/formations-live";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -72,11 +73,12 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const formationCount = await getLiveFormationCount();
   return (
     <html lang="fr" className={`${roboto.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
@@ -84,7 +86,10 @@ export default function RootLayout({
         <LocalBusinessJsonLd />
         <WebSiteJsonLd />
         <CookieConsentProvider>
-          <SiteHeader ratingSlot={<GoogleRatingBadge variant="compact" />} />
+          <SiteHeader
+            ratingSlot={<GoogleRatingBadge variant="compact" />}
+            formationCount={formationCount}
+          />
           <main className="flex-1">{children}</main>
           <SiteFooter />
           <CookieBanner />

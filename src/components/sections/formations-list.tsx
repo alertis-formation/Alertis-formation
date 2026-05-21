@@ -1,12 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import {
-  getFormationsByCategory,
-  type FormationCategory,
-} from "@/lib/formations-data";
+import { type FormationCategory } from "@/lib/formations-data";
+import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
-export function FormationsList({
+export async function FormationsList({
   category,
   title = "Nos formations",
   subtitle,
@@ -15,7 +13,7 @@ export function FormationsList({
   title?: string;
   subtitle?: string;
 }) {
-  const items = getFormationsByCategory(category);
+  const items = await getLiveFormationsByCategory(category);
 
   if (items.length === 0) return null;
 

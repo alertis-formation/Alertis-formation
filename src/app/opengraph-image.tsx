@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { formationEntries } from "@/lib/formations-data";
+import { getLiveFormationCount } from "@/lib/formations-live";
 
 export const runtime = "edge";
 export const alt = "Alertis Formation — Centre de formation santé & sécurité au travail";
@@ -7,6 +7,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function OpengraphImage() {
+  const formationCount = await getLiveFormationCount();
   return new ImageResponse(
     (
       <div
@@ -105,7 +106,7 @@ export default async function OpengraphImage() {
         >
           <div style={{ display: "flex", gap: 32 }}>
             <span style={{ fontWeight: 700, color: "#1a1f24" }}>
-              {formationEntries.length} formations
+              {formationCount} formations
             </span>
             <span style={{ fontWeight: 700, color: "#1a1f24" }}>
               Partout en France

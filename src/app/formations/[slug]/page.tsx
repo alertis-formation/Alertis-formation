@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -18,8 +18,8 @@ import { Button } from "@/components/ui/button";
 import {
   formationEntries,
   formationEntriesBySlug,
-  getFormationsByCategory,
 } from "@/lib/formations-data";
+import { getLiveFormationsByCategory } from "@/lib/formations-live";
 import {
   getFormationContent,
   DEFAULT_PEDAGOGIE,
@@ -29,7 +29,7 @@ import { linkifyLegalRefs } from "@/lib/legal-refs";
 import { BreadcrumbJsonLd, CourseJsonLd } from "@/components/seo/json-ld";
 import { getApiIdForSlug } from "@/lib/alertis-api-mapping";
 import {
-  getFormationById,
+  fetchFormation,
   getUpcomingSessionsForFormation,
 } from "@/lib/alertis-api";
 import {
@@ -75,15 +75,29 @@ export default async function FormationDetailPage({
   const f = formationEntriesBySlug[slug];
   if (!f) notFound();
 
-  // Live API data (server-side, cached 1h via fetch revalidate)
+  // Live API data (server-side, cached 1h via fetch revalidate).
+  // Une formation n'a de page que si elle est référencée dans le back-office :
+  //  - slug non mappé à un ID API → page retirée
+  //  - ID API absent (404)        → formation supprimée du back-office
+  // Dans les deux cas on redirige vers la liste des formations. Une panne API
+  // ("error") ne déclenche PAS la redirection : on garde la page avec le
+  // contenu local de secours.
   const apiId = getApiIdForSlug(slug);
-  const apiData = apiId ? await getFormationById(apiId) : null;
+  if (!apiId) {
+    redirect("/formations");
+  }
+  const apiLookup = await fetchFormation(apiId);
+  if (apiLookup.status === "not-found") {
+    redirect("/formations");
+  }
+  const apiData = apiLookup.status === "ok" ? apiLookup.formation : null;
   const sessions = apiData
     ? await getUpcomingSessionsForFormation(apiData.nom, 5)
     : [];
 
-  // Related formations from the same category (excluding current)
-  const related = getFormationsByCategory(f.category)
+  // Related formations from the same category (excluding current),
+  // filtered to those still live in the back-office.
+  const related = (await getLiveFormationsByCategory(f.category))
     .filter((r) => r.slug !== f.slug)
     .slice(0, 3);
 

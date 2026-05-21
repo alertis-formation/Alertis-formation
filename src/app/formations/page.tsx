@@ -6,11 +6,14 @@ import { DragScroller } from "@/components/ui/drag-scroller";
 import { linkifyLegalRefs } from "@/lib/legal-refs";
 import { formationCategories, siteConfig } from "@/lib/site-config";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import type { Metadata } from "next";
+import { type FormationCategory } from "@/lib/formations-data";
 import {
-  formationEntries,
-  getFormationsByCategory,
-  type FormationCategory,
-} from "@/lib/formations-data";
+  getLiveFormations,
+  getLiveFormationCount,
+} from "@/lib/formations-live";
+
+export const revalidate = 3600;
 
 type CategoryRow = {
   key: FormationCategory;
@@ -45,13 +48,17 @@ const categoryRows: CategoryRow[] = [
   },
 ];
 
-export const metadata = {
-  title: "Toutes nos formations santé & sécurité au travail",
-  description: `Catalogue complet Alertis : Sécurité Incendie, Secourisme, Habilitation électrique, Ergonomie, Prévention, Safety Day, AFGSU. ${formationEntries.length} formations conformes au Code du travail.`,
-  alternates: { canonical: "/formations" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const formationCount = await getLiveFormationCount();
+  return {
+    title: "Toutes nos formations santé & sécurité au travail",
+    description: `Catalogue complet Alertis : Sécurité Incendie, Secourisme, Habilitation électrique, Ergonomie, Prévention, Safety Day, AFGSU. ${formationCount} formations conformes au Code du travail.`,
+    alternates: { canonical: "/formations" },
+  };
+}
 
-export default function FormationsPage() {
+export default async function FormationsPage() {
+  const liveFormations = await getLiveFormations();
   return (
     <>
       <BreadcrumbJsonLd
@@ -62,14 +69,14 @@ export default function FormationsPage() {
       />
       <ItemListJsonLd
         name="Catalogue des formations Alertis"
-        items={formationEntries.map((f) => ({
+        items={liveFormations.map((f) => ({
           name: f.title,
           url: `${siteConfig.url}/formations/${f.slug}`,
         }))}
       />
       <PageShell
         title="Toutes nos formations"
-        subtitle={`Sept domaines, ${formationEntries.length} formations conformes au Code du travail pour outiller vos équipes face aux risques quotidiens — incendie, secourisme, électrique, ergonomie.`}
+        subtitle={`Sept domaines, ${liveFormations.length} formations conformes au Code du travail pour outiller vos équipes face aux risques quotidiens — incendie, secourisme, électrique, ergonomie.`}
         breadcrumbs={[{ label: "Formations" }]}
       >
         {/* Intro editorial block */}
@@ -151,7 +158,7 @@ export default function FormationsPage() {
 
         <div className="bg-white">
           {categoryRows.map((row, idx) => {
-            const items = getFormationsByCategory(row.key);
+            const items = liveFormations.filter((f) => f.category === row.key);
             if (items.length === 0) return null;
 
             return (

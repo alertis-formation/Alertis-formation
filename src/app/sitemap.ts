@@ -1,11 +1,13 @@
 import type { MetadataRoute } from "next";
 import { siteConfig, formationCategories } from "@/lib/site-config";
 import { articleSlugs, articles } from "@/lib/articles";
-import { formationEntries } from "@/lib/formations-data";
+import { getLiveFormations } from "@/lib/formations-live";
 import { faqs } from "@/lib/faq";
 import { locations } from "@/lib/locations";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 3600;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = siteConfig.url;
   // Stable date for editorial pages. Using `new Date()` here would reset the
   // <lastmod> of ~95 URLs on every deploy, teaching Google to distrust them.
@@ -39,7 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  const formationRoutes: MetadataRoute.Sitemap = formationEntries.map((f) => ({
+  const liveFormations = await getLiveFormations();
+  const formationRoutes: MetadataRoute.Sitemap = liveFormations.map((f) => ({
     url: `${base}/formations/${f.slug}`,
     lastModified: f.date ? new Date(f.date) : lastModified,
     changeFrequency: "monthly",

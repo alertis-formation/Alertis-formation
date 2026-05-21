@@ -3,11 +3,10 @@ import Image from "next/image";
 import { ArrowUpRight, Stethoscope } from "lucide-react";
 import { formationCategories } from "@/lib/site-config";
 import {
-  formationEntries,
-  getFormationsByCategory,
   getCategoryHeroImage,
   type FormationCategory,
 } from "@/lib/formations-data";
+import { getLiveFormations } from "@/lib/formations-live";
 
 const slugToCategory: Record<string, FormationCategory> = {
   "/formations-securite-incendie": "securite-incendie",
@@ -18,10 +17,13 @@ const slugToCategory: Record<string, FormationCategory> = {
   "/formations-safety-day": "safety-day",
 };
 
-const afgsuCount = getFormationsByCategory("afgsu").length;
 const afgsuImage = getCategoryHeroImage("afgsu");
 
-export function FormationsGridSection() {
+export async function FormationsGridSection() {
+  const liveFormations = await getLiveFormations();
+  const countByCategory = (cat: FormationCategory) =>
+    liveFormations.filter((f) => f.category === cat).length;
+  const afgsuCount = countByCategory("afgsu");
   return (
     <section className="relative py-24 lg:py-32 bg-[color:var(--brand-cream)] overflow-hidden">
       <div className="absolute top-16 left-4 lg:left-12 select-none pointer-events-none">
@@ -39,7 +41,7 @@ export function FormationsGridSection() {
             </h2>
           </div>
           <p className="text-[color:var(--brand-gray-medium)] max-w-sm text-base leading-relaxed">
-            {formationEntries.length} formations pour répondre aux obligations réglementaires et
+            {liveFormations.length} formations pour répondre aux obligations réglementaires et
             renforcer la sécurité au quotidien — du SST à l&apos;habilitation BR.
           </p>
         </div>
@@ -49,7 +51,7 @@ export function FormationsGridSection() {
           {formationCategories.map((cat) => {
             const category = slugToCategory[cat.href];
             const count = category
-              ? getFormationsByCategory(category).length
+              ? countByCategory(category)
               : 0;
             const heroImage = category ? getCategoryHeroImage(category) : "";
 

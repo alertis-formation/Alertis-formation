@@ -28,13 +28,14 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { formationEntries } from "@/lib/formations-data";
-
 export function SiteHeader({
   ratingSlot,
+  formationCount,
 }: {
   /** Bloc note Google injecté depuis un server component parent. */
   ratingSlot?: React.ReactNode;
+  /** Nombre de formations actives, calculé côté serveur (layout). */
+  formationCount: number;
 }) {
   const pathname = usePathname();
   const [menuValue, setMenuValue] = useState<string | null>(null);
@@ -75,7 +76,7 @@ export function SiteHeader({
                             Catalogue
                           </span>
                           <h3 className="mt-3 text-2xl leading-tight">
-                            {formationEntries.length} formations
+                            {formationCount} formations
                           </h3>
                           <p className="mt-2 text-xs text-[color:var(--brand-gray-medium)] leading-relaxed">
                             Du SST aux habilitations BR, en passant par le

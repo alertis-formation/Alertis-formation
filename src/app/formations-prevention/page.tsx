@@ -2,7 +2,9 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
-import { getFormationsByCategory } from "@/lib/formations-data";
+import { getLiveFormationsByCategory } from "@/lib/formations-live";
+
+export const revalidate = 3600;
 
 export const metadata = {
   title:
@@ -17,8 +19,8 @@ export const metadata = {
   },
 };
 
-export default function PreventionPage() {
-  const items = getFormationsByCategory("prevention");
+export default async function PreventionPage() {
+  const items = await getLiveFormationsByCategory("prevention");
   return (
     <PageShell
       title="Formations Prévention des risques"
