@@ -48,6 +48,7 @@ export const articleSlugs = [
   "duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique",
   "exercice-evacuation-incendie-comment-organiser",
   "tms-troubles-musculo-squelettiques-prevention-entreprise",
+  "formation-prap-prevention-risques-activite-physique",
 ] as const;
 
 /**
@@ -2881,6 +2882,71 @@ export const articles: Record<string, Article> = {
       {
         type: "cta",
         text: "Pour former vos salariés à la prévention des risques liés à l\'activité physique,",
+        label: "découvrez notre formation PRAP",
+        href: "/formations/prap",
+      },
+    ],
+  },
+
+  "formation-prap-prevention-risques-activite-physique": {
+    title:
+      "Formation PRAP : rôle, contenu et démarche pour prévenir les TMS",
+    excerpt:
+      "La PRAP forme des Salariés Acteurs de la Prévention capables d'identifier les risques liés à l'activité physique et de contribuer à leur réduction. Deux versions, un rôle précis.",
+    publishedAt: "2026-05-21",
+    category: "Ergonomie",
+    readingTime: 5,
+    image: "/images/articles/formation-prap-prevention-risques-activite-physique.jpg",
+    content: [
+      {
+        type: "p",
+        text: "La PRAP — Prévention des Risques liés à l'Activité Physique — est une formation de référence conçue par l'INRS et l'Assurance Maladie - Risques Professionnels pour réduire les troubles musculo-squelettiques (TMS) à la source. Son originalité : elle ne s'adresse pas aux seuls préventeurs ou ergonomes, mais directement aux salariés qui exercent l'activité. Former un Salarié Acteur de la Prévention, c'est créer dans chaque équipe un œil exercé, capable d'observer les situations à risque et de contribuer à leur réduction sans attendre une intervention externe.",
+      },
+      { type: "h2", text: "Deux versions pour deux univers de travail" },
+      {
+        type: "ul",
+        items: [
+          "PRAP iBC (Industrie, Bâtiment-travaux publics, Commerce) : pour les secteurs exposés à la manutention manuelle, aux postures contraintes et aux vibrations. Durée : 14 heures.",
+          "PRAP 2S (Secteur Sanitaire et Social) : adaptée aux soignants, aides à domicile et agents des établissements médico-sociaux, confrontés aux manutentions de personnes. Durée : 14 heures.",
+        ],
+      },
+      { type: "h2", text: "Le Salarié Acteur de la Prévention : quel rôle ?" },
+      {
+        type: "p",
+        text: "À l'issue de la formation, le salarié obtient la reconnaissance de Salarié Acteur de la Prévention des risques liés à l'activité physique (SAP). Son rôle est précis et délimité : ce n'est pas un ergonome. Il ne reconçoit pas les postes de travail. Il observe son environnement quotidien, identifie les facteurs de risque biomécaniques et organisationnels, alerte son encadrement et le service de prévention, et participe aux groupes de travail sur les actions correctives. Un relais de terrain indispensable entre les opérateurs et les décideurs.",
+      },
+      { type: "h2", text: "Ce que contient la formation PRAP" },
+      {
+        type: "ul",
+        items: [
+          "Comprendre les TMS : mécanismes de survenue, zones corporelles concernées, facteurs de risque",
+          "Observer et analyser son activité réelle : postures, efforts, répétitivité, environnement",
+          "Identifier les situations à risque dans son propre poste de travail",
+          "Adopter des gestes et postures adaptés : principes de base de l'économie articulaire",
+          "Savoir communiquer avec l'encadrement et les acteurs de la prévention pour proposer des améliorations",
+        ],
+      },
+      { type: "h2", text: "Validité et recyclage" },
+      {
+        type: "p",
+        text: "La reconnaissance SAP est valable 24 mois. Pour la maintenir, le titulaire doit suivre un Maintien et Actualisation des Compétences (MAC PRAP) de 7 heures avant l'échéance. Cette mise à niveau permet d'intégrer les évolutions du référentiel INRS, de retravailler les situations à risque identifiées depuis la formation initiale et d'actualiser les connaissances sur les facteurs biomécaniques et organisationnels. Comme pour le SST ou l'habilitation électrique, c'est un renouvellement régulier, pas un simple rappel ponctuel.",
+      },
+      { type: "h2", text: "PRAP et réglementation : quel lien ?" },
+      {
+        type: "p",
+        text: "La formation PRAP ne résulte pas d'un texte unique. Elle s'inscrit dans l'obligation générale de prévention qui pèse sur tout employeur en vertu de l'article L.4121-1 du Code du travail, et dans l'évaluation des risques imposée par l'article L.4121-3. Son référentiel de certification est établi par l'INRS et l'Assurance Maladie - Risques Professionnels. Inscrire une action PRAP dans le plan d'action du DUERP est la bonne pratique attendue lors d'un contrôle de l'inspection du travail, notamment pour les postes où des TMS ont été identifiés.",
+      },
+      {
+        type: "quote",
+        text: "Un SAP ne remplace pas l'ergonome, mais il fait ce que l'ergonome ne peut pas faire : observer le travail réel, au quotidien, avec les yeux de celui qui l'accomplit.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-3. Référentiel de certification PRAP disponible sur le site de l'INRS (inrs.fr).",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos salariés à la prévention des risques liés à l'activité physique,",
         label: "découvrez notre formation PRAP",
         href: "/formations/prap",
       },
