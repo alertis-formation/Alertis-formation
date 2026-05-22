@@ -49,6 +49,7 @@ export const articleSlugs = [
   "exercice-evacuation-incendie-comment-organiser",
   "tms-troubles-musculo-squelettiques-prevention-entreprise",
   "formation-prap-prevention-risques-activite-physique",
+  "ssiap-erp-niveaux-qualification-missions",
 ] as const;
 
 /**
@@ -2949,6 +2950,75 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos salariés à la prévention des risques liés à l'activité physique,",
         label: "découvrez notre formation PRAP",
         href: "/formations/prap",
+      },
+    ],
+  },
+
+  "ssiap-erp-niveaux-qualification-missions": {
+    title:
+      "SSIAP en ERP : rôle, niveaux de qualification et obligations du service incendie",
+    excerpt:
+      "Agent de service, chef d'équipe, chef de service : les trois niveaux SSIAP structurent la sécurité incendie permanente dans les ERP. Qui est concerné, quelles missions, quelle formation ?",
+    publishedAt: "2026-05-22",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/ssiap-erp-niveaux-qualification-missions.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Dans les Établissements Recevant du Public, la sécurité incendie ne repose pas seulement sur des équipiers internes formés ponctuellement. Pour les ERP de taille suffisante, la réglementation impose la présence d'un service de sécurité incendie constitué de professionnels qualifiés, désignés SSIAP — Service de Sécurité Incendie et d'Assistance à Personnes. Comprendre les trois niveaux de qualification et leurs responsabilités permet aux gestionnaires d'ERP d'organiser leur dispositif en conformité avec leurs obligations.",
+      },
+      { type: "h2", text: "Qu'est-ce que le SSIAP ?" },
+      {
+        type: "p",
+        text: "Le SSIAP est une qualification professionnelle délivrée à des personnels formés à la prévention des risques d'incendie, à la surveillance des installations de sécurité et à l'assistance aux personnes dans les ERP et les immeubles de grande hauteur (IGH). Contrairement aux Équipiers de Première ou de Seconde Intervention (EPI/ESI), qui sont des salariés de l'établissement ayant reçu une formation complémentaire, les agents SSIAP constituent un service de sécurité structuré, soumis à des exigences de qualification, de formation initiale et de recyclage périodique obligatoire.",
+      },
+      { type: "h2", text: "Les trois niveaux SSIAP" },
+      {
+        type: "ul",
+        items: [
+          "SSIAP 1 — Agent de service : exécutant opérationnel, il assure la surveillance, détecte les départs de feu, déclenche l'alerte interne et guide l'évacuation des occupants",
+          "SSIAP 2 — Chef d'équipe : encadre et coordonne les agents SSIAP 1, prend le commandement des opérations en l'absence du chef de service et assure le lien avec les secours extérieurs",
+          "SSIAP 3 — Chef de service : dirige l'ensemble du service de sécurité incendie, définit l'organisation opérationnelle et est l'interlocuteur de la commission de sécurité et de l'autorité de police",
+        ],
+      },
+      {
+        type: "p",
+        text: "La distinction entre les niveaux est à la fois fonctionnelle et hiérarchique. Le règlement de sécurité contre les risques d'incendie et de panique dans les établissements recevant du public (arrêté du 25 juin 1980 modifié et ses dispositions particulières par type d'ERP) précise, pour chaque type et catégorie d'établissement, la composition requise du service : nombre minimum d'agents, niveau de qualification exigé et plages horaires de présence obligatoire.",
+      },
+      { type: "h2", text: "Quels ERP sont concernés par l'obligation ?" },
+      {
+        type: "ul",
+        items: [
+          "Les ERP de grande capacité (catégories 1 et 2 dans la plupart des types) : service de sécurité permanent obligatoire avec présence d'agents SSIAP pendant toutes les heures d'exploitation",
+          "Les IGH (immeubles de grande hauteur) : réglementation spécifique distincte du régime ERP, avec des exigences renforcées",
+          "Les hôtels, établissements de soins, grands magasins et salles de spectacle : types soumis à des dispositions particulières précisant le nombre et le niveau des agents requis",
+          "Les petits ERP (catégories 4 et 5) : pas d'obligation de service SSIAP permanent, mais les équipiers EPI/ESI et les consignes d'évacuation restent obligatoires",
+        ],
+      },
+      { type: "h2", text: "Formation initiale et recyclage" },
+      {
+        type: "p",
+        text: "Chaque niveau de qualification SSIAP requiert une formation initiale certifiante dispensée par un organisme habilité. Elle alterne modules théoriques — réglementation, comportement du feu, systèmes de sécurité incendie, procédures d'évacuation — et exercices pratiques : manipulation d'extincteurs et de RIA, gestion d'une alarme, assistance aux personnes à mobilité réduite. Le recyclage est obligatoire tous les 3 ans pour maintenir la qualification, quel que soit le niveau.",
+      },
+      {
+        type: "quote",
+        text: "Un service SSIAP n'est pas une présence symbolique. C'est une équipe qualifiée, entraînée, disponible — dont le rôle est d'agir avant les pompiers et de coordonner l'évacuation en attendant leur prise en charge.",
+      },
+      { type: "h2", text: "SSIAP et EPI/ESI : ne pas confondre" },
+      {
+        type: "p",
+        text: "La confusion entre EPI/ESI et SSIAP est fréquente. La distinction est nette : les équipiers EPI et ESI sont des salariés de l'établissement formés ponctuellement à intervenir sur un départ de feu ou à guider une évacuation — une compétence additionnelle à leur métier principal. Les agents SSIAP sont des professionnels de la sécurité incendie : c'est leur activité principale, soumise à une qualification réglementée, à des conditions d'emploi spécifiques et à un recyclage triennal obligatoire. Dans un même ERP, les deux dispositifs peuvent coexister.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : règlement de sécurité contre les risques d'incendie et de panique dans les ERP (arrêté du 25 juin 1980 modifié et dispositions particulières par type), Code du travail article L.4121-1.",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos équipiers internes à la sécurité incendie ou sensibiliser vos responsables d'établissement,",
+        label: "consultez notre page formation incendie",
+        href: "/formations/incendie",
       },
     ],
   },
