@@ -50,6 +50,7 @@ export const articleSlugs = [
   "tms-troubles-musculo-squelettiques-prevention-entreprise",
   "formation-prap-prevention-risques-activite-physique",
   "ssiap-erp-niveaux-qualification-missions",
+  "permis-de-feu-travaux-points-chauds-procedure-obligations",
 ] as const;
 
 /**
@@ -3017,6 +3018,39 @@ export const articles: Record<string, Article> = {
       {
         type: "cta",
         text: "Pour former vos équipiers internes à la sécurité incendie ou sensibiliser vos responsables d'établissement,",
+        label: "consultez notre page formation incendie",
+        href: "/formations/incendie",
+      },
+    ],
+  },
+
+  "permis-de-feu-travaux-points-chauds-procedure-obligations": {
+    title:
+      "Permis de feu : procédure, obligations et bonnes pratiques pour les travaux par points chauds",
+    excerpt:
+      "Soudure, meulage, découpe au chalumeau : tout travail par points chauds exige un permis de feu. Ce document encadre les précautions, désigne les responsables et réduit le risque d'incendie.",
+    publishedAt: "2026-05-23",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/permis-de-feu-travaux-points-chauds-procedure-obligations.jpg",
+    content: [
+      { type: "p", text: "Soudure, meulage, découpe au chalumeau, brasage : toute opération générant des étincelles, des projections de métal en fusion ou une flamme nue à proximité de matières combustibles constitue un travail par points chauds. Ces interventions figurent parmi les premières causes d'incendies en milieu professionnel. Le permis de feu est le document qui encadre ces travaux : il liste les précautions à respecter, identifie les responsables et formalise la validation avant toute intervention." },
+      { type: "h2", text: "Qu'est-ce qu'un permis de feu ?" },
+      { type: "p", text: "Le permis de feu est un document écrit, établi avant le début de tout travail par points chauds dans un local ou une zone présentant un risque d'incendie ou d'explosion. Ce n'est pas une formalité administrative : c'est un engagement signé entre le donneur d'ordre — représentant de l'établissement — et l'exécutant des travaux, qu'il soit salarié interne ou prestataire extérieur. Il ne se substitue pas au plan de prévention prévu par les articles R.4511-1 à R.4513-12 du Code du travail pour les entreprises extérieures : les deux documents se complètent." },
+      { type: "h2", text: "Dans quels cas le permis de feu est-il requis ?" },
+      { type: "ul", items: ["Travaux de soudure, meulage, découpe au chalumeau, brasage ou oxycoupage", "Utilisation d'un chalumeau ou d'une torche à gaz pour l'étanchéité, les joints de dilatation ou la couverture", "Travaux de plomberie impliquant une soudure à l'étain ou au cuivre", "Toute opération susceptible de produire des étincelles dans une zone ATEX, un local contenant des matières combustibles ou inflammables, ou à proximité d'archives, de faux-plafonds ou de stockages"] },
+      { type: "h2", text: "Qui délivre le permis de feu ?" },
+      { type: "p", text: "Le permis de feu est délivré par le donneur d'ordre : le responsable de l'établissement ou la personne mandatée (responsable sécurité, chef de site). C'est lui qui valide les conditions de l'intervention après vérification des lieux. L'exécutant des travaux cosigne le document et s'engage à respecter les mesures prescrites. Un troisième signataire, le gardien de feu, peut être désigné pour surveiller la zone pendant et après l'intervention." },
+      { type: "h2", text: "Que doit contenir un permis de feu ?" },
+      { type: "ul", items: ["L'identification des travaux : nature, date, heure de début et de fin, zone concernée", "Le nom du donneur d'ordre, de l'exécutant et du gardien de feu", "L'analyse des risques propres à la zone : matières inflammables, conduits, faux-plafonds, atmosphère explosive éventuelle", "Les mesures de prévention préalables : consignation des équipements, écartement ou protection des matières combustibles", "Les moyens de lutte disponibles sur place : extincteur adapté, RIA, couverture anti-feu", "La durée de surveillance après travaux — au minimum 2 heures après la fin de l'intervention"] },
+      { type: "h2", text: "Les précautions pratiques à mettre en place" },
+      { type: "ul", items: ["Avant : dégager ou protéger les matières combustibles dans un rayon d'au moins 5 mètres autour du point de travail", "Avant : obturer les ouvertures, conduits, gaines et faux-plafonds susceptibles de laisser passer des projections", "Avant : vérifier l'atmosphère avec un détecteur de gaz dans les zones à risque avant tout démarrage", "Pendant : maintenir un extincteur adapté à portée immédiate de l'exécutant", "Après : surveiller la zone sans interruption pendant au minimum 2 heures — la majorité des incendies post-travaux se déclare dans ce délai", "Après : effectuer une ronde de vérification plusieurs heures après la fin des travaux si la zone présente des matériaux à inertie thermique élevée"] },
+      { type: "quote", text: "La plupart des incendies liés aux travaux par points chauds ne se déclenchent pas pendant l'intervention, mais dans les heures qui suivent — sur un morceau de métal en fusion oublié dans un conduit ou un matériau isolant chauffé lentement." },
+      { type: "h2", text: "Responsabilités et conséquences en cas de manquement" },
+      { type: "p", text: "L'absence de permis de feu engage la responsabilité de l'employeur au titre de son obligation générale de prévention (article L.4121-1 du Code du travail). En cas d'incendie, l'absence de document préparatoire sera recherchée et peut caractériser une faute inexcusable. Sur le plan assurantiel, les assureurs de biens industriels et commerciaux exigent souvent une procédure formalisée : son absence peut entraîner un refus ou une réduction d'indemnisation. Référence officielle : Code du travail, articles L.4121-1, R.4227-28 à R.4227-40 et R.4511-1 à R.4513-12." },
+      {
+        type: "cta",
+        text: "Pour former vos équipes à la sécurité incendie et à la gestion des travaux à risque,",
         label: "consultez notre page formation incendie",
         href: "/formations/incendie",
       },
