@@ -51,6 +51,7 @@ export const articleSlugs = [
   "formation-prap-prevention-risques-activite-physique",
   "ssiap-erp-niveaux-qualification-missions",
   "permis-de-feu-travaux-points-chauds-procedure-obligations",
+  "etouffement-conduite-a-tenir-adulte-enfant-nourrisson",
 ] as const;
 
 /**
@@ -3053,6 +3054,82 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos équipes à la sécurité incendie et à la gestion des travaux à risque,",
         label: "consultez notre page formation incendie",
         href: "/formations/incendie",
+      },
+    ],
+  },
+
+  "etouffement-conduite-a-tenir-adulte-enfant-nourrisson": {
+    title:
+      "Victime qui s'étouffe : gestes à connaître pour l'adulte, l'enfant et le nourrisson",
+    excerpt:
+      "Une obstruction totale des voies aériennes est fatale en quelques minutes. Reconnaître l'étouffement et enchaîner les bons gestes — claques dans le dos, compressions abdominales — peut sauver une vie.",
+    publishedAt: "2026-05-24",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/etouffement-conduite-a-tenir-adulte-enfant-nourrisson.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Chaque année, des personnes meurent d'un étouffement survenu à table, en crèche ou sur le lieu de travail — faute qu'un témoin ait su quoi faire. Une obstruction des voies aériennes par un corps étranger (OVACE) peut être fatale en moins de cinq minutes. Les gestes à enchaîner sont simples, ils s'apprennent en quelques heures et ne requièrent aucun matériel.",
+      },
+      { type: "h2", text: "Reconnaître une obstruction des voies aériennes" },
+      {
+        type: "ul",
+        items: [
+          "Obstruction partielle (toux bruyante, stridor) : la personne tousse et tente d'expulser le corps étranger d'elle-même. Ne pas intervenir physiquement — encourager à tousser fort et surveiller l'évolution.",
+          "Obstruction totale (silence, incapacité à parler ou à inspirer, visage rouge puis cyanosé, mains portées à la gorge) : intervention immédiate obligatoire.",
+          "Chez l'adulte conscient, l'impossibilité d'émettre un son ou de tousser efficacement est le signe d'une obstruction totale. Chaque seconde compte.",
+        ],
+      },
+      { type: "h2", text: "Chez l'adulte et l'enfant de plus de 1 an" },
+      {
+        type: "p",
+        text: "Si la personne tousse encore — même faiblement —, ne pas intervenir physiquement. L'encourager à tousser plus fort et surveiller. Si la toux devient inefficace ou cesse, basculer immédiatement sur le protocole d'obstruction totale. Taper dans le dos d'une personne qui tousse encore efficacement risque de faire descendre le corps étranger plus profondément.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Se placer légèrement sur le côté et derrière la victime, qui doit être penchée en avant",
+          "Donner 5 claques fermes dans le haut du dos, entre les omoplates, avec le talon de la main",
+          "Vérifier après chaque claque si le corps étranger a été expulsé",
+          "Si les 5 claques sont inefficaces, passer aux 5 compressions abdominales (manœuvre de Heimlich) : se placer derrière la victime, poing serré positionné entre le nombril et le sternum, autre main par-dessus, tirer vers soi et vers le haut en un mouvement sec",
+          "Alterner 5 claques dans le dos et 5 compressions abdominales jusqu'à expulsion du corps étranger ou perte de connaissance",
+        ],
+      },
+      { type: "h3", text: "Si la victime perd connaissance" },
+      {
+        type: "p",
+        text: "Allonger délicatement la victime au sol, appeler le 15 (ou 112) immédiatement ou demander à un tiers de le faire, et débuter une réanimation cardio-pulmonaire (RCP) avec compressions thoraciques. Avant chaque série de compressions, inspecter brièvement la bouche : si le corps étranger est visible et accessible, le retirer avec précaution. Ne jamais effectuer de balayage à l'aveugle. Si un DAE est disponible à proximité, le mettre en route dès que possible.",
+      },
+      { type: "h2", text: "Chez le nourrisson de moins de 1 an" },
+      {
+        type: "ul",
+        items: [
+          "Tenir le nourrisson face vers le bas, tête plus basse que le tronc, soutenu sur l'avant-bras",
+          "Donner 5 claques fermes dans le haut du dos avec le talon de la main",
+          "Retourner le nourrisson face vers le haut sur l'autre avant-bras, tête toujours plus basse que le corps",
+          "Réaliser 5 compressions thoraciques avec deux doigts au centre du sternum, juste sous la ligne des mamelons",
+          "Alterner 5 claques dans le dos et 5 compressions thoraciques ; appeler le 15 en parallèle ou demander à un tiers de le faire",
+        ],
+      },
+      {
+        type: "quote",
+        text: "La manœuvre de Heimlich est réservée aux adultes et aux enfants de plus de 1 an. Chez le nourrisson, les compressions abdominales sont contre-indiquées : elles peuvent provoquer des lésions graves des organes internes.",
+      },
+      { type: "h2", text: "Si vous vous étouffez sans témoin" },
+      {
+        type: "p",
+        text: "Composer le 15 si vous pouvez encore émettre un son. Si l'obstruction est totale, penchez-vous en avant contre le dossier d'une chaise, le rebord d'une table ou un plan de travail, et appuyez fort l'abdomen contre l'arête pour provoquer vous-même une compression abdominale. Cette technique peut désobstruer les voies aériennes en l'absence de témoin, mais elle est moins efficace que la manœuvre réalisée par un tiers formé.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : la conduite à tenir face à une obstruction des voies aériennes par corps étranger (OVACE) est enseignée dans le référentiel national de formation SST et dans les unités d'enseignement PSC, PSE1 et AFGSU, sous l'autorité de l'INRS et de la Direction générale de la sécurité civile et de la gestion des crises (DGSCGC).",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos équipes aux gestes de premiers secours,",
+        label: "découvrez notre formation SST",
+        href: "/formations/sst",
       },
     ],
   },
