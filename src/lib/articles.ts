@@ -52,6 +52,8 @@ export const articleSlugs = [
   "ssiap-erp-niveaux-qualification-missions",
   "permis-de-feu-travaux-points-chauds-procedure-obligations",
   "etouffement-conduite-a-tenir-adulte-enfant-nourrisson",
+  "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
+  "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
 ] as const;
 
 /**
@@ -77,6 +79,8 @@ export const veilleArticleSlugs = new Set<string>([
   "erc-guidelines-2025-rotterdam-recommandations-europeennes-rcp",
   "laerdal-qcpr-mannequins-connectes-formation-rcp",
   "formation-incendie-realite-virtuelle-vr-evacuation-extincteurs",
+  "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
+  "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
 ]);
 
 export type ArticleBlock =
@@ -3131,6 +3135,72 @@ export const articles: Record<string, Article> = {
         label: "découvrez notre formation SST",
         href: "/formations/sst",
       },
+    ],
+  },
+
+  "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie": {
+    title: "ERP 5e catégorie : l\'arrêté du 4 février 2026 modifie l\'article PE 27 sur la surveillance",
+    excerpt: "L\'arrêté du 4 février 2026 (NOR : INTE2607628A), en vigueur depuis le 1er mai 2026, modifie l\'article PE 27 du règlement ERP : les établissements de 5e catégorie sans locaux à sommeil peuvent accueillir jusqu\'à 19 personnes sans surveillance permanente, sous conditions.",
+    publishedAt: "2026-04-15",
+    category: "Sécurité incendie",
+    readingTime: 4,
+    image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
+    content: [
+      { type: "p", text: "L\'arrêté du 4 février 2026 (NOR : INTE2607628A), publié au Journal Officiel du 15 avril 2026, modifie le règlement de sécurité contre les risques d\'incendie et de panique dans les établissements recevant du public (arrêté du 25 juin 1980). En vigueur depuis le 1er mai 2026, ce texte modifie l\'article PE 27 pour ouvrir une nouvelle possibilité aux petits établissements sans locaux à sommeil : accueillir du public sans surveillance permanente, sous conditions strictes." },
+      { type: "h2", text: "Ce que change le texte" },
+      { type: "p", text: "L\'article PE 27 du règlement ERP est modifié pour autoriser les établissements de 5e catégorie sans locaux réservés au sommeil à fonctionner sans présence humaine permanente pendant les heures d\'ouverture au public. Cette ouverture est conditionnée au respect simultané de deux exigences cumulatives." },
+      { type: "ul", items: [
+        "L\'effectif du public présent simultanément dans l\'établissement n\'excède pas 19 personnes.",
+        "L\'exploitant respecte un cahier des charges défini par les ministères compétents, précisant les conditions techniques et organisationnelles minimales à satisfaire.",
+      ]},
+      { type: "p", text: "Avant cet arrêté, les ERP de 5e catégorie devaient assurer la présence du propriétaire ou d\'un représentant désigné pendant tout le temps d\'accueil du public, sauf dérogation expresse de la commission de sécurité. L\'assouplissement vise à adapter les obligations aux réalités des très petits établissements tout en maintenant un niveau de sécurité garanti par le cahier des charges." },
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Sont concernés par cette modification les ERP de 5e catégorie ne comportant aucun local réservé au sommeil. La 5e catégorie regroupe les établissements dont l\'effectif du public est inférieur au seuil de la 4e catégorie correspondant à leur type. Les ERP à locaux à sommeil — hôtels, résidences, foyers, internats — restent soumis aux règles de surveillance permanente inchangées." },
+      { type: "ul", items: [
+        "Petits commerces, espaces d\'activités, ateliers, salles de réunion ou locaux professionnels accueillant moins de 20 personnes.",
+        "Établissements sans chambre, dortoir ni local affecté au sommeil, quelle que soit leur nature.",
+        "Dès que l\'effectif atteint 20 personnes ou plus, la surveillance permanente reste intégralement obligatoire.",
+      ]},
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "Les formateurs incendie et responsables sécurité qui interviennent dans des ERP de petite taille doivent intégrer cette modification dans leurs contenus pédagogiques. La section exploitation du règlement PE — et en particulier l\'article PE 27 — évolue : les formations destinées aux exploitants de petits ERP et aux agents de sécurité devront aborder le nouveau régime de surveillance conditionnelle et les exigences du cahier des charges associé." },
+      { type: "ul", items: [
+        "Les formations incendie ERP (guide-file, équipier incendie, exploitation de locaux recevant du public) sont directement concernées par la mise à jour du contenu.",
+        "Le registre de sécurité et les obligations documentaires de l\'exploitant demeurent inchangés — seule la surveillance physique permanente est assouplie.",
+        "Les membres du CSE et les responsables QHSE d\'établissements de 5e catégorie doivent en prendre connaissance.",
+      ]},
+      { type: "p", text: "Référence officielle : arrêté du 4 février 2026 modifiant l\'arrêté du 25 juin 1980 portant approbation du règlement de sécurité contre les risques d\'incendie et de panique dans les ERP — NOR : INTE2607628A — JORF n°0089 du 15 avril 2026, en vigueur au 1er mai 2026." },
+      { type: "cta", text: "Pour former vos équipes aux obligations de sécurité incendie en ERP,", href: "/formations/incendie", label: "consultez notre page formation incendie" },
+    ],
+  },
+
+  "brochure-inrs-tj-29-evaluation-risques-document-unique-2026": {
+    title: "Brochure INRS TJ 29 : l\'évaluation des risques et le document unique, mise à jour mai 2026",
+    excerpt: "L\'INRS publie en mai 2026 l\'aide-mémoire juridique TJ 29 — 20 pages consacrées au cadre légal du DUERP : élaboration, mise à jour, conservation et rôle du document unique dans la prévention des risques professionnels.",
+    publishedAt: "2026-05-25",
+    category: "Prévention",
+    readingTime: 4,
+    image: "/images/articles/duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique.jpg",
+    content: [
+      { type: "p", text: "L\'INRS publie en mai 2026 l\'aide-mémoire juridique TJ 29 « Évaluation des risques professionnels et document unique », une brochure de 20 pages qui rassemble le cadre légal applicable au document unique d\'évaluation des risques professionnels (DUERP). Les aide-mémoire juridiques TJ de l\'INRS font référence dans le monde de la prévention : régulièrement mis à jour, ils synthétisent le droit en vigueur à destination des employeurs, des représentants du personnel et des responsables prévention." },
+      { type: "h2", text: "Ce que couvre la brochure TJ 29" },
+      { type: "p", text: "La brochure TJ 29 traite des obligations juridiques liées à l\'évaluation des risques professionnels et à leur formalisation dans le document unique. Elle est destinée aux employeurs, aux responsables prévention et aux représentants du personnel qui doivent maîtriser le cadre légal du DUERP dans sa version actualisée." },
+      { type: "ul", items: [
+        "Obligation d\'élaborer le DUERP : qui est concerné, qui y contribue, quel contenu minimal est attendu.",
+        "Mise à jour du document unique : fréquence minimale, événements déclencheurs (accidents, modifications des conditions de travail), formalisation des versions successives.",
+        "Conservation du DUERP : durée légale de 40 ans à compter de l\'élaboration de chaque version, modalités de mise à disposition des travailleurs et de leurs représentants.",
+        "Lien entre le DUERP et le programme annuel de prévention pour les entreprises d\'au moins 50 salariés.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Le DUERP est obligatoire dès le premier salarié, sans seuil d\'effectif. L\'article L.4121-3 du Code du travail impose à tout employeur de transcrire et de mettre à jour les résultats de l\'évaluation des risques dans ce document. La brochure TJ 29 s\'adresse à toutes les structures, quelle que soit leur taille, qui doivent tenir ce document à jour et en justifier le contenu face à l\'inspection du travail ou aux représentants du personnel." },
+      { type: "ul", items: [
+        "Employeurs et dirigeants de toute taille d\'entreprise, soumis à l\'obligation d\'évaluation et de transcription des risques.",
+        "Membres du CSE et du CSSCT, dans le cadre de leur mission santé-sécurité (article L.2315-18 du Code du travail).",
+        "Responsables QHSE et préventeurs qui animent la démarche d\'évaluation des risques au quotidien.",
+      ]},
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "La brochure TJ 29 constitue un support documentaire de référence pour les formations CSE et SSCT, qui incluent obligatoirement l\'étude du DUERP dans leur programme (articles L.2315-18 et R.2315-9 du Code du travail). La mise à jour de cet aide-mémoire juridique en mai 2026 permet aux formateurs et aux stagiaires de disposer d\'une source INRS consolidée, intégrant les dispositions les plus récentes du droit du travail en matière d\'évaluation et de prévention des risques." },
+      { type: "p", text: "Référence officielle : brochure INRS — aide-mémoire juridique TJ 29 — « Évaluation des risques professionnels et document unique », édition mai 2026. Disponible en téléchargement gratuit sur inrs.fr." },
+      { type: "cta", text: "Pour former les membres de votre CSE à leurs missions en santé et sécurité au travail,", href: "/formations", label: "consultez notre catalogue de formations" },
     ],
   },
 };
