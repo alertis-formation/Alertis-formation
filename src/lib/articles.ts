@@ -54,6 +54,7 @@ export const articleSlugs = [
   "etouffement-conduite-a-tenir-adulte-enfant-nourrisson",
   "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
+  "travail-isole-protection-travailleur-isole-pti-dati",
 ] as const;
 
 /**
@@ -3201,6 +3202,50 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La brochure TJ 29 constitue un support documentaire de référence pour les formations CSE et SSCT, qui incluent obligatoirement l\'étude du DUERP dans leur programme (articles L.2315-18 et R.2315-9 du Code du travail). La mise à jour de cet aide-mémoire juridique en mai 2026 permet aux formateurs et aux stagiaires de disposer d\'une source INRS consolidée, intégrant les dispositions les plus récentes du droit du travail en matière d\'évaluation et de prévention des risques." },
       { type: "p", text: "Référence officielle : brochure INRS — aide-mémoire juridique TJ 29 — « Évaluation des risques professionnels et document unique », édition mai 2026. Disponible en téléchargement gratuit sur inrs.fr." },
       { type: "cta", text: "Pour former les membres de votre CSE à leurs missions en santé et sécurité au travail,", href: "/formations", label: "consultez notre catalogue de formations" },
+    ],
+  },
+
+  "travail-isole-protection-travailleur-isole-pti-dati": {
+    title: "Travail isolé : identifier les risques et protéger le travailleur isolé",
+    excerpt: "Un salarié seul, sans possibilité d\'être secouru rapidement : le travail isolé expose à des risques sous-estimés. Tour d\'horizon des obligations de l\'employeur et des dispositifs PTI/DATI pour y répondre.",
+    publishedAt: "2026-05-25",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/travail-isole-protection-travailleur-isole-pti-dati.jpg",
+    content: [
+      { type: "p", text: "Un technicien de maintenance seul dans un local technique, un agent de sécurité en ronde nocturne, un commercial itinérant en zone blanche : le travail isolé concerne de nombreux secteurs. En cas d\'accident ou de malaise, aucun collègue n\'est présent pour alerter les secours. Cette situation impose à l\'employeur une vigilance particulière et des mesures concrètes pour garantir qu\'un salarié isolé ne sera jamais laissé sans possibilité d\'être secouru." },
+      { type: "h2", text: "Qu\'est-ce qu\'un travailleur isolé ?" },
+      { type: "p", text: "Un salarié est considéré comme isolé dès lors qu\'il exerce seul une activité, hors de vue et hors de portée auditive d\'un collègue, pendant une durée significative. L\'isolation peut être permanente — gardien de nuit, agent itinérant — ou ponctuelle, lors d\'une intervention de maintenance ou d\'un déplacement en zone reculée. L\'isolement géographique n\'est pas le seul critère : un salarié seul dans un local technique pendant deux heures est exposé au même titre qu\'un technicien à 50 km du siège." },
+      { type: "h2", text: "Les risques spécifiques au travail isolé" },
+      { type: "ul", items: [
+        "Malaise ou perte de connaissance sans possibilité d\'alerter",
+        "Chute de plain-pied ou de hauteur sans témoin",
+        "Accident de machine ou de manipulation dangereuse",
+        "Agression physique en zone isolée ou mal éclairée",
+        "Exposition prolongée à un produit dangereux sans détection rapide",
+      ]},
+      { type: "h2", text: "L\'obligation de l\'employeur" },
+      { type: "p", text: "L\'article L4121-1 du Code du travail impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale de ses salariés. Cette obligation concerne toutes les situations de travail, y compris les plus atypiques. L\'évaluation des risques, consignée dans le document unique (DUERP) en application de l\'article L4121-3, doit identifier les postes en situation d\'isolement et décrire les mesures de prévention retenues." },
+      { type: "quote", text: "Un DUERP qui ne mentionne pas les travailleurs isolés est un DUERP incomplet. L\'isolement aggrave presque tous les risques du poste : ce qui serait un incident avec un témoin devient potentiellement un accident grave sans possibilité d\'alerte." },
+      { type: "h2", text: "Le PTI et le DATI : deux réponses techniques" },
+      { type: "p", text: "La Protection du Travailleur Isolé (PTI) désigne l\'ensemble des dispositifs permettant à un salarié isolé d\'alerter des secours, ou de déclencher une alarme automatiquement. Le terme DATI (Dispositif d\'Alarme pour Travailleur Isolé) désigne plus précisément les équipements électroniques portés par le salarié, capables de détecter des situations critiques sans action volontaire de sa part." },
+      { type: "ul", items: [
+        "Détection de chute : déclenchement automatique si l\'angle d\'inclinaison dépasse un seuil défini",
+        "Absence de mouvement (man-down) : alarme si le salarié n\'a pas bougé pendant un délai paramétrable",
+        "Bouton d\'appel volontaire : alerte manuelle en cas de malaise ou de danger ressenti",
+        "Géolocalisation intégrée : transmission automatique de la position aux secours",
+        "Liaison avec une centrale de télésurveillance ou un référent interne désigné",
+      ]},
+      { type: "h2", text: "Les mesures organisationnelles complémentaires" },
+      { type: "p", text: "Le DATI est un outil technique, pas une solution complète. Il doit s\'appuyer sur des procédures claires : qui reçoit l\'alarme, qui intervient, selon quel délai ? Ces procédures doivent être testées régulièrement, documentées et connues de tous les acteurs de la chaîne d\'alerte." },
+      { type: "ul", items: [
+        "Contacts téléphoniques programmés à intervalles réguliers, avec procédure d\'escalade si le salarié ne répond pas",
+        "Rondes de contrôle planifiées, à fréquence adaptée au niveau de risque identifié dans le DUERP",
+        "Transmission aux secours d\'une fiche de localisation précise et des risques spécifiques du poste",
+        "Formation du salarié isolé au fonctionnement du DATI et aux gestes à réaliser en cas d\'alerte",
+        "Test périodique du dispositif pour s\'assurer de son bon fonctionnement opérationnel",
+      ]},
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques et à l\'organisation des secours,", href: "/formations", label: "consultez notre catalogue de formations" },
     ],
   },
 };
