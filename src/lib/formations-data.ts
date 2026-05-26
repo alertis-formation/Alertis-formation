@@ -727,7 +727,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-psc-creche-petite-enfance",
-    title: "Formation PSC crèche petite enfance",
+    title: "Formation secourisme petite enfance crèche",
     excerpt: "Formation PSC adaptée petite enfance. Pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
@@ -747,7 +747,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-recyclage-psc-creche-petite-enfance",
-    title: "Recyclage PSC crèche petite enfance",
+    title: "Recyclage secourisme petite enfance crèche",
     excerpt: "Recyclage du PSC petite enfance. 3h30 pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
     image: "/formations/formation-recyclage-psc.jpg",
     category: "secourisme",
@@ -871,6 +871,8 @@ export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
   "formation-equipier-de-seconde-intervention",
   "formation-incendie-en-immeuble-de-grande-hauteur",
   "formation-gqs-gestes-qui-sauvent",
+  "formation-psc-milieu-professionnel",
+  "formation-recyclage-psc-milieu-professionnel",
 ]);
 
 export function getFormationsByCategory(category: FormationCategory) {
