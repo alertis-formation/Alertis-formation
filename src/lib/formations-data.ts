@@ -687,7 +687,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "formation-gqs-initiation-3h",
-    title: "Initiation GQS (3h) — Gestes Qui Sauvent",
+    title: "Initiation GQS — Gestes Qui Sauvent",
     excerpt: "Initiation Gestes Qui Sauvent. Pour ancrer les bons réflexes face aux urgences vitales — étouffement, hémorragie, arrêt cardiaque.",
     image: "/formations/formation-gqs-gestes-qui-sauvent.jpg",
     category: "secourisme",
