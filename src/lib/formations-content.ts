@@ -252,7 +252,7 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-psc-premiers-secours-citoyen": {
     intro:
-      "Le PSC (Premier Secours Citoyen) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue. Le diplôme PSC est un diplôme du ministère de l'Intérieur, délivré exclusivement par une association agréée de sécurité civile (Croix-Rouge, Protection civile, FFSS…). Alertis n'est pas habilité à délivrer ce diplôme : nous dispensons le même contenu pédagogique de référence et remettons une attestation de participation Alertis.",
+      "Le PSC (Premier Secours Citoyen, anciennement PSC1) est la formation grand public aux premiers secours. {heuresLabel|7 heures} pour apprendre à réagir face aux situations d'urgence du quotidien — au travail, à la maison, dans la rue. Le diplôme PSC est un diplôme du ministère de l'Intérieur, délivré exclusivement par une association agréée de sécurité civile (Croix-Rouge, Protection civile, FFSS…). Alertis n'est pas habilité à délivrer ce diplôme : nous dispensons le même contenu pédagogique de référence et remettons une attestation de participation Alertis.",
     description:
       "Le PSC est la formation de référence en France pour le grand public aux gestes qui sauvent. Elle prépare à intervenir face aux situations d'urgence les plus courantes — étouffement, hémorragie, perte de conscience, arrêt cardiaque, malaise — et donne les bons réflexes pour protéger, alerter et secourir une victime jusqu'à l'arrivée des secours. Dispensée par des formateurs expérimentés, elle alterne théorie courte et pratique intensive sur mannequins. Le diplôme d'État PSC relève du ministère de l'Intérieur et n'est délivré que par les associations agréées de sécurité civile (Croix-Rouge, Protection civile, Fédération française de sauvetage et de secourisme…) ou les services publics habilités. Alertis n'étant pas une telle structure, nous remettons une attestation de participation Alertis détaillant les compétences acquises. Un recyclage tous les 3 ans est fortement conseillé pour rester opérationnel.",
     objectifs: [
@@ -279,7 +279,7 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-recyclage-psc": {
     intro:
-      "Le recyclage PSC actualise les gestes et intègre les évolutions des recommandations. Conseillé tous les 3 ans pour rester efficace en cas d'urgence.",
+      "Le recyclage PSC (anciennement PSC1) actualise les gestes et intègre les évolutions des recommandations. Conseillé tous les 3 ans pour rester efficace en cas d'urgence.",
     description:
       "Même si le PSC est techniquement valable à vie, les recommandations évoluent — la technique de massage cardiaque, le rythme des compressions, l'usage du DAE ont été mis à jour à plusieurs reprises depuis 2010. Sans pratique régulière, les gestes s'oublient. Cette demi-journée de recyclage permet de réactualiser l'ensemble des conduites à tenir, de reprendre confiance face à une situation d'urgence et d'intégrer les nouvelles préconisations européennes (ILCOR/ERC). C'est aussi l'occasion de partager des cas concrets et retours d'expérience entre participants.",
     objectifs: [
@@ -1716,7 +1716,7 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-psc-creche-petite-enfance": {
     intro:
-      "Formation PSC adaptée petite enfance. {heuresLabel|7 heures} pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
+      "Formation PSC (anciennement PSC1) adaptée petite enfance. {heuresLabel|7 heures} pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
     description:
       "Les gestes de secours diffèrent radicalement chez le nourrisson et l'enfant. Cette adaptation du PSC couvre les urgences spécifiques à la petite enfance : étouffement (claques dorsales, manœuvre de Heimlich adaptée), convulsion fébrile, malaise, traumatismes, brûlures, RCP nourrisson.",
     objectifs: [
@@ -1742,7 +1742,7 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-recyclage-psc-creche-petite-enfance": {
     intro:
-      "Recyclage du PSC petite enfance. {heuresLabel|3h30} pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
+      "Recyclage du PSC (anciennement PSC1) petite enfance. {heuresLabel|3h30} pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
     description:
       "Conseillé tous les 3 ans pour conserver les bons réflexes face aux urgences pédiatriques. La session reprend les conduites à tenir, intègre les évolutions des recommandations (ILCOR/ERC), propose des mises en situation pratiques et un partage d'expériences entre professionnels.",
     objectifs: [

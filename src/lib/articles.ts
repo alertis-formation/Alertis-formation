@@ -1682,10 +1682,10 @@ export const articles: Record<string, Article> = {
         type: "p",
         text: "Format court de sensibilisation, accessible à tous, sans prérequis. On apprend à alerter, protéger, et réaliser les gestes vitaux face à une hémorragie, une perte de connaissance ou un arrêt cardiaque. Idéal comme première porte d'entrée.",
       },
-      { type: "h3", text: "PSC — Premier Secours Citoyen de niveau 1 (7 heures)" },
+      { type: "h3", text: "PSC — Premier Secours Citoyen (anciennement PSC1, 7 heures)" },
       {
         type: "p",
-        text: "La formation citoyenne de référence, valable à vie (recyclage recommandé tous les 3 ans). Aborde toute la palette des gestes de premiers secours pour un témoin non-professionnel. Souvent demandée pour les concours administratifs, les BAFA, et les fonctions d'animation.",
+        text: "La formation citoyenne de référence (anciennement appelée PSC1), valable à vie (recyclage recommandé tous les 3 ans). Aborde toute la palette des gestes de premiers secours pour un témoin non-professionnel. Souvent demandée pour les concours administratifs, les BAFA, et les fonctions d'animation.",
       },
       { type: "h2", text: "Les formations professionnelles" },
       { type: "h3", text: "SST — Sauveteur Secouriste du Travail (14 heures)" },

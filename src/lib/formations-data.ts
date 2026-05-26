@@ -348,7 +348,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-psc-premiers-secours-citoyen",
     title: "Formation PSC — Premier Secours Citoyen",
-    excerpt: "PSC — Premier Secours Citoyen pour tous : alerte, hémorragies, étouffement, PLS, RCP, défibrillateur. Attestation de participation Alertis (le diplôme d'État PSC est réservé aux associations agréées).",
+    excerpt: "PSC (anciennement PSC1) — Premier Secours Citoyen pour tous : alerte, hémorragies, étouffement, PLS, RCP, défibrillateur. Attestation de participation Alertis (le diplôme d'État PSC est réservé aux associations agréées).",
     image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
     category: "secourisme",
     categoryLabel: "Secourisme",
@@ -358,7 +358,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-recyclage-psc",
     title: "Recyclage PSC — Premier Secours Citoyen",
-    excerpt: "Recyclage PSC pour maintenir vos compétences de Premier Secours Citoyen : mise à jour des techniques et gestes selon les dernières recommandations.",
+    excerpt: "Recyclage PSC (anciennement PSC1) pour maintenir vos compétences de Premier Secours Citoyen : mise à jour des techniques et gestes selon les dernières recommandations.",
     image: "/formations/formation-recyclage-psc.jpg",
     category: "secourisme",
     categoryLabel: "Secourisme",
@@ -728,7 +728,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-psc-creche-petite-enfance",
     title: "Formation secourisme petite enfance crèche",
-    excerpt: "Formation PSC adaptée petite enfance. Pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
+    excerpt: "Formation PSC (anciennement PSC1) adaptée petite enfance. Pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
     image: "/formations/psc-petite-enfance.jpg",
     category: "secourisme",
     categoryLabel: "Secourisme",
@@ -748,7 +748,7 @@ export const formationEntries: FormationEntry[] = [
   {
     slug: "formation-recyclage-psc-creche-petite-enfance",
     title: "Recyclage secourisme petite enfance crèche",
-    excerpt: "Recyclage du PSC petite enfance. 3h30 pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
+    excerpt: "Recyclage du PSC (anciennement PSC1) petite enfance. 3h30 pour réactualiser les gestes spécifiques nourrisson/enfant et intégrer les évolutions des recommandations.",
     image: "/formations/psc-petite-enfance.jpg",
     category: "secourisme",
     categoryLabel: "Secourisme",
