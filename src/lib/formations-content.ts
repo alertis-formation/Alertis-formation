@@ -175,7 +175,6 @@ export const formationsContent: Record<string, FormationContent> = {
       "Certificat SST INRS + carte personnelle de SST · valable 24 mois · MAC SST obligatoire pour renouveler",
       "Équivalence PSC (Premier Secours Citoyen) acquise par compétences — sans délivrance du document officiel PSC",
       "Formateurs SST habilités INRS",
-      "Éligible au financement FIFPL pour les professionnels libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
 
