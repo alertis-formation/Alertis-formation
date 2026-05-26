@@ -127,7 +127,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-h0-b0",
-    title: "Habilitation électrique H0 B0",
+    title: "Habilitation électrique H0 B0 (non-électriciens)",
     excerpt: "Habilitation B0 / H0 / H0V pour les non-électriciens travaillant à proximité d'installations électriques (basse et haute tension). Conforme à la norme NF C18-510.",
     image: "/formations/habilitation-electrique-h0-b0.jpg",
     category: "habilitation-electrique",
@@ -137,7 +137,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-h0-b0",
-    title: "Recyclage Habilitation électrique H0 B0",
+    title: "Recyclage Habilitation électrique H0 B0 (non-électriciens)",
     excerpt: "Recyclage B0 / H0 / H0V pour non-électriciens, tous les 3 ans : rappel des risques électriques, distances de sécurité, conduite à tenir en cas d'accident électrique.",
     image: "/formations/recyclage-habilitation-electrique-h0-b0.jpg",
     category: "habilitation-electrique",
