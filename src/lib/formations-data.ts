@@ -870,6 +870,7 @@ export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
   "formation-de-formateur-incendie",
   "formation-equipier-de-seconde-intervention",
   "formation-incendie-en-immeuble-de-grande-hauteur",
+  "formation-gqs-gestes-qui-sauvent",
 ]);
 
 export function getFormationsByCategory(category: FormationCategory) {
