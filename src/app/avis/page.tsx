@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { PageShell } from "@/components/site/page-shell";
 import { AvisFlow } from "./avis-flow";
 
@@ -18,7 +19,9 @@ export default function AvisPage() {
     >
       <section className="py-16 bg-[color:var(--brand-cream)]/40">
         <div className="mx-auto max-w-4xl px-6 lg:px-10">
-          <AvisFlow />
+          <Suspense fallback={null}>
+            <AvisFlow />
+          </Suspense>
         </div>
       </section>
     </PageShell>
