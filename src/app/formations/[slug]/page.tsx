@@ -472,6 +472,12 @@ export default async function FormationDetailPage({
                       <h3 className="mt-2 text-base font-semibold text-[color:var(--brand-charcoal)] leading-snug group-hover:text-[color:var(--brand-red)] transition-colors">
                         {r.title}
                       </h3>
+                      {r.duree && (
+                        <div className="mt-2 inline-flex items-center gap-1.5 text-xs text-[color:var(--brand-gray-medium)]">
+                          <Clock className="size-3.5 text-[color:var(--brand-red)]" />
+                          <span>{r.duree}</span>
+                        </div>
+                      )}
                     </div>
                   </Link>
                 ))}

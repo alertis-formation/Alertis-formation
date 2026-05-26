@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Clock } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { DragScroller } from "@/components/ui/drag-scroller";
 import { linkifyLegalRefs } from "@/lib/legal-refs";
@@ -231,6 +231,12 @@ export default async function FormationsPage() {
                               <h3 className="text-sm font-semibold text-[color:var(--brand-charcoal)] leading-snug line-clamp-3 group-hover:text-[color:var(--brand-red)] transition-colors">
                                 {f.title}
                               </h3>
+                              {f.duree && (
+                                <div className="mt-2 inline-flex items-center gap-1.5 text-xs text-[color:var(--brand-gray-medium)]">
+                                  <Clock className="size-3.5 text-[color:var(--brand-red)]" />
+                                  <span>{f.duree}</span>
+                                </div>
+                              )}
                               <div className="mt-auto pt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-[color:var(--brand-red)]">
                                 <span>Voir la formation</span>
                                 <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Clock } from "lucide-react";
 import { type FormationCategory } from "@/lib/formations-data";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
@@ -60,6 +60,12 @@ export async function FormationsList({
                 <h3 className="mt-2 text-base font-semibold text-[color:var(--brand-gray)] leading-snug group-hover:text-[color:var(--brand-red)] transition-colors line-clamp-2">
                   {f.title}
                 </h3>
+                {f.duree && (
+                  <div className="mt-2 inline-flex items-center gap-1.5 text-xs text-[color:var(--brand-gray-medium)]">
+                    <Clock className="size-3.5 text-[color:var(--brand-red)]" />
+                    <span>{f.duree}</span>
+                  </div>
+                )}
                 <div className="mt-auto pt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)]">
                   <span>Voir la formation</span>
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
