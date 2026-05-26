@@ -15,7 +15,7 @@ import { NextResponse } from "next/server";
  *
  * La variable Vercel a toujours la priorité sur la constante.
  */
-const MAINTENANCE_MODE_DEFAULT = true;
+const MAINTENANCE_MODE_DEFAULT = false;
 
 function isMaintenanceMode(): boolean {
   const env = process.env.MAINTENANCE_MODE?.toLowerCase();
