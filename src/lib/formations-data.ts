@@ -861,6 +861,17 @@ export const formationEntriesBySlug = Object.fromEntries(
   formationEntries.map((f) => [f.slug, f] as const)
 );
 
+/**
+ * Formations retirées du catalogue : leur entrée et leur contenu restent dans
+ * le code (pour ne pas perdre les données), mais elles n'apparaissent plus
+ * dans aucun listing et leur URL redirige vers la catégorie parente.
+ */
+export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
+  "formation-de-formateur-incendie",
+  "formation-equipier-de-seconde-intervention",
+  "formation-incendie-en-immeuble-de-grande-hauteur",
+]);
+
 export function getFormationsByCategory(category: FormationCategory) {
   return formationEntries.filter((f) => f.category === category);
 }

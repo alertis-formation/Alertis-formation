@@ -18,6 +18,7 @@ import { Button } from "@/components/ui/button";
 import {
   formationEntries,
   formationEntriesBySlug,
+  HIDDEN_FORMATION_SLUGS,
 } from "@/lib/formations-data";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 import {
@@ -74,6 +75,11 @@ export default async function FormationDetailPage({
   const { slug } = await params;
   const f = formationEntriesBySlug[slug];
   if (!f) notFound();
+
+  // Formations retirées du catalogue : redirection vers la catégorie parente.
+  if (HIDDEN_FORMATION_SLUGS.has(slug)) {
+    redirect(f.categoryHref);
+  }
 
   // Live API data (server-side, cached 1h via fetch revalidate).
   // Une formation n'a de page que si elle est référencée dans le back-office :

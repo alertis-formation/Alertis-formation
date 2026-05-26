@@ -14,6 +14,7 @@ import "server-only";
 import {
   formationEntries,
   getFormationsByCategory,
+  HIDDEN_FORMATION_SLUGS,
   type FormationEntry,
   type FormationCategory,
 } from "./formations-data";
@@ -21,16 +22,18 @@ import { getApiIdForSlug } from "./alertis-api-mapping";
 import { getLiveFormationIds } from "./alertis-api";
 
 /**
- * Ne conserve que les formations encore présentes dans le back-office.
+ * Ne conserve que les formations encore présentes dans le back-office,
+ * en excluant celles marquées comme cachées dans `HIDDEN_FORMATION_SLUGS`.
  * Si la liste API est indisponible (panne / cold-start Render), renvoie les
- * entrées inchangées : une panne ne doit jamais vider un listing.
+ * entrées inchangées (hors cachées) : une panne ne doit jamais vider un listing.
  */
 export async function filterLiveFormations(
   entries: readonly FormationEntry[],
 ): Promise<FormationEntry[]> {
+  const visible = entries.filter((e) => !HIDDEN_FORMATION_SLUGS.has(e.slug));
   const liveIds = await getLiveFormationIds();
-  if (liveIds === null) return [...entries];
-  return entries.filter((entry) => {
+  if (liveIds === null) return visible;
+  return visible.filter((entry) => {
     const apiId = getApiIdForSlug(entry.slug);
     return apiId !== null && liveIds.has(apiId);
   });
