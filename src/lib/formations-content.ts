@@ -1688,11 +1688,34 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis: "Habilitations B1v/B2v/BR/BC/BE et/ou H1v/H2v/HC en cours de validité ou expirées depuis moins de 12 mois.",
   },
 
+  "formation-amd-alerter-masser-defibriller": {
+    intro:
+      "Sensibilisation courte de {heuresLabel|1 heure} aux trois gestes qui sauvent face à un arrêt cardiaque : Alerter, Masser, Défibriller. Format ultra-condensé idéal pour former massivement les collaborateurs en très peu de temps.",
+    description:
+      "L'arrêt cardiaque tue 40 000 à 50 000 personnes par an en France. Sans intervention immédiate, les chances de survie chutent de 10 % par minute. La formation AMD se concentre sur les trois seuls gestes qui font réellement la différence dans les premières minutes : alerter les secours (15, 18, 112), pratiquer un massage cardiaque efficace, et utiliser un défibrillateur automatisé externe (DAE). En {heuresLabel|1 heure}, chaque participant passe en pratique sur mannequin avec un DAE pédagogique. C'est le format le plus court pour sensibiliser un grand nombre de collaborateurs sur un site (jusqu'à 15 personnes par session). Pour aller plus loin — étouffement, hémorragie, PLS —, le format 2h (Initiation GQS) ou la formation PSC (7h) sont recommandés.",
+    objectifs: [
+      "Reconnaître un arrêt cardiaque",
+      "Alerter efficacement les secours (15, 18, 112)",
+      "Réaliser un massage cardiaque efficace",
+      "Utiliser un défibrillateur automatisé externe (DAE) en sécurité",
+    ],
+    programme: [
+      "La chaîne de survie et le rôle du témoin",
+      "Reconnaître un arrêt cardiaque et alerter",
+      "Massage cardiaque : technique, rythme, relais",
+      "Utilisation du défibrillateur automatisé externe (DAE)",
+      "Mises en situation pratiques sur mannequin avec DAE",
+    ],
+    publicConcerne:
+      "Tout public — salariés, collaborateurs, étudiants, citoyens. Idéal pour sensibiliser massivement les équipes en peu de temps.",
+    prerequis: "Aucun.",
+  },
+
   "formation-gqs-initiation-3h": {
     intro:
       "Initiation Gestes Qui Sauvent. {heuresLabel|3 heures} pour ancrer les bons réflexes face aux urgences vitales — étouffement, hémorragie, arrêt cardiaque.",
     description:
-      "Format intermédiaire entre la sensibilisation GQS de 1h et le PSC (7h). Idéal pour les entreprises souhaitant former rapidement un grand nombre de collaborateurs avec une vraie mise en pratique sur mannequins et DAE.",
+      "Cette sensibilisation complète la formation AMD Alerter Masser Défibriller (1h) en allant plus loin sur la pratique et en couvrant d'autres urgences vitales — étouffement, hémorragie, position latérale de sécurité. Idéale pour les entreprises souhaitant former rapidement un grand nombre de collaborateurs avec une vraie mise en pratique sur mannequins et DAE.",
     objectifs: [
       
         "Comprendre les enjeux et le cadre de la formation",
@@ -1718,7 +1741,7 @@ export const formationsContent: Record<string, FormationContent> = {
     intro:
       "Formation PSC (anciennement PSC1) adaptée petite enfance. {heuresLabel|7 heures} pour maîtriser les gestes de secours spécifiques au nourrisson et à l'enfant.",
     description:
-      "Les gestes de secours diffèrent radicalement chez le nourrisson et l'enfant. Cette adaptation du PSC couvre les urgences spécifiques à la petite enfance : étouffement (claques dorsales, manœuvre de Heimlich adaptée), convulsion fébrile, malaise, traumatismes, brûlures, RCP nourrisson.",
+      "Les gestes de secours diffèrent radicalement chez le nourrisson et l'enfant. Cette adaptation du PSC couvre les urgences spécifiques à la petite enfance : étouffement (claques dorsales, compressions thoraciques), convulsion fébrile, malaise, traumatismes, brûlures, RCP nourrisson.",
     objectifs: [
       
         "Comprendre les enjeux et le cadre de la formation",

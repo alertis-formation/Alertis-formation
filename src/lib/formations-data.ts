@@ -736,6 +736,16 @@ export const formationEntries: FormationEntry[] = [
     date: "2026-05-19T10:00:00",
   },
   {
+    slug: "formation-amd-alerter-masser-defibriller",
+    title: "Formation AMD — Alerter Masser Défibriller",
+    excerpt: "Sensibilisation 1h aux trois gestes qui sauvent face à un arrêt cardiaque : alerter les secours, masser, utiliser un défibrillateur (DAE). Idéale pour former massivement les collaborateurs en peu de temps.",
+    image: "/formations/safety-day-defibrillateur-et-massage-cardiaque.jpg",
+    category: "secourisme",
+    categoryLabel: "Secourisme",
+    categoryHref: "/formations-secourisme",
+    date: "2026-05-27T10:00:00",
+  },
+  {
     slug: "formation-manutention-personnes-mobilite-reduite",
     title: "Formation manutention des personnes à mobilité réduite",
     excerpt: "Formation manutention des personnes à mobilité réduite. Pour maîtriser les techniques sûres de transfert et préserver à la fois le dos du soignant et la dignité de la personne aidée.",

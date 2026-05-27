@@ -46,7 +46,8 @@ export const slugToApiId: Record<string, number> = {
   // ─────── PSC SECOURISME ───────
   "formation-psc-premiers-secours-citoyen": 113,
   "formation-recyclage-psc": 114,
-  "formation-gqs-gestes-qui-sauvent": 115, // atelier sensibilisation
+  "formation-amd-alerter-masser-defibriller": 115, // AMD 1h — Alerter Masser Défibriller
+  // "formation-gqs-gestes-qui-sauvent": HIDDEN — Alertis n'est pas habilité à délivrer le GQS officiel (Ministère Intérieur)
   "formation-defibrillateur": 117,
 
   // ─────── GESTES ET POSTURES (ergonomie) ───────
