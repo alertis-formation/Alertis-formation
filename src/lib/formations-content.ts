@@ -883,6 +883,80 @@ export const formationsContent: Record<string, FormationContent> = {
       "Habilitation électrique BT (BR souhaitée) et formation initiale en électricité.",
   },
 
+  "recyclage-habilitation-electrique-photovoltaique-bp": {
+    intro:
+      "Recyclage BP photovoltaïque tous les 3 ans. {heuresLabel|7 heures} pour conserver son titre d'habilitation BP et intégrer les évolutions de la norme NF C18-510 sur le solaire.",
+    description:
+      "Pour les techniciens habilités BP qui interviennent sur installations photovoltaïques, le recyclage triennal est l'occasion de réactualiser les bonnes pratiques de mise en sécurité côté DC et AC, et d'intégrer les évolutions normatives (amendements de la NF C18-510 sur le PV, retours d'expérience accidents). La journée alterne rappels théoriques sur les risques spécifiques du photovoltaïque, mises à jour réglementaires et pratique sur installation PV pédagogique. Sans recyclage, l'habilitation BP devient caduque et le technicien ne peut plus intervenir sur les installations solaires.",
+    objectifs: [
+      "Réactualiser les opérations de mise en sécurité sur installations PV",
+      "Intégrer les évolutions normatives de la NF C18-510 sur le solaire",
+      "Maintenir les bons réflexes face aux risques du courant continu",
+      "Renouveler le titre d'habilitation BP",
+    ],
+    programme: [
+      "Rappels théoriques et retour d'expérience accidents PV",
+      "Évolutions normatives de la NF C18-510 (amendements PV)",
+      "Procédures de mise en sécurité et de consignation côté DC/AC",
+      "Pratique sur installation photovoltaïque pédagogique",
+      "Évaluation finale théorique et pratique",
+    ],
+    publicConcerne:
+      "Titulaires d'une habilitation BP photovoltaïque arrivant à échéance.",
+    prerequis:
+      "Habilitation BP en cours de validité ou expirée depuis moins de 12 mois.",
+  },
+
+  "habilitation-electrique-bf-hf-fouille": {
+    intro:
+      "Habilitation BF/HF pour les travaux de fouille à proximité de réseaux électriques enterrés. {heuresLabel|14 heures} pour identifier les risques, respecter les distances de sécurité et appliquer la procédure DT-DICT.",
+    description:
+      "Sur un chantier de terrassement, de VRD ou de plantation, le contact avec un câble enterré sous tension est l'un des accidents les plus graves du secteur — choc électrique, brûlure, arc qui peut tuer à plusieurs mètres. La norme NF C18-510 impose une habilitation BF (basse tension) ou HF (haute tension) à toute personne effectuant des travaux d'ordre non électrique à proximité de réseaux électriques enterrés. La formation aborde la lecture des plans de récolement et des réponses aux DT-DICT, le marquage-piquetage, les distances minimales d'approche, la conduite à tenir en cas d'arrachement ou de défaut, et les EPI adaptés. À ne pas confondre avec l'AIPR (autorisation d'intervention à proximité de réseaux) qui couvre tous les réseaux : la BF/HF est spécifique au risque électrique.",
+    objectifs: [
+      "Identifier les risques liés aux réseaux électriques enterrés (BT et HT)",
+      "Respecter les distances minimales d'approche et les procédures DT-DICT",
+      "Appliquer le marquage-piquetage et les règles de sécurité chantier",
+      "Réagir face à un incident (arrachement, défaut d'isolement)",
+      "Obtenir l'avis pour habilitation BF/HF",
+    ],
+    programme: [
+      "Cadre réglementaire : NF C18-510, décret anti-endommagement, DT-DICT",
+      "Identification et localisation des réseaux électriques enterrés",
+      "Distances de sécurité, marquage-piquetage, ordre d'exécution",
+      "EPI et matériel adaptés aux travaux de fouille",
+      "Conduite à tenir en cas d'incident ou d'arrachement",
+      "Évaluation théorique et mises en situation pratiques",
+    ],
+    publicConcerne:
+      "Conducteurs d'engins, terrassiers, salariés du BTP / VRD, paysagistes, employés communaux, plombiers, fontainiers — toute personne effectuant des travaux de fouille ou de terrassement à proximité de réseaux électriques.",
+    prerequis:
+      "Aucun prérequis électrique. Connaissance des règles générales de sécurité chantier souhaitée.",
+  },
+
+  "recyclage-habilitation-electrique-bf-hf-fouille": {
+    intro:
+      "Recyclage BF/HF tous les 3 ans. {heuresLabel|7 heures} pour maintenir son habilitation aux travaux à proximité de réseaux enterrés et intégrer les évolutions normatives.",
+    description:
+      "Pour les titulaires d'une habilitation BF ou HF (terrassement, VRD, BTP), le recyclage triennal réactualise les bons réflexes face aux réseaux enterrés : distances minimales, lecture des DT-DICT, marquage-piquetage, EPI. La journée intègre les évolutions de la norme NF C18-510 et de la réglementation anti-endommagement, et s'appuie sur les retours d'expérience accidents récents — les chantiers de fouille restent l'une des principales sources d'accidents électriques mortels en France. Sans recyclage, l'habilitation devient caduque.",
+    objectifs: [
+      "Réactualiser les règles de sécurité face aux réseaux enterrés",
+      "Intégrer les évolutions de la NF C18-510 et de la réglementation DT-DICT",
+      "Analyser les retours d'expérience d'accidents récents",
+      "Renouveler le titre d'habilitation BF/HF",
+    ],
+    programme: [
+      "Rappels théoriques et évolutions normatives",
+      "Retour d'expérience accidents sur chantier de fouille",
+      "Procédures DT-DICT, marquage-piquetage, distances de sécurité",
+      "Mises en situation pratiques",
+      "Évaluation finale théorique et pratique",
+    ],
+    publicConcerne:
+      "Titulaires d'une habilitation BF ou HF arrivant à échéance — BTP, VRD, terrassement, paysagistes, employés de collectivités.",
+    prerequis:
+      "Habilitation BF ou HF en cours de validité ou expirée depuis moins de 12 mois.",
+  },
+
   // ───────────────────────── ERGONOMIE ─────────────────────────
   "formation-gestes-et-postures": {
     intro:
@@ -1560,7 +1634,7 @@ export const formationsContent: Record<string, FormationContent> = {
 
   "formation-gestes-postures-centre-commercial-3h": {
     intro:
-      "Gestes et Postures spécifique centre commercial et grande distribution — format court {heuresLabel|3 heures}. Mise en rayon, station debout et manutention en magasin.",
+      "Gestes et Postures spécifique centre commercial et grande distribution — format à durée modulable selon vos besoins. Mise en rayon, station debout et manutention en magasin.",
     description:
       "Mise en rayon, manutention de palettes, station debout en caisse : la grande distribution cumule les sollicitations physiques. Format court pour sensibiliser les équipes sans interrompre l'activité.",
     objectifs: [

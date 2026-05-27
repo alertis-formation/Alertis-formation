@@ -64,8 +64,10 @@ export const slugToApiId: Record<string, number> = {
   "recyclage-habilitation-electrique-bs-be": 80,
   "habilitation-electrique-br-b1-b2-bc": 81,
   "recyclage-habilitation-electrique-br-b1-b2-bc": 82,
-  "habilitation-electrique-photovoltaique-bp": 157, // complément PV BR
-  // "habilitation-electrique-bf-hf-fouille": NOT FOUND in API
+  "habilitation-electrique-photovoltaique-bp": 162, // BP photovoltaïque (vraie habilitation BP — id 157 était l'ancien "complément PV BR")
+  "recyclage-habilitation-electrique-photovoltaique-bp": 163,
+  "habilitation-electrique-bf-hf-fouille": 164, // BF/HF travaux à proximité de réseaux (fouille)
+  "recyclage-habilitation-electrique-bf-hf-fouille": 165,
   // "formation-formateur-habilitation-electrique": NOT FOUND in API
 
   // ─────── PRÉVENTION / DIVERS ───────
