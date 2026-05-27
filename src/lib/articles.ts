@@ -55,6 +55,7 @@ export const articleSlugs = [
   "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
   "travail-isole-protection-travailleur-isole-pti-dati",
+  "bruit-au-travail-evaluation-exposition-prevention-risques",
 ] as const;
 
 /**
@@ -3246,6 +3247,75 @@ export const articles: Record<string, Article> = {
         "Test périodique du dispositif pour s\'assurer de son bon fonctionnement opérationnel",
       ]},
       { type: "cta", text: "Pour former vos équipes à la prévention des risques et à l\'organisation des secours,", href: "/formations", label: "consultez notre catalogue de formations" },
+    ],
+  },
+
+  "bruit-au-travail-evaluation-exposition-prevention-risques": {
+    title:
+      "Bruit au travail : mesurer l'exposition et protéger l'audition de vos salariés",
+    excerpt:
+      "Surdité, acouphènes, fatigue auditive : le bruit est un risque professionnel réglementé souvent sous-estimé. Seuils d'action, mesures de prévention et protections auditives — le point pour un préventeur.",
+    publishedAt: "2026-05-27",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/bruit-au-travail-evaluation-exposition-prevention-risques.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Le bruit est omniprésent dans de nombreux secteurs professionnels : industrie, BTP, restauration, agriculture, transports. Une exposition prolongée à un niveau sonore élevé peut provoquer une surdité progressive, des acouphènes ou une fatigue auditive — des atteintes irréversibles. Le Code du travail impose à l'employeur d'évaluer ce risque et d'agir en amont, avant que les seuils réglementaires ne soient dépassés.",
+      },
+      { type: "h2", text: "Les trois seuils réglementaires à connaître" },
+      {
+        type: "p",
+        text: "Les articles R.4431-1 à R.4435-4 du Code du travail définissent trois paliers d'obligation, basés sur le niveau d'exposition sonore quotidienne (LEX,8h) :",
+      },
+      {
+        type: "ul",
+        items: [
+          "Valeurs basses déclenchant l'action (LEX,8h = 80 dB(A)) : l'employeur met des équipements de protection auditive individuelle à disposition, informe les salariés exposés et les soumet à une surveillance médicale.",
+          "Valeurs hautes déclenchant l'action (LEX,8h = 85 dB(A)) : le port des protecteurs auditifs devient obligatoire. Les zones concernées sont signalées et l'accès peut être limité.",
+          "Valeurs limites d'exposition (LEX,8h = 87 dB(A)) : seuil absolu jamais dépassable, même avec port de protecteurs.",
+        ],
+      },
+      { type: "h2", text: "Évaluer l'exposition : mesure ou estimation ?" },
+      {
+        type: "p",
+        text: "L'évaluation peut s'appuyer sur une mesure instrumentale réalisée par un acousticien ou un organisme accrédité, ou sur une estimation à partir de bases de données de référence comme celles mises à disposition par l'INRS. Quelle que soit la méthode retenue, les résultats doivent être consignés dans le Document Unique d'Évaluation des Risques Professionnels (DUERP) et mis à jour lors de tout changement significatif d'équipement ou d'organisation du travail.",
+      },
+      { type: "h2", text: "Prévenir le bruit : la hiérarchie des mesures" },
+      {
+        type: "ul",
+        items: [
+          "Prévention à la source : réduire le bruit émis lors de l'achat ou de la conception des équipements — c'est la mesure la plus durable et la moins contraignante à long terme.",
+          "Traitement de la propagation : encoffrements acoustiques, cabines insonorisées, écrans, revêtements absorbants sur les parois.",
+          "Organisation du travail : rotation des postes exposés, limitation des durées d'exposition, éloignement des zones bruyantes.",
+          "Protection individuelle : bouchons d'oreilles ou casques anti-bruit en dernier recours, avec une atténuation adaptée au niveau réel de bruit.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "La protection auditive individuelle est le dernier recours, pas la solution de facilité. Un protecteur mal choisi ou mal porté ne protège pas réellement — il donne seulement une fausse impression de sécurité.",
+      },
+      { type: "h2", text: "Choisir et utiliser les équipements de protection auditive" },
+      {
+        type: "p",
+        text: "Deux grands types de protecteurs existent : les bouchons d'oreilles (en mousse expansible, préformés ou personnalisés) et les casques anti-bruit. Leur efficacité est caractérisée par l'atténuation SNR (Single Number Rating), exprimée en décibels. Pour qu'un protecteur soit adapté, son atténuation doit ramener le niveau sonore sous 75 à 80 dB(A) au niveau de l'oreille. En deçà, le risque subsiste ; au-delà, le salarié ne perçoit plus les signaux d'alerte.",
+      },
+      { type: "h2", text: "Surdité professionnelle : reconnaissance et surveillance médicale" },
+      {
+        type: "p",
+        text: "La surdité professionnelle est inscrite au tableau n° 42 des maladies professionnelles du régime général de la Sécurité sociale. Sa reconnaissance est possible dès lors que l'exposition à un niveau sonore élevé est établie et que la perte auditive répond aux critères médicaux du tableau. Le médecin du travail assure la surveillance audiométrique des salariés exposés et peut proposer des restrictions d'aptitude ou des aménagements de poste.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : articles R.4431-1 à R.4435-4 du Code du travail. Tableau n° 42 des maladies professionnelles du régime général (annexe II du décret du 14 mai 1919 et ses modifications). Documentation complémentaire disponible sur inrs.fr.",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos responsables et salariés à la prévention des risques professionnels,",
+        label: "prenez contact via notre page dédiée",
+        href: "/contact",
+      },
     ],
   },
 };
