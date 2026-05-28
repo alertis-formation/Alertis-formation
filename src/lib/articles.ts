@@ -56,6 +56,7 @@ export const articleSlugs = [
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
   "travail-isole-protection-travailleur-isole-pti-dati",
   "bruit-au-travail-evaluation-exposition-prevention-risques",
+  "hemorragie-externe-compression-garrot-conduite-a-tenir",
 ] as const;
 
 /**
@@ -3315,6 +3316,89 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos responsables et salariés à la prévention des risques professionnels,",
         label: "prenez contact via notre page dédiée",
         href: "/contact",
+      },
+    ],
+  },
+
+  "hemorragie-externe-compression-garrot-conduite-a-tenir": {
+    title:
+      "Hémorragie externe grave : compression directe et garrot, la conduite à tenir",
+    excerpt:
+      "Une hémorragie externe non contrôlée peut être fatale en quelques minutes. Compression directe, pose du garrot : les gestes à connaître pour agir efficacement avant l'arrivée des secours.",
+    publishedAt: "2026-05-28",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/hemorragie-externe-compression-garrot-conduite-a-tenir.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Une hémorragie externe massive est l'une des urgences vitales les plus fréquentes en milieu professionnel. Coupures profondes, accidents de machine, plaies par outil : le saignement peut dépasser la capacité du corps à compenser en quelques minutes. La rapidité et la précision du geste du premier témoin conditionnent directement la survie. Deux techniques permettent de contrôler une hémorragie externe : la compression directe, et si elle échoue, le garrot.",
+      },
+      { type: "h2", text: "Reconnaître une hémorragie qui menace le pronostic vital" },
+      {
+        type: "ul",
+        items: [
+          "Saignement abondant qui imbibe rapidement les compresses ou les vêtements, ou qui forme une flaque au sol",
+          "Blessure profonde à un membre, au cou ou à l'abdomen avec sang vif ou sombre",
+          "Victime pâle, froide, agitée ou confuse : signes d'un état de choc hémorragique naissant",
+          "Amputation traumatique partielle ou totale d'un membre : urgence absolue, garrot immédiat",
+        ],
+      },
+      { type: "h2", text: "La compression directe : premier geste à enchaîner" },
+      {
+        type: "ul",
+        items: [
+          "Protéger ses mains avec des gants en nitrile (trousse de secours) — à défaut, sac plastique ou tissu propre plié en épaisseur",
+          "Poser une compresse stérile ou un tissu propre directement sur la plaie",
+          "Appuyer de tout son poids, avec les deux mains, sans relâcher et sans retirer la compresse",
+          "Maintenir la compression en continu jusqu'à l'arrivée des secours — retirer la compresse pour vérifier relance le saignement",
+          "Allonger la victime, surélever le membre si possible, couvrir pour prévenir le refroidissement",
+        ],
+      },
+      { type: "h2", text: "Quand et comment poser un garrot" },
+      {
+        type: "p",
+        text: "Le garrot s'impose lorsque la compression directe échoue malgré une pression forte et continue, ou d'emblée en cas d'amputation traumatique. C'est la seule réponse efficace face à une hémorragie incontrôlable sur un membre. Chaque minute compte : ne pas hésiter.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Utiliser un tourniquet industriel (type CAT) si disponible dans la trousse de secours — c'est le plus efficace",
+          "À défaut : bande large d'au moins 5 cm pliée en bande — jamais un fil, une corde fine ou une ceinture étroite",
+          "Positionner le garrot à 5 à 7 cm au-dessus de la plaie, jamais sur une articulation (genou, coude)",
+          "Serrer progressivement et fermement jusqu'à l'arrêt complet du saignement — la douleur est normale et attendue",
+          "Inscrire l'heure de pose sur le front de la victime ou directement sur le garrot (stylo, marqueur)",
+          "Ne jamais retirer le garrot une fois posé : c'est une décision réservée au médecin urgentiste",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Un garrot posé et maintenu ne détruit pas le membre en quelques heures — c'est un mythe. La priorité absolue est de stopper le saignement. Un garrot noté avec l'heure de pose permet aux urgentistes de prendre le relais dans les meilleures conditions.",
+      },
+      { type: "h2", text: "Les erreurs les plus dangereuses" },
+      {
+        type: "ul",
+        items: [
+          "Retirer la compresse ou le garrot pour contrôler l'évolution : cela relance immédiatement le saignement",
+          "Utiliser un lien trop fin (fil, lacet, sangle étroite) : coupe les tissus sans arrêter le saignement",
+          "Poser le garrot sur une articulation (genou, coude) : inefficace et traumatisant",
+          "Hésiter à poser le garrot par crainte de faire mal ou d'abîmer le membre : cette hésitation peut coûter une vie",
+        ],
+      },
+      { type: "h2", text: "Préparer son entreprise : matériel et formation" },
+      {
+        type: "p",
+        text: "L'article R.4224-14 du Code du travail impose à l'employeur de disposer du matériel de premiers secours adapté aux risques de l'activité. Dans les secteurs exposés aux coupures et aux blessures graves (industrie, BTP, restauration, atelier), cela implique d'intégrer dans la trousse de secours des compresses stériles en quantité suffisante, des gants en nitrile et, pour les postes à risque élevé, un tourniquet industriel. Former des Sauveteurs Secouristes du Travail et réviser régulièrement la pose du garrot lors des recyclages MAC SST constituent les mesures préventives les plus concrètes.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : Code du travail, articles R.4224-14 et R.4224-15. Conduite à tenir face aux hémorragies externes enseignée dans le référentiel national de formation SST de l'INRS.",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos salariés aux gestes de premiers secours, incluant la gestion des hémorragies,",
+        label: "découvrez notre formation SST",
+        href: "/formations/sst",
       },
     ],
   },
