@@ -57,6 +57,7 @@ export const articleSlugs = [
   "travail-isole-protection-travailleur-isole-pti-dati",
   "bruit-au-travail-evaluation-exposition-prevention-risques",
   "hemorragie-externe-compression-garrot-conduite-a-tenir",
+  "chutes-de-plain-pied-prevention-risques-entreprise",
 ] as const;
 
 /**
@@ -3399,6 +3400,73 @@ export const articles: Record<string, Article> = {
         text: "Pour former vos salariés aux gestes de premiers secours, incluant la gestion des hémorragies,",
         label: "découvrez notre formation SST",
         href: "/formations/sst",
+      },
+    ],
+  },
+
+  "chutes-de-plain-pied-prevention-risques-entreprise": {
+    title:
+      "Chutes de plain-pied au travail : identifier les risques et prévenir les accidents",
+    excerpt:
+      "Parmi les premières causes d'accidents du travail avec arrêt, les chutes de plain-pied sont largement évitables. Sol glissant, encombrement, éclairage déficient : identifier les facteurs pour agir.",
+    publishedAt: "2026-05-29",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/chutes-de-plain-pied-prevention-risques-entreprise.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Les chutes de plain-pied désignent les chutes qui se produisent sur une même surface, sans dénivellation : glissade sur un sol humide, trébuchement sur un obstacle, perte d'équilibre dans une allée mal éclairée. Elles figurent parmi les accidents du travail les plus fréquents, dans tous les secteurs d'activité. Pourtant, la grande majorité est évitable. Les facteurs en cause — sol dégradé, encombrement, mauvais éclairage, chaussures inadaptées — sont connus et corrigeables dès lors qu'on prend le temps de les chercher.",
+      },
+      { type: "h2", text: "Ce que dit la réglementation" },
+      {
+        type: "p",
+        text: "L'article L.4121-1 du Code du travail impose à l'employeur de prendre toutes les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Les chutes de plain-pied relèvent de cette obligation générale. Elles doivent figurer dans le Document Unique d'Évaluation des Risques Professionnels (DUERP), avec une évaluation par unité de travail, une cotation du risque et un plan d'action associé. L'absence de ces éléments peut constituer un manquement susceptible d'être relevé par l'inspection du travail.",
+      },
+      { type: "h2", text: "Les facteurs de risque à identifier" },
+      {
+        type: "ul",
+        items: [
+          "Sol glissant ou dégradé : carrelage humide, revêtement usé, joint défectueux, surface inégale",
+          "Encombrement des voies de circulation : câbles, emballages, matériels entreposés hors des zones de stockage",
+          "Éclairage insuffisant : passages sombres, angles morts, accès extérieurs non éclairés la nuit",
+          "Chaussures inadaptées : semelles lisses, hauteur de talon instable, absence d'EPI antidérapant dans les zones humides",
+          "Facteurs organisationnels : précipitation, sol mouillé après nettoyage sans signalisation, visibilité réduite lors du port de charges",
+        ],
+      },
+      { type: "h2", text: "Mesures de prévention : la logique des priorités" },
+      {
+        type: "p",
+        text: "La prévention des chutes suit la logique des principes généraux de prévention définis à l'article L.4121-2 du Code du travail : supprimer le risque en priorité, puis le réduire à la source, puis protéger collectivement avant de recourir à la protection individuelle. En pratique, cela signifie agir d'abord sur l'environnement — sol, circulation, éclairage — avant de remettre des équipements de protection.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Supprimer les zones à risque : remplacer un revêtement dégradé, combler les joints défectueux, traiter les aspérités",
+          "Organiser la circulation : délimiter les voies piétonnes et les zones de stockage, signaler immédiatement toute zone mouillée",
+          "Améliorer l'éclairage : assurer un niveau d'éclairement suffisant dans tous les espaces de circulation, intérieurs et extérieurs",
+          "Équiper les salariés exposés : chaussures antidérapantes adaptées au risque, bandes antidérapantes collées au sol",
+          "Tracer les incidents : recenser glissades et presqu'accidents pour identifier les zones récurrentes et prioriser les actions",
+        ],
+      },
+      {
+        type: "quote",
+        text: "La chute de plain-pied est banalisée parce qu'elle est fréquente — au point qu'on finit par ne plus la voir comme un risque. C'est précisément cette banalisation qui empêche d'agir. Un sol glissant non traité est un risque connu, évaluable et corrigeable.",
+      },
+      { type: "h2", text: "Chaussures antidérapantes : décrypter le marquage" },
+      {
+        type: "p",
+        text: "Les chaussures de sécurité antidérapantes répondent à la norme EN ISO 20345. Leur marquage indique les essais de glissance réussis : SRA (résistance sur carrelage céramique mouillé), SRB (résistance sur acier huilé), SRC (les deux essais cumulés). Dans les métiers exposant à des sols humides ou gras — agroalimentaire, restauration collective, propreté, établissements de soins — le marquage SRC est le niveau à exiger. L'adéquation entre le marquage et les risques réels du poste est à vérifier et à documenter dans le DUERP.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2. Norme EN ISO 20345 (chaussures de sécurité, marquage antidérapant SRA, SRB, SRC). Documentation sur la prévention des chutes de plain-pied disponible sur inrs.fr.",
+      },
+      {
+        type: "cta",
+        text: "Pour intégrer la prévention des chutes dans votre démarche de sécurité et former vos référents,",
+        label: "prenez contact via notre page dédiée",
+        href: "/contact",
       },
     ],
   },
