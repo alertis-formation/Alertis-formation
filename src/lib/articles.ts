@@ -58,6 +58,7 @@ export const articleSlugs = [
   "bruit-au-travail-evaluation-exposition-prevention-risques",
   "hemorragie-externe-compression-garrot-conduite-a-tenir",
   "chutes-de-plain-pied-prevention-risques-entreprise",
+  "risque-chimique-fds-valeurs-limites-exposition-prevention",
 ] as const;
 
 /**
@@ -3468,6 +3469,34 @@ export const articles: Record<string, Article> = {
         label: "prenez contact via notre page dédiée",
         href: "/contact",
       },
+    ],
+  },
+
+  "risque-chimique-fds-valeurs-limites-exposition-prevention": {
+    title:
+      "Risque chimique au travail : comprendre la FDS pour mieux prévenir",
+    excerpt:
+      "La Fiche de Données de Sécurité est le document de référence pour évaluer les risques chimiques au travail. VLEP, agents CMR, EPI adaptés : le guide pratique pour agir.",
+    publishedAt: "2026-05-30",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/risque-chimique-fds-valeurs-limites-exposition-prevention.jpg",
+    content: [
+      { type: "p", text: "La Fiche de Données de Sécurité (FDS) est le document de référence fourni par le fabricant pour chaque produit chimique dangereux. L'employeur a l'obligation de disposer des FDS de tous les produits présents dans son établissement, de les tenir à jour et de les mettre à disposition des travailleurs exposés. En extraire les bonnes informations est la première étape de toute prévention efficace du risque chimique." },
+      { type: "h2", text: "Ce qu'est une FDS et ce qu'elle impose à l'employeur" },
+      { type: "p", text: "La FDS est un document standardisé au niveau européen, régi par le règlement CE n°1907/2006 (REACH) et le règlement CE n°1272/2008 (CLP). Elle doit être fournie gratuitement par le fournisseur lors de chaque livraison d'un produit chimique classé dangereux, disponible en français, et mise à jour à chaque révision significative. L'employeur ne peut pas se contenter de la classer : il doit en exploiter le contenu pour construire son évaluation des risques." },
+      { type: "h2", text: "Les seize rubriques de la FDS : les sections prioritaires" },
+      { type: "ul", items: ["Rubrique 1 — Identification du produit, du fournisseur et des utilisations prévues", "Rubrique 2 — Identification des dangers : classification CLP, pictogrammes et mentions de danger H", "Rubrique 3 — Composition : liste des substances dangereuses présentes et leur concentration", "Rubrique 8 — Contrôles de l'exposition : VLEP applicables et équipements de protection individuelle recommandés", "Rubrique 11 — Informations toxicologiques : voies d'absorption, effets aigus et chroniques", "Rubrique 16 — Date de la dernière révision : une FDS datant de plus de trois ans doit être redemandée au fournisseur"] },
+      { type: "h2", text: "Agents CMR : un régime de protection renforcé" },
+      { type: "p", text: "Certains produits chimiques sont classés CMR — cancérogènes, mutagènes ou toxiques pour la reproduction. Ils sont identifiables en rubrique 2 de la FDS par les mentions de danger H340, H341, H350, H351, H360 ou H361. Le Code du travail impose pour ces agents un régime de protection renforcé : recherche de substitution prioritaire, réduction de l'exposition au niveau le plus bas techniquement et économiquement possible, surveillance médicale adaptée et traçabilité de l'exposition." },
+      { type: "h2", text: "Les VLEP : lire et utiliser les seuils d'exposition professionnelle" },
+      { type: "p", text: "La rubrique 8 de la FDS mentionne les valeurs limites d'exposition professionnelle (VLEP) applicables. La VLEP-8h est la concentration moyenne admissible sur une journée de travail de 8 heures ; la VLEP-CT est la concentration maximale acceptable sur 15 minutes. Exprimées en mg/m³ ou en ppm, elles permettent de dimensionner les mesurages d'ambiance, d'évaluer l'efficacité de la ventilation et de choisir les appareils de protection respiratoire adaptés." },
+      { type: "quote", text: "Une FDS non lue est une évaluation des risques incomplète. Les informations sur les dangers, les VLEP et les EPI nécessaires y figurent déjà : il suffit de les exploiter." },
+      { type: "h2", text: "Intégrer le risque chimique dans le DUERP" },
+      { type: "p", text: "Chaque produit chimique dangereux présent dans l'établissement doit être évalué dans le Document Unique d'Évaluation des Risques Professionnels, unité de travail par unité de travail. L'inventaire des produits, accompagné des FDS à jour, est la base indispensable. Pour chaque produit, il faut documenter les conditions réelles d'utilisation, les expositions potentielles, les mesures en place et les actions correctives à planifier." },
+      { type: "ul", items: ["Constituer et tenir à jour l'inventaire des produits chimiques par poste de travail, avec les FDS correspondantes", "Identifier les agents CMR et tracer les démarches de substitution ou de réduction de l'exposition", "Privilégier la prévention collective : ventilation générale et localisée, confinement, processus en vase clos", "Former les salariés exposés à l'étiquetage CLP, aux risques des produits manipulés et aux gestes d'urgence en cas de contact ou d'inhalation accidentels", "Mettre en place le suivi médical adapté pour les salariés exposés à des agents chimiques dangereux, en lien avec le médecin du travail"] },
+      { type: "p", text: "Référence officielle : règlement CE n°1907/2006 (REACH) et règlement CE n°1272/2008 (CLP). Code du travail, articles R.4412-1 et suivants relatifs à la prévention des risques liés aux agents chimiques dangereux." },
+      { type: "cta", text: "Pour former vos responsables et préventeurs à l'évaluation du risque chimique,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
