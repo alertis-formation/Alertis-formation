@@ -59,6 +59,7 @@ export const articleSlugs = [
   "hemorragie-externe-compression-garrot-conduite-a-tenir",
   "chutes-de-plain-pied-prevention-risques-entreprise",
   "risque-chimique-fds-valeurs-limites-exposition-prevention",
+  "travail-en-hauteur-prevention-chutes-obligations-employeur",
 ] as const;
 
 /**
@@ -3497,6 +3498,46 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["Constituer et tenir à jour l'inventaire des produits chimiques par poste de travail, avec les FDS correspondantes", "Identifier les agents CMR et tracer les démarches de substitution ou de réduction de l'exposition", "Privilégier la prévention collective : ventilation générale et localisée, confinement, processus en vase clos", "Former les salariés exposés à l'étiquetage CLP, aux risques des produits manipulés et aux gestes d'urgence en cas de contact ou d'inhalation accidentels", "Mettre en place le suivi médical adapté pour les salariés exposés à des agents chimiques dangereux, en lien avec le médecin du travail"] },
       { type: "p", text: "Référence officielle : règlement CE n°1907/2006 (REACH) et règlement CE n°1272/2008 (CLP). Code du travail, articles R.4412-1 et suivants relatifs à la prévention des risques liés aux agents chimiques dangereux." },
       { type: "cta", text: "Pour former vos responsables et préventeurs à l'évaluation du risque chimique,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "travail-en-hauteur-prevention-chutes-obligations-employeur": {
+    title:
+      "Travail en hauteur : prévenir les chutes et organiser les protections",
+    excerpt:
+      "Les chutes de hauteur sont parmi les premières causes d'accidents mortels au travail. Protection collective, EPI anti-chute, formation et DUERP : l'essentiel pour organiser la prévention.",
+    publishedAt: "2026-05-31",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/travail-en-hauteur-prevention-chutes-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Les chutes de hauteur représentent l'une des premières causes d'accidents du travail mortels en France. Elles surviennent depuis une toiture, un échafaudage, une nacelle ou une simple échelle — parfois à quelques mètres seulement. Prévenir ce risque ne se limite pas à équiper les salariés d'un harnais : c'est une démarche structurée, qui commence par les protections collectives et se formalise dans le document unique." },
+      { type: "h2", text: "L'obligation légale et le Code du travail" },
+      { type: "p", text: "L'article L.4121-1 du Code du travail impose à l'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé de ses salariés. Pour les travaux temporaires en hauteur, les articles R.4323-58 et suivants précisent cette obligation : ces travaux ne peuvent être réalisés qu'à partir d'un équipement de travail offrant des conditions adaptées, choisi selon la nature des travaux, la fréquence d'accès et la durée d'utilisation." },
+      { type: "h2", text: "La hiérarchie des mesures : collectif avant individuel" },
+      { type: "p", text: "L'article L.4121-2 du Code du travail fixe les principes généraux de prévention. Pour le travail en hauteur, leur ordre s'impose : supprimer le risque en aménageant le lieu de travail, puis mettre en place des protections collectives, et seulement lorsque celles-ci sont techniquement impossibles ou insuffisantes, recourir aux équipements de protection individuelle. Donner un harnais sans d'abord étudier les protections collectives est une faute de méthode." },
+      { type: "ul", items: [
+        "Garde-corps réglementaires : lisse haute, lisse intermédiaire et plinthe de butée — pour tout bord de chute accessible aux personnes",
+        "Échafaudages et plateformes de travail : à privilégier pour les travaux durables en bord de toiture ou en façade",
+        "Nacelles élévatrices (PEMP) : adaptées aux interventions ponctuelles nécessitant des déplacements fréquents",
+        "Filets de protection sous ouvrage : pour les travaux de charpente, toiture ou montage de structures",
+        "Trappes, trémies et jours de plancher ouverts : doivent être obturés ou protégés par un garde-corps avant tout travail à proximité",
+      ]},
+      { type: "h2", text: "Les EPI anti-chute : choisir et vérifier" },
+      { type: "p", text: "Lorsque les protections collectives sont techniquement impossibles, les équipements de protection individuelle anti-chute sont la mesure de dernier recours. Un harnais seul ne suffit pas : il faut un système complet intégrant un point d'ancrage certifié, une longe, un absorbeur d'énergie et une procédure de secours en cas de suspension. Un EPI qui a subi une chute n'est plus utilisable, même sans dégradation visible, et doit être retiré du service." },
+      { type: "ul", items: [
+        "Harnais antichute (norme EN 361) : doit être correctement ajusté, avec point de fixation dorsal ou sternal selon l'usage",
+        "Longe avec absorbeur d'énergie (EN 354 / EN 355) : réduit la force de choc transmise au corps lors de l'arrêt de chute",
+        "Dispositif antichute à rappel automatique (EN 360) : adapté aux déplacements verticaux fréquents",
+        "Point d'ancrage (EN 795) : doit résister à une force minimale de 12 kN — jamais fixé sur un élément non conçu à cet effet",
+        "Vérification annuelle obligatoire par une personne compétente, et systématiquement après tout déclenchement de la retenue",
+      ]},
+      { type: "h2", text: "Formation : une obligation sans diplôme spécifique" },
+      { type: "p", text: "Il n'existe pas de certification légalement imposée à tout travailleur en hauteur — contrairement à l'habilitation électrique. Mais l'employeur ne peut pas envoyer un salarié travailler en hauteur sans lui avoir dispensé une formation adaptée : utilisation des équipements, identification des points d'ancrage, inspection des EPI avant utilisation et conduite à tenir en cas de chute suspendue. En l'absence de formation documentée, un accident peut caractériser une faute inexcusable." },
+      { type: "quote", text: "Un salarié suspendu après une chute arrêtée doit être secouru rapidement. Au-delà d'un délai court, le syndrome de suspension — compression veineuse prolongée — peut être fatal. Avoir un plan de secours et former l'équipe à le déclencher est aussi important que de fournir le harnais." },
+      { type: "h2", text: "Intégrer le risque hauteur dans le DUERP" },
+      { type: "p", text: "En application de l'article L.4121-3 du Code du travail, tout risque identifié doit être consigné dans le Document Unique d'Évaluation des Risques Professionnels, avec sa cotation et les mesures de prévention retenues. Pour le travail en hauteur : lister les postes et situations exposés, documenter les protections en place — collectives et individuelles — et planifier les actions correctives avec responsables et délais. Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et R.4323-58 et suivants." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des chutes de hauteur et à l'utilisation des EPI,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
