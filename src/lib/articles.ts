@@ -60,6 +60,7 @@ export const articleSlugs = [
   "chutes-de-plain-pied-prevention-risques-entreprise",
   "risque-chimique-fds-valeurs-limites-exposition-prevention",
   "travail-en-hauteur-prevention-chutes-obligations-employeur",
+  "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
 ] as const;
 
 /**
@@ -87,6 +88,7 @@ export const veilleArticleSlugs = new Set<string>([
   "formation-incendie-realite-virtuelle-vr-evacuation-extincteurs",
   "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
+  "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
 ]);
 
 export type ArticleBlock =
@@ -3498,6 +3500,38 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["Constituer et tenir à jour l'inventaire des produits chimiques par poste de travail, avec les FDS correspondantes", "Identifier les agents CMR et tracer les démarches de substitution ou de réduction de l'exposition", "Privilégier la prévention collective : ventilation générale et localisée, confinement, processus en vase clos", "Former les salariés exposés à l'étiquetage CLP, aux risques des produits manipulés et aux gestes d'urgence en cas de contact ou d'inhalation accidentels", "Mettre en place le suivi médical adapté pour les salariés exposés à des agents chimiques dangereux, en lien avec le médecin du travail"] },
       { type: "p", text: "Référence officielle : règlement CE n°1907/2006 (REACH) et règlement CE n°1272/2008 (CLP). Code du travail, articles R.4412-1 et suivants relatifs à la prévention des risques liés aux agents chimiques dangereux." },
       { type: "cta", text: "Pour former vos responsables et préventeurs à l'évaluation du risque chimique,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu": {
+    title: "Recommandations ANCESU/SFMU 2026 : cinq gestes et soins d'urgence révisés pour les formations AFGSU",
+    excerpt: "En mars 2026, l'ANCESU et la SFMU ont actualisé cinq recommandations sur les gestes et soins d'urgence en AFGSU. Hémorragie, collier cervical, traumatisé inconscient : les points clés.",
+    publishedAt: "2026-03-28",
+    category: "AFGSU",
+    readingTime: 4,
+    image: "/formations/formation-afgsu2.jpg",
+    content: [
+      { type: "p", text: "En mars 2026, l'ANCESU (Association Nationale des Centres d'Enseignement des Soins d'Urgence) et la SFMU (Société Française de Médecine d'Urgence) ont publié conjointement de nouvelles recommandations nationales sur cinq gestes et soins d'urgence. Ce document de référence vise à harmoniser les pratiques pédagogiques sur l'ensemble du territoire et constitue la base que les formateurs AFGSU doivent intégrer dans leurs enseignements, en formation initiale comme en remise à niveau." },
+      { type: "h2", text: "Cinq thématiques révisées" },
+      { type: "p", text: "Les recommandations portent sur cinq thématiques identifiées par les formateurs des CESU comme sources de pratiques hétérogènes d'un centre à l'autre :" },
+      { type: "ul", items: [
+        "Gestion de l'hémorragie : hiérarchie compression directe / garrot / pansement hémostatique",
+        "Pose du collier cervical : indications et conditions de mise en place actualisées",
+        "Réalignement de membre : critères de décision et technique recommandée",
+        "Position d'attente du traumatisé inconscient : révision de l'algorithme de décision",
+        "Évaluation standardisée de la victime : cadre commun opposable pour les formateurs CESU"
+      ]},
+      { type: "h2", text: "L'hémorragie : la hiérarchie des gestes clarifiée" },
+      { type: "p", text: "La recommandation réaffirme la compression directe comme geste de première intention face à toute plaie hémorragique d'un membre. Le garrot est réservé aux situations critiques : amputation traumatique, corps étranger profond rendant la compression impossible, absence de pouls périphérique, état de choc hémorragique, arrêt cardiaque associé, ou situation de multiples victimes. Dans ces cas, il est posé sans délai, 5 à 8 cm au-dessus de la lésion. Une réévaluation dans l'heure est recommandée pour envisager le remplacement par un pansement compressif hémostatique si les conditions cliniques le permettent." },
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Ces recommandations s'adressent à l'ensemble des CESU habilités à dispenser les formations AFGSU 1 et AFGSU 2, ainsi qu'aux organismes qui organisent les remises à niveau. Elles constituent le référentiel commun que les formateurs AFGSU doivent intégrer dans les séquences correspondantes, pour garantir une homogénéité des enseignements sur tout le territoire." },
+      { type: "h2", text: "Impact sur les formations AFGSU" },
+      { type: "ul", items: [
+        "AFGSU niveau 1 (personnels non soignants d'établissements de santé) : actualisation des séquences hémorragie et position d'attente du traumatisé inconscient",
+        "AFGSU niveau 2 (professionnels de santé inscrits à la quatrième partie du Code de la santé publique) : révision des cinq thématiques, avec approfondissement sur le collier cervical et le réalignement de membre",
+        "Remises à niveau AFGSU 1 et 2 : prise en compte obligatoire des évolutions dans les contenus pédagogiques"
+      ]},
+      { type: "p", text: "Référence officielle : Recommandations nationales sur les gestes et soins d'urgence — Mise au point 2026, publiées conjointement par l'ANCESU et la SFMU, mars 2026. Document consultable sur ancesu.fr (rubrique Textes réglementaires) et sur le portail de la SFMU (sfmu.org)." },
     ],
   },
 
