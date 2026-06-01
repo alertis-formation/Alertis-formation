@@ -61,6 +61,7 @@ export const articleSlugs = [
   "risque-chimique-fds-valeurs-limites-exposition-prevention",
   "travail-en-hauteur-prevention-chutes-obligations-employeur",
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
+  "epi-equipements-protection-individuelle-obligations-choix-gestion",
 ] as const;
 
 /**
@@ -3532,6 +3533,72 @@ export const articles: Record<string, Article> = {
         "Remises à niveau AFGSU 1 et 2 : prise en compte obligatoire des évolutions dans les contenus pédagogiques"
       ]},
       { type: "p", text: "Référence officielle : Recommandations nationales sur les gestes et soins d'urgence — Mise au point 2026, publiées conjointement par l'ANCESU et la SFMU, mars 2026. Document consultable sur ancesu.fr (rubrique Textes réglementaires) et sur le portail de la SFMU (sfmu.org)." },
+    ],
+  },
+
+  "epi-equipements-protection-individuelle-obligations-choix-gestion": {
+    title:
+      "EPI au travail : obligations de l\'employeur, choix et gestion des équipements",
+    excerpt:
+      "Casque, gants, harnais, lunettes : les EPI sont la dernière barrière contre le risque résiduel. Règlement européen, catégories CE, traçabilité et gestion — le guide pratique pour préventeurs.",
+    publishedAt: "2026-06-01",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/epi-equipements-protection-individuelle-obligations-choix-gestion.jpg",
+    content: [
+      {
+        type: "p",
+        text: "L\'équipement de protection individuelle désigne tout dispositif destiné à être porté par une personne pour la protéger contre un ou plusieurs risques menaçant sa sécurité ou sa santé au travail. Casque de chantier, gants anticontact, lunettes de protection, harnais antichute, appareil de protection respiratoire : les formes sont multiples. Leur point commun est décisif — l\'EPI ne supprime pas le risque, il en réduit les conséquences. C\'est pourquoi la réglementation en encadre strictement le choix, la mise à disposition et le suivi.",
+      },
+      { type: "h2", text: "Ce que dit la réglementation" },
+      {
+        type: "p",
+        text: "L\'article L.4321-1 du Code du travail impose à l\'employeur de mettre à la disposition des travailleurs les équipements de protection individuelle appropriés et, lorsque le caractère hermétiquement clos est nécessaire, les moyens d\'assainissement de l\'atmosphère. Les articles R.4321-1 à R.4321-5 précisent que ces équipements doivent être adaptés aux risques, aux conditions d\'exposition, aux facteurs ergonomiques et à l\'état de santé du travailleur. Leur mise à disposition est gratuite : tout achat imposé au salarié est illégal.",
+      },
+      { type: "h2", text: "Les EPI : la dernière barrière, pas la première" },
+      {
+        type: "p",
+        text: "L\'article L.4121-2 du Code du travail fixe neuf principes généraux de prévention. Le recours aux EPI n\'y apparaît qu\'en huitième position — après avoir cherché à supprimer le risque à la source, à le réduire, à l\'isoler, à privilégier la protection collective. Un employeur qui distribue des gants sans avoir étudié si un produit moins irritant existait, ou qui équipe ses salariés d\'un harnais sans avoir vérifié qu\'un garde-corps était possible, ne respecte pas cette hiérarchie. Les EPI compensent le risque résiduel, ils ne dispensent pas d\'agir en amont.",
+      },
+      { type: "h2", text: "Marquage CE : les trois catégories d\'EPI" },
+      {
+        type: "p",
+        text: "Le règlement (UE) 2016/425, applicable depuis 2018, classe les EPI en trois catégories selon le niveau de risque auquel ils sont destinés. Cette classification détermine les procédures d\'évaluation de conformité que le fabricant doit suivre avant d\'apposer le marquage CE. Acheter un EPI sans marquage CE — ou avec un marquage non conforme à la catégorie — engage la responsabilité de l\'employeur en cas d\'accident.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Catégorie I — risques mineurs et superficiels : gants de jardinage légers, lunettes non filtrantes UV, imperméables de pluie sans risque particulier",
+          "Catégorie II — risques intermédiaires : casques de chantier, gants de protection mécanique, chaussures de sécurité EN ISO 20345, protège-genoux",
+          "Catégorie III — risques irréversibles ou mortels : harnais antichute (EN 361), appareils de protection respiratoire filtrants (EN 149), EPI de protection contre les produits chimiques dangereux, gilets de sauvetage",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Un EPI de catégorie III doit porter le numéro de l\'organisme notifié qui a contrôlé sa conformité — pas seulement le marquage CE. Sans ce numéro à quatre chiffres, l\'équipement n\'est pas conforme, quelle que soit la réputation du fabricant.",
+      },
+      { type: "h2", text: "Gérer les EPI en entreprise : les obligations pratiques" },
+      {
+        type: "ul",
+        items: [
+          "Fournir la notice d\'instruction du fabricant en français et s\'assurer que chaque utilisateur l\'a lue et comprise avant toute première utilisation",
+          "Former les salariés à l\'utilisation, à l\'ajustement et à la vérification quotidienne — un harnais mal ajusté peut être aussi dangereux qu\'un harnais absent",
+          "Fixer une durée de vie maximale pour chaque type d\'EPI et remplacer systématiquement tout équipement endommagé, périmé ou ayant subi une sollicitation extrême (chute arrêtée, projection chimique)",
+          "Tenir un registre de suivi : attribution nominative, date de mise en service, vérifications effectuées, date de réforme — document exigible par l\'inspection du travail",
+          "Effectuer les vérifications périodiques réglementaires : annuelles pour les EPI antichute (article R.4323-99 du Code du travail), par une personne compétente désignée",
+        ],
+      },
+      { type: "h2", text: "Intégrer les EPI dans le DUERP" },
+      {
+        type: "p",
+        text: "Le Document Unique d\'Évaluation des Risques Professionnels doit mentionner, pour chaque unité de travail, les EPI retenus comme mesure de prévention résiduelle, en lien avec les risques identifiés. Cette traçabilité est indispensable : elle permet de justifier que la hiérarchie des mesures a bien été appliquée avant le recours à la protection individuelle, et de démontrer que les équipements fournis correspondent au niveau de risque réel. Référence officielle : règlement (UE) 2016/425 relatif aux équipements de protection individuelle. Code du travail, articles L.4321-1, R.4321-1 à R.4321-5 et R.4323-91 à R.4323-100.",
+      },
+      {
+        type: "cta",
+        text: "Pour former vos responsables et équipes à la sélection et à l\'utilisation des EPI adaptés à vos risques,",
+        label: "prenez contact via notre page dédiée",
+        href: "/contact",
+      },
     ],
   },
 
