@@ -62,6 +62,7 @@ export const articleSlugs = [
   "travail-en-hauteur-prevention-chutes-obligations-employeur",
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
   "epi-equipements-protection-individuelle-obligations-choix-gestion",
+  "risque-routier-professionnel-prevention-accidents-trajet-mission",
 ] as const;
 
 /**
@@ -3639,6 +3640,47 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Intégrer le risque hauteur dans le DUERP" },
       { type: "p", text: "En application de l'article L.4121-3 du Code du travail, tout risque identifié doit être consigné dans le Document Unique d'Évaluation des Risques Professionnels, avec sa cotation et les mesures de prévention retenues. Pour le travail en hauteur : lister les postes et situations exposés, documenter les protections en place — collectives et individuelles — et planifier les actions correctives avec responsables et délais. Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et R.4323-58 et suivants." },
       { type: "cta", text: "Pour former vos équipes à la prévention des chutes de hauteur et à l'utilisation des EPI,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "risque-routier-professionnel-prevention-accidents-trajet-mission": {
+    title:
+      "Risque routier professionnel : accidents de trajet et de mission, prévenir et agir",
+    excerpt:
+      "La route figure parmi les premières causes d\'accidents mortels en lien avec le travail. Accident de trajet, accident de mission : obligations de l\'employeur, facteurs de risque et leviers concrets pour agir.",
+    publishedAt: "2026-06-02",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/risque-routier-professionnel-prevention-accidents-trajet-mission.jpg",
+    content: [
+      { type: "p", text: "Trajets domicile-travail, déplacements professionnels, livraisons, visites clients : dès qu\'un salarié prend le volant dans le cadre de son activité, l\'employeur est concerné par le risque routier. La route figure parmi les premières causes d\'accidents mortels en lien avec le travail. Or, contrairement aux risques liés aux machines ou aux produits chimiques, ce risque est souvent sous-estimé — voire ignoré — faute d\'être perçu comme un risque professionnel à part entière." },
+      { type: "h2", text: "Accident de trajet et accident de mission : deux régimes distincts" },
+      { type: "p", text: "L\'accident de trajet est défini à l\'article L.411-2 du Code de la sécurité sociale comme celui survenant sur le parcours habituel entre le domicile et le lieu de travail ou de restauration. Il est pris en charge comme un accident du travail, mais la responsabilité directe de l\'employeur est limitée. L\'accident de mission, lui, survient pendant un déplacement professionnel effectué pour le compte de l\'employeur, relevant de l\'article L.411-1 du Code de la sécurité sociale. Il engage la pleine responsabilité de l\'employeur — avec un impact sur son taux de cotisation AT/MP et son obligation de sécurité." },
+      { type: "h2", text: "L\'obligation légale de l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Cette obligation couvre les accidents de mission. Le risque routier doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels pour tout poste impliquant des déplacements professionnels en véhicule. L\'absence de cette évaluation peut constituer un manquement susceptible d\'être relevé par l\'inspection du travail, et caractériser une faute inexcusable en cas d\'accident." },
+      { type: "h2", text: "Les facteurs de risque à identifier et à évaluer" },
+      { type: "ul", items: [
+        "Fatigue et somnolence : déplacements très tôt le matin ou tard le soir, horaires prolongés, temps de conduite sans pause suffisante",
+        "Usage du téléphone au volant : appels, messagerie, consultation GPS — première cause d\'inattention identifiée dans les accidents de mission",
+        "Pression sur les délais : contraintes de livraison ou de rendez-vous qui conduisent à dépasser les vitesses réglementaires",
+        "État du véhicule : pneumatiques usés, entretien insuffisant, équipements de sécurité défaillants",
+        "Conditions environnementales : pluie, verglas, brouillard, visibilité réduite — risques majorés en hiver et de nuit",
+        "Méconnaissance du trajet : nouveaux itinéraires, zones de chantier, modifications de circulation",
+      ]},
+      { type: "h2", text: "Les mesures de prévention à déployer" },
+      { type: "ul", items: [
+        "Maintenir le parc de véhicules en état : contrôle technique à jour, vérification mensuelle des pneumatiques, kit de sécurité à bord (triangle, gilet haute visibilité)",
+        "Programmer des temps de trajet réalistes, sans pression implicite ou explicite sur les délais",
+        "Imposer une pause d\'au moins 15 minutes toutes les deux heures de conduite continue",
+        "Privilégier la visioconférence quand la présence physique n\'est pas indispensable, pour réduire l\'exposition au risque",
+        "Informer les salariés qu\'ils peuvent refuser de prendre le volant s\'ils ne se sentent pas en état de conduire, sans risque de sanction",
+      ]},
+      { type: "quote", text: "Un salarié qui prend le volant fatigué ou sous pression n\'est pas seul responsable de l\'accident qui en résulte. L\'employeur qui n\'a ni évalué ni organisé le risque routier engage sa propre responsabilité." },
+      { type: "h2", text: "Politique téléphone au volant : une règle non négociable" },
+      { type: "p", text: "L\'usage d\'un téléphone tenu en main au volant est une infraction pénale, passible d\'une contravention de quatrième classe. Au-delà de la sanction individuelle, l\'employeur doit interdire formellement, par note de service ou règlement intérieur, tout usage d\'un téléphone tenu en main pendant la conduite — y compris pour répondre à un appel professionnel. Aucune urgence professionnelle ne justifie ce risque. Seul un dispositif mains libres intégré au véhicule, activé sans manipulation de l\'appareil, constitue une alternative acceptable." },
+      { type: "h2", text: "Formaliser dans le DUERP et le plan d\'action" },
+      { type: "p", text: "En application de l\'article L.4121-3 du Code du travail, tout risque doit être consigné dans le Document Unique, avec une évaluation et un plan d\'action associé. Pour le risque routier, il s\'agit d\'identifier chaque poste exposé, les types de déplacements concernés, les facteurs de risque propres à l\'entreprise, les mesures en place et celles à planifier. Référence officielle : Code du travail, articles L.4121-1 et L.4121-3. Code de la sécurité sociale, articles L.411-1 et L.411-2." },
+      { type: "cta", text: "Pour former vos managers et préventeurs à l\'évaluation et à la prévention du risque routier professionnel,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
