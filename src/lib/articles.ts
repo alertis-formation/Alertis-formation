@@ -63,6 +63,7 @@ export const articleSlugs = [
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
   "epi-equipements-protection-individuelle-obligations-choix-gestion",
   "risque-routier-professionnel-prevention-accidents-trajet-mission",
+  "suivi-individuel-etat-sante-salaries-visites-medicales-travail",
 ] as const;
 
 /**
@@ -3681,6 +3682,52 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Formaliser dans le DUERP et le plan d\'action" },
       { type: "p", text: "En application de l\'article L.4121-3 du Code du travail, tout risque doit être consigné dans le Document Unique, avec une évaluation et un plan d\'action associé. Pour le risque routier, il s\'agit d\'identifier chaque poste exposé, les types de déplacements concernés, les facteurs de risque propres à l\'entreprise, les mesures en place et celles à planifier. Référence officielle : Code du travail, articles L.4121-1 et L.4121-3. Code de la sécurité sociale, articles L.411-1 et L.411-2." },
       { type: "cta", text: "Pour former vos managers et préventeurs à l\'évaluation et à la prévention du risque routier professionnel,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "suivi-individuel-etat-sante-salaries-visites-medicales-travail": {
+    title:
+      "Suivi médical des salariés : visites obligatoires, postes à risque et médecin du travail",
+    excerpt:
+      "Visite d\'information et de prévention, surveillance renforcée, examen d\'aptitude : le Code du travail structure le suivi médical des salariés selon leur poste. Guide pratique pour les RH et préventeurs.",
+    publishedAt: "2026-06-03",
+    category: "Santé au travail",
+    readingTime: 6,
+    image: "/images/articles/suivi-individuel-etat-sante-salaries-visites-medicales-travail.jpg",
+    content: [
+      { type: "p", text: "Le suivi individuel de l\'état de santé des salariés est une obligation que le Code du travail fait peser sur tout employeur, quelle que soit la taille de l\'entreprise. Il ne se résume pas à une visite médicale à l\'embauche : sa forme, sa fréquence et ses modalités varient selon le poste occupé, les risques auxquels le salarié est exposé et son profil individuel. Comprendre cette architecture permet d\'éviter les manquements — et d\'en faire un outil de prévention à part entière." },
+      { type: "h2", text: "Le régime de droit commun : la visite d\'information et de prévention" },
+      { type: "p", text: "Pour la majorité des salariés, le suivi prend la forme d\'une visite d\'information et de prévention (VIP), réalisée dans les trois mois suivant la prise de poste — sauf pour les travailleurs de nuit et les mineurs, qui bénéficient d\'une visite préalable avant toute affectation. La VIP est ensuite renouvelée selon une périodicité fixée par le médecin du travail, dans la limite maximale de cinq ans. Depuis le décret n°2016-1908 du 27 décembre 2016, elle peut être réalisée par un infirmier de santé au travail, par délégation du médecin du travail." },
+      { type: "ul", items: [
+        "Travailleurs de nuit et mineurs : visite préalable obligatoire avant toute affectation au poste",
+        "Salariés en CDD ou intérimaires affectés à un poste à risque : VIP préalable à la prise de poste, même pour des missions courtes",
+        "Renouvellement maximal tous les 5 ans pour les postes sans risque particulier, à une fréquence que le médecin du travail peut raccourcir selon le profil du salarié",
+        "Tout salarié peut solliciter le service de santé au travail à tout moment, indépendamment des visites périodiques programmées",
+      ]},
+      { type: "h2", text: "La surveillance renforcée : les salariés concernés" },
+      { type: "p", text: "Certains salariés bénéficient d\'un suivi individuel renforcé (SIR), en raison de la nature des risques auxquels ils sont exposés. La visite est alors réalisée par le médecin du travail — et non par un infirmier — et renouvelée au maximum tous les quatre ans, avec une visite intermédiaire par un professionnel de santé à mi-période. Les articles R.4624-22 et suivants du Code du travail définissent les catégories concernées." },
+      { type: "ul", items: [
+        "Travailleurs exposés à des agents cancérogènes, mutagènes ou toxiques pour la reproduction (CMR)",
+        "Travailleurs exposés aux agents biologiques des groupes 3 et 4, à l\'amiante ou aux rayonnements ionisants en catégorie A",
+        "Travailleurs de nuit au sens de l\'article L.3122-5 du Code du travail",
+        "Travailleurs handicapés et titulaires d\'une pension d\'invalidité",
+      ]},
+      { type: "h2", text: "Visites de reprise et de pré-reprise : ne pas les négliger" },
+      { type: "ul", items: [
+        "Reprise obligatoire après un congé de maternité, une absence pour maladie professionnelle (quelle qu\'en soit la durée) ou une absence d\'au moins 30 jours pour accident du travail ou maladie non professionnelle",
+        "La visite de reprise est à l\'initiative de l\'employeur : il doit la déclencher dès qu\'il connaît la date de retour du salarié, pour qu\'elle ait lieu lors de la reprise effective ou dans les huit jours qui suivent",
+        "La visite de pré-reprise peut être demandée par le salarié, le médecin traitant ou le médecin-conseil lors de tout arrêt de travail susceptible d\'être prolongé : elle permet d\'anticiper les adaptations de poste et d\'éviter une inaptitude au retour",
+      ]},
+      { type: "h2", text: "Ce que l\'employeur doit mettre en place concrètement" },
+      { type: "ul", items: [
+        "Déclarer chaque salarié à l\'embauche au service de santé au travail interentreprises (SSTI) dont l\'entreprise est adhérente et transmettre une fiche de poste précise pour chaque poste à risque",
+        "Planifier les visites périodiques et en surveiller les échéances : un défaut de suivi peut être relevé par l\'inspection du travail et constituer un manquement à l\'obligation de sécurité",
+        "Donner suite sans délai aux préconisations du médecin du travail — aménagement horaire, adaptation des équipements, mutation de poste — car l\'absence de suite peut caractériser une faute inexcusable en cas d\'accident ultérieur",
+        "Conserver les attestations de suivi et fiches d\'aptitude dans le dossier du salarié, documents exigibles par l\'inspection du travail",
+      ]},
+      { type: "quote", text: "Le médecin du travail n\'évalue pas l\'aptitude au travail en général. Il apprécie l\'adéquation entre l\'état de santé du salarié et les exigences du poste réel — et propose des aménagements bien avant d\'envisager une inaptitude." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4624-1 à L.4624-8 et R.4624-10 à R.4624-55, relatifs au suivi individuel de l\'état de santé des travailleurs. Décret n°2016-1908 du 27 décembre 2016 portant réforme de la médecine du travail." },
+      { type: "cta", text: "Pour former vos responsables RH et managers à leurs obligations en santé au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
