@@ -64,6 +64,7 @@ export const articleSlugs = [
   "epi-equipements-protection-individuelle-obligations-choix-gestion",
   "risque-routier-professionnel-prevention-accidents-trajet-mission",
   "suivi-individuel-etat-sante-salaries-visites-medicales-travail",
+  "prevention-risques-psychosociaux-rps-six-facteurs-evaluer",
 ] as const;
 
 /**
@@ -3728,6 +3729,44 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Le médecin du travail n\'évalue pas l\'aptitude au travail en général. Il apprécie l\'adéquation entre l\'état de santé du salarié et les exigences du poste réel — et propose des aménagements bien avant d\'envisager une inaptitude." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4624-1 à L.4624-8 et R.4624-10 à R.4624-55, relatifs au suivi individuel de l\'état de santé des travailleurs. Décret n°2016-1908 du 27 décembre 2016 portant réforme de la médecine du travail." },
       { type: "cta", text: "Pour former vos responsables RH et managers à leurs obligations en santé au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "prevention-risques-psychosociaux-rps-six-facteurs-evaluer": {
+    title: "Prévenir les risques psychosociaux en entreprise : six facteurs à évaluer",
+    excerpt: "Stress, épuisement, harcèlement : les risques psychosociaux ont une définition précise et six familles de facteurs. Comment les évaluer et agir concrètement — guide pratique pour préventeurs et responsables RH.",
+    publishedAt: "2026-06-04",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/prevention-risques-psychosociaux-rps-six-facteurs-evaluer.jpg",
+    content: [
+      { type: "p", text: "Les risques psychosociaux regroupent des réalités très différentes : stress chronique, épuisement professionnel, harcèlement, violences internes ou externes. Ce que ces situations ont en commun, c\'est d\'être liées à l\'organisation du travail, au management et aux conditions d\'exercice de l\'activité. À ce titre, ils relèvent de l\'obligation de prévention que l\'article L.4121-1 du Code du travail fait peser sur tout employeur — et doivent figurer dans le Document Unique d\'Évaluation des Risques Professionnels." },
+      { type: "h2", text: "Ce que dit la réglementation" },
+      { type: "p", text: "L\'article L.4121-3 du Code du travail impose d\'évaluer tous les risques professionnels, sans exception. La loi du 2 août 2021 pour renforcer la prévention en santé au travail a précisé que cette évaluation doit couvrir explicitement les risques psychosociaux et tenir compte de l\'organisation du travail. Un DUERP qui omet les RPS est donc incomplet au regard de la loi, même dans une petite structure où aucun incident n\'a encore été signalé." },
+      { type: "h2", text: "Les six familles de facteurs de risque" },
+      { type: "p", text: "Le Collège d\'expertise sur le suivi statistique des risques psychosociaux au travail, présidé par Michel Gollac, a identifié en 2011 six familles de facteurs qui font aujourd\'hui référence pour les diagnostics et les évaluations RPS en entreprise." },
+      { type: "ul", items: [
+        "Intensité du travail et temps de travail : charge excessive, délais irréalistes, interruptions fréquentes, horaires imprévisibles ou atypiques.",
+        "Exigences émotionnelles : devoir masquer ses émotions, contact régulier avec la souffrance d\'autrui ou avec un public en situation de détresse.",
+        "Faible autonomie : peu de marges de manœuvre sur le contenu ou le rythme du travail, participation limitée aux décisions.",
+        "Rapports sociaux dégradés : management défaillant, conflits entre collègues, absence de soutien, comportements hostiles ou humiliants.",
+        "Conflits de valeurs : demander au salarié d\'agir contre ses valeurs, contre l\'éthique ou contre la qualité qu\'il souhaite donner à son travail.",
+        "Insécurité de la situation de travail : peur de perdre son emploi, réorganisations fréquentes, sentiment persistant de précarité.",
+      ]},
+      { type: "h2", text: "Trois niveaux de prévention à articuler" },
+      { type: "p", text: "La prévention primaire agit sur les causes : restructurer une organisation, clarifier les rôles, réduire la charge de travail. La prévention secondaire renforce les ressources des salariés : formation des managers à l\'écoute, espaces d\'expression sur le travail, sensibilisation aux signaux d\'alerte. La prévention tertiaire prend en charge les personnes déjà atteintes : cellules d\'écoute, accompagnement psychologique, aménagement de poste. Une démarche efficace articule les trois niveaux." },
+      { type: "h2", text: "Démarche solide ou démarche cosmétique ?" },
+      { type: "p", text: "Une démarche solide associe les salariés et leurs représentants dès la phase de diagnostic, s\'appuie sur des indicateurs concrets — absentéisme, turnover, accidents, plaintes RH — et débouche sur un plan d\'action planifié et évalué. Une cellule d\'écoute sans analyse des causes organisationnelles n\'est pas une prévention des RPS : c\'est une réponse aux effets sans traitement des causes." },
+      { type: "h2", text: "Par où commencer concrètement ?" },
+      { type: "ul", items: [
+        "Réaliser un état des lieux avec les indicateurs déjà disponibles : absentéisme, turnover, accidents du travail, résultats des entretiens annuels.",
+        "Intégrer les RPS dans la prochaine mise à jour du DUERP en identifiant les unités de travail les plus exposées.",
+        "Former les managers de proximité à détecter les signaux précoces : isolement, baisse de performance, changements de comportement.",
+        "Consulter le service de prévention et de santé au travail interentreprises (SPSTI) : il peut apporter un appui méthodologique sans surcoût.",
+      ]},
+      { type: "quote", text: "Évaluer les RPS, ce n\'est pas faire de la psychologie d\'entreprise : c\'est regarder comment le travail est organisé et identifier ce qui, dans cette organisation, peut nuire à la santé." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-3 relatifs à l\'évaluation et à la prévention des risques professionnels. Loi du 2 août 2021 pour renforcer la prévention en santé au travail. Rapport du Collège d\'expertise sur le suivi statistique des risques psychosociaux au travail, dit rapport Gollac (2011)." },
+      { type: "cta", text: "Pour former vos managers et préventeurs à la détection et à la prévention des risques psychosociaux,", label: "découvrez nos formations dédiées", href: "/formations" },
     ],
   },
 };
