@@ -65,6 +65,7 @@ export const articleSlugs = [
   "risque-routier-professionnel-prevention-accidents-trajet-mission",
   "suivi-individuel-etat-sante-salaries-visites-medicales-travail",
   "prevention-risques-psychosociaux-rps-six-facteurs-evaluer",
+  "accident-du-travail-declaration-delais-obligations-employeur",
 ] as const;
 
 /**
@@ -3767,6 +3768,37 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Évaluer les RPS, ce n\'est pas faire de la psychologie d\'entreprise : c\'est regarder comment le travail est organisé et identifier ce qui, dans cette organisation, peut nuire à la santé." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-3 relatifs à l\'évaluation et à la prévention des risques professionnels. Loi du 2 août 2021 pour renforcer la prévention en santé au travail. Rapport du Collège d\'expertise sur le suivi statistique des risques psychosociaux au travail, dit rapport Gollac (2011)." },
       { type: "cta", text: "Pour former vos managers et préventeurs à la détection et à la prévention des risques psychosociaux,", label: "découvrez nos formations dédiées", href: "/formations" },
+    ],
+  },
+
+  "accident-du-travail-declaration-delais-obligations-employeur": {
+    title: "Déclarer un accident du travail : délais, formalités et rôle de l\'employeur",
+    excerpt: "Toute blessure survenue au travail déclenche une procédure réglementée : déclaration à la CPAM sous 48 heures, formulaire officiel, possibilité de réserves. Le point sur les obligations concrètes de l\'employeur.",
+    publishedAt: "2026-06-05",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/accident-du-travail-declaration-delais-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Tout accident survenu dans le cadre du travail déclenche une procédure réglementée, quelle que soit sa gravité apparente. L\'employeur dispose de 48 heures pour en informer la CPAM — un délai court, souvent méconnu des équipes RH et des managers de proximité. Voici les étapes et obligations à connaître." },
+      { type: "h2", text: "Ce qu\'est un accident du travail au sens juridique" },
+      { type: "p", text: "L\'article L.411-1 du Code de la sécurité sociale définit l\'accident du travail comme tout accident survenu par le fait ou à l\'occasion du travail, quelle qu\'en soit la cause. La définition est délibérément large : une chute dans les locaux, un geste blessant commis par un tiers, un malaise lors d\'une réunion — tous peuvent être reconnus comme accident du travail dès lors qu\'ils surviennent pendant le temps de travail. L\'article L.411-2 couvre l\'accident de trajet, survenu entre la résidence habituelle du salarié et son lieu de travail ou son lieu de restauration habituel : il bénéficie du même régime de réparation." },
+      { type: "h2", text: "Le délai de 48 heures : une obligation ferme" },
+      { type: "p", text: "L\'article L.441-2 du Code de la sécurité sociale impose à l\'employeur de déclarer tout accident du travail dont il a eu connaissance dans les 48 heures suivant l\'événement, dimanches et jours fériés non compris. La déclaration est adressée à la CPAM dont dépend le salarié, accompagnée de l\'attestation de salaire. L\'employeur dispose ensuite d\'un délai de 10 jours francs à compter de la déclaration pour émettre des réserves motivées, s\'il conteste le caractère professionnel de l\'accident. Ces réserves n\'ont aucun effet suspensif sur l\'instruction conduite par la CPAM." },
+      { type: "ul", items: [
+        "Déclarer même en l\'absence d\'arrêt de travail : toute blessure constatée sur le lieu de travail doit être signalée, quelle que soit sa gravité apparente.",
+        "Remettre immédiatement une feuille d\'accident du travail au salarié : ce document lui permet d\'être pris en charge en tiers payant sans avancer de frais médicaux.",
+        "Conserver une copie de la déclaration et des éventuelles réserves dans le dossier employeur.",
+        "En cas de doute sur la qualification, déclarer et émettre des réserves motivées : une non-déclaration expose à des sanctions plus lourdes qu\'une déclaration contestée.",
+      ]},
+      { type: "h2", text: "Le registre des accidents bénins : une dérogation encadrée" },
+      { type: "p", text: "Pour les accidents n\'entraînant ni arrêt de travail ni soins médicaux dispensés hors de l\'entreprise, l\'employeur peut inscrire l\'événement dans un registre interne plutôt que de procéder à une déclaration à la CPAM. Cette dérogation est accordée par la Caisse régionale (Carsat) et n\'est possible que si l\'établissement dispose d\'un personnel qualifié pour administrer les premiers soins et d\'un poste de secours accessible en permanence. Le registre doit être tenu à la disposition des agents de contrôle et du médecin du travail." },
+      { type: "h2", text: "Ce que risque l\'employeur en cas de non-déclaration" },
+      { type: "p", text: "Ne pas déclarer dans les délais expose l\'employeur à une amende. Surtout, si la CPAM reconnaît l\'accident à la demande du salarié, elle peut engager une action récursoire et lui réclamer le remboursement des indemnités journalières et des frais médicaux versés. En cas d\'accident grave ou mortel, une absence de déclaration peut considérablement aggraver la position de l\'employeur dans le cadre d\'une procédure en faute inexcusable. En termes de précontentieux, déclarer en émettant des réserves est toujours plus défendable que de ne pas déclarer." },
+      { type: "h2", text: "La visite médicale de reprise : ne pas l\'oublier" },
+      { type: "p", text: "Après tout arrêt de travail consécutif à un accident du travail, l\'employeur doit organiser une visite de reprise auprès du médecin du travail. C\'est à lui de la planifier dès qu\'il connaît la date de retour du salarié — de préférence avant la reprise effective. Cette visite permet d\'évaluer l\'aptitude au poste, de préconiser des aménagements si nécessaire et d\'anticiper une éventuelle inaptitude avant qu\'elle ne soit prononcée en urgence. Omettre cette étape constitue un manquement à l\'obligation de sécurité." },
+      { type: "quote", text: "Déclarer un accident du travail n\'est pas un aveu de faute : c\'est remplir une obligation légale qui protège la victime et préserve l\'entreprise d\'une mise en cause beaucoup plus sévère en cas de silence." },
+      { type: "p", text: "Référence officielle : Code de la sécurité sociale, articles L.411-1 et L.411-2 relatifs à la définition de l\'accident du travail et de l\'accident de trajet, et article L.441-2 relatif au délai et aux modalités de déclaration par l\'employeur." },
+      { type: "cta", text: "Pour sensibiliser vos responsables RH et managers à la gestion des accidents du travail et aux obligations de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
