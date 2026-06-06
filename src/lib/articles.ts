@@ -66,6 +66,7 @@ export const articleSlugs = [
   "suivi-individuel-etat-sante-salaries-visites-medicales-travail",
   "prevention-risques-psychosociaux-rps-six-facteurs-evaluer",
   "accident-du-travail-declaration-delais-obligations-employeur",
+  "travail-de-nuit-risques-sante-obligations-employeur",
 ] as const;
 
 /**
@@ -3799,6 +3800,46 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Déclarer un accident du travail n\'est pas un aveu de faute : c\'est remplir une obligation légale qui protège la victime et préserve l\'entreprise d\'une mise en cause beaucoup plus sévère en cas de silence." },
       { type: "p", text: "Référence officielle : Code de la sécurité sociale, articles L.411-1 et L.411-2 relatifs à la définition de l\'accident du travail et de l\'accident de trajet, et article L.441-2 relatif au délai et aux modalités de déclaration par l\'employeur." },
       { type: "cta", text: "Pour sensibiliser vos responsables RH et managers à la gestion des accidents du travail et aux obligations de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "travail-de-nuit-risques-sante-obligations-employeur": {
+    title: "Travail de nuit : risques pour la santé, surveillance médicale et obligations de l\'employeur",
+    excerpt: "Le Code du travail encadre précisément le travail de nuit : définition du travailleur de nuit, surveillance médicale renforcée, mesures de prévention. Le guide pratique pour les employeurs et responsables RH.",
+    publishedAt: "2026-06-06",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/travail-de-nuit-risques-sante-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Le travail de nuit est présent dans de nombreux secteurs : industrie, santé, sécurité, transport, hôtellerie-restauration. Il ne se résume pas à un simple décalage horaire : le Code du travail lui consacre un régime spécifique qui impose des obligations précises à l\'employeur en matière de recours, de conditions de travail et de surveillance médicale. Ces obligations s\'appliquent dès lors qu\'un salarié répond à la définition légale du travailleur de nuit." },
+      { type: "h2", text: "Ce que dit le Code du travail : définition et périmètre" },
+      { type: "p", text: "Le Code du travail distingue deux notions aux articles L.3122-1 et suivants. La période de nuit est en principe celle comprise entre 21 h et 6 h — sauf accord de branche ou d\'entreprise qui peut en fixer d\'autres limites. Le travailleur de nuit est le salarié qui accomplit, selon son horaire habituel, au moins trois heures de travail nocturne au moins deux fois par semaine, ou un nombre minimum d\'heures de nuit par an fixé par la convention collective applicable à l\'entreprise." },
+      { type: "h2", text: "Les risques spécifiques liés au travail nocturne" },
+      { type: "p", text: "Travailler la nuit de façon régulière perturbe les rythmes biologiques et entraîne des conséquences concrètes sur la santé que l\'employeur doit intégrer dans son évaluation des risques. Ces effets ne surviennent pas uniquement sur des postes très contraignants : ils s\'observent dès lors que le décalage circadien est régulier et prolongé." },
+      { type: "ul", items: [
+        "Perturbations du sommeil et récupération physique insuffisante, accentuées en cas d\'alternance fréquente de créneaux horaires ou de postes fractionnés.",
+        "Fatigue chronique et risque d\'accident accru en fin de poste, lié à la baisse de vigilance et à la moindre réactivité.",
+        "Risques psychosociaux : isolement par rapport aux rythmes familiaux et sociaux, difficultés à concilier vie professionnelle et vie personnelle.",
+        "Effets cardiovasculaires et métaboliques à long terme, reconnus par les autorités de santé publique comme spécifiques au travail de nuit régulier.",
+      ]},
+      { type: "h2", text: "La surveillance médicale renforcée : une obligation spécifique" },
+      { type: "p", text: "Les travailleurs de nuit bénéficient d\'un suivi individuel renforcé (SIR) en application des articles R.4624-22 et suivants du Code du travail. Contrairement au régime commun, la visite périodique est réalisée directement par le médecin du travail — et non par délégation à un infirmier — avec une fréquence maximale de quatre ans et une visite intermédiaire à mi-période. Deux exigences supplémentaires s\'appliquent à tout poste de nuit." },
+      { type: "ul", items: [
+        "Visite médicale préalable obligatoire avant toute première affectation à un poste de nuit, même pour un salarié déjà en poste dans l\'entreprise.",
+        "Droit de réaffectation de jour : tout travailleur de nuit peut demander à rejoindre un poste de jour s\'il constate une altération de son état de santé liée au travail nocturne, sous avis du médecin du travail.",
+      ]},
+      { type: "h2", text: "Ce que l\'employeur doit concrètement mettre en place" },
+      { type: "p", text: "L\'obligation générale de prévention posée par l\'article L.4121-1 du Code du travail s\'applique pleinement au travail de nuit. Organiser le suivi médical est nécessaire, mais insuffisant : l\'employeur doit aussi prévenir les risques à la source et adapter les conditions de travail au contexte nocturne." },
+      { type: "ul", items: [
+        "Identifier les salariés répondant à la définition légale du travailleur de nuit et les déclarer au service de santé au travail interentreprises avec leurs horaires réels.",
+        "Planifier les visites médicales préalables avant toute affectation nocturne et assurer le suivi des échéances du SIR.",
+        "Intégrer le travail de nuit dans le DUERP : isolement, fatigue, accès aux secours, éclairage, conditions de transport au retour de poste.",
+        "S\'assurer qu\'un Sauveteur Secouriste du Travail (SST) est identifié et joignable sur chaque plage horaire de nuit.",
+        "Consulter le comité social et économique (CSE) avant toute décision de recourir de façon régulière au travail de nuit, obligation fixée par le Code du travail.",
+      ]},
+      { type: "quote", text: "Réduire les effets du travail de nuit ne relève pas uniquement de la médecine : c\'est avant tout une question d\'organisation du travail, d\'anticipation des rotations et de qualité du dialogue social." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.3122-1 et suivants relatifs au travail de nuit ; articles R.4624-22 et suivants relatifs au suivi individuel renforcé des travailleurs exposés à des risques particuliers, dont les travailleurs de nuit ; article L.4121-1 relatif à l\'obligation générale de prévention et de protection de la santé des travailleurs." },
+      { type: "cta", text: "Pour former vos responsables RH et managers aux obligations liées au travail de nuit et à la prévention des risques associés,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
