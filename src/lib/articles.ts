@@ -67,6 +67,7 @@ export const articleSlugs = [
   "prevention-risques-psychosociaux-rps-six-facteurs-evaluer",
   "accident-du-travail-declaration-delais-obligations-employeur",
   "travail-de-nuit-risques-sante-obligations-employeur",
+  "niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc",
 ] as const;
 
 /**
@@ -3840,6 +3841,46 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Réduire les effets du travail de nuit ne relève pas uniquement de la médecine : c\'est avant tout une question d\'organisation du travail, d\'anticipation des rotations et de qualité du dialogue social." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.3122-1 et suivants relatifs au travail de nuit ; articles R.4624-22 et suivants relatifs au suivi individuel renforcé des travailleurs exposés à des risques particuliers, dont les travailleurs de nuit ; article L.4121-1 relatif à l\'obligation générale de prévention et de protection de la santé des travailleurs." },
       { type: "cta", text: "Pour former vos responsables RH et managers aux obligations liées au travail de nuit et à la prévention des risques associés,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc": {
+    title: "Habilitation électrique : décrypter les niveaux B0, BS, BR, B1, B2 et BC",
+    excerpt: "B0, BS, BR, B1, B2, BC, H0... Les titres d\'habilitation électrique suivent une logique codifiée par la NF C 18-510. Comprendre chaque symbole permet d\'habiliter ses salariés au bon niveau d\'intervention.",
+    publishedAt: "2026-06-07",
+    category: "Habilitation électrique",
+    readingTime: 6,
+    image: "/images/articles/niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc.jpg",
+    content: [
+      { type: "p", text: "B0, BS, BR, B1, B2, BC, H0... À première vue, les symboles d\'habilitation électrique ressemblent à un code indéchiffrable. Pourtant, chaque lettre et chaque chiffre répondent à une logique précise, codifiée par la norme NF C 18-510. Comprendre ce système permet à l\'employeur d\'identifier le niveau d\'habilitation adapté à chaque poste et d\'éviter deux erreurs opposées : la sous-habilitation, qui expose à un risque grave, et la sur-habilitation, qui génère des formations inutiles." },
+      { type: "h2", text: "La structure d\'un titre d\'habilitation : domaine, niveau, complément" },
+      { type: "p", text: "Un titre d\'habilitation comporte toujours deux éléments essentiels. La première lettre indique le domaine de tension : B pour la basse tension (BT) et la très basse tension (TBT), H pour la haute tension (HTA, HTB). Le chiffre ou la deuxième lettre précise le niveau d\'activité : 0 pour les non-électriciens, 1 pour l\'exécutant, 2 pour le chargé de travaux, R pour le dépannage et les essais, S pour les interventions élémentaires, C pour la consignation. La lettre V, en option, autorise le travail au voisinage de pièces nues sous tension." },
+      { type: "h2", text: "Les niveaux B : ce que chaque symbole autorise concrètement" },
+      { type: "ul", items: [
+        "B0 : non-électricien autorisé à réaliser des travaux d\'ordre non électrique (perçage, peinture, pose de faux-plafond) à proximité d\'une installation électrique. Le salarié n\'effectue aucune opération sur l\'installation mais doit avoir reçu une sensibilisation au risque électrique.",
+        "BS : chargé d\'interventions élémentaires — remplacement d\'une ampoule, d\'un fusible, réarmement d\'un disjoncteur. Ces opérations simples sont réalisées hors tension et ne requièrent pas de compétences d\'électricien, mais imposent une formation à la prévention des risques électriques.",
+        "BR : chargé d\'interventions générales de dépannage et d\'essais. C\'est le profil de l\'électricien de maintenance polyvalent : il diagnostique une panne, effectue un raccordement, réalise des mesures ou des essais sur une installation basse tension.",
+        "B1 / B1V : exécutant électricien qui travaille hors tension (B1) ou au voisinage de pièces nues sous tension (B1V). Il opère sous la direction d\'un chargé de travaux B2.",
+        "B2 / B2V : chargé de travaux. Il organise et dirige les opérations électriques, s\'assure des conditions de sécurité et encadre les exécutants B1.",
+        "BC : chargé de consignation. Il réalise la mise en sécurité électrique de l\'installation avant toute intervention : séparation, condamnation, vérification d\'absence de tension (VAT) et mise à la terre.",
+      ]},
+      { type: "h2", text: "La lettre V : travailler au voisinage sans contact" },
+      { type: "p", text: "Le complément V — présent dans B1V, B2V, H1V, H2V — signifie que le salarié est autorisé à travailler dans la zone de voisinage d\'une installation sous tension, sans la toucher ni l\'ouvrir. Un salarié habilité B1, sans ce complément, ne peut intervenir que sur une installation strictement hors tension. Si la consignation est impossible ou partielle, le V est indispensable. Ce complément suppose une formation spécifique et une aptitude médicale confirmée par le médecin du travail." },
+      { type: "h2", text: "Les niveaux H : même logique, haute tension" },
+      { type: "p", text: "Les titres H0, H1, H2 et HC suivent exactement la même logique que les niveaux B, mais pour les installations haute tension — réseaux HTA (de 1 kV à 50 kV) et HTB (au-dessus de 50 kV). H0 concerne les non-électriciens intervenant à proximité de ces ouvrages, H1 les exécutants électriciens, H2 les chargés de travaux, HC les chargés de consignation haute tension. Ces habilitations sont réservées aux professionnels des industries lourdes et des gestionnaires de réseaux." },
+      { type: "h2", text: "Comment choisir le bon niveau : une analyse de poste" },
+      { type: "p", text: "L\'habilitation doit refléter les opérations réellement effectuées sur le poste de travail. La norme NF C 18-510 distingue trois familles d\'opérations : les travaux (modifier l\'installation), les interventions (dépannage, entretien courant) et les opérations d\'ordre non électrique (travailler à proximité sans agir sur l\'installation). C\'est sur la base de cette analyse que l\'employeur détermine le titre à attribuer — et qu\'il en engage la responsabilité." },
+      { type: "ul", items: [
+        "Technicien bâtiment remplaçant des éclairages ou des prises dans des locaux accessibles : BS.",
+        "Électricien de maintenance réalisant des raccordements, dépannages ou essais en basse tension : BR.",
+        "Électricien exécutant des travaux sur une installation partiellement sous tension : B1V.",
+        "Chef de chantier électrique dirigeant une équipe d\'électriciens : B2V.",
+        "Responsable technique réalisant les consignations avant intervention d\'une équipe : BC, souvent couplé à B2.",
+        "Personnel non électricien (nettoyage, livraison, peinture) intervenant dans un local électrique : B0.",
+      ]},
+      { type: "quote", text: "Un salarié ayant suivi la formation n\'est pas encore habilité : l\'habilitation est un acte de l\'employeur. Ce document signé précise le domaine de tension, les opérations autorisées et le périmètre géographique. Il atteste que le salarié est formé, déclaré apte par le médecin du travail et autorisé à intervenir sur des installations déterminées." },
+      { type: "p", text: "Référence officielle : norme NF C 18-510 relative aux opérations sur les ouvrages et installations électriques et dans un environnement électrique ; articles R.4544-9 et R.4544-10 du Code du travail, qui définissent l\'obligation de l\'employeur de délivrer une habilitation et imposent une formation préalable à la prévention du risque électrique avant toute autorisation d\'intervenir sur des installations électriques." },
+      { type: "cta", text: "Pour former vos équipes aux habilitations électriques adaptées à leurs postes,", label: "consultez nos formations habilitation électrique", href: "/formations/habilitation-electrique" },
     ],
   },
 };
