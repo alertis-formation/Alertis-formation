@@ -68,6 +68,7 @@ export const articleSlugs = [
   "accident-du-travail-declaration-delais-obligations-employeur",
   "travail-de-nuit-risques-sante-obligations-employeur",
   "niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc",
+  "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
 ] as const;
 
 /**
@@ -96,6 +97,7 @@ export const veilleArticleSlugs = new Set<string>([
   "arrete-4-fevrier-2026-erp-pe27-surveillance-5e-categorie",
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
+  "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
 ]);
 
 export type ArticleBlock =
@@ -3881,6 +3883,32 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un salarié ayant suivi la formation n\'est pas encore habilité : l\'habilitation est un acte de l\'employeur. Ce document signé précise le domaine de tension, les opérations autorisées et le périmètre géographique. Il atteste que le salarié est formé, déclaré apte par le médecin du travail et autorisé à intervenir sur des installations déterminées." },
       { type: "p", text: "Référence officielle : norme NF C 18-510 relative aux opérations sur les ouvrages et installations électriques et dans un environnement électrique ; articles R.4544-9 et R.4544-10 du Code du travail, qui définissent l\'obligation de l\'employeur de délivrer une habilitation et imposent une formation préalable à la prévention du risque électrique avant toute autorisation d\'intervenir sur des installations électriques." },
       { type: "cta", text: "Pour former vos équipes aux habilitations électriques adaptées à leurs postes,", label: "consultez nos formations habilitation électrique", href: "/formations/habilitation-electrique" },
+    ],
+  },
+  "arrete-19-fevrier-2026-structures-combustibles-bois-erp": {
+    title: "Règlement de sécurité ERP : l\'arrêté du 19 février 2026 encadre les structures en bois massif",
+    excerpt: "L\'arrêté du 19 février 2026 (NOR INTE2602293A) encadre les structures en bois massif dans les ERP et fixe de nouvelles exigences de réaction au feu. S\'applique aux travaux autorisés à partir du 1er juin 2027.",
+    publishedAt: "2026-06-08",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
+    content: [
+      { type: "p", text: "L\'arrêté du 19 février 2026 (NOR INTE2602293A) révise le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public — dit arrêté du 25 juin 1980. Il encadre pour la première fois de façon systématique l\'usage des structures combustibles, et notamment du bois massif, dans les ERP de toutes catégories. Le texte s\'appliquera aux demandes d\'autorisation de travaux déposées à partir du 1er juin 2027." },
+      { type: "h2", text: "Ce que change le texte" },
+      { type: "p", text: "Le texte introduit d\'abord, à l\'article GN 16, un glossaire de neuf définitions inédites dans le règlement ERP : bois massif, combles, mezzanine, paroi à ossature, panneau bois non délaminant, protection feu indissociable et système façade. Ces définitions servent de socle aux nouvelles exigences de résistance au feu et de classement de réaction au feu applicables aux structures et enveloppes comportant des matériaux combustibles." },
+      { type: "ul", items: [
+        "Article CO 12 — Résistance au feu des structures : R 30, R 60 ou R 90 selon la hauteur du bâtiment (seuils à 8 m et 18 m) et la catégorie de l\'ERP.",
+        "Article CO 13 — Toitures combustibles : classement A2-s1,d0 requis ; le bois massif est admis sous conditions, les fermettes en sont explicitement exclues.",
+        "Article CO 20 — Système façade : classement A2-s3,d0 pour les revêtements au-dessus de 8 m de hauteur.",
+        "Article AM 1-2 — Ossatures bois de 8 à 18 m : protection indissociable de 30 minutes ; au-delà de 18 m, obligation de sprinklers lorsque des niveaux à ossature bois dépassent 8 m.",
+        "Article AM 4-1 — Bois apparent : admis sans limitation de surface dans les halls de deux niveaux maximum, sous réserve d\'une charge mobilière inférieure à 100 MJ/m² et de portes E 30.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Tous les ERP de la 1re à la 4e catégorie sont visés dès lors qu\'ils intègrent ou envisagent d\'intégrer des éléments structuraux combustibles. Les maîtres d\'ouvrage, architectes et bureaux d\'études devront anticiper ces exigences pour tout permis de construire ou demande d\'autorisation de travaux déposé à partir du 1er juin 2027. Les commissions de sécurité seront attentives à la présence des justificatifs de performance exigés par les articles GE 6 et GE 7." },
+      { type: "h2", text: "Impact sur les formations incendie ERP" },
+      { type: "p", text: "Pour les exploitants d\'ERP, les agents chargés de sécurité incendie et les équipiers d\'évacuation, ce texte modifie le référentiel technique applicable lors de la mise à jour du registre de sécurité et de la formation des guides-files et serre-files. La connaissance des protections passives présentes dans l\'établissement — nature du bois, classement de réaction au feu, présence de sprinklers — fait désormais partie intégrante de la formation incendie en ERP." },
+      { type: "p", text: "Référence officielle : arrêté du 19 février 2026 (NOR INTE2602293A), publié au Journal officiel de la République française n°0045 du 22 février 2026, texte n°5. Consultable sur Légifrance." },
+      { type: "cta", text: "Pour former vos équipes à la sécurité incendie en ERP,", href: "/formations/incendie", label: "consultez nos formations incendie" },
     ],
   },
 };
