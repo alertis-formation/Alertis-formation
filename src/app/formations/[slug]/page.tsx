@@ -232,7 +232,6 @@ export default async function FormationDetailPage({
                           <div className="text-xs text-[color:var(--brand-gray-medium)] mt-0.5">
                             {s.ville}
                             {s.departement && ` · ${s.departement}`}
-                            {s.entreprise && ` · ${s.entreprise}`}
                           </div>
                         </div>
                         <div className="text-right shrink-0">
