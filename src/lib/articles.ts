@@ -69,6 +69,7 @@ export const articleSlugs = [
   "travail-de-nuit-risques-sante-obligations-employeur",
   "niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc",
   "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
+  "compte-professionnel-prevention-c2p-penibilite-obligations-employeur",
 ] as const;
 
 /**
@@ -3909,6 +3910,42 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Pour les exploitants d\'ERP, les agents chargés de sécurité incendie et les équipiers d\'évacuation, ce texte modifie le référentiel technique applicable lors de la mise à jour du registre de sécurité et de la formation des guides-files et serre-files. La connaissance des protections passives présentes dans l\'établissement — nature du bois, classement de réaction au feu, présence de sprinklers — fait désormais partie intégrante de la formation incendie en ERP." },
       { type: "p", text: "Référence officielle : arrêté du 19 février 2026 (NOR INTE2602293A), publié au Journal officiel de la République française n°0045 du 22 février 2026, texte n°5. Consultable sur Légifrance." },
       { type: "cta", text: "Pour former vos équipes à la sécurité incendie en ERP,", href: "/formations/incendie", label: "consultez nos formations incendie" },
+    ],
+  },
+
+  "compte-professionnel-prevention-c2p-penibilite-obligations-employeur": {
+    title: "Compte professionnel de prévention : six facteurs de pénibilité et obligations de l\'employeur",
+    excerpt: "Le C2P permet aux salariés exposés à six facteurs de pénibilité de cumuler des points pour se former, réduire leur temps de travail ou partir à la retraite plus tôt. Guide pratique pour les employeurs.",
+    publishedAt: "2026-06-08",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/compte-professionnel-prevention-c2p-penibilite-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Le Compte Professionnel de Prévention (C2P) permet à tout salarié du secteur privé exposé à des facteurs de pénibilité de cumuler des points utilisables tout au long de sa carrière — pour se former, réduire son temps de travail ou partir à la retraite plus tôt. Pour l\'employeur, le C2P génère deux obligations concrètes : évaluer l\'exposition de chaque salarié concerné et déclarer ces expositions via la déclaration sociale nominative (DSN)." },
+      { type: "h2", text: "Six facteurs de pénibilité ouvrent des droits au C2P" },
+      { type: "ul", items: [
+        "Travail de nuit : au moins une heure de travail effectuée entre minuit et 5 heures du matin, au-delà d\'un seuil annuel fixé par décret.",
+        "Travail en équipes successives alternantes : organisation dite 3×8 ou 2×8, impliquant des prises de poste en horaires de nuit par alternance.",
+        "Travail répétitif : réalisation de gestes à cadence élevée, avec un temps de cycle court et peu de variation des tâches, au-delà d\'un seuil horaire annuel.",
+        "Activités exercées en milieu hyperbare : interventions à une pression supérieure à la pression atmosphérique, au-delà d\'un nombre d\'interventions annuelles fixé par décret.",
+        "Températures extrêmes : exposition à des températures particulièrement basses ou élevées pendant un nombre d\'heures annuelles excédant le seuil réglementaire.",
+        "Bruit : exposition à un niveau sonore élevé dépassant le seuil annuel défini par décret, mesuré en dB(A) pour l\'exposition quotidienne ou en dB(C) pour les chocs acoustiques.",
+      ]},
+      { type: "h2", text: "Comment les expositions sont-elles évaluées et déclarées ?" },
+      { type: "p", text: "Pour chaque salarié, l\'employeur doit déterminer si l\'exposition dépasse les seuils réglementaires pour chacun des six facteurs. Cette évaluation repose sur les conditions réelles de travail — horaires effectifs, mesurages de bruit, relevés de température — et doit être documentée dans le document unique d\'évaluation des risques professionnels (DUERP). Lorsqu\'un seuil est dépassé, les facteurs concernés sont déclarés dans la DSN en fin d\'année civile ou au terme du contrat." },
+      { type: "h2", text: "À quoi servent les points accumulés ?" },
+      { type: "ul", items: [
+        "Financer une formation professionnelle permettant d\'accéder à un poste moins exposé ou de se reconvertir.",
+        "Réduire son temps de travail, en passant à temps partiel avec maintien d\'une partie de la rémunération.",
+        "Partir à la retraite avant l\'âge légal, en utilisant les points pour valider des trimestres supplémentaires.",
+      ]},
+      { type: "h2", text: "Les obligations concrètes de l\'employeur" },
+      { type: "p", text: "L\'évaluation de la pénibilité ne se résume pas à une formalité administrative. Elle doit être conduite facteur par facteur, poste par poste, avec des données mesurables. L\'employeur doit pouvoir justifier ses conclusions auprès de l\'inspection du travail ou des organismes de retraite. En cas d\'omission ou de sous-déclaration intentionnelle, il s\'expose à un redressement de l\'Urssaf. Le service de santé au travail est un interlocuteur clé pour qualifier certaines expositions, notamment au bruit ou aux températures extrêmes." },
+      { type: "h2", text: "Les quatre facteurs exclus du C2P depuis 2017" },
+      { type: "p", text: "Lors de la réforme de 2017, quatre facteurs initialement prévus ont été retirés du C2P : la manutention manuelle de charges, les postures pénibles, les vibrations mécaniques et l\'exposition aux agents chimiques dangereux. Ces facteurs ne génèrent plus de points. Ils donnent désormais lieu à un suivi individuel renforcé (SIR) organisé par le médecin du travail, en application des articles R.4624-22 et suivants du Code du travail. Un salarié exposé à ces quatre risques n\'acquiert pas de droits C2P, mais bénéficie d\'une surveillance médicale accrue." },
+      { type: "quote", text: "Déclarer les facteurs de pénibilité n\'est pas un aveu d\'échec de la prévention. C\'est reconnaître les conditions réelles de travail et permettre aux salariés exposés de bénéficier des droits que la loi leur accorde." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4161-1 relatif à la définition des facteurs de risques professionnels et articles L.4163-1 et suivants relatifs au compte professionnel de prévention — acquisition de points, modalités de déclaration et droits ouverts aux salariés exposés." },
+      { type: "cta", text: "Pour former vos responsables RH et managers à l\'évaluation des facteurs de pénibilité et aux obligations déclaratives,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
