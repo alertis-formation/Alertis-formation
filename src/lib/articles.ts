@@ -70,6 +70,7 @@ export const articleSlugs = [
   "niveaux-habilitation-electrique-b0-bs-br-b1-b2-bc",
   "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
   "compte-professionnel-prevention-c2p-penibilite-obligations-employeur",
+  "brulures-au-travail-conduite-a-tenir-protocole-sst",
 ] as const;
 
 /**
@@ -3946,6 +3947,40 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Déclarer les facteurs de pénibilité n\'est pas un aveu d\'échec de la prévention. C\'est reconnaître les conditions réelles de travail et permettre aux salariés exposés de bénéficier des droits que la loi leur accorde." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4161-1 relatif à la définition des facteurs de risques professionnels et articles L.4163-1 et suivants relatifs au compte professionnel de prévention — acquisition de points, modalités de déclaration et droits ouverts aux salariés exposés." },
       { type: "cta", text: "Pour former vos responsables RH et managers à l\'évaluation des facteurs de pénibilité et aux obligations déclaratives,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "brulures-au-travail-conduite-a-tenir-protocole-sst": {
+    title: "Brûlures au travail : reconnaître la gravité et adopter la bonne conduite à tenir",
+    excerpt: "Face à une brûlure thermique, chimique ou électrique, les premiers gestes conditionnent le pronostic. Guide pratique pour les SST : évaluer la gravité, refroidir correctement et alerter les secours.",
+    publishedAt: "2026-06-09",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/brulures-au-travail-conduite-a-tenir-protocole-sst.jpg",
+    content: [
+      { type: "p", text: "Les brûlures figurent parmi les accidents du travail les plus fréquents dans les secteurs de la restauration, de l\'industrie et de la maintenance. Face à une victime brûlée, les premières minutes sont décisives : un refroidissement rapide et adapté limite les lésions, réduit la douleur et améliore le pronostic. Tout Sauveteur Secouriste du Travail doit connaître les gestes clés et les situations qui imposent d\'alerter les secours." },
+      { type: "h2", text: "Trois degrés pour évaluer la gravité d\'une brûlure" },
+      { type: "ul", items: [
+        "Brûlure du premier degré : atteinte superficielle de l\'épiderme — rougeur, chaleur locale, douleur. Guérit spontanément en quelques jours sans séquelles.",
+        "Brûlure du deuxième degré superficiel : atteinte de l\'épiderme et de la partie supérieure du derme — phlyctènes (cloques), douleur vive. Nécessite des soins médicaux adaptés.",
+        "Brûlure du deuxième degré profond ou du troisième degré : atteinte de la totalité du derme ou des couches sous-cutanées — peau blanche, cireuse ou carbonisée, souvent insensible. Urgence médicale absolue.",
+      ]},
+      { type: "h2", text: "La conduite à tenir immédiate" },
+      { type: "p", text: "Le premier geste est de soustraire la victime à la source de chaleur en se protégeant soi-même. Ensuite, il faut refroidir la brûlure à l\'eau tempérée — entre 15 et 25 °C — pendant 5 à 15 minutes. L\'eau glacée est contre-indiquée : elle aggraverait les lésions par vasoconstriction et risquerait de provoquer une hypothermie. Ce refroidissement freine la propagation de la brûlure en profondeur et atténue significativement la douleur." },
+      { type: "ul", items: [
+        "Retirer les vêtements et bijoux autour de la brûlure s\'ils ne sont pas adhérents à la peau, avant que le gonflement ne les rende impossibles à enlever.",
+        "Protéger la zone brûlée avec un pansement stérile ou un linge propre — ne jamais appliquer de corps gras, crème, beurre ou dentifrice.",
+        "Ne jamais percer les phlyctènes : elles constituent une barrière naturelle contre l\'infection.",
+        "Couvrir la victime pour prévenir l\'hypothermie, qui survient rapidement dès que la surface brûlée dépasse quelques pour cent de la surface corporelle.",
+      ]},
+      { type: "h2", text: "Quand appeler le 15 ou le 18 ?" },
+      { type: "p", text: "Composez le 15 (SAMU) ou le 18 (sapeurs-pompiers) dès que la brûlure présente l\'une des caractéristiques suivantes : surface supérieure à la paume de la main de la victime, localisation au visage, aux mains, aux pieds, aux articulations ou aux voies respiratoires, brûlure du troisième degré quelle que soit la surface, victime enfant ou personne âgée, ou encore cause électrique ou chimique. En cas de doute, appelez systématiquement — il vaut mieux une alerte inutile qu\'une prise en charge tardive." },
+      { type: "h2", text: "Brûlures chimiques et électriques : deux cas particuliers" },
+      { type: "p", text: "Une brûlure chimique (acide, base, solvant) impose un rinçage abondant à l\'eau courante pendant au moins 15 à 30 minutes, avant tout autre geste. Retirez rapidement les vêtements contaminés en vous protégeant avec des gants. Consultez la fiche de données de sécurité (FDS) du produit impliqué pour identifier si un traitement spécifique est indiqué, et transmettez cette information aux secours dès le premier appel." },
+      { type: "p", text: "Une brûlure électrique présente un double risque : la lésion cutanée visible au point d\'entrée et au point de sortie du courant, et une atteinte cardiaque pouvant survenir plusieurs heures après le choc — arythmie, fibrillation ventriculaire. Toute victime d\'un contact électrique, même apparemment indemne, doit bénéficier d\'une surveillance médicale dans les heures suivant l\'accident." },
+      { type: "quote", text: "La brûlure est l\'une des rares lésions où le premier secours, correctement appliqué dans les premières minutes, change véritablement le pronostic. Refroidir tôt, protéger et alerter : ces trois gestes font la différence entre une cicatrisation sans séquelles et des lésions irréversibles." },
+      { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. Les formations SST dispensées dans le cadre du référentiel national INRS intègrent les recommandations actualisées sur la prise en charge des brûlures thermiques, chimiques et électriques." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
