@@ -23,6 +23,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
@@ -206,7 +207,14 @@ const memberAreas: MemberArea[] = [
 
 export default function DossierPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+        ]}
+      />
+      <PageShell
       title="Espace formateur — Ressources pédagogiques"
       subtitle="Une bibliothèque dédiée aux formateurs en santé et sécurité au travail. Référentiels officiels, supports prêts à l'emploi, outils pédagogiques et accès réservé à nos formateurs missionnés."
       breadcrumbs={[{ label: "Espace formateur" }]}
@@ -670,5 +678,6 @@ export default function DossierPage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

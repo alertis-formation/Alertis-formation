@@ -121,6 +121,74 @@ export type Article = {
   content: ArticleBlock[];
 };
 
+/**
+ * Auteur attribué selon le domaine de l'article (signal E-E-A-T) :
+ * les contenus sécurité incendie sont signés Cyrille Gagnaire, le reste
+ * Hugo Debois. Utilisé à la fois pour la byline affichée et l'`author`
+ * du schema Article.
+ */
+export function getArticleAuthor(category: string): string {
+  return category === "Sécurité incendie" ? "Cyrille Gagnaire" : "Hugo Debois";
+}
+
+/** Vignette d'article utilisée par les modules de maillage interne. */
+export type ArticleCard = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  image?: string;
+  readingTime: number;
+  publishedAt: string;
+};
+
+function toCard(slug: string): ArticleCard {
+  const a = articles[slug];
+  return {
+    slug,
+    title: a.title,
+    excerpt: a.excerpt,
+    category: a.category,
+    image: a.image,
+    readingTime: a.readingTime,
+    publishedAt: a.publishedAt,
+  };
+}
+
+const byDateDesc = (a: string, b: string) =>
+  articles[b].publishedAt.localeCompare(articles[a].publishedAt);
+
+/**
+ * Articles liés à un article donné : même catégorie d'abord (les plus
+ * récents), complétés par les plus récents des autres catégories pour
+ * toujours remplir `count` vignettes. Évite les culs-de-sac de maillage.
+ */
+export function getRelatedArticles(slug: string, count = 3): ArticleCard[] {
+  const current = articles[slug];
+  if (!current) return [];
+  const others = articleSlugs.filter((s) => s !== slug).sort(byDateDesc);
+  const sameCategory = others.filter((s) => articles[s].category === current.category);
+  const rest = others.filter((s) => articles[s].category !== current.category);
+  return [...sameCategory, ...rest].slice(0, count).map(toCard);
+}
+
+/**
+ * Articles d'une ou plusieurs catégories (les plus récents) — pour le
+ * maillage descendant pages catégories → articles.
+ */
+export function getArticlesByCategory(
+  categories: string[],
+  count = 3,
+  excludeSlug?: string,
+): ArticleCard[] {
+  const set = new Set(categories);
+  return articleSlugs
+    .filter((s) => s !== excludeSlug && set.has(articles[s].category))
+    .sort(byDateDesc)
+    .slice(0, count)
+    .map(toCard);
+}
+
 export const articles: Record<string, Article> = {
   "formation-sst-obligatoire-code-du-travail": {
     title:

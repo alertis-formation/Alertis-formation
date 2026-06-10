@@ -10,6 +10,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import {
   DocumentList,
@@ -60,7 +61,15 @@ const supportsFormateur: DocumentItem[] = [
 
 export default function DossierPscPsePage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+          { name: "PSC / PSE", href: "/dossier/psc-pse" },
+        ]}
+      />
+      <PageShell
       title="Ressources PSC"
       subtitle="Référentiel 2024 de la formation Premier Secours Citoyen — la formation grand public aux gestes qui sauvent."
       breadcrumbs={[
@@ -180,5 +189,6 @@ export default function DossierPscPsePage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

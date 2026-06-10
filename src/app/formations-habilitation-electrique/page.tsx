@@ -2,6 +2,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
 export const revalidate = 3600;
@@ -93,6 +95,11 @@ export default async function HabilitationElectriquePage() {
             "Recyclage de l'habilitation électrique : fréquence, obligation et organisation",
           href: "/recyclage-habilitation-electrique-frequence-obligation",
         }}
+      />
+      <RelatedArticles
+        title="Nos articles sur l’habilitation électrique"
+        subtitle="Risque électrique, niveaux d’habilitation et recyclage expliqués par nos formateurs."
+        articles={getArticlesByCategory(["Habilitation électrique"])}
       />
     </PageShell>
   );

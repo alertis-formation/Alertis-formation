@@ -2,6 +2,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
 export const revalidate = 3600;
@@ -85,6 +87,11 @@ export default async function ErgonomiePage() {
             ],
           },
         ]}
+      />
+      <RelatedArticles
+        title="Nos articles sur l’ergonomie et la prévention des TMS"
+        subtitle="Gestes et postures, PRAP, troubles musculo-squelettiques : nos ressources pratiques."
+        articles={getArticlesByCategory(["Ergonomie", "PRAP"])}
       />
     </PageShell>
   );

@@ -15,6 +15,7 @@ import {
   Repeat,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
 import { linkifyLegalRefs } from "@/lib/legal-refs";
 
@@ -283,7 +284,14 @@ const updates: {
 
 export default function VeilleReglementairePage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Veille réglementaire", href: "/veille-reglementaire" },
+        ]}
+      />
+      <PageShell
       title="Notre veille réglementaire en santé-sécurité au travail"
       subtitle="Parce qu'une formation n'a de valeur que si elle reste à jour, Alertis Formation conduit une veille active, traçable et documentée sur l'ensemble des évolutions légales, techniques et pédagogiques de notre secteur."
       breadcrumbs={[{ label: "Veille réglementaire" }]}
@@ -731,5 +739,6 @@ export default function VeilleReglementairePage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

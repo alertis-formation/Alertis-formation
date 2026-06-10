@@ -184,6 +184,18 @@ article.
 | `readingTime`  | 4 à 8 minutes, cohérent avec la longueur                      |
 | `content`      | 8 à 15 blocs ; commence par un `p` d'introduction ; alterne `h2`, `p`, `ul`, occasionnellement `h3` et `quote` ; termine par **exactement un** bloc `cta` |
 
+**Attribution de l'auteur (automatique)** : l'auteur affiché en fin
+d'article et le champ `author` du schema `Article` sont déduits de la
+`category` par la fonction `getArticleAuthor` (`src/lib/articles.ts`) — tu
+n'as **aucun champ auteur à renseigner**. La règle :
+
+- `category: "Sécurité incendie"` → **Cyrille Gagnaire**
+- toute autre catégorie → **Hugo Debois**
+
+⚠️ Pour un article de sécurité incendie, emploie le libellé **exact**
+`"Sécurité incendie"` (même casse, avec accent), sinon l'article sera
+attribué par défaut à Hugo Debois.
+
 **Ton** : français professionnel, phrases courtes, paragraphes aérés
 (60–90 mots max par bloc `p`). Pas de "nous savons que…", pas de
 remplissage. Tu écris pour un préventeur qui veut une info actionnable.

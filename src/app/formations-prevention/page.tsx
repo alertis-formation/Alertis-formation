@@ -2,6 +2,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
 export const revalidate = 3600;
@@ -85,6 +87,18 @@ export default async function PreventionPage() {
             ],
           },
         ]}
+      />
+      <RelatedArticles
+        title="Nos articles sur la prévention des risques"
+        subtitle="Document unique, RPS, santé au travail et réglementation décryptés par nos experts."
+        articles={getArticlesByCategory([
+          "Prévention",
+          "Santé au travail",
+          "Santé mentale",
+          "Réglementation",
+          "Hygiène alimentaire",
+          "Veille qualité",
+        ])}
       />
     </PageShell>
   );

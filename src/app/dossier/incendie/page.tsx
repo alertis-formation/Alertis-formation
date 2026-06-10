@@ -13,6 +13,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import {
   DocumentList,
@@ -100,7 +101,15 @@ const supportsMembres: DocumentItem[] = [
 
 export default function DossierIncendiePage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+          { name: "Sécurité incendie", href: "/dossier/incendie" },
+        ]}
+      />
+      <PageShell
       title="Ressources Incendie — Supports & consignes"
       subtitle="Consignes affichables, livret formation et supports d'animation pour la sécurité incendie. ERP, IGH, crèches, EHPAD, établissements de soins type J et U : tout pour préparer vos sessions et exercices d'évacuation."
       breadcrumbs={[
@@ -221,5 +230,6 @@ export default function DossierIncendiePage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

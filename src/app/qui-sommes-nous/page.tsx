@@ -23,6 +23,7 @@ import {
   ShieldAlert,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { GoogleRatingBadge } from "@/components/site/google-rating-badge";
 
 const values = [
@@ -179,7 +180,14 @@ export const metadata = {
 
 export default function QuiSommesNousPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Qui sommes-nous", href: "/qui-sommes-nous" },
+        ]}
+      />
+      <PageShell
       title="Une équipe engagée pour la prévention"
       subtitle="Pour beaucoup, la prévention des risques peut sembler abstraite. En réalité, c'est tout ce qui protège les personnes au quotidien. Et nous, on est là pour vous l'expliquer simplement."
       breadcrumbs={[{ label: "Qui sommes-nous" }]}
@@ -545,5 +553,6 @@ export default function QuiSommesNousPage() {
       </section>
 
     </PageShell>
+    </>
   );
 }

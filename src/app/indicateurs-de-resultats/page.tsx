@@ -9,6 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 
 export const metadata = {
   title: "Indicateurs de résultats — Qualité de nos formations",
@@ -67,7 +68,14 @@ const methodology = [
 
 export default function IndicateursPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Indicateurs de résultats", href: "/indicateurs-de-resultats" },
+        ]}
+      />
+      <PageShell
       title="Nos indicateurs de résultats"
       subtitle="Publication transparente de la satisfaction, de la réussite et des volumes de nos formations sur les 12 derniers mois."
       breadcrumbs={[{ label: "Indicateurs de résultats" }]}
@@ -227,5 +235,6 @@ export default function IndicateursPage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

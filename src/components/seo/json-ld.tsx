@@ -316,7 +316,6 @@ export function CourseJsonLd({
       "@id": `${siteConfig.url}#organization`,
       name: siteConfig.fullName,
       url: siteConfig.url,
-      sameAs: siteConfig.url,
     },
     inLanguage: "fr-FR",
     availableLanguage: "fr-FR",
@@ -387,7 +386,7 @@ export function ArticleJsonLd({
   datePublished,
   dateModified,
   image,
-  author = "Alertis Formation",
+  author = "Cyrille Gagnaire",
 }: {
   title: string;
   description: string;
@@ -405,7 +404,7 @@ export function ArticleJsonLd({
     image: image ? `${siteConfig.url}${image}` : undefined,
     datePublished,
     dateModified: dateModified ?? datePublished,
-    author: { "@type": "Organization", name: author },
+    author: { "@type": "Person", name: author },
     publisher: {
       "@type": "Organization",
       name: siteConfig.fullName,

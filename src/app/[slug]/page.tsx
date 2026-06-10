@@ -6,7 +6,13 @@ import { Calendar, Clock, ArrowLeft, BadgeCheck } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
-import { articles, articleSlugs } from "@/lib/articles";
+import {
+  articles,
+  articleSlugs,
+  getArticleAuthor,
+  getRelatedArticles,
+} from "@/lib/articles";
+import { RelatedArticles } from "@/components/sections/related-articles";
 import { linkifyLegalRefs } from "@/lib/legal-refs";
 
 export const dynamicParams = false;
@@ -53,6 +59,9 @@ export default async function ArticlePage({
   const article = articles[slug as keyof typeof articles];
   if (!article) notFound();
 
+  const author = getArticleAuthor(article.category);
+  const related = getRelatedArticles(slug);
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -68,6 +77,7 @@ export default async function ArticlePage({
         url={`/${slug}`}
         datePublished={article.publishedAt}
         image={article.image}
+        author={author}
       />
       <PageShell
         title={article.title}
@@ -94,19 +104,6 @@ export default async function ArticlePage({
                 <Clock className="size-4" />
                 <span>{article.readingTime} min de lecture</span>
               </span>
-            </div>
-
-            {/* Byline E-E-A-T : entité éditoriale + relecture par un formateur.
-                Honnête (niveau organisation), renforce la confiance sur du
-                contenu santé-sécurité (YMYL). */}
-            <div className="flex items-center gap-3 mb-10 rounded-lg bg-[color:var(--brand-cream)] px-4 py-3 ring-1 ring-border">
-              <BadgeCheck className="size-5 shrink-0 text-[color:var(--brand-red)]" />
-              <p className="text-sm text-[color:var(--brand-gray-medium)]">
-                <span className="font-semibold text-[color:var(--brand-charcoal)]">
-                  Rédigé par l’équipe pédagogique {siteConfig.fullName}
-                </span>{" "}
-                — relu par un formateur certifié en santé et sécurité au travail.
-              </p>
             </div>
 
             {article.image && (
@@ -191,7 +188,21 @@ export default async function ArticlePage({
               })}
             </div>
 
-            <div className="mt-14 pt-8 border-t border-border">
+            {/* Byline E-E-A-T : auteur nommé et crédentialé, en fin d'article.
+                Renforce la confiance sur du contenu santé-sécurité (YMYL). Doit
+                rester cohérent avec l'`author` passé à ArticleJsonLd ci-dessus. */}
+            <div className="mt-14 flex items-center gap-3 rounded-lg bg-[color:var(--brand-cream)] px-4 py-3 ring-1 ring-border">
+              <BadgeCheck className="size-5 shrink-0 text-[color:var(--brand-red)]" />
+              <p className="text-sm text-[color:var(--brand-gray-medium)]">
+                <span className="font-semibold text-[color:var(--brand-charcoal)]">
+                  Rédigé par {author}
+                </span>{" "}
+                — formateur en santé et sécurité au travail chez{" "}
+                {siteConfig.fullName}.
+              </p>
+            </div>
+
+            <div className="mt-8 pt-8 border-t border-border">
               <Link
                 href="/articles"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)] hover:underline underline-offset-4"
@@ -202,6 +213,11 @@ export default async function ArticlePage({
             </div>
           </div>
         </article>
+        <RelatedArticles
+          title="À lire aussi"
+          subtitle="D’autres ressources de nos formateurs sur des sujets proches."
+          articles={related}
+        />
       </PageShell>
     </>
   );

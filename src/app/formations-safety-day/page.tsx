@@ -2,6 +2,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
 export const revalidate = 3600;
@@ -89,6 +91,15 @@ export default async function SafetyDayPage() {
         ]}
         ctaTitle="Organiser un Safety Day"
         ctaDescription="Parlons de votre événement : nombre de participants, lieu, ateliers souhaités. Devis sur-mesure sous 48h."
+      />
+      <RelatedArticles
+        title="Nos articles sécurité & prévention"
+        subtitle="Des ressources pour nourrir vos journées sécurité et sensibiliser vos équipes."
+        articles={getArticlesByCategory([
+          "Prévention",
+          "Sécurité incendie",
+          "Secourisme",
+        ])}
       />
     </PageShell>
   );

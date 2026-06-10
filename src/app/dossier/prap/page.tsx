@@ -14,6 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import {
   DocumentList,
@@ -94,7 +95,15 @@ const supports2s: DocumentItem[] = [
 
 export default function DossierPrapPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+          { name: "PRAP", href: "/dossier/prap" },
+        ]}
+      />
+      <PageShell
       title="Ressources PRAP IBC & 2S"
       subtitle="Prévention des Risques liés à l'Activité Physique : référentiels et supports pédagogiques pour les deux secteurs — Industrie/BTP/Commerce (IBC) et Sanitaire/Social (2S)."
       breadcrumbs={[
@@ -236,5 +245,6 @@ export default function DossierPrapPage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

@@ -2,6 +2,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { FormationCategoryContent } from "@/components/sections/formation-category-content";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 
 export const revalidate = 3600;
@@ -90,6 +92,11 @@ export default async function SecourismePage() {
             "La formation SST est-elle obligatoire ? Ce que dit le Code du travail",
           href: "/formation-sst-obligatoire-code-du-travail",
         }}
+      />
+      <RelatedArticles
+        title="Nos articles sur le secourisme"
+        subtitle="SST, gestes qui sauvent, premiers secours : les conseils de nos formateurs."
+        articles={getArticlesByCategory(["Secourisme", "SST"])}
       />
     </PageShell>
   );

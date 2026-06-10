@@ -22,6 +22,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import {
   DocumentList,
@@ -196,7 +197,15 @@ const outilsAdministratifs: DocumentItem[] = [
 
 export default function DossierSstPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+          { name: "SST", href: "/dossier/sst" },
+        ]}
+      />
+      <PageShell
       title="Ressources SST — Sauveteur Secouriste du Travail"
       subtitle="Référentiels INRS V9, manuels formateur, aide-mémoires, grilles de certification et outils d'animation pour conduire et faire évoluer vos formations SST et MAC SST."
       breadcrumbs={[
@@ -341,5 +350,6 @@ export default function DossierSstPage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }

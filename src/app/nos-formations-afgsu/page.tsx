@@ -4,6 +4,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { Button } from "@/components/ui/button";
 import { FormationsList } from "@/components/sections/formations-list";
 import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
+import { RelatedArticles } from "@/components/sections/related-articles";
+import { getArticlesByCategory } from "@/lib/articles";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 import { getApiIdForSlug } from "@/lib/alertis-api-mapping";
 import { getFormationById } from "@/lib/alertis-api";
@@ -227,6 +229,11 @@ export default async function AfgsuPage() {
           />
         </div>
       </section>
+      <RelatedArticles
+        title="Nos articles sur l’AFGSU"
+        subtitle="Gestes et soins d’urgence pour les professionnels de santé : nos ressources dédiées."
+        articles={getArticlesByCategory(["AFGSU"])}
+      />
     </PageShell>
   );
 }

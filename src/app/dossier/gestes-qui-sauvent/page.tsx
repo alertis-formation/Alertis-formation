@@ -12,6 +12,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import {
   DocumentList,
@@ -69,7 +70,15 @@ const supportsFormateur: DocumentItem[] = [
 
 export default function DossierGqsPage() {
   return (
-    <PageShell
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Accueil", href: "/" },
+          { name: "Espace formateur", href: "/dossier" },
+          { name: "Gestes qui sauvent", href: "/dossier/gestes-qui-sauvent" },
+        ]}
+      />
+      <PageShell
       title="Ressources GQS — Gestes qui sauvent"
       subtitle="Référentiel 2024, recommandations nationales et supports d'animation pour conduire vos sensibilisations aux gestes qui sauvent — un format court (2h) accessible à tous publics."
       breadcrumbs={[
@@ -189,5 +198,6 @@ export default function DossierGqsPage() {
         </div>
       </section>
     </PageShell>
+    </>
   );
 }
