@@ -15,9 +15,12 @@ function JsonLd({ data }: { data: object }) {
 /**
  * Organization + EducationalOrganization combined.
  * Place on the homepage layout.
+ *
+ * Pas d'`aggregateRating` ici : Google ignore (voire signale) une note
+ * agrégée auto-déclarée au niveau Organization. La note reste portée par
+ * le `LocalBusiness` ci-dessous, rattaché aux avis Google visibles.
  */
-export async function OrganizationJsonLd() {
-  const rating = await getGoogleRating();
+export function OrganizationJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": ["Organization", "EducationalOrganization"],
@@ -71,13 +74,6 @@ export async function OrganizationJsonLd() {
       "Document unique d'évaluation des risques",
       "Code du travail",
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: rating.value,
-      reviewCount: rating.count,
-      bestRating: 5,
-      worstRating: 1,
-    },
   };
   return <JsonLd data={data} />;
 }

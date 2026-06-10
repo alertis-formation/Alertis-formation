@@ -1316,3 +1316,120 @@ export const locations: Location[] = [
   valence,
   bourgEnBresse,
 ];
+
+/**
+ * Maillage interne contextuel : pour chaque ville, 2 à 4 villes voisines
+ * (par proximité géographique réelle). Sert à tisser des liens dans le corps
+ * des pages locales, en plus des liens globaux du footer.
+ */
+export const nearbyBySlug: Record<string, string[]> = {
+  "formation-securite-paris": [
+    "formation-securite-rouen",
+    "formation-securite-lille",
+    "formation-securite-tours",
+  ],
+  "formation-securite-lyon": [
+    "formation-securite-villeurbanne",
+    "formation-securite-saint-etienne",
+    "formation-securite-bourg-en-bresse",
+    "formation-securite-grenoble",
+  ],
+  "formation-securite-toulouse": [
+    "formation-securite-bordeaux",
+    "formation-securite-montpellier",
+  ],
+  "formation-securite-bordeaux": [
+    "formation-securite-toulouse",
+    "formation-securite-nantes",
+  ],
+  "formation-securite-lille": [
+    "formation-securite-paris",
+    "formation-securite-rouen",
+  ],
+  "formation-securite-nantes": [
+    "formation-securite-rennes",
+    "formation-securite-tours",
+    "formation-securite-bordeaux",
+  ],
+  "formation-securite-strasbourg": [
+    "formation-securite-lyon",
+    "formation-securite-grenoble",
+  ],
+  "formation-securite-montpellier": [
+    "formation-securite-toulouse",
+    "formation-securite-nice",
+    "formation-securite-aix-en-provence",
+    "formation-securite-valence",
+  ],
+  "formation-securite-rennes": [
+    "formation-securite-nantes",
+    "formation-securite-rouen",
+  ],
+  "formation-securite-rouen": [
+    "formation-securite-paris",
+    "formation-securite-lille",
+    "formation-securite-rennes",
+  ],
+  "formation-securite-nice": [
+    "formation-securite-aix-en-provence",
+    "formation-securite-montpellier",
+  ],
+  "formation-securite-tours": [
+    "formation-securite-paris",
+    "formation-securite-nantes",
+  ],
+  "formation-securite-aix-en-provence": [
+    "formation-securite-nice",
+    "formation-securite-montpellier",
+    "formation-securite-valence",
+  ],
+  "formation-securite-grenoble": [
+    "formation-securite-lyon",
+    "formation-securite-chambery",
+    "formation-securite-valence",
+  ],
+  "formation-securite-saint-etienne": [
+    "formation-securite-lyon",
+    "formation-securite-clermont-ferrand",
+    "formation-securite-valence",
+  ],
+  "formation-securite-clermont-ferrand": [
+    "formation-securite-saint-etienne",
+    "formation-securite-lyon",
+    "formation-securite-valence",
+  ],
+  "formation-securite-villeurbanne": [
+    "formation-securite-lyon",
+    "formation-securite-saint-etienne",
+    "formation-securite-bourg-en-bresse",
+  ],
+  "formation-securite-annecy": [
+    "formation-securite-chambery",
+    "formation-securite-grenoble",
+    "formation-securite-lyon",
+  ],
+  "formation-securite-chambery": [
+    "formation-securite-annecy",
+    "formation-securite-grenoble",
+    "formation-securite-lyon",
+  ],
+  "formation-securite-valence": [
+    "formation-securite-lyon",
+    "formation-securite-grenoble",
+    "formation-securite-saint-etienne",
+    "formation-securite-montpellier",
+  ],
+  "formation-securite-bourg-en-bresse": [
+    "formation-securite-lyon",
+    "formation-securite-villeurbanne",
+    "formation-securite-annecy",
+  ],
+};
+
+/** Résout les villes voisines d'une ville (objets Location, ordre du mapping). */
+export function getNearbyLocations(slug: string): Location[] {
+  const bySlug = new Map(locations.map((l) => [l.slug, l]));
+  return (nearbyBySlug[slug] ?? [])
+    .map((s) => bySlug.get(s))
+    .filter((l): l is Location => Boolean(l));
+}

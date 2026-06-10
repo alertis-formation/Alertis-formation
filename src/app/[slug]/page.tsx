@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, Clock, ArrowLeft } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, BadgeCheck } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
@@ -94,6 +94,19 @@ export default async function ArticlePage({
                 <Clock className="size-4" />
                 <span>{article.readingTime} min de lecture</span>
               </span>
+            </div>
+
+            {/* Byline E-E-A-T : entité éditoriale + relecture par un formateur.
+                Honnête (niveau organisation), renforce la confiance sur du
+                contenu santé-sécurité (YMYL). */}
+            <div className="flex items-center gap-3 mb-10 rounded-lg bg-[color:var(--brand-cream)] px-4 py-3 ring-1 ring-border">
+              <BadgeCheck className="size-5 shrink-0 text-[color:var(--brand-red)]" />
+              <p className="text-sm text-[color:var(--brand-gray-medium)]">
+                <span className="font-semibold text-[color:var(--brand-charcoal)]">
+                  Rédigé par l’équipe pédagogique {siteConfig.fullName}
+                </span>{" "}
+                — relu par un formateur certifié en santé et sécurité au travail.
+              </p>
             </div>
 
             {article.image && (

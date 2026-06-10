@@ -5,7 +5,7 @@ import { PageShell } from "@/components/site/page-shell";
 import { Button } from "@/components/ui/button";
 import { BreadcrumbJsonLd, LocalServiceJsonLd } from "@/components/seo/json-ld";
 import { getUpcomingSessionsByDepartments } from "@/lib/alertis-api";
-import type { Location } from "@/lib/locations";
+import { getNearbyLocations, type Location } from "@/lib/locations";
 
 /**
  * Rendu d'une page locale. La mise en page est commune ; le contenu
@@ -16,6 +16,7 @@ import type { Location } from "@/lib/locations";
 export async function LocationPageContent({ data }: { data: Location }) {
   const sessions = await getUpcomingSessionsByDepartments(data.departments, 10);
   const hasSessions = sessions.length > 0;
+  const nearby = getNearbyLocations(data.slug);
 
   return (
     <>
@@ -166,6 +167,37 @@ export async function LocationPageContent({ data }: { data: Location }) {
             </div>
           </div>
         </section>
+
+        {/* Maillage interne — villes voisines */}
+        {nearby.length > 0 && (
+          <section
+            className={`py-16 ${hasSessions ? "bg-white" : "bg-[color:var(--brand-cream)]"}`}
+          >
+            <div className="mx-auto max-w-6xl px-6">
+              <h2 className="text-[color:var(--brand-charcoal)] text-2xl md:text-3xl mb-3">
+                Formation sécurité dans les villes proches de {data.city}
+              </h2>
+              <p className="text-sm text-[color:var(--brand-gray-medium)] mb-8 max-w-3xl">
+                Nous intervenons aussi auprès des entreprises et établissements
+                des agglomérations voisines. Découvrez nos formations santé et
+                sécurité au travail dans les villes proches de {data.city}.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {nearby.map((l) => (
+                  <Link
+                    key={l.slug}
+                    href={`/${l.slug}`}
+                    className="group inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[color:var(--brand-charcoal)] ring-1 ring-[color:var(--brand-gray-medium)]/15 hover:ring-[color:var(--brand-red)] hover:text-[color:var(--brand-red)] transition-all"
+                  >
+                    <MapPin className="size-4 text-[color:var(--brand-red)]" />
+                    <span>Formation sécurité à {l.city}</span>
+                    <ArrowUpRight className="size-3.5 text-[color:var(--brand-gray-medium)] group-hover:text-[color:var(--brand-red)] transition-colors" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Intervention + CTA */}
         <section className="py-14 bg-[color:var(--brand-slate)] text-white">
