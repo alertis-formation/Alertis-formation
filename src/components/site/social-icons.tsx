@@ -44,3 +44,29 @@ export function YouTubeIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+export function LinkedInIcon({ className }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden
+    >
+      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18V9.99H5.67V18h2.67zM7 8.82a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18v-4.39c0-2.35-1.26-3.44-2.94-3.44a2.53 2.53 0 0 0-2.29 1.26h-.04V9.99h-2.56V18h2.67v-3.96c0-1.05.2-2.06 1.5-2.06 1.28 0 1.3 1.2 1.3 2.13V18h2.66z" />
+    </svg>
+  );
+}
+
+export function FacebookIcon({ className }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden
+    >
+      <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z" />
+    </svg>
+  );
+}

@@ -42,6 +42,9 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/alertis_formation",
     tiktok: "https://www.tiktok.com/@alertisformation",
     youtube: "https://www.youtube.com/@alertis69",
+    linkedin:
+      "https://fr.linkedin.com/company/alertis-formation-securite-incendie",
+    facebook: "https://www.facebook.com/alertis/",
   },
   googleReviewUrl: "https://g.page/r/CWzZO4gxn16CEAI/review",
   rating: {

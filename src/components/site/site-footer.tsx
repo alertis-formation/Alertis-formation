@@ -3,13 +3,21 @@ import { Phone, Mail, Clock, MapPin, ArrowUpRight } from "lucide-react";
 import { AlertisLogo } from "./alertis-logo";
 import { footerNav, siteConfig } from "@/lib/site-config";
 import { locations } from "@/lib/locations";
-import { InstagramIcon, TikTokIcon, YouTubeIcon } from "./social-icons";
+import {
+  InstagramIcon,
+  TikTokIcon,
+  YouTubeIcon,
+  LinkedInIcon,
+  FacebookIcon,
+} from "./social-icons";
 import { CookiePreferencesLink } from "./cookie-preferences-link";
 
 const socials = [
   { label: "Instagram", icon: InstagramIcon, url: siteConfig.social.instagram },
+  { label: "Facebook", icon: FacebookIcon, url: siteConfig.social.facebook },
   { label: "TikTok", icon: TikTokIcon, url: siteConfig.social.tiktok },
   { label: "YouTube", icon: YouTubeIcon, url: siteConfig.social.youtube },
+  { label: "LinkedIn", icon: LinkedInIcon, url: siteConfig.social.linkedin },
 ];
 
 export function SiteFooter() {
