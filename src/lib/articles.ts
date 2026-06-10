@@ -71,6 +71,7 @@ export const articleSlugs = [
   "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
   "compte-professionnel-prevention-c2p-penibilite-obligations-employeur",
   "brulures-au-travail-conduite-a-tenir-protocole-sst",
+  "avc-au-travail-signes-alerte-conduite-a-tenir",
 ] as const;
 
 /**
@@ -3980,6 +3981,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une brûlure électrique présente un double risque : la lésion cutanée visible au point d\'entrée et au point de sortie du courant, et une atteinte cardiaque pouvant survenir plusieurs heures après le choc — arythmie, fibrillation ventriculaire. Toute victime d\'un contact électrique, même apparemment indemne, doit bénéficier d\'une surveillance médicale dans les heures suivant l\'accident." },
       { type: "quote", text: "La brûlure est l\'une des rares lésions où le premier secours, correctement appliqué dans les premières minutes, change véritablement le pronostic. Refroidir tôt, protéger et alerter : ces trois gestes font la différence entre une cicatrisation sans séquelles et des lésions irréversibles." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. Les formations SST dispensées dans le cadre du référentiel national INRS intègrent les recommandations actualisées sur la prise en charge des brûlures thermiques, chimiques et électriques." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "avc-au-travail-signes-alerte-conduite-a-tenir": {
+    title: "AVC au travail : reconnaître les signes d\'alerte et réagir vite",
+    excerpt: "Un AVC se traite dans une fenêtre de quelques heures : chaque minute perdue aggrave les séquelles. Savoir reconnaître les signes d\'alerte et alerter le 15 immédiatement peut changer le pronostic vital.",
+    publishedAt: "2026-06-10",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/avc-au-travail-signes-alerte-conduite-a-tenir.jpg",
+    content: [
+      { type: "p", text: "L\'accident vasculaire cérébral est une urgence médicale absolue. À la différence d\'autres urgences, ses signes sont souvent méconnus : la victime et les témoins attendent parfois une amélioration spontanée qui ne viendra pas, perdant des minutes décisives. Pour un Sauveteur Secouriste du Travail, reconnaître les signaux et alerter le 15 sans délai est l\'acte qui peut limiter de façon significative les séquelles." },
+      { type: "h2", text: "La méthode VITE : quatre signes pour ne rien oublier" },
+      { type: "ul", items: [
+        "V comme Visage — bouche ou œil dévié, visage asymétrique. Demandez à la personne de sourire : si un côté reste immobile ou s\'affaisse, c\'est un signe d\'alerte.",
+        "I comme Incapacité — faiblesse ou engourdissement soudain d\'un bras ou d\'une jambe. Demandez-lui de lever les deux bras devant elle : si l\'un retombe, alertez immédiatement.",
+        "T comme Trouble de la parole — difficulté à parler ou à comprendre, mots incohérents, discours incompréhensible. Testez en lui demandant de répéter une phrase simple.",
+        "E comme Extrême urgence — appelez le 15 (SAMU) sans attendre. Ne raccompagnez pas la personne chez elle, ne lui demandez pas de se reposer. Déclenchez les secours immédiatement.",
+      ]},
+      { type: "h2", text: "Ce qu\'il faut faire en attendant les secours" },
+      { type: "p", text: "Installez la victime dans la position la plus confortable possible — allongée ou demi-assise selon ce qu\'elle supporte — sans lui demander d\'effort physique. Ne lui donnez rien à boire ni à manger : la déglutition peut être compromise et entraîner une fausse route. Si la victime perd conscience mais respire normalement, placez-la en position latérale de sécurité (PLS) et restez à ses côtés jusqu\'à l\'arrivée des secours." },
+      { type: "ul", items: [
+        "Notez précisément l\'heure d\'apparition des premiers signes — le SAMU en a besoin pour évaluer la fenêtre thérapeutique et choisir le traitement.",
+        "Rassurez la victime à voix calme et limitez les déplacements inutiles.",
+        "Ne proposez jamais d\'aspirine ni aucun médicament : dans un AVC hémorragique, un antiagrégant ou un anticoagulant aggraverait le saignement.",
+        "Si la victime est inconsciente et ne respire plus normalement, débutez immédiatement une réanimation cardiopulmonaire (RCP).",
+      ]},
+      { type: "h2", text: "Les formes trompeuses : signes atypiques à ne pas ignorer" },
+      { type: "p", text: "Certains AVC se manifestent par des signes inhabituels qui peuvent égarer les témoins : troubles soudains de la vision, vertiges intenses avec perte d\'équilibre, ou céphalée brutale et inhabituelle décrite comme le pire mal de tête de la vie. Ces signes isolés méritent la même réponse que les signes VITE classiques : appel immédiat au 15. L\'accident ischémique transitoire (AIT), dont les symptômes régressent en quelques minutes, doit également conduire à une consultation d\'urgence sans délai — il précède souvent un AVC constitué." },
+      { type: "h2", text: "L\'AVC dans le contexte professionnel" },
+      { type: "p", text: "Le stress professionnel intense, les horaires décalés et une hypertension non dépistée sont des facteurs favorisant les accidents cardiovasculaires, dont l\'AVC ischémique. Les travailleurs exposés à une forte tension — délais serrés, faible latitude décisionnelle, travail de nuit — présentent un profil de risque particulier. Le médecin du travail joue un rôle clé dans la détection précoce de ces facteurs lors du suivi individuel de l\'état de santé des salariés." },
+      { type: "quote", text: "Le principal ennemi de l\'AVC n\'est pas le diagnostic médical — c\'est l\'hésitation. Un témoin qui attend trente minutes pour voir si ça passe retire à la victime la chance d\'un traitement dans la fenêtre thérapeutique." },
+      { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La formation Sauveteur Secouriste du Travail, dispensée dans le cadre du référentiel national INRS, intègre la conduite à tenir face aux urgences médicales, dont l\'accident vasculaire cérébral." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
