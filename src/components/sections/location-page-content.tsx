@@ -103,13 +103,6 @@ export async function LocationPageContent({ data }: { data: Location }) {
                       <div className="text-sm font-bold text-[color:var(--brand-charcoal)]">
                         {formatPrice(s.prixVente)}
                       </div>
-                      {typeof s.disponibilite === "number" && (
-                        <div className="text-[10px] uppercase tracking-widest text-[color:var(--brand-gray-medium)] mt-0.5">
-                          {s.disponibilite > 0
-                            ? `${s.disponibilite} place${s.disponibilite > 1 ? "s" : ""}`
-                            : "Complet"}
-                        </div>
-                      )}
                     </div>
                   </li>
                 ))}
