@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { PageShell } from "@/components/site/page-shell";
+import { ReviewsSection } from "@/components/sections/reviews-section";
 import { AvisFlow } from "./avis-flow";
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default function AvisPage() {
           </Suspense>
         </div>
       </section>
+      <ReviewsSection />
     </PageShell>
   );
 }

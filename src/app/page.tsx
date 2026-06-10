@@ -4,6 +4,7 @@ import { PresentationSection } from "@/components/sections/presentation-section"
 import { FormationsGridSection } from "@/components/sections/formations-grid-section";
 import { FeaturedFormationsSection } from "@/components/sections/featured-formations-section";
 import { NewsSection } from "@/components/sections/news-section";
+import { ReviewsSection } from "@/components/sections/reviews-section";
 import { FaqSection } from "@/components/sections/faq-section";
 import type { Metadata } from "next";
 import { getLiveFormationCount } from "@/lib/formations-live";
@@ -36,6 +37,7 @@ export default function HomePage() {
       <FeaturedFormationsSection />
       <NewsSection />
       <FaqSection />
+      <ReviewsSection />
     </>
   );
 }

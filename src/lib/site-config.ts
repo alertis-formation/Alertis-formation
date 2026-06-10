@@ -46,7 +46,7 @@ export const siteConfig = {
       "https://fr.linkedin.com/company/alertis-formation-securite-incendie",
     facebook: "https://www.facebook.com/alertis/",
   },
-  googleReviewUrl: "https://g.page/r/CWzZO4gxn16CEAI/review",
+  googleReviewUrl: "https://g.page/r/CWzZO4gxn16CEBM/review",
   rating: {
     /** Google Business Profile aggregate rating. Update when refreshed. */
     value: 4.9,

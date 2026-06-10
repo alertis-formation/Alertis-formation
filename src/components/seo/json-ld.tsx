@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
 import { getGoogleRating } from "@/lib/google-rating";
+import { reviews } from "@/lib/reviews";
 
 function JsonLd({ data }: { data: object }) {
   return (
@@ -124,9 +125,14 @@ export function ItemListJsonLd({
 
 /**
  * LocalBusiness with opening hours and contact info.
+ *
+ * Pas d'`aggregateRating` ici : ce nœud est rendu sur TOUTES les pages (layout
+ * racine), or Google exige que la note agrégée corresponde à des avis visibles
+ * sur la page. La note + les avis sont portés par `ReviewsJsonLd` ci-dessous,
+ * placé uniquement sur les pages qui affichent réellement les avis (accueil,
+ * `/avis`). Les deux nœuds partagent le même `@id` → Google les fusionne.
  */
-export async function LocalBusinessJsonLd() {
-  const rating = await getGoogleRating();
+export function LocalBusinessJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -166,13 +172,6 @@ export async function LocalBusinessJsonLd() {
       },
     ],
     areaServed: { "@type": "Country", name: "France" },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: rating.value,
-      reviewCount: rating.count,
-      bestRating: 5,
-      worstRating: 1,
-    },
     sameAs: [
       siteConfig.social.instagram,
       siteConfig.social.facebook,
@@ -180,6 +179,44 @@ export async function LocalBusinessJsonLd() {
       siteConfig.social.youtube,
       siteConfig.social.linkedin,
     ],
+  };
+  return <JsonLd data={data} />;
+}
+
+/**
+ * `aggregateRating` + échantillon d'avis, rattachés au `LocalBusiness` via son
+ * `@id`. À placer UNIQUEMENT sur les pages qui affichent les avis à l'écran
+ * (accueil, `/avis`) : la note globale vient du scrape Google (`getGoogleRating`,
+ * fallback `siteConfig.rating`), les `review` sont l'échantillon réel rendu par
+ * `ReviewsSection`. Conformité à la politique Google sur les extraits d'avis.
+ */
+export async function ReviewsJsonLd() {
+  const rating = await getGoogleRating();
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${siteConfig.url}#localbusiness`,
+    name: siteConfig.fullName,
+    url: siteConfig.url,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: rating.value,
+      reviewCount: rating.count,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    review: reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.author },
+      datePublished: r.date,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: r.rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      reviewBody: r.body,
+    })),
   };
   return <JsonLd data={data} />;
 }
