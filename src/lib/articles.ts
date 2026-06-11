@@ -72,6 +72,7 @@ export const articleSlugs = [
   "compte-professionnel-prevention-c2p-penibilite-obligations-employeur",
   "brulures-au-travail-conduite-a-tenir-protocole-sst",
   "avc-au-travail-signes-alerte-conduite-a-tenir",
+  "accueil-securite-nouveaux-salaries-obligations-pratique",
 ] as const;
 
 /**
@@ -4090,6 +4091,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Le principal ennemi de l\'AVC n\'est pas le diagnostic médical — c\'est l\'hésitation. Un témoin qui attend trente minutes pour voir si ça passe retire à la victime la chance d\'un traitement dans la fenêtre thérapeutique." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La formation Sauveteur Secouriste du Travail, dispensée dans le cadre du référentiel national INRS, intègre la conduite à tenir face aux urgences médicales, dont l\'accident vasculaire cérébral." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "accueil-securite-nouveaux-salaries-obligations-pratique": {
+    title: "Accueil sécurité des nouveaux salariés : obligations et mise en pratique",
+    excerpt: "Les premiers jours en poste concentrent un risque élevé d\'accident du travail. Le Code du travail impose une formation à la sécurité dès l\'embauche : contenu obligatoire, population concernée et formalisation.",
+    publishedAt: "2026-06-11",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/accueil-securite-nouveaux-salaries-obligations-pratique.jpg",
+    content: [
+      { type: "p", text: "Un salarié nouvellement recruté ne connaît ni les risques spécifiques de son poste, ni les procédures d\'urgence de l\'établissement, ni les personnes ressources à contacter. Cette méconnaissance explique pourquoi les accidents du travail sont plus fréquents en début d\'emploi. La loi en tient compte : le Code du travail impose à tout employeur d\'organiser une formation à la sécurité avant ou dès la prise de poste." },
+      { type: "h2", text: "Ce que dit le Code du travail" },
+      { type: "p", text: "L\'article L.4141-1 du Code du travail impose à l\'employeur d\'organiser une formation pratique et appropriée en matière de sécurité au bénéfice des travailleurs nouvellement embauchés, de ceux qui changent de poste ou de technique, ainsi que des salariés en CDD et des intérimaires. Cette formation doit être renouvelée chaque fois que cela est nécessaire, notamment lors de l\'introduction d\'un nouvel équipement ou d\'une nouvelle technologie." },
+      { type: "ul", items: [
+        "Nouveaux salariés en CDI, CDD ou intérimaires : formation obligatoire dès l\'embauche.",
+        "Salariés changeant de poste ou de technique : formation adaptée aux nouveaux risques.",
+        "Salariés reprenant le travail après une absence prolongée : formation de remise à niveau si les conditions ont évolué.",
+        "Stagiaires : inclus dans le périmètre de l\'obligation, au même titre que les salariés.",
+      ]},
+      { type: "h2", text: "Que doit couvrir un accueil sécurité ?" },
+      { type: "p", text: "La formation doit être adaptée aux risques réels du poste, tels qu\'ils sont identifiés dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). Elle ne se limite pas à la présentation de consignes générales : elle porte sur les situations concrètes que le salarié rencontrera dès ses premières heures." },
+      { type: "ul", items: [
+        "Risques liés au poste : machines, produits chimiques, manutention, risque électrique, risque de chute…",
+        "Équipements de Protection Individuelle (EPI) obligatoires : lesquels porter, comment les choisir et les entretenir.",
+        "Procédures d\'urgence : numéros d\'appel internes, localisation des extincteurs et des issues de secours, consigne d\'évacuation.",
+        "Conduite à tenir en cas d\'accident ou de malaise : qui alerter, où se trouve le Sauveteur Secouriste du Travail de proximité.",
+        "Personnes ressources : référent sécurité, médecin du travail, représentants du personnel en charge de la santé et sécurité.",
+      ]},
+      { type: "h2", text: "Formaliser l\'accueil sécurité pour en apporter la preuve" },
+      { type: "p", text: "En cas d\'accident, l\'employeur doit pouvoir démontrer qu\'il a dispensé la formation. La formalisation est indispensable : une fiche d\'accueil sécurité datée et signée par le salarié et son responsable, conservée dans le dossier individuel, constitue la pièce justificative de référence. Cette fiche doit mentionner les risques couverts, les consignes remises et les EPI fournis." },
+      { type: "h2", text: "Qui assure concrètement cet accueil ?" },
+      { type: "p", text: "L\'employeur est le débiteur légal de cette obligation. Il peut la déléguer à un manager de proximité, un responsable sécurité ou un formateur interne, mais la responsabilité reste entière. Les Sauveteurs Secouristes du Travail de l\'équipe peuvent être associés à la présentation des consignes de premiers secours. L\'accueil doit idéalement avoir lieu avant la première prise de poste réelle, ou au plus tard lors de la première journée." },
+      { type: "quote", text: "L\'accueil sécurité n\'est pas une formalité administrative : c\'est le premier maillon de la chaîne de prévention. Un salarié qui comprend pourquoi une consigne existe l\'applique — celui à qui on la lit sans explication l\'oubliera dès la deuxième heure." },
+      { type: "p", text: "Référence officielle : article L.4141-1 du Code du travail, relatif à l\'obligation de formation pratique à la sécurité pour tout travailleur nouvellement embauché, changeant de poste ou reprenant après absence." },
+      { type: "cta", text: "Pour structurer votre démarche de prévention et former vos encadrants à l\'accueil sécurité,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
     ],
   },
 };
