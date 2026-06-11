@@ -9,16 +9,38 @@ import { siteConfig } from "@/lib/site-config";
 function Stars({ value = 5, size = 15 }: { value?: number; size?: number }) {
   return (
     <span className="inline-flex items-center gap-0.5" aria-hidden>
-      {[0, 1, 2, 3, 4].map((i) => (
-        <Star
-          key={i}
-          size={size}
-          className="text-[#fbbc04]"
-          fill={value >= i + 1 ? "currentColor" : "none"}
-          stroke="currentColor"
-          strokeWidth={2}
-        />
-      ))}
+      {[0, 1, 2, 3, 4].map((i) => {
+        // Remplissage fractionnaire : 1 = pleine, 0 = vide, 0.9 = 90 % (ex. 4,9/5).
+        const fraction = Math.max(0, Math.min(1, value - i));
+        return (
+          <span
+            key={i}
+            className="relative inline-block text-[#fbbc04]"
+            style={{ width: size, height: size }}
+          >
+            <Star
+              size={size}
+              className="absolute inset-0"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            />
+            {fraction > 0 ? (
+              <span
+                className="absolute inset-y-0 left-0 overflow-hidden"
+                style={{ width: `${fraction * 100}%` }}
+              >
+                <Star
+                  size={size}
+                  fill="currentColor"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                />
+              </span>
+            ) : null}
+          </span>
+        );
+      })}
     </span>
   );
 }
