@@ -35,8 +35,16 @@ function formatDate(iso: string): string {
  * Server component : récupère la note agrégée (cache 24h) et émet le schéma
  * `ReviewsJsonLd` (aggregateRating + review) afin que la note corresponde aux
  * avis visibles à l'écran. À utiliser sur l'accueil et `/avis`.
+ *
+ * `sectionNumber` : grand numéro en filigrane (ex. "06"). Ne le passer que sur
+ * l'accueil, où il s'inscrit dans la série 01→06. Sur `/avis` la section est
+ * seule : on l'omet pour ne pas afficher un numéro orphelin.
  */
-export async function ReviewsSection() {
+export async function ReviewsSection({
+  sectionNumber,
+}: {
+  sectionNumber?: string;
+} = {}) {
   const rating = await getGoogleRating();
   const formattedValue = rating.value.toLocaleString("fr-FR", {
     minimumFractionDigits: 1,
@@ -48,9 +56,13 @@ export async function ReviewsSection() {
     <section className="relative py-24 lg:py-32 bg-[color:var(--brand-cream)]/40 overflow-hidden">
       <ReviewsJsonLd />
 
-      <div className="absolute top-16 left-4 lg:left-12 select-none pointer-events-none">
-        <span className="section-number">06</span>
-      </div>
+      {sectionNumber ? (
+        <div className="absolute top-16 left-4 lg:left-12 select-none pointer-events-none">
+          <span aria-hidden className="section-number">
+            {sectionNumber}
+          </span>
+        </div>
+      ) : null}
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-10">
         {/* Header */}

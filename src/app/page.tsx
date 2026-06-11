@@ -37,7 +37,7 @@ export default function HomePage() {
       <FeaturedFormationsSection />
       <NewsSection />
       <FaqSection />
-      <ReviewsSection />
+      <ReviewsSection sectionNumber="06" />
     </>
   );
 }

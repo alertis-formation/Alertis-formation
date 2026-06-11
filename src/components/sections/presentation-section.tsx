@@ -23,7 +23,7 @@ export function PresentationSection() {
     <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
       {/* Section number */}
       <div className="absolute top-12 left-4 lg:left-12 select-none pointer-events-none">
-        <span className="section-number">01</span>
+        <span aria-hidden className="section-number">01</span>
       </div>
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-10">

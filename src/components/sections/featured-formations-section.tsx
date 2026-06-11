@@ -54,7 +54,7 @@ export function FeaturedFormationsSection() {
   return (
     <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
       <div className="absolute top-16 left-4 lg:left-12 select-none pointer-events-none">
-        <span className="section-number">03</span>
+        <span aria-hidden className="section-number">03</span>
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">

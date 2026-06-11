@@ -162,12 +162,16 @@ export function HeroCarousel() {
               }}
               aria-label={`Aller à la catégorie ${s.label}`}
               aria-current={i === index}
-              className={`size-2 rounded-full transition-all ${
-                i === index
-                  ? "bg-white w-8"
-                  : "bg-white/60 hover:bg-white/90"
-              }`}
-            />
+              className="-m-2 inline-flex items-center justify-center p-2"
+            >
+              <span
+                className={`block h-2 rounded-full transition-all ${
+                  i === index
+                    ? "w-8 bg-white"
+                    : "w-2 bg-white/60 hover:bg-white/90"
+                }`}
+              />
+            </button>
           ))}
         </div>
 
