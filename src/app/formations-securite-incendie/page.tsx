@@ -9,10 +9,9 @@ import { getLiveFormationsByCategory } from "@/lib/formations-live";
 export const revalidate = 3600;
 
 export const metadata = {
-  title:
-    "Formations sécurité incendie en entreprise : extincteur, EPI, évacuation",
+  title: "Formations sécurité incendie en entreprise",
   description:
-    "Formations incendie obligatoires (R4227-28) : manipulation d'extincteurs sur feu réel ou en réalité virtuelle, équipiers EPI, guides-files/serres-files, évacuation. Intra & inter-entreprises partout en France.",
+    "Formations incendie obligatoires (R4227-28) : extincteurs sur feu réel ou en réalité virtuelle, équipiers EPI, guides-files/serres-files, évacuation.",
   alternates: { canonical: "/formations-securite-incendie" },
   openGraph: {
     title: "Formations sécurité incendie — extincteur, EPI, évacuation",

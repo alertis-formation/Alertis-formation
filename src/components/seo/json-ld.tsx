@@ -135,7 +135,7 @@ export function ItemListJsonLd({
 export function LocalBusinessJsonLd() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "EducationalOrganization"],
     "@id": `${siteConfig.url}#localbusiness`,
     name: siteConfig.fullName,
     image: `${siteConfig.url}/brand/logo-alertis.png`,
@@ -194,7 +194,7 @@ export async function ReviewsJsonLd() {
   const rating = await getGoogleRating();
   const data = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "EducationalOrganization"],
     "@id": `${siteConfig.url}#localbusiness`,
     name: siteConfig.fullName,
     url: siteConfig.url,
@@ -263,6 +263,29 @@ export function FaqPageJsonLd({
         text: item.a,
       },
     })),
+  };
+  return <JsonLd data={data} />;
+}
+
+/**
+ * QAPage schema for a single-question page (`/faq/[question]`).
+ * Google restricts FAQPage rich results to pages with multiple Q/A, so a page
+ * built around one question is better modelled as a QAPage (a single accepted
+ * answer with an `answerCount`).
+ */
+export function QaPageJsonLd({ question, answer }: { question: string; answer: string }) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "QAPage",
+    mainEntity: {
+      "@type": "Question",
+      name: question,
+      answerCount: 1,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: answer,
+      },
+    },
   };
   return <JsonLd data={data} />;
 }

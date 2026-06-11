@@ -115,6 +115,12 @@ export type Article = {
   title: string;
   excerpt: string;
   publishedAt: string;
+  /**
+   * Date de dernière mise à jour éditoriale (ISO `YYYY-MM-DD`). À renseigner
+   * uniquement quand le contenu est réellement révisé — alimente
+   * `Article.dateModified` (signal de fraîcheur). Absent = jamais modifié.
+   */
+  updatedAt?: string;
   category: string;
   readingTime: number;
   image?: string;

@@ -8,10 +8,9 @@ import { faqs } from "@/lib/faq";
 import { FaqPageJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 
 export const metadata = {
-  title:
-    "FAQ formations sécurité au travail : SST, incendie, habilitation électrique",
+  title: "FAQ formations sécurité au travail",
   description:
-    "Réponses aux questions fréquentes sur nos formations en santé et sécurité au travail : durée de validité SST, recyclage habilitation électrique, AFGSU, PRAP, obligations incendie, financement et organisation en intra-entreprise.",
+    "Réponses aux questions fréquentes sur nos formations santé et sécurité : validité SST, recyclage habilitation électrique, AFGSU, incendie, financement.",
   alternates: { canonical: "/faq" },
   openGraph: {
     title: "FAQ formations sécurité au travail · Alertis Formation",

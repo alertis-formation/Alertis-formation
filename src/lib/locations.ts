@@ -47,7 +47,7 @@ export const lyon: Location = {
   departments: ["69"],
   image: "/images/locations/formation-securite-lyon.jpg",
   metaDescription:
-    "Organisme de formation santé et sécurité au travail intervenant à Lyon et dans le Rhône : SST, incendie, AFGSU, habilitation électrique, gestes et postures. Sessions intra et inter-entreprises.",
+    "Organisme de formation santé et sécurité au travail à Lyon et dans le Rhône : SST, incendie et habilitation électrique, en intra et inter-entreprises.",
   intro:
     "Deuxième pôle économique de France, l'agglomération lyonnaise concentre une diversité d'activités — industrie chimique, santé, logistique, tertiaire — où la prévention des risques professionnels est un enjeu quotidien. Nous formons les équipes des entreprises et établissements lyonnais à la santé et à la sécurité au travail, en intra comme en inter-entreprises.",
   economy: [
@@ -115,7 +115,7 @@ export const villeurbanne: Location = {
   image: "/images/locations/formation-securite-villeurbanne.jpg",
   imageCredit: "Photo : a.s.serov / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Villeurbanne : SST, sécurité incendie, AFGSU, gestes et postures, habilitation électrique. Sessions intra et inter-entreprises pour PME, ERP et médico-social.",
+    "Formations santé et sécurité au travail à Villeurbanne (Rhône) : SST, sécurité incendie et gestes et postures, sessions intra et inter-entreprises.",
   intro:
     "Limitrophe de Lyon, Villeurbanne est l'une des communes les plus peuplées de France sans être préfecture. Son tissu mêle PME, établissements d'enseignement et de recherche, structures médico-sociales et commerces — autant d'employeurs soumis aux obligations de formation à la sécurité. Nous accompagnons les organisations villeurbannaises dans la prévention des risques professionnels.",
   economy: [
@@ -176,7 +176,7 @@ export const grenoble: Location = {
   departments: ["38"],
   image: "/images/locations/formation-securite-grenoble.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Grenoble et en Isère : SST, habilitation électrique, incendie, AFGSU, gestes et postures. Adaptées à l'industrie de pointe, à la recherche et au BTP.",
+    "Formations santé et sécurité au travail à Grenoble et en Isère : SST, habilitation électrique et incendie, pour l'industrie, la recherche et le BTP.",
   intro:
     "Capitale française de la microélectronique et des hautes technologies, Grenoble réunit un écosystème industriel et scientifique de premier plan. Cet environnement de pointe, exigeant en matière de sécurité, appelle des formations rigoureuses — de l'habilitation électrique au secourisme. Nous formons les équipes grenobloises à la prévention des risques professionnels.",
   economy: [
@@ -239,7 +239,7 @@ export const saintEtienne: Location = {
   image: "/images/locations/formation-securite-saint-etienne.jpg",
   imageCredit: "Photo : Hélène Rival / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Saint-Étienne et dans la Loire : SST, incendie, gestes et postures, PRAP, AFGSU. Adaptées à l'industrie, au BTP et au secteur médico-social.",
+    "Formations santé et sécurité au travail à Saint-Étienne et dans la Loire : SST, incendie, gestes et postures, pour l'industrie, le BTP et le médico-social.",
   intro:
     "Ancrée dans une longue tradition industrielle et manufacturière, Saint-Étienne conjugue aujourd'hui PME industrielles, BTP, design et secteur médico-social. Ce tissu d'employeurs partage un même besoin : former les salariés à la prévention des risques. Nous accompagnons les organisations stéphanoises sur l'ensemble du champ santé et sécurité au travail.",
   economy: [
@@ -301,7 +301,7 @@ export const clermontFerrand: Location = {
   image: "/images/locations/formation-securite-clermont-ferrand.jpg",
   imageCredit: "Photo : Aavitus / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Clermont-Ferrand et dans le Puy-de-Dôme : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Adaptées à l'industrie, à la santé et à l'agroalimentaire.",
+    "Formations santé et sécurité au travail à Clermont-Ferrand (Puy-de-Dôme) : SST, habilitation électrique et incendie, pour l'industrie et la santé.",
   intro:
     "Capitale de l'Auvergne, Clermont-Ferrand s'appuie sur une industrie puissante, un grand pôle hospitalier et universitaire et un bassin agroalimentaire de premier plan. Ce tissu d'employeurs partage le même besoin de prévention des risques professionnels. Nous formons les équipes clermontoises à la santé et à la sécurité au travail.",
   economy: [
@@ -362,7 +362,7 @@ export const annecy: Location = {
   departments: ["74"],
   image: "/images/locations/formation-securite-annecy.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Annecy et en Haute-Savoie : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Adaptées à l'industrie de précision, au tertiaire et au tourisme.",
+    "Formations santé et sécurité au travail à Annecy et en Haute-Savoie : SST, habilitation électrique et incendie, pour l'industrie et le tertiaire.",
   intro:
     "Au bord de son lac, Annecy conjugue une industrie de précision réputée, un secteur tertiaire dynamique et une forte activité touristique. Derrière cette diversité, les mêmes obligations de prévention des risques s'imposent à chaque employeur. Nous formons les équipes annéciennes à la santé et à la sécurité au travail.",
   economy: [
@@ -423,7 +423,7 @@ export const valence: Location = {
   image: "/images/locations/formation-securite-valence.jpg",
   imageCredit: "Photo : Marianne Casamance / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Valence et dans la Drôme : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Adaptées à la logistique, à l'agroalimentaire et à l'industrie.",
+    "Formations santé et sécurité au travail à Valence et dans la Drôme : SST, incendie et habilitation électrique, pour la logistique et l'industrie.",
   intro:
     "Au cœur du couloir rhodanien, Valence est un carrefour majeur de la logistique et des transports, doublé d'un solide bassin agroalimentaire et industriel. Ces activités placent la prévention des risques au premier plan. Nous formons les équipes valentinoises à la santé et à la sécurité au travail.",
   economy: [
@@ -484,7 +484,7 @@ export const chambery: Location = {
   image: "/images/locations/formation-securite-chambery.jpg",
   imageCredit: "Photo : Florian Pépellin / Wikimedia Commons (CC BY-SA 3.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Chambéry et en Savoie : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Adaptées au tertiaire, à l'industrie et à l'économie de la montagne.",
+    "Formations santé et sécurité au travail à Chambéry et en Savoie : SST, incendie et habilitation électrique, pour le tertiaire et l'industrie de montagne.",
   intro:
     "Préfecture de la Savoie, Chambéry associe un secteur tertiaire développé, des pôles technologiques et industriels et une économie tournée vers la montagne. Cette diversité d'activités appelle une prévention des risques rigoureuse. Nous formons les équipes chambériennes à la santé et à la sécurité au travail.",
   economy: [
@@ -545,7 +545,7 @@ export const bourgEnBresse: Location = {
   image: "/images/locations/formation-securite-bourg-en-bresse.jpg",
   imageCredit: "Photo : Chabe01 / Wikimedia Commons (CC BY-SA 3.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Bourg-en-Bresse et dans l'Ain : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Adaptées à l'agroalimentaire, à l'industrie et à la logistique.",
+    "Formations santé et sécurité au travail à Bourg-en-Bresse et dans l'Ain : SST, incendie et gestes et postures, pour l'agroalimentaire et la logistique.",
   intro:
     "Préfecture de l'Ain, Bourg-en-Bresse s'appuie sur un bassin agroalimentaire renommé, une industrie diversifiée et une activité logistique soutenue. Tous ces employeurs partagent les mêmes obligations de prévention des risques. Nous formons les équipes burgiennes à la santé et à la sécurité au travail.",
   economy: [
@@ -604,7 +604,7 @@ export const paris: Location = {
   departments: ["75", "77", "78", "91", "92", "93", "94", "95"],
   image: "/images/locations/formation-securite-paris.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Paris et en Île-de-France : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Paris et en Île-de-France : SST, incendie et habilitation électrique, sessions inter-entreprises et intra.",
   intro:
     "Première région économique d'Europe, l'Île-de-France concentre tous les secteurs d'activité et une densité d'employeurs unique. À Paris et en petite couronne, la prévention des risques professionnels est un enjeu quotidien. Nous formons régulièrement les équipes franciliennes à la santé et à la sécurité au travail.",
   economy: [
@@ -661,7 +661,7 @@ export const toulouse: Location = {
   departments: ["31"],
   image: "/images/locations/formation-securite-toulouse.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Toulouse et en Haute-Garonne : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Toulouse et en Haute-Garonne : SST, incendie et habilitation électrique, en intra et inter-entreprises.",
   intro:
     "Capitale de l'aéronautique et du spatial, Toulouse est l'une des métropoles les plus dynamiques de France. Son industrie de pointe, ses pôles de santé et de recherche et son tissu de PME partagent les mêmes obligations de prévention des risques. Nous formons régulièrement les équipes toulousaines à la santé et à la sécurité au travail.",
   economy: [
@@ -719,7 +719,7 @@ export const bordeaux: Location = {
   departments: ["33"],
   image: "/images/locations/formation-securite-bordeaux.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Bordeaux et en Gironde : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Bordeaux et en Gironde : SST, incendie et habilitation électrique, sessions inter-entreprises et intra.",
   intro:
     "Métropole en forte croissance, Bordeaux conjugue le négoce et l'agroalimentaire, une industrie aéronautique et de défense de premier plan et un secteur tertiaire en plein essor. Tous ces employeurs sont soumis aux mêmes obligations de prévention. Nous formons régulièrement les équipes bordelaises à la santé et à la sécurité au travail.",
   economy: [
@@ -777,7 +777,7 @@ export const lille: Location = {
   departments: ["59"],
   image: "/images/locations/formation-securite-lille.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Lille et dans le Nord : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Lille et dans le Nord : SST, incendie et habilitation électrique, sessions inter-entreprises et formations intra.",
   intro:
     "Grande métropole du Nord, Lille s'est réinventée autour des services, de la distribution et du numérique, tout en conservant un fort héritage industriel et logistique. Cette diversité d'activités appelle une prévention des risques rigoureuse. Nous formons régulièrement les équipes lilloises à la santé et à la sécurité au travail.",
   economy: [
@@ -835,7 +835,7 @@ export const montpellier: Location = {
   departments: ["34"],
   image: "/images/locations/formation-securite-montpellier.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Montpellier et dans l'Hérault : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Montpellier et dans l'Hérault : SST, incendie et AFGSU, sessions inter-entreprises et formations intra.",
   intro:
     "Parmi les métropoles les plus dynamiques de France, Montpellier s'appuie sur la santé, la recherche, le numérique et un fort essor démographique. Derrière cette croissance, les obligations de prévention des risques concernent chaque employeur. Nous formons régulièrement les équipes montpelliéraines à la santé et à la sécurité au travail.",
   economy: [
@@ -893,7 +893,7 @@ export const strasbourg: Location = {
   departments: ["67"],
   image: "/images/locations/formation-securite-strasbourg.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Strasbourg et dans le Bas-Rhin : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Strasbourg et dans le Bas-Rhin : SST, incendie et habilitation électrique, en intra et inter-entreprises.",
   intro:
     "Capitale européenne, Strasbourg associe les institutions internationales, une industrie pharmaceutique et logistique solide et un secteur tertiaire développé. Cette diversité appelle une prévention des risques rigoureuse. Nous formons régulièrement les équipes strasbourgeoises à la santé et à la sécurité au travail.",
   economy: [
@@ -951,7 +951,7 @@ export const rouen: Location = {
   departments: ["76"],
   image: "/images/locations/formation-securite-rouen.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Rouen et en Seine-Maritime : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Rouen et en Seine-Maritime : SST, incendie et habilitation électrique, sessions inter-entreprises et intra.",
   intro:
     "Grand port de l'axe Seine, Rouen conjugue une industrie portuaire, chimique et logistique puissante avec un secteur tertiaire et de santé développé. Ces activités placent la prévention des risques au premier plan. Nous formons régulièrement les équipes rouennaises à la santé et à la sécurité au travail.",
   economy: [
@@ -1009,7 +1009,7 @@ export const nantes: Location = {
   departments: ["44"],
   image: "/images/locations/formation-securite-nantes.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Nantes et en Loire-Atlantique : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Nantes et en Loire-Atlantique : SST, incendie et AFGSU, sessions inter-entreprises et formations intra.",
   intro:
     "Métropole de l'Ouest en plein essor, Nantes associe une industrie navale et aéronautique réputée, l'agroalimentaire, le numérique et un secteur tertiaire dynamique. Tous ces employeurs partagent les mêmes obligations de prévention. Nous formons régulièrement les équipes nantaises à la santé et à la sécurité au travail.",
   economy: [
@@ -1067,7 +1067,7 @@ export const nice: Location = {
   departments: ["06"],
   image: "/images/locations/formation-securite-nice.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Nice et dans les Alpes-Maritimes : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Nice et dans les Alpes-Maritimes : SST, incendie et AFGSU, sessions inter-entreprises et formations intra.",
   intro:
     "Sur la Côte d'Azur, Nice conjugue une forte activité touristique avec le technopôle de Sophia-Antipolis, pôle européen du numérique et de la recherche. Derrière cette diversité, les obligations de prévention concernent chaque employeur. Nous formons régulièrement les équipes azuréennes à la santé et à la sécurité au travail.",
   economy: [
@@ -1125,7 +1125,7 @@ export const tours: Location = {
   image: "/images/locations/formation-securite-tours.jpg",
   imageCredit: "Photo : Benjamin Smith / Wikimedia Commons (CC BY-SA 4.0)",
   metaDescription:
-    "Formations santé et sécurité au travail à Tours et en Indre-et-Loire : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Tours et en Indre-et-Loire : SST, incendie et habilitation électrique, sessions inter-entreprises et intra.",
   intro:
     "Au cœur du Val de Loire, Tours s'appuie sur l'industrie pharmaceutique et cosmétique, un secteur tertiaire solide et un pôle de santé important. Ces employeurs partagent les mêmes obligations de prévention des risques. Nous formons régulièrement les équipes tourangelles à la santé et à la sécurité au travail.",
   economy: [
@@ -1183,7 +1183,7 @@ export const rennes: Location = {
   departments: ["35"],
   image: "/images/locations/formation-securite-rennes.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Rennes et en Ille-et-Vilaine : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises planifiées et formations intra.",
+    "Formations santé et sécurité au travail à Rennes et en Ille-et-Vilaine : SST, incendie et AFGSU, en sessions inter-entreprises et formations intra.",
   intro:
     "Capitale de la Bretagne, Rennes conjugue l'industrie automobile, un pôle numérique et de télécommunications de premier plan et un fort secteur agroalimentaire. Tous ces employeurs sont soumis aux mêmes obligations de prévention. Nous formons régulièrement les équipes rennaises à la santé et à la sécurité au travail.",
   economy: [
@@ -1241,7 +1241,7 @@ export const aixEnProvence: Location = {
   departments: ["13"],
   image: "/images/locations/formation-securite-aix-en-provence.jpg",
   metaDescription:
-    "Formations santé et sécurité au travail à Aix-en-Provence et dans les Bouches-du-Rhône : SST, incendie, habilitation électrique, AFGSU, gestes et postures. Sessions inter-entreprises et formations intra.",
+    "Formations santé et sécurité au travail à Aix-en-Provence (Bouches-du-Rhône) : SST, incendie et AFGSU, sessions inter-entreprises et formations intra.",
   intro:
     "Au cœur de la métropole Aix-Marseille, Aix-en-Provence conjugue un secteur tertiaire et juridique de premier plan, des pôles de recherche et de technologie et une industrie de pointe. Ces employeurs partagent les mêmes obligations de prévention. Nous formons régulièrement les équipes aixoises à la santé et à la sécurité au travail.",
   economy: [
@@ -1293,6 +1293,363 @@ export const aixEnProvence: Location = {
 };
 
 /** Toutes les villes — pour le sitemap et le maillage interne. */
+export const marseille: Location = {
+  slug: "formation-securite-marseille",
+  city: "Marseille",
+  departmentName: "Bouches-du-Rhône",
+  departments: ["13"],
+  image: "/images/locations/formation-securite-marseille.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Marseille et dans les Bouches-du-Rhône : SST, incendie, AFGSU et habilitation électrique, intra et inter.",
+  intro:
+    "Premier port de France et deuxième ville du pays, Marseille concentre l'industrie portuaire, la pétrochimie de l'étang de Berre, un pôle hospitalier majeur et un tissu dense de PME. Autant d'activités exposées et soumises aux obligations de prévention. Nous formons les équipes marseillaises à la santé et à la sécurité au travail, en intra comme en inter-entreprises.",
+  economy: [
+    "Le Grand Port Maritime de Marseille et ses terminaux de Fos-sur-Mer forment le premier complexe portuaire français. Conteneurs, vracs, réparation navale et logistique associée exposent des milliers de salariés aux risques de manutention, de circulation d'engins et d'incendie d'entrepôt — un terrain où SST, gestes et postures et sécurité incendie sont incontournables.",
+    "Autour de l'étang de Berre et de Fos, raffineries, sites pétrochimiques et chimiques classés Seveso seuil haut imposent une culture du risque permanente : exercices d'évacuation, équipiers de première intervention, habilitation électrique et maîtrise du risque incendie y sont des obligations quotidiennes.",
+    "Marseille est aussi un grand pôle de santé, structuré autour de l'Assistance Publique – Hôpitaux de Marseille (AP-HM), de nombreuses cliniques et établissements médico-sociaux. Ces structures génèrent une forte demande de formations AFGSU pour les professionnels de santé et de prévention des troubles musculo-squelettiques liés à la manutention de personnes. S'y ajoutent l'aéronautique de Marignane et un secteur touristique et d'ERP très actif (Vieux-Port, croisières).",
+  ],
+  sectors: [
+    {
+      name: "Port, logistique et réparation navale",
+      detail:
+        "Terminaux et entrepôts : prévention des TMS, gestes et postures, sécurité incendie, SST.",
+    },
+    {
+      name: "Pétrochimie et sites Seveso",
+      detail:
+        "Étang de Berre et Fos : équipiers de première intervention, habilitation électrique, exercices d'évacuation.",
+    },
+    {
+      name: "Santé et médico-social",
+      detail:
+        "AP-HM, cliniques et EHPAD : AFGSU pour les professionnels de santé, PRAP 2S pour la manutention de personnes.",
+    },
+    {
+      name: "Tourisme et ERP",
+      detail:
+        "Hôtellerie, croisières et commerces : SST, équipiers d'évacuation, guides-files et serres-files.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason:
+        "Indispensables pour les sites Seveso de l'étang de Berre et les nombreux ERP marseillais.",
+    },
+    {
+      label: "Formations habilitation électrique",
+      href: "/formations-habilitation-electrique",
+      reason: "Pour la pétrochimie, le port et l'industrie de Marignane.",
+    },
+    {
+      label: "Formations AFGSU",
+      href: "/nos-formations-afgsu",
+      reason: "Pour les professionnels de santé de l'AP-HM et des cliniques.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "Socle de prévention, du terminal portuaire au bureau.",
+    },
+  ],
+  logistics:
+    "Nous intervenons régulièrement dans l'agglomération marseillaise et les Bouches-du-Rhône : sessions inter-entreprises planifiées et formations intra-entreprise dans vos locaux, calibrées sur votre activité. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
+export const dijon: Location = {
+  slug: "formation-securite-dijon",
+  city: "Dijon",
+  departmentName: "Côte-d'Or",
+  departments: ["21"],
+  image: "/images/locations/formation-securite-dijon.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Dijon et en Côte-d'Or : SST, AFGSU, gestes et postures, sécurité incendie. Sessions intra et inter-entreprises.",
+  intro:
+    "Capitale de la Bourgogne, Dijon conjugue une filière agroalimentaire de renom, un pôle pharmaceutique et de santé solide et une viticulture mondialement réputée. Tous ces employeurs partagent les mêmes obligations de prévention des risques professionnels. Nous formons les équipes dijonnaises à la santé et à la sécurité au travail.",
+  economy: [
+    "Dijon est un haut lieu de l'agroalimentaire — moutarde, cassis, pain d'épices — structuré autour du pôle de compétitivité Vitagora. Sites de production, conditionnement et logistique exposent les salariés aux risques de manutention, de machines et d'incendie : gestes et postures, PRAP et sécurité incendie y répondent à des besoins concrets.",
+    "La métropole accueille un pôle santé et pharmacie important, autour du CHU Dijon Bourgogne et de laboratoires de premier plan. Hôpitaux, cliniques et établissements médico-sociaux génèrent une forte demande de formations AFGSU et de prévention des troubles musculo-squelettiques liés à la manutention de personnes.",
+    "À l'entour, la viticulture des Côtes de Nuits et de Beaune, le négoce de vins et un dense réseau de PME et d'activités tertiaires complètent le tissu économique. Sur l'axe logistique A6/A31, entrepôts et plateformes rendent incontournables les formations SST, incendie en ERP et gestes et postures.",
+  ],
+  sectors: [
+    {
+      name: "Agroalimentaire et filière gustative",
+      detail:
+        "Sites de production et conditionnement : manutention, gestes et postures, sécurité incendie.",
+    },
+    {
+      name: "Santé, pharmacie et médico-social",
+      detail:
+        "CHU, laboratoires et EHPAD : AFGSU pour les professionnels de santé, PRAP 2S pour la manutention de personnes.",
+    },
+    {
+      name: "Viticulture, négoce et logistique",
+      detail:
+        "Chais, plateformes et entrepôts de l'axe A6 : prévention des TMS, gestes et postures, incendie d'entrepôt.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Gestes et postures, PRAP",
+      href: "/formations-ergonomie",
+      reason:
+        "Pour la manutention dans l'agroalimentaire, la viticulture et la logistique.",
+    },
+    {
+      label: "Formations AFGSU",
+      href: "/nos-formations-afgsu",
+      reason: "Pour les professionnels de santé du CHU et des cliniques de la métropole.",
+    },
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason: "Pour les sites de production agroalimentaires et les ERP.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "La base de la prévention pour tout employeur dijonnais.",
+    },
+  ],
+  logistics:
+    "Notre centre est implanté à Chassieu, sur l'axe A6 qui relie directement Lyon à Dijon : nos formateurs interviennent en intra-entreprise dans vos locaux comme en sessions inter-entreprises. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
+export const nancy: Location = {
+  slug: "formation-securite-nancy",
+  city: "Nancy",
+  departmentName: "Meurthe-et-Moselle",
+  departments: ["54"],
+  image: "/images/locations/formation-securite-nancy.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Nancy et en Meurthe-et-Moselle : SST, AFGSU, habilitation électrique, incendie. Intra et inter-entreprises.",
+  intro:
+    "Métropole universitaire et hospitalière du Sillon lorrain, Nancy mêle un pôle de santé majeur, une industrie héritière de la grande tradition lorraine et un tissu dense de recherche et de services. Ces employeurs sont soumis aux mêmes obligations de prévention. Nous formons les équipes nancéiennes à la santé et à la sécurité au travail.",
+  economy: [
+    "Nancy s'organise autour d'un pôle hospitalo-universitaire de premier plan, le CHRU de Nancy, complété par de nombreuses cliniques et établissements médico-sociaux. Cette densité de structures de soins génère une forte demande de formations AFGSU pour les professionnels de santé et de prévention des troubles musculo-squelettiques liés à la manutention de personnes.",
+    "L'agglomération conserve un solide socle industriel — métallurgie, matériaux, plasturgie, agroéquipement — héritier de la tradition lorraine et adossé à une recherche de pointe (Institut Jean Lamour). Ces sites de production imposent l'habilitation électrique, la sécurité incendie et une culture du secourisme bien ancrée.",
+    "Autour de ces grands employeurs, le tertiaire, l'enseignement supérieur et un réseau important de PME concentrent une population de bureaux et d'ERP — dont le patrimoine de la place Stanislas — pour laquelle SST, sécurité incendie et gestes et postures sont des formations de base.",
+  ],
+  sectors: [
+    {
+      name: "Santé et médico-social",
+      detail:
+        "CHRU, cliniques et EHPAD : AFGSU pour les professionnels de santé, PRAP 2S pour la manutention de personnes.",
+    },
+    {
+      name: "Industrie, matériaux et métallurgie",
+      detail:
+        "Sites de production : SST, habilitation électrique, manipulation d'extincteurs, équipiers d'intervention.",
+    },
+    {
+      name: "Tertiaire, recherche et ERP",
+      detail:
+        "Bureaux, campus et établissements recevant du public : SST, évacuation, gestes et postures.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Formations AFGSU",
+      href: "/nos-formations-afgsu",
+      reason: "Pour les professionnels de santé du CHRU et des cliniques nancéiennes.",
+    },
+    {
+      label: "Formations habilitation électrique",
+      href: "/formations-habilitation-electrique",
+      reason: "Incontournables pour l'industrie et la métallurgie lorraines.",
+    },
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason: "Pour les sites industriels et les ERP de l'agglomération.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "Socle de prévention, de l'atelier au bureau.",
+    },
+  ],
+  logistics:
+    "Notre centre est basé à Chassieu, près de Lyon : nos formateurs interviennent à Nancy et en Meurthe-et-Moselle en intra-entreprise dans vos locaux, avec votre matériel, ainsi qu'en sessions inter-entreprises selon le planning. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
+export const avignon: Location = {
+  slug: "formation-securite-avignon",
+  city: "Avignon",
+  departmentName: "Vaucluse",
+  departments: ["84"],
+  image: "/images/locations/formation-securite-avignon.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Avignon et en Vaucluse : SST, gestes et postures, sécurité incendie, AFGSU. Intra et inter-entreprises.",
+  intro:
+    "Au cœur de la vallée du Rhône, Avignon associe une puissante filière agroalimentaire et maraîchère, une logistique de premier plan et un tourisme patrimonial à très forte affluence. Tous ces employeurs sont soumis aux obligations de prévention des risques. Nous formons les équipes avignonnaises à la santé et à la sécurité au travail.",
+  economy: [
+    "Le bassin avignonnais est un grand pôle agroalimentaire et maraîcher, adossé à la plaine du Comtat et aux marchés de gros de la région. Conditionnement, transformation et négoce de fruits et légumes exposent les salariés à des manutentions répétées et à un fort recours à la logistique : gestes et postures, PRAP et SST y sont des formations de base.",
+    "Positionnée au carrefour des autoroutes A7 et A9, l'agglomération concentre entrepôts et plateformes logistiques, notamment vers Cavaillon. Ces sites exposent les salariés aux risques de manutention, de circulation d'engins et d'incendie d'entrepôt, et imposent une organisation rigoureuse de la prévention.",
+    "Avignon est enfin une grande destination touristique et culturelle — Palais des Papes, Festival d'Avignon — où la sécurité des établissements recevant du public est un enjeu majeur : affichage des consignes, exercices d'évacuation, équipiers formés à guider et protéger un public nombreux, notamment lors des grands événements.",
+  ],
+  sectors: [
+    {
+      name: "Agroalimentaire et maraîchage",
+      detail:
+        "Stations de conditionnement et négoce : prévention des TMS, gestes et postures, PRAP.",
+    },
+    {
+      name: "Logistique et transport",
+      detail:
+        "Entrepôts du carrefour A7/A9 : manutention, gestes et postures, sécurité incendie d'entrepôt.",
+    },
+    {
+      name: "Tourisme, culture et ERP",
+      detail:
+        "Patrimoine, hôtellerie et événements : SST, équipiers d'évacuation, guides-files et serres-files.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Gestes et postures, PRAP",
+      href: "/formations-ergonomie",
+      reason:
+        "Pour le maraîchage, le conditionnement et la logistique du bassin avignonnais.",
+    },
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason: "Pour les entrepôts, les ERP et la sécurité des grands événements.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "Première brique de prévention pour tous les employeurs du Vaucluse.",
+    },
+    {
+      label: "Formations AFGSU",
+      href: "/nos-formations-afgsu",
+      reason: "Pour les professionnels de santé des établissements du secteur.",
+    },
+  ],
+  logistics:
+    "Notre centre est implanté à Chassieu, dans l'axe direct de la vallée du Rhône : nos formateurs interviennent régulièrement à Avignon et en Vaucluse, en intra-entreprise dans vos locaux comme en sessions inter-entreprises. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
+export const nimes: Location = {
+  slug: "formation-securite-nimes",
+  city: "Nîmes",
+  departmentName: "Gard",
+  departments: ["30"],
+  image: "/images/locations/formation-securite-nimes.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Nîmes et dans le Gard : SST, AFGSU, sécurité incendie, gestes et postures. Sessions intra et inter-entreprises.",
+  intro:
+    "Ville d'art et d'histoire au pied des Cévennes, Nîmes associe un pôle de santé en développement, un secteur du BTP et de la logistique dynamique et un tourisme patrimonial de premier plan. Ces employeurs partagent les mêmes obligations de prévention des risques. Nous formons les équipes nîmoises à la santé et à la sécurité au travail.",
+  economy: [
+    "Nîmes s'appuie sur un pôle santé en croissance, structuré autour du CHU de Nîmes, de cliniques et d'un réseau d'établissements médico-sociaux. Cette densité de structures de soins génère une demande soutenue de formations AFGSU pour les professionnels de santé et de prévention des troubles musculo-squelettiques liés à la manutention de personnes.",
+    "Sur le corridor languedocien, au carrefour des autoroutes A9 et A54, l'agglomération concentre BTP, logistique et activités liées au transport. Chantiers et entrepôts exposent les salariés aux risques de chute, de manutention et d'incendie : SST, gestes et postures et sécurité incendie y sont des formations indispensables.",
+    "Nîmes est enfin une grande destination touristique, autour de son patrimoine romain — Arènes, Maison Carrée — et d'événements de grande ampleur. La sécurité des établissements recevant du public et des manifestations (affichage des consignes, exercices d'évacuation, personnels formés à guider le public) relève d'obligations précises que nous aidons à mettre en œuvre.",
+  ],
+  sectors: [
+    {
+      name: "Santé et médico-social",
+      detail:
+        "CHU, cliniques et EHPAD : AFGSU pour les professionnels de santé, PRAP 2S pour la manutention de personnes.",
+    },
+    {
+      name: "BTP et logistique",
+      detail:
+        "Chantiers et entrepôts du carrefour A9/A54 : SST, gestes et postures, sécurité incendie.",
+    },
+    {
+      name: "Tourisme, patrimoine et ERP",
+      detail:
+        "Sites romains, hôtellerie et événements : SST, équipiers d'évacuation, guides-files et serres-files.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Formations AFGSU",
+      href: "/nos-formations-afgsu",
+      reason: "Pour les professionnels de santé du CHU et des cliniques nîmoises.",
+    },
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason: "Pour les ERP patrimoniaux, les événements et les entrepôts.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "Socle de prévention, du chantier au commerce.",
+    },
+    {
+      label: "Gestes et postures, PRAP",
+      href: "/formations-ergonomie",
+      reason: "Pour le BTP, la logistique et la manutention en milieu de soins.",
+    },
+  ],
+  logistics:
+    "Notre centre est basé à Chassieu, sur l'axe rhodanien qui dessert directement le Gard : nos formateurs interviennent à Nîmes et dans le département en intra-entreprise dans vos locaux comme en sessions inter-entreprises. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
+export const macon: Location = {
+  slug: "formation-securite-macon",
+  city: "Mâcon",
+  departmentName: "Saône-et-Loire",
+  departments: ["71"],
+  image: "/images/locations/formation-securite-macon.jpg",
+  metaDescription:
+    "Formations santé et sécurité au travail à Mâcon et en Saône-et-Loire : SST, gestes et postures, incendie, habilitation électrique. Intra et inter.",
+  intro:
+    "Porte nord de la région lyonnaise, Mâcon associe une viticulture réputée, une logistique fluviale et autoroutière de premier plan et un tissu industriel et de PME bien présent. Ces employeurs sont soumis aux mêmes obligations de prévention. Nous formons les équipes mâconnaises à la santé et à la sécurité au travail.",
+  economy: [
+    "Le Mâconnais est un grand vignoble — autour de Pouilly-Fuissé et des appellations du sud Bourgogne — adossé à un négoce de vins actif. Vendanges, chais et conditionnement exposent les salariés à des manutentions répétées et au risque incendie : gestes et postures, PRAP et sécurité incendie y répondent à des besoins concrets.",
+    "Située sur l'axe A6 et bordée par la Saône, Mâcon dispose d'un port fluvial et de plateformes logistiques qui en font un carrefour de distribution. Entrepôts et activités de transport exposent les salariés aux risques de manutention, de circulation d'engins et d'incendie d'entrepôt.",
+    "L'agglomération conserve par ailleurs un socle industriel — métallurgie, agroéquipement, agroalimentaire — et un réseau dense de PME et de commerces. Pour ces structures, former un nombre suffisant de Sauveteurs Secouristes du Travail, organiser la formation incendie et maintenir les habilitations électriques constituent les premières briques de la conformité.",
+  ],
+  sectors: [
+    {
+      name: "Viticulture et négoce",
+      detail:
+        "Chais et conditionnement : prévention des TMS, gestes et postures, sécurité incendie.",
+    },
+    {
+      name: "Logistique fluviale et autoroutière",
+      detail:
+        "Port et entrepôts de l'axe A6 : manutention, gestes et postures, incendie d'entrepôt.",
+    },
+    {
+      name: "Industrie et PME",
+      detail:
+        "Sites de production et ateliers : SST, habilitation électrique, équipiers d'intervention.",
+    },
+  ],
+  priorityFormations: [
+    {
+      label: "Gestes et postures, PRAP",
+      href: "/formations-ergonomie",
+      reason:
+        "Pour les vendanges, le conditionnement et la manutention en logistique.",
+    },
+    {
+      label: "Formations sécurité incendie",
+      href: "/formations-securite-incendie",
+      reason: "Pour les chais, les entrepôts et les ERP du bassin mâconnais.",
+    },
+    {
+      label: "Formations SST",
+      href: "/formations-secourisme",
+      reason: "Première brique de prévention pour tous les employeurs mâconnais.",
+    },
+    {
+      label: "Formations habilitation électrique",
+      href: "/formations-habilitation-electrique",
+      reason: "Pour l'industrie et les ateliers de l'agglomération.",
+    },
+  ],
+  logistics:
+    "Notre centre est implanté à Chassieu, à moins d'une heure de Mâcon par l'A6 : nos formateurs interviennent régulièrement dans le Mâconnais et la Saône-et-Loire, en intra-entreprise dans vos locaux comme en sessions inter-entreprises. Le délai habituel d'organisation est de deux à quatre semaines.",
+};
+
 export const locations: Location[] = [
   paris,
   lyon,
@@ -1315,6 +1672,12 @@ export const locations: Location[] = [
   chambery,
   valence,
   bourgEnBresse,
+  marseille,
+  dijon,
+  nancy,
+  avignon,
+  nimes,
+  macon,
 ];
 
 /**
@@ -1352,14 +1715,15 @@ export const nearbyBySlug: Record<string, string[]> = {
     "formation-securite-bordeaux",
   ],
   "formation-securite-strasbourg": [
+    "formation-securite-nancy",
     "formation-securite-lyon",
     "formation-securite-grenoble",
   ],
   "formation-securite-montpellier": [
+    "formation-securite-nimes",
     "formation-securite-toulouse",
     "formation-securite-nice",
     "formation-securite-aix-en-provence",
-    "formation-securite-valence",
   ],
   "formation-securite-rennes": [
     "formation-securite-nantes",
@@ -1372,6 +1736,7 @@ export const nearbyBySlug: Record<string, string[]> = {
   ],
   "formation-securite-nice": [
     "formation-securite-aix-en-provence",
+    "formation-securite-marseille",
     "formation-securite-montpellier",
   ],
   "formation-securite-tours": [
@@ -1379,9 +1744,10 @@ export const nearbyBySlug: Record<string, string[]> = {
     "formation-securite-nantes",
   ],
   "formation-securite-aix-en-provence": [
+    "formation-securite-marseille",
     "formation-securite-nice",
+    "formation-securite-avignon",
     "formation-securite-montpellier",
-    "formation-securite-valence",
   ],
   "formation-securite-grenoble": [
     "formation-securite-lyon",
@@ -1422,7 +1788,39 @@ export const nearbyBySlug: Record<string, string[]> = {
   "formation-securite-bourg-en-bresse": [
     "formation-securite-lyon",
     "formation-securite-villeurbanne",
-    "formation-securite-annecy",
+    "formation-securite-macon",
+  ],
+  "formation-securite-marseille": [
+    "formation-securite-aix-en-provence",
+    "formation-securite-nice",
+    "formation-securite-avignon",
+    "formation-securite-nimes",
+  ],
+  "formation-securite-dijon": [
+    "formation-securite-macon",
+    "formation-securite-bourg-en-bresse",
+    "formation-securite-lyon",
+  ],
+  "formation-securite-nancy": [
+    "formation-securite-strasbourg",
+    "formation-securite-lyon",
+  ],
+  "formation-securite-avignon": [
+    "formation-securite-nimes",
+    "formation-securite-aix-en-provence",
+    "formation-securite-valence",
+    "formation-securite-montpellier",
+  ],
+  "formation-securite-nimes": [
+    "formation-securite-montpellier",
+    "formation-securite-avignon",
+    "formation-securite-aix-en-provence",
+  ],
+  "formation-securite-macon": [
+    "formation-securite-lyon",
+    "formation-securite-villeurbanne",
+    "formation-securite-bourg-en-bresse",
+    "formation-securite-dijon",
   ],
 };
 

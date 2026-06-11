@@ -23,7 +23,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { BreadcrumbJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
@@ -213,6 +213,10 @@ export default function DossierPage() {
           { name: "Accueil", href: "/" },
           { name: "Espace formateur", href: "/dossier" },
         ]}
+      />
+      <ItemListJsonLd
+        name="Dossiers de ressources pédagogiques par thématique"
+        items={resources.map((r) => ({ name: r.title, url: r.href }))}
       />
       <PageShell
       title="Espace formateur — Ressources pédagogiques"

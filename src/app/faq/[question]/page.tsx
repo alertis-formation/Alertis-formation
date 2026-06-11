@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { Button } from "@/components/ui/button";
 import { faqs } from "@/lib/faq";
-import { FaqPageJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { QaPageJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { linkifyLegalRefs } from "@/lib/legal-refs";
 
 export const dynamicParams = false;
@@ -58,7 +58,7 @@ export default async function FaqQuestionPage({
 
   return (
     <>
-      <FaqPageJsonLd items={[{ q: item.q, a: item.a }]} />
+      <QaPageJsonLd question={item.q} answer={item.a} />
       <BreadcrumbJsonLd
         items={[
           { name: "Accueil", href: "/" },

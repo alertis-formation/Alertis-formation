@@ -76,6 +76,7 @@ export default async function ArticlePage({
         description={article.excerpt}
         url={`/${slug}`}
         datePublished={article.publishedAt}
+        dateModified={article.updatedAt}
         image={article.image}
         author={author}
       />

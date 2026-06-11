@@ -66,10 +66,9 @@ const objectives = [
 ];
 
 export const metadata = {
-  title:
-    "Formation AFGSU 1, AFGSU 2, remise à niveau : gestes et soins d'urgence",
+  title: "Formation AFGSU 1, AFGSU 2 et remise à niveau",
   description:
-    "Formation AFGSU pour professionnels de santé : niveau 1 (personnels non soignants), niveau 2 (soignants), remise à niveau tous les 4 ans. Conforme à l'arrêté du 30 décembre 2014 modifié, sessions partout en France.",
+    "Formation AFGSU pour professionnels de santé : niveau 1, niveau 2 et remise à niveau tous les 4 ans, conforme à l'arrêté du 30 décembre 2014 modifié.",
   alternates: { canonical: "/nos-formations-afgsu" },
   openGraph: {
     title: "Formations AFGSU 1, 2 et remise à niveau — Alertis",

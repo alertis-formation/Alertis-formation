@@ -9,10 +9,9 @@ import { getLiveFormationsByCategory } from "@/lib/formations-live";
 export const revalidate = 3600;
 
 export const metadata = {
-  title:
-    "Formation gestes et postures, PRAP IBC & 2S : prévention TMS en entreprise",
+  title: "Formation gestes et postures et PRAP IBC & 2S",
   description:
-    "Formation ergonomie au travail : gestes et postures, PRAP IBC (industrie, BTP, tertiaire), PRAP 2S (sanitaire et social), prévention des TMS. Certificat d'acteur PRAP délivré à l'issue, sessions intra et inter-entreprises.",
+    "Formation ergonomie : gestes et postures, PRAP IBC et 2S, prévention des TMS. Certificat d'acteur PRAP délivré, sessions intra et inter-entreprises.",
   alternates: { canonical: "/formations-ergonomie" },
   openGraph: {
     title: "Formations Ergonomie — Gestes et postures, PRAP, TMS",
