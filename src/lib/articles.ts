@@ -73,6 +73,7 @@ export const articleSlugs = [
   "brulures-au-travail-conduite-a-tenir-protocole-sst",
   "avc-au-travail-signes-alerte-conduite-a-tenir",
   "accueil-securite-nouveaux-salaries-obligations-pratique",
+  "registre-accidents-benins-conditions-autorisation-bonne-tenue",
 ] as const;
 
 /**
@@ -4127,6 +4128,43 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "L\'accueil sécurité n\'est pas une formalité administrative : c\'est le premier maillon de la chaîne de prévention. Un salarié qui comprend pourquoi une consigne existe l\'applique — celui à qui on la lit sans explication l\'oubliera dès la deuxième heure." },
       { type: "p", text: "Référence officielle : article L.4141-1 du Code du travail, relatif à l\'obligation de formation pratique à la sécurité pour tout travailleur nouvellement embauché, changeant de poste ou reprenant après absence." },
       { type: "cta", text: "Pour structurer votre démarche de prévention et former vos encadrants à l\'accueil sécurité,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "registre-accidents-benins-conditions-autorisation-bonne-tenue": {
+    title: "Registre des accidents bénins : conditions d\'autorisation et tenue obligatoire",
+    excerpt: "Certains accidents légers sans arrêt de travail peuvent être consignés dans un registre spécial plutôt que déclarés. Conditions d\'ouverture, contenu obligatoire et durée de conservation du registre.",
+    publishedAt: "2026-06-12",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/registre-accidents-benins-conditions-autorisation-bonne-tenue.jpg",
+    content: [
+      { type: "p", text: "L\'accident du travail bénin est une blessure légère survenant dans le cadre professionnel — coupure superficielle, petite brûlure, hématome — qui ne nécessite ni arrêt de travail ni soins médicaux remboursables. Plutôt que de déclarer chaque incident à l\'Assurance maladie par la voie standard, certains employeurs peuvent utiliser un registre spécial, sous conditions strictes. Ce dispositif allège la gestion administrative tout en maintenant la traçabilité exigée par la réglementation." },
+      { type: "h2", text: "Qu\'est-ce qu\'un accident bénin au sens de la réglementation ?" },
+      { type: "p", text: "Un accident bénin est un accident du travail ou de trajet qui ne donne lieu ni à un arrêt de travail, ni à des soins dispensés par du personnel médical extérieur à l\'entreprise. Le salarié reçoit les premiers soins sur place, reprend son poste le jour même et aucune incapacité n\'est constatée. Ce cadre exclut les maladies professionnelles, qui suivent un circuit de déclaration distinct." },
+      { type: "h2", text: "Les conditions légales pour ouvrir un registre spécial" },
+      { type: "ul", items: [
+        "Autorisation préalable de la CPAM (Caisse Primaire d\'Assurance Maladie) dont dépend l\'entreprise : sans cette autorisation, le registre est sans valeur légale et la non-déclaration expose l\'employeur à des sanctions.",
+        "Présence permanente d\'un Sauveteur Secouriste du Travail (SST) à jour de recyclage dans l\'établissement, capable d\'assurer les premiers soins.",
+        "Disponibilité permanente d\'une trousse de premiers secours adaptée aux risques de l\'établissement, dans un local facilement accessible.",
+        "Inscription dans le registre dans les 48 heures suivant l\'accident, par la personne ayant dispensé les premiers soins ou par le responsable présent.",
+      ]},
+      { type: "h2", text: "Ce que doit contenir chaque inscription" },
+      { type: "ul", items: [
+        "La date et l\'heure de l\'accident.",
+        "Les nom et prénom de la victime, ainsi que son poste de travail.",
+        "La nature et le siège de la lésion : type de blessure et partie du corps touchée.",
+        "Les circonstances précises : tâche en cours, lieu, cause apparente de l\'accident.",
+        "Les premiers soins dispensés et le matériel utilisé.",
+        "La signature du Sauveteur Secouriste du Travail ou du responsable ayant pris en charge la victime.",
+      ]},
+      { type: "h2", text: "Conservation et présentation aux organismes de contrôle" },
+      { type: "p", text: "Le registre doit être conservé pendant cinq ans à compter de sa clôture annuelle. Il doit être présenté sans délai à tout contrôleur de la CARSAT, de la CPAM ou de l\'Inspection du travail qui en fait la demande. À la fin de chaque année, le registre est transmis à la CPAM dont dépend l\'établissement. Un registre incomplet ou mal tenu peut entraîner le retrait de l\'autorisation et l\'obligation de déclarer rétroactivement les accidents concernés." },
+      { type: "h2", text: "Les dérives à éviter absolument" },
+      { type: "p", text: "Le registre des accidents bénins ne doit jamais servir à minimiser des accidents qui auraient dû faire l\'objet d\'une déclaration ordinaire. Dissuader un salarié de déclarer un accident plus grave constitue une faute susceptible d\'engager la responsabilité civile et pénale de l\'employeur. De même, un accident inscrit comme bénin qui s\'aggrave ultérieurement doit être déclaré à la CPAM dès que l\'aggravation est constatée, dans les délais légaux applicables." },
+      { type: "quote", text: "La traçabilité d\'un accident bénin sert d\'abord la prévention : un registre bien tenu révèle des récurrences, des postes ou des gestes à risque que le Document Unique n\'avait pas encore identifiés." },
+      { type: "p", text: "Référence officielle : article L.441-4 du Code de la sécurité sociale, qui autorise les entreprises bénéficiaires d\'une autorisation de la CPAM à inscrire les accidents bénins dans un registre spécial en lieu et place de la déclaration de droit commun." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail et remplir l\'une des conditions d\'ouverture du registre,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
