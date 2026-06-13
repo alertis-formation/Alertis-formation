@@ -74,6 +74,7 @@ export const articleSlugs = [
   "avc-au-travail-signes-alerte-conduite-a-tenir",
   "accueil-securite-nouveaux-salaries-obligations-pratique",
   "registre-accidents-benins-conditions-autorisation-bonne-tenue",
+  "signaletique-securite-entreprise-panneaux-couleurs-placement",
 ] as const;
 
 /**
@@ -4165,6 +4166,43 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "La traçabilité d\'un accident bénin sert d\'abord la prévention : un registre bien tenu révèle des récurrences, des postes ou des gestes à risque que le Document Unique n\'avait pas encore identifiés." },
       { type: "p", text: "Référence officielle : article L.441-4 du Code de la sécurité sociale, qui autorise les entreprises bénéficiaires d\'une autorisation de la CPAM à inscrire les accidents bénins dans un registre spécial en lieu et place de la déclaration de droit commun." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail et remplir l\'une des conditions d\'ouverture du registre,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "signaletique-securite-entreprise-panneaux-couleurs-placement": {
+    title: "Signalétique de sécurité en entreprise : panneaux obligatoires, couleurs et règles de placement",
+    excerpt: "Chaque entreprise est tenue d\'afficher une signalétique de sécurité réglementaire. Connaître les familles de panneaux, leurs couleurs et leurs règles de placement permet d\'éviter les manquements lors d\'une inspection.",
+    publishedAt: "2026-06-13",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/signaletique-securite-entreprise-panneaux-couleurs-placement.jpg",
+    content: [
+      { type: "p", text: "La signalétique de sécurité est souvent perçue comme un détail décoratif. En réalité, elle constitue le premier message de prévention qu\'un salarié, un intérimaire ou un visiteur reçoit en pénétrant dans un espace de travail. Un panneau absent, effacé ou mal positionné expose l\'entreprise à une mise en demeure de l\'Inspection du travail et, surtout, laisse un danger sans signal d\'alerte." },
+      { type: "h2", text: "Ce que dit la réglementation" },
+      { type: "p", text: "Les articles R.4224-20 à R.4224-26 du Code du travail imposent à l\'employeur de mettre en place une signalisation adéquate partout où subsiste un risque qui ne peut être évité ou réduit par des mesures de prévention technique. Cette obligation s\'applique aux zones de danger, aux voies d\'évacuation, aux équipements de secours et aux équipements de lutte contre l\'incendie. Elle découle de la directive européenne 92/58/CEE du 24 juin 1992, qui a harmonisé les règles de signalisation de sécurité au travail dans toute l\'Union européenne." },
+      { type: "h2", text: "Les cinq familles de panneaux et leurs codes couleur" },
+      { type: "ul", items: [
+        "Interdiction (fond blanc, bord et barre rouge, pictogramme noir) : désigne une action interdite — fumer, utiliser un téléphone, introduire une flamme nue. À placer à l\'entrée des zones concernées.",
+        "Avertissement (fond jaune, bord et pictogramme noirs) : signale un danger ou un risque — haute tension, sol glissant, chariots élévateurs. À hauteur des yeux, à proximité immédiate du danger.",
+        "Obligation (fond bleu, pictogramme blanc) : indique une protection individuelle requise — port du casque, du gilet, des lunettes ou des gants. À l\'entrée de la zone où l\'EPI est obligatoire.",
+        "Secours et sauvetage (fond vert, pictogramme blanc) : matérialise les issues de secours, les dégagements, le matériel de premiers secours et les douches de sécurité. Doit rester visible même en cas de défaillance de l\'éclairage normal.",
+        "Lutte contre l\'incendie (fond rouge, pictogramme blanc) : identifie les extincteurs, les robinets d\'incendie armés (RIA), les coupures de fluides. Doit rester dégagé et accessible en permanence.",
+      ]},
+      { type: "h2", text: "La norme NF EN ISO 7010 : un pictogramme universel" },
+      { type: "p", text: "La norme NF EN ISO 7010 standardise les pictogrammes de sécurité utilisés dans les entreprises, les bâtiments publics et les transports dans le monde entier. Elle garantit que le message est compris indépendamment de la langue du lecteur, ce qui est particulièrement important dans les établissements où travaillent des salariés étrangers ou des prestataires extérieurs. Toute signalétique achetée auprès d\'un fournisseur sérieux doit être conforme à cette norme — un pictogramme non normalisé peut être contesté lors d\'une inspection." },
+      { type: "h2", text: "Où et comment positionner les panneaux" },
+      { type: "ul", items: [
+        "Hauteur de pose : entre 1,50 m et 1,80 m du sol pour les panneaux d\'avertissement et d\'interdiction, de façon à se trouver dans le champ visuel naturel d\'un adulte debout.",
+        "Distance de lisibilité : un panneau de 20 cm de côté est lisible à environ 5 m. Augmentez le format si la zone à couvrir est plus large ou si la visibilité est réduite par la poussière, la vapeur ou un éclairage insuffisant.",
+        "Éclairage : dans les zones peu éclairées, utilisez des panneaux photoluminescents ou rétroéclairés. Les sorties de secours doivent impérativement être signalées par un équipement alimenté par un bloc autonome d\'éclairage de sécurité (BAES).",
+        "Doublonnage : un panneau doit pouvoir être vu depuis tous les angles d\'approche. Deux panneaux face à face ou en équerre sont souvent nécessaires dans les couloirs et aux intersections.",
+        "Zone extérieure : les panneaux exposés aux intempéries doivent être en matériau résistant aux UV et à la corrosion, et leur état doit être vérifié régulièrement.",
+      ]},
+      { type: "h2", text: "Les oublis les plus fréquents lors des inspections" },
+      { type: "p", text: "L\'Inspection du travail relève régulièrement les mêmes manquements : panneaux décolorés ou illisibles jamais remplacés, signalisation de secours obstruée par du stockage temporaire devenu permanent, nouvelles zones de danger créées lors d\'un aménagement sans mise à jour de la signalétique. La réglementation impose une vérification périodique de l\'état des panneaux, à intégrer dans le plan de maintenance de l\'établissement. Chaque modification de l\'aménagement ou des procédés doit déclencher une revue de la signalétique concernée, en cohérence avec la mise à jour du Document Unique d\'Évaluation des Risques Professionnels (DUERP)." },
+      { type: "quote", text: "Un panneau illisible n\'est pas un panneau — c\'est un faux sentiment de conformité. La signalétique que personne ne voit, ou que tout le monde a appris à ignorer, ne protège plus personne." },
+      { type: "p", text: "Référence officielle : articles R.4224-20 à R.4224-26 du Code du travail, relatifs à l\'obligation de signalisation de sécurité en entreprise, transposant la directive 92/58/CEE du Conseil du 24 juin 1992 concernant les prescriptions minimales pour la signalisation de sécurité et de santé au travail. La norme NF EN ISO 7010 fixe les pictogrammes graphiques de sécurité applicables à l\'ensemble des secteurs d\'activité." },
+      { type: "cta", text: "Pour renforcer la culture sécurité de vos équipes et structurer votre démarche de prévention,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
     ],
   },
 };
