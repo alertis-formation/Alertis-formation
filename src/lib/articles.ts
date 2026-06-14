@@ -75,6 +75,7 @@ export const articleSlugs = [
   "accueil-securite-nouveaux-salaries-obligations-pratique",
   "registre-accidents-benins-conditions-autorisation-bonne-tenue",
   "signaletique-securite-entreprise-panneaux-couleurs-placement",
+  "coup-de-chaleur-au-travail-prevention-conduite-a-tenir",
 ] as const;
 
 /**
@@ -4203,6 +4204,50 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un panneau illisible n\'est pas un panneau — c\'est un faux sentiment de conformité. La signalétique que personne ne voit, ou que tout le monde a appris à ignorer, ne protège plus personne." },
       { type: "p", text: "Référence officielle : articles R.4224-20 à R.4224-26 du Code du travail, relatifs à l\'obligation de signalisation de sécurité en entreprise, transposant la directive 92/58/CEE du Conseil du 24 juin 1992 concernant les prescriptions minimales pour la signalisation de sécurité et de santé au travail. La norme NF EN ISO 7010 fixe les pictogrammes graphiques de sécurité applicables à l\'ensemble des secteurs d\'activité." },
       { type: "cta", text: "Pour renforcer la culture sécurité de vos équipes et structurer votre démarche de prévention,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "coup-de-chaleur-au-travail-prevention-conduite-a-tenir": {
+    title: "Coup de chaleur au travail : reconnaître les signes d\'alerte et réagir vite",
+    excerpt: "Le coup de chaleur est une urgence vitale : sans refroidissement rapide, il peut être fatal. Reconnaître ses signes et appeler le 15 immédiatement sont les deux gestes qui sauvent.",
+    publishedAt: "2026-06-14",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/coup-de-chaleur-au-travail-prevention-conduite-a-tenir.jpg",
+    content: [
+      { type: "p", text: "Par forte chaleur, le corps peut dépasser sa capacité à réguler sa température. Cette défaillance — appelée hyperthermie maligne ou coup de chaleur d\'effort — constitue une urgence vitale. Contrairement à une insolation ou à un épuisement thermique, elle ne se résout pas spontanément : sans intervention immédiate, elle peut engager le pronostic vital en quelques dizaines de minutes. Un Sauveteur Secouriste du Travail formé à en reconnaître les signes peut changer radicalement le pronostic." },
+      { type: "h2", text: "Coup de chaleur, épuisement thermique et insolation : savoir les distinguer" },
+      { type: "p", text: "Trois tableaux cliniques se présentent lors d\'une exposition à la chaleur, du moins grave au plus grave. L\'insolation se manifeste par des maux de tête, des vertiges et une grande fatigue après une exposition solaire directe — la température reste normale et le repos à l\'ombre suffit. L\'épuisement thermique se traduit par une transpiration abondante, une pâleur et une faiblesse musculaire intense, avec une légère élévation de température — hydratation et repos permettent une récupération. Le coup de chaleur est une urgence absolue : la température corporelle dépasse 40 °C, des signes neurologiques apparaissent (confusion, agitation, perte de connaissance) et le mécanisme de thermorégulation est dépassé." },
+      { type: "h2", text: "Les signes qui imposent d\'appeler immédiatement le 15" },
+      { type: "ul", items: [
+        "Température corporelle très élevée, supérieure à 40 °C si mesurée — la peau est brûlante.",
+        "Confusion mentale, propos incohérents, agitation ou au contraire grande somnolence : tout signe neurologique est un signal d\'alarme majeur.",
+        "Peau rouge et sèche (forme classique, par exemple chez une personne exposée à la canicule sans effort physique) ou au contraire très moite (coup de chaleur d\'effort chez un travailleur physique).",
+        "Maux de tête intenses, nausées, vomissements.",
+        "Convulsions ou perte de connaissance dans les formes graves.",
+      ]},
+      { type: "h2", text: "Conduite à tenir : refroidir et alerter sans délai" },
+      { type: "ul", items: [
+        "Appeler immédiatement le 15 (SAMU) — ne pas attendre pour voir si la situation s\'améliore seule.",
+        "Mettre la victime à l\'abri de la chaleur : ombre, local climatisé ou ventilé.",
+        "Déshabiller la victime et refroidir activement : linges humides froids sur le cou, les aisselles et les plis de l\'aine, là où les vaisseaux sanguins sont superficiels et l\'échange thermique maximal.",
+        "Ventiler si possible (ventilateur, courant d\'air) pour accélérer l\'évaporation cutanée.",
+        "Ne jamais laisser la victime seule et surveiller en permanence sa respiration et son état de conscience.",
+        "Si la victime perd conscience et ne respire plus normalement : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
+      ]},
+      { type: "h2", text: "Salariés les plus exposés en entreprise" },
+      { type: "p", text: "Certains postes et profils concentrent le risque. Les travailleurs en extérieur — BTP, agriculture, voirie — sont exposés au rayonnement solaire direct et aux températures ambiantes élevées. Les salariés affectés à des postes proches de sources de chaleur artificielle (fonderies, cuisines professionnelles, blanchisseries) peuvent être exposés toute l\'année. Le port d\'équipements de protection individuelle couvrants (combinaisons, tabliers, casques) réduit la capacité d\'évaporation sudorale et aggrave le risque. Certains traitements médicaux — diurétiques, antihypertenseurs, psychotropes — diminuent la tolérance à la chaleur et doivent être signalés au médecin du travail lors du suivi individuel de l\'état de santé." },
+      { type: "h2", text: "Obligations de l\'employeur lors des épisodes de chaleur intense" },
+      { type: "ul", items: [
+        "Mettre à disposition de l\'eau fraîche potable en quantité suffisante et librement accessible à tous les postes de travail (article R.4225-1 du Code du travail).",
+        "Adapter l\'organisation du travail : aménagement des horaires pour éviter les heures les plus chaudes, introduction de pauses supplémentaires à l\'ombre ou dans un local frais.",
+        "Mettre à jour le Document Unique d\'Évaluation des Risques Professionnels (DUERP) pour intégrer le risque chaleur sur les postes exposés.",
+        "Informer et former les salariés aux signes de l\'hyperthermie et aux gestes à adopter.",
+        "Veiller à la présence de Sauveteurs Secouristes du Travail formés, capables d\'identifier un coup de chaleur et de déclencher les secours sans délai.",
+      ]},
+      { type: "quote", text: "Un coup de chaleur peut mettre la vie d\'un salarié en danger en moins d\'une heure. La seule variable sur laquelle un SST peut agir dans les premières minutes, c\'est la vitesse à laquelle il refroidit la victime et décroche le téléphone pour appeler le 15." },
+      { type: "p", text: "Référence officielle : article R.4225-1 du Code du travail, relatif à la mise à disposition d\'eau potable fraîche pour les travailleurs. L\'article L.4121-1 impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs, ce qui inclut l\'adaptation des conditions de travail lors des épisodes de fortes chaleurs." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail et préparer vos équipes aux urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
