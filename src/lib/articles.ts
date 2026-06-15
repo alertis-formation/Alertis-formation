@@ -77,6 +77,7 @@ export const articleSlugs = [
   "signaletique-securite-entreprise-panneaux-couleurs-placement",
   "coup-de-chaleur-au-travail-prevention-conduite-a-tenir",
   "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
+  "hypoglycemie-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4281,6 +4282,52 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : arrêté du 1er décembre 2025 (NOR : INTE2529354A) modifiant l\'arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les établissements recevant du public, consultable sur Légifrance." },
       { type: "cta", text: "Pour préparer vos équipes aux exigences du règlement de sécurité ERP et aux nouvelles obligations de vérification des installations,", label: "découvrez nos formations incendie ERP", href: "/formations/incendie" },
+    ],
+  },
+
+  "hypoglycemie-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Hypoglycémie au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Une crise d\'hypoglycémie peut frapper n\'importe quel salarié, pas seulement les diabétiques. Reconnaître les signes et agir vite évite la perte de connaissance.",
+    publishedAt: "2026-06-15",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/hypoglycemie-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Par définition, une hypoglycémie survient lorsque la concentration de glucose dans le sang descend en dessous d\'un seuil critique, habituellement fixé à 0,70 g/L. En milieu professionnel, elle peut frapper à tout moment, y compris chez des salariés sans antécédents médicaux connus. Un Sauveteur Secouriste du Travail capable d\'identifier les signes précoces et d\'agir sans attendre peut éviter une perte de connaissance — et les risques que cela représente sur le poste de travail." },
+      { type: "h2", text: "Qu\'est-ce qu\'une hypoglycémie ?" },
+      { type: "p", text: "Le glucose est le carburant principal du cerveau et des muscles. Quand son taux sanguin chute, l\'organisme envoie des signaux d\'alarme progressifs. Dans la grande majorité des cas, les crises surviennent chez des salariés diabétiques traités par insuline ou par antidiabétiques oraux, notamment si un repas a été sauté ou qu\'un effort physique inhabituel a été fourni. Elles peuvent aussi toucher des personnes en jeûne prolongé, en situation de stress intense ou exposées à des conditions thermiques extrêmes. La rapidité de la prise en charge conditionne directement la gravité de l\'épisode." },
+      { type: "h2", text: "Les signes qui doivent alerter le SST" },
+      { type: "ul", items: [
+        "Tremblements des mains ou du corps — souvent le premier signe perceptible.",
+        "Sueurs froides, pâleur soudaine, sensation de faiblesse générale.",
+        "Faim intense et soudaine, parfois accompagnée de nausées.",
+        "Palpitations cardiaques, sensation de cœur qui s\'emballe.",
+        "Difficultés de concentration, confusion mentale, irritabilité inhabituelle.",
+        "Maux de tête, vertiges, troubles de la vision.",
+        "Dans les formes sévères : perte de connaissance ou convulsions.",
+      ]},
+      { type: "h2", text: "Conduite à tenir quand la victime est consciente" },
+      { type: "ul", items: [
+        "Rassurer la victime, la faire asseoir et lui demander d\'arrêter tout effort physique.",
+        "Lui donner immédiatement des sucres rapides : 3 morceaux de sucre, un verre de jus de fruit ou un soda non allégé.",
+        "Attendre 10 à 15 minutes en maintenant la surveillance : les symptômes doivent s\'atténuer rapidement.",
+        "Si l\'amélioration n\'est pas nette au bout de 15 minutes, appeler le 15 (SAMU) sans attendre davantage.",
+        "Proposer ensuite une collation plus consistante (pain, biscuits) pour consolider la remontée glycémique et éviter une récidive.",
+        "Ne pas laisser la victime seule, même après amélioration apparente.",
+      ]},
+      { type: "h3", text: "Si la victime perd conscience" },
+      { type: "ul", items: [
+        "Ne jamais donner à avaler quoi que ce soit à une personne inconsciente : risque élevé de fausse route.",
+        "Appeler le 15 immédiatement.",
+        "Placer la victime en Position Latérale de Sécurité (PLS) si elle respire normalement.",
+        "Surveiller en continu la respiration et l\'état de conscience jusqu\'à l\'arrivée des secours.",
+        "Si la respiration s\'arrête : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
+      ]},
+      { type: "h2", text: "Salariés particulièrement exposés au travail" },
+      { type: "p", text: "Certains profils concentrent le risque. Les salariés diabétiques traités par insuline ou par sulfamides hypoglycémiants sont les plus concernés, a fortiori si leurs horaires décalés ou les repas sautés perturbent l\'équilibre de leur traitement. Les travailleurs physiques soumis à un effort prolongé sans prise alimentaire suffisante peuvent également présenter une hypoglycémie réactionnelle. Les salariés en jeûne prolongé exposés à des conditions climatiques difficiles voient leur risque augmenter. La médecine du travail joue un rôle clé dans l\'identification de ces profils lors du suivi individuel de l\'état de santé." },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Pour les salariés exposés à un risque hypoglycémique identifié, cela implique d\'informer les équipes de premiers secours, de prévoir un stock de sucres rapides accessibles sur le poste, et de s\'assurer que la liste nominative des SST est tenue à jour. Le protocole de prise en charge doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP) pour les postes concernés. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité, et article R.4224-16, relatif au matériel de premiers secours adapté aux risques de l\'entreprise." },
+      { type: "quote", text: "Donner du sucre à une victime consciente qui tremble : c\'est peut-être le geste de premiers secours le plus simple qui soit. C\'est aussi celui qu\'on hésite le plus à faire, faute de l\'avoir reconnu pour ce qu\'il est — une urgence médicale qui n\'attend pas." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
