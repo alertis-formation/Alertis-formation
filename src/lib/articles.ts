@@ -76,6 +76,7 @@ export const articleSlugs = [
   "registre-accidents-benins-conditions-autorisation-bonne-tenue",
   "signaletique-securite-entreprise-panneaux-couleurs-placement",
   "coup-de-chaleur-au-travail-prevention-conduite-a-tenir",
+  "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
 ] as const;
 
 /**
@@ -105,6 +106,7 @@ export const veilleArticleSlugs = new Set<string>([
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026",
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
   "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
+  "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
 ]);
 
 export type ArticleBlock =
@@ -4248,6 +4250,37 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un coup de chaleur peut mettre la vie d\'un salarié en danger en moins d\'une heure. La seule variable sur laquelle un SST peut agir dans les premières minutes, c\'est la vitesse à laquelle il refroidit la victime et décroche le téléphone pour appeler le 15." },
       { type: "p", text: "Référence officielle : article R.4225-1 du Code du travail, relatif à la mise à disposition d\'eau potable fraîche pour les travailleurs. L\'article L.4121-1 impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs, ce qui inclut l\'adaptation des conditions de travail lors des épisodes de fortes chaleurs." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail et préparer vos équipes aux urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026": {
+    title: "Arrêté du 1er décembre 2025 : vérification triennale des installations de gaz obligatoire dans les ERP",
+    excerpt: "L\'arrêté du 1er décembre 2025 (NOR : INTE2529354A) impose une vérification triennale des installations de gaz dans les ERP. Les articles PE 4 et PE 10 entrent en application le 1er juillet 2026.",
+    publishedAt: "2026-06-15",
+    category: "Sécurité incendie",
+    readingTime: 4,
+    image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
+    content: [
+      { type: "p", text: "L\'arrêté du 1er décembre 2025 (NOR : INTE2529354A) modifie le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public. Publié pour une entrée en vigueur générale au 1er janvier 2026, il prévoit une seconde échéance au 1er juillet 2026 pour les dispositions relatives à la vérification des installations de gaz — un délai désormais très proche pour les gestionnaires d\'ERP concernés." },
+      { type: "h2", text: "Ce que change le texte" },
+      { type: "p", text: "L\'arrêté modifie plusieurs articles du livre PE du règlement de sécurité ERP (arrêté du 25 juin 1980). L\'article PE 4 instaure un contrôle technique périodique des installations électriques et de gaz tous les trois ans. L\'article PE 10 est restructuré : toute installation de gaz neuve ou modifiée doit faire l\'objet d\'une vérification par un organisme habilité à la réception des travaux. L\'article PE 21 précise les conditions d\'installation des appareils alimentés au gaz dans les établissements de 5e catégorie." },
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Toutes les catégories d\'ERP disposant d\'une installation de gaz sont visées par les nouvelles obligations de vérification triennale. Les établissements de 5e catégorie font l\'objet d\'une attention particulière : dès lors que leurs installations de gaz ont été créées ou modifiées après le 1er janvier 2026, ils sont soumis à vérification à la réception des travaux. Les exploitants doivent s\'assurer que leurs contrats de maintenance et leurs échéanciers de contrôle intègrent cette périodicité triennale avant le 1er juillet 2026." },
+      { type: "ul", items: [
+        "ERP de toutes catégories disposant d\'installations de gaz (chauffage, eau chaude sanitaire, cuisine professionnelle)",
+        "ERP de 5e catégorie ayant réalisé des travaux sur leurs réseaux de gaz depuis le 1er janvier 2026",
+        "Responsables de sécurité incendie devant planifier les contrôles triennaux conformément à l\'article PE 4",
+        "Organismes de contrôle habilités intervenants sur les réseaux de gaz en ERP",
+      ]},
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "Ces nouvelles exigences renforcent le contenu attendu des formations incendie ERP. Les personnels de sécurité incendie — équipiers de première intervention, chargés d\'évacuation, exploitants d\'un système de sécurité incendie — doivent connaître les obligations de vérification des installations techniques de leur établissement, et notamment la distinction entre installations électriques et installations de gaz. Cette connaissance conditionne la capacité à signaler une anomalie et à sécuriser les intervenants lors d\'un sinistre." },
+      { type: "ul", items: [
+        "Formations incendie ERP (tous types) : intégration des obligations PE 4 et PE 10 dans la connaissance du cadre réglementaire de l\'établissement",
+        "Formation SSI : articulation entre détection automatique incendie et gestion des risques liés aux installations de gaz",
+        "Formation guide-file et serre-file : connaissance du règlement de sécurité applicable à l\'ERP et des installations techniques",
+      ]},
+      { type: "p", text: "Référence officielle : arrêté du 1er décembre 2025 (NOR : INTE2529354A) modifiant l\'arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les établissements recevant du public, consultable sur Légifrance." },
+      { type: "cta", text: "Pour préparer vos équipes aux exigences du règlement de sécurité ERP et aux nouvelles obligations de vérification des installations,", label: "découvrez nos formations incendie ERP", href: "/formations/incendie" },
     ],
   },
 };
