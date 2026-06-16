@@ -78,6 +78,7 @@ export const articleSlugs = [
   "coup-de-chaleur-au-travail-prevention-conduite-a-tenir",
   "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
   "hypoglycemie-au-travail-signes-conduite-a-tenir-sst",
+  "crise-asthme-au-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4328,6 +4329,51 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Pour les salariés exposés à un risque hypoglycémique identifié, cela implique d\'informer les équipes de premiers secours, de prévoir un stock de sucres rapides accessibles sur le poste, et de s\'assurer que la liste nominative des SST est tenue à jour. Le protocole de prise en charge doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP) pour les postes concernés. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité, et article R.4224-16, relatif au matériel de premiers secours adapté aux risques de l\'entreprise." },
       { type: "quote", text: "Donner du sucre à une victime consciente qui tremble : c\'est peut-être le geste de premiers secours le plus simple qui soit. C\'est aussi celui qu\'on hésite le plus à faire, faute de l\'avoir reconnu pour ce qu\'il est — une urgence médicale qui n\'attend pas." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "crise-asthme-au-travail-conduite-a-tenir-sst": {
+    title: "Crise d\'asthme au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Une crise d\'asthme grave peut mettre la vie d\'un salarié en danger en quelques minutes. Reconnaître les signes de sévérité et appeler le 15 sans attendre sont les deux réflexes essentiels du SST.",
+    publishedAt: "2026-06-16",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/crise-asthme-au-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "L\'asthme touche une partie non négligeable de la population active. Dans l\'entreprise, les crises peuvent survenir sans signe annonciateur et évoluer rapidement vers une détresse respiratoire sévère. Un Sauveteur Secouriste du Travail capable d\'identifier les signes d\'une crise et de savoir quand appeler le 15 peut changer radicalement l\'issue d\'une situation qui se dégrade vite." },
+      { type: "h2", text: "Asthme de fond et asthme professionnel : deux réalités au même poste" },
+      { type: "p", text: "L\'asthme est une maladie chronique des bronches caractérisée par une inflammation et une hypersensibilité des voies aériennes. Les crises surviennent lors d\'une exposition à un déclencheur : poussières, produits chimiques, variations thermiques, effort physique intense ou stress. L\'asthme professionnel désigne les formes dont l\'origine ou l\'aggravation est directement liée au poste de travail — expositions aux isocyanates, à la farine, aux poussières de bois ou aux agents nettoyants. Ces formes sont reconnues au titre des maladies professionnelles dans le régime général de la Sécurité sociale. L\'employeur doit évaluer les expositions concernées dans le cadre du Document Unique d\'Évaluation des Risques Professionnels (DUERP)." },
+      { type: "h2", text: "Reconnaître une crise d\'asthme : les signes que le SST doit identifier" },
+      { type: "ul", items: [
+        "Sifflement expiratoire audible, parfois perceptible à distance — la respiration est plus difficile à l\'expiration qu\'à l\'inspiration.",
+        "Oppression thoracique et difficulté à expirer : la personne inspire relativement bien mais peine à vider ses poumons.",
+        "Toux sèche persistante, parfois déclenchée par l\'effort, un changement d\'air ou une émotion.",
+        "Essoufflement disproportionné par rapport à l\'activité en cours.",
+        "Position spontanée de confort : le salarié se redresse, s\'appuie sur les bras pour faciliter sa respiration.",
+      ]},
+      { type: "h2", text: "Conduite à tenir lors d\'une crise d\'asthme" },
+      { type: "ul", items: [
+        "Faire asseoir la victime en position demi-assise, jambes pendantes — la position allongée aggrave la gêne respiratoire.",
+        "L\'éloigner immédiatement de la source déclencheuse si l\'environnement est en cause (produit chimique, poussière, atmosphère confinée).",
+        "L\'aider à prendre son traitement de secours si elle en dispose — un inhalateur bronchodilatateur prescrit par son médecin. Ne jamais administrer un médicament qui n\'est pas le sien.",
+        "Desserrer les vêtements serrés autour du cou et de la poitrine.",
+        "Rester auprès d\'elle et la rassurer calmement : l\'anxiété aggrave le bronchospasme.",
+        "Surveiller l\'évolution : si les symptômes ne s\'améliorent pas dans les 5 à 10 minutes après la prise du traitement, appeler le 15 immédiatement.",
+      ]},
+      { type: "h3", text: "Signes de gravité : appeler le 15 sans délai" },
+      { type: "ul", items: [
+        "Incapacité à parler ou à finir ses phrases — signe d\'un bronchospasme sévère.",
+        "Cyanose : coloration bleutée des lèvres ou du bout des doigts, indiquant un manque d\'oxygénation.",
+        "Utilisation des muscles du cou et des épaules pour respirer : signe d\'un effort respiratoire extrême.",
+        "Épuisement, somnolence ou confusion : le salarié n\'a plus la force de compenser.",
+        "Absence d\'amélioration après deux prises du traitement bronchodilatateur espacées de cinq minutes.",
+        "Perte de connaissance ou arrêt respiratoire : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
+      ]},
+      { type: "h2", text: "Obligations de l\'employeur face au risque asthmatique" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé des salariés. Pour les postes exposant à des substances susceptibles de déclencher ou d\'aggraver un asthme, cela implique d\'identifier les agents en cause, de prévoir des mesures de substitution ou de réduction des expositions, et de s\'assurer que les Sauveteurs Secouristes du Travail sont formés et identifiables sur le site. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement." },
+      { type: "quote", text: "Face à une crise d\'asthme, le premier réflexe du SST n\'est pas de courir chercher quelque chose — c\'est de rester calme auprès du salarié, de l\'aider à s\'asseoir et d\'observer si la situation se stabilise ou se détériore. Cinq minutes d\'attention peuvent suffire à décider s\'il faut appeler le 15." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences respiratoires et des malaises en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
