@@ -79,6 +79,7 @@ export const articleSlugs = [
   "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
   "hypoglycemie-au-travail-signes-conduite-a-tenir-sst",
   "crise-asthme-au-travail-conduite-a-tenir-sst",
+  "epilepsie-au-travail-crise-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4374,6 +4375,44 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Face à une crise d\'asthme, le premier réflexe du SST n\'est pas de courir chercher quelque chose — c\'est de rester calme auprès du salarié, de l\'aider à s\'asseoir et d\'observer si la situation se stabilise ou se détériore. Cinq minutes d\'attention peuvent suffire à décider s\'il faut appeler le 15." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences respiratoires et des malaises en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "epilepsie-au-travail-crise-conduite-a-tenir-sst": {
+    title: "Crise d\'épilepsie au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Une crise d\'épilepsie peut survenir à n\'importe quel poste. Savoir protéger la victime, ne pas commettre les erreurs classiques et identifier les situations qui nécessitent le 15 : c\'est le rôle du SST.",
+    publishedAt: "2026-06-17",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/epilepsie-au-travail-crise-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "L\'épilepsie concerne environ 1 % de la population active. Dans la grande majorité des cas, ces salariés travaillent dans les mêmes conditions que leurs collègues. Mais une crise peut survenir en milieu professionnel, parfois en dehors de tout antécédent connu. Le Sauveteur Secouriste du Travail doit savoir reconnaître une crise tonico-clonique généralisée, adopter la bonne conduite et identifier les situations qui justifient d\'appeler le 15." },
+      { type: "h2", text: "Reconnaître une crise d\'épilepsie tonico-clonique généralisée" },
+      { type: "p", text: "La crise tonico-clonique généralisée, souvent appelée grand mal, se déroule en trois phases. La phase tonique est brève : la personne perd brutalement connaissance, tombe parfois avec un cri involontaire, le corps se raidit et la respiration peut s\'interrompre quelques secondes. Vient ensuite la phase clonique : des secousses musculaires rythmiques touchent les membres et parfois le visage, la respiration reprend de façon bruyante, une hypersalivation apparaît. Cette phase dure en général de une à trois minutes. Enfin, la phase post-ictale marque le retour progressif à la conscience : la victime est confuse, fatiguée, parfois somnolente pendant quelques minutes à une heure." },
+      { type: "h2", text: "Conduite à tenir du SST pendant la crise" },
+      { type: "ul", items: [
+        "Déclencher l\'alarme et noter l\'heure exacte du début de la crise : la durée est le critère clé pour décider d\'appeler le 15.",
+        "Protéger la tête de la victime en glissant quelque chose de souple sous elle (veste pliée, coussin) pour éviter les traumatismes au sol.",
+        "Dégager l\'espace immédiat : éloigner les objets durs ou coupants sans toucher la victime.",
+        "Ne pas chercher à bloquer les mouvements ni à immobiliser les membres : toute contrainte physique augmente le risque de fracture.",
+        "Desserrer les vêtements serrés au cou si cela est possible sans forcer.",
+        "Surveiller l\'heure : si la phase de convulsions dépasse cinq minutes, appeler le 15 sans attendre.",
+        "Au terme des convulsions, placer la victime en Position Latérale de Sécurité (PLS) si elle est inconsciente mais respire normalement.",
+        "Rester auprès d\'elle jusqu\'au retour complet de la conscience et la rassurer calmement quand elle reprend connaissance.",
+      ]},
+      { type: "h3", text: "Erreurs classiques à ne jamais commettre" },
+      { type: "ul", items: [
+        "Introduire quoi que ce soit dans la bouche : cette pratique ancienne est dangereuse et expose la victime à des blessures buccales graves.",
+        "Tenter de maintenir la langue avec les doigts : la victime ne risque pas d\'avaler sa langue, c\'est un mythe ; l\'intervention aggrave les risques pour les deux.",
+        "Donner de l\'eau ou un aliment pendant ou immédiatement après la crise : risque élevé de fausse route tant que la conscience n\'est pas pleinement revenue.",
+        "Laisser la victime seule avant qu\'elle soit totalement orientée et en sécurité.",
+      ]},
+      { type: "h2", text: "Phase post-ictale : observation et décision d\'appel du 15" },
+      { type: "p", text: "Après les convulsions, la victime entre dans une période de récupération de durée variable. Elle peut être confuse, agressive ou somnolente : cette désorientation est normale et ne doit pas alarmer le SST. La surveillance reste essentielle. Il faut appeler le 15 dans les situations suivantes : première crise sans antécédent épileptique connu, crise durant plus de cinq minutes, deuxième crise survenant sans reprise de conscience entre les deux (état de mal épileptique), traumatisme survenu lors de la chute, difficultés respiratoires persistantes après la crise, ou absence de retour à l\'état habituel dans un délai raisonnable. Pour un salarié dont l\'épilepsie est connue, un protocole individuel peut être établi avec le médecin du travail et mentionné dans le DUERP." },
+      { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de mettre en œuvre les mesures de protection adaptées. Pour les postes sensibles — travail en hauteur, conduite d\'engins, opérations à proximité de machines en mouvement —, l\'aptitude médicale d\'un salarié épileptique relève du médecin du travail, qui peut préconiser des restrictions ou aménagements. Les Sauveteurs Secouristes du Travail doivent être présents en nombre suffisant sur le site et avoir suivi leur recyclage dans les délais requis. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement. Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
+      { type: "quote", text: "Face à une crise d\'épilepsie, le premier réflexe n\'est pas d\'intervenir sur la victime — c\'est de sécuriser ce qui l\'entoure, de noter l\'heure et d\'observer. Protéger sans contraindre : c\'est l\'essentiel de la conduite à tenir." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
