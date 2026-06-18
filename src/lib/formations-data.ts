@@ -950,6 +950,10 @@ export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
   "recyclage-habilitation-electrique-bf-hf-fouille",
   "habilitation-electrique-vehicule-electrique",
   "recyclage-habilitation-electrique-vehicule-electrique",
+  "formation-travaux-en-hauteur",
+  "formation-travail-hauteur-port-epi",
+  "formation-travail-hauteur-port-harnais",
+  "formation-travail-hauteur-verification-epi",
 ]);
 
 export function getFormationsByCategory(category: FormationCategory) {
