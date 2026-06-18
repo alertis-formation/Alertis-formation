@@ -663,21 +663,6 @@ export default function DossierPage() {
                 </Link>
               }
             />
-            <Button
-              size="lg"
-              variant="outline"
-              className="uppercase tracking-wider"
-              render={
-                <a
-                  href="/catalogue-alertis.pdf"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Download />
-                  <span>Catalogue PDF</span>
-                </a>
-              }
-            />
           </div>
         </div>
       </section>
