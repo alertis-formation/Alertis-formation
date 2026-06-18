@@ -22,30 +22,36 @@ type CategoryRow = {
   description: string;
 };
 
+const mappedCategories: CategoryRow[] = formationCategories.map((c) => {
+  const map: Record<string, FormationCategory> = {
+    "/formations-securite-incendie": "securite-incendie",
+    "/formations-secourisme": "secourisme",
+    "/formations-habilitation-electrique": "habilitation-electrique",
+    "/formations-ergonomie": "ergonomie",
+    "/formations-prevention": "prevention",
+    "/formations-safety-day": "safety-day",
+  };
+  return {
+    key: map[c.href]!,
+    label: c.label,
+    href: c.href,
+    description: c.description ?? "",
+  };
+});
+
+const afgsuRow: CategoryRow = {
+  key: "afgsu",
+  label: "AFGSU",
+  href: "/nos-formations-afgsu",
+  description:
+    "Attestation de Formation aux Gestes et Soins d'Urgence pour les professionnels de santé. Niveaux 1, 2 et recyclage.",
+};
+
+// AFGSU s'insère après Secourisme (même ordre que le menu Formations).
 const categoryRows: CategoryRow[] = [
-  ...formationCategories.map((c) => {
-    const map: Record<string, FormationCategory> = {
-      "/formations-securite-incendie": "securite-incendie",
-      "/formations-secourisme": "secourisme",
-      "/formations-habilitation-electrique": "habilitation-electrique",
-      "/formations-ergonomie": "ergonomie",
-      "/formations-prevention": "prevention",
-      "/formations-safety-day": "safety-day",
-    };
-    return {
-      key: map[c.href]!,
-      label: c.label,
-      href: c.href,
-      description: c.description ?? "",
-    };
-  }),
-  {
-    key: "afgsu",
-    label: "AFGSU",
-    href: "/nos-formations-afgsu",
-    description:
-      "Attestation de Formation aux Gestes et Soins d'Urgence pour les professionnels de santé. Niveaux 1, 2 et recyclage.",
-  },
+  ...mappedCategories.slice(0, 2),
+  afgsuRow,
+  ...mappedCategories.slice(2),
 ];
 
 export async function generateMetadata(): Promise<Metadata> {

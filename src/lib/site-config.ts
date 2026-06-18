@@ -78,11 +78,6 @@ export const formationCategories: NavItem[] = [
     description: "SST, MAC SST, PSC, défibrillateur, gestes qui sauvent",
   },
   {
-    label: "Habilitation électrique",
-    href: "/formations-habilitation-electrique",
-    description: "B0, BS, BE, H0, BR, BC, BF, HF, BP photovoltaïque — initial et recyclage",
-  },
-  {
     label: "Ergonomie",
     href: "/formations-ergonomie",
     description: "Gestes et postures, PRAP, prévention TMS",
@@ -96,6 +91,11 @@ export const formationCategories: NavItem[] = [
     label: "Safety Day",
     href: "/formations-safety-day",
     description: "Journée sécurité sur-mesure dans vos locaux",
+  },
+  {
+    label: "Habilitation électrique",
+    href: "/formations-habilitation-electrique",
+    description: "B0, BS, BE, H0, BR, BC, BF, HF, BP photovoltaïque — initial et recyclage",
   },
 ];
 
@@ -113,12 +113,13 @@ export const mainNav: NavItem[] = [
     label: "Formations",
     href: "/formations",
     children: [
-      ...formationCategories,
+      ...formationCategories.slice(0, 2),
       {
         label: "AFGSU",
         href: "/nos-formations-afgsu",
         description: "Gestes et soins d'urgence pour professionnels de santé",
       },
+      ...formationCategories.slice(2),
     ],
   },
   { label: "Dossier", href: "/dossier" },
@@ -143,8 +144,13 @@ export const footerNav: { title: string; items: NavItem[] }[] = [
   {
     title: "Formations",
     items: [
-      ...formationCategories.map((c) => ({ label: c.label, href: c.href })),
+      ...formationCategories
+        .slice(0, 2)
+        .map((c) => ({ label: c.label, href: c.href })),
       { label: "AFGSU", href: "/nos-formations-afgsu" },
+      ...formationCategories
+        .slice(2)
+        .map((c) => ({ label: c.label, href: c.href })),
     ],
   },
 ];

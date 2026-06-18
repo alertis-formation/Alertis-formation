@@ -38,15 +38,15 @@ const featured: Formation[] = [
     image: "/images/formateurs.jpg",
   },
   {
-    slug: "/formations/formation-incendie-evacuation-guide-serre-file",
-    title: "Évacuation, guide & serre-file",
+    slug: "/formations/formation-incendie",
+    title: "Formation incendie",
     category: "Sécurité incendie",
     description:
-      "Préparez vos équipes à coordonner une évacuation : missions du guide-file, du serre-file, mises en situation et exercice grandeur nature.",
-    duration: "3h30",
-    audience: "Personnel désigné",
+      "Formation incendie obligatoire (R4227-28) : manipulation d'extincteurs, classes de feu, conduite à tenir et évacuation. Adaptée à votre établissement et à vos risques.",
+    duration: "2h à 3h30",
+    audience: "Tout le personnel",
     format: "Présentiel sur site",
-    image: "/images/image-1.png",
+    image: "/formations/formation-incendie.png",
   },
 ];
 
