@@ -41,8 +41,6 @@ const values = [
 
 const stats = [
   { value: "+15", label: "Collaborateurs au siège" },
-  { value: "+1700", label: "Formateurs partenaires en France" },
-  { value: "+7 400", label: "Entreprises accompagnées" },
   { value: "6 h", label: "Délai d'engagement de réponse" },
 ];
 
@@ -81,7 +79,7 @@ const ecoCommitments = [
     icon: Route,
     title: "Mutualisation des trajets",
     description:
-      "Notre réseau de +1 700 formateurs partenaires nous permet d'envoyer un intervenant local plutôt que de faire traverser la France à un formateur.",
+      "Notre réseau de formateurs partenaires nous permet d'envoyer un intervenant local plutôt que de faire traverser la France à un formateur.",
   },
   {
     icon: Recycle,
@@ -100,7 +98,7 @@ const ecoCommitments = [
 export const metadata = {
   title: "Qui sommes-nous",
   description:
-    "Alertis Formation : 15 collaborateurs au siège, +1 700 formateurs partenaires partout en France, au service de la prévention des risques en entreprise. Notre équipe, nos valeurs, nos engagements.",
+    "Alertis Formation : 15 collaborateurs au siège, des formateurs partenaires partout en France, au service de la prévention des risques en entreprise. Notre équipe, nos valeurs, nos engagements.",
   alternates: { canonical: "/qui-sommes-nous" },
 };
 
@@ -200,7 +198,7 @@ export default function QuiSommesNousPage() {
               Alertis en chiffres
             </span>
           </div>
-          <div className="grid gap-px bg-white/10 border border-white/10 rounded-sm overflow-hidden sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-px bg-white/10 border border-white/10 rounded-sm overflow-hidden sm:grid-cols-2">
             {stats.map(({ value, label }) => (
               <div
                 key={label}

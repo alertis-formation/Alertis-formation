@@ -206,10 +206,16 @@ const sources = [
       "European Resuscitation Council — recommandations européennes de réanimation, mises à jour quinquennales.",
   },
   {
-    name: "Armée de Terre",
-    url: "https://www.terre.defense.gouv.fr/",
+    name: "Ministère de l'Intérieur",
+    url: "https://www.interieur.gouv.fr/",
     description:
-      "Doctrines de sauvetage au combat (SC1 / SC2) et référentiels secourisme appliqués au milieu opérationnel.",
+      "Sécurité civile (DGSCGC) — référentiels de secourisme et homologation des formations grand public (PSC, Gestes Qui Sauvent).",
+  },
+  {
+    name: "Ministère de la Santé",
+    url: "https://sante.gouv.fr/",
+    description:
+      "Gestes et soins d'urgence (AFGSU, arrêté du 1er juillet 2019) et habilitation des CESU.",
   },
   {
     name: "APSAD",
