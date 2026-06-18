@@ -123,7 +123,7 @@ const maintenanceHtml = `<!doctype html>
     <p>Une question ? Notre équipe reste joignable&nbsp;:</p>
     <div class="links">
       <a class="btn-primary" href="tel:+33478904630">04&nbsp;78&nbsp;90&nbsp;46&nbsp;30</a>
-      <a class="btn-outline" href="mailto:contact@alertisformation.com">contact@alertisformation.com</a>
+      <a class="btn-outline" href="mailto:contact@alertis.fr">contact@alertis.fr</a>
     </div>
   </div>
 </main>

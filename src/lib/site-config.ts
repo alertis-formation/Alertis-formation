@@ -13,7 +13,7 @@ export const siteConfig = {
     "Centre de formation spécialisé en santé et sécurité au travail. Formateurs experts issus du terrain, présents sur tout le territoire français.",
   url: "https://alertisformation.com",
   contact: {
-    email: "contact@alertisformation.com",
+    email: "contact@alertis.fr",
     phone: "04 78 90 46 30",
     phoneE164: "+33478904630",
     address: {
