@@ -167,7 +167,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-br-b1-b2-bc",
-    title: "Habilitation électrique BR B1 B2 BC",
+    title: "Habilitation électrique BR B1 B2 BC (personnels électriciens)",
     excerpt: "Habilitation électrique BR (chargé d'interventions générales BT), B1/B2 (exécutant/chargé de travaux), BC (consignation). Pour électriciens — partie théorique et pratique sur platine.",
     image: "/formations/habilitation-electrique-br-b1-b2-bc.jpg",
     category: "habilitation-electrique",
@@ -177,7 +177,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-br-b1-b2-bc",
-    title: "Recyclage Habilitation électrique BR B1 B2 BC",
+    title: "Recyclage Habilitation électrique BR B1 B2 BC (personnels électriciens)",
     excerpt: "Recyclage électricien BR / B1 / B2 / BC tous les 3 ans (recommandation NF C18-510 et INRS) : mise à jour des évolutions normatives, retour d'expérience, pratique sur platine.",
     image: "/formations/recyclage-habilitation-electrique-br-b1-b2-bc.jpg",
     category: "habilitation-electrique",
@@ -247,7 +247,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-haute-tension",
-    title: "Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC)",
+    title: "Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC) (personnels électriciens)",
     excerpt: "Habilitation HTA initiale pour électriciens intervenant en basse et haute tension : travaux, interventions, consignation. Conforme NF C18-510.",
     image: "/formations/habilitation-electrique-haute-tension.jpg",
     category: "habilitation-electrique",
@@ -257,7 +257,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-haute-tension",
-    title: "Recyclage Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC)",
+    title: "Recyclage Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC) (personnels électriciens)",
     excerpt: "Recyclage de l'habilitation électrique haute tension. Pour conserver les titres B1v/B2v/BR/BC/BE et H1v/H2v/HC.",
     image: "/formations/recyclage-habilitation-electrique-haute-tension.jpg",
     category: "habilitation-electrique",
@@ -911,6 +911,14 @@ export const FORCED_FORMATION_TITLES: Record<string, string> = {
     "Habilitation électrique BS BE Manœuvre (non-électriciens)",
   "recyclage-habilitation-electrique-bs-be":
     "Recyclage Habilitation électrique BS BE Manœuvre (non-électriciens)",
+  "habilitation-electrique-br-b1-b2-bc":
+    "Habilitation électrique BR B1 B2 BC (personnels électriciens)",
+  "recyclage-habilitation-electrique-br-b1-b2-bc":
+    "Recyclage Habilitation électrique BR B1 B2 BC (personnels électriciens)",
+  "habilitation-electrique-haute-tension":
+    "Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC) (personnels électriciens)",
+  "recyclage-habilitation-electrique-haute-tension":
+    "Recyclage Habilitation électrique haute tension (B1v B2v BR BC BE / H1v H2v HC) (personnels électriciens)",
 };
 
 /**
