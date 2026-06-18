@@ -10,17 +10,9 @@ import {
   Laptop,
   Leaf,
   Route,
-  Award,
-  Search,
-  FileCheck2,
   GraduationCap,
   ClipboardCheck,
-  Zap,
   Flame,
-  HeartPulse,
-  Stethoscope,
-  Activity,
-  ShieldAlert,
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
@@ -75,72 +67,6 @@ const direction = [
     bio: "Bruno coordonne les opérations et s'assure que tout roule. Véritable facilitateur, il fait le lien entre équipes, clients et terrain.",
     image: "/team/bruno-lodier.jpg",
     roleIcon: ClipboardCheck,
-  },
-];
-
-const qualificationStandards = [
-  {
-    icon: HeartPulse,
-    domain: "Secourisme (SST, MAC SST, PSC, GQS, défibrillateur…)",
-    standard:
-      "Formateurs habilités, titulaires du certificat de formateur SST délivré par l'INRS, MAC formateur à jour, expérience opérationnelle des gestes d'urgence. PSC et GQS dispensés selon le contenu officiel du ministère de l'Intérieur (attestation de participation Alertis, le diplôme d'État restant réservé aux associations agréées).",
-  },
-  {
-    icon: Stethoscope,
-    domain: "AFGSU 1 & 2",
-    standard:
-      "Formateurs titulaires de l'attestation de formation de formateur AFGSU, professionnels de santé urgentistes (médecins, IDE, ARM) ou paramédicaux qualifiés. Sessions organisées par Alertis en tant que centre habilité par les CESU.",
-  },
-  {
-    icon: Zap,
-    domain: "Habilitation électrique",
-    standard:
-      "Titre d'habilitation BR/BC ou supérieur en cours de validité, expérience terrain en électrotechnique, qualification pédagogique attestée.",
-  },
-  {
-    icon: Flame,
-    domain: "Sécurité incendie (EPI, ESI, évacuation)",
-    standard:
-      "Formateurs habilités à former en sécurité incendie, profils issus du terrain (sapeurs-pompiers professionnels ou volontaires, SSIAP 1/2/3 selon le niveau), expérience opérationnelle en intervention.",
-  },
-  {
-    icon: Activity,
-    domain: "Ergonomie (PRAP IBC, PRAP 2S, gestes & postures)",
-    standard:
-      "Certificat de formateur PRAP IBC ou 2S délivré par l'INRS, expérience en analyse de l'activité réelle de travail.",
-  },
-  {
-    icon: ShieldAlert,
-    domain: "Prévention (CSE, DUERP, RPS)",
-    standard:
-      "Formation supérieure en prévention, ergonomie ou psychologie du travail, expérience d'intervention en entreprise sur les risques pros.",
-  },
-];
-
-const qualificationProcess = [
-  {
-    icon: Search,
-    title: "Sélection rigoureuse",
-    description:
-      "Avant intégration au réseau : vérification systématique des titres, diplômes, habilitations et de l'expérience terrain par notre responsable pédagogique.",
-  },
-  {
-    icon: FileCheck2,
-    title: "Dossier formateur tenu à jour",
-    description:
-      "Chaque intervenant dispose d'un dossier complet (CV, justificatifs, recyclages) maintenu à jour. Tout titre échu suspend automatiquement les missions concernées.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Recyclage périodique obligatoire",
-    description:
-      "MAC formateur, recyclages habilitations, mises à jour réglementaires : nos formateurs maintiennent leurs certifications dans les délais imposés par chaque référentiel.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Évaluation continue",
-    description:
-      "Les questionnaires de satisfaction stagiaires sont analysés après chaque session. Tout écart négatif déclenche un échange formateur et, si besoin, un retrait du réseau.",
   },
 ];
 
@@ -377,87 +303,6 @@ export default function QuiSommesNousPage() {
               </article>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Réseau formateurs — politique de qualification */}
-      <section className="py-20 bg-[color:var(--brand-cream)]">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10">
-          <div className="text-center mb-12 max-w-3xl mx-auto">
-            <span className="eyebrow">Notre réseau de formateurs</span>
-            <h2 className="mt-4 text-[color:var(--brand-charcoal)]">
-              +1700 formateurs partenaires,{" "}
-              <span className="text-[color:var(--brand-red)]">
-                une exigence non négociable
-              </span>
-              .
-            </h2>
-            <p className="mt-5 text-[color:var(--brand-gray-medium)] leading-relaxed">
-              Pour intervenir au nom d&apos;Alertis, chaque formateur doit
-              répondre à des exigences précises sur son domaine&nbsp;: titres,
-              habilitations en cours de validité, expérience terrain et
-              recyclages à jour. Voici comment nous garantissons la qualité du
-              formateur que vous recevez, partout en France.
-            </p>
-          </div>
-
-          {/* Standards par domaine */}
-          <div className="mb-12">
-            <div className="flex items-center gap-3 mb-5">
-              <Award className="size-5 text-[color:var(--brand-red)]" />
-              <span className="text-[10px] uppercase tracking-[0.3em] font-mono text-[color:var(--brand-gray-medium)]">
-                Standards de qualification par domaine
-              </span>
-            </div>
-            <div className="grid gap-px bg-[color:var(--brand-gray-medium)]/15 border border-[color:var(--brand-gray-medium)]/15 rounded-sm overflow-hidden sm:grid-cols-2 lg:grid-cols-3">
-              {qualificationStandards.map(({ icon: Icon, domain, standard }) => (
-                <div
-                  key={domain}
-                  className="bg-white p-6 hover:bg-[color:var(--brand-cream)]/60 transition-colors"
-                >
-                  <Icon className="size-6 text-[color:var(--brand-red)] mb-4" />
-                  <h3 className="text-sm font-bold text-[color:var(--brand-charcoal)] mb-2 leading-snug">
-                    {domain}
-                  </h3>
-                  <p className="text-xs text-[color:var(--brand-gray-medium)] leading-[1.6]">
-                    {standard}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Process */}
-          <div>
-            <div className="flex items-center gap-3 mb-5">
-              <ShieldCheck className="size-5 text-[color:var(--brand-red)]" />
-              <span className="text-[10px] uppercase tracking-[0.3em] font-mono text-[color:var(--brand-gray-medium)]">
-                Comment nous garantissons cette qualité
-              </span>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {qualificationProcess.map(({ icon: Icon, title, description }) => (
-                <div
-                  key={title}
-                  className="bg-white border border-[color:var(--brand-gray-medium)]/10 rounded-sm p-6"
-                >
-                  <Icon className="size-7 text-[color:var(--brand-red)] mb-4" />
-                  <h3 className="text-base text-[color:var(--brand-charcoal)] mb-2 leading-snug">
-                    {title}
-                  </h3>
-                  <p className="text-xs text-[color:var(--brand-gray-medium)] leading-[1.6]">
-                    {description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <p className="mt-10 text-center text-xs text-[color:var(--brand-gray-medium)] italic max-w-2xl mx-auto leading-relaxed">
-            Le détail nominatif des qualifications de chaque formateur
-            intervenant sur vos sessions est mis à disposition sur simple
-            demande auprès de notre responsable pédagogique.
-          </p>
         </div>
       </section>
 
