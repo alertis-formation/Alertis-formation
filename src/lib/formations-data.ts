@@ -147,7 +147,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "habilitation-electrique-bs-be-manoeuvre",
-    title: "Habilitation électrique BS BE Manœuvre",
+    title: "Habilitation électrique BS BE Manœuvre (non-électriciens)",
     excerpt: "Habilitation BS (interventions élémentaires hors tension : ampoule, prise, interrupteur) et BE Manœuvre (réarmement, mise en marche). Pour non-électriciens. Conforme NF C18-510.",
     image: "/formations/habilitation-electrique-bs-be-manoeuvre.jpg",
     category: "habilitation-electrique",
@@ -157,7 +157,7 @@ export const formationEntries: FormationEntry[] = [
   },
   {
     slug: "recyclage-habilitation-electrique-bs-be",
-    title: "Recyclage Habilitation électrique BS BE Manœuvre",
+    title: "Recyclage Habilitation électrique BS BE Manœuvre (non-électriciens)",
     excerpt: "Recyclage BS et BE Manœuvre tous les 3 ans : rappels sur les interventions de remplacement et raccordement hors tension, manœuvres autorisées, gestes de premier secours.",
     image: "/formations/recyclage-habilitation-electrique-bs-be.jpg",
     category: "habilitation-electrique",
@@ -900,6 +900,30 @@ export const formationEntries: FormationEntry[] = [
 export const formationEntriesBySlug = Object.fromEntries(
   formationEntries.map((f) => [f.slug, f] as const)
 );
+
+/**
+ * Titres forcés côté site : prioritaires sur le `nom` du back-office.
+ * Réservé aux cas particuliers où l'on veut garantir un libellé précis quel que
+ * soit ce qui est saisi en back-office (ex. préciser « non-électriciens »).
+ */
+export const FORCED_FORMATION_TITLES: Record<string, string> = {
+  "habilitation-electrique-bs-be-manoeuvre":
+    "Habilitation électrique BS BE Manœuvre (non-électriciens)",
+  "recyclage-habilitation-electrique-bs-be":
+    "Recyclage Habilitation électrique BS BE Manœuvre (non-électriciens)",
+};
+
+/**
+ * Résout le titre affiché d'une formation : titre forcé en priorité, sinon le
+ * `nom` du back-office, sinon le titre local de secours.
+ */
+export function resolveFormationTitle(
+  slug: string,
+  apiName: string | null | undefined,
+  localTitle: string,
+): string {
+  return FORCED_FORMATION_TITLES[slug] || apiName?.trim() || localTitle;
+}
 
 /**
  * Formations retirées du catalogue : leur entrée et leur contenu restent dans

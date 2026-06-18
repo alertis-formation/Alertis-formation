@@ -15,6 +15,7 @@ import {
   formationEntries,
   getFormationsByCategory,
   HIDDEN_FORMATION_SLUGS,
+  resolveFormationTitle,
   type FormationEntry,
   type FormationCategory,
 } from "./formations-data";
@@ -47,7 +48,11 @@ export async function filterLiveFormations(
   const visible = entries.filter((e) => !HIDDEN_FORMATION_SLUGS.has(e.slug));
   const apiById = await getApiFormationsById();
   if (apiById === null) {
-    return visible.map((e) => ({ ...e, duree: null }));
+    return visible.map((e) => ({
+      ...e,
+      title: resolveFormationTitle(e.slug, null, e.title),
+      duree: null,
+    }));
   }
   const enriched: LiveFormationEntry[] = [];
   for (const entry of visible) {
@@ -55,7 +60,13 @@ export async function filterLiveFormations(
     if (apiId === null) continue;
     const api = apiById.get(apiId);
     if (!api) continue;
-    enriched.push({ ...entry, duree: api.duree });
+    // Le titre affiché vient du back-office (`nom`) ; repli sur le titre local
+    // si le champ est vide. Un titre forcé éventuel reste prioritaire.
+    enriched.push({
+      ...entry,
+      title: resolveFormationTitle(entry.slug, api.nom, entry.title),
+      duree: api.duree,
+    });
   }
   return enriched;
 }

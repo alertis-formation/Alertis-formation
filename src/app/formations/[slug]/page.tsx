@@ -19,6 +19,7 @@ import {
   formationEntries,
   formationEntriesBySlug,
   HIDDEN_FORMATION_SLUGS,
+  resolveFormationTitle,
 } from "@/lib/formations-data";
 import { getLiveFormationsByCategory } from "@/lib/formations-live";
 import {
@@ -31,6 +32,7 @@ import { BreadcrumbJsonLd, CourseJsonLd } from "@/components/seo/json-ld";
 import { getApiIdForSlug } from "@/lib/alertis-api-mapping";
 import {
   fetchFormation,
+  getFormationById,
   getUpcomingSessionsForFormation,
 } from "@/lib/alertis-api";
 import {
@@ -54,12 +56,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const f = formationEntriesBySlug[slug];
   if (!f) return {};
+  // Titre piloté par le back-office (`nom`) ; repli sur le titre local si l'API
+  // est indisponible ou le champ vide. L'appel est mis en cache (revalidate 1h)
+  // et dédupliqué avec celui de la page.
+  const apiId = getApiIdForSlug(slug);
+  const apiData = apiId ? await getFormationById(apiId) : null;
+  const title = resolveFormationTitle(slug, apiData?.nom, f.title);
   return {
-    title: f.title,
+    title,
     description: f.excerpt,
     alternates: { canonical: `/formations/${slug}` },
     openGraph: {
-      title: f.title,
+      title,
       description: f.excerpt,
       url: `/formations/${slug}`,
       images: f.image ? [{ url: f.image }] : undefined,
@@ -97,6 +105,9 @@ export default async function FormationDetailPage({
     redirect("/formations");
   }
   const apiData = apiLookup.status === "ok" ? apiLookup.formation : null;
+  // Titre affiché : titre forcé prioritaire, sinon nom du back-office, sinon
+  // repli sur le titre local.
+  const title = resolveFormationTitle(slug, apiData?.nom, f.title);
   const sessions = apiData
     ? await getUpcomingSessionsForFormation(apiData.nom, 5)
     : [];
@@ -117,11 +128,11 @@ export default async function FormationDetailPage({
           { name: "Accueil", href: "/" },
           { name: "Formations", href: "/formations" },
           { name: f.categoryLabel, href: f.categoryHref },
-          { name: f.title, href: `/formations/${slug}` },
+          { name: title, href: `/formations/${slug}` },
         ]}
       />
       <CourseJsonLd
-        name={f.title}
+        name={title}
         description={f.excerpt}
         url={`/formations/${slug}`}
         audienceType={audienceForCategory(f.category)}
@@ -136,12 +147,12 @@ export default async function FormationDetailPage({
         }))}
       />
       <PageShell
-        title={f.title}
+        title={title}
         subtitle={f.excerpt}
         breadcrumbs={[
           { label: "Formations", href: "/formations" },
           { label: f.categoryLabel, href: f.categoryHref },
-          { label: f.title },
+          { label: title },
         ]}
       >
         <section className="py-14 bg-white">
@@ -152,7 +163,7 @@ export default async function FormationDetailPage({
                 <div className="relative aspect-[16/10] rounded-sm overflow-hidden ring-1 ring-[color:var(--brand-gray-medium)]/15">
                   <Image
                     src={f.image}
-                    alt={f.title}
+                    alt={title}
                     fill
                     sizes="(max-width: 1024px) 100vw, 700px"
                     className="object-cover"
