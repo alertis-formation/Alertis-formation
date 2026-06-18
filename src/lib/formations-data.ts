@@ -949,6 +949,7 @@ export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
   "habilitation-electrique-bf-hf-fouille",
   "recyclage-habilitation-electrique-bf-hf-fouille",
   "habilitation-electrique-vehicule-electrique",
+  "recyclage-habilitation-electrique-vehicule-electrique",
 ]);
 
 export function getFormationsByCategory(category: FormationCategory) {
