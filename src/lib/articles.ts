@@ -80,6 +80,7 @@ export const articleSlugs = [
   "hypoglycemie-au-travail-signes-conduite-a-tenir-sst",
   "crise-asthme-au-travail-conduite-a-tenir-sst",
   "epilepsie-au-travail-crise-conduite-a-tenir-sst",
+  "choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4413,6 +4414,52 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de mettre en œuvre les mesures de protection adaptées. Pour les postes sensibles — travail en hauteur, conduite d\'engins, opérations à proximité de machines en mouvement —, l\'aptitude médicale d\'un salarié épileptique relève du médecin du travail, qui peut préconiser des restrictions ou aménagements. Les Sauveteurs Secouristes du Travail doivent être présents en nombre suffisant sur le site et avoir suivi leur recyclage dans les délais requis. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement. Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
       { type: "quote", text: "Face à une crise d\'épilepsie, le premier réflexe n\'est pas d\'intervenir sur la victime — c\'est de sécuriser ce qui l\'entoure, de noter l\'heure et d\'observer. Protéger sans contraindre : c\'est l\'essentiel de la conduite à tenir." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Choc anaphylactique au travail : reconnaître les signes et agir sans délai",
+    excerpt: "Le choc anaphylactique est une urgence vitale à évolution rapide. En milieu professionnel, piqûres d\'insectes, latex ou allergènes alimentaires peuvent en être la cause. Chaque minute compte.",
+    publishedAt: "2026-06-18",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Le choc anaphylactique est la forme la plus sévère des réactions allergiques. Il peut se déclencher en quelques minutes après un contact avec un allergène et évoluer rapidement vers un état de détresse vitale. Dans l\'entreprise, les déclencheurs sont multiples : piqûre d\'insecte sur un chantier, contact avec du latex dans un atelier, aliment allergène dans une cuisine collective. Le Sauveteur Secouriste du Travail doit être capable de reconnaître les signes, d\'agir immédiatement et d\'accompagner les secours jusqu\'à leur arrivée." },
+      { type: "h2", text: "Les déclencheurs les plus fréquents en milieu professionnel" },
+      { type: "ul", items: [
+        "Piqûres d\'hyménoptères — guêpes, abeilles, frelons — fréquentes sur les chantiers extérieurs, dans les entrepôts et les espaces verts.",
+        "Latex naturel : risque spécifique dans les secteurs médicaux, paramédicaux et certains ateliers industriels où des gants en latex sont utilisés.",
+        "Aliments allergènes dans les métiers de la restauration et de la cuisine collective : arachides, fruits à coque, fruits de mer, lait, œufs.",
+        "Produits antiseptiques ou médicaments utilisés dans les infirmeries d\'entreprise.",
+        "Agents chimiques sensibilisants dans les secteurs de la coiffure, de l\'imprimerie ou de la chimie fine.",
+      ]},
+      { type: "h2", text: "Reconnaître les signes d\'un choc anaphylactique" },
+      { type: "p", text: "Les symptômes apparaissent généralement peu après l\'exposition à l\'allergène. Ils peuvent toucher plusieurs systèmes simultanément, ce qui distingue le choc anaphylactique d\'une simple réaction localisée. La combinaison et la rapidité d\'installation des signes sont les éléments qui doivent alerter le SST." },
+      { type: "ul", items: [
+        "Réaction cutanée généralisée : urticaire, rougeurs diffuses, démangeaisons intenses sur l\'ensemble du corps.",
+        "Gonflement du visage, des lèvres, de la langue ou du larynx (œdème de Quincke) — signe d\'alarme majeur signalant une atteinte des voies aériennes.",
+        "Gêne respiratoire : oppression thoracique, sifflement à l\'expiration, difficulté à avaler ou à parler.",
+        "Chute brutale de la tension artérielle : pouls faible et rapide, pâleur soudaine, sensation de faiblesse intense ou de malaise.",
+        "Nausées, vomissements ou douleurs abdominales — fréquents dans les réactions aux aliments.",
+        "Perte de connaissance dans les formes graves, pouvant évoluer vers un arrêt cardiaque sans traitement rapide.",
+      ]},
+      { type: "h2", text: "Conduite à tenir du SST face à un choc anaphylactique" },
+      { type: "ul", items: [
+        "Appeler le 15 (SAMU) immédiatement — c\'est la priorité absolue, même si les symptômes semblent encore modérés.",
+        "Allonger la victime sur le dos, jambes légèrement surélevées si elle ne présente pas de gêne respiratoire — cette position soutient le retour veineux en cas de chute de pression.",
+        "Si la victime souffre d\'une gêne respiratoire ou présente des nausées, la mettre en position demi-assise.",
+        "Rechercher si la victime dispose d\'un auto-injecteur d\'adrénaline dans ses affaires ou sur son poste de travail.",
+        "L\'aider à utiliser son auto-injecteur ou le faire soi-même si un protocole a été établi avec le médecin du travail.",
+        "Rester auprès d\'elle sans la laisser seule : surveiller la conscience, la respiration et la couleur de la peau en continu jusqu\'à l\'arrivée des secours.",
+        "Si la victime perd conscience et s\'arrête de respirer : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
+      ]},
+      { type: "h3", text: "L\'auto-injecteur d\'adrénaline : utilisation et points d\'attention" },
+      { type: "p", text: "L\'adrénaline est le seul traitement d\'urgence efficace pour inverser un choc anaphylactique. Elle est disponible en France sous forme d\'auto-injecteur — un dispositif stylo que certains salariés allergiques portent sur eux en permanence, sous les marques Anapen et Jext. L\'injection se fait dans la face antéro-latérale de la cuisse, à travers le vêtement si nécessaire. Après l\'injection, il faut maintenir la surveillance : l\'effet de l\'adrénaline peut s\'estomper avant l\'arrivée des secours, et une deuxième vague de réaction reste possible. Un seul auto-injecteur n\'est jamais suffisant — le 15 doit être appelé avant ou pendant son utilisation, jamais après." },
+      { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé des salariés. Lorsqu\'un salarié est connu pour présenter une allergie sévère, cela implique, en lien avec le médecin du travail, d\'évaluer les risques d\'exposition au poste concerné, d\'informer les Sauveteurs Secouristes du Travail présents sur le site et d\'intégrer un protocole individualisé dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). L\'article R.4224-16 du Code du travail précise que le matériel de premiers secours disponible dans l\'établissement doit être adapté aux risques spécifiques identifiés. Référence officielle : article L.4121-1 et article R.4224-16 du Code du travail." },
+      { type: "quote", text: "Face à un choc anaphylactique, attendre de voir si ça va mieux est la pire des décisions. La réaction peut se stabiliser quelques minutes puis reprendre avec une violence redoublée. Appeler le 15 tout de suite — avant même de chercher l\'auto-injecteur — c\'est le seul réflexe qui sauve." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences médicales graves en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
