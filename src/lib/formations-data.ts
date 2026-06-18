@@ -280,9 +280,9 @@ export const formationEntries: FormationEntry[] = [
     title: "Formation Gestes d'Urgence Petite Enfance",
     excerpt: "Réagir face aux urgences en crèche : convulsions, étouffement, traumatismes, fièvre. Protocole d'alerte, communication avec les parents, coordination avec les secours.",
     image: "/formations/formation-gestion-des-situations-durgence-en-creche.jpg",
-    category: "prevention",
-    categoryLabel: "Prévention",
-    categoryHref: "/formations-prevention",
+    category: "secourisme",
+    categoryLabel: "Secourisme",
+    categoryHref: "/formations-secourisme",
     date: "2025-07-07T12:00:48",
   },
   {
