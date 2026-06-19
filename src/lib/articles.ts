@@ -81,6 +81,7 @@ export const articleSlugs = [
   "crise-asthme-au-travail-conduite-a-tenir-sst",
   "epilepsie-au-travail-crise-conduite-a-tenir-sst",
   "choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst",
+  "traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4460,6 +4461,55 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé des salariés. Lorsqu\'un salarié est connu pour présenter une allergie sévère, cela implique, en lien avec le médecin du travail, d\'évaluer les risques d\'exposition au poste concerné, d\'informer les Sauveteurs Secouristes du Travail présents sur le site et d\'intégrer un protocole individualisé dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). L\'article R.4224-16 du Code du travail précise que le matériel de premiers secours disponible dans l\'établissement doit être adapté aux risques spécifiques identifiés. Référence officielle : article L.4121-1 et article R.4224-16 du Code du travail." },
       { type: "quote", text: "Face à un choc anaphylactique, attendre de voir si ça va mieux est la pire des décisions. La réaction peut se stabiliser quelques minutes puis reprendre avec une violence redoublée. Appeler le 15 tout de suite — avant même de chercher l\'auto-injecteur — c\'est le seul réflexe qui sauve." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences médicales graves en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Traumatisme crânien au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Chute, choc direct, accident de manutention : un traumatisme crânien peut survenir sur bien des postes. Signes à surveiller, gestes du SST et règle essentielle pour ne pas aggraver une éventuelle lésion rachidienne associée.",
+    publishedAt: "2026-06-19",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Un traumatisme crânien survient chaque fois qu\'un choc violent atteint la tête : chute de hauteur ou de plain-pied, projection contre une machine, impact lors d\'une manutention, accident de véhicule. Il peut s\'accompagner d\'une lésion cérébrale ou rachidienne qui n\'est pas toujours visible immédiatement. Le Sauveteur Secouriste du Travail doit agir avec méthode, sans sous-estimer une victime qui semble aller bien juste après l\'impact." },
+      { type: "h2", text: "Quels travailleurs sont les plus exposés ?" },
+      { type: "ul", items: [
+        "Salariés du BTP : chutes depuis des échafaudages, toitures, escaliers provisoires ou tranchées.",
+        "Conducteurs de chariots élévateurs ou de véhicules de livraison : chocs lors d\'un renversement ou d\'une collision.",
+        "Personnel de maintenance et d\'industrie : heurts contre des pièces saillantes, chutes dans des fosses ou sur des surfaces glissantes.",
+        "Travailleurs agricoles et espaces verts : chutes de tracteur ou heurts avec des outils mécaniques.",
+        "Tout salarié sur un site ou un chantier exposé à des risques de choc à la tête sans équipement de protection adapté.",
+      ]},
+      { type: "h2", text: "Les signes qui doivent alerter le SST" },
+      { type: "p", text: "Après un choc à la tête, certains signes indiquent une atteinte cérébrale potentiellement grave. Ils ne sont pas toujours immédiats : une victime consciente dans les premières minutes peut se dégrader rapidement. Tout signe de la liste suivante justifie un appel immédiat au 15 ou au 18." },
+      { type: "ul", items: [
+        "Perte de connaissance, même brève — c\'est le signe le plus significatif, quelles que soient les apparences actuelles.",
+        "Amnésie de l\'événement ou des instants qui l\'ont précédé.",
+        "Maux de tête inhabituels ou en augmentation.",
+        "Nausées ou vomissements apparus après le choc.",
+        "Confusion, désorientation, propos incohérents.",
+        "Inégalité des pupilles — l\'une plus dilatée que l\'autre.",
+        "Somnolence anormale ou difficulté à rester éveillé.",
+        "Écoulement de sang ou de liquide clair par l\'oreille ou le nez.",
+        "Perte de force ou engourdissement dans un membre.",
+      ]},
+      { type: "quote", text: "Un traumatisme crânien sans perte de connaissance visible n\'est pas un traumatisme crânien bénin. La dégradation peut survenir dans les heures qui suivent. Le SST ne pose pas de diagnostic — il alerte les secours et surveille." },
+      { type: "h2", text: "Conduite à tenir : protéger, alerter, surveiller" },
+      { type: "ul", items: [
+        "Protéger : sécuriser la zone autour de la victime sans la déplacer.",
+        "Ne pas mobiliser la tête ni le rachis : tout traumatisme crânien doit être considéré comme potentiellement associé à une lésion du rachis cervical.",
+        "Ne pas retirer le casque si la victime en porte un, sauf obstruction des voies aériennes.",
+        "Alerter le 15 ou le 18 en décrivant le mécanisme, les signes observés et l\'état de conscience.",
+        "Surveiller en continu : conscience, respiration, couleur de la peau.",
+        "Si la victime perd conscience et respire : maintenir la position avec contrôle du rachis jusqu\'à l\'arrivée des secours.",
+        "Si la victime ne respire plus : démarrer immédiatement la réanimation cardiopulmonaire et utiliser le DAE si disponible.",
+      ]},
+      { type: "h2", text: "La règle essentielle : ne pas mobiliser la victime" },
+      { type: "p", text: "Un traumatisme crânien peut s\'accompagner d\'une fracture du rachis cervical, même en l\'absence de douleur au cou. Toute mobilisation inappropriée de la tête peut aggraver une lésion médullaire et provoquer une paralysie définitive. Le SST ne tente pas de mettre la victime en position assise ni de lui soulever la tête : il maintient la position dans laquelle elle se trouve, en attendant les secours spécialisés." },
+      { type: "h2", text: "Obligations de l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose d\'évaluer les risques et de prendre les mesures nécessaires pour protéger la santé des salariés. Cela inclut l\'équipement de protection individuelle adapté aux postes exposés, l\'organisation des premiers secours conformément aux articles R.4224-15 et R.4224-16, et la formation de Sauveteurs Secouristes du Travail sur les sites concernés. Référence officielle : articles L.4121-1, R.4224-15 et R.4224-16 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face aux traumatismes et urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
