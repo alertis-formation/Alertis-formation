@@ -82,6 +82,7 @@ export const articleSlugs = [
   "epilepsie-au-travail-crise-conduite-a-tenir-sst",
   "choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst",
   "traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst",
+  "intoxication-monoxyde-carbone-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4510,6 +4511,58 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Obligations de l\'employeur" },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose d\'évaluer les risques et de prendre les mesures nécessaires pour protéger la santé des salariés. Cela inclut l\'équipement de protection individuelle adapté aux postes exposés, l\'organisation des premiers secours conformément aux articles R.4224-15 et R.4224-16, et la formation de Sauveteurs Secouristes du Travail sur les sites concernés. Référence officielle : articles L.4121-1, R.4224-15 et R.4224-16 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face aux traumatismes et urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "intoxication-monoxyde-carbone-travail-signes-conduite-a-tenir-sst": {
+    title: "Intoxication au monoxyde de carbone : signes et conduite à tenir pour le SST",
+    excerpt: "Le monoxyde de carbone est un gaz invisible et inodore responsable d\'intoxications collectives graves en milieu professionnel. Signes à reconnaître, gestes du SST et mesures de prévention à intégrer dans le DUERP.",
+    publishedAt: "2026-06-20",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/intoxication-monoxyde-carbone-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Le monoxyde de carbone (CO) est un gaz incolore et inodore produit par toute combustion incomplète. Indécelable sans instrument de mesure, il peut atteindre des concentrations dangereuses dans un local sans que personne ne s\'en rende compte. En entreprise, l\'intoxication au CO touche souvent plusieurs salariés en même temps. Connaître ses signes et savoir réagir sans s\'exposer soi-même est une compétence essentielle pour tout Sauveteur Secouriste du Travail." },
+      { type: "h2", text: "Quels environnements professionnels sont à risque ?" },
+      { type: "ul", items: [
+        "Garages automobiles et ateliers de maintenance : fonctionnement de moteurs thermiques dans des espaces mal ventilés.",
+        "Entrepôts logistiques avec chariots élévateurs thermiques ou GPL opérant à l\'intérieur.",
+        "Chantiers de construction ou espaces confinés avec groupes électrogènes à essence ou au diesel.",
+        "Cuisines professionnelles et collectivités : appareils à gaz défectueux ou insuffisamment entretenus.",
+        "Chaufferies, parkings souterrains et locaux techniques avec sources de combustion.",
+      ]},
+      { type: "h2", text: "Les signes d\'une intoxication au monoxyde de carbone" },
+      { type: "p", text: "Les symptômes varient selon la concentration et la durée d\'exposition. Ils peuvent ressembler à ceux d\'une grippe ou d\'un malaise banal, ce qui retarde souvent la prise en charge. Un signal fort doit alerter le SST : plusieurs salariés sont touchés simultanément dans le même local." },
+      { type: "ul", items: [
+        "Céphalées (maux de tête) persistantes — premier signe d\'une exposition modérée au CO.",
+        "Nausées, vomissements, vertiges ou sensations d\'étourdissement.",
+        "Fatigue intense et soudaine, faiblesse musculaire inexpliquée.",
+        "Confusion, difficultés à se concentrer, propos incohérents.",
+        "Coloration rose ou rouge cerise de la peau — signe tardif et grave, indiquant une intoxication sévère.",
+        "Perte de connaissance, convulsions ou arrêt cardiaque dans les formes les plus graves.",
+      ]},
+      { type: "quote", text: "Si plusieurs salariés présentent simultanément des maux de tête dans le même espace, l\'intoxication au CO est à suspecter immédiatement. Ne cherchez pas la source — évacuez d\'abord." },
+      { type: "h2", text: "Conduite à tenir du SST face à une intoxication au CO" },
+      { type: "ul", items: [
+        "Ne pas pénétrer seul dans le local suspect : le CO peut faire une deuxième victime parmi les secouristes.",
+        "Déclencher l\'alarme et évacuer immédiatement toutes les personnes présentes.",
+        "Couper les sources de combustion si cela est possible sans entrer dans la zone contaminée.",
+        "Appeler le 15 (SAMU) ou le 18 (sapeurs-pompiers) en précisant la nature du risque et le nombre de victimes.",
+        "Installer les victimes à l\'air frais, les allonger au repos et surveiller conscience et respiration.",
+        "Si la victime ne respire plus : démarrer la réanimation cardiopulmonaire et utiliser le DAE si disponible.",
+        "Ne pas réintégrer les locaux avant l\'accord des secours spécialisés.",
+      ]},
+      { type: "h2", text: "Prévention et intégration dans le DUERP" },
+      { type: "ul", items: [
+        "Faire entretenir régulièrement toutes les installations de combustion par un professionnel qualifié.",
+        "Assurer la ventilation suffisante des locaux où fonctionnent des moteurs thermiques ou des appareils à gaz.",
+        "Interdire l\'utilisation de groupes électrogènes ou de moteurs thermiques dans les espaces confinés ou mal ventilés.",
+        "Installer des détecteurs de CO dans tous les espaces à risque, à hauteur de respiration, et les tester régulièrement.",
+        "Informer et former les salariés aux signes d\'alerte et à la procédure d\'évacuation à suivre.",
+        "Intégrer le risque CO dans le Document Unique d\'Évaluation des Risques Professionnels pour chaque poste concerné.",
+      ]},
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Le risque d\'intoxication au CO doit figurer dans le DUERP pour tout établissement où des sources de combustion sont présentes. Les articles R.4224-15 et R.4224-16 précisent les obligations relatives à l\'organisation des premiers secours. Référence officielle : article L.4121-1 du Code du travail ; articles R.4224-15 et R.4224-16 du Code du travail." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la gestion des urgences collectives en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
