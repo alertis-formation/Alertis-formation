@@ -83,6 +83,7 @@ export const articleSlugs = [
   "choc-anaphylactique-au-travail-signes-conduite-a-tenir-sst",
   "traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst",
   "intoxication-monoxyde-carbone-travail-signes-conduite-a-tenir-sst",
+  "electrisation-electrocution-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4563,6 +4564,52 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Le risque d\'intoxication au CO doit figurer dans le DUERP pour tout établissement où des sources de combustion sont présentes. Les articles R.4224-15 et R.4224-16 précisent les obligations relatives à l\'organisation des premiers secours. Référence officielle : article L.4121-1 du Code du travail ; articles R.4224-15 et R.4224-16 du Code du travail." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la gestion des urgences collectives en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "electrisation-electrocution-travail-conduite-a-tenir-sst": {
+    title: "Électrisation et électrocution au travail : signes et conduite à tenir pour le SST",
+    excerpt: "L\'électrisation peut sembler bénigne en surface et masquer un arrêt cardiaque imminent ou des brûlures profondes. Pour le SST, la règle absolue est de ne jamais toucher la victime avant la mise hors tension.",
+    publishedAt: "2026-06-21",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/electrisation-electrocution-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "L\'électrisation désigne le passage du courant électrique dans le corps humain. Lorsqu\'elle entraîne le décès, on parle d\'électrocution. En milieu professionnel, ces accidents surviennent lors d\'opérations sur ou au voisinage d\'installations électriques, de contacts accidentels avec des lignes sous tension, ou de défauts d\'isolement non détectés. Une électrisation peut sembler bénigne en surface et masquer une fibrillation ventriculaire imminente ou des lésions internes profondes — toute victime d\'un contact électrique justifie une prise en charge médicale d\'urgence." },
+      { type: "h2", text: "Quels travailleurs sont les plus exposés ?" },
+      { type: "ul", items: [
+        "Électriciens et techniciens de maintenance intervenant sur des installations basse ou haute tension, notamment lors d\'opérations sans consignation préalable.",
+        "Salariés du BTP en contact accidentel avec des lignes aériennes lors de travaux de terrassement, de levage ou d\'échafaudage.",
+        "Agents d\'entretien utilisant des outils électroportatifs défectueux dans des locaux humides.",
+        "Personnel industriel effectuant des interventions sur des équipements sous tension sans habilitation adaptée.",
+        "Salariés de la logistique et de l\'industrie exposés à des défauts d\'isolement sur des installations fixes ou des engins électriques.",
+      ]},
+      { type: "h2", text: "Les effets du courant électrique sur le corps" },
+      { type: "ul", items: [
+        "Fibrillation ventriculaire : principal mécanisme d\'arrêt cardiaque lors d\'une électrisation, même à des intensités relativement faibles si le courant traverse le thorax.",
+        "Tétanie musculaire : le courant alternatif provoque des contractions involontaires qui empêchent la victime de lâcher le conducteur.",
+        "Brûlures électriques internes et externes : points d\'entrée et de sortie du courant, souvent discrets en surface mais pouvant être très étendus en profondeur.",
+        "Traumatisme par projection : la tétanie ou l\'énergie d\'un arc électrique peut projeter la victime violemment, entraînant des fractures ou un traumatisme crânien.",
+        "Lésions rénales différées : la destruction musculaire liée au passage du courant peut provoquer une insuffisance rénale dans les heures ou jours qui suivent.",
+      ]},
+      { type: "h2", text: "La règle absolue : ne jamais toucher une victime sous tension" },
+      { type: "p", text: "C\'est la priorité unique et absolue du SST face à une électrisation : ne jamais toucher la victime tant qu\'elle est en contact avec un conducteur sous tension. Le courant électrique se propagera immédiatement au secouriste. La mise hors tension doit être réalisée en coupant le disjoncteur ou l\'interrupteur général, par une personne habilitée si possible. En l\'absence de toute possibilité d\'agir sur l\'alimentation électrique, le SST alerte les secours et attend leur arrivée sans s\'approcher. Aucun matériau de fortune non isolant ne protège efficacement." },
+      { type: "quote", text: "Face à une victime sous tension, le réflexe naturel est de se précipiter pour l\'aider. Ce réflexe tue. La seule action du SST avant la mise hors tension est d\'alerter le 15 et de couper l\'alimentation électrique." },
+      { type: "h2", text: "Conduite à tenir du SST face à une électrisation" },
+      { type: "ul", items: [
+        "Vérifier que la victime n\'est plus en contact avec la source électrique et que l\'installation est hors tension avant tout contact.",
+        "Appeler le 15 (SAMU) ou le 18 (pompiers) immédiatement en précisant la nature électrique de l\'accident.",
+        "Vérifier la conscience et la respiration : une électrisation peut provoquer un arrêt cardiaque sans autre signe apparent.",
+        "Si la victime est inconsciente et ne respire pas : démarrer la réanimation cardiopulmonaire (RCP) et utiliser le défibrillateur automatisé externe (DAE) sans attendre.",
+        "Couvrir les brûlures visibles avec un pansement stérile sec.",
+        "Ne pas déplacer la victime sauf danger immédiat avéré.",
+        "Surveiller en continu conscience, respiration et état général jusqu\'à l\'arrivée des secours.",
+      ]},
+      { type: "h3", text: "Le DAE : une priorité après toute électrisation grave" },
+      { type: "p", text: "La fibrillation ventriculaire est le principal mécanisme d\'arrêt cardiaque lors d\'une électrisation. Le défibrillateur automatisé externe est le seul dispositif capable de détecter cette arythmie et d\'administrer le choc électrique nécessaire pour rétablir un rythme cardiaque efficace. Le SST doit connaître l\'emplacement exact des DAE sur le site et être en mesure de les mettre en œuvre immédiatement. La RCP et le DAE doivent être engagés de concert, sans délai." },
+      { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Pour le risque électrique, cela implique de faire respecter les procédures d\'habilitation définies aux articles R.4544-9 et suivants du Code du travail, d\'organiser les premiers secours conformément aux articles R.4224-15 et R.4224-16, et d\'intégrer le risque d\'électrisation dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). La présence de Sauveteurs Secouristes du Travail sur chaque site exposé à ce risque, et la disponibilité d\'un défibrillateur, constituent deux mesures concrètes pour limiter les séquelles en cas d\'accident. Référence officielle : articles L.4121-1, R.4544-9 et R.4224-15 du Code du travail." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des accidents électriques et des urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
