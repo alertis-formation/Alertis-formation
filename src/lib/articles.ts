@@ -84,6 +84,8 @@ export const articleSlugs = [
   "traumatisme-cranien-au-travail-signes-conduite-a-tenir-sst",
   "intoxication-monoxyde-carbone-travail-signes-conduite-a-tenir-sst",
   "electrisation-electrocution-travail-conduite-a-tenir-sst",
+  "plan-national-sante-travail-2026-2030-pst5-axes-prevention",
+  "decret-2026-496-passeport-prevention-echeances-declarations",
 ] as const;
 
 /**
@@ -114,6 +116,8 @@ export const veilleArticleSlugs = new Set<string>([
   "recommandations-ancesu-sfmu-2026-gestes-soins-urgence-afgsu",
   "arrete-19-fevrier-2026-structures-combustibles-bois-erp",
   "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
+  "plan-national-sante-travail-2026-2030-pst5-axes-prevention",
+  "decret-2026-496-passeport-prevention-echeances-declarations",
 ]);
 
 export type ArticleBlock =
@@ -4610,6 +4614,66 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Pour le risque électrique, cela implique de faire respecter les procédures d\'habilitation définies aux articles R.4544-9 et suivants du Code du travail, d\'organiser les premiers secours conformément aux articles R.4224-15 et R.4224-16, et d\'intégrer le risque d\'électrisation dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). La présence de Sauveteurs Secouristes du Travail sur chaque site exposé à ce risque, et la disponibilité d\'un défibrillateur, constituent deux mesures concrètes pour limiter les séquelles en cas d\'accident. Référence officielle : articles L.4121-1, R.4544-9 et R.4224-15 du Code du travail." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des accidents électriques et des urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "plan-national-sante-travail-2026-2030-pst5-axes-prevention": {
+    title: "Plan Santé au Travail 2026-2030 : les cinq axes prioritaires de la prévention en entreprise",
+    excerpt: "Le 5e Plan national Santé au Travail, présenté le 5 juin 2026, fixe la feuille de route de la prévention des risques professionnels jusqu\'en 2030. Cinq axes dont la lutte contre les accidents graves et les RPS.",
+    publishedAt: "2026-06-05",
+    category: "Prévention",
+    readingTime: 4,
+    image: "/categories/prevention.jpg",
+    content: [
+      { type: "p", text: "Le Plan Santé au Travail 2026-2030 (PST5), présenté le 5 juin 2026 par le ministre du Travail au Conseil national d\'orientation des conditions de travail (CNOCT), constitue la feuille de route nationale pour améliorer la santé des salariés et réduire les risques professionnels d\'ici 2030. Ce cinquième plan s\'inscrit dans la continuité du PST 2021-2025 et intègre les enjeux émergents identifiés avec les partenaires sociaux." },
+      { type: "h2", text: "Ce que prévoit le plan" },
+      { type: "p", text: "Le PST5 n\'est pas un texte réglementaire mais une feuille de route stratégique déclinée au niveau régional par les Plans régionaux santé travail (PRST), pilotés par les DREETS. Il fixe cinq axes sur lesquels les acteurs de la prévention — médecins du travail, inspection du travail, CARSAT, INRS et organismes de formation — doivent concentrer leurs efforts jusqu\'en 2030. Il anticipe également des évolutions réglementaires sur chacun de ces axes." },
+      { type: "h2", text: "Les cinq axes prioritaires" },
+      { type: "ul", items: [
+        "Prévention des accidents graves et mortels : renforcement des dispositifs d\'accueil des salariés temporaires et des jeunes, populations statistiquement surexposées aux accidents du travail.",
+        "Santé des femmes au travail : évaluation des risques différenciée selon le sexe, adaptation des équipements de protection individuelle (EPI) et lutte contre les violences sexuelles et sexistes en milieu professionnel.",
+        "Enjeux émergents : adaptation des entreprises au changement climatique (prévention des risques liés à la forte chaleur) et prévention des conduites addictives en milieu professionnel.",
+        "Prévention de l\'absentéisme : développement d\'une logique de prévention primaire et accompagnement des acteurs de terrain pour réduire les arrêts de travail.",
+        "Santé mentale et risques psychosociaux (RPS) : axe désigné grande cause nationale 2025-2026, visant à renforcer la prévention des RPS dans toutes les entreprises et à promouvoir la santé mentale au travail.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "L\'ensemble des employeurs est concerné par les orientations du PST5, qui se déclinera en actions concrètes via les PRST, les campagnes de contrôle de l\'inspection du travail et les évolutions réglementaires annoncées. Les membres du CSE et les préventeurs sont en première ligne pour traduire ces axes dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP) et les plans d\'actions de prévention de leur entreprise." },
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "ul", items: [
+        "L\'axe prévention des accidents graves renforce l\'importance des formations Sauveteur Secouriste du Travail (SST), incendie (EPI, guide-file) et habilitation électrique pour les postes exposés, notamment pour les salariés temporaires.",
+        "L\'axe santé mentale et RPS conforte la nécessité de former les élus du CSE à l\'évaluation des risques psychosociaux dans le cadre de leur mission santé-sécurité.",
+        "L\'axe prévention de l\'absentéisme vise directement la réduction des troubles musculo-squelettiques (TMS), première maladie professionnelle en France — ce qui renforce l\'intérêt des formations PRAP IBC et PRAP 2S ALM.",
+        "L\'axe femmes au travail met en lumière les risques spécifiques liés à la manutention de personnes dans les EHPAD et établissements de soins, domaine couvert par le PRAP 2S ALM.",
+      ]},
+      { type: "p", text: "Référence officielle : Plan Santé au Travail 2026-2030 (PST5), présenté au Conseil national d\'orientation des conditions de travail (CNOCT) le 5 juin 2026. Document accessible sur le site du ministère du Travail et des Solidarités (travail-emploi.gouv.fr)." },
+      { type: "cta", text: "Pour décliner les axes du PST5 dans votre entreprise à travers des formations concrètes,", label: "découvrez nos formations en prévention des risques", href: "/formations" },
+    ],
+  },
+
+  "decret-2026-496-passeport-prevention-echeances-declarations": {
+    title: "Décret 2026-496 du 12 juin 2026 : les nouvelles échéances du passeport de prévention",
+    excerpt: "Le décret n° 2026-496 du 12 juin 2026 ajuste les délais de déclaration des formations SST dans le passeport de prévention. Employeurs et organismes de formation disposent de nouvelles dates butoirs.",
+    publishedAt: "2026-06-12",
+    category: "Prévention",
+    readingTime: 3,
+    image: "/formations/formation-sst-sauveteur-secouriste-du-travail.jpg",
+    content: [
+      { type: "p", text: "Le passeport de prévention, prévu à l\'article L.4141-5 du Code du travail, permet à chaque salarié de centraliser l\'ensemble de ses attestations de formation en santé et sécurité au travail : SST, incendie, habilitation électrique, PRAP. Introduit par la loi n° 2018-771 du 5 septembre 2018 et opérationnel depuis 2025, son déploiement est progressif et encadré par un calendrier de déclaration précis pour les organismes de formation et les employeurs." },
+      { type: "h2", text: "Ce que change le décret n° 2026-496" },
+      { type: "p", text: "Publié au Journal officiel le 13 juin 2026, le décret n° 2026-496 du 12 juin 2026 (NOR : TRST2612774D) modifie les délais transitoires fixés par le décret n° 2025-748 du 1er août 2025 relatif aux déclarations dans le passeport de prévention. Il ajuste plusieurs échéances et élargit la période ouverte aux employeurs pour régulariser leurs déclarations passées." },
+      { type: "ul", items: [
+        "Import en masse des données de formation : avancé au 9 juillet 2026 (au lieu du 31 décembre 2026).",
+        "Déclarations pour les titulaires d\'un compte personnel de formation (CPF) : date limite fixée au 16 novembre 2026.",
+        "Période de déclaration ouverte aux employeurs : étendue du 16 mars au 31 décembre 2026.",
+        "Formations terminées entre le 16 et le 31 mars 2026 : déclaration obligatoire avant le 1er avril 2027.",
+        "Fonctionnalités alternatives dans la plateforme : maintenues jusqu\'au 15 novembre 2026.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Toutes les entreprises ayant fait réaliser des formations en santé et sécurité au travail depuis 2025 sont concernées par ces nouvelles échéances. Les organismes de formation habilités — pour le SST, le PRAP, l\'incendie, les habilitations électriques — doivent également déclarer leurs sessions dans la plateforme passeport de prévention, accessible via Mon Compte Formation (moncompteformation.gouv.fr)." },
+      { type: "h2", text: "Impact sur les formations de prévention" },
+      { type: "p", text: "Toutes les formations en santé-sécurité sont éligibles à l\'enregistrement dans le passeport de prévention : SST et MAC SST, PRAP IBC et PRAP 2S ALM, formations incendie EPI, habilitations électriques, formations gestes et postures. Ces déclarations constituent une traçabilité utile lors des contrôles liés aux obligations des articles R.4224-15 et R.4227-28 du Code du travail, et permettent aux salariés de valoriser leurs compétences tout au long de leur carrière." },
+      { type: "p", text: "Référence officielle : décret n° 2026-496 du 12 juin 2026 (NOR : TRST2612774D), modifiant le décret n° 2025-748 du 1er août 2025, pris en application de l\'article L.4141-5 du Code du travail. Consultable sur Légifrance (JORFTEXT000054245439)." },
+      { type: "cta", text: "Pour vous assurer que vos formations SST et prévention sont bien déclarées dans le passeport de prévention,", label: "consultez notre catalogue de formations", href: "/formations" },
     ],
   },
 };
