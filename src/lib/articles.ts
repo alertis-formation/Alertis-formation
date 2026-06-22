@@ -86,6 +86,7 @@ export const articleSlugs = [
   "electrisation-electrocution-travail-conduite-a-tenir-sst",
   "plan-national-sante-travail-2026-2030-pst5-axes-prevention",
   "decret-2026-496-passeport-prevention-echeances-declarations",
+  "malaise-vagal-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4674,6 +4675,54 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Toutes les formations en santé-sécurité sont éligibles à l\'enregistrement dans le passeport de prévention : SST et MAC SST, PRAP IBC et PRAP 2S ALM, formations incendie EPI, habilitations électriques, formations gestes et postures. Ces déclarations constituent une traçabilité utile lors des contrôles liés aux obligations des articles R.4224-15 et R.4227-28 du Code du travail, et permettent aux salariés de valoriser leurs compétences tout au long de leur carrière." },
       { type: "p", text: "Référence officielle : décret n° 2026-496 du 12 juin 2026 (NOR : TRST2612774D), modifiant le décret n° 2025-748 du 1er août 2025, pris en application de l\'article L.4141-5 du Code du travail. Consultable sur Légifrance (JORFTEXT000054245439)." },
       { type: "cta", text: "Pour vous assurer que vos formations SST et prévention sont bien déclarées dans le passeport de prévention,", label: "consultez notre catalogue de formations", href: "/formations" },
+    ],
+  },
+
+  "malaise-vagal-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Malaise vagal au travail : reconnaître les signes et agir en secouriste",
+    excerpt: "Le malaise vagal est l\'une des pertes de connaissance les plus fréquentes en entreprise. Impressionnant, il est rarement grave — à condition que le SST sache le reconnaître et adopte la bonne conduite à tenir.",
+    publishedAt: "2026-06-22",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/malaise-vagal-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Le malaise vagal — ou syncope vasovagale — est l\'une des pertes de connaissance les plus fréquentes en milieu professionnel. Il survient lors d\'un choc émotionnel, d\'une douleur soudaine, d\'une chaleur excessive, d\'une longue station debout ou d\'une prise de sang. Impressionnant pour l\'entourage, ce malaise est rarement grave dans sa forme classique — mais il peut masquer une urgence cardiaque ou provoquer un traumatisme lors de la chute. Le Sauveteur Secouriste du Travail doit savoir le reconnaître et réagir." },
+      { type: "h2", text: "Qu\'est-ce qu\'un malaise vagal ?" },
+      { type: "p", text: "Le malaise vagal résulte d\'une stimulation excessive du nerf vague, qui provoque une chute brutale de la fréquence cardiaque et de la pression artérielle. Le cerveau, temporairement moins irrigué, commande une perte de connaissance pour forcer le retour à l\'horizontale. Cette réaction de l\'organisme est protectrice : en allongeant la personne, la gravité rétablit rapidement le débit sanguin cérébral. La perte de connaissance dure en général quelques secondes à deux minutes." },
+      { type: "h2", text: "Les signes avant-coureurs à reconnaître" },
+      { type: "ul", items: [
+        "Pâleur soudaine du visage.",
+        "Sensation de chaleur ou de froid brutal.",
+        "Sueurs froides.",
+        "Nausées ou envie de vomir.",
+        "Vertiges, sensation que la tête tourne.",
+        "Vision qui se brouille ou noircit.",
+        "Bourdonnements d\'oreilles.",
+        "Faiblesse des jambes, sensation de jambes molles.",
+        "Bâillements répétés.",
+      ]},
+      { type: "h2", text: "Conduite à tenir du SST face à un malaise vagal" },
+      { type: "ul", items: [
+        "Si la victime est encore consciente et présente des signes avant-coureurs : l\'allonger immédiatement à plat, jambes légèrement surélevées, pour favoriser le retour du sang vers le cerveau.",
+        "Si la victime est inconsciente mais respire : la maintenir allongée, jambes surélevées, desserrer les vêtements serrés (ceinture, col, cravate). Ne pas la relever brutalement.",
+        "Alerter le 15 ou le 18, ou demander à quelqu\'un de le faire, pendant que vous restez auprès de la victime.",
+        "Surveiller en continu la conscience et la respiration jusqu\'au retour à la normale ou à l\'arrivée des secours.",
+        "Si la victime ne respire plus ou respire anormalement : basculer immédiatement en protocole arrêt cardiaque — appel du 15, RCP et DAE.",
+      ]},
+      { type: "quote", text: "Allonger une victime qui présente les signes d\'un malaise vagal, c\'est parfois la seule action nécessaire pour qu\'elle reprenne conscience en quelques secondes." },
+      { type: "h2", text: "Malaise vagal ou arrêt cardiaque : ne pas confondre" },
+      { type: "p", text: "La différence est fondamentale. Dans un malaise vagal, la victime respire normalement une fois allongée et reprend conscience rapidement. Dans un arrêt cardiaque, la respiration est absente ou anormale (gasps) et la victime ne reprend pas connaissance. La pâleur et la perte de connaissance sont communes aux deux situations : c\'est la vérification de la respiration qui permet au SST de trancher. En cas de doute, le SST applique le protocole arrêt cardiaque sans attendre." },
+      { type: "h2", text: "Quand appeler le 15 ?" },
+      { type: "ul", items: [
+        "La perte de connaissance dure plus de deux à trois minutes.",
+        "La victime ne reprend pas conscience après avoir été allongée.",
+        "La victime présente une respiration anormale ou absente après la syncope.",
+        "La victime a chuté et présente un traumatisme crânien ou une blessure visible.",
+        "Le malaise survient avec une douleur thoracique ou après un effort intense.",
+        "Le malaise se répète ou la victime déclare des antécédents cardiaques.",
+      ]},
+      { type: "p", text: "La conduite à tenir du SST face au malaise vagal s\'appuie sur les recommandations de formation SST encadrées par l\'INRS et le réseau Assurance Maladie Risques professionnels. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail relatifs à l\'organisation des premiers secours en entreprise." },
+      { type: "cta", text: "Pour former vos salariés à la prise en charge des malaises et urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
