@@ -87,6 +87,7 @@ export const articleSlugs = [
   "plan-national-sante-travail-2026-2030-pst5-axes-prevention",
   "decret-2026-496-passeport-prevention-echeances-declarations",
   "malaise-vagal-au-travail-signes-conduite-a-tenir-sst",
+  "fractures-entorses-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -4723,6 +4724,45 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "La conduite à tenir du SST face au malaise vagal s\'appuie sur les recommandations de formation SST encadrées par l\'INRS et le réseau Assurance Maladie Risques professionnels. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail relatifs à l\'organisation des premiers secours en entreprise." },
       { type: "cta", text: "Pour former vos salariés à la prise en charge des malaises et urgences en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "fractures-entorses-travail-signes-conduite-a-tenir-sst": {
+    title: "Fractures et entorses au travail : signes et conduite à tenir pour le SST",
+    excerpt: "Chutes, chocs et manutention provoquent chaque année des fractures et entorses en entreprise. Le SST est souvent le premier intervenant : voici comment évaluer la gravité et adopter la bonne conduite à tenir.",
+    publishedAt: "2026-06-23",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/fractures-entorses-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Les chutes de plain-pied, les chocs contre du matériel et les efforts de manutention provoquent chaque année de nombreuses fractures et entorses dans les entreprises. Le Sauveteur Secouriste du Travail est souvent le premier à intervenir auprès d\'une victime qui ne peut plus bouger un membre. Savoir évaluer la gravité, immobiliser sans aggraver et activer la chaîne de secours au bon moment peut faire une différence réelle sur le pronostic de la blessure." },
+      { type: "h2", text: "Fracture ou entorse : une distinction que le SST ne cherche pas à poser" },
+      { type: "p", text: "Le SST n\'est pas là pour poser un diagnostic médical. Dans les premières minutes, la différence entre une fracture sévère et une entorse grave est souvent impossible à établir à l\'œil nu. La règle est simple : toute douleur intense, tout gonflement, toute impotence fonctionnelle après un choc ou une chute est traitée comme une suspicion de fracture, jusqu\'à avis médical contraire. Cette prudence protège la victime d\'une aggravation." },
+      { type: "h2", text: "Les signes à repérer" },
+      { type: "ul", items: [
+        "Douleur vive et localisée, augmentant à la pression du point blessé.",
+        "Impotence fonctionnelle : impossibilité ou grande difficulté à mobiliser le membre.",
+        "Gonflement (œdème) qui apparaît rapidement après le traumatisme.",
+        "Ecchymose (bleu) qui peut se manifester dans les minutes ou heures suivantes.",
+        "Déformation visible du membre ou d\'une articulation : signe fort d\'une fracture.",
+        "Crépitement osseux perçu à la palpation : ne pas chercher à le reproduire.",
+      ]},
+      { type: "h2", text: "Fractures qui engagent le pronostic vital" },
+      { type: "p", text: "Certaines fractures sont des urgences absolues qui nécessitent l\'appel immédiat du 15. La fracture du fémur peut provoquer une hémorragie interne massive dans la cuisse, entraînant un état de choc. La fracture du bassin présente un risque hémorragique encore plus élevé. Une fracture du rachis, suspectée lorsque la victime a subi un choc ou une chute sur la colonne vertébrale, impose l\'immobilisation totale dans la position trouvée : ne pas mobiliser, appeler le 15, attendre les secours." },
+      { type: "h2", text: "Conduite à tenir du SST face à une suspicion de fracture" },
+      { type: "ul", items: [
+        "Ne pas mobiliser ni soulever le membre blessé, même si la victime demande à se lever.",
+        "Ne pas tenter de remettre les os en place ni de réduire une déformation visible.",
+        "Ne pas retirer les chaussures ni les vêtements en force, sauf nécessité absolue pour contrôler une hémorragie associée.",
+        "Immobiliser le membre dans la position trouvée en le soutenant au-dessus et en dessous du foyer suspect.",
+        "En cas de fracture du fémur, du bassin ou de suspicion de fracture du rachis : appeler le 15 immédiatement et maintenir la victime immobile jusqu\'à l\'arrivée des secours.",
+        "En cas de fracture d\'un avant-bras, d\'un poignet, d\'une cheville ou d\'un pied : orienter vers une consultation médicale sans mobilisation forcée.",
+      ]},
+      { type: "h2", text: "Cas particulier : la fracture ouverte" },
+      { type: "p", text: "Lorsque l\'os perce ou déchire la peau, on parle de fracture ouverte. C\'est une urgence médicale : le risque d\'infection et d\'hémorragie est élevé. La conduite du SST consiste à couvrir la plaie avec un pansement propre sans tenter de remettre les fragments osseux en place et sans appuyer directement sur l\'os visible. Appeler le 15 sans délai. Surveiller l\'état de conscience et la respiration jusqu\'à l\'arrivée des secours." },
+      { type: "quote", text: "Face à une fracture suspectée, immobiliser dans la position trouvée vaut mieux qu\'agir vite : une mobilisation brutale peut aggraver les lésions et transformer une fracture simple en urgence vasculaire ou neurologique." },
+      { type: "p", text: "La formation du Sauveteur Secouriste du Travail inclut la conduite à tenir face aux traumatismes des membres dans le cadre du référentiel national encadré par l\'INRS et l\'Assurance Maladie Risques professionnels. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail relatifs à l\'organisation des premiers secours en entreprise." },
+      { type: "cta", text: "Pour former vos équipes à la prise en charge des traumatismes et urgences au travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
