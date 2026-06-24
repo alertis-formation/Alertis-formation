@@ -88,6 +88,7 @@ export const articleSlugs = [
   "decret-2026-496-passeport-prevention-echeances-declarations",
   "malaise-vagal-au-travail-signes-conduite-a-tenir-sst",
   "fractures-entorses-travail-signes-conduite-a-tenir-sst",
+  "vibrations-mecaniques-travail-evaluation-risques-prevention",
 ] as const;
 
 /**
@@ -4763,6 +4764,53 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Face à une fracture suspectée, immobiliser dans la position trouvée vaut mieux qu\'agir vite : une mobilisation brutale peut aggraver les lésions et transformer une fracture simple en urgence vasculaire ou neurologique." },
       { type: "p", text: "La formation du Sauveteur Secouriste du Travail inclut la conduite à tenir face aux traumatismes des membres dans le cadre du référentiel national encadré par l\'INRS et l\'Assurance Maladie Risques professionnels. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail relatifs à l\'organisation des premiers secours en entreprise." },
       { type: "cta", text: "Pour former vos équipes à la prise en charge des traumatismes et urgences au travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "vibrations-mecaniques-travail-evaluation-risques-prevention": {
+    title: "Vibrations mécaniques au travail : évaluation des risques et prévention",
+    excerpt: "Les vibrations mécaniques exposent chaque jour de nombreux travailleurs à des pathologies reconnues en maladies professionnelles. Voici comment évaluer le risque et mettre en place des mesures concrètes.",
+    publishedAt: "2026-06-24",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/vibrations-mecaniques-travail-evaluation-risques-prevention.jpg",
+    content: [
+      { type: "p", text: "Les vibrations mécaniques sont un risque professionnel présent dans de nombreux secteurs : BTP, industrie, agriculture, logistique. Qu\'il s\'agisse de marteaux-piqueurs, de tronçonneuses, de chariots élévateurs ou d\'engins de chantier, les travailleurs exposés développent, sur la durée, des pathologies reconnues en maladies professionnelles. Le Code du travail impose à l\'employeur une évaluation rigoureuse et des mesures de prévention adaptées." },
+      { type: "h2", text: "Deux types de vibrations, deux risques distincts" },
+      { type: "p", text: "Les vibrations mains-bras (VMB) sont transmises aux membres supérieurs via des outils tenus à la main : perceuses, meuleuses, marteaux-piqueurs, tronçonneuses. Les vibrations corps entier (VCE) se propagent à l\'ensemble du corps via le siège ou le plancher : chariots élévateurs, tracteurs, engins de terrassement, véhicules roulant sur terrain accidenté. Ces deux catégories relèvent de valeurs réglementaires distinctes et génèrent des pathologies différentes." },
+      { type: "h2", text: "Les valeurs réglementaires d\'exposition" },
+      { type: "ul", items: [
+        "VMB — Valeur d\'action journalière : 2,5 m/s² A(8). Dès ce seuil, l\'employeur doit mettre en œuvre un programme de mesures de prévention.",
+        "VMB — Valeur limite d\'exposition journalière : 5 m/s² A(8). Ce seuil ne peut jamais être dépassé.",
+        "VCE — Valeur d\'action journalière : 0,5 m/s² A(8). Des mesures de prévention s\'imposent dès ce niveau.",
+        "VCE — Valeur limite d\'exposition journalière : 1,15 m/s² A(8). Plafond absolu, dépassement interdit.",
+        "Ces seuils sont fixés par le Code du travail (articles R.4441-1 et suivants), en application de la directive européenne 2002/44/CE.",
+      ]},
+      { type: "h2", text: "Effets sur la santé reconnus en maladie professionnelle" },
+      { type: "ul", items: [
+        "VMB : syndrome de Raynaud professionnel (doigts blancs et engourdissements déclenchés par le froid), troubles vasculaires des membres supérieurs, syndrome du canal carpien, arthrose du coude. Classés au tableau n°69 du régime général.",
+        "VCE : lombalgies chroniques, hernies discales, discopathies dégénératives du rachis lombaire. Classés au tableau n°97 du régime général.",
+        "Les effets apparaissent après plusieurs années d\'exposition répétée au-delà des valeurs d\'action : prévenir tôt est la seule option efficace.",
+      ]},
+      { type: "h2", text: "Évaluer le risque vibratoire : méthode pratique" },
+      { type: "ul", items: [
+        "Recenser tous les postes exposés à des outils portatifs vibrants, machines fixes et engins roulants.",
+        "Consulter les valeurs d\'émission déclarées par le fabricant dans la notice d\'instructions (obligatoire selon la directive Machines).",
+        "Utiliser la base de données européenne des vibrations ou les fiches pratiques INRS pour estimer le niveau d\'exposition par type d\'outil.",
+        "Pour les expositions proches ou supérieures aux valeurs d\'action, faire réaliser des mesures selon la méthode normalisée NF EN ISO 5349-1 (VMB) ou NF EN ISO 2631-1 (VCE).",
+        "Intégrer les résultats au Document Unique d\'Évaluation des Risques Professionnels (DUERP) et actualiser à chaque changement d\'équipement.",
+      ]},
+      { type: "h2", text: "Mesures de prévention à prioriser" },
+      { type: "ul", items: [
+        "Substitution : sélectionner des outils et engins aux valeurs d\'émission les plus basses lors des achats et renouvellements.",
+        "Maintenance préventive : affûtage des lames, gonflage des pneus, resserrage des fixations. Un outil usé vibre davantage.",
+        "Organisation du travail : rotation des opérateurs sur les postes vibrants et pauses régulières pour limiter le temps d\'exposition journalier.",
+        "Équipements : sièges à suspension pneumatique pour les conducteurs d\'engins (VCE), poignées anti-vibratiles et gants atténuateurs conformes à la norme EN ISO 10819 pour les outils (VMB).",
+        "Surveillance médicale renforcée pour les travailleurs exposés au-delà des valeurs d\'action, conformément aux obligations du Code du travail.",
+      ]},
+      { type: "quote", text: "Choisir un outil moins vibrant à l\'achat coûte souvent moins cher qu\'un reclassement professionnel pour syndrome de Raynaud dix ans plus tard." },
+      { type: "p", text: "Référence officielle : Code du travail, articles R.4441-1 à R.4448-1 (vibrations mécaniques) ; directive 2002/44/CE du Parlement européen et du Conseil du 25 juin 2002 ; tableaux n°69 et n°97 des maladies professionnelles du régime général." },
+      { type: "cta", text: "Pour évaluer et réduire l\'exposition aux vibrations mécaniques dans votre entreprise,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
