@@ -89,6 +89,7 @@ export const articleSlugs = [
   "malaise-vagal-au-travail-signes-conduite-a-tenir-sst",
   "fractures-entorses-travail-signes-conduite-a-tenir-sst",
   "vibrations-mecaniques-travail-evaluation-risques-prevention",
+  "travail-espaces-confines-risques-prevention-permis-penetrer",
 ] as const;
 
 /**
@@ -4811,6 +4812,51 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Choisir un outil moins vibrant à l\'achat coûte souvent moins cher qu\'un reclassement professionnel pour syndrome de Raynaud dix ans plus tard." },
       { type: "p", text: "Référence officielle : Code du travail, articles R.4441-1 à R.4448-1 (vibrations mécaniques) ; directive 2002/44/CE du Parlement européen et du Conseil du 25 juin 2002 ; tableaux n°69 et n°97 des maladies professionnelles du régime général." },
       { type: "cta", text: "Pour évaluer et réduire l\'exposition aux vibrations mécaniques dans votre entreprise,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "travail-espaces-confines-risques-prevention-permis-penetrer": {
+    title: "Travail en espaces confinés : risques, prévention et permis de pénétrer",
+    excerpt: "Un espace confiné peut tuer en quelques minutes par asphyxie, intoxication ou explosion. Voici comment évaluer les risques, organiser les interventions et utiliser le permis de pénétrer.",
+    publishedAt: "2026-06-25",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/travail-espaces-confines-risques-prevention-permis-penetrer.jpg",
+    content: [
+      { type: "p", text: "Un espace confiné est un lieu fermé ou semi-fermé, non conçu pour une occupation permanente, dans lequel des risques pour la santé et la vie peuvent surgir rapidement : asphyxie par déficience en oxygène, intoxication par gaz toxiques, explosion d\'une atmosphère inflammable. En France, les accidents dans ces environnements sont régulièrement mortels, souvent parce que le sauveteur improvise une intervention sans protection et devient lui-même une victime. La prévention repose sur une identification rigoureuse de ces espaces, une évaluation des atmosphères avant entrée et l\'utilisation systématique d\'un permis de pénétrer." },
+      { type: "h2", text: "Qu\'est-ce qu\'un espace confiné ?" },
+      { type: "p", text: "Un espace confiné se caractérise par trois critères : des ouvertures d\'entrée et de sortie limitées, une ventilation naturelle insuffisante et une destination non prévue pour une occupation continue. Les exemples courants en milieu professionnel sont nombreux : égouts, fosses septiques, cuves de stockage, silos, puits de visite, galeries souterraines, chaudières hors tension, réservoirs, tunnels en construction et galeries techniques. La dangerosité tient à la capacité de ces espaces à piéger des gaz asphyxiants ou explosifs sans que la personne qui y pénètre puisse le détecter à l\'odeur ou à la vue." },
+      { type: "h2", text: "Les risques spécifiques des espaces confinés" },
+      { type: "ul", items: [
+        "Asphyxie par déficience en oxygène : l\'air peut être appauvri en O₂ en dessous de 17 % par décomposition de matières organiques, réactions chimiques ou déplacement par un autre gaz. En dessous de 12 %, la perte de connaissance est quasi immédiate.",
+        "Intoxication par gaz toxiques : le sulfure d\'hydrogène (H₂S) dans les réseaux d\'assainissement, le monoxyde de carbone (CO) dans les espaces où des moteurs ont fonctionné, ou des vapeurs de produits chimiques résiduels peuvent atteindre des concentrations mortelles.",
+        "Explosion ou incendie : un espace confiné peut contenir des vapeurs de solvants, du méthane ou d\'autres gaz inflammables. Une étincelle — outil électrique, téléphone — peut déclencher une explosion.",
+        "Chutes dans les cuves ou fosses profondes, ensevelissement dans les silos à granulats ou à céréales, noyade dans les bassins de rétention.",
+        "Accidents de sauvetage : la majorité des décès dans les espaces confinés surviennent chez les sauveteurs qui tentent d\'intervenir sans équipement approprié.",
+      ]},
+      { type: "h2", text: "Secteurs et postes les plus exposés" },
+      { type: "ul", items: [
+        "Assainissement et réseaux : agents intervenant dans les égouts, fosses septiques et bassins de rétention.",
+        "Industrie et chimie : maintenance dans les cuves de stockage, réacteurs, colonnes de distillation et silos.",
+        "BTP : travaux dans les puits, tunnels, galeries techniques et caves de fondations.",
+        "Agriculture : interventions dans les silos à grains, fosses à lisier et citernes de produits phytosanitaires.",
+        "Énergie et tertiaire : maintenance des chaufferies, transformateurs et galeries de câbles souterrains.",
+      ]},
+      { type: "h2", text: "Le permis de pénétrer : outil clé de maîtrise des risques" },
+      { type: "p", text: "Le permis de pénétrer est un document écrit, signé avant chaque intervention, qui formalise l\'évaluation des risques propres à l\'espace concerné et les mesures de sécurité à respecter. Il identifie les personnes autorisées à entrer, le superviseur responsable, les mesures de ventilation préalable, les mesures atmosphériques réalisées, les équipements de protection individuelle (EPI) à porter — masque à adduction d\'air, harnais, ligne de vie — et la procédure d\'alerte et de sauvetage. Ce document n\'est pas un outil bureaucratique : il contraint à poser les bonnes questions avant d\'agir et à ne pas entrer sans avoir vérifié que les conditions sont sûres." },
+      { type: "h2", text: "Préparer l\'intervention : les points de contrôle" },
+      { type: "ul", items: [
+        "Identifier formellement l\'espace confiné et l\'intégrer au Document Unique d\'Évaluation des Risques Professionnels (DUERP) avec ses risques spécifiques.",
+        "Ventiler mécaniquement l\'espace avant entrée et, si nécessaire, pendant toute la durée de l\'intervention.",
+        "Mesurer l\'atmosphère intérieure avec un détecteur multigaz (O₂, CO, H₂S, gaz inflammables) avant toute entrée et régulièrement pendant l\'intervention.",
+        "Désigner un surveillant posté à l\'extérieur, en communication constante avec l\'opérateur à l\'intérieur — le surveillant ne pénètre jamais dans l\'espace.",
+        "Prévoir les équipements de sauvetage accessibles depuis l\'extérieur : treuil, ligne de vie, appareil respiratoire isolant (ARI) pour le sauveteur potentiel.",
+        "Former les intervenants aux risques spécifiques des espaces confinés et à la conduite à tenir en cas d\'urgence.",
+        "Ne jamais intervenir seul : toute intervention nécessite au minimum un opérateur à l\'intérieur et un surveillant à l\'extérieur.",
+      ]},
+      { type: "quote", text: "La quasi-totalité des accidents mortels en espace confiné se produisent lors de tentatives de sauvetage non préparées. Un opérateur inconscient dans une fosse ne se sauve pas à mains nues : il faut un protocole, un équipement et un sauveteur formé à l\'extérieur." },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Lorsque des entreprises extérieures interviennent dans les espaces confinés d\'un établissement, l\'élaboration d\'un plan de prévention est encadrée par les articles R.4512-1 et suivants du Code du travail. Le risque espace confiné doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels pour tout établissement disposant de ce type d\'installation. Référence officielle : article L.4121-1 du Code du travail ; articles R.4512-1 à R.4514-8 du Code du travail (plan de prévention pour travaux réalisés par des entreprises extérieures)." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques professionnels, y compris les interventions en milieux dangereux,", label: "consultez notre catalogue de formations", href: "/formations" },
     ],
   },
 };
