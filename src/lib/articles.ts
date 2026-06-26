@@ -90,6 +90,7 @@ export const articleSlugs = [
   "fractures-entorses-travail-signes-conduite-a-tenir-sst",
   "vibrations-mecaniques-travail-evaluation-risques-prevention",
   "travail-espaces-confines-risques-prevention-permis-penetrer",
+  "droit-alerte-retrait-danger-grave-imminent-procedure",
 ] as const;
 
 /**
@@ -4857,6 +4858,44 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "La quasi-totalité des accidents mortels en espace confiné se produisent lors de tentatives de sauvetage non préparées. Un opérateur inconscient dans une fosse ne se sauve pas à mains nues : il faut un protocole, un équipement et un sauveteur formé à l\'extérieur." },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé et la sécurité des salariés. Lorsque des entreprises extérieures interviennent dans les espaces confinés d\'un établissement, l\'élaboration d\'un plan de prévention est encadrée par les articles R.4512-1 et suivants du Code du travail. Le risque espace confiné doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels pour tout établissement disposant de ce type d\'installation. Référence officielle : article L.4121-1 du Code du travail ; articles R.4512-1 à R.4514-8 du Code du travail (plan de prévention pour travaux réalisés par des entreprises extérieures)." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques professionnels, y compris les interventions en milieux dangereux,", label: "consultez notre catalogue de formations", href: "/formations" },
+    ],
+  },
+
+  "droit-alerte-retrait-danger-grave-imminent-procedure": {
+    title: "Droit d\'alerte et droit de retrait face à un danger grave et imminent",
+    excerpt: "Tout salarié peut se retirer d\'un poste dangereux sans risque de sanction. Ce droit légal déclenche des obligations précises pour l\'employeur, inscrites aux articles L.4131-1 à L.4131-3 du Code du travail.",
+    publishedAt: "2026-06-26",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/droit-alerte-retrait-danger-grave-imminent-procedure.jpg",
+    content: [
+      { type: "p", text: "Le droit de retrait est inscrit dans le Code du travail : tout salarié qui se trouve face à un danger grave et imminent pour sa vie ou sa santé peut quitter son poste sans attendre l\'autorisation de son employeur. Ce droit est souvent mal connu des équipes et mal géré par les responsables. Comprendre ses conditions, les obligations qui en découlent et la procédure à respecter permet d\'éviter les erreurs juridiques et les accidents évitables." },
+      { type: "h2", text: "Ce qu\'est un danger grave et imminent" },
+      { type: "p", text: "Un danger est qualifié de grave lorsqu\'il est susceptible de provoquer un accident ou une maladie entraînant la mort ou une incapacité permanente ou temporaire prolongée. L\'imminence signifie que le risque est susceptible de se réaliser brusquement dans un délai rapproché. Un risque habituel du poste, connu et contrôlé, ne constitue pas en lui-même un danger grave et imminent : c\'est la combinaison de la sévérité potentielle et de la proximité du risque qui déclenche le droit." },
+      { type: "h2", text: "Les conditions du droit de retrait selon l\'article L.4131-1" },
+      { type: "ul", items: [
+        "Le salarié doit avoir un motif raisonnable de penser que la situation présente un danger grave et imminent pour sa vie ou sa santé. La bonne foi est la condition centrale : la perception du risque est appréciée objectivement.",
+        "L\'alerte préalable est obligatoire : avant de se retirer, le salarié doit signaler la situation à son employeur ou à son représentant hiérarchique direct.",
+        "Le retrait est individuel : chaque salarié exerce ce droit pour lui-même. Plusieurs salariés peuvent se retirer simultanément si chacun est personnellement exposé.",
+        "Le retrait ne doit pas créer de risque grave pour d\'autres personnes : il doit être possible sans aggraver la situation générale.",
+        "Le salarié peut refuser de reprendre son activité tant que l\'employeur n\'a pas mis fin à la situation dangereuse, sous réserve que les conditions initiales restent réunies.",
+      ]},
+      { type: "h2", text: "L\'obligation d\'alerte préalable : article L.4131-2" },
+      { type: "p", text: "L\'article L.4131-2 impose au salarié d\'alerter l\'employeur ou son représentant avant tout retrait. Cette alerte doit être consignée dans le registre des dangers graves et imminents, tenu à la disposition des membres du CSE. L\'inscription garantit la traçabilité et protège le salarié contre une éventuelle qualification d\'abandon de poste. En l\'absence de registre ou d\'employeur joignable dans l\'immédiat, l\'alerte peut être faite verbalement avec un écrit ultérieur pour en garder la preuve." },
+      { type: "h2", text: "Ce que l\'employeur doit faire immédiatement" },
+      { type: "ul", items: [
+        "Prendre acte de l\'alerte et ne pas exiger la reprise du travail tant que la situation dangereuse n\'a pas été évaluée et corrigée.",
+        "Procéder sans délai à une enquête avec un représentant du personnel au CSE ou, à défaut, avec le référent sécurité de l\'établissement.",
+        "Informer le CSE et le CSSCT (Commission Santé Sécurité et Conditions de Travail) sans attendre la prochaine réunion ordinaire si la gravité le justifie.",
+        "Mettre en œuvre les mesures nécessaires pour supprimer ou réduire le risque identifié avant toute reprise de l\'activité concernée.",
+        "Actualiser le Document Unique d\'Évaluation des Risques Professionnels pour intégrer le danger signalé et les mesures correctrices décidées.",
+      ]},
+      { type: "h2", text: "Retenue sur salaire et protection contre les sanctions" },
+      { type: "p", text: "L\'article L.4131-3 interdit toute retenue sur salaire ou sanction disciplinaire à l\'encontre du salarié ayant exercé son droit de retrait de bonne foi. Même si l\'enquête ultérieure révèle un risque moins grave qu\'estimé, le salarié est protégé dès lors qu\'il avait un motif raisonnable. Un retrait manifestement abusif peut théoriquement justifier une sanction, mais cela reste rare et difficile à caractériser devant les juridictions prud\'homales." },
+      { type: "h2", text: "Le registre des DGI et la mise à jour du DUERP" },
+      { type: "p", text: "Chaque signalement doit être consigné dans le registre des dangers graves et imminents : date et heure, nature du danger, identité du salarié, mesures prises. Ce registre est distinct du DUERP, mais le DUERP doit être mis à jour après tout événement significatif, y compris les situations ayant donné lieu à un retrait. Ces deux documents forment les pièces maîtresses lors d\'un contrôle de l\'inspection du travail. Référence officielle : articles L.4131-1, L.4131-2, L.4131-3 et R.4121-1 du Code du travail." },
+      { type: "quote", text: "Face à un danger grave et imminent, le salarié qui se retire a raison de ne pas attendre. L\'employeur a l\'obligation de ne pas se contenter de le constater : il doit enquêter, corriger et tracer." },
+      { type: "cta", text: "Pour sensibiliser vos managers et équipes RH à la gestion des droits d\'alerte et aux obligations de prévention,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
