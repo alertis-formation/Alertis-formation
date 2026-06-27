@@ -91,6 +91,7 @@ export const articleSlugs = [
   "vibrations-mecaniques-travail-evaluation-risques-prevention",
   "travail-espaces-confines-risques-prevention-permis-penetrer",
   "droit-alerte-retrait-danger-grave-imminent-procedure",
+  "atmospheres-explosives-atex-zones-prevention-risques-explosion",
 ] as const;
 
 /**
@@ -4896,6 +4897,52 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Chaque signalement doit être consigné dans le registre des dangers graves et imminents : date et heure, nature du danger, identité du salarié, mesures prises. Ce registre est distinct du DUERP, mais le DUERP doit être mis à jour après tout événement significatif, y compris les situations ayant donné lieu à un retrait. Ces deux documents forment les pièces maîtresses lors d\'un contrôle de l\'inspection du travail. Référence officielle : articles L.4131-1, L.4131-2, L.4131-3 et R.4121-1 du Code du travail." },
       { type: "quote", text: "Face à un danger grave et imminent, le salarié qui se retire a raison de ne pas attendre. L\'employeur a l\'obligation de ne pas se contenter de le constater : il doit enquêter, corriger et tracer." },
       { type: "cta", text: "Pour sensibiliser vos managers et équipes RH à la gestion des droits d\'alerte et aux obligations de prévention,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "atmospheres-explosives-atex-zones-prevention-risques-explosion": {
+    title: "Zones ATEX : classification, prévention et obligations pour les entreprises",
+    excerpt: "Les atmosphères explosives (ATEX) présentent un risque majeur dans l\'industrie. Connaître la classification des zones et les obligations réglementaires permet d\'agir avant l\'accident.",
+    publishedAt: "2026-06-27",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/atmospheres-explosives-atex-zones-prevention-risques-explosion.jpg",
+    content: [
+      { type: "p", text: "Une atmosphère explosible peut se former partout où des gaz, vapeurs, brouillards ou poussières combustibles se mélangent à l\'air dans certaines proportions. En milieu industriel, ce risque est présent dans des secteurs aussi variés que la chimie, l\'agro-alimentaire, le pétrole ou la menuiserie. Lorsqu\'une source d\'inflammation — une étincelle électrique, une surface chaude, une décharge électrostatique — survient dans une telle atmosphère, la déflagration peut être dévastatrice. La réglementation ATEX impose à l\'employeur d\'identifier ces zones, de les délimiter et de maîtriser les sources d\'inflammation." },
+      { type: "h2", text: "Qu\'est-ce qu\'une atmosphère explosible ?" },
+      { type: "p", text: "Une atmosphère explosible, ou ATEX (ATmosphère EXplosible), se forme lorsqu\'un combustible — gaz, vapeur de liquide inflammable, brouillard ou poussière combustible — est présent en concentration suffisante dans l\'air pour s\'enflammer sous l\'effet d\'une source d\'inflammation. La zone de risque est définie par les limites d\'explosivité : la Limite Inférieure d\'Explosivité (LIE) et la Limite Supérieure d\'Explosivité (LSE). En dessous de la LIE, le mélange est trop pauvre ; au-dessus de la LSE, trop riche. C\'est dans la plage entre les deux que le risque est maximal." },
+      { type: "h2", text: "Classification des zones ATEX : gaz et poussières" },
+      { type: "ul", items: [
+        "Zone 0 (gaz) : atmosphère explosible présente en permanence, pendant de longues périodes ou fréquemment. Exemple : intérieur d\'une cuve de stockage d\'hydrocarbures.",
+        "Zone 1 (gaz) : atmosphère explosible susceptible de se former en fonctionnement normal. Exemple : zone de remplissage de réservoirs de carburant.",
+        "Zone 2 (gaz) : atmosphère explosible peu probable en fonctionnement normal ; si elle se forme, elle ne persiste que peu de temps. Exemple : abords d\'installations de gaz naturel.",
+        "Zone 20 (poussières) : nuage de poussière combustible présent en permanence ou fréquemment. Exemple : intérieur d\'un silo à farine.",
+        "Zone 21 (poussières) : nuage de poussière susceptible de se former en fonctionnement normal. Exemple : zone de chargement et déchargement d\'un silo.",
+        "Zone 22 (poussières) : nuage de poussière peu probable en fonctionnement normal ; si présent, ne persiste que peu de temps. Exemple : abords d\'un silo à grains.",
+      ]},
+      { type: "h2", text: "Secteurs et postes les plus exposés" },
+      { type: "ul", items: [
+        "Industrie pétrolière, chimique et pétrochimique : stockage, transfert et traitement d\'hydrocarbures, solvants et produits inflammables.",
+        "Agro-alimentaire : silos à grains, farines et sucres ; installations de poudrage et pulvérisation.",
+        "Menuiserie et travail du bois : ponçage et sciage génèrent des poussières combustibles en quantité significative.",
+        "Traitement de surface : bains de dégraissage aux solvants, cabines de peinture en poudre.",
+        "Exploitation minière et carrières : gisements de méthane (grisou), poussières de charbon.",
+        "Imprimerie et emballage : encres et solvants à base de produits inflammables lors des phases de séchage.",
+      ]},
+      { type: "h2", text: "Le Document sur la Protection contre les Explosions (DAPE)" },
+      { type: "p", text: "Les articles R.4227-50 à R.4227-54 du Code du travail imposent à l\'employeur de rédiger un Document sur la Protection contre les Explosions (DAPE). Ce document recense les zones ATEX identifiées dans l\'établissement, les sources d\'inflammation potentielles, les mesures de prévention et de protection mises en place, les équipements utilisés en zones à risque et les dispositions de coordination en cas d\'intervention d\'entreprises extérieures. Le DAPE doit être établi avant la mise en service des installations et révisé à chaque modification significative. Il est distinct du Document Unique d\'Évaluation des Risques Professionnels (DUERP) mais doit être cohérent avec lui." },
+      { type: "h2", text: "Équipements et mesures de prévention" },
+      { type: "ul", items: [
+        "Utiliser uniquement des appareils certifiés ATEX (marquage Ex) dont la catégorie est adaptée à la zone : catégorie 1G/1D pour les zones 0/20, catégorie 2G/2D pour les zones 1/21, catégorie 3G/3D pour les zones 2/22.",
+        "Mettre à la terre les équipements conducteurs pour neutraliser les risques de décharge électrostatique.",
+        "Ventiler mécaniquement les espaces où des substances inflammables peuvent s\'accumuler et contrôler régulièrement le bon fonctionnement de la ventilation.",
+        "Interdire toutes les sources d\'inflammation non contrôlées en zones ATEX : outils produisant des étincelles, appareils non certifiés Ex, matières incandescentes.",
+        "Établir un permis de travail pour toute opération de maintenance, de soudage ou de travaux par points chauds dans ou à proximité d\'une zone ATEX.",
+        "Former et informer les travailleurs : nature du risque, signalisation des zones, comportements adaptés (téléphone, chaussures antistatiques, vêtements de travail conformes).",
+      ]},
+      { type: "quote", text: "En zone ATEX, la première source d\'inflammation à éliminer, c\'est l\'improvisation. Un outil non certifié Ex, un vêtement synthétique, une réparation non planifiée : chacun de ces gestes peut déclencher ce qu\'une installation entière est conçue pour éviter." },
+      { type: "p", text: "Référence officielle : directive 1999/92/CE du Parlement européen et du Conseil relative aux prescriptions minimales visant à améliorer la protection en matière de sécurité et de santé des travailleurs susceptibles d\'être exposés au risque d\'atmosphères explosives ; articles R.4227-48 à R.4227-54 du Code du travail (atmosphères explosibles, classification des zones, DAPE) ; article L.4121-1 du Code du travail (obligation générale de prévention)." },
+      { type: "cta", text: "Pour évaluer les zones ATEX de votre établissement et former vos équipes aux risques d\'explosion,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
