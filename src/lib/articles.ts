@@ -92,6 +92,7 @@ export const articleSlugs = [
   "travail-espaces-confines-risques-prevention-permis-penetrer",
   "droit-alerte-retrait-danger-grave-imminent-procedure",
   "atmospheres-explosives-atex-zones-prevention-risques-explosion",
+  "consignation-electrique-quatre-etapes-mise-en-securite-travaux",
 ] as const;
 
 /**
@@ -4943,6 +4944,41 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "En zone ATEX, la première source d\'inflammation à éliminer, c\'est l\'improvisation. Un outil non certifié Ex, un vêtement synthétique, une réparation non planifiée : chacun de ces gestes peut déclencher ce qu\'une installation entière est conçue pour éviter." },
       { type: "p", text: "Référence officielle : directive 1999/92/CE du Parlement européen et du Conseil relative aux prescriptions minimales visant à améliorer la protection en matière de sécurité et de santé des travailleurs susceptibles d\'être exposés au risque d\'atmosphères explosives ; articles R.4227-48 à R.4227-54 du Code du travail (atmosphères explosibles, classification des zones, DAPE) ; article L.4121-1 du Code du travail (obligation générale de prévention)." },
       { type: "cta", text: "Pour évaluer les zones ATEX de votre établissement et former vos équipes aux risques d\'explosion,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "consignation-electrique-quatre-etapes-mise-en-securite-travaux": {
+    title: "Consignation électrique : les quatre étapes de mise en sécurité avant travaux",
+    excerpt: "Avant toute intervention sur une installation électrique, la consignation garantit l\'absence de tension en quatre étapes réglementées. Son non-respect expose à des risques d\'électrisation ou d\'électrocution mortelle.",
+    publishedAt: "2026-06-28",
+    category: "Habilitation électrique",
+    readingTime: 6,
+    image: "/images/articles/consignation-electrique-quatre-etapes-mise-en-securite-travaux.jpg",
+    content: [
+      { type: "p", text: "La consignation électrique est la procédure réglementaire à respecter avant toute intervention sur une installation ou un équipement électrique. Elle garantit trois choses : que l\'installation est effectivement mise hors tension, que sa remise sous tension accidentelle est rendue impossible, et que l\'absence de tension a été vérifiée avant tout contact. Sans cette procédure, chaque travail de maintenance électrique expose les intervenants à un risque d\'électrisation ou d\'électrocution pouvant être fatal." },
+      { type: "h2", text: "Pourquoi la consignation ne souffre aucune exception" },
+      { type: "p", text: "En milieu industriel, la majorité des accidents électriques survenant lors de travaux de maintenance est liée à une remise sous tension non prévue pendant l\'intervention. Un opérateur qui ignore qu\'une équipe travaille sur l\'installation, un réenclenchement automatique, une alimentation de secours non identifiée : chacun de ces scénarios peut survenir en quelques secondes. La NF C 18-510 définit précisément les opérations à réaliser, leur ordre obligatoire et les habilitations requises pour chaque acteur." },
+      { type: "h2", text: "Les quatre étapes de la consignation selon la NF C 18-510" },
+      { type: "ul", items: [
+        "Étape 1 — Séparation : identifier et ouvrir le ou les dispositifs de séparation (disjoncteur, interrupteur-sectionneur, sectionneur) qui alimentent l\'installation. La séparation doit être visible ou physiquement vérifiable.",
+        "Étape 2 — Condamnation : verrouiller le dispositif de séparation en position ouverte à l\'aide d\'un cadenas individuel et apposer une signalisation d\'interdiction de manœuvre. Si plusieurs intervenants participent aux travaux, chacun pose son propre cadenas.",
+        "Étape 3 — Vérification d\'Absence de Tension (VAT) : vérifier l\'absence de tension sur chaque conducteur accessible à l\'aide d\'un appareil de mesure homologué, avant tout contact avec les pièces nues. Cette étape est obligatoire même si la séparation paraît évidente.",
+        "Étape 4 — Mise À la Terre et en Court-Circuit (MALT/CCT) : obligatoire pour les ouvrages haute tension (HTA, HTB). En basse tension, elle est requise dès qu\'un risque de retour de tension ou de tension induite existe. Les conducteurs sont mis à la terre et en court-circuit pour neutraliser toute tension résiduelle.",
+      ]},
+      { type: "h2", text: "Les acteurs : chargé de consignation et chargé de travaux" },
+      { type: "p", text: "La consignation est réservée aux personnes habilitées. Le chargé de consignation (habilitation BC pour le domaine basse tension, HC pour le domaine haute tension) est la seule personne autorisée à réaliser et lever une consignation. Le chargé de travaux (B2, B2V ou BR pour la basse tension) dirige l\'exécution des travaux et est responsable de la sécurité de son équipe pendant toute la durée de l\'intervention. Ces deux rôles peuvent être tenus par la même personne si son habilitation le permet, mais leur séparation est recommandée dès que plusieurs intervenants sont impliqués." },
+      { type: "h2", text: "L\'avis de consignation : formaliser la mise en sécurité" },
+      { type: "p", text: "À l\'issue des quatre étapes, le chargé de consignation remet un avis de consignation au chargé de travaux. Ce document identifie précisément l\'installation consignée, le périmètre autorisé et les limites de la zone de travail. Il est conservé par le chargé de travaux pendant toute la durée de l\'intervention. Lorsque les travaux sont terminés, le chargé de travaux remet un avis de fin de travaux au chargé de consignation, attestant que la zone est dégagée et que la déconsignation peut commencer." },
+      { type: "h2", text: "La déconsignation : remettre sous tension en sécurité" },
+      { type: "ul", items: [
+        "Le chargé de travaux s\'assure que toutes les personnes ont quitté la zone et que l\'installation est en état d\'être remise sous tension. Il remet l\'avis de fin de travaux au chargé de consignation.",
+        "Le chargé de consignation retire les dispositifs de mise à la terre et en court-circuit s\'ils ont été mis en place, dans l\'ordre inverse de leur installation.",
+        "Les signalisations sont retirées et les cadenas supprimés par chacun des intervenants concernés, dans l\'ordre inverse de la condamnation.",
+        "La remise sous tension est effectuée uniquement après confirmation que l\'ensemble du personnel est à l\'écart de l\'installation.",
+      ]},
+      { type: "quote", text: "Un cadenas de consignation ne se partage pas et ne s\'enlève pas à la place d\'un autre. C\'est une règle absolue : chaque intervenant pose et retire son propre cadenas, uniquement lorsque ses travaux sont terminés et que ses équipiers sont en sécurité." },
+      { type: "p", text: "Les opérations d\'ordre électrique, dont la consignation et la déconsignation, sont encadrées par la NF C 18-510, norme de référence sur les opérations sur les ouvrages et installations électriques et dans un environnement électrique. Cette norme est rendue applicable par les articles R.4544-1 à R.4544-11 du Code du travail relatifs à la prévention du risque électrique. L\'obligation générale de l\'employeur en matière de prévention est posée par l\'article L.4121-1 du Code du travail. Référence officielle : NF C 18-510 ; articles R.4544-1 à R.4544-11 et L.4121-1 du Code du travail." },
+      { type: "cta", text: "Pour former vos chargés de travaux et chargés de consignation à ces procédures,", label: "consultez notre page habilitation électrique", href: "/formations/habilitation-electrique" },
     ],
   },
 };
