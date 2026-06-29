@@ -93,6 +93,7 @@ export const articleSlugs = [
   "droit-alerte-retrait-danger-grave-imminent-procedure",
   "atmospheres-explosives-atex-zones-prevention-risques-explosion",
   "consignation-electrique-quatre-etapes-mise-en-securite-travaux",
+  "travail-ambiance-froide-risques-sante-prevention-employeur",
 ] as const;
 
 /**
@@ -4979,6 +4980,55 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un cadenas de consignation ne se partage pas et ne s\'enlève pas à la place d\'un autre. C\'est une règle absolue : chaque intervenant pose et retire son propre cadenas, uniquement lorsque ses travaux sont terminés et que ses équipiers sont en sécurité." },
       { type: "p", text: "Les opérations d\'ordre électrique, dont la consignation et la déconsignation, sont encadrées par la NF C 18-510, norme de référence sur les opérations sur les ouvrages et installations électriques et dans un environnement électrique. Cette norme est rendue applicable par les articles R.4544-1 à R.4544-11 du Code du travail relatifs à la prévention du risque électrique. L\'obligation générale de l\'employeur en matière de prévention est posée par l\'article L.4121-1 du Code du travail. Référence officielle : NF C 18-510 ; articles R.4544-1 à R.4544-11 et L.4121-1 du Code du travail." },
       { type: "cta", text: "Pour former vos chargés de travaux et chargés de consignation à ces procédures,", label: "consultez notre page habilitation électrique", href: "/formations/habilitation-electrique" },
+    ],
+  },
+
+  "travail-ambiance-froide-risques-sante-prevention-employeur": {
+    title: "Travail en ambiance froide : risques pour la santé et prévention en entreprise",
+    excerpt: "Hypothermie, engelures, aggravation des TMS : travailler dans le froid expose à des risques souvent sous-estimés. Voici les obligations de l\'employeur et les mesures concrètes à mettre en place.",
+    publishedAt: "2026-06-29",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/travail-ambiance-froide-risques-sante-prevention-employeur.jpg",
+    content: [
+      { type: "p", text: "Travailler dans le froid n\'est pas anodin. Qu\'il s\'agisse d\'un opérateur en chambre frigorifique, d\'un agent d\'abattoir ou d\'un salarié de la logistique réfrigérée, l\'exposition répétée ou prolongée à des températures basses altère la concentration, ralentit les réflexes et fragilise l\'organisme. Ces effets surviennent aussi en extérieur lors des vagues de froid hivernales. L\'employeur a l\'obligation d\'évaluer ce risque et de prendre les mesures nécessaires pour protéger ses salariés." },
+      { type: "h2", text: "Qu\'est-ce que le travail en ambiance froide ?" },
+      { type: "ul", items: [
+        "Froid modéré (entre 10 °C et 0 °C) : entrepôts non chauffés, travail extérieur par temps froid. La gêne commence à se manifester sans équipement adapté.",
+        "Froid intense (de 0 °C à -10 °C) : chambres de conservation positive, quais réfrigérés, travail extérieur hivernal sévère. Le risque d\'engelures et d\'hypothermie devient réel en cas d\'exposition prolongée.",
+        "Grand froid (en dessous de -10 °C) : chambres de surgélation, tunnels de refroidissement industriel. Des lésions tissulaires peuvent survenir en quelques minutes sans protection appropriée.",
+        "Les effets du froid sont amplifiés par le vent, l\'humidité et le port de charges, qui réduisent la mobilité et la capacité à conserver la chaleur corporelle.",
+      ]},
+      { type: "h2", text: "Effets sur la santé : de la gêne aux lésions graves" },
+      { type: "ul", items: [
+        "Hypothermie : la température corporelle centrale descend en dessous de 35 °C. Les premiers signes sont les frissons intenses, la confusion et le ralentissement des gestes. En dessous de 32 °C, l\'hypothermie sévère engage le pronostic vital.",
+        "Engelures et gelures : les extrémités — doigts, orteils, oreilles, nez — sont les premières atteintes. Les engelures sont douloureuses mais réversibles ; les gelures profondes peuvent entraîner une nécrose des tissus.",
+        "Aggravation des troubles musculo-squelettiques (TMS) : le froid réduit la circulation sanguine vers les muscles et les tendons, augmente la viscosité des fluides articulaires et accroît la fréquence des contractures, entorses et lombalgies.",
+        "Syndrome de Raynaud professionnel : le froid déclenche des vasospasmes qui blanchissent les doigts et provoquent des douleurs intenses. Ce syndrome est aggravé par l\'utilisation simultanée d\'outils vibrants.",
+        "Troubles de la vigilance : le refroidissement corporel diminue les capacités de concentration et de réaction, augmentant le risque d\'accidents mécaniques et de chutes.",
+      ]},
+      { type: "h2", text: "Secteurs et postes les plus exposés" },
+      { type: "ul", items: [
+        "Industrie agro-alimentaire : opérateurs en chambres de refroidissement et de surgélation, personnels d\'abattoir et de découpe travaillant dans des ateliers à froid positif.",
+        "Logistique et distribution : agents en entrepôts réfrigérés et sur quais de chargement, préparateurs de commandes en zones froid positif et négatif.",
+        "BTP et travaux publics : compagnons exposés aux combinaisons froid-vent-humidité lors des périodes hivernales.",
+        "Agriculture et viticulture : saisonniers des récoltes d\'automne et d\'hiver, personnels intervenant dans les serres en conditions froides.",
+        "Commerce : personnels des grandes surfaces exposés aux rayons frais et surgelés lors des opérations répétées de réapprovisionnement.",
+      ]},
+      { type: "h2", text: "Les obligations de l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer tous les risques professionnels et de prendre les mesures nécessaires pour protéger la santé physique et mentale des salariés. Le risque lié aux ambiances froides doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP), avec une évaluation précise de l\'exposition — durée, intensité, conditions associées — et les mesures de prévention adoptées. Lors des épisodes de grand froid, les conditions d\'exposition doivent être réévaluées et les mesures adaptées sans délai." },
+      { type: "h2", text: "Mesures de prévention à mettre en place" },
+      { type: "ul", items: [
+        "EPI thermiques : vêtements à plusieurs couches (sous-vêtement thermique, couche intermédiaire isolante, veste coupe-vent imperméable), gants thermorésistants, chaussures isolantes et imperméables, bonnet ou cagoule selon l\'intensité du froid.",
+        "Rotation des postes : limiter les durées d\'exposition continue dans les zones froides en alternant avec des postes à température normale pour permettre le réchauffement de l\'organisme.",
+        "Espaces de réchauffement accessibles : mettre à disposition un local chauffé à proximité des zones froides, avec accès à des boissons chaudes. Cet accès doit être immédiat, dès que le salarié en ressent le besoin.",
+        "Acclimatation progressive : les salariés nouvellement affectés à des postes en ambiance froide doivent être exposés graduellement pour permettre à l\'organisme de s\'adapter.",
+        "Formation et sensibilisation : apprendre aux équipes à reconnaître les premiers signes d\'hypothermie et d\'engelures et à signaler immédiatement toute sensation anormale.",
+        "Surveillance médicale adaptée : le médecin du travail peut préconiser un suivi individuel renforcé pour les salariés exposés régulièrement à des températures inférieures à 0 °C, notamment en cas d\'antécédents cardiovasculaires.",
+      ]},
+      { type: "quote", text: "L\'habillement en trois couches, la rotation des postes et l\'accès à un local chauffé ne sont pas des avantages sociaux : ce sont des mesures de prévention que le DUERP doit formaliser pour chaque poste exposé au froid." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; article R.4121-1 du Code du travail (Document Unique d\'Évaluation des Risques Professionnels)." },
+      { type: "cta", text: "Pour évaluer les risques liés aux ambiances thermiques dans votre établissement et former vos équipes,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
