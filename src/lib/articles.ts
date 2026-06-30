@@ -94,6 +94,7 @@ export const articleSlugs = [
   "atmospheres-explosives-atex-zones-prevention-risques-explosion",
   "consignation-electrique-quatre-etapes-mise-en-securite-travaux",
   "travail-ambiance-froide-risques-sante-prevention-employeur",
+  "chariots-elevateurs-risques-prevention-obligations-employeur",
 ] as const;
 
 /**
@@ -5029,6 +5030,52 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "L\'habillement en trois couches, la rotation des postes et l\'accès à un local chauffé ne sont pas des avantages sociaux : ce sont des mesures de prévention que le DUERP doit formaliser pour chaque poste exposé au froid." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; article R.4121-1 du Code du travail (Document Unique d\'Évaluation des Risques Professionnels)." },
       { type: "cta", text: "Pour évaluer les risques liés aux ambiances thermiques dans votre établissement et former vos équipes,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "chariots-elevateurs-risques-prevention-obligations-employeur": {
+    title: "Chariots élévateurs : risques, prévention et obligations de l\'employeur",
+    excerpt: "Les chariots élévateurs sont à l\'origine de nombreux accidents graves dans les entrepôts et l\'industrie. Maîtriser les obligations réglementaires et les mesures de prévention permet de réduire ce risque.",
+    publishedAt: "2026-06-30",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/chariots-elevateurs-risques-prevention-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Les chariots élévateurs font partie des équipements de travail les plus impliqués dans les accidents graves en entreprise. Présents dans les entrepôts logistiques, les ateliers de production, les grandes surfaces et les chantiers, ils combinent des caractéristiques dangereuses : masse élevée, charge suspendue, manœuvrabilité limitée, vitesse parfois sous-estimée. Ce risque doit impérativement figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP) et donner lieu à des mesures de prévention adaptées." },
+      { type: "h2", text: "Les principaux risques liés aux chariots élévateurs" },
+      { type: "ul", items: [
+        "Renversement du chariot : virage à vitesse excessive, surcharge ou mauvaise répartition de la charge, terrain irrégulier, sol glissant. Le renversement latéral est l\'une des premières causes de décès impliquant un chariot élévateur.",
+        "Heurt ou écrasement de piétons : zone de croisement mal organisée, angle mort lié à la charge, vitesse inadaptée en zone de coactivité. Les conducteurs ne voient pas toujours les personnes qui circulent dans leur zone de travail.",
+        "Chute de la charge : arrimage insuffisant, accélération ou freinage brusque, mât mal incliné. Une charge de plusieurs tonnes peut s\'effondrer sans préavis sur l\'environnement immédiat.",
+        "Choc avec les structures : collision avec des rayonnages, des murs, des portiques ou d\'autres engins. Ces chocs peuvent déstabiliser des racks de stockage entiers et provoquer un effet en cascade.",
+        "Chute de personne depuis une hauteur : utiliser les fourches comme plate-forme de travail est interdit mais encore pratiqué. Une chute de plusieurs mètres engage toujours le pronostic vital.",
+        "Intoxication aux gaz d\'échappement : pour les chariots thermiques (GPL, diesel) utilisés dans des espaces peu ventilés, le risque d\'accumulation de monoxyde de carbone est réel et peut être fatal.",
+      ]},
+      { type: "h2", text: "Le CACES R489 : catégories et portée de l\'autorisation de conduite" },
+      { type: "p", text: "Le CACES R489 est l\'évaluation de référence pour la conduite des chariots automoteurs de manutention à conducteur porté. Il atteste que le conducteur possède les connaissances théoriques et les aptitudes pratiques nécessaires. Mais le CACES seul ne suffit pas : l\'employeur est tenu de délivrer une autorisation de conduite propre à son établissement, après vérification de l\'aptitude médicale par le médecin du travail et de la connaissance des lieux et consignes de sécurité spécifiques au site." },
+      { type: "ul", items: [
+        "Catégorie 1A : transpalettes à conducteur accompagnant, à pied.",
+        "Catégorie 1B : transpalettes gerbeurs à conducteur accompagnant ou porté debout.",
+        "Catégorie 2A et 2B : chariots à mât rétractable.",
+        "Catégorie 3 : chariots élévateurs en porte-à-faux d\'une capacité inférieure à 6 000 kg — la catégorie la plus répandue en logistique.",
+        "Catégorie 4 : chariots élévateurs en porte-à-faux de capacité égale ou supérieure à 6 000 kg.",
+        "Catégorie 5 : chariots élévateurs à mât multidirectionnel et chariots à prise latérale, utilisés dans les ateliers à couloirs étroits.",
+      ]},
+      { type: "h2", text: "Les obligations de l\'employeur" },
+      { type: "ul", items: [
+        "Ne confier la conduite d\'un chariot qu\'à des travailleurs titulaires d\'une autorisation de conduite délivrée par l\'employeur, conformément aux articles R.4323-55 à R.4323-57 du Code du travail.",
+        "Vérifier, avant toute délivrance d\'autorisation, que le conducteur dispose d\'une aptitude médicale à la conduite attestée par le médecin du travail.",
+        "S\'assurer que chaque conducteur connaît les règles de circulation propres au site : vitesses maximales, zones de croisement, priorités et zones piétonnes.",
+        "Soumettre chaque chariot à une vérification générale périodique (VGP) au moins une fois par an, réalisée par un organisme compétent.",
+        "Inscrire le risque chariot élévateur dans le DUERP avec une évaluation précise des zones concernées et des mesures de prévention mises en œuvre.",
+      ]},
+      { type: "h2", text: "Organiser la circulation : séparer piétons et engins" },
+      { type: "p", text: "La cohabitation non organisée entre piétons et chariots élévateurs est la principale source d\'accidents mortels en milieu logistique et industriel. La mesure la plus efficace reste la séparation physique des flux : marquage au sol avec des couleurs contrastées, barrières de guidage dans les zones à risque, signalisation verticale aux croisements. Les vitesses maximales doivent être affichées et respectées. Dans les zones de déchargement et de préparation de commandes, des miroirs de surveillance ou des détecteurs de présence permettent de compenser les angles morts." },
+      { type: "h2", text: "Vérifications quotidiennes et contrôle périodique" },
+      { type: "p", text: "Avant chaque prise de poste, le conducteur doit effectuer un tour de contrôle : état des fourches, des pneumatiques, des feux et de l\'avertisseur sonore, niveau de charge de la batterie pour les chariots électriques ou niveau des fluides pour les chariots thermiques. Tout défaut constaté doit être signalé immédiatement et le chariot mis hors service jusqu\'à réparation. Un registre de sécurité consigne ces vérifications et les interventions de maintenance." },
+      { type: "quote", text: "Un chariot élévateur n\'est pas un outil anodin : ses 3 à 5 tonnes en charge peuvent écraser un piéton en quelques mètres. L\'autorisation de conduite, la séparation des flux et la VGP annuelle ne sont pas des formalités administratives — ce sont les conditions minimales d\'un site logistique sûr." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles R.4323-55 à R.4323-57 du Code du travail (autorisation de conduite des équipements de travail mobiles automoteurs) ; recommandation de l\'Assurance Maladie — Risques Professionnels R489 relative aux chariots automoteurs de manutention à conducteur porté." },
+      { type: "cta", text: "Pour former vos conducteurs de chariots et sensibiliser vos encadrants aux risques de manutention mécanisée,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
