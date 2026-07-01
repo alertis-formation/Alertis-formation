@@ -95,6 +95,7 @@ export const articleSlugs = [
   "consignation-electrique-quatre-etapes-mise-en-securite-travaux",
   "travail-ambiance-froide-risques-sante-prevention-employeur",
   "chariots-elevateurs-risques-prevention-obligations-employeur",
+  "protocole-securite-chargement-dechargement-transport",
 ] as const;
 
 /**
@@ -5076,6 +5077,37 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un chariot élévateur n\'est pas un outil anodin : ses 3 à 5 tonnes en charge peuvent écraser un piéton en quelques mètres. L\'autorisation de conduite, la séparation des flux et la VGP annuelle ne sont pas des formalités administratives — ce sont les conditions minimales d\'un site logistique sûr." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles R.4323-55 à R.4323-57 du Code du travail (autorisation de conduite des équipements de travail mobiles automoteurs) ; recommandation de l\'Assurance Maladie — Risques Professionnels R489 relative aux chariots automoteurs de manutention à conducteur porté." },
       { type: "cta", text: "Pour former vos conducteurs de chariots et sensibiliser vos encadrants aux risques de manutention mécanisée,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "protocole-securite-chargement-dechargement-transport": {
+    title: "Chargement et déchargement : ce qu\'impose le protocole de sécurité",
+    excerpt: "Les opérations de chargement et déchargement réalisées par une entreprise de transport ne relèvent pas du plan de prévention classique, mais d\'un protocole de sécurité écrit, prévu par le Code du travail.",
+    publishedAt: "2026-07-01",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/protocole-securite-chargement-dechargement-transport.jpg",
+    content: [
+      { type: "p", text: "Un camion qui recule vers un quai, un chauffeur inconnu du site, un chariot élévateur qui manœuvre à proximité : les opérations de chargement et de déchargement concentrent des risques spécifiques — écrasement, chute de charge, heurt de piéton. Dès qu\'une entreprise de transport extérieure intervient, le Code du travail impose un document précis avant même le début de l\'opération." },
+      { type: "h2", text: "Un régime distinct du plan de prévention" },
+      { type: "p", text: "Ce document ne concerne pas toutes les interventions d\'entreprises extérieures. Il s\'applique spécifiquement aux opérations de chargement ou de déchargement réalisées par une entreprise de transport, pour des marchandises en provenance ou à destination d\'un lieu extérieur à l\'établissement, dit \"entreprise d\'accueil\". Il remplace alors le plan de prévention prévu pour les autres interventions d\'entreprises extérieures, conformément à l\'article R.4515-1 du Code du travail." },
+      { type: "h2", text: "Ce que doit contenir le protocole" },
+      { type: "ul", items: [
+        "Les consignes de sécurité applicables sur le site, en particulier celles propres à l\'opération de chargement ou de déchargement.",
+        "Le lieu de livraison ou de prise en charge, les modalités d\'accès et de stationnement aux postes concernés, accompagnés d\'un plan et de consignes de circulation.",
+        "Les matériels et engins spécifiques utilisés pour l\'opération.",
+        "Les moyens de secours disponibles en cas d\'accident ou d\'incident.",
+        "L\'identité du responsable désigné par l\'entreprise d\'accueil pour l\'opération.",
+      ]},
+      { type: "p", text: "Le transporteur apporte, de son côté, les informations relatives aux caractéristiques de son véhicule, à son aménagement et à ses équipements, ainsi qu\'à la nature et au conditionnement de la marchandise. Il précise également les précautions particulières liées à la nature des produits transportés — matières dangereuses, produits fragiles ou périssables, par exemple." },
+      { type: "h2", text: "Qui l\'établit, et à quel moment ?" },
+      { type: "p", text: "Le protocole de sécurité est rédigé dans le cadre d\'un échange entre les deux employeurs concernés, préalablement à la réalisation de l\'opération. Il prend la forme d\'un document écrit — pas d\'une simple consigne orale donnée au chauffeur à son arrivée. Chaque opération non répétitive donne lieu, en principe, à un protocole qui lui est propre." },
+      { type: "h3", text: "Le cas des opérations répétitives" },
+      { type: "p", text: "Lorsque plusieurs opérations portent sur des produits ou substances de même nature, réalisées dans les mêmes lieux, selon le même mode opératoire et avec les mêmes types de véhicules et d\'engins de manutention, elles sont qualifiées de répétitives. Un protocole unique peut alors couvrir cet ensemble d\'opérations, sans qu\'il soit nécessaire d\'en établir un pour chaque livraison." },
+      { type: "quote", text: "Un protocole de sécurité rédigé après l\'arrivée du camion n\'a plus grand-chose d\'un protocole : il documente un risque déjà pris, pas un risque anticipé." },
+      { type: "p", text: "En pratique, l\'entreprise d\'accueil a intérêt à formaliser un modèle de protocole par type de flux — transporteur habituel, nature de marchandise, poste de déchargement — plutôt que de le découvrir à chaque livraison. Cela permet de vérifier en amont la compatibilité entre le véhicule annoncé et les installations du site, et d\'éviter les improvisations sur le quai." },
+      { type: "p", text: "Référence officielle : articles R.4515-1 à R.4515-11 du Code du travail (opérations de chargement et de déchargement) ; article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur)." },
+      { type: "cta", text: "Pour sécuriser les opérations de chargement et déchargement sur votre site et former vos équipes,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
