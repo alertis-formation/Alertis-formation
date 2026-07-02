@@ -96,6 +96,7 @@ export const articleSlugs = [
   "travail-ambiance-froide-risques-sante-prevention-employeur",
   "chariots-elevateurs-risques-prevention-obligations-employeur",
   "protocole-securite-chargement-dechargement-transport",
+  "interimaires-cdd-postes-risque-formation-renforcee-securite",
 ] as const;
 
 /**
@@ -5108,6 +5109,44 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En pratique, l\'entreprise d\'accueil a intérêt à formaliser un modèle de protocole par type de flux — transporteur habituel, nature de marchandise, poste de déchargement — plutôt que de le découvrir à chaque livraison. Cela permet de vérifier en amont la compatibilité entre le véhicule annoncé et les installations du site, et d\'éviter les improvisations sur le quai." },
       { type: "p", text: "Référence officielle : articles R.4515-1 à R.4515-11 du Code du travail (opérations de chargement et de déchargement) ; article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur)." },
       { type: "cta", text: "Pour sécuriser les opérations de chargement et déchargement sur votre site et former vos équipes,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "interimaires-cdd-postes-risque-formation-renforcee-securite": {
+    title: "Intérimaires et CDD sur postes à risque : la formation renforcée à la sécurité",
+    excerpt: "Les salariés en intérim ou en CDD affectés à un poste à risques particuliers bénéficient d\'une formation renforcée à la sécurité et d\'un accueil adapté. Voici ce que la loi impose à l\'employeur.",
+    publishedAt: "2026-07-02",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/interimaires-cdd-postes-risque-formation-renforcee-securite.jpg",
+    content: [
+      { type: "p", text: "Un salarié en intérim ou en CDD découvre souvent son poste le jour même de sa prise de fonction. Moins familiarisé avec les lieux, les consignes et les équipements, il est statistiquement plus exposé aux accidents que les salariés en poste depuis longtemps. Le Code du travail impose, pour certains postes, une réponse spécifique : la formation renforcée à la sécurité." },
+      { type: "h2", text: "Une sinistralité plus élevée chez les travailleurs temporaires" },
+      { type: "p", text: "L\'absence de repères sur un site inconnu, l\'enchaînement de missions courtes chez des employeurs différents et parfois une formation initiale incomplète augmentent le risque d\'accident. Cette réalité a conduit le législateur à prévoir, pour les postes les plus exposés, des garanties supplémentaires d\'accueil et de formation avant toute prise de poste." },
+      { type: "h2", text: "Qui définit les postes de travail à risques particuliers ?" },
+      { type: "p", text: "Chaque entreprise doit établir la liste de ses postes à risques particuliers, après avis du comité social et économique lorsqu\'il existe. Cette liste conditionne l\'application de la formation renforcée : elle recense les postes pour lesquels l\'exposition au danger justifie un accueil et un apprentissage plus poussés que la moyenne des postes de l\'entreprise." },
+      { type: "ul", items: [
+        "Postes nécessitant une habilitation ou une autorisation particulière (habilitation électrique, conduite d\'engins, CACES).",
+        "Travaux en hauteur, en espace confiné ou à proximité d\'installations sous tension.",
+        "Exposition à des produits chimiques dangereux ou cancérogènes, mutagènes et reprotoxiques (CMR).",
+        "Utilisation de machines dangereuses dépourvues de dispositif de protection intégral.",
+        "Travail isolé ou postes exposant à un risque de chute de charge lourde.",
+      ]},
+      { type: "h2", text: "Ce que doit couvrir la formation renforcée" },
+      { type: "p", text: "Pour ces postes, le salarié en intérim ou en CDD bénéficie d\'une formation renforcée à la sécurité ainsi que d\'un accueil et d\'une information adaptés, conformément à l\'article L.4154-2 du Code du travail. Cette formation détaille les risques propres au poste, les procédures d\'urgence du site, les équipements de protection à utiliser et les consignes de circulation. Elle s\'ajoute aux formations générales à la sécurité déjà dues à tout salarié." },
+      { type: "h2", text: "Intérim : le rôle de l\'entreprise utilisatrice" },
+      { type: "p", text: "Pour un salarié intérimaire, c\'est l\'entreprise utilisatrice — celle qui accueille physiquement le salarié — qui est responsable de cette formation renforcée, et non l\'agence d\'intérim. Le contrat de mise à disposition doit mentionner si le poste figure sur la liste des postes à risques particuliers. Pour un salarié en CDD, l\'obligation incombe directement à l\'employeur qui l\'a recruté, dans les mêmes conditions." },
+      { type: "h2", text: "Organiser un accueil sécurité efficace" },
+      { type: "ul", items: [
+        "Remettre un livret d\'accueil sécurité propre au poste, avant la prise de fonction et non le jour même dans l\'urgence.",
+        "Désigner un tuteur ou un référent chargé d\'accompagner le salarié durant ses premiers jours sur le poste.",
+        "Faire visiter le poste et ses abords avant toute mise en situation réelle : issues de secours, zones de circulation, points de rassemblement.",
+        "Vérifier que l\'aptitude médicale au poste a bien été confirmée avant l\'affectation, notamment pour les postes à surveillance renforcée.",
+        "Contrôler la mise à disposition et le port effectif des équipements de protection individuelle dès le premier jour.",
+      ]},
+      { type: "quote", text: "Un intérimaire ou un CDD n\'est pas un salarié \"à part\" sur un poste à risques : c\'est un salarié qui doit recevoir, avant sa prise de fonction, une formation à la hauteur du danger auquel il est exposé — pas une visite guidée improvisée." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles L.4154-2 et L.4154-3 du Code du travail (formation renforcée à la sécurité et liste des postes à risques particuliers pour les salariés temporaires et en contrat à durée déterminée)." },
+      { type: "cta", text: "Pour organiser l\'accueil sécurité de vos intérimaires et CDD sur les postes à risques de votre établissement,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
 };
