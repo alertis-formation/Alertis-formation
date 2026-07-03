@@ -97,6 +97,7 @@ export const articleSlugs = [
   "chariots-elevateurs-risques-prevention-obligations-employeur",
   "protocole-securite-chargement-dechargement-transport",
   "interimaires-cdd-postes-risque-formation-renforcee-securite",
+  "alcool-drogues-travail-obligations-employeur-prevention",
 ] as const;
 
 /**
@@ -5147,6 +5148,35 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un intérimaire ou un CDD n\'est pas un salarié \"à part\" sur un poste à risques : c\'est un salarié qui doit recevoir, avant sa prise de fonction, une formation à la hauteur du danger auquel il est exposé — pas une visite guidée improvisée." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles L.4154-2 et L.4154-3 du Code du travail (formation renforcée à la sécurité et liste des postes à risques particuliers pour les salariés temporaires et en contrat à durée déterminée)." },
       { type: "cta", text: "Pour organiser l\'accueil sécurité de vos intérimaires et CDD sur les postes à risques de votre établissement,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
+    ],
+  },
+
+  "alcool-drogues-travail-obligations-employeur-prevention": {
+    title: "Alcool et drogues au travail : ce que peut faire l\'employeur",
+    excerpt: "Le Code du travail encadre strictement la consommation d\'alcool en entreprise et pose une obligation générale de prévention face aux addictions. Ce qu\'un employeur peut interdire, contrôler et sanctionner.",
+    publishedAt: "2026-07-03",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/alcool-drogues-travail-obligations-employeur-prevention.jpg",
+    content: [
+      { type: "p", text: "Un salarié qui arrive ivre, une tournée de bières partagée après une réussite commerciale, un collègue somnolent après une pause prolongée : la consommation d\'alcool et de substances psychoactives en entreprise n\'est pas un sujet tabou pour le droit du travail. Le Code du travail encadre précisément ce que l\'employeur peut interdire, contrôler et sanctionner — et ce qu\'il ne peut pas faire." },
+      { type: "h2", text: "Ce que dit le Code du travail sur l\'alcool" },
+      { type: "p", text: "L\'article R4228-20 du Code du travail pose une règle simple : aucune boisson alcoolisée autre que le vin, la bière, le cidre et le poiré n\'est autorisée sur le lieu de travail. Quand leur consommation, même autorisée, risque de porter atteinte à la sécurité ou à la santé des salariés, l\'employeur doit prévoir dans le règlement intérieur — ou par note de service — des mesures proportionnées, pouvant aller jusqu\'à une interdiction totale sur certains postes." },
+      { type: "h2", text: "Refuser l\'accès à un salarié en état d\'ivresse manifeste" },
+      { type: "p", text: "L\'article R4228-21 interdit de laisser entrer ou séjourner dans l\'entreprise une personne en état d\'ivresse. L\'employeur peut donc refuser l\'accès du site à un salarié manifestement alcoolisé, y compris pour le protéger : il ne doit jamais repartir seul, en particulier au volant. Cette mise à l\'écart n\'est pas une sanction disciplinaire mais une mesure de sécurité immédiate, à distinguer d\'une éventuelle procédure ultérieure." },
+      { type: "h3", text: "Le dépistage par éthylotest : un cadre strict" },
+      { type: "p", text: "Un contrôle par éthylotest n\'est licite que si le règlement intérieur le prévoit explicitement, pour des postes de sûreté ou de sécurité clairement identifiés — conduite de véhicules, travail en hauteur, conduite d\'engins, manipulation de produits dangereux. Le salarié doit pouvoir demander une contre-expertise immédiate. Un dépistage généralisé, sans lien avec un poste à risque, expose l\'employeur à un contentieux." },
+      { type: "h2", text: "Et pour les drogues et autres substances psychoactives ?" },
+      { type: "p", text: "Le Code du travail ne prévoit pas de disposition aussi détaillée que pour l\'alcool. C\'est l\'obligation générale de sécurité de l\'article L.4121-1 qui s\'applique : l\'employeur doit prévenir tout risque, y compris celui lié à la consommation de substances altérant la vigilance. Le règlement intérieur peut fixer des règles, à condition qu\'elles restent proportionnées au but recherché et non discriminatoires." },
+      { type: "h2", text: "Prévenir plutôt que seulement sanctionner" },
+      { type: "ul", items: [
+        "Rédiger un règlement intérieur clair, connu de tous, précisant les postes concernés par des restrictions renforcées.",
+        "Former les managers de proximité à repérer les signes d\'alerte sans se transformer en juges.",
+        "Prévoir une procédure d\'orientation vers le médecin du travail plutôt qu\'une sanction immédiate en première intention.",
+        "Veiller à ce que les pots d\'entreprise restent encadrés et ne deviennent pas un facteur de banalisation.",
+      ]},
+      { type: "p", text: "Référence officielle : articles R4228-20 et R4228-21 du Code du travail (boissons alcoolisées et état d\'ivresse en entreprise), article L.4121-1 du Code du travail (obligation générale de prévention des risques professionnels)." },
+      { type: "cta", text: "Pour outiller vos équipes RH et vos managers face à ces situations,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
