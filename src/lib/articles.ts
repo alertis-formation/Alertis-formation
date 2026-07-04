@@ -98,6 +98,7 @@ export const articleSlugs = [
   "protocole-securite-chargement-dechargement-transport",
   "interimaires-cdd-postes-risque-formation-renforcee-securite",
   "alcool-drogues-travail-obligations-employeur-prevention",
+  "harcelement-moral-sexuel-travail-obligations-employeur",
 ] as const;
 
 /**
@@ -5177,6 +5178,41 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : articles R4228-20 et R4228-21 du Code du travail (boissons alcoolisées et état d\'ivresse en entreprise), article L.4121-1 du Code du travail (obligation générale de prévention des risques professionnels)." },
       { type: "cta", text: "Pour outiller vos équipes RH et vos managers face à ces situations,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "harcelement-moral-sexuel-travail-obligations-employeur": {
+    title: "Harcèlement au travail : obligations de prévention et de traitement pour l\'employeur",
+    excerpt: "Le Code du travail impose à l\'employeur de prévenir le harcèlement moral et sexuel, d\'enquêter sur tout signalement et de sanctionner les faits avérés. Point sur les obligations légales et les bonnes pratiques.",
+    publishedAt: "2026-07-04",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/harcelement-moral-sexuel-travail-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié se plaint de propos insistants d\'un collègue. Un manager multiplie les remarques humiliantes devant l\'équipe. Ces situations engagent la responsabilité de l\'employeur, qu\'il en soit informé ou non. Le Code du travail distingue harcèlement moral et harcèlement sexuel, et impose des obligations précises : prévenir, recevoir les signalements, enquêter et sanctionner. Voici ce qu\'un dirigeant, un RH ou un manager doit savoir pour agir correctement." },
+      { type: "h2", text: "Harcèlement moral et harcèlement sexuel : deux définitions légales" },
+      { type: "p", text: "L\'article L.1152-1 du Code du travail définit le harcèlement moral comme des agissements répétés qui dégradent les conditions de travail d\'un salarié, au point de porter atteinte à ses droits, à sa dignité, ou d\'altérer sa santé physique ou mentale. La répétition des faits est une condition : un incident isolé, aussi choquant soit-il, relève d\'une autre qualification juridique." },
+      { type: "p", text: "L\'article L.1153-1 du Code du travail définit le harcèlement sexuel de deux façons : des propos ou comportements à connotation sexuelle répétés qui portent atteinte à la dignité du salarié, ou toute forme de pression grave, même non répétée, exercée dans le but réel ou apparent d\'obtenir un acte de nature sexuelle." },
+      { type: "h2", text: "L\'obligation de prévention de l\'employeur" },
+      { type: "p", text: "L\'obligation générale de sécurité posée par l\'article L.4121-1 du Code du travail couvre la prévention du harcèlement au même titre que les autres risques professionnels. Ces situations doivent être identifiées dans le Document Unique d\'Évaluation des Risques Professionnels, au même titre que les risques psychosociaux, et donner lieu à des actions de prévention documentées." },
+      { type: "ul", items: [
+        "Rappeler l\'interdiction du harcèlement moral et sexuel dans le règlement intérieur.",
+        "Afficher les coordonnées des autorités compétentes (inspection du travail, médecine du travail, Défenseur des droits).",
+        "Former l\'encadrement à repérer les signaux faibles et à réagir sans minimiser les faits rapportés.",
+        "Mettre en place une procédure interne claire de recueil des signalements.",
+      ]},
+      { type: "h2", text: "Un référent obligatoire dans les entreprises de 250 salariés et plus" },
+      { type: "p", text: "Depuis 2019, l\'article L.1153-5-1 du Code du travail impose aux entreprises d\'au moins 250 salariés de désigner un référent chargé d\'orienter, d\'informer et d\'accompagner les salariés en matière de harcèlement sexuel et d\'agissements sexistes. Le comité social et économique doit, de son côté, désigner un référent parmi ses membres, quel que soit l\'effectif de l\'entreprise." },
+      { type: "h2", text: "Recevoir un signalement : la marche à suivre" },
+      { type: "p", text: "Tout signalement doit être pris au sérieux, y compris s\'il paraît informel. L\'employeur qui a connaissance de faits susceptibles de constituer un harcèlement doit diligenter une enquête interne, entendre séparément les personnes concernées, et documenter chaque étape. L\'article L.1152-2 du Code du travail protège le salarié qui signale ou témoigne de tels agissements contre toute sanction ou mesure de représailles." },
+      { type: "ul", items: [
+        "Accuser réception du signalement et informer la personne des suites qui lui seront données.",
+        "Mener une enquête interne contradictoire, sans délai excessif.",
+        "Envisager des mesures conservatoires (éloignement, changement d\'affectation temporaire) si nécessaire.",
+        "Prononcer une sanction disciplinaire proportionnée si les faits sont établis.",
+      ]},
+      { type: "quote", text: "Un signalement mal traité ou classé sans suite expose l\'entreprise à un risque juridique autant qu\'humain : la responsabilité de l\'employeur peut être engagée dès lors qu\'il n\'a pas pris les mesures de prévention et de traitement qui s\'imposaient." },
+      { type: "p", text: "Référence officielle : articles L.1152-1, L.1152-2, L.1153-1 et L.1153-5-1 du Code du travail (harcèlement moral et sexuel, protection du salarié qui signale, référent harcèlement sexuel) ; article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur)." },
+      { type: "cta", text: "Pour outiller vos managers et référents sur ce sujet,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
