@@ -99,6 +99,7 @@ export const articleSlugs = [
   "interimaires-cdd-postes-risque-formation-renforcee-securite",
   "alcool-drogues-travail-obligations-employeur-prevention",
   "harcelement-moral-sexuel-travail-obligations-employeur",
+  "teletravail-obligations-employeur-sante-securite",
 ] as const;
 
 /**
@@ -5213,6 +5214,45 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un signalement mal traité ou classé sans suite expose l\'entreprise à un risque juridique autant qu\'humain : la responsabilité de l\'employeur peut être engagée dès lors qu\'il n\'a pas pris les mesures de prévention et de traitement qui s\'imposaient." },
       { type: "p", text: "Référence officielle : articles L.1152-1, L.1152-2, L.1153-1 et L.1153-5-1 du Code du travail (harcèlement moral et sexuel, protection du salarié qui signale, référent harcèlement sexuel) ; article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur)." },
       { type: "cta", text: "Pour outiller vos managers et référents sur ce sujet,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "teletravail-obligations-employeur-sante-securite": {
+    title: "Télétravail : quelles obligations de santé et sécurité pour l\'employeur ?",
+    excerpt: "Le télétravail n\'allège en rien les obligations de sécurité de l\'employeur. Ce que dit le Code du travail sur l\'accident du travail, le DUERP et les entretiens obligatoires du salarié en télétravail.",
+    publishedAt: "2026-07-05",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/teletravail-obligations-employeur-sante-securite.jpg",
+    content: [
+      { type: "p", text: "Un salarié qui télétravaille reste soumis aux mêmes règles de santé et de sécurité qu\'au bureau. Beaucoup d\'employeurs pensent, à tort, que leur responsabilité s\'arrête à la porte du domicile du salarié. Le Code du travail dit l\'inverse : le télétravail est un mode d\'organisation qui n\'allège en rien les obligations de prévention. Voici ce qu\'un dirigeant, un RH ou un manager doit vérifier pour sécuriser cette organisation." },
+      { type: "h2", text: "Ce que prévoit l\'article L.1222-9 du Code du travail" },
+      { type: "p", text: "L\'article L.1222-9 du Code du travail définit le télétravail comme toute forme d\'organisation du travail dans laquelle un travail qui aurait pu être exécuté dans les locaux de l\'employeur est effectué hors de ces locaux, de façon volontaire, en utilisant les technologies de l\'information. Il pose une règle importante : l\'accident survenu sur le lieu où s\'exerce le télétravail pendant l\'exercice de l\'activité professionnelle est présumé être un accident de travail." },
+      { type: "h2", text: "Trois obligations spécifiques envers le télétravailleur" },
+      { type: "p", text: "L\'article L.1222-10 du Code du travail impose à l\'employeur trois obligations précises à l\'égard du salarié en télétravail :" },
+      { type: "ul", items: [
+        "informer le télétravailleur de toute restriction à l\'usage d\'équipements ou d\'outils informatiques et des sanctions encourues en cas de non-respect ;",
+        "donner priorité au télétravailleur pour occuper ou reprendre un poste sans télétravail correspondant à ses qualifications ;",
+        "organiser chaque année un entretien portant notamment sur les conditions d\'activité du salarié et sa charge de travail.",
+      ]},
+      { type: "h2", text: "Le DUERP doit intégrer les risques liés au télétravail" },
+      { type: "p", text: "L\'obligation générale de sécurité posée par l\'article L.4121-1 du Code du travail ne connaît pas d\'exception géographique. Le Document Unique d\'Évaluation des Risques Professionnels doit donc couvrir les situations de télétravail au même titre que le travail en présentiel, en identifiant les risques propres à l\'exercice de l\'activité à domicile ou dans un tiers-lieu." },
+      { type: "h3", text: "Des risques différents, mais bien réels" },
+      { type: "ul", items: [
+        "troubles musculo-squelettiques liés à un poste de travail mal aménagé : écran, siège, éclairage ;",
+        "isolement professionnel et perte de lien avec le collectif de travail ;",
+        "allongement du temps de connexion et difficulté à respecter le droit à la déconnexion ;",
+        "charge de travail mal évaluée par un management qui ne voit plus l\'activité réelle du salarié.",
+      ]},
+      { type: "quote", text: "La présomption d\'accident du travail attachée au télétravail rappelle une chose simple : ce que le salarié fait chez lui pour son employeur reste, juridiquement, une activité professionnelle à part entière." },
+      { type: "h2", text: "Sécuriser le télétravail : les leviers pratiques" },
+      { type: "ul", items: [
+        "formaliser un accord collectif ou une charte précisant les modalités, les plages de disponibilité et les règles de sécurité informatique ;",
+        "vérifier que l\'équipement fourni permet un poste de travail ergonomique minimal ;",
+        "maintenir des points réguliers entre manager et salarié pour objectiver la charge de travail ;",
+        "rappeler explicitement le droit à la déconnexion en dehors des plages convenues.",
+      ]},
+      { type: "p", text: "Référence officielle : articles L.1222-9, L.1222-10 et L.4121-1 du Code du travail ; accord national interprofessionnel du 26 novembre 2020 relatif à la mise en œuvre du télétravail." },
+      { type: "cta", text: "Pour outiller vos managers sur le cadre juridique du télétravail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
