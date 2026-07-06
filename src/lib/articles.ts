@@ -232,13 +232,13 @@ export const articles: Record<string, Article> = {
     title:
       "La formation SST est-elle obligatoire ? Ce que dit le Code du travail",
     excerpt:
-      "Oui, dans des cas précis définis par le Code du travail — et vivement recommandée partout ailleurs. Obligation, nombre de secouristes, validité du certificat : le point complet sur la formation Sauveteur Secouriste du Travail.",
+      "Oui, dans des cas précis définis par le Code du travail, et vivement recommandée partout ailleurs. Obligation, nombre de secouristes, validité du certificat : le point complet sur la formation Sauveteur Secouriste du Travail.",
     publishedAt: "2026-05-19",
     category: "Secourisme",
     readingTime: 8,
     image: "/images/articles/formation-sst-obligatoire-code-du-travail.jpg",
     content: [
-      { type: "p", text: "La formation SST — Sauveteur Secouriste du Travail — est obligatoire dans deux situations précises définies par le Code du travail : dans chaque atelier où sont réalisés des travaux dangereux, et sur chaque chantier employant au moins 20 personnes pendant plus de 15 jours lorsque des travaux dangereux y sont effectués. En dehors de ces cas, elle n'est pas strictement imposée — mais elle reste vivement recommandée et s'inscrit dans l'obligation générale de sécurité qui pèse sur tout employeur." },
+      { type: "p", text: "La formation SST (Sauveteur Secouriste du Travail) est obligatoire dans deux situations précises définies par le Code du travail : dans chaque atelier où sont réalisés des travaux dangereux, et sur chaque chantier employant au moins 20 personnes pendant plus de 15 jours lorsque des travaux dangereux y sont effectués. En dehors de ces cas, elle n'est pas strictement imposée, mais elle reste vivement recommandée et s'inscrit dans l'obligation générale de sécurité qui pèse sur tout employeur." },
       { type: "h2", text: "Ce que dit précisément le Code du travail" },
       { type: "p", text: "L'obligation de former des secouristes figure à l'article R4224-15 du Code du travail. Celui-ci impose qu'un membre du personnel reçoive la formation de secouriste nécessaire pour donner les premiers secours en cas d'urgence dans deux situations :" },
       { type: "ul", items: ["chaque atelier où sont accomplis des travaux dangereux ;", "chaque chantier employant 20 travailleurs au moins pendant plus de 15 jours, dès lors que des travaux dangereux y sont réalisés."] },
@@ -246,17 +246,17 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Une obligation de sécurité qui concerne, en réalité, toutes les entreprises" },
       { type: "p", text: "Même lorsque l'article R4224-15 ne s'applique pas directement, aucun employeur n'est dispensé de prévoir l'organisation des secours. L'article L4121-1 impose en effet de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Disposer de salariés capables d'alerter et de porter secours fait partie intégrante de ces mesures." },
       { type: "p", text: "Dans les faits, l'inspection du travail comme les services de prévention (Carsat, INRS) considèrent qu'une entreprise doit pouvoir compter, à tout moment et sur chaque site, sur un nombre suffisant de personnes formées aux premiers secours. Le SST est la réponse la plus reconnue à ce besoin." },
-      { type: "quote", text: "Former un Sauveteur Secouriste du Travail, ce n'est pas seulement répondre à une obligation : c'est garantir qu'en cas d'accident, quelqu'un saura agir dans les premières minutes — celles qui comptent le plus." },
+      { type: "quote", text: "Former un Sauveteur Secouriste du Travail, ce n'est pas seulement répondre à une obligation : c'est garantir qu'en cas d'accident, quelqu'un saura agir dans les premières minutes, celles qui comptent le plus." },
       { type: "h2", text: "Combien de SST faut-il dans l'entreprise ?" },
       { type: "p", text: "Le Code du travail ne fixe aucun pourcentage. L'INRS recommande d'adapter le nombre de Sauveteurs Secouristes du Travail à la réalité de l'entreprise, en tenant compte :" },
-      { type: "ul", items: ["de l'effectif et de sa répartition entre les différents sites ;", "des horaires de travail, y compris les équipes de nuit et de week-end ;", "des risques propres à l'activité : machines, produits chimiques, travail isolé, etc. ;", "des absences prévisibles — congés, déplacements — afin qu'un secouriste reste toujours présent."] },
+      { type: "ul", items: ["de l'effectif et de sa répartition entre les différents sites ;", "des horaires de travail, y compris les équipes de nuit et de week-end ;", "des risques propres à l'activité : machines, produits chimiques, travail isolé, etc. ;", "des absences prévisibles (congés, déplacements) afin qu'un secouriste reste toujours présent."] },
       { type: "p", text: "L'objectif est simple : qu'aucune plage horaire ni aucun site ne se retrouve sans personne formée et disponible." },
       { type: "h2", text: "Comment se déroule la formation SST ?" },
       { type: "p", text: "La formation SST initiale dure 14 heures, généralement réparties sur deux jours. Elle alterne apports théoriques et mises en situation pratiques autour de quatre actions clés : protéger, examiner, alerter et secourir. À l'issue de l'évaluation, le stagiaire reçoit un certificat de Sauveteur Secouriste du Travail délivré sous l'autorité de l'INRS et du réseau Assurance Maladie Risques professionnels." },
       { type: "h3", text: "Un certificat valable 24 mois" },
       { type: "p", text: "Le certificat SST est valable 24 mois. Pour le conserver, son titulaire doit suivre, avant l'échéance, un Maintien et Actualisation des Compétences (MAC SST) d'une durée de 7 heures. Ce recyclage permet de réviser les gestes et d'intégrer les évolutions éventuelles des recommandations de secourisme." },
       { type: "h2", text: "Que risque l'employeur qui ne forme personne ?" },
-      { type: "p", text: "L'absence de toute organisation des secours peut être relevée par l'inspection du travail et donner lieu à une mise en demeure, voire à des sanctions. Surtout, en cas d'accident grave, l'employeur qui n'a pris aucune mesure de prévention s'expose à voir sa responsabilité engagée — notamment au titre de la faute inexcusable, lourde de conséquences financières comme humaines." },
+      { type: "p", text: "L'absence de toute organisation des secours peut être relevée par l'inspection du travail et donner lieu à une mise en demeure, voire à des sanctions. Surtout, en cas d'accident grave, l'employeur qui n'a pris aucune mesure de prévention s'expose à voir sa responsabilité engagée, notamment au titre de la faute inexcusable, lourde de conséquences financières comme humaines." },
       { type: "p", text: "À l'inverse, une équipe formée réagit vite et bien : elle protège la victime, alerte efficacement les secours et limite la gravité de l'accident." },
       { type: "cta", text: "Vous souhaitez former des Sauveteurs Secouristes du Travail dans votre entreprise ? Découvrez en détail", href: "/formations-secourisme", label: "nos formations Secourisme & SST" },
     ],
@@ -266,7 +266,7 @@ export const articles: Record<string, Article> = {
     title:
       "Recyclage de l'habilitation électrique : fréquence, obligation et organisation",
     excerpt:
-      "Tous les 3 ans : c'est le rythme de recyclage recommandé pour une habilitation électrique. Obligation de l'employeur, norme NF C18-510, cas de recyclage anticipé — voici tout ce qu'il faut savoir.",
+      "Tous les 3 ans : c'est le rythme de recyclage recommandé pour une habilitation électrique. Obligation de l'employeur, norme NF C18-510, cas de recyclage anticipé : voici tout ce qu'il faut savoir.",
     publishedAt: "2026-05-15",
     category: "Habilitation électrique",
     readingTime: 7,
@@ -276,19 +276,19 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le recyclage de l'habilitation électrique est recommandé tous les 3 ans par la norme NF C18-510. Ce délai n'est pas inscrit tel quel dans la loi, mais l'employeur, lui, a une obligation bien réelle : il ne peut habiliter un salarié que si celui-ci a suivi une formation à la prévention du risque électrique et maintient ses compétences à jour. En pratique, le recyclage triennal est donc traité comme une obligation." },
       { type: "h2", text: "Habilitation, formation, recyclage : qui fait quoi ?" },
       { type: "p", text: "Trois notions sont souvent confondues. Les distinguer permet de comprendre où se situe réellement l'obligation :" },
-      { type: "ul", items: ["La formation à la prévention du risque électrique est dispensée par un organisme de formation. Elle est obligatoire avant toute habilitation (article R4544-10 du Code du travail).", "L'habilitation est la reconnaissance, par l'employeur, de la capacité d'un salarié à accomplir en sécurité des opérations sur ou au voisinage d'installations électriques. C'est l'employeur — et lui seul — qui la délivre (articles R4544-9 et suivants).", "Le recyclage est la formation périodique qui permet au salarié de conserver ces compétences, et donc à l'employeur de maintenir l'habilitation."] },
+      { type: "ul", items: ["La formation à la prévention du risque électrique est dispensée par un organisme de formation. Elle est obligatoire avant toute habilitation (article R4544-10 du Code du travail).", "L'habilitation est la reconnaissance, par l'employeur, de la capacité d'un salarié à accomplir en sécurité des opérations sur ou au voisinage d'installations électriques. C'est l'employeur, et lui seul, qui la délivre (articles R4544-9 et suivants).", "Le recyclage est la formation périodique qui permet au salarié de conserver ces compétences, et donc à l'employeur de maintenir l'habilitation."] },
       { type: "quote", text: "Un organisme de formation ne délivre jamais l'habilitation : il forme le salarié et lui remet une attestation. C'est ensuite l'employeur qui habilite, au regard de cette formation, de l'aptitude médicale et du poste réellement occupé." },
       { type: "h2", text: "Pourquoi un recyclage tous les 3 ans ?" },
       { type: "p", text: "La norme NF C18-510, qui encadre les opérations sur les installations électriques, recommande de réactualiser la formation au moins tous les 3 ans. Ce rythme s'explique simplement :" },
       { type: "ul", items: ["les gestes et les procédures de sécurité se perdent lorsqu'ils ne sont pas pratiqués régulièrement ;", "la réglementation et les normes évoluent : consignations, équipements de protection, suivi médical ;", "l'employeur doit pouvoir justifier, à tout moment, que les compétences de ses salariés habilités sont à jour."] },
       { type: "p", text: "Le délai de 3 ans reste une recommandation : il peut être raccourci selon l'activité, la fréquence réelle des opérations électriques ou le retour d'expérience de l'entreprise." },
       { type: "h2", text: "Les cas de recyclage anticipé" },
-      { type: "p", text: "Indépendamment du délai de 3 ans, un recyclage — ou au minimum une réévaluation — s'impose dans plusieurs situations :" },
+      { type: "p", text: "Indépendamment du délai de 3 ans, un recyclage, ou au minimum une réévaluation, s'impose dans plusieurs situations :" },
       { type: "ul", items: ["un changement de fonction ou d'employeur ;", "une interruption prolongée de la pratique des opérations électriques ;", "une modification importante des installations ou des méthodes de travail ;", "une restriction d'aptitude médicale ;", "un constat de non-respect des règles de sécurité, ou une évolution de la réglementation."] },
       { type: "h2", text: "L'habilitation électrique est-elle vraiment obligatoire ?" },
-      { type: "p", text: "Oui. Dès qu'un salarié effectue des opérations sur des installations électriques ou dans leur voisinage, le Code du travail impose qu'il soit habilité — et donc préalablement formé. Un employeur qui laisse intervenir un salarié non habilité engage gravement sa responsabilité : en cas d'accident, l'absence d'habilitation est l'un des premiers éléments recherchés, et peut caractériser une faute inexcusable." },
+      { type: "p", text: "Oui. Dès qu'un salarié effectue des opérations sur des installations électriques ou dans leur voisinage, le Code du travail impose qu'il soit habilité, et donc préalablement formé. Un employeur qui laisse intervenir un salarié non habilité engage gravement sa responsabilité : en cas d'accident, l'absence d'habilitation est l'un des premiers éléments recherchés, et peut caractériser une faute inexcusable." },
       { type: "h2", text: "Comment organiser le recyclage de vos équipes ?" },
-      { type: "p", text: "Le plus efficace est d'anticiper : tenir à jour un tableau des habilitations avec leur date d'échéance, et programmer les sessions de recyclage plusieurs mois avant. Le contenu de la formation — B0, BS, BE, H0, BR, BC… — doit correspondre exactement aux opérations réellement confiées à chaque salarié, ni plus, ni moins." },
+      { type: "p", text: "Le plus efficace est d'anticiper : tenir à jour un tableau des habilitations avec leur date d'échéance, et programmer les sessions de recyclage plusieurs mois avant. Le contenu de la formation (B0, BS, BE, H0, BR, BC…) doit correspondre exactement aux opérations réellement confiées à chaque salarié, ni plus, ni moins." },
       { type: "cta", text: "Initial ou recyclage, du B0 au BR : nous formons vos équipes à tous les niveaux d'habilitation électrique. Découvrez", href: "/formations-habilitation-electrique", label: "nos formations habilitation électrique" },
     ],
   },
@@ -303,17 +303,17 @@ export const articles: Record<string, Article> = {
     readingTime: 7,
     image: "/images/articles/formation-afgsu-obligatoire-niveaux-1-2.jpg",
     content: [
-      { type: "p", text: "L'AFGSU — Attestation de Formation aux Gestes et Soins d'Urgence — est obligatoire pour exercer la grande majorité des professions de santé. Elle est intégrée aux référentiels de nombreux diplômes (infirmier, aide-soignant, sage-femme, ambulancier…) et doit être maintenue à jour tout au long de la carrière. Il en existe deux niveaux principaux, selon que l'on exerce ou non une fonction soignante." },
+      { type: "p", text: "L'AFGSU (Attestation de Formation aux Gestes et Soins d'Urgence) est obligatoire pour exercer la grande majorité des professions de santé. Elle est intégrée aux référentiels de nombreux diplômes (infirmier, aide-soignant, sage-femme, ambulancier…) et doit être maintenue à jour tout au long de la carrière. Il en existe deux niveaux principaux, selon que l'on exerce ou non une fonction soignante." },
       { type: "h2", text: "Qu'est-ce que l'AFGSU ?" },
-      { type: "p", text: "L'AFGSU atteste de la capacité à identifier une urgence et à y faire face, seul ou en équipe, dans l'attente des secours spécialisés. Sa formation est encadrée par l'arrêté du 30 décembre 2014 modifié, relatif à l'attestation de formation aux gestes et soins d'urgence. Elle est organisée sous l'égide des CESU — les Centres d'Enseignement des Soins d'Urgence — qui pilotent et valident cet enseignement au niveau régional." },
+      { type: "p", text: "L'AFGSU atteste de la capacité à identifier une urgence et à y faire face, seul ou en équipe, dans l'attente des secours spécialisés. Sa formation est encadrée par l'arrêté du 30 décembre 2014 modifié, relatif à l'attestation de formation aux gestes et soins d'urgence. Elle est organisée sous l'égide des CESU (les Centres d'Enseignement des Soins d'Urgence), qui pilotent et valident cet enseignement au niveau régional." },
       { type: "h2", text: "Les deux niveaux d'AFGSU" },
       { type: "h3", text: "AFGSU niveau 1" },
-      { type: "p", text: "L'AFGSU de niveau 1 s'adresse aux personnels — administratifs, techniques, d'accueil — qui exercent au sein d'un établissement de santé ou d'une structure médico-sociale sans être soignants. D'une durée de 14 heures réparties sur deux jours, elle apprend à reconnaître une urgence vitale, à donner l'alerte et à réaliser les gestes de premiers secours." },
+      { type: "p", text: "L'AFGSU de niveau 1 s'adresse aux personnels (administratifs, techniques, d'accueil) qui exercent au sein d'un établissement de santé ou d'une structure médico-sociale sans être soignants. D'une durée de 14 heures réparties sur deux jours, elle apprend à reconnaître une urgence vitale, à donner l'alerte et à réaliser les gestes de premiers secours." },
       { type: "h3", text: "AFGSU niveau 2" },
       { type: "p", text: "L'AFGSU de niveau 2 s'adresse aux professionnels de santé inscrits dans la quatrième partie du Code de la santé publique : infirmiers, aides-soignants, médecins, sages-femmes, masseurs-kinésithérapeutes, manipulateurs en électroradiologie, etc. D'une durée de 21 heures réparties sur trois jours, elle reprend les acquis du niveau 1 et les approfondit : urgences vitales et potentielles, prise en charge en équipe, matériel d'urgence, plans sanitaires." },
       { type: "p", text: "Pour la plupart de ces professions, l'AFGSU de niveau 2 est exigée pour l'obtention du diplôme : elle conditionne donc l'accès au métier." },
       { type: "h2", text: "Une attestation à réactualiser tous les 4 ans" },
-      { type: "p", text: "L'AFGSU — niveau 1 comme niveau 2 — est valable 4 ans. Pour la conserver, son titulaire doit suivre une formation de réactualisation de 7 heures avant l'échéance. Cette mise à jour est essentielle : les recommandations de secourisme et de réanimation évoluent régulièrement, et les gestes doivent rester parfaitement maîtrisés." },
+      { type: "p", text: "L'AFGSU, niveau 1 comme niveau 2, est valable 4 ans. Pour la conserver, son titulaire doit suivre une formation de réactualisation de 7 heures avant l'échéance. Cette mise à jour est essentielle : les recommandations de secourisme et de réanimation évoluent régulièrement, et les gestes doivent rester parfaitement maîtrisés." },
       { type: "quote", text: "Laisser expirer son AFGSU, c'est, pour un professionnel de santé, prendre le risque de ne plus être à jour d'une compétence pourtant exigée pour exercer." },
       { type: "h2", text: "Qui peut dispenser la formation AFGSU ?" },
       { type: "p", text: "La formation AFGSU ne peut pas être dispensée par n'importe quel organisme. Elle relève des CESU, qui habilitent les centres et les formateurs autorisés à l'enseigner. Les formateurs AFGSU sont des professionnels de santé urgentistes, titulaires de l'attestation de formation de formateur AFGSU." },
@@ -589,12 +589,12 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Et les supports d'animation ?" },
       {
         type: "p",
-        text: "Pour la sécurité au travail, le matériel pédagogique compte autant que le papier. Extincteurs de formation rechargeables, simulateurs de feu, mannequins de réanimation, défibrillateurs d'entraînement, planches d'analyse de risques TUTOPREV : la qualité du matériel détermine la qualité de la mise en pratique — et donc des compétences acquises.",
+        text: "Pour la sécurité au travail, le matériel pédagogique compte autant que le papier. Extincteurs de formation rechargeables, simulateurs de feu, mannequins de réanimation, défibrillateurs d'entraînement, planches d'analyse de risques TUTOPREV : la qualité du matériel détermine la qualité de la mise en pratique, et donc des compétences acquises.",
       },
       { type: "h2", text: "Concevoir ses propres supports ou utiliser les supports officiels ?" },
       {
         type: "p",
-        text: "Pour les formations certifiantes (SST, PRAP, PSC, AFGSU, habilitation électrique), les référentiels officiels font foi et doivent être respectés. Les supports formateur peuvent être personnalisés (charte, exemples métier) mais doivent rester conformes au fond. Pour les sensibilisations sur-mesure, vous disposez de plus de marge — à condition de toujours pouvoir tracer la source de chaque information.",
+        text: "Pour les formations certifiantes (SST, PRAP, PSC, AFGSU, habilitation électrique), les référentiels officiels font foi et doivent être respectés. Les supports formateur peuvent être personnalisés (charte, exemples métier) mais doivent rester conformes au fond. Pour les sensibilisations sur-mesure, vous disposez de plus de marge, à condition de toujours pouvoir tracer la source de chaque information.",
       },
     ],
   },
@@ -610,7 +610,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Face à un accident, le premier réflexe n'est pas de toucher la victime. C'est de structurer son intervention. La méthode PAS — Protéger, Alerter, Secourir — guide pas à pas le témoin pour ne pas aggraver la situation et donner aux secours les meilleures chances d'agir.",
+        text: "Face à un accident, le premier réflexe n'est pas de toucher la victime. C'est de structurer son intervention. La méthode PAS (Protéger, Alerter, Secourir) guide pas à pas le témoin pour ne pas aggraver la situation et donner aux secours les meilleures chances d'agir.",
       },
       { type: "h2", text: "P comme Protéger" },
       {
@@ -635,11 +635,11 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "15 — SAMU (urgences médicales)",
-          "18 — Sapeurs-pompiers (secours, incendie, accident)",
-          "17 — Police / Gendarmerie",
-          "112 — Numéro européen, regroupe tous les services",
-          "114 — Numéro pour personnes sourdes ou malentendantes (SMS / fax)",
+          "15 : SAMU (urgences médicales)",
+          "18 : Sapeurs-pompiers (secours, incendie, accident)",
+          "17 : Police / Gendarmerie",
+          "112 : Numéro européen, regroupe tous les services",
+          "114 : Numéro pour personnes sourdes ou malentendantes (SMS / fax)",
         ],
       },
       { type: "h3", text: "Les informations à transmettre" },
@@ -660,11 +660,11 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "S comme Secourir" },
       {
         type: "p",
-        text: "Une fois la zone sécurisée et les secours alertés, vous pouvez agir auprès de la victime — dans la limite de vos compétences. Les gestes dépendent de l'état observé : victime consciente qui se plaint, inconsciente qui respire, en arrêt cardio-respiratoire, hémorragie, brûlure, etc.",
+        text: "Une fois la zone sécurisée et les secours alertés, vous pouvez agir auprès de la victime, dans la limite de vos compétences. Les gestes dépendent de l'état observé : victime consciente qui se plaint, inconsciente qui respire, en arrêt cardio-respiratoire, hémorragie, brûlure, etc.",
       },
       {
         type: "quote",
-        text: "Le rôle du témoin n'est pas de soigner. C'est de gagner du temps — celui qui permettra aux professionnels de prendre le relais dans les meilleures conditions.",
+        text: "Le rôle du témoin n'est pas de soigner. C'est de gagner du temps : celui qui permettra aux professionnels de prendre le relais dans les meilleures conditions.",
       },
       { type: "h2", text: "Pourquoi cet ordre ?" },
       {
@@ -695,14 +695,14 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "15 — SAMU : urgence médicale, malaise, accident avec blessé",
-          "18 — Sapeurs-pompiers : incendie, accident, secours à personne",
-          "17 — Police / Gendarmerie : agression, vol, accident de la route avec litige",
-          "112 — Numéro européen : valable partout en Europe, redirige vers le bon service",
-          "114 — Pour les sourds, malentendants et personnes en situation d'aphasie (par SMS, fax ou tchat)",
-          "115 — SAMU social : sans-abri, urgence sociale",
-          "119 — Allô enfance en danger",
-          "191 — Recherche et sauvetage en mer (CROSS)",
+          "15 (SAMU) : urgence médicale, malaise, accident avec blessé",
+          "18 (Sapeurs-pompiers) : incendie, accident, secours à personne",
+          "17 (Police / Gendarmerie) : agression, vol, accident de la route avec litige",
+          "112 (Numéro européen) : valable partout en Europe, redirige vers le bon service",
+          "114 : Pour les sourds, malentendants et personnes en situation d'aphasie (par SMS, fax ou tchat)",
+          "115 (SAMU social) : sans-abri, urgence sociale",
+          "119 : Allô enfance en danger",
+          "191 : Recherche et sauvetage en mer (CROSS)",
         ],
       },
       { type: "h2", text: "Avant de composer : trois secondes de cadrage" },
@@ -774,7 +774,7 @@ export const articles: Record<string, Article> = {
           "Accessible 24h/24, 7j/7",
           "Fonctionne sans crédit téléphonique ni carte SIM",
           "Joignable même si votre téléphone est verrouillé",
-          "Géolocalisation automatique de l'appelant (AML — Advanced Mobile Location)",
+          "Géolocalisation automatique de l'appelant (AML, Advanced Mobile Location)",
           "Disponible dans plusieurs langues selon le pays",
         ],
       },
@@ -790,7 +790,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Que dire au 112 ?" },
       {
         type: "p",
-        text: "Les mêmes informations que pour les autres numéros d'urgence : qui appelle, d'où, ce qui se passe, combien de victimes, leur état. L'opérateur vous redirige ensuite vers le service compétent — police, pompiers, SAMU — ou prend lui-même en charge votre demande.",
+        text: "Les mêmes informations que pour les autres numéros d'urgence : qui appelle, d'où, ce qui se passe, combien de victimes, leur état. L'opérateur vous redirige ensuite vers le service compétent (police, pompiers, SAMU) ou prend lui-même en charge votre demande.",
       },
       { type: "h2", text: "Le saviez-vous ?" },
       {
@@ -798,7 +798,7 @@ export const articles: Record<string, Article> = {
         items: [
           "Le 11 février est la journée européenne du 112",
           "En France, près de 30 millions d'appels d'urgence sont reçus chaque année",
-          "Un tiers seraient des appels abusifs ou non motivés — proscrits par la loi",
+          "Un tiers seraient des appels abusifs ou non motivés, proscrits par la loi",
           "Un appel volontaire malveillant peut coûter jusqu'à 30 000 € d'amende et 2 ans de prison",
         ],
       },
@@ -867,7 +867,7 @@ export const articles: Record<string, Article> = {
       { type: "h3", text: "Victime suspectée de traumatisme du rachis" },
       {
         type: "p",
-        text: "Le moins de mobilisation possible. La PLS reste préférable à un risque d'inhalation, mais elle doit être réalisée en gardant tête, cou et tronc dans l'axe — idéalement à plusieurs personnes.",
+        text: "Le moins de mobilisation possible. La PLS reste préférable à un risque d'inhalation, mais elle doit être réalisée en gardant tête, cou et tronc dans l'axe, idéalement à plusieurs personnes.",
       },
       {
         type: "quote",
@@ -893,7 +893,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Un salarié se blesse au travail. Le Sauveteur Secouriste du Travail intervient, stabilise la situation, et la question se pose : et si on l'emmenait directement à l'hôpital, avec sa voiture personnelle ou un véhicule de service ? Mauvaise idée — sauf cas très particulier.",
+        text: "Un salarié se blesse au travail. Le Sauveteur Secouriste du Travail intervient, stabilise la situation, et la question se pose : et si on l'emmenait directement à l'hôpital, avec sa voiture personnelle ou un véhicule de service ? Mauvaise idée, sauf cas très particulier.",
       },
       { type: "h2", text: "La règle de principe : on n'emmène pas, on appelle" },
       {
@@ -902,7 +902,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Pourquoi ? Parce que le transport d'une victime — même apparemment légèrement blessée — peut aggraver son état (hémorragie interne non détectée, traumatisme du rachis, malaise cardiaque…) et compliquer la prise en charge médicale.",
+        text: "Pourquoi ? Parce que le transport d'une victime, même apparemment légèrement blessée, peut aggraver son état (hémorragie interne non détectée, traumatisme du rachis, malaise cardiaque…) et compliquer la prise en charge médicale.",
       },
       { type: "h2", text: "Les risques d'un transport sauvage" },
       {
@@ -940,7 +940,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Le cas du transport par ambulance privée" },
       {
         type: "p",
-        text: "Si l'entreprise dispose d'un partenariat avec une ambulance privée, son intervention reste subordonnée à la régulation du 15. C'est le SAMU qui oriente la victime vers la structure adaptée — pas l'employeur ou le médecin du travail seul.",
+        text: "Si l'entreprise dispose d'un partenariat avec une ambulance privée, son intervention reste subordonnée à la régulation du 15. C'est le SAMU qui oriente la victime vers la structure adaptée, pas l'employeur ou le médecin du travail seul.",
       },
       { type: "h2", text: "Le bon réflexe SST" },
       {
@@ -953,7 +953,7 @@ export const articles: Record<string, Article> = {
   "extincteurs-guide-essentiel-pour-bien-les-utiliser": {
     title: "Extincteurs : guide essentiel pour bien les utiliser",
     excerpt:
-      "Eau, poudre, CO₂, mousse : tous les extincteurs ne se valent pas selon le type de feu. Comment choisir, manipuler et entretenir son extincteur — l'essentiel à retenir.",
+      "Eau, poudre, CO₂, mousse : tous les extincteurs ne se valent pas selon le type de feu. Comment choisir, manipuler et entretenir son extincteur : l'essentiel à retenir.",
     publishedAt: "2026-01-08",
     category: "Sécurité incendie",
     readingTime: 5,
@@ -971,11 +971,11 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Classe A — Feux secs : bois, papier, carton, tissus, plastiques",
-          "Classe B — Feux gras : hydrocarbures, essence, solvants, peintures",
-          "Classe C — Feux de gaz : butane, propane, méthane",
-          "Classe D — Feux de métaux : magnésium, sodium, aluminium en poudre",
-          "Classe F — Feux d'huiles et graisses de cuisine (friteuses)",
+          "Classe A (feux secs) : bois, papier, carton, tissus, plastiques",
+          "Classe B (feux gras) : hydrocarbures, essence, solvants, peintures",
+          "Classe C (feux de gaz) : butane, propane, méthane",
+          "Classe D (feux de métaux) : magnésium, sodium, aluminium en poudre",
+          "Classe F : feux d'huiles et graisses de cuisine (friteuses)",
         ],
       },
       { type: "h2", text: "Les types d'extincteurs et leurs usages" },
@@ -1003,10 +1003,10 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "D — Dégoupiller : retirer la goupille de sécurité",
-          "E — Essayer : test à un mètre du sol, dans une direction sûre",
-          "F — Foncer : avancer vers le foyer, sans courir",
-          "I — Insister : viser la base des flammes, balayer de gauche à droite",
+          "D : Dégoupiller (retirer la goupille de sécurité)",
+          "E : Essayer (test à un mètre du sol, dans une direction sûre)",
+          "F : Foncer (avancer vers le foyer, sans courir)",
+          "I : Insister (viser la base des flammes, balayer de gauche à droite)",
         ],
       },
       {
@@ -1037,7 +1037,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Là où l'extincteur permet d'agir sur un départ de feu naissant, le RIA — Robinet d'Incendie Armé — autorise une action prolongée sur un foyer plus développé. Présent dans la plupart des ERP, IGH et établissements industriels, il reste pourtant souvent mal connu des salariés.",
+        text: "Là où l'extincteur permet d'agir sur un départ de feu naissant, le RIA (Robinet d'Incendie Armé) autorise une action prolongée sur un foyer plus développé. Présent dans la plupart des ERP, IGH et établissements industriels, il reste pourtant souvent mal connu des salariés.",
       },
       { type: "h2", text: "Qu'est-ce qu'un RIA ?" },
       {
@@ -1073,7 +1073,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "Un RIA mis en œuvre par une personne non formée n'est pas un secours : c'est un facteur d'aggravation. Mauvais débit, mauvais réglage, mauvais positionnement — et le feu peut s'en trouver renforcé.",
+        text: "Un RIA mis en œuvre par une personne non formée n'est pas un secours : c'est un facteur d'aggravation. Mauvais débit, mauvais réglage, mauvais positionnement : le feu peut s'en trouver renforcé.",
       },
       { type: "h2", text: "Précautions et limites" },
       {
@@ -1113,7 +1113,7 @@ export const articles: Record<string, Article> = {
         type: "p",
         text: "Le Code du travail (article R.4227-39) impose à l'employeur de prendre les mesures nécessaires pour que tout commencement d'incendie soit combattu rapidement et efficacement. Les EPI et ESI sont la déclinaison opérationnelle de cette obligation, complétée par la formation de tous les salariés à la manipulation d'un extincteur.",
       },
-      { type: "h2", text: "Les EPI — Équipiers de Première Intervention" },
+      { type: "h2", text: "Les EPI (Équipiers de Première Intervention)" },
       {
         type: "p",
         text: "L'EPI est le premier maillon : un salarié formé à intervenir sur un départ de feu, avec les moyens de proximité (extincteur), avant que la situation ne s'aggrave. Sa formation dure 3 à 4 heures et combine théorie et exercices pratiques sur feux réels.",
@@ -1129,7 +1129,7 @@ export const articles: Record<string, Article> = {
           "Connaître les consignes propres à son établissement",
         ],
       },
-      { type: "h2", text: "Les ESI — Équipiers de Seconde Intervention" },
+      { type: "h2", text: "Les ESI (Équipiers de Seconde Intervention)" },
       {
         type: "p",
         text: "L'ESI prend le relais quand le feu dépasse les capacités d'une action individuelle. Formé sur 2 jours minimum, il intervient en équipe avec des moyens plus lourds : RIA, équipement de protection individuelle incendie, parfois ARI (Appareil Respiratoire Isolant).",
@@ -1186,7 +1186,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Le principe du sprinklage" },
       {
         type: "p",
-        text: "Un système sprinkler est un réseau de canalisations sous pression alimenté en eau (ou en eau + gaz dans certains cas). Au bout du réseau, des têtes diffusantes équipées d'une ampoule thermosensible — généralement remplie d'un liquide coloré qui éclate à une température définie (57°C, 68°C, 79°C selon les modèles).",
+        text: "Un système sprinkler est un réseau de canalisations sous pression alimenté en eau (ou en eau + gaz dans certains cas). Au bout du réseau, des têtes diffusantes équipées d'une ampoule thermosensible, généralement remplie d'un liquide coloré qui éclate à une température définie (57°C, 68°C, 79°C selon les modèles).",
       },
       {
         type: "p",
@@ -1206,10 +1206,10 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Sous eau (\"wet pipe\") : réseau toujours en eau, déclenchement immédiat — usage le plus courant",
-          "Sous air (\"dry pipe\") : réseau sous air comprimé, l'eau arrive après ouverture — pour les zones soumises au gel",
-          "Pré-action : double sécurité, l'eau n'arrive qu'après détection ET ouverture d'une tête — locaux à haute valeur (data centers, archives)",
-          "Déluge : toutes les têtes s'ouvrent simultanément après déclenchement — risques industriels graves",
+          "Sous eau (\"wet pipe\") : réseau toujours en eau, déclenchement immédiat (usage le plus courant)",
+          "Sous air (\"dry pipe\") : réseau sous air comprimé, l'eau arrive après ouverture (pour les zones soumises au gel)",
+          "Pré-action : double sécurité, l'eau n'arrive qu'après détection ET ouverture d'une tête, pour les locaux à haute valeur (data centers, archives)",
+          "Déluge : toutes les têtes s'ouvrent simultanément après déclenchement, pour les risques industriels graves",
         ],
       },
       { type: "h2", text: "Réglementation et obligations" },
@@ -1296,7 +1296,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "L'HACCP n'est pas une formalité administrative. C'est une discipline quotidienne qui structure les gestes professionnels — du choix du fournisseur au service au client.",
+        text: "L'HACCP n'est pas une formalité administrative. C'est une discipline quotidienne qui structure les gestes professionnels, du choix du fournisseur au service au client.",
       },
       { type: "h2", text: "Et la formation ?" },
       {
@@ -1331,7 +1331,7 @@ export const articles: Record<string, Article> = {
         items: [
           "Pour toute opération de plus de 400 heures de travail sur 12 mois",
           "Pour toute opération comportant des travaux dangereux figurant sur la liste de l'arrêté du 19 mars 1993, quelle que soit sa durée",
-          "Travaux à risque chimique, explosion, électrocution, chute, amiante, en hauteur, en espace confiné — la liste est précise",
+          "Travaux à risque chimique, explosion, électrocution, chute, amiante, en hauteur, en espace confiné (la liste est précise)",
         ],
       },
       { type: "h2", text: "Le contenu obligatoire" },
@@ -1374,7 +1374,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "Un plan de prévention signé puis oublié dans un classeur n'a aucune valeur — ni juridique, ni opérationnelle. Il vaut par sa mise en œuvre quotidienne et son actualisation.",
+        text: "Un plan de prévention signé puis oublié dans un classeur n'a aucune valeur, ni juridique, ni opérationnelle. Il vaut par sa mise en œuvre quotidienne et son actualisation.",
       },
       { type: "h2", text: "Plan de prévention ou PPSPS ?" },
       {
@@ -1406,9 +1406,9 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "ERP de catégorie 1, 2 et 3 (au-delà de 300 personnes) — depuis le 1ᵉʳ janvier 2020",
-          "ERP de catégorie 4 (de 200 à 300 personnes) — depuis le 1ᵉʳ janvier 2021",
-          "ERP de catégorie 5 spécifiques (structures d'accueil pour personnes âgées, handicapées, refuges de montagne, établissements sportifs clos avec public, gares, hôtels-restaurants en zone isolée) — depuis le 1ᵉʳ janvier 2022",
+          "ERP de catégorie 1, 2 et 3 (au-delà de 300 personnes) : depuis le 1ᵉʳ janvier 2020",
+          "ERP de catégorie 4 (de 200 à 300 personnes) : depuis le 1ᵉʳ janvier 2021",
+          "ERP de catégorie 5 spécifiques (structures d'accueil pour personnes âgées, handicapées, refuges de montagne, établissements sportifs clos avec public, gares, hôtels-restaurants en zone isolée) : depuis le 1ᵉʳ janvier 2022",
         ],
       },
       { type: "h2", text: "Et les entreprises non-ERP ?" },
@@ -1438,7 +1438,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Combien coûte un DAE ?" },
       {
         type: "p",
-        text: "Comptez 1 500 à 2 500 € pour un appareil d'entrée à milieu de gamme, avec un coût de maintenance annuel d'environ 100 à 200 € (remplacement des électrodes et batterie). L'investissement reste modeste au regard de l'enjeu — une vie potentiellement sauvée.",
+        text: "Comptez 1 500 à 2 500 € pour un appareil d'entrée à milieu de gamme, avec un coût de maintenance annuel d'environ 100 à 200 € (remplacement des électrodes et batterie). L'investissement reste modeste au regard de l'enjeu : une vie potentiellement sauvée.",
       },
       { type: "h2", text: "Et la formation des salariés ?" },
       {
@@ -1460,7 +1460,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Le Code du travail (article R.4224-14) impose que tout lieu de travail dispose du matériel de premiers secours adapté à la nature des risques. Mais il ne précise pas la composition exacte de la trousse — c'est au médecin du travail, en concertation avec l'employeur, de la définir.",
+        text: "Le Code du travail (article R.4224-14) impose que tout lieu de travail dispose du matériel de premiers secours adapté à la nature des risques. Mais il ne précise pas la composition exacte de la trousse : c'est au médecin du travail, en concertation avec l'employeur, de la définir.",
       },
       { type: "h2", text: "Le cadre réglementaire" },
       {
@@ -1528,12 +1528,12 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "La trousse de secours n'est pas une pharmacie. C'est un outil de stabilisation de la victime en attendant les secours — pas un substitut à un appel au 15.",
+        text: "La trousse de secours n'est pas une pharmacie. C'est un outil de stabilisation de la victime en attendant les secours, pas un substitut à un appel au 15.",
       },
       { type: "h2", text: "Maintenance" },
       {
         type: "p",
-        text: "Inventaire mensuel, contrôle des dates de péremption tous les 6 mois, remise à niveau systématique après usage. Une trousse à moitié vide ou périmée vaut moins qu'une absence de trousse — elle crée un faux sentiment de sécurité.",
+        text: "Inventaire mensuel, contrôle des dates de péremption tous les 6 mois, remise à niveau systématique après usage. Une trousse à moitié vide ou périmée vaut moins qu'une absence de trousse : elle crée un faux sentiment de sécurité.",
       },
     ],
   },
@@ -1549,7 +1549,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "L'infarctus du myocarde tue plus de 18 000 personnes par an en France. Pourtant, dans plus de la moitié des cas, des signes annonciateurs ont été présents — parfois plusieurs heures avant l'événement aigu. Savoir les reconnaître peut faire la différence entre une prise en charge précoce et un décès évitable.",
+        text: "L'infarctus du myocarde tue plus de 18 000 personnes par an en France. Pourtant, dans plus de la moitié des cas, des signes annonciateurs ont été présents, parfois plusieurs heures avant l'événement aigu. Savoir les reconnaître peut faire la différence entre une prise en charge précoce et un décès évitable.",
       },
       { type: "h2", text: "Le signe principal : la douleur thoracique" },
       {
@@ -1582,7 +1582,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les présentations atypiques" },
       {
         type: "p",
-        text: "Attention : tous les infarctus ne se présentent pas avec une douleur typique. Certains profils — femmes, personnes âgées, diabétiques — présentent des signes trompeurs qui retardent le diagnostic.",
+        text: "Attention : tous les infarctus ne se présentent pas avec une douleur typique. Certains profils (femmes, personnes âgées, diabétiques) présentent des signes trompeurs qui retardent le diagnostic.",
       },
       {
         type: "ul",
@@ -1595,7 +1595,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "Une douleur thoracique qui dure plus de 20 minutes, c'est un infarctus jusqu'à preuve du contraire. On appelle le 15 — pas son médecin traitant, pas un proche.",
+        text: "Une douleur thoracique qui dure plus de 20 minutes, c'est un infarctus jusqu'à preuve du contraire. On appelle le 15, pas son médecin traitant, pas un proche.",
       },
       { type: "h2", text: "Conduite à tenir" },
       {
@@ -1641,7 +1641,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Tout formateur SST habilité par l'INRS a accès à une plateforme de ressources en ligne : le QuickPlace. C'est l'espace officiel où sont mis à disposition les supports les plus récents — référentiels, vidéos techniques, outils d'animation. Encore faut-il savoir comment y entrer et quoi y chercher.",
+        text: "Tout formateur SST habilité par l'INRS a accès à une plateforme de ressources en ligne : le QuickPlace. C'est l'espace officiel où sont mis à disposition les supports les plus récents : référentiels, vidéos techniques, outils d'animation. Encore faut-il savoir comment y entrer et quoi y chercher.",
       },
       { type: "h2", text: "Qu'est-ce que le QuickPlace INRS ?" },
       {
@@ -1686,7 +1686,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Mot de passe perdu ou compte bloqué" },
       {
         type: "p",
-        text: "En cas de mot de passe oublié, utiliser la fonction de réinitialisation depuis la page de connexion. Si l'accès reste bloqué (après plusieurs tentatives ou expiration du compte), contacter directement le service formation de l'INRS via l'adresse dédiée — votre organisme de formation peut vous transmettre la procédure.",
+        text: "En cas de mot de passe oublié, utiliser la fonction de réinitialisation depuis la page de connexion. Si l'accès reste bloqué (après plusieurs tentatives ou expiration du compte), contacter directement le service formation de l'INRS via l'adresse dédiée. Votre organisme de formation peut vous transmettre la procédure.",
       },
       {
         type: "quote",
@@ -1802,34 +1802,34 @@ export const articles: Record<string, Article> = {
         ],
       },
       { type: "h2", text: "Les formations citoyennes" },
-      { type: "h3", text: "GQS — Gestes Qui Sauvent (2 heures)" },
+      { type: "h3", text: "GQS : Gestes Qui Sauvent (2 heures)" },
       {
         type: "p",
         text: "Format court de sensibilisation, accessible à tous, sans prérequis. On apprend à alerter, protéger, et réaliser les gestes vitaux face à une hémorragie, une perte de connaissance ou un arrêt cardiaque. Idéal comme première porte d'entrée.",
       },
-      { type: "h3", text: "PSC — Premier Secours Citoyen (anciennement PSC1, 7 heures)" },
+      { type: "h3", text: "PSC : Premier Secours Citoyen (anciennement PSC1, 7 heures)" },
       {
         type: "p",
         text: "La formation citoyenne de référence (anciennement appelée PSC1), valable à vie (recyclage recommandé tous les 3 ans). Aborde toute la palette des gestes de premiers secours pour un témoin non-professionnel. Souvent demandée pour les concours administratifs, les BAFA, et les fonctions d'animation.",
       },
       { type: "h2", text: "Les formations professionnelles" },
-      { type: "h3", text: "SST — Sauveteur Secouriste du Travail (14 heures)" },
+      { type: "h3", text: "SST : Sauveteur Secouriste du Travail (14 heures)" },
       {
         type: "p",
         text: "Formation INRS dédiée au milieu professionnel. Couvre les gestes de premiers secours et la dimension prévention des risques au travail. Certificat valable 24 mois, recyclage obligatoire (MAC SST de 7 heures). Idéal pour tout salarié, indispensable pour les référents secourisme.",
       },
-      { type: "h3", text: "AFGSU — Attestation de Formation aux Gestes et Soins d'Urgence" },
+      { type: "h3", text: "AFGSU : Attestation de Formation aux Gestes et Soins d'Urgence" },
       {
         type: "p",
         text: "Réservée aux professionnels de santé. Trois niveaux : AFGSU 1 (personnel administratif et non-soignant des établissements de santé), AFGSU 2 (professionnels paramédicaux et médicaux), spécialisation NRBC (risques nucléaires, radiologiques, biologiques, chimiques).",
       },
       { type: "h2", text: "Les formations de secouriste" },
-      { type: "h3", text: "PSE1 — Premiers Secours en Équipe niveau 1 (35 heures)" },
+      { type: "h3", text: "PSE1 : Premiers Secours en Équipe niveau 1 (35 heures)" },
       {
         type: "p",
         text: "Pour devenir secouriste au sein d'une association agréée de sécurité civile (Croix-Rouge, Protection civile, etc.). Travail en équipe, utilisation de matériel (immobilisation, oxygénothérapie, brancards).",
       },
-      { type: "h3", text: "PSE2 — Premiers Secours en Équipe niveau 2 (28 heures)" },
+      { type: "h3", text: "PSE2 : Premiers Secours en Équipe niveau 2 (28 heures)" },
       {
         type: "p",
         text: "Approfondissement du PSE1. Permet d'assurer le rôle de chef d'équipe et d'intervenir sur des situations plus complexes. Prérequis pour de nombreux concours de la sécurité civile.",
@@ -1842,13 +1842,13 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Durée 2h — sensibilisation grand public ➜ GQS",
-          "Durée 7h — citoyen, à vie ➜ PSC",
-          "Durée 14h — milieu professionnel, recyclable tous les 24 mois ➜ SST",
-          "Durée 7h — recyclage SST ➜ MAC SST",
-          "Durée 35h — secouriste associatif ou équipe de secours ➜ PSE1",
-          "Durée 28h — chef d'équipe de secouristes ➜ PSE2",
-          "Durée variable — professionnels de santé selon niveau ➜ AFGSU 1/2/NRBC",
+          "Durée 2h : sensibilisation grand public ➜ GQS",
+          "Durée 7h : citoyen, à vie ➜ PSC",
+          "Durée 14h : milieu professionnel, recyclable tous les 24 mois ➜ SST",
+          "Durée 7h : recyclage SST ➜ MAC SST",
+          "Durée 35h : secouriste associatif ou équipe de secours ➜ PSE1",
+          "Durée 28h : chef d'équipe de secouristes ➜ PSE2",
+          "Durée variable : professionnels de santé selon niveau ➜ AFGSU 1/2/NRBC",
         ],
       },
       { type: "h2", text: "Et après ?" },
@@ -1968,7 +1968,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Le CNPP (Centre National de Prévention et de Protection) a publié en octobre 2025 une nouvelle édition majeure du référentiel APSAD R1 — Extinction automatique à eau de type sprinkleur. À 430 pages, cette édition consolide et refond les évolutions cumulées des dernières années. Elle constitue désormais la référence technique pour la conception, l'installation, la maintenance et la vérification des systèmes sprinklers en France.",
+        text: "Le CNPP (Centre National de Prévention et de Protection) a publié en octobre 2025 une nouvelle édition majeure du référentiel APSAD R1 (Extinction automatique à eau de type sprinkleur). À 430 pages, cette édition consolide et refond les évolutions cumulées des dernières années. Elle constitue désormais la référence technique pour la conception, l'installation, la maintenance et la vérification des systèmes sprinklers en France.",
       },
       { type: "h2", text: "Ce qui change" },
       {
@@ -1987,7 +1987,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Pour qui c'est essentiel ?" },
       {
         type: "p",
-        text: "Tout site industriel ou tertiaire équipé d'une installation sprinkler — entrepôts logistiques, parkings couverts, IGH, sites tertiaires de grande taille — a intérêt à former ses ESI sur les nouvelles bases R1. Les équipiers de première intervention (EPI) ne sont pas concernés au même niveau : leur rôle reste l'alerte et l'utilisation d'un extincteur, pas l'exploitation d'un système d'extinction automatique.",
+        text: "Tout site industriel ou tertiaire équipé d'une installation sprinkler (entrepôts logistiques, parkings couverts, IGH, sites tertiaires de grande taille) a intérêt à former ses ESI sur les nouvelles bases R1. Les équipiers de première intervention (EPI) ne sont pas concernés au même niveau : leur rôle reste l'alerte et l'utilisation d'un extincteur, pas l'exploitation d'un système d'extinction automatique.",
       },
       { type: "h2", text: "Notre intégration" },
       {
@@ -2013,7 +2013,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Le CNPP a publié en septembre 2025 une mise à jour du référentiel APSAD R7 — Détection automatique d'incendie. Ce document précise les exigences techniques minimales pour l'analyse de risque, l'installation et la maintenance d'un système de détection automatique d'incendie (SDI).",
+        text: "Le CNPP a publié en septembre 2025 une mise à jour du référentiel APSAD R7 (Détection automatique d'incendie). Ce document précise les exigences techniques minimales pour l'analyse de risque, l'installation et la maintenance d'un système de détection automatique d'incendie (SDI).",
       },
       { type: "h2", text: "Ce que couvre le R7" },
       {
@@ -2037,7 +2037,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Impact sur nos formations" },
       {
         type: "p",
-        text: "Nous mettons à jour la slide \"Détection et alarme\" dans nos modules EPI et ESI. C'est particulièrement pertinent pour les sessions menées sur sites industriels équipés d'un SSI complet — les équipiers doivent savoir lire un tableau de signalisation, comprendre les zones de détection et identifier les actions associées.",
+        text: "Nous mettons à jour la slide \"Détection et alarme\" dans nos modules EPI et ESI. C'est particulièrement pertinent pour les sessions menées sur sites industriels équipés d'un SSI complet : les équipiers doivent savoir lire un tableau de signalisation, comprendre les zones de détection et identifier les actions associées.",
       },
       {
         type: "p",
@@ -2087,7 +2087,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Référence officielle : Circulaire du 20 juin 2025, ministère de l'Intérieur — DGSCGC.",
+        text: "Référence officielle : Circulaire du 20 juin 2025, ministère de l'Intérieur (DGSCGC).",
       },
     ],
   },
@@ -2149,7 +2149,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "L'INRS a publié en juin 2025 la brochure ED 6403 — outil RPS-DU. Le document propose une méthodologie d'évaluation des facteurs de risques psychosociaux conçue pour aboutir à une intégration explicite dans le Document Unique d'Évaluation des Risques Professionnels (DUERP). C'est une réponse opérationnelle à une difficulté que beaucoup d'entreprises rencontrent : comment passer de la sensibilisation RPS à une véritable inscription dans le DUERP ?",
+        text: "L'INRS a publié en juin 2025 la brochure ED 6403 (outil RPS-DU). Le document propose une méthodologie d'évaluation des facteurs de risques psychosociaux conçue pour aboutir à une intégration explicite dans le Document Unique d'Évaluation des Risques Professionnels (DUERP). C'est une réponse opérationnelle à une difficulté que beaucoup d'entreprises rencontrent : comment passer de la sensibilisation RPS à une véritable inscription dans le DUERP ?",
       },
       { type: "h2", text: "Ce que propose la méthode RPS-DU" },
       {
@@ -2168,7 +2168,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Pourquoi c'est important pour vous" },
       {
         type: "p",
-        text: "Le DUERP est obligatoire pour toutes les entreprises, dès le premier salarié. La conservation est passée à 40 ans depuis le décret 2022-395. Si le DUERP ne couvre pas les RPS, il est en réalité incomplet — et l'inspection du travail comme la médecine du travail le repèrent immédiatement.",
+        text: "Le DUERP est obligatoire pour toutes les entreprises, dès le premier salarié. La conservation est passée à 40 ans depuis le décret 2022-395. Si le DUERP ne couvre pas les RPS, il est en réalité incomplet, et l'inspection du travail comme la médecine du travail le repèrent immédiatement.",
       },
       { type: "h2", text: "Notre intégration en formation" },
       {
@@ -2181,7 +2181,7 @@ export const articles: Record<string, Article> = {
           "Formation DUERP : la méthode devient le fil conducteur du volet RPS",
           "Formation CSE : présentation comme support de dialogue avec l'employeur",
           "Formation SST : ajout d'une slide \"SST et alerte sur les RPS\" (signaux faibles)",
-          "Formation PRAP : court module \"De la TMS au RPS — facteurs organisationnels\"",
+          "Formation PRAP : court module \"De la TMS au RPS : facteurs organisationnels\"",
         ],
       },
       {
@@ -2190,7 +2190,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Référence officielle : Brochure INRS ED 6403 — \"RPS-DU : un outil pour évaluer les risques psychosociaux\", juin 2025.",
+        text: "Référence officielle : Brochure INRS ED 6403, \"RPS-DU : un outil pour évaluer les risques psychosociaux\", juin 2025.",
       },
     ],
   },
@@ -2243,7 +2243,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "À noter : la suppression de la majoration SIR au 1er janvier 2026 (article distinct) constitue une économie indirecte pour les employeurs — voir notre note dédiée à ce sujet.",
+        text: "À noter : la suppression de la majoration SIR au 1er janvier 2026 (article distinct) constitue une économie indirecte pour les employeurs : voir notre note dédiée à ce sujet.",
       },
       {
         type: "p",
@@ -2264,7 +2264,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "La norme NF C 18-510 est le texte technique fondamental de l'habilitation électrique en France. Sa version COMPIL 2 — édition consolidée intégrant les amendements A1 et A2 — constitue la référence active pour toute la période 2025-2026, après que l'arrêté du 5 juillet 2024 a officiellement visé les amendements pour l'application aux formations et qualifications.",
+        text: "La norme NF C 18-510 est le texte technique fondamental de l'habilitation électrique en France. Sa version COMPIL 2 (édition consolidée intégrant les amendements A1 et A2) constitue la référence active pour toute la période 2025-2026, après que l'arrêté du 5 juillet 2024 a officiellement visé les amendements pour l'application aux formations et qualifications.",
       },
       { type: "h2", text: "Ce qu'apporte la COMPIL 2" },
       {
@@ -2387,11 +2387,11 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Les supports de la deuxième journée PRAP IBC intègrent désormais une séquence \"De la TMS au RPS — facteurs organisationnels\" issue de l'ED 6403 sur le RPS-DU. C'est cohérent avec l'évolution générale de la doctrine INRS : la prévention TMS ne peut plus être dissociée de l'organisation du travail.",
+        text: "Les supports de la deuxième journée PRAP IBC intègrent désormais une séquence \"De la TMS au RPS : facteurs organisationnels\" issue de l'ED 6403 sur le RPS-DU. C'est cohérent avec l'évolution générale de la doctrine INRS : la prévention TMS ne peut plus être dissociée de l'organisation du travail.",
       },
       {
         type: "p",
-        text: "Référence officielle : Document de référence dispositif TMS — INRS, mise à jour décembre 2025.",
+        text: "Référence officielle : Document de référence dispositif TMS, INRS, mise à jour décembre 2025.",
       },
     ],
   },
@@ -2413,7 +2413,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que le décret impose" },
       {
         type: "p",
-        text: "Le texte est centré sur le DUERP. Le risque chaleur — et plus généralement le risque \"chaleur extrême\" — doit être identifié, évalué et accompagné de mesures de prévention concrètes. L'employeur ne peut plus traiter le sujet par une simple note de service en cas d'alerte canicule.",
+        text: "Le texte est centré sur le DUERP. Le risque chaleur, et plus généralement le risque \"chaleur extrême\", doit être identifié, évalué et accompagné de mesures de prévention concrètes. L'employeur ne peut plus traiter le sujet par une simple note de service en cas d'alerte canicule.",
       },
       {
         type: "ul",
@@ -2433,7 +2433,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Notre intégration en formation" },
       {
         type: "p",
-        text: "Nous avons ajouté dans notre formation \"DUERP\" un module dédié \"Risque chaleur et chaleur extrême\" avec exemples concrets de mesures de prévention. Le modèle de DUERP fourni aux stagiaires intègre désormais une rubrique \"risques physiques — chaleur\" pré-formatée pour qu'ils puissent la reprendre dans leur propre document.",
+        text: "Nous avons ajouté dans notre formation \"DUERP\" un module dédié \"Risque chaleur et chaleur extrême\" avec exemples concrets de mesures de prévention. Le modèle de DUERP fourni aux stagiaires intègre désormais une rubrique \"risques physiques : chaleur\" pré-formatée pour qu'ils puissent la reprendre dans leur propre document.",
       },
       {
         type: "p",
@@ -2458,7 +2458,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "L'INRS publie en mars 2026 la brochure ED 6349 — \"Risques psychosociaux : comment agir en prévention\". Le document propose un cadrage actualisé pour piloter une politique RPS en entreprise, centré sur le travail réel et son organisation. C'est aujourd'hui la brochure de référence pour structurer une démarche RPS.",
+        text: "L'INRS publie en mars 2026 la brochure ED 6349, \"Risques psychosociaux : comment agir en prévention\". Le document propose un cadrage actualisé pour piloter une politique RPS en entreprise, centré sur le travail réel et son organisation. C'est aujourd'hui la brochure de référence pour structurer une démarche RPS.",
       },
       { type: "h2", text: "Les quatre circonstances pour agir" },
       {
@@ -2481,7 +2481,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les étapes d'une démarche durable" },
       {
         type: "p",
-        text: "Au-delà des quatre circonstances, la brochure structure les étapes clés d'une démarche RPS qui dure : préparation, diagnostic du travail réel, formalisation dans le DUERP, plan d'action, évaluation. L'accent est mis sur le travail réel — pas le travail prescrit — comme objet central de la prévention.",
+        text: "Au-delà des quatre circonstances, la brochure structure les étapes clés d'une démarche RPS qui dure : préparation, diagnostic du travail réel, formalisation dans le DUERP, plan d'action, évaluation. L'accent est mis sur le travail réel (pas le travail prescrit) comme objet central de la prévention.",
       },
       { type: "h2", text: "Notre refonte de la formation RPS" },
       {
@@ -2502,7 +2502,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Référence officielle : Brochure INRS ED 6349 — \"Risques psychosociaux : comment agir en prévention\", mars 2026.",
+        text: "Référence officielle : Brochure INRS ED 6349, \"Risques psychosociaux : comment agir en prévention\", mars 2026.",
       },
     ],
   },
@@ -2559,7 +2559,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Référence officielle : Plan interministériel Qualité et anti-fraude — ministère du Travail / France Compétences, annonce de juillet 2025. Documentation Qualiopi sur travail-emploi.gouv.fr.",
+        text: "Référence officielle : Plan interministériel Qualité et anti-fraude, ministère du Travail / France Compétences, annonce de juillet 2025. Documentation Qualiopi sur travail-emploi.gouv.fr.",
       },
     ],
   },
@@ -2576,7 +2576,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Tous les cinq ans, l'International Liaison Committee on Resuscitation (ILCOR) publie son CoSTR — Consensus on Science with Treatment Recommendations. C'est la synthèse mondiale des données scientifiques sur la réanimation, et c'est sur cette base que les sociétés savantes nationales et continentales (ERC en Europe, AHA aux États-Unis) construisent leurs recommandations.",
+        text: "Tous les cinq ans, l'International Liaison Committee on Resuscitation (ILCOR) publie son CoSTR (Consensus on Science with Treatment Recommendations). C'est la synthèse mondiale des données scientifiques sur la réanimation, et c'est sur cette base que les sociétés savantes nationales et continentales (ERC en Europe, AHA aux États-Unis) construisent leurs recommandations.",
       },
       { type: "h2", text: "Les grandes lignes du CoSTR 2025" },
       {
@@ -2609,7 +2609,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Référence officielle : 2025 ILCOR CoSTR — Circulation, octobre 2025.",
+        text: "Référence officielle : 2025 ILCOR CoSTR, Circulation, octobre 2025.",
       },
     ],
   },
@@ -2632,8 +2632,8 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "BLS adulte (Basic Life Support) — gestes de base de réanimation",
-          "ALS (Advanced Life Support) — réanimation médicalisée",
+          "BLS adulte (Basic Life Support) : gestes de base de réanimation",
+          "ALS (Advanced Life Support) : réanimation médicalisée",
           "Situations particulières (femme enceinte, hypothermie, noyade, traumatique, etc.)",
           "Post-resuscitation care",
           "Éducation et systèmes de prise en charge",
@@ -2655,7 +2655,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Sur le geste lui-même, les principes restent stables : reconnaître, alerter, comprimer, défibriller. Ce qui change, c'est l'écosystème qui entoure le geste — formation, soutien numérique, organisation de la chaîne de survie.",
+        text: "Sur le geste lui-même, les principes restent stables : reconnaître, alerter, comprimer, défibriller. Ce qui change, c'est l'écosystème qui entoure le geste : formation, soutien numérique, organisation de la chaîne de survie.",
       },
       { type: "h2", text: "Lien avec l'AFGSU française" },
       {
@@ -2705,7 +2705,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Pourquoi c'est important pour la qualité de la formation" },
       {
         type: "p",
-        text: "Sans feedback objectif, un stagiaire peut faire des compressions inefficaces pendant 30 minutes sans le savoir — il aura l'impression de bien faire alors que la profondeur ou la fréquence ne sont pas au standard. Les capteurs corrigent ce biais : le retour est immédiat, mesurable, et la progression sur la session est visible.",
+        text: "Sans feedback objectif, un stagiaire peut faire des compressions inefficaces pendant 30 minutes sans le savoir : il aura l'impression de bien faire alors que la profondeur ou la fréquence ne sont pas au standard. Les capteurs corrigent ce biais : le retour est immédiat, mesurable, et la progression sur la session est visible.",
       },
       {
         type: "p",
@@ -2754,17 +2754,17 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "L'intérêt principal : on peut reproduire des situations qu'il serait impossible (ou dangereux) de simuler en présentiel — un incendie de bureau avec fumée dense, une coupure d'électricité, des portes bloquées, un blessé immobilisé. Le stagiaire vit l'événement, apprend en faisant et révise les bons réflexes.",
+        text: "L'intérêt principal : on peut reproduire des situations qu'il serait impossible (ou dangereux) de simuler en présentiel : un incendie de bureau avec fumée dense, une coupure d'électricité, des portes bloquées, un blessé immobilisé. Le stagiaire vit l'événement, apprend en faisant et révise les bons réflexes.",
       },
       { type: "h2", text: "L'approche hybride recommandée" },
       {
         type: "p",
-        text: "La VR ne remplace pas le feu réel — on ne sent pas la chaleur d'un extincteur dans un casque VR, ni la fumée dans la gorge. L'approche que nous trouvons la plus pertinente est hybride : VR + feu réel. La VR pour les scénarios complexes et la répétabilité, le bac à feu pour le geste technique et l'authentification sensorielle.",
+        text: "La VR ne remplace pas le feu réel : on ne sent pas la chaleur d'un extincteur dans un casque VR, ni la fumée dans la gorge. L'approche que nous trouvons la plus pertinente est hybride : VR + feu réel. La VR pour les scénarios complexes et la répétabilité, le bac à feu pour le geste technique et l'authentification sensorielle.",
       },
       { type: "h2", text: "Engagement et mémorisation" },
       {
         type: "p",
-        text: "Les retours terrain remontés par les éditeurs et la littérature pédagogique convergent : l'engagement des stagiaires en formation VR est nettement supérieur au format classique, et la mémorisation à 6 mois est meilleure. Ce n'est pas magique — c'est l'effet \"je l'ai vécu\" qui ancre la connaissance.",
+        text: "Les retours terrain remontés par les éditeurs et la littérature pédagogique convergent : l'engagement des stagiaires en formation VR est nettement supérieur au format classique, et la mémorisation à 6 mois est meilleure. Ce n'est pas magique : c'est l'effet \"je l'ai vécu\" qui ancre la connaissance.",
       },
       { type: "h2", text: "Notre démarche chez Alertis" },
       {
@@ -2791,7 +2791,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est le socle de toute politique de prévention en entreprise. Trop souvent perçu comme une formalité administrative, il peut au contraire devenir un véritable outil de pilotage — à condition d'être construit avec méthode et mis à jour régulièrement.",
+        text: "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est le socle de toute politique de prévention en entreprise. Trop souvent perçu comme une formalité administrative, il peut au contraire devenir un véritable outil de pilotage, à condition d'être construit avec méthode et mis à jour régulièrement.",
       },
       { type: "h2", text: "Qui est concerné et quelle obligation ?" },
       {
@@ -2819,7 +2819,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Coter les risques : probabilité et gravité" },
       {
         type: "p",
-        text: "La méthode la plus répandue croise deux critères : la probabilité qu'un événement survienne et la gravité potentielle de ses conséquences. Le produit donne un score qui permet de classer les risques et de prioriser les actions. Ce n'est pas la seule méthode — certains secteurs ajoutent un axe « fréquence d'exposition » — mais c'est la plus accessible pour une PME ou une TPE.",
+        text: "La méthode la plus répandue croise deux critères : la probabilité qu'un événement survienne et la gravité potentielle de ses conséquences. Le produit donne un score qui permet de classer les risques et de prioriser les actions. Ce n'est pas la seule méthode (certains secteurs ajoutent un axe « fréquence d'exposition »), mais c'est la plus accessible pour une PME ou une TPE.",
       },
       {
         type: "h2",
@@ -2841,7 +2841,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "Un DUERP qui n'est pas tenu à jour perd rapidement sa valeur — à la fois comme outil de management et comme document juridique.",
+        text: "Un DUERP qui n'est pas tenu à jour perd rapidement sa valeur, à la fois comme outil de management et comme document juridique.",
       },
       {
         type: "cta",
@@ -2856,7 +2856,7 @@ export const articles: Record<string, Article> = {
     title:
       "Exercice d'évacuation incendie : comment l'organiser efficacement en entreprise",
     excerpt:
-      "L'exercice d'évacuation incendie est obligatoire — mais son efficacité dépend entièrement de sa préparation. Voici comment le planifier, l'animer et en tirer des enseignements concrets.",
+      "L'exercice d'évacuation incendie est obligatoire, mais son efficacité dépend entièrement de sa préparation. Voici comment le planifier, l'animer et en tirer des enseignements concrets.",
     publishedAt: "2026-05-19",
     category: "Sécurité incendie",
     readingTime: 5,
@@ -2894,7 +2894,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Un exercice annoncé à l'avance avec heure précise ne teste que la mémoire, pas les réflexes. Variez les créneaux — heure de pointe, pause déjeuner, fin de journée — et prévoyez un scénario crédible : sortie principale bloquée, fumée signalée dans un couloir, ascenseur hors service. Ces contraintes forcent les participants à adapter leur itinéraire et révèlent les lacunes du dispositif.",
+        text: "Un exercice annoncé à l'avance avec heure précise ne teste que la mémoire, pas les réflexes. Variez les créneaux (heure de pointe, pause déjeuner, fin de journée) et prévoyez un scénario crédible : sortie principale bloquée, fumée signalée dans un couloir, ascenseur hors service. Ces contraintes forcent les participants à adapter leur itinéraire et révèlent les lacunes du dispositif.",
       },
       {
         type: "h2",
@@ -2916,11 +2916,11 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "p",
-        text: "Réunissez guides, serre-files et responsable de sécurité dans les 48 heures pour analyser les observations : temps d'évacuation, points de blocage, comportements à risque, signalisation insuffisante. Chaque anomalie doit déboucher sur une action corrective concrète — modification des plans d'évacuation, séance de rappel, renforcement de la signalétique. Consignez tout dans le registre de sécurité : cette traçabilité est obligatoire.",
+        text: "Réunissez guides, serre-files et responsable de sécurité dans les 48 heures pour analyser les observations : temps d'évacuation, points de blocage, comportements à risque, signalisation insuffisante. Chaque anomalie doit déboucher sur une action corrective concrète : modification des plans d'évacuation, séance de rappel, renforcement de la signalétique. Consignez tout dans le registre de sécurité : cette traçabilité est obligatoire.",
       },
       {
         type: "quote",
-        text: "Un exercice sans bilan ne forme pas : il rassure faussement. Ce qui compte, c'est la liste des problèmes trouvés — pas le temps record affiché.",
+        text: "Un exercice sans bilan ne forme pas : il rassure faussement. Ce qui compte, c'est la liste des problèmes trouvés, pas le temps record affiché.",
       },
       {
         type: "h2",
@@ -2957,7 +2957,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Les troubles musculo-squelettiques (TMS) constituent la première cause de maladie professionnelle reconnue en France, selon les statistiques annuelles de l\'Assurance Maladie - Risques Professionnels. Ils représentent une source considérable d\'absentéisme et de désinsertion professionnelle. Pourtant, les TMS ne sont pas une fatalité : ils résultent d\'expositions identifiables, évaluables et réductibles — à condition d\'agir sur les bons leviers.",
+        text: "Les troubles musculo-squelettiques (TMS) constituent la première cause de maladie professionnelle reconnue en France, selon les statistiques annuelles de l\'Assurance Maladie - Risques Professionnels. Ils représentent une source considérable d\'absentéisme et de désinsertion professionnelle. Pourtant, les TMS ne sont pas une fatalité : ils résultent d\'expositions identifiables, évaluables et réductibles, à condition d\'agir sur les bons leviers.",
       },
       { type: "h2", text: "Qu\'est-ce qu\'un TMS ?" },
       {
@@ -2987,7 +2987,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Tous les secteurs sont concernés" },
       {
         type: "p",
-        text: "Il serait inexact de réserver les TMS aux seuls métiers physiques. Les travailleurs de bureau sont exposés aux cervicalgies et aux syndromes du canal carpien. Les soignants et aides à domicile aux lombalgies et aux TMS de l\'épaule. Les caissiers et hôtes de caisse aux TMS du poignet. Les conducteurs aux lombalgies liées aux vibrations. Pour chaque secteur, les facteurs de risque sont spécifiques — et l\'analyse de l\'activité réelle reste indispensable avant toute action de prévention.",
+        text: "Il serait inexact de réserver les TMS aux seuls métiers physiques. Les travailleurs de bureau sont exposés aux cervicalgies et aux syndromes du canal carpien. Les soignants et aides à domicile aux lombalgies et aux TMS de l\'épaule. Les caissiers et hôtes de caisse aux TMS du poignet. Les conducteurs aux lombalgies liées aux vibrations. Pour chaque secteur, les facteurs de risque sont spécifiques, et l\'analyse de l\'activité réelle reste indispensable avant toute action de prévention.",
       },
       { type: "h2", text: "La démarche de prévention INRS en quatre étapes" },
       {
@@ -2995,7 +2995,7 @@ export const articles: Record<string, Article> = {
         items: [
           "Dépistage des situations à risque : entretiens avec les salariés et le médecin du travail, analyse des indicateurs RH (absentéisme, restrictions d\'aptitude)",
           "Analyse du travail réel : observation des postes, identification des contraintes biomécaniques et organisationnelles",
-          "Plan d\'action : interventions sur les équipements, l\'organisation du travail — et formation des salariés à la prévention des risques liés à l\'activité physique (PRAP)",
+          "Plan d\'action : interventions sur les équipements, l\'organisation du travail, et formation des salariés à la prévention des risques liés à l\'activité physique (PRAP)",
           "Évaluation et suivi : indicateurs à 12 mois, révision du plan d\'action, mise à jour du DUERP",
         ],
       },
@@ -3033,7 +3033,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "La PRAP — Prévention des Risques liés à l'Activité Physique — est une formation de référence conçue par l'INRS et l'Assurance Maladie - Risques Professionnels pour réduire les troubles musculo-squelettiques (TMS) à la source. Son originalité : elle ne s'adresse pas aux seuls préventeurs ou ergonomes, mais directement aux salariés qui exercent l'activité. Former un Salarié Acteur de la Prévention, c'est créer dans chaque équipe un œil exercé, capable d'observer les situations à risque et de contribuer à leur réduction sans attendre une intervention externe.",
+        text: "La PRAP (Prévention des Risques liés à l'Activité Physique) est une formation de référence conçue par l'INRS et l'Assurance Maladie - Risques Professionnels pour réduire les troubles musculo-squelettiques (TMS) à la source. Son originalité : elle ne s'adresse pas aux seuls préventeurs ou ergonomes, mais directement aux salariés qui exercent l'activité. Former un Salarié Acteur de la Prévention, c'est créer dans chaque équipe un œil exercé, capable d'observer les situations à risque et de contribuer à leur réduction sans attendre une intervention externe.",
       },
       { type: "h2", text: "Deux versions pour deux univers de travail" },
       {
@@ -3098,7 +3098,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Dans les Établissements Recevant du Public, la sécurité incendie ne repose pas seulement sur des équipiers internes formés ponctuellement. Pour les ERP de taille suffisante, la réglementation impose la présence d'un service de sécurité incendie constitué de professionnels qualifiés, désignés SSIAP — Service de Sécurité Incendie et d'Assistance à Personnes. Comprendre les trois niveaux de qualification et leurs responsabilités permet aux gestionnaires d'ERP d'organiser leur dispositif en conformité avec leurs obligations.",
+        text: "Dans les Établissements Recevant du Public, la sécurité incendie ne repose pas seulement sur des équipiers internes formés ponctuellement. Pour les ERP de taille suffisante, la réglementation impose la présence d'un service de sécurité incendie constitué de professionnels qualifiés, désignés SSIAP (Service de Sécurité Incendie et d'Assistance à Personnes). Comprendre les trois niveaux de qualification et leurs responsabilités permet aux gestionnaires d'ERP d'organiser leur dispositif en conformité avec leurs obligations.",
       },
       { type: "h2", text: "Qu'est-ce que le SSIAP ?" },
       {
@@ -3109,9 +3109,9 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "SSIAP 1 — Agent de service : exécutant opérationnel, il assure la surveillance, détecte les départs de feu, déclenche l'alerte interne et guide l'évacuation des occupants",
-          "SSIAP 2 — Chef d'équipe : encadre et coordonne les agents SSIAP 1, prend le commandement des opérations en l'absence du chef de service et assure le lien avec les secours extérieurs",
-          "SSIAP 3 — Chef de service : dirige l'ensemble du service de sécurité incendie, définit l'organisation opérationnelle et est l'interlocuteur de la commission de sécurité et de l'autorité de police",
+          "SSIAP 1 (Agent de service) : exécutant opérationnel, il assure la surveillance, détecte les départs de feu, déclenche l'alerte interne et guide l'évacuation des occupants",
+          "SSIAP 2 (Chef d'équipe) : encadre et coordonne les agents SSIAP 1, prend le commandement des opérations en l'absence du chef de service et assure le lien avec les secours extérieurs",
+          "SSIAP 3 (Chef de service) : dirige l'ensemble du service de sécurité incendie, définit l'organisation opérationnelle et est l'interlocuteur de la commission de sécurité et de l'autorité de police",
         ],
       },
       {
@@ -3131,16 +3131,16 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Formation initiale et recyclage" },
       {
         type: "p",
-        text: "Chaque niveau de qualification SSIAP requiert une formation initiale certifiante dispensée par un organisme habilité. Elle alterne modules théoriques — réglementation, comportement du feu, systèmes de sécurité incendie, procédures d'évacuation — et exercices pratiques : manipulation d'extincteurs et de RIA, gestion d'une alarme, assistance aux personnes à mobilité réduite. Le recyclage est obligatoire tous les 3 ans pour maintenir la qualification, quel que soit le niveau.",
+        text: "Chaque niveau de qualification SSIAP requiert une formation initiale certifiante dispensée par un organisme habilité. Elle alterne modules théoriques (réglementation, comportement du feu, systèmes de sécurité incendie, procédures d'évacuation) et exercices pratiques : manipulation d'extincteurs et de RIA, gestion d'une alarme, assistance aux personnes à mobilité réduite. Le recyclage est obligatoire tous les 3 ans pour maintenir la qualification, quel que soit le niveau.",
       },
       {
         type: "quote",
-        text: "Un service SSIAP n'est pas une présence symbolique. C'est une équipe qualifiée, entraînée, disponible — dont le rôle est d'agir avant les pompiers et de coordonner l'évacuation en attendant leur prise en charge.",
+        text: "Un service SSIAP n'est pas une présence symbolique. C'est une équipe qualifiée, entraînée, disponible, dont le rôle est d'agir avant les pompiers et de coordonner l'évacuation en attendant leur prise en charge.",
       },
       { type: "h2", text: "SSIAP et EPI/ESI : ne pas confondre" },
       {
         type: "p",
-        text: "La confusion entre EPI/ESI et SSIAP est fréquente. La distinction est nette : les équipiers EPI et ESI sont des salariés de l'établissement formés ponctuellement à intervenir sur un départ de feu ou à guider une évacuation — une compétence additionnelle à leur métier principal. Les agents SSIAP sont des professionnels de la sécurité incendie : c'est leur activité principale, soumise à une qualification réglementée, à des conditions d'emploi spécifiques et à un recyclage triennal obligatoire. Dans un même ERP, les deux dispositifs peuvent coexister.",
+        text: "La confusion entre EPI/ESI et SSIAP est fréquente. La distinction est nette : les équipiers EPI et ESI sont des salariés de l'établissement formés ponctuellement à intervenir sur un départ de feu ou à guider une évacuation, une compétence additionnelle à leur métier principal. Les agents SSIAP sont des professionnels de la sécurité incendie : c'est leur activité principale, soumise à une qualification réglementée, à des conditions d'emploi spécifiques et à un recyclage triennal obligatoire. Dans un même ERP, les deux dispositifs peuvent coexister.",
       },
       {
         type: "p",
@@ -3167,16 +3167,16 @@ export const articles: Record<string, Article> = {
     content: [
       { type: "p", text: "Soudure, meulage, découpe au chalumeau, brasage : toute opération générant des étincelles, des projections de métal en fusion ou une flamme nue à proximité de matières combustibles constitue un travail par points chauds. Ces interventions figurent parmi les premières causes d'incendies en milieu professionnel. Le permis de feu est le document qui encadre ces travaux : il liste les précautions à respecter, identifie les responsables et formalise la validation avant toute intervention." },
       { type: "h2", text: "Qu'est-ce qu'un permis de feu ?" },
-      { type: "p", text: "Le permis de feu est un document écrit, établi avant le début de tout travail par points chauds dans un local ou une zone présentant un risque d'incendie ou d'explosion. Ce n'est pas une formalité administrative : c'est un engagement signé entre le donneur d'ordre — représentant de l'établissement — et l'exécutant des travaux, qu'il soit salarié interne ou prestataire extérieur. Il ne se substitue pas au plan de prévention prévu par les articles R.4511-1 à R.4513-12 du Code du travail pour les entreprises extérieures : les deux documents se complètent." },
+      { type: "p", text: "Le permis de feu est un document écrit, établi avant le début de tout travail par points chauds dans un local ou une zone présentant un risque d'incendie ou d'explosion. Ce n'est pas une formalité administrative : c'est un engagement signé entre le donneur d'ordre (représentant de l'établissement) et l'exécutant des travaux, qu'il soit salarié interne ou prestataire extérieur. Il ne se substitue pas au plan de prévention prévu par les articles R.4511-1 à R.4513-12 du Code du travail pour les entreprises extérieures : les deux documents se complètent." },
       { type: "h2", text: "Dans quels cas le permis de feu est-il requis ?" },
       { type: "ul", items: ["Travaux de soudure, meulage, découpe au chalumeau, brasage ou oxycoupage", "Utilisation d'un chalumeau ou d'une torche à gaz pour l'étanchéité, les joints de dilatation ou la couverture", "Travaux de plomberie impliquant une soudure à l'étain ou au cuivre", "Toute opération susceptible de produire des étincelles dans une zone ATEX, un local contenant des matières combustibles ou inflammables, ou à proximité d'archives, de faux-plafonds ou de stockages"] },
       { type: "h2", text: "Qui délivre le permis de feu ?" },
       { type: "p", text: "Le permis de feu est délivré par le donneur d'ordre : le responsable de l'établissement ou la personne mandatée (responsable sécurité, chef de site). C'est lui qui valide les conditions de l'intervention après vérification des lieux. L'exécutant des travaux cosigne le document et s'engage à respecter les mesures prescrites. Un troisième signataire, le gardien de feu, peut être désigné pour surveiller la zone pendant et après l'intervention." },
       { type: "h2", text: "Que doit contenir un permis de feu ?" },
-      { type: "ul", items: ["L'identification des travaux : nature, date, heure de début et de fin, zone concernée", "Le nom du donneur d'ordre, de l'exécutant et du gardien de feu", "L'analyse des risques propres à la zone : matières inflammables, conduits, faux-plafonds, atmosphère explosive éventuelle", "Les mesures de prévention préalables : consignation des équipements, écartement ou protection des matières combustibles", "Les moyens de lutte disponibles sur place : extincteur adapté, RIA, couverture anti-feu", "La durée de surveillance après travaux — au minimum 2 heures après la fin de l'intervention"] },
+      { type: "ul", items: ["L'identification des travaux : nature, date, heure de début et de fin, zone concernée", "Le nom du donneur d'ordre, de l'exécutant et du gardien de feu", "L'analyse des risques propres à la zone : matières inflammables, conduits, faux-plafonds, atmosphère explosive éventuelle", "Les mesures de prévention préalables : consignation des équipements, écartement ou protection des matières combustibles", "Les moyens de lutte disponibles sur place : extincteur adapté, RIA, couverture anti-feu", "La durée de surveillance après travaux : au minimum 2 heures après la fin de l'intervention"] },
       { type: "h2", text: "Les précautions pratiques à mettre en place" },
-      { type: "ul", items: ["Avant : dégager ou protéger les matières combustibles dans un rayon d'au moins 5 mètres autour du point de travail", "Avant : obturer les ouvertures, conduits, gaines et faux-plafonds susceptibles de laisser passer des projections", "Avant : vérifier l'atmosphère avec un détecteur de gaz dans les zones à risque avant tout démarrage", "Pendant : maintenir un extincteur adapté à portée immédiate de l'exécutant", "Après : surveiller la zone sans interruption pendant au minimum 2 heures — la majorité des incendies post-travaux se déclare dans ce délai", "Après : effectuer une ronde de vérification plusieurs heures après la fin des travaux si la zone présente des matériaux à inertie thermique élevée"] },
-      { type: "quote", text: "La plupart des incendies liés aux travaux par points chauds ne se déclenchent pas pendant l'intervention, mais dans les heures qui suivent — sur un morceau de métal en fusion oublié dans un conduit ou un matériau isolant chauffé lentement." },
+      { type: "ul", items: ["Avant : dégager ou protéger les matières combustibles dans un rayon d'au moins 5 mètres autour du point de travail", "Avant : obturer les ouvertures, conduits, gaines et faux-plafonds susceptibles de laisser passer des projections", "Avant : vérifier l'atmosphère avec un détecteur de gaz dans les zones à risque avant tout démarrage", "Pendant : maintenir un extincteur adapté à portée immédiate de l'exécutant", "Après : surveiller la zone sans interruption pendant au minimum 2 heures : la majorité des incendies post-travaux se déclare dans ce délai", "Après : effectuer une ronde de vérification plusieurs heures après la fin des travaux si la zone présente des matériaux à inertie thermique élevée"] },
+      { type: "quote", text: "La plupart des incendies liés aux travaux par points chauds ne se déclenchent pas pendant l'intervention, mais dans les heures qui suivent, sur un morceau de métal en fusion oublié dans un conduit ou un matériau isolant chauffé lentement." },
       { type: "h2", text: "Responsabilités et conséquences en cas de manquement" },
       { type: "p", text: "L'absence de permis de feu engage la responsabilité de l'employeur au titre de son obligation générale de prévention (article L.4121-1 du Code du travail). En cas d'incendie, l'absence de document préparatoire sera recherchée et peut caractériser une faute inexcusable. Sur le plan assurantiel, les assureurs de biens industriels et commerciaux exigent souvent une procédure formalisée : son absence peut entraîner un refus ou une réduction d'indemnisation. Référence officielle : Code du travail, articles L.4121-1, R.4227-28 à R.4227-40 et R.4511-1 à R.4513-12." },
       {
@@ -3192,7 +3192,7 @@ export const articles: Record<string, Article> = {
     title:
       "Victime qui s'étouffe : gestes à connaître pour l'adulte, l'enfant et le nourrisson",
     excerpt:
-      "Une obstruction totale des voies aériennes est fatale en quelques minutes. Reconnaître l'étouffement et enchaîner les bons gestes — claques dans le dos, compressions abdominales — peut sauver une vie.",
+      "Une obstruction totale des voies aériennes est fatale en quelques minutes. Reconnaître l'étouffement et enchaîner les bons gestes (claques dans le dos, compressions abdominales) peut sauver une vie.",
     publishedAt: "2026-05-24",
     category: "Secourisme",
     readingTime: 5,
@@ -3200,13 +3200,13 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Chaque année, des personnes meurent d'un étouffement survenu à table, en crèche ou sur le lieu de travail — faute qu'un témoin ait su quoi faire. Une obstruction des voies aériennes par un corps étranger (OVACE) peut être fatale en moins de cinq minutes. Les gestes à enchaîner sont simples, ils s'apprennent en quelques heures et ne requièrent aucun matériel.",
+        text: "Chaque année, des personnes meurent d'un étouffement survenu à table, en crèche ou sur le lieu de travail, faute qu'un témoin ait su quoi faire. Une obstruction des voies aériennes par un corps étranger (OVACE) peut être fatale en moins de cinq minutes. Les gestes à enchaîner sont simples, ils s'apprennent en quelques heures et ne requièrent aucun matériel.",
       },
       { type: "h2", text: "Reconnaître une obstruction des voies aériennes" },
       {
         type: "ul",
         items: [
-          "Obstruction partielle (toux bruyante, stridor) : la personne tousse et tente d'expulser le corps étranger d'elle-même. Ne pas intervenir physiquement — encourager à tousser fort et surveiller l'évolution.",
+          "Obstruction partielle (toux bruyante, stridor) : la personne tousse et tente d'expulser le corps étranger d'elle-même. Ne pas intervenir physiquement : encourager à tousser fort et surveiller l'évolution.",
           "Obstruction totale (silence, incapacité à parler ou à inspirer, visage rouge puis cyanosé, mains portées à la gorge) : intervention immédiate obligatoire.",
           "Chez l'adulte conscient, l'impossibilité d'émettre un son ou de tousser efficacement est le signe d'une obstruction totale. Chaque seconde compte.",
         ],
@@ -3214,7 +3214,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Chez l'adulte et l'enfant de plus de 1 an" },
       {
         type: "p",
-        text: "Si la personne tousse encore — même faiblement —, ne pas intervenir physiquement. L'encourager à tousser plus fort et surveiller. Si la toux devient inefficace ou cesse, basculer immédiatement sur le protocole d'obstruction totale. Taper dans le dos d'une personne qui tousse encore efficacement risque de faire descendre le corps étranger plus profondément.",
+        text: "Si la personne tousse encore, même faiblement, ne pas intervenir physiquement. L'encourager à tousser plus fort et surveiller. Si la toux devient inefficace ou cesse, basculer immédiatement sur le protocole d'obstruction totale. Taper dans le dos d'une personne qui tousse encore efficacement risque de faire descendre le corps étranger plus profondément.",
       },
       {
         type: "ul",
@@ -3281,27 +3281,27 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Avant cet arrêté, les ERP de 5e catégorie devaient assurer la présence du propriétaire ou d\'un représentant désigné pendant tout le temps d\'accueil du public, sauf dérogation expresse de la commission de sécurité. L\'assouplissement vise à adapter les obligations aux réalités des très petits établissements tout en maintenant un niveau de sécurité garanti par le cahier des charges." },
       { type: "h2", text: "Qui est concerné ?" },
-      { type: "p", text: "Sont concernés par cette modification les ERP de 5e catégorie ne comportant aucun local réservé au sommeil. La 5e catégorie regroupe les établissements dont l\'effectif du public est inférieur au seuil de la 4e catégorie correspondant à leur type. Les ERP à locaux à sommeil — hôtels, résidences, foyers, internats — restent soumis aux règles de surveillance permanente inchangées." },
+      { type: "p", text: "Sont concernés par cette modification les ERP de 5e catégorie ne comportant aucun local réservé au sommeil. La 5e catégorie regroupe les établissements dont l\'effectif du public est inférieur au seuil de la 4e catégorie correspondant à leur type. Les ERP à locaux à sommeil (hôtels, résidences, foyers, internats) restent soumis aux règles de surveillance permanente inchangées." },
       { type: "ul", items: [
         "Petits commerces, espaces d\'activités, ateliers, salles de réunion ou locaux professionnels accueillant moins de 20 personnes.",
         "Établissements sans chambre, dortoir ni local affecté au sommeil, quelle que soit leur nature.",
         "Dès que l\'effectif atteint 20 personnes ou plus, la surveillance permanente reste intégralement obligatoire.",
       ]},
       { type: "h2", text: "Impact sur les formations" },
-      { type: "p", text: "Les formateurs incendie et responsables sécurité qui interviennent dans des ERP de petite taille doivent intégrer cette modification dans leurs contenus pédagogiques. La section exploitation du règlement PE — et en particulier l\'article PE 27 — évolue : les formations destinées aux exploitants de petits ERP et aux agents de sécurité devront aborder le nouveau régime de surveillance conditionnelle et les exigences du cahier des charges associé." },
+      { type: "p", text: "Les formateurs incendie et responsables sécurité qui interviennent dans des ERP de petite taille doivent intégrer cette modification dans leurs contenus pédagogiques. La section exploitation du règlement PE, et en particulier l\'article PE 27, évolue : les formations destinées aux exploitants de petits ERP et aux agents de sécurité devront aborder le nouveau régime de surveillance conditionnelle et les exigences du cahier des charges associé." },
       { type: "ul", items: [
         "Les formations incendie ERP (guide-file, équipier incendie, exploitation de locaux recevant du public) sont directement concernées par la mise à jour du contenu.",
-        "Le registre de sécurité et les obligations documentaires de l\'exploitant demeurent inchangés — seule la surveillance physique permanente est assouplie.",
+        "Le registre de sécurité et les obligations documentaires de l\'exploitant demeurent inchangés : seule la surveillance physique permanente est assouplie.",
         "Les membres du CSE et les responsables QHSE d\'établissements de 5e catégorie doivent en prendre connaissance.",
       ]},
-      { type: "p", text: "Référence officielle : arrêté du 4 février 2026 modifiant l\'arrêté du 25 juin 1980 portant approbation du règlement de sécurité contre les risques d\'incendie et de panique dans les ERP — NOR : INTE2607628A — JORF n°0089 du 15 avril 2026, en vigueur au 1er mai 2026." },
+      { type: "p", text: "Référence officielle : arrêté du 4 février 2026 modifiant l\'arrêté du 25 juin 1980 portant approbation du règlement de sécurité contre les risques d\'incendie et de panique dans les ERP (NOR : INTE2607628A), JORF n°0089 du 15 avril 2026, en vigueur au 1er mai 2026." },
       { type: "cta", text: "Pour former vos équipes aux obligations de sécurité incendie en ERP,", href: "/formations/incendie", label: "consultez notre page formation incendie" },
     ],
   },
 
   "brochure-inrs-tj-29-evaluation-risques-document-unique-2026": {
     title: "Brochure INRS TJ 29 : l\'évaluation des risques et le document unique, mise à jour mai 2026",
-    excerpt: "L\'INRS publie en mai 2026 l\'aide-mémoire juridique TJ 29 — 20 pages consacrées au cadre légal du DUERP : élaboration, mise à jour, conservation et rôle du document unique dans la prévention des risques professionnels.",
+    excerpt: "L\'INRS publie en mai 2026 l\'aide-mémoire juridique TJ 29 : 20 pages consacrées au cadre légal du DUERP : élaboration, mise à jour, conservation et rôle du document unique dans la prévention des risques professionnels.",
     publishedAt: "2026-05-25",
     category: "Prévention",
     readingTime: 4,
@@ -3325,7 +3325,7 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "h2", text: "Impact sur les formations" },
       { type: "p", text: "La brochure TJ 29 constitue un support documentaire de référence pour les formations CSE et SSCT, qui incluent obligatoirement l\'étude du DUERP dans leur programme (articles L.2315-18 et R.2315-9 du Code du travail). La mise à jour de cet aide-mémoire juridique en mai 2026 permet aux formateurs et aux stagiaires de disposer d\'une source INRS consolidée, intégrant les dispositions les plus récentes du droit du travail en matière d\'évaluation et de prévention des risques." },
-      { type: "p", text: "Référence officielle : brochure INRS — aide-mémoire juridique TJ 29 — « Évaluation des risques professionnels et document unique », édition mai 2026. Disponible en téléchargement gratuit sur inrs.fr." },
+      { type: "p", text: "Référence officielle : brochure INRS, aide-mémoire juridique TJ 29, « Évaluation des risques professionnels et document unique », édition mai 2026. Disponible en téléchargement gratuit sur inrs.fr." },
       { type: "cta", text: "Pour former les membres de votre CSE à leurs missions en santé et sécurité au travail,", href: "/formations", label: "consultez notre catalogue de formations" },
     ],
   },
@@ -3340,7 +3340,7 @@ export const articles: Record<string, Article> = {
     content: [
       { type: "p", text: "Un technicien de maintenance seul dans un local technique, un agent de sécurité en ronde nocturne, un commercial itinérant en zone blanche : le travail isolé concerne de nombreux secteurs. En cas d\'accident ou de malaise, aucun collègue n\'est présent pour alerter les secours. Cette situation impose à l\'employeur une vigilance particulière et des mesures concrètes pour garantir qu\'un salarié isolé ne sera jamais laissé sans possibilité d\'être secouru." },
       { type: "h2", text: "Qu\'est-ce qu\'un travailleur isolé ?" },
-      { type: "p", text: "Un salarié est considéré comme isolé dès lors qu\'il exerce seul une activité, hors de vue et hors de portée auditive d\'un collègue, pendant une durée significative. L\'isolation peut être permanente — gardien de nuit, agent itinérant — ou ponctuelle, lors d\'une intervention de maintenance ou d\'un déplacement en zone reculée. L\'isolement géographique n\'est pas le seul critère : un salarié seul dans un local technique pendant deux heures est exposé au même titre qu\'un technicien à 50 km du siège." },
+      { type: "p", text: "Un salarié est considéré comme isolé dès lors qu\'il exerce seul une activité, hors de vue et hors de portée auditive d\'un collègue, pendant une durée significative. L\'isolation peut être permanente (gardien de nuit, agent itinérant) ou ponctuelle, lors d\'une intervention de maintenance ou d\'un déplacement en zone reculée. L\'isolement géographique n\'est pas le seul critère : un salarié seul dans un local technique pendant deux heures est exposé au même titre qu\'un technicien à 50 km du siège." },
       { type: "h2", text: "Les risques spécifiques au travail isolé" },
       { type: "ul", items: [
         "Malaise ou perte de connaissance sans possibilité d\'alerter",
@@ -3378,7 +3378,7 @@ export const articles: Record<string, Article> = {
     title:
       "Bruit au travail : mesurer l'exposition et protéger l'audition de vos salariés",
     excerpt:
-      "Surdité, acouphènes, fatigue auditive : le bruit est un risque professionnel réglementé souvent sous-estimé. Seuils d'action, mesures de prévention et protections auditives — le point pour un préventeur.",
+      "Surdité, acouphènes, fatigue auditive : le bruit est un risque professionnel réglementé souvent sous-estimé. Seuils d'action, mesures de prévention et protections auditives : le point pour un préventeur.",
     publishedAt: "2026-05-27",
     category: "Prévention",
     readingTime: 5,
@@ -3386,7 +3386,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Le bruit est omniprésent dans de nombreux secteurs professionnels : industrie, BTP, restauration, agriculture, transports. Une exposition prolongée à un niveau sonore élevé peut provoquer une surdité progressive, des acouphènes ou une fatigue auditive — des atteintes irréversibles. Le Code du travail impose à l'employeur d'évaluer ce risque et d'agir en amont, avant que les seuils réglementaires ne soient dépassés.",
+        text: "Le bruit est omniprésent dans de nombreux secteurs professionnels : industrie, BTP, restauration, agriculture, transports. Une exposition prolongée à un niveau sonore élevé peut provoquer une surdité progressive, des acouphènes ou une fatigue auditive. Ces atteintes sont irréversibles. Le Code du travail impose à l'employeur d'évaluer ce risque et d'agir en amont, avant que les seuils réglementaires ne soient dépassés.",
       },
       { type: "h2", text: "Les trois seuils réglementaires à connaître" },
       {
@@ -3410,7 +3410,7 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Prévention à la source : réduire le bruit émis lors de l'achat ou de la conception des équipements — c'est la mesure la plus durable et la moins contraignante à long terme.",
+          "Prévention à la source : réduire le bruit émis lors de l'achat ou de la conception des équipements : c'est la mesure la plus durable et la moins contraignante à long terme.",
           "Traitement de la propagation : encoffrements acoustiques, cabines insonorisées, écrans, revêtements absorbants sur les parois.",
           "Organisation du travail : rotation des postes exposés, limitation des durées d'exposition, éloignement des zones bruyantes.",
           "Protection individuelle : bouchons d'oreilles ou casques anti-bruit en dernier recours, avec une atténuation adaptée au niveau réel de bruit.",
@@ -3418,7 +3418,7 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "La protection auditive individuelle est le dernier recours, pas la solution de facilité. Un protecteur mal choisi ou mal porté ne protège pas réellement — il donne seulement une fausse impression de sécurité.",
+        text: "La protection auditive individuelle est le dernier recours, pas la solution de facilité. Un protecteur mal choisi ou mal porté ne protège pas réellement : il donne seulement une fausse impression de sécurité.",
       },
       { type: "h2", text: "Choisir et utiliser les équipements de protection auditive" },
       {
@@ -3471,10 +3471,10 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Protéger ses mains avec des gants en nitrile (trousse de secours) — à défaut, sac plastique ou tissu propre plié en épaisseur",
+          "Protéger ses mains avec des gants en nitrile (trousse de secours) ou, à défaut, avec un sac plastique ou un tissu propre plié en épaisseur",
           "Poser une compresse stérile ou un tissu propre directement sur la plaie",
           "Appuyer de tout son poids, avec les deux mains, sans relâcher et sans retirer la compresse",
-          "Maintenir la compression en continu jusqu'à l'arrivée des secours — retirer la compresse pour vérifier relance le saignement",
+          "Maintenir la compression en continu jusqu'à l'arrivée des secours : retirer la compresse pour vérifier relance le saignement",
           "Allonger la victime, surélever le membre si possible, couvrir pour prévenir le refroidissement",
         ],
       },
@@ -3486,17 +3486,17 @@ export const articles: Record<string, Article> = {
       {
         type: "ul",
         items: [
-          "Utiliser un tourniquet industriel (type CAT) si disponible dans la trousse de secours — c'est le plus efficace",
-          "À défaut : bande large d'au moins 5 cm pliée en bande — jamais un fil, une corde fine ou une ceinture étroite",
+          "Utiliser un tourniquet industriel (type CAT) si disponible dans la trousse de secours : c'est le plus efficace",
+          "À défaut : bande large d'au moins 5 cm pliée en bande, jamais un fil, une corde fine ou une ceinture étroite",
           "Positionner le garrot à 5 à 7 cm au-dessus de la plaie, jamais sur une articulation (genou, coude)",
-          "Serrer progressivement et fermement jusqu'à l'arrêt complet du saignement — la douleur est normale et attendue",
+          "Serrer progressivement et fermement jusqu'à l'arrêt complet du saignement : la douleur est normale et attendue",
           "Inscrire l'heure de pose sur le front de la victime ou directement sur le garrot (stylo, marqueur)",
           "Ne jamais retirer le garrot une fois posé : c'est une décision réservée au médecin urgentiste",
         ],
       },
       {
         type: "quote",
-        text: "Un garrot posé et maintenu ne détruit pas le membre en quelques heures — c'est un mythe. La priorité absolue est de stopper le saignement. Un garrot noté avec l'heure de pose permet aux urgentistes de prendre le relais dans les meilleures conditions.",
+        text: "Un garrot posé et maintenu ne détruit pas le membre en quelques heures : c'est un mythe. La priorité absolue est de stopper le saignement. Un garrot noté avec l'heure de pose permet aux urgentistes de prendre le relais dans les meilleures conditions.",
       },
       { type: "h2", text: "Les erreurs les plus dangereuses" },
       {
@@ -3538,7 +3538,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "Les chutes de plain-pied désignent les chutes qui se produisent sur une même surface, sans dénivellation : glissade sur un sol humide, trébuchement sur un obstacle, perte d'équilibre dans une allée mal éclairée. Elles figurent parmi les accidents du travail les plus fréquents, dans tous les secteurs d'activité. Pourtant, la grande majorité est évitable. Les facteurs en cause — sol dégradé, encombrement, mauvais éclairage, chaussures inadaptées — sont connus et corrigeables dès lors qu'on prend le temps de les chercher.",
+        text: "Les chutes de plain-pied désignent les chutes qui se produisent sur une même surface, sans dénivellation : glissade sur un sol humide, trébuchement sur un obstacle, perte d'équilibre dans une allée mal éclairée. Elles figurent parmi les accidents du travail les plus fréquents, dans tous les secteurs d'activité. Pourtant, la grande majorité est évitable. Les facteurs en cause (sol dégradé, encombrement, mauvais éclairage, chaussures inadaptées) sont connus et corrigeables dès lors qu'on prend le temps de les chercher.",
       },
       { type: "h2", text: "Ce que dit la réglementation" },
       {
@@ -3559,7 +3559,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Mesures de prévention : la logique des priorités" },
       {
         type: "p",
-        text: "La prévention des chutes suit la logique des principes généraux de prévention définis à l'article L.4121-2 du Code du travail : supprimer le risque en priorité, puis le réduire à la source, puis protéger collectivement avant de recourir à la protection individuelle. En pratique, cela signifie agir d'abord sur l'environnement — sol, circulation, éclairage — avant de remettre des équipements de protection.",
+        text: "La prévention des chutes suit la logique des principes généraux de prévention définis à l'article L.4121-2 du Code du travail : supprimer le risque en priorité, puis le réduire à la source, puis protéger collectivement avant de recourir à la protection individuelle. En pratique, cela signifie agir d'abord sur l'environnement (sol, circulation, éclairage) avant de remettre des équipements de protection.",
       },
       {
         type: "ul",
@@ -3573,12 +3573,12 @@ export const articles: Record<string, Article> = {
       },
       {
         type: "quote",
-        text: "La chute de plain-pied est banalisée parce qu'elle est fréquente — au point qu'on finit par ne plus la voir comme un risque. C'est précisément cette banalisation qui empêche d'agir. Un sol glissant non traité est un risque connu, évaluable et corrigeable.",
+        text: "La chute de plain-pied est banalisée parce qu'elle est fréquente, au point qu'on finit par ne plus la voir comme un risque. C'est précisément cette banalisation qui empêche d'agir. Un sol glissant non traité est un risque connu, évaluable et corrigeable.",
       },
       { type: "h2", text: "Chaussures antidérapantes : décrypter le marquage" },
       {
         type: "p",
-        text: "Les chaussures de sécurité antidérapantes répondent à la norme EN ISO 20345. Leur marquage indique les essais de glissance réussis : SRA (résistance sur carrelage céramique mouillé), SRB (résistance sur acier huilé), SRC (les deux essais cumulés). Dans les métiers exposant à des sols humides ou gras — agroalimentaire, restauration collective, propreté, établissements de soins — le marquage SRC est le niveau à exiger. L'adéquation entre le marquage et les risques réels du poste est à vérifier et à documenter dans le DUERP.",
+        text: "Les chaussures de sécurité antidérapantes répondent à la norme EN ISO 20345. Leur marquage indique les essais de glissance réussis : SRA (résistance sur carrelage céramique mouillé), SRB (résistance sur acier huilé), SRC (les deux essais cumulés). Dans les métiers exposant à des sols humides ou gras (agroalimentaire, restauration collective, propreté, établissements de soins), le marquage SRC est le niveau à exiger. L'adéquation entre le marquage et les risques réels du poste est à vérifier et à documenter dans le DUERP.",
       },
       {
         type: "p",
@@ -3607,9 +3607,9 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce qu'est une FDS et ce qu'elle impose à l'employeur" },
       { type: "p", text: "La FDS est un document standardisé au niveau européen, régi par le règlement CE n°1907/2006 (REACH) et le règlement CE n°1272/2008 (CLP). Elle doit être fournie gratuitement par le fournisseur lors de chaque livraison d'un produit chimique classé dangereux, disponible en français, et mise à jour à chaque révision significative. L'employeur ne peut pas se contenter de la classer : il doit en exploiter le contenu pour construire son évaluation des risques." },
       { type: "h2", text: "Les seize rubriques de la FDS : les sections prioritaires" },
-      { type: "ul", items: ["Rubrique 1 — Identification du produit, du fournisseur et des utilisations prévues", "Rubrique 2 — Identification des dangers : classification CLP, pictogrammes et mentions de danger H", "Rubrique 3 — Composition : liste des substances dangereuses présentes et leur concentration", "Rubrique 8 — Contrôles de l'exposition : VLEP applicables et équipements de protection individuelle recommandés", "Rubrique 11 — Informations toxicologiques : voies d'absorption, effets aigus et chroniques", "Rubrique 16 — Date de la dernière révision : une FDS datant de plus de trois ans doit être redemandée au fournisseur"] },
+      { type: "ul", items: ["Rubrique 1 : Identification du produit, du fournisseur et des utilisations prévues", "Rubrique 2 (Identification des dangers) : classification CLP, pictogrammes et mentions de danger H", "Rubrique 3 (Composition) : liste des substances dangereuses présentes et leur concentration", "Rubrique 8 (Contrôles de l'exposition) : VLEP applicables et équipements de protection individuelle recommandés", "Rubrique 11 (Informations toxicologiques) : voies d'absorption, effets aigus et chroniques", "Rubrique 16 (Date de la dernière révision) : une FDS datant de plus de trois ans doit être redemandée au fournisseur"] },
       { type: "h2", text: "Agents CMR : un régime de protection renforcé" },
-      { type: "p", text: "Certains produits chimiques sont classés CMR — cancérogènes, mutagènes ou toxiques pour la reproduction. Ils sont identifiables en rubrique 2 de la FDS par les mentions de danger H340, H341, H350, H351, H360 ou H361. Le Code du travail impose pour ces agents un régime de protection renforcé : recherche de substitution prioritaire, réduction de l'exposition au niveau le plus bas techniquement et économiquement possible, surveillance médicale adaptée et traçabilité de l'exposition." },
+      { type: "p", text: "Certains produits chimiques sont classés CMR (cancérogènes, mutagènes ou toxiques pour la reproduction). Ils sont identifiables en rubrique 2 de la FDS par les mentions de danger H340, H341, H350, H351, H360 ou H361. Le Code du travail impose pour ces agents un régime de protection renforcé : recherche de substitution prioritaire, réduction de l'exposition au niveau le plus bas techniquement et économiquement possible, surveillance médicale adaptée et traçabilité de l'exposition." },
       { type: "h2", text: "Les VLEP : lire et utiliser les seuils d'exposition professionnelle" },
       { type: "p", text: "La rubrique 8 de la FDS mentionne les valeurs limites d'exposition professionnelle (VLEP) applicables. La VLEP-8h est la concentration moyenne admissible sur une journée de travail de 8 heures ; la VLEP-CT est la concentration maximale acceptable sur 15 minutes. Exprimées en mg/m³ ou en ppm, elles permettent de dimensionner les mesurages d'ambiance, d'évaluer l'efficacité de la ventilation et de choisir les appareils de protection respiratoire adaptés." },
       { type: "quote", text: "Une FDS non lue est une évaluation des risques incomplète. Les informations sur les dangers, les VLEP et les EPI nécessaires y figurent déjà : il suffit de les exploiter." },
@@ -3649,7 +3649,7 @@ export const articles: Record<string, Article> = {
         "AFGSU niveau 2 (professionnels de santé inscrits à la quatrième partie du Code de la santé publique) : révision des cinq thématiques, avec approfondissement sur le collier cervical et le réalignement de membre",
         "Remises à niveau AFGSU 1 et 2 : prise en compte obligatoire des évolutions dans les contenus pédagogiques"
       ]},
-      { type: "p", text: "Référence officielle : Recommandations nationales sur les gestes et soins d'urgence — Mise au point 2026, publiées conjointement par l'ANCESU et la SFMU, mars 2026. Document consultable sur ancesu.fr (rubrique Textes réglementaires) et sur le portail de la SFMU (sfmu.org)." },
+      { type: "p", text: "Référence officielle : Recommandations nationales sur les gestes et soins d'urgence (Mise au point 2026), publiées conjointement par l'ANCESU et la SFMU, mars 2026. Document consultable sur ancesu.fr (rubrique Textes réglementaires) et sur le portail de la SFMU (sfmu.org)." },
     ],
   },
 
@@ -3657,7 +3657,7 @@ export const articles: Record<string, Article> = {
     title:
       "EPI au travail : obligations de l\'employeur, choix et gestion des équipements",
     excerpt:
-      "Casque, gants, harnais, lunettes : les EPI sont la dernière barrière contre le risque résiduel. Règlement européen, catégories CE, traçabilité et gestion — le guide pratique pour préventeurs.",
+      "Casque, gants, harnais, lunettes : les EPI sont la dernière barrière contre le risque résiduel. Règlement européen, catégories CE, traçabilité et gestion : le guide pratique pour préventeurs.",
     publishedAt: "2026-06-01",
     category: "Prévention",
     readingTime: 6,
@@ -3665,7 +3665,7 @@ export const articles: Record<string, Article> = {
     content: [
       {
         type: "p",
-        text: "L\'équipement de protection individuelle désigne tout dispositif destiné à être porté par une personne pour la protéger contre un ou plusieurs risques menaçant sa sécurité ou sa santé au travail. Casque de chantier, gants anticontact, lunettes de protection, harnais antichute, appareil de protection respiratoire : les formes sont multiples. Leur point commun est décisif — l\'EPI ne supprime pas le risque, il en réduit les conséquences. C\'est pourquoi la réglementation en encadre strictement le choix, la mise à disposition et le suivi.",
+        text: "L\'équipement de protection individuelle désigne tout dispositif destiné à être porté par une personne pour la protéger contre un ou plusieurs risques menaçant sa sécurité ou sa santé au travail. Casque de chantier, gants anticontact, lunettes de protection, harnais antichute, appareil de protection respiratoire : les formes sont multiples. Leur point commun est décisif : l\'EPI ne supprime pas le risque, il en réduit les conséquences. C\'est pourquoi la réglementation en encadre strictement le choix, la mise à disposition et le suivi.",
       },
       { type: "h2", text: "Ce que dit la réglementation" },
       {
@@ -3675,33 +3675,33 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les EPI : la dernière barrière, pas la première" },
       {
         type: "p",
-        text: "L\'article L.4121-2 du Code du travail fixe neuf principes généraux de prévention. Le recours aux EPI n\'y apparaît qu\'en huitième position — après avoir cherché à supprimer le risque à la source, à le réduire, à l\'isoler, à privilégier la protection collective. Un employeur qui distribue des gants sans avoir étudié si un produit moins irritant existait, ou qui équipe ses salariés d\'un harnais sans avoir vérifié qu\'un garde-corps était possible, ne respecte pas cette hiérarchie. Les EPI compensent le risque résiduel, ils ne dispensent pas d\'agir en amont.",
+        text: "L\'article L.4121-2 du Code du travail fixe neuf principes généraux de prévention. Le recours aux EPI n\'y apparaît qu\'en huitième position, après avoir cherché à supprimer le risque à la source, à le réduire, à l\'isoler, à privilégier la protection collective. Un employeur qui distribue des gants sans avoir étudié si un produit moins irritant existait, ou qui équipe ses salariés d\'un harnais sans avoir vérifié qu\'un garde-corps était possible, ne respecte pas cette hiérarchie. Les EPI compensent le risque résiduel, ils ne dispensent pas d\'agir en amont.",
       },
       { type: "h2", text: "Marquage CE : les trois catégories d\'EPI" },
       {
         type: "p",
-        text: "Le règlement (UE) 2016/425, applicable depuis 2018, classe les EPI en trois catégories selon le niveau de risque auquel ils sont destinés. Cette classification détermine les procédures d\'évaluation de conformité que le fabricant doit suivre avant d\'apposer le marquage CE. Acheter un EPI sans marquage CE — ou avec un marquage non conforme à la catégorie — engage la responsabilité de l\'employeur en cas d\'accident.",
+        text: "Le règlement (UE) 2016/425, applicable depuis 2018, classe les EPI en trois catégories selon le niveau de risque auquel ils sont destinés. Cette classification détermine les procédures d\'évaluation de conformité que le fabricant doit suivre avant d\'apposer le marquage CE. Acheter un EPI sans marquage CE, ou avec un marquage non conforme à la catégorie, engage la responsabilité de l\'employeur en cas d\'accident.",
       },
       {
         type: "ul",
         items: [
-          "Catégorie I — risques mineurs et superficiels : gants de jardinage légers, lunettes non filtrantes UV, imperméables de pluie sans risque particulier",
-          "Catégorie II — risques intermédiaires : casques de chantier, gants de protection mécanique, chaussures de sécurité EN ISO 20345, protège-genoux",
-          "Catégorie III — risques irréversibles ou mortels : harnais antichute (EN 361), appareils de protection respiratoire filtrants (EN 149), EPI de protection contre les produits chimiques dangereux, gilets de sauvetage",
+          "Catégorie I (risques mineurs et superficiels) : gants de jardinage légers, lunettes non filtrantes UV, imperméables de pluie sans risque particulier",
+          "Catégorie II (risques intermédiaires) : casques de chantier, gants de protection mécanique, chaussures de sécurité EN ISO 20345, protège-genoux",
+          "Catégorie III (risques irréversibles ou mortels) : harnais antichute (EN 361), appareils de protection respiratoire filtrants (EN 149), EPI de protection contre les produits chimiques dangereux, gilets de sauvetage",
         ],
       },
       {
         type: "quote",
-        text: "Un EPI de catégorie III doit porter le numéro de l\'organisme notifié qui a contrôlé sa conformité — pas seulement le marquage CE. Sans ce numéro à quatre chiffres, l\'équipement n\'est pas conforme, quelle que soit la réputation du fabricant.",
+        text: "Un EPI de catégorie III doit porter le numéro de l\'organisme notifié qui a contrôlé sa conformité, pas seulement le marquage CE. Sans ce numéro à quatre chiffres, l\'équipement n\'est pas conforme, quelle que soit la réputation du fabricant.",
       },
       { type: "h2", text: "Gérer les EPI en entreprise : les obligations pratiques" },
       {
         type: "ul",
         items: [
           "Fournir la notice d\'instruction du fabricant en français et s\'assurer que chaque utilisateur l\'a lue et comprise avant toute première utilisation",
-          "Former les salariés à l\'utilisation, à l\'ajustement et à la vérification quotidienne — un harnais mal ajusté peut être aussi dangereux qu\'un harnais absent",
+          "Former les salariés à l\'utilisation, à l\'ajustement et à la vérification quotidienne : un harnais mal ajusté peut être aussi dangereux qu\'un harnais absent",
           "Fixer une durée de vie maximale pour chaque type d\'EPI et remplacer systématiquement tout équipement endommagé, périmé ou ayant subi une sollicitation extrême (chute arrêtée, projection chimique)",
-          "Tenir un registre de suivi : attribution nominative, date de mise en service, vérifications effectuées, date de réforme — document exigible par l\'inspection du travail",
+          "Tenir un registre de suivi : attribution nominative, date de mise en service, vérifications effectuées, date de réforme (document exigible par l\'inspection du travail)",
           "Effectuer les vérifications périodiques réglementaires : annuelles pour les EPI antichute (article R.4323-99 du Code du travail), par une personne compétente désignée",
         ],
       },
@@ -3729,13 +3729,13 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/travail-en-hauteur-prevention-chutes-obligations-employeur.jpg",
     content: [
-      { type: "p", text: "Les chutes de hauteur représentent l'une des premières causes d'accidents du travail mortels en France. Elles surviennent depuis une toiture, un échafaudage, une nacelle ou une simple échelle — parfois à quelques mètres seulement. Prévenir ce risque ne se limite pas à équiper les salariés d'un harnais : c'est une démarche structurée, qui commence par les protections collectives et se formalise dans le document unique." },
+      { type: "p", text: "Les chutes de hauteur représentent l'une des premières causes d'accidents du travail mortels en France. Elles surviennent depuis une toiture, un échafaudage, une nacelle ou une simple échelle, parfois à quelques mètres seulement. Prévenir ce risque ne se limite pas à équiper les salariés d'un harnais : c'est une démarche structurée, qui commence par les protections collectives et se formalise dans le document unique." },
       { type: "h2", text: "L'obligation légale et le Code du travail" },
       { type: "p", text: "L'article L.4121-1 du Code du travail impose à l'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé de ses salariés. Pour les travaux temporaires en hauteur, les articles R.4323-58 et suivants précisent cette obligation : ces travaux ne peuvent être réalisés qu'à partir d'un équipement de travail offrant des conditions adaptées, choisi selon la nature des travaux, la fréquence d'accès et la durée d'utilisation." },
       { type: "h2", text: "La hiérarchie des mesures : collectif avant individuel" },
       { type: "p", text: "L'article L.4121-2 du Code du travail fixe les principes généraux de prévention. Pour le travail en hauteur, leur ordre s'impose : supprimer le risque en aménageant le lieu de travail, puis mettre en place des protections collectives, et seulement lorsque celles-ci sont techniquement impossibles ou insuffisantes, recourir aux équipements de protection individuelle. Donner un harnais sans d'abord étudier les protections collectives est une faute de méthode." },
       { type: "ul", items: [
-        "Garde-corps réglementaires : lisse haute, lisse intermédiaire et plinthe de butée — pour tout bord de chute accessible aux personnes",
+        "Garde-corps réglementaires : lisse haute, lisse intermédiaire et plinthe de butée, pour tout bord de chute accessible aux personnes",
         "Échafaudages et plateformes de travail : à privilégier pour les travaux durables en bord de toiture ou en façade",
         "Nacelles élévatrices (PEMP) : adaptées aux interventions ponctuelles nécessitant des déplacements fréquents",
         "Filets de protection sous ouvrage : pour les travaux de charpente, toiture ou montage de structures",
@@ -3747,14 +3747,14 @@ export const articles: Record<string, Article> = {
         "Harnais antichute (norme EN 361) : doit être correctement ajusté, avec point de fixation dorsal ou sternal selon l'usage",
         "Longe avec absorbeur d'énergie (EN 354 / EN 355) : réduit la force de choc transmise au corps lors de l'arrêt de chute",
         "Dispositif antichute à rappel automatique (EN 360) : adapté aux déplacements verticaux fréquents",
-        "Point d'ancrage (EN 795) : doit résister à une force minimale de 12 kN — jamais fixé sur un élément non conçu à cet effet",
+        "Point d'ancrage (EN 795) : doit résister à une force minimale de 12 kN, jamais fixé sur un élément non conçu à cet effet",
         "Vérification annuelle obligatoire par une personne compétente, et systématiquement après tout déclenchement de la retenue",
       ]},
       { type: "h2", text: "Formation : une obligation sans diplôme spécifique" },
-      { type: "p", text: "Il n'existe pas de certification légalement imposée à tout travailleur en hauteur — contrairement à l'habilitation électrique. Mais l'employeur ne peut pas envoyer un salarié travailler en hauteur sans lui avoir dispensé une formation adaptée : utilisation des équipements, identification des points d'ancrage, inspection des EPI avant utilisation et conduite à tenir en cas de chute suspendue. En l'absence de formation documentée, un accident peut caractériser une faute inexcusable." },
-      { type: "quote", text: "Un salarié suspendu après une chute arrêtée doit être secouru rapidement. Au-delà d'un délai court, le syndrome de suspension — compression veineuse prolongée — peut être fatal. Avoir un plan de secours et former l'équipe à le déclencher est aussi important que de fournir le harnais." },
+      { type: "p", text: "Il n'existe pas de certification légalement imposée à tout travailleur en hauteur, contrairement à l'habilitation électrique. Mais l'employeur ne peut pas envoyer un salarié travailler en hauteur sans lui avoir dispensé une formation adaptée : utilisation des équipements, identification des points d'ancrage, inspection des EPI avant utilisation et conduite à tenir en cas de chute suspendue. En l'absence de formation documentée, un accident peut caractériser une faute inexcusable." },
+      { type: "quote", text: "Un salarié suspendu après une chute arrêtée doit être secouru rapidement. Au-delà d'un délai court, le syndrome de suspension (compression veineuse prolongée) peut être fatal. Avoir un plan de secours et former l'équipe à le déclencher est aussi important que de fournir le harnais." },
       { type: "h2", text: "Intégrer le risque hauteur dans le DUERP" },
-      { type: "p", text: "En application de l'article L.4121-3 du Code du travail, tout risque identifié doit être consigné dans le Document Unique d'Évaluation des Risques Professionnels, avec sa cotation et les mesures de prévention retenues. Pour le travail en hauteur : lister les postes et situations exposés, documenter les protections en place — collectives et individuelles — et planifier les actions correctives avec responsables et délais. Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et R.4323-58 et suivants." },
+      { type: "p", text: "En application de l'article L.4121-3 du Code du travail, tout risque identifié doit être consigné dans le Document Unique d'Évaluation des Risques Professionnels, avec sa cotation et les mesures de prévention retenues. Pour le travail en hauteur : lister les postes et situations exposés, documenter les protections en place (collectives et individuelles) et planifier les actions correctives avec responsables et délais. Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et R.4323-58 et suivants." },
       { type: "cta", text: "Pour former vos équipes à la prévention des chutes de hauteur et à l'utilisation des EPI,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
@@ -3769,18 +3769,18 @@ export const articles: Record<string, Article> = {
     readingTime: 6,
     image: "/images/articles/risque-routier-professionnel-prevention-accidents-trajet-mission.jpg",
     content: [
-      { type: "p", text: "Trajets domicile-travail, déplacements professionnels, livraisons, visites clients : dès qu\'un salarié prend le volant dans le cadre de son activité, l\'employeur est concerné par le risque routier. La route figure parmi les premières causes d\'accidents mortels en lien avec le travail. Or, contrairement aux risques liés aux machines ou aux produits chimiques, ce risque est souvent sous-estimé — voire ignoré — faute d\'être perçu comme un risque professionnel à part entière." },
+      { type: "p", text: "Trajets domicile-travail, déplacements professionnels, livraisons, visites clients : dès qu\'un salarié prend le volant dans le cadre de son activité, l\'employeur est concerné par le risque routier. La route figure parmi les premières causes d\'accidents mortels en lien avec le travail. Or, contrairement aux risques liés aux machines ou aux produits chimiques, ce risque est souvent sous-estimé, voire ignoré, faute d\'être perçu comme un risque professionnel à part entière." },
       { type: "h2", text: "Accident de trajet et accident de mission : deux régimes distincts" },
-      { type: "p", text: "L\'accident de trajet est défini à l\'article L.411-2 du Code de la sécurité sociale comme celui survenant sur le parcours habituel entre le domicile et le lieu de travail ou de restauration. Il est pris en charge comme un accident du travail, mais la responsabilité directe de l\'employeur est limitée. L\'accident de mission, lui, survient pendant un déplacement professionnel effectué pour le compte de l\'employeur, relevant de l\'article L.411-1 du Code de la sécurité sociale. Il engage la pleine responsabilité de l\'employeur — avec un impact sur son taux de cotisation AT/MP et son obligation de sécurité." },
+      { type: "p", text: "L\'accident de trajet est défini à l\'article L.411-2 du Code de la sécurité sociale comme celui survenant sur le parcours habituel entre le domicile et le lieu de travail ou de restauration. Il est pris en charge comme un accident du travail, mais la responsabilité directe de l\'employeur est limitée. L\'accident de mission, lui, survient pendant un déplacement professionnel effectué pour le compte de l\'employeur, relevant de l\'article L.411-1 du Code de la sécurité sociale. Il engage la pleine responsabilité de l\'employeur, avec un impact sur son taux de cotisation AT/MP et son obligation de sécurité." },
       { type: "h2", text: "L\'obligation légale de l\'employeur" },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Cette obligation couvre les accidents de mission. Le risque routier doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels pour tout poste impliquant des déplacements professionnels en véhicule. L\'absence de cette évaluation peut constituer un manquement susceptible d\'être relevé par l\'inspection du travail, et caractériser une faute inexcusable en cas d\'accident." },
       { type: "h2", text: "Les facteurs de risque à identifier et à évaluer" },
       { type: "ul", items: [
         "Fatigue et somnolence : déplacements très tôt le matin ou tard le soir, horaires prolongés, temps de conduite sans pause suffisante",
-        "Usage du téléphone au volant : appels, messagerie, consultation GPS — première cause d\'inattention identifiée dans les accidents de mission",
+        "Usage du téléphone au volant (appels, messagerie, consultation GPS) : première cause d\'inattention identifiée dans les accidents de mission",
         "Pression sur les délais : contraintes de livraison ou de rendez-vous qui conduisent à dépasser les vitesses réglementaires",
         "État du véhicule : pneumatiques usés, entretien insuffisant, équipements de sécurité défaillants",
-        "Conditions environnementales : pluie, verglas, brouillard, visibilité réduite — risques majorés en hiver et de nuit",
+        "Conditions environnementales : pluie, verglas, brouillard, visibilité réduite (risques majorés en hiver et de nuit)",
         "Méconnaissance du trajet : nouveaux itinéraires, zones de chantier, modifications de circulation",
       ]},
       { type: "h2", text: "Les mesures de prévention à déployer" },
@@ -3793,7 +3793,7 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "quote", text: "Un salarié qui prend le volant fatigué ou sous pression n\'est pas seul responsable de l\'accident qui en résulte. L\'employeur qui n\'a ni évalué ni organisé le risque routier engage sa propre responsabilité." },
       { type: "h2", text: "Politique téléphone au volant : une règle non négociable" },
-      { type: "p", text: "L\'usage d\'un téléphone tenu en main au volant est une infraction pénale, passible d\'une contravention de quatrième classe. Au-delà de la sanction individuelle, l\'employeur doit interdire formellement, par note de service ou règlement intérieur, tout usage d\'un téléphone tenu en main pendant la conduite — y compris pour répondre à un appel professionnel. Aucune urgence professionnelle ne justifie ce risque. Seul un dispositif mains libres intégré au véhicule, activé sans manipulation de l\'appareil, constitue une alternative acceptable." },
+      { type: "p", text: "L\'usage d\'un téléphone tenu en main au volant est une infraction pénale, passible d\'une contravention de quatrième classe. Au-delà de la sanction individuelle, l\'employeur doit interdire formellement, par note de service ou règlement intérieur, tout usage d\'un téléphone tenu en main pendant la conduite, y compris pour répondre à un appel professionnel. Aucune urgence professionnelle ne justifie ce risque. Seul un dispositif mains libres intégré au véhicule, activé sans manipulation de l\'appareil, constitue une alternative acceptable." },
       { type: "h2", text: "Formaliser dans le DUERP et le plan d\'action" },
       { type: "p", text: "En application de l\'article L.4121-3 du Code du travail, tout risque doit être consigné dans le Document Unique, avec une évaluation et un plan d\'action associé. Pour le risque routier, il s\'agit d\'identifier chaque poste exposé, les types de déplacements concernés, les facteurs de risque propres à l\'entreprise, les mesures en place et celles à planifier. Référence officielle : Code du travail, articles L.4121-1 et L.4121-3. Code de la sécurité sociale, articles L.411-1 et L.411-2." },
       { type: "cta", text: "Pour former vos managers et préventeurs à l\'évaluation et à la prévention du risque routier professionnel,", label: "prenez contact via notre page dédiée", href: "/contact" },
@@ -3810,9 +3810,9 @@ export const articles: Record<string, Article> = {
     readingTime: 6,
     image: "/images/articles/suivi-individuel-etat-sante-salaries-visites-medicales-travail.jpg",
     content: [
-      { type: "p", text: "Le suivi individuel de l\'état de santé des salariés est une obligation que le Code du travail fait peser sur tout employeur, quelle que soit la taille de l\'entreprise. Il ne se résume pas à une visite médicale à l\'embauche : sa forme, sa fréquence et ses modalités varient selon le poste occupé, les risques auxquels le salarié est exposé et son profil individuel. Comprendre cette architecture permet d\'éviter les manquements — et d\'en faire un outil de prévention à part entière." },
+      { type: "p", text: "Le suivi individuel de l\'état de santé des salariés est une obligation que le Code du travail fait peser sur tout employeur, quelle que soit la taille de l\'entreprise. Il ne se résume pas à une visite médicale à l\'embauche : sa forme, sa fréquence et ses modalités varient selon le poste occupé, les risques auxquels le salarié est exposé et son profil individuel. Comprendre cette architecture permet d\'éviter les manquements, et d\'en faire un outil de prévention à part entière." },
       { type: "h2", text: "Le régime de droit commun : la visite d\'information et de prévention" },
-      { type: "p", text: "Pour la majorité des salariés, le suivi prend la forme d\'une visite d\'information et de prévention (VIP), réalisée dans les trois mois suivant la prise de poste — sauf pour les travailleurs de nuit et les mineurs, qui bénéficient d\'une visite préalable avant toute affectation. La VIP est ensuite renouvelée selon une périodicité fixée par le médecin du travail, dans la limite maximale de cinq ans. Depuis le décret n°2016-1908 du 27 décembre 2016, elle peut être réalisée par un infirmier de santé au travail, par délégation du médecin du travail." },
+      { type: "p", text: "Pour la majorité des salariés, le suivi prend la forme d\'une visite d\'information et de prévention (VIP), réalisée dans les trois mois suivant la prise de poste, sauf pour les travailleurs de nuit et les mineurs, qui bénéficient d\'une visite préalable avant toute affectation. La VIP est ensuite renouvelée selon une périodicité fixée par le médecin du travail, dans la limite maximale de cinq ans. Depuis le décret n°2016-1908 du 27 décembre 2016, elle peut être réalisée par un infirmier de santé au travail, par délégation du médecin du travail." },
       { type: "ul", items: [
         "Travailleurs de nuit et mineurs : visite préalable obligatoire avant toute affectation au poste",
         "Salariés en CDD ou intérimaires affectés à un poste à risque : VIP préalable à la prise de poste, même pour des missions courtes",
@@ -3820,7 +3820,7 @@ export const articles: Record<string, Article> = {
         "Tout salarié peut solliciter le service de santé au travail à tout moment, indépendamment des visites périodiques programmées",
       ]},
       { type: "h2", text: "La surveillance renforcée : les salariés concernés" },
-      { type: "p", text: "Certains salariés bénéficient d\'un suivi individuel renforcé (SIR), en raison de la nature des risques auxquels ils sont exposés. La visite est alors réalisée par le médecin du travail — et non par un infirmier — et renouvelée au maximum tous les quatre ans, avec une visite intermédiaire par un professionnel de santé à mi-période. Les articles R.4624-22 et suivants du Code du travail définissent les catégories concernées." },
+      { type: "p", text: "Certains salariés bénéficient d\'un suivi individuel renforcé (SIR), en raison de la nature des risques auxquels ils sont exposés. La visite est alors réalisée par le médecin du travail (et non par un infirmier) et renouvelée au maximum tous les quatre ans, avec une visite intermédiaire par un professionnel de santé à mi-période. Les articles R.4624-22 et suivants du Code du travail définissent les catégories concernées." },
       { type: "ul", items: [
         "Travailleurs exposés à des agents cancérogènes, mutagènes ou toxiques pour la reproduction (CMR)",
         "Travailleurs exposés aux agents biologiques des groupes 3 et 4, à l\'amiante ou aux rayonnements ionisants en catégorie A",
@@ -3837,10 +3837,10 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: [
         "Déclarer chaque salarié à l\'embauche au service de santé au travail interentreprises (SSTI) dont l\'entreprise est adhérente et transmettre une fiche de poste précise pour chaque poste à risque",
         "Planifier les visites périodiques et en surveiller les échéances : un défaut de suivi peut être relevé par l\'inspection du travail et constituer un manquement à l\'obligation de sécurité",
-        "Donner suite sans délai aux préconisations du médecin du travail — aménagement horaire, adaptation des équipements, mutation de poste — car l\'absence de suite peut caractériser une faute inexcusable en cas d\'accident ultérieur",
+        "Donner suite sans délai aux préconisations du médecin du travail (aménagement horaire, adaptation des équipements, mutation de poste), car l\'absence de suite peut caractériser une faute inexcusable en cas d\'accident ultérieur",
         "Conserver les attestations de suivi et fiches d\'aptitude dans le dossier du salarié, documents exigibles par l\'inspection du travail",
       ]},
-      { type: "quote", text: "Le médecin du travail n\'évalue pas l\'aptitude au travail en général. Il apprécie l\'adéquation entre l\'état de santé du salarié et les exigences du poste réel — et propose des aménagements bien avant d\'envisager une inaptitude." },
+      { type: "quote", text: "Le médecin du travail n\'évalue pas l\'aptitude au travail en général. Il apprécie l\'adéquation entre l\'état de santé du salarié et les exigences du poste réel, et propose des aménagements bien avant d\'envisager une inaptitude." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4624-1 à L.4624-8 et R.4624-10 à R.4624-55, relatifs au suivi individuel de l\'état de santé des travailleurs. Décret n°2016-1908 du 27 décembre 2016 portant réforme de la médecine du travail." },
       { type: "cta", text: "Pour former vos responsables RH et managers à leurs obligations en santé au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
@@ -3848,13 +3848,13 @@ export const articles: Record<string, Article> = {
 
   "prevention-risques-psychosociaux-rps-six-facteurs-evaluer": {
     title: "Prévenir les risques psychosociaux en entreprise : six facteurs à évaluer",
-    excerpt: "Stress, épuisement, harcèlement : les risques psychosociaux ont une définition précise et six familles de facteurs. Comment les évaluer et agir concrètement — guide pratique pour préventeurs et responsables RH.",
+    excerpt: "Stress, épuisement, harcèlement : les risques psychosociaux ont une définition précise et six familles de facteurs. Comment les évaluer et agir concrètement : guide pratique pour préventeurs et responsables RH.",
     publishedAt: "2026-06-04",
     category: "Prévention",
     readingTime: 6,
     image: "/images/articles/prevention-risques-psychosociaux-rps-six-facteurs-evaluer.jpg",
     content: [
-      { type: "p", text: "Les risques psychosociaux regroupent des réalités très différentes : stress chronique, épuisement professionnel, harcèlement, violences internes ou externes. Ce que ces situations ont en commun, c\'est d\'être liées à l\'organisation du travail, au management et aux conditions d\'exercice de l\'activité. À ce titre, ils relèvent de l\'obligation de prévention que l\'article L.4121-1 du Code du travail fait peser sur tout employeur — et doivent figurer dans le Document Unique d\'Évaluation des Risques Professionnels." },
+      { type: "p", text: "Les risques psychosociaux regroupent des réalités très différentes : stress chronique, épuisement professionnel, harcèlement, violences internes ou externes. Ce que ces situations ont en commun, c\'est d\'être liées à l\'organisation du travail, au management et aux conditions d\'exercice de l\'activité. À ce titre, ils relèvent de l\'obligation de prévention que l\'article L.4121-1 du Code du travail fait peser sur tout employeur, et doivent figurer dans le Document Unique d\'Évaluation des Risques Professionnels." },
       { type: "h2", text: "Ce que dit la réglementation" },
       { type: "p", text: "L\'article L.4121-3 du Code du travail impose d\'évaluer tous les risques professionnels, sans exception. La loi du 2 août 2021 pour renforcer la prévention en santé au travail a précisé que cette évaluation doit couvrir explicitement les risques psychosociaux et tenir compte de l\'organisation du travail. Un DUERP qui omet les RPS est donc incomplet au regard de la loi, même dans une petite structure où aucun incident n\'a encore été signalé." },
       { type: "h2", text: "Les six familles de facteurs de risque" },
@@ -3870,7 +3870,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Trois niveaux de prévention à articuler" },
       { type: "p", text: "La prévention primaire agit sur les causes : restructurer une organisation, clarifier les rôles, réduire la charge de travail. La prévention secondaire renforce les ressources des salariés : formation des managers à l\'écoute, espaces d\'expression sur le travail, sensibilisation aux signaux d\'alerte. La prévention tertiaire prend en charge les personnes déjà atteintes : cellules d\'écoute, accompagnement psychologique, aménagement de poste. Une démarche efficace articule les trois niveaux." },
       { type: "h2", text: "Démarche solide ou démarche cosmétique ?" },
-      { type: "p", text: "Une démarche solide associe les salariés et leurs représentants dès la phase de diagnostic, s\'appuie sur des indicateurs concrets — absentéisme, turnover, accidents, plaintes RH — et débouche sur un plan d\'action planifié et évalué. Une cellule d\'écoute sans analyse des causes organisationnelles n\'est pas une prévention des RPS : c\'est une réponse aux effets sans traitement des causes." },
+      { type: "p", text: "Une démarche solide associe les salariés et leurs représentants dès la phase de diagnostic, s\'appuie sur des indicateurs concrets (absentéisme, turnover, accidents, plaintes RH) et débouche sur un plan d\'action planifié et évalué. Une cellule d\'écoute sans analyse des causes organisationnelles n\'est pas une prévention des RPS : c\'est une réponse aux effets sans traitement des causes." },
       { type: "h2", text: "Par où commencer concrètement ?" },
       { type: "ul", items: [
         "Réaliser un état des lieux avec les indicateurs déjà disponibles : absentéisme, turnover, accidents du travail, résultats des entretiens annuels.",
@@ -3892,9 +3892,9 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/accident-du-travail-declaration-delais-obligations-employeur.jpg",
     content: [
-      { type: "p", text: "Tout accident survenu dans le cadre du travail déclenche une procédure réglementée, quelle que soit sa gravité apparente. L\'employeur dispose de 48 heures pour en informer la CPAM — un délai court, souvent méconnu des équipes RH et des managers de proximité. Voici les étapes et obligations à connaître." },
+      { type: "p", text: "Tout accident survenu dans le cadre du travail déclenche une procédure réglementée, quelle que soit sa gravité apparente. L\'employeur dispose de 48 heures pour en informer la CPAM, un délai court, souvent méconnu des équipes RH et des managers de proximité. Voici les étapes et obligations à connaître." },
       { type: "h2", text: "Ce qu\'est un accident du travail au sens juridique" },
-      { type: "p", text: "L\'article L.411-1 du Code de la sécurité sociale définit l\'accident du travail comme tout accident survenu par le fait ou à l\'occasion du travail, quelle qu\'en soit la cause. La définition est délibérément large : une chute dans les locaux, un geste blessant commis par un tiers, un malaise lors d\'une réunion — tous peuvent être reconnus comme accident du travail dès lors qu\'ils surviennent pendant le temps de travail. L\'article L.411-2 couvre l\'accident de trajet, survenu entre la résidence habituelle du salarié et son lieu de travail ou son lieu de restauration habituel : il bénéficie du même régime de réparation." },
+      { type: "p", text: "L\'article L.411-1 du Code de la sécurité sociale définit l\'accident du travail comme tout accident survenu par le fait ou à l\'occasion du travail, quelle qu\'en soit la cause. La définition est délibérément large : une chute dans les locaux, un geste blessant commis par un tiers, un malaise lors d\'une réunion. Tous peuvent être reconnus comme accident du travail dès lors qu\'ils surviennent pendant le temps de travail. L\'article L.411-2 couvre l\'accident de trajet, survenu entre la résidence habituelle du salarié et son lieu de travail ou son lieu de restauration habituel : il bénéficie du même régime de réparation." },
       { type: "h2", text: "Le délai de 48 heures : une obligation ferme" },
       { type: "p", text: "L\'article L.441-2 du Code de la sécurité sociale impose à l\'employeur de déclarer tout accident du travail dont il a eu connaissance dans les 48 heures suivant l\'événement, dimanches et jours fériés non compris. La déclaration est adressée à la CPAM dont dépend le salarié, accompagnée de l\'attestation de salaire. L\'employeur dispose ensuite d\'un délai de 10 jours francs à compter de la déclaration pour émettre des réserves motivées, s\'il conteste le caractère professionnel de l\'accident. Ces réserves n\'ont aucun effet suspensif sur l\'instruction conduite par la CPAM." },
       { type: "ul", items: [
@@ -3908,7 +3908,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que risque l\'employeur en cas de non-déclaration" },
       { type: "p", text: "Ne pas déclarer dans les délais expose l\'employeur à une amende. Surtout, si la CPAM reconnaît l\'accident à la demande du salarié, elle peut engager une action récursoire et lui réclamer le remboursement des indemnités journalières et des frais médicaux versés. En cas d\'accident grave ou mortel, une absence de déclaration peut considérablement aggraver la position de l\'employeur dans le cadre d\'une procédure en faute inexcusable. En termes de précontentieux, déclarer en émettant des réserves est toujours plus défendable que de ne pas déclarer." },
       { type: "h2", text: "La visite médicale de reprise : ne pas l\'oublier" },
-      { type: "p", text: "Après tout arrêt de travail consécutif à un accident du travail, l\'employeur doit organiser une visite de reprise auprès du médecin du travail. C\'est à lui de la planifier dès qu\'il connaît la date de retour du salarié — de préférence avant la reprise effective. Cette visite permet d\'évaluer l\'aptitude au poste, de préconiser des aménagements si nécessaire et d\'anticiper une éventuelle inaptitude avant qu\'elle ne soit prononcée en urgence. Omettre cette étape constitue un manquement à l\'obligation de sécurité." },
+      { type: "p", text: "Après tout arrêt de travail consécutif à un accident du travail, l\'employeur doit organiser une visite de reprise auprès du médecin du travail. C\'est à lui de la planifier dès qu\'il connaît la date de retour du salarié, de préférence avant la reprise effective. Cette visite permet d\'évaluer l\'aptitude au poste, de préconiser des aménagements si nécessaire et d\'anticiper une éventuelle inaptitude avant qu\'elle ne soit prononcée en urgence. Omettre cette étape constitue un manquement à l\'obligation de sécurité." },
       { type: "quote", text: "Déclarer un accident du travail n\'est pas un aveu de faute : c\'est remplir une obligation légale qui protège la victime et préserve l\'entreprise d\'une mise en cause beaucoup plus sévère en cas de silence." },
       { type: "p", text: "Référence officielle : Code de la sécurité sociale, articles L.411-1 et L.411-2 relatifs à la définition de l\'accident du travail et de l\'accident de trajet, et article L.441-2 relatif au délai et aux modalités de déclaration par l\'employeur." },
       { type: "cta", text: "Pour sensibiliser vos responsables RH et managers à la gestion des accidents du travail et aux obligations de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
@@ -3925,7 +3925,7 @@ export const articles: Record<string, Article> = {
     content: [
       { type: "p", text: "Le travail de nuit est présent dans de nombreux secteurs : industrie, santé, sécurité, transport, hôtellerie-restauration. Il ne se résume pas à un simple décalage horaire : le Code du travail lui consacre un régime spécifique qui impose des obligations précises à l\'employeur en matière de recours, de conditions de travail et de surveillance médicale. Ces obligations s\'appliquent dès lors qu\'un salarié répond à la définition légale du travailleur de nuit." },
       { type: "h2", text: "Ce que dit le Code du travail : définition et périmètre" },
-      { type: "p", text: "Le Code du travail distingue deux notions aux articles L.3122-1 et suivants. La période de nuit est en principe celle comprise entre 21 h et 6 h — sauf accord de branche ou d\'entreprise qui peut en fixer d\'autres limites. Le travailleur de nuit est le salarié qui accomplit, selon son horaire habituel, au moins trois heures de travail nocturne au moins deux fois par semaine, ou un nombre minimum d\'heures de nuit par an fixé par la convention collective applicable à l\'entreprise." },
+      { type: "p", text: "Le Code du travail distingue deux notions aux articles L.3122-1 et suivants. La période de nuit est en principe celle comprise entre 21 h et 6 h, sauf accord de branche ou d\'entreprise qui peut en fixer d\'autres limites. Le travailleur de nuit est le salarié qui accomplit, selon son horaire habituel, au moins trois heures de travail nocturne au moins deux fois par semaine, ou un nombre minimum d\'heures de nuit par an fixé par la convention collective applicable à l\'entreprise." },
       { type: "h2", text: "Les risques spécifiques liés au travail nocturne" },
       { type: "p", text: "Travailler la nuit de façon régulière perturbe les rythmes biologiques et entraîne des conséquences concrètes sur la santé que l\'employeur doit intégrer dans son évaluation des risques. Ces effets ne surviennent pas uniquement sur des postes très contraignants : ils s\'observent dès lors que le décalage circadien est régulier et prolongé." },
       { type: "ul", items: [
@@ -3935,7 +3935,7 @@ export const articles: Record<string, Article> = {
         "Effets cardiovasculaires et métaboliques à long terme, reconnus par les autorités de santé publique comme spécifiques au travail de nuit régulier.",
       ]},
       { type: "h2", text: "La surveillance médicale renforcée : une obligation spécifique" },
-      { type: "p", text: "Les travailleurs de nuit bénéficient d\'un suivi individuel renforcé (SIR) en application des articles R.4624-22 et suivants du Code du travail. Contrairement au régime commun, la visite périodique est réalisée directement par le médecin du travail — et non par délégation à un infirmier — avec une fréquence maximale de quatre ans et une visite intermédiaire à mi-période. Deux exigences supplémentaires s\'appliquent à tout poste de nuit." },
+      { type: "p", text: "Les travailleurs de nuit bénéficient d\'un suivi individuel renforcé (SIR) en application des articles R.4624-22 et suivants du Code du travail. Contrairement au régime commun, la visite périodique est réalisée directement par le médecin du travail (et non par délégation à un infirmier), avec une fréquence maximale de quatre ans et une visite intermédiaire à mi-période. Deux exigences supplémentaires s\'appliquent à tout poste de nuit." },
       { type: "ul", items: [
         "Visite médicale préalable obligatoire avant toute première affectation à un poste de nuit, même pour un salarié déjà en poste dans l\'entreprise.",
         "Droit de réaffectation de jour : tout travailleur de nuit peut demander à rejoindre un poste de jour s\'il constate une altération de son état de santé liée au travail nocturne, sous avis du médecin du travail.",
@@ -3969,18 +3969,18 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les niveaux B : ce que chaque symbole autorise concrètement" },
       { type: "ul", items: [
         "B0 : non-électricien autorisé à réaliser des travaux d\'ordre non électrique (perçage, peinture, pose de faux-plafond) à proximité d\'une installation électrique. Le salarié n\'effectue aucune opération sur l\'installation mais doit avoir reçu une sensibilisation au risque électrique.",
-        "BS : chargé d\'interventions élémentaires — remplacement d\'une ampoule, d\'un fusible, réarmement d\'un disjoncteur. Ces opérations simples sont réalisées hors tension et ne requièrent pas de compétences d\'électricien, mais imposent une formation à la prévention des risques électriques.",
+        "BS : chargé d\'interventions élémentaires (remplacement d\'une ampoule, d\'un fusible, réarmement d\'un disjoncteur). Ces opérations simples sont réalisées hors tension et ne requièrent pas de compétences d\'électricien, mais imposent une formation à la prévention des risques électriques.",
         "BR : chargé d\'interventions générales de dépannage et d\'essais. C\'est le profil de l\'électricien de maintenance polyvalent : il diagnostique une panne, effectue un raccordement, réalise des mesures ou des essais sur une installation basse tension.",
         "B1 / B1V : exécutant électricien qui travaille hors tension (B1) ou au voisinage de pièces nues sous tension (B1V). Il opère sous la direction d\'un chargé de travaux B2.",
         "B2 / B2V : chargé de travaux. Il organise et dirige les opérations électriques, s\'assure des conditions de sécurité et encadre les exécutants B1.",
         "BC : chargé de consignation. Il réalise la mise en sécurité électrique de l\'installation avant toute intervention : séparation, condamnation, vérification d\'absence de tension (VAT) et mise à la terre.",
       ]},
       { type: "h2", text: "La lettre V : travailler au voisinage sans contact" },
-      { type: "p", text: "Le complément V — présent dans B1V, B2V, H1V, H2V — signifie que le salarié est autorisé à travailler dans la zone de voisinage d\'une installation sous tension, sans la toucher ni l\'ouvrir. Un salarié habilité B1, sans ce complément, ne peut intervenir que sur une installation strictement hors tension. Si la consignation est impossible ou partielle, le V est indispensable. Ce complément suppose une formation spécifique et une aptitude médicale confirmée par le médecin du travail." },
+      { type: "p", text: "Le complément V (présent dans B1V, B2V, H1V, H2V) signifie que le salarié est autorisé à travailler dans la zone de voisinage d\'une installation sous tension, sans la toucher ni l\'ouvrir. Un salarié habilité B1, sans ce complément, ne peut intervenir que sur une installation strictement hors tension. Si la consignation est impossible ou partielle, le V est indispensable. Ce complément suppose une formation spécifique et une aptitude médicale confirmée par le médecin du travail." },
       { type: "h2", text: "Les niveaux H : même logique, haute tension" },
-      { type: "p", text: "Les titres H0, H1, H2 et HC suivent exactement la même logique que les niveaux B, mais pour les installations haute tension — réseaux HTA (de 1 kV à 50 kV) et HTB (au-dessus de 50 kV). H0 concerne les non-électriciens intervenant à proximité de ces ouvrages, H1 les exécutants électriciens, H2 les chargés de travaux, HC les chargés de consignation haute tension. Ces habilitations sont réservées aux professionnels des industries lourdes et des gestionnaires de réseaux." },
+      { type: "p", text: "Les titres H0, H1, H2 et HC suivent exactement la même logique que les niveaux B, mais pour les installations haute tension : réseaux HTA (de 1 kV à 50 kV) et HTB (au-dessus de 50 kV). H0 concerne les non-électriciens intervenant à proximité de ces ouvrages, H1 les exécutants électriciens, H2 les chargés de travaux, HC les chargés de consignation haute tension. Ces habilitations sont réservées aux professionnels des industries lourdes et des gestionnaires de réseaux." },
       { type: "h2", text: "Comment choisir le bon niveau : une analyse de poste" },
-      { type: "p", text: "L\'habilitation doit refléter les opérations réellement effectuées sur le poste de travail. La norme NF C 18-510 distingue trois familles d\'opérations : les travaux (modifier l\'installation), les interventions (dépannage, entretien courant) et les opérations d\'ordre non électrique (travailler à proximité sans agir sur l\'installation). C\'est sur la base de cette analyse que l\'employeur détermine le titre à attribuer — et qu\'il en engage la responsabilité." },
+      { type: "p", text: "L\'habilitation doit refléter les opérations réellement effectuées sur le poste de travail. La norme NF C 18-510 distingue trois familles d\'opérations : les travaux (modifier l\'installation), les interventions (dépannage, entretien courant) et les opérations d\'ordre non électrique (travailler à proximité sans agir sur l\'installation). C\'est sur la base de cette analyse que l\'employeur détermine le titre à attribuer, et qu\'il en engage la responsabilité." },
       { type: "ul", items: [
         "Technicien bâtiment remplaçant des éclairages ou des prises dans des locaux accessibles : BS.",
         "Électricien de maintenance réalisant des raccordements, dépannages ou essais en basse tension : BR.",
@@ -4002,20 +4002,20 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
     content: [
-      { type: "p", text: "L\'arrêté du 19 février 2026 (NOR INTE2602293A) révise le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public — dit arrêté du 25 juin 1980. Il encadre pour la première fois de façon systématique l\'usage des structures combustibles, et notamment du bois massif, dans les ERP de toutes catégories. Le texte s\'appliquera aux demandes d\'autorisation de travaux déposées à partir du 1er juin 2027." },
+      { type: "p", text: "L\'arrêté du 19 février 2026 (NOR INTE2602293A) révise le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public (dit arrêté du 25 juin 1980). Il encadre pour la première fois de façon systématique l\'usage des structures combustibles, et notamment du bois massif, dans les ERP de toutes catégories. Le texte s\'appliquera aux demandes d\'autorisation de travaux déposées à partir du 1er juin 2027." },
       { type: "h2", text: "Ce que change le texte" },
       { type: "p", text: "Le texte introduit d\'abord, à l\'article GN 16, un glossaire de neuf définitions inédites dans le règlement ERP : bois massif, combles, mezzanine, paroi à ossature, panneau bois non délaminant, protection feu indissociable et système façade. Ces définitions servent de socle aux nouvelles exigences de résistance au feu et de classement de réaction au feu applicables aux structures et enveloppes comportant des matériaux combustibles." },
       { type: "ul", items: [
-        "Article CO 12 — Résistance au feu des structures : R 30, R 60 ou R 90 selon la hauteur du bâtiment (seuils à 8 m et 18 m) et la catégorie de l\'ERP.",
-        "Article CO 13 — Toitures combustibles : classement A2-s1,d0 requis ; le bois massif est admis sous conditions, les fermettes en sont explicitement exclues.",
-        "Article CO 20 — Système façade : classement A2-s3,d0 pour les revêtements au-dessus de 8 m de hauteur.",
-        "Article AM 1-2 — Ossatures bois de 8 à 18 m : protection indissociable de 30 minutes ; au-delà de 18 m, obligation de sprinklers lorsque des niveaux à ossature bois dépassent 8 m.",
-        "Article AM 4-1 — Bois apparent : admis sans limitation de surface dans les halls de deux niveaux maximum, sous réserve d\'une charge mobilière inférieure à 100 MJ/m² et de portes E 30.",
+        "Article CO 12 (Résistance au feu des structures) : R 30, R 60 ou R 90 selon la hauteur du bâtiment (seuils à 8 m et 18 m) et la catégorie de l\'ERP.",
+        "Article CO 13 (Toitures combustibles) : classement A2-s1,d0 requis ; le bois massif est admis sous conditions, les fermettes en sont explicitement exclues.",
+        "Article CO 20 (Système façade) : classement A2-s3,d0 pour les revêtements au-dessus de 8 m de hauteur.",
+        "Article AM 1-2 (Ossatures bois de 8 à 18 m) : protection indissociable de 30 minutes ; au-delà de 18 m, obligation de sprinklers lorsque des niveaux à ossature bois dépassent 8 m.",
+        "Article AM 4-1 (Bois apparent) : admis sans limitation de surface dans les halls de deux niveaux maximum, sous réserve d\'une charge mobilière inférieure à 100 MJ/m² et de portes E 30.",
       ]},
       { type: "h2", text: "Qui est concerné ?" },
       { type: "p", text: "Tous les ERP de la 1re à la 4e catégorie sont visés dès lors qu\'ils intègrent ou envisagent d\'intégrer des éléments structuraux combustibles. Les maîtres d\'ouvrage, architectes et bureaux d\'études devront anticiper ces exigences pour tout permis de construire ou demande d\'autorisation de travaux déposé à partir du 1er juin 2027. Les commissions de sécurité seront attentives à la présence des justificatifs de performance exigés par les articles GE 6 et GE 7." },
       { type: "h2", text: "Impact sur les formations incendie ERP" },
-      { type: "p", text: "Pour les exploitants d\'ERP, les agents chargés de sécurité incendie et les équipiers d\'évacuation, ce texte modifie le référentiel technique applicable lors de la mise à jour du registre de sécurité et de la formation des guides-files et serre-files. La connaissance des protections passives présentes dans l\'établissement — nature du bois, classement de réaction au feu, présence de sprinklers — fait désormais partie intégrante de la formation incendie en ERP." },
+      { type: "p", text: "Pour les exploitants d\'ERP, les agents chargés de sécurité incendie et les équipiers d\'évacuation, ce texte modifie le référentiel technique applicable lors de la mise à jour du registre de sécurité et de la formation des guides-files et serre-files. La connaissance des protections passives présentes dans l\'établissement (nature du bois, classement de réaction au feu, présence de sprinklers) fait désormais partie intégrante de la formation incendie en ERP." },
       { type: "p", text: "Référence officielle : arrêté du 19 février 2026 (NOR INTE2602293A), publié au Journal officiel de la République française n°0045 du 22 février 2026, texte n°5. Consultable sur Légifrance." },
       { type: "cta", text: "Pour former vos équipes à la sécurité incendie en ERP,", href: "/formations/incendie", label: "consultez nos formations incendie" },
     ],
@@ -4029,7 +4029,7 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/compte-professionnel-prevention-c2p-penibilite-obligations-employeur.jpg",
     content: [
-      { type: "p", text: "Le Compte Professionnel de Prévention (C2P) permet à tout salarié du secteur privé exposé à des facteurs de pénibilité de cumuler des points utilisables tout au long de sa carrière — pour se former, réduire son temps de travail ou partir à la retraite plus tôt. Pour l\'employeur, le C2P génère deux obligations concrètes : évaluer l\'exposition de chaque salarié concerné et déclarer ces expositions via la déclaration sociale nominative (DSN)." },
+      { type: "p", text: "Le Compte Professionnel de Prévention (C2P) permet à tout salarié du secteur privé exposé à des facteurs de pénibilité de cumuler des points utilisables tout au long de sa carrière pour se former, réduire son temps de travail ou partir à la retraite plus tôt. Pour l\'employeur, le C2P génère deux obligations concrètes : évaluer l\'exposition de chaque salarié concerné et déclarer ces expositions via la déclaration sociale nominative (DSN)." },
       { type: "h2", text: "Six facteurs de pénibilité ouvrent des droits au C2P" },
       { type: "ul", items: [
         "Travail de nuit : au moins une heure de travail effectuée entre minuit et 5 heures du matin, au-delà d\'un seuil annuel fixé par décret.",
@@ -4040,7 +4040,7 @@ export const articles: Record<string, Article> = {
         "Bruit : exposition à un niveau sonore élevé dépassant le seuil annuel défini par décret, mesuré en dB(A) pour l\'exposition quotidienne ou en dB(C) pour les chocs acoustiques.",
       ]},
       { type: "h2", text: "Comment les expositions sont-elles évaluées et déclarées ?" },
-      { type: "p", text: "Pour chaque salarié, l\'employeur doit déterminer si l\'exposition dépasse les seuils réglementaires pour chacun des six facteurs. Cette évaluation repose sur les conditions réelles de travail — horaires effectifs, mesurages de bruit, relevés de température — et doit être documentée dans le document unique d\'évaluation des risques professionnels (DUERP). Lorsqu\'un seuil est dépassé, les facteurs concernés sont déclarés dans la DSN en fin d\'année civile ou au terme du contrat." },
+      { type: "p", text: "Pour chaque salarié, l\'employeur doit déterminer si l\'exposition dépasse les seuils réglementaires pour chacun des six facteurs. Cette évaluation repose sur les conditions réelles de travail (horaires effectifs, mesurages de bruit, relevés de température) et doit être documentée dans le document unique d\'évaluation des risques professionnels (DUERP). Lorsqu\'un seuil est dépassé, les facteurs concernés sont déclarés dans la DSN en fin d\'année civile ou au terme du contrat." },
       { type: "h2", text: "À quoi servent les points accumulés ?" },
       { type: "ul", items: [
         "Financer une formation professionnelle permettant d\'accéder à un poste moins exposé ou de se reconvertir.",
@@ -4052,7 +4052,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les quatre facteurs exclus du C2P depuis 2017" },
       { type: "p", text: "Lors de la réforme de 2017, quatre facteurs initialement prévus ont été retirés du C2P : la manutention manuelle de charges, les postures pénibles, les vibrations mécaniques et l\'exposition aux agents chimiques dangereux. Ces facteurs ne génèrent plus de points. Ils donnent désormais lieu à un suivi individuel renforcé (SIR) organisé par le médecin du travail, en application des articles R.4624-22 et suivants du Code du travail. Un salarié exposé à ces quatre risques n\'acquiert pas de droits C2P, mais bénéficie d\'une surveillance médicale accrue." },
       { type: "quote", text: "Déclarer les facteurs de pénibilité n\'est pas un aveu d\'échec de la prévention. C\'est reconnaître les conditions réelles de travail et permettre aux salariés exposés de bénéficier des droits que la loi leur accorde." },
-      { type: "p", text: "Référence officielle : Code du travail, article L.4161-1 relatif à la définition des facteurs de risques professionnels et articles L.4163-1 et suivants relatifs au compte professionnel de prévention — acquisition de points, modalités de déclaration et droits ouverts aux salariés exposés." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4161-1 relatif à la définition des facteurs de risques professionnels et articles L.4163-1 et suivants relatifs au compte professionnel de prévention : acquisition de points, modalités de déclaration et droits ouverts aux salariés exposés." },
       { type: "cta", text: "Pour former vos responsables RH et managers à l\'évaluation des facteurs de pénibilité et aux obligations déclaratives,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
@@ -4068,23 +4068,23 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les brûlures figurent parmi les accidents du travail les plus fréquents dans les secteurs de la restauration, de l\'industrie et de la maintenance. Face à une victime brûlée, les premières minutes sont décisives : un refroidissement rapide et adapté limite les lésions, réduit la douleur et améliore le pronostic. Tout Sauveteur Secouriste du Travail doit connaître les gestes clés et les situations qui imposent d\'alerter les secours." },
       { type: "h2", text: "Trois degrés pour évaluer la gravité d\'une brûlure" },
       { type: "ul", items: [
-        "Brûlure du premier degré : atteinte superficielle de l\'épiderme — rougeur, chaleur locale, douleur. Guérit spontanément en quelques jours sans séquelles.",
-        "Brûlure du deuxième degré superficiel : atteinte de l\'épiderme et de la partie supérieure du derme — phlyctènes (cloques), douleur vive. Nécessite des soins médicaux adaptés.",
-        "Brûlure du deuxième degré profond ou du troisième degré : atteinte de la totalité du derme ou des couches sous-cutanées — peau blanche, cireuse ou carbonisée, souvent insensible. Urgence médicale absolue.",
+        "Brûlure du premier degré : atteinte superficielle de l\'épiderme (rougeur, chaleur locale, douleur). Guérit spontanément en quelques jours sans séquelles.",
+        "Brûlure du deuxième degré superficiel : atteinte de l\'épiderme et de la partie supérieure du derme, avec phlyctènes (cloques) et douleur vive. Nécessite des soins médicaux adaptés.",
+        "Brûlure du deuxième degré profond ou du troisième degré : atteinte de la totalité du derme ou des couches sous-cutanées (peau blanche, cireuse ou carbonisée, souvent insensible). Urgence médicale absolue.",
       ]},
       { type: "h2", text: "La conduite à tenir immédiate" },
-      { type: "p", text: "Le premier geste est de soustraire la victime à la source de chaleur en se protégeant soi-même. Ensuite, il faut refroidir la brûlure à l\'eau tempérée — entre 15 et 25 °C — pendant 5 à 15 minutes. L\'eau glacée est contre-indiquée : elle aggraverait les lésions par vasoconstriction et risquerait de provoquer une hypothermie. Ce refroidissement freine la propagation de la brûlure en profondeur et atténue significativement la douleur." },
+      { type: "p", text: "Le premier geste est de soustraire la victime à la source de chaleur en se protégeant soi-même. Ensuite, il faut refroidir la brûlure à l\'eau tempérée (entre 15 et 25 °C) pendant 5 à 15 minutes. L\'eau glacée est contre-indiquée : elle aggraverait les lésions par vasoconstriction et risquerait de provoquer une hypothermie. Ce refroidissement freine la propagation de la brûlure en profondeur et atténue significativement la douleur." },
       { type: "ul", items: [
         "Retirer les vêtements et bijoux autour de la brûlure s\'ils ne sont pas adhérents à la peau, avant que le gonflement ne les rende impossibles à enlever.",
-        "Protéger la zone brûlée avec un pansement stérile ou un linge propre — ne jamais appliquer de corps gras, crème, beurre ou dentifrice.",
+        "Protéger la zone brûlée avec un pansement stérile ou un linge propre. Ne jamais appliquer de corps gras, crème, beurre ou dentifrice.",
         "Ne jamais percer les phlyctènes : elles constituent une barrière naturelle contre l\'infection.",
         "Couvrir la victime pour prévenir l\'hypothermie, qui survient rapidement dès que la surface brûlée dépasse quelques pour cent de la surface corporelle.",
       ]},
       { type: "h2", text: "Quand appeler le 15 ou le 18 ?" },
-      { type: "p", text: "Composez le 15 (SAMU) ou le 18 (sapeurs-pompiers) dès que la brûlure présente l\'une des caractéristiques suivantes : surface supérieure à la paume de la main de la victime, localisation au visage, aux mains, aux pieds, aux articulations ou aux voies respiratoires, brûlure du troisième degré quelle que soit la surface, victime enfant ou personne âgée, ou encore cause électrique ou chimique. En cas de doute, appelez systématiquement — il vaut mieux une alerte inutile qu\'une prise en charge tardive." },
+      { type: "p", text: "Composez le 15 (SAMU) ou le 18 (sapeurs-pompiers) dès que la brûlure présente l\'une des caractéristiques suivantes : surface supérieure à la paume de la main de la victime, localisation au visage, aux mains, aux pieds, aux articulations ou aux voies respiratoires, brûlure du troisième degré quelle que soit la surface, victime enfant ou personne âgée, ou encore cause électrique ou chimique. En cas de doute, appelez systématiquement : il vaut mieux une alerte inutile qu\'une prise en charge tardive." },
       { type: "h2", text: "Brûlures chimiques et électriques : deux cas particuliers" },
       { type: "p", text: "Une brûlure chimique (acide, base, solvant) impose un rinçage abondant à l\'eau courante pendant au moins 15 à 30 minutes, avant tout autre geste. Retirez rapidement les vêtements contaminés en vous protégeant avec des gants. Consultez la fiche de données de sécurité (FDS) du produit impliqué pour identifier si un traitement spécifique est indiqué, et transmettez cette information aux secours dès le premier appel." },
-      { type: "p", text: "Une brûlure électrique présente un double risque : la lésion cutanée visible au point d\'entrée et au point de sortie du courant, et une atteinte cardiaque pouvant survenir plusieurs heures après le choc — arythmie, fibrillation ventriculaire. Toute victime d\'un contact électrique, même apparemment indemne, doit bénéficier d\'une surveillance médicale dans les heures suivant l\'accident." },
+      { type: "p", text: "Une brûlure électrique présente un double risque : la lésion cutanée visible au point d\'entrée et au point de sortie du courant, et une atteinte cardiaque pouvant survenir plusieurs heures après le choc (arythmie, fibrillation ventriculaire). Toute victime d\'un contact électrique, même apparemment indemne, doit bénéficier d\'une surveillance médicale dans les heures suivant l\'accident." },
       { type: "quote", text: "La brûlure est l\'une des rares lésions où le premier secours, correctement appliqué dans les premières minutes, change véritablement le pronostic. Refroidir tôt, protéger et alerter : ces trois gestes font la différence entre une cicatrisation sans séquelles et des lésions irréversibles." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. Les formations SST dispensées dans le cadre du référentiel national INRS intègrent les recommandations actualisées sur la prise en charge des brûlures thermiques, chimiques et électriques." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
@@ -4102,24 +4102,24 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'accident vasculaire cérébral est une urgence médicale absolue. À la différence d\'autres urgences, ses signes sont souvent méconnus : la victime et les témoins attendent parfois une amélioration spontanée qui ne viendra pas, perdant des minutes décisives. Pour un Sauveteur Secouriste du Travail, reconnaître les signaux et alerter le 15 sans délai est l\'acte qui peut limiter de façon significative les séquelles." },
       { type: "h2", text: "La méthode VITE : quatre signes pour ne rien oublier" },
       { type: "ul", items: [
-        "V comme Visage — bouche ou œil dévié, visage asymétrique. Demandez à la personne de sourire : si un côté reste immobile ou s\'affaisse, c\'est un signe d\'alerte.",
-        "I comme Incapacité — faiblesse ou engourdissement soudain d\'un bras ou d\'une jambe. Demandez-lui de lever les deux bras devant elle : si l\'un retombe, alertez immédiatement.",
-        "T comme Trouble de la parole — difficulté à parler ou à comprendre, mots incohérents, discours incompréhensible. Testez en lui demandant de répéter une phrase simple.",
-        "E comme Extrême urgence — appelez le 15 (SAMU) sans attendre. Ne raccompagnez pas la personne chez elle, ne lui demandez pas de se reposer. Déclenchez les secours immédiatement.",
+        "V comme Visage : bouche ou œil dévié, visage asymétrique. Demandez à la personne de sourire : si un côté reste immobile ou s\'affaisse, c\'est un signe d\'alerte.",
+        "I comme Incapacité : faiblesse ou engourdissement soudain d\'un bras ou d\'une jambe. Demandez-lui de lever les deux bras devant elle : si l\'un retombe, alertez immédiatement.",
+        "T comme Trouble de la parole : difficulté à parler ou à comprendre, mots incohérents, discours incompréhensible. Testez en lui demandant de répéter une phrase simple.",
+        "E comme Extrême urgence : appelez le 15 (SAMU) sans attendre. Ne raccompagnez pas la personne chez elle, ne lui demandez pas de se reposer. Déclenchez les secours immédiatement.",
       ]},
       { type: "h2", text: "Ce qu\'il faut faire en attendant les secours" },
-      { type: "p", text: "Installez la victime dans la position la plus confortable possible — allongée ou demi-assise selon ce qu\'elle supporte — sans lui demander d\'effort physique. Ne lui donnez rien à boire ni à manger : la déglutition peut être compromise et entraîner une fausse route. Si la victime perd conscience mais respire normalement, placez-la en position latérale de sécurité (PLS) et restez à ses côtés jusqu\'à l\'arrivée des secours." },
+      { type: "p", text: "Installez la victime dans la position la plus confortable possible (allongée ou demi-assise selon ce qu\'elle supporte), sans lui demander d\'effort physique. Ne lui donnez rien à boire ni à manger : la déglutition peut être compromise et entraîner une fausse route. Si la victime perd conscience mais respire normalement, placez-la en position latérale de sécurité (PLS) et restez à ses côtés jusqu\'à l\'arrivée des secours." },
       { type: "ul", items: [
-        "Notez précisément l\'heure d\'apparition des premiers signes — le SAMU en a besoin pour évaluer la fenêtre thérapeutique et choisir le traitement.",
+        "Notez précisément l\'heure d\'apparition des premiers signes : le SAMU en a besoin pour évaluer la fenêtre thérapeutique et choisir le traitement.",
         "Rassurez la victime à voix calme et limitez les déplacements inutiles.",
         "Ne proposez jamais d\'aspirine ni aucun médicament : dans un AVC hémorragique, un antiagrégant ou un anticoagulant aggraverait le saignement.",
         "Si la victime est inconsciente et ne respire plus normalement, débutez immédiatement une réanimation cardiopulmonaire (RCP).",
       ]},
       { type: "h2", text: "Les formes trompeuses : signes atypiques à ne pas ignorer" },
-      { type: "p", text: "Certains AVC se manifestent par des signes inhabituels qui peuvent égarer les témoins : troubles soudains de la vision, vertiges intenses avec perte d\'équilibre, ou céphalée brutale et inhabituelle décrite comme le pire mal de tête de la vie. Ces signes isolés méritent la même réponse que les signes VITE classiques : appel immédiat au 15. L\'accident ischémique transitoire (AIT), dont les symptômes régressent en quelques minutes, doit également conduire à une consultation d\'urgence sans délai — il précède souvent un AVC constitué." },
+      { type: "p", text: "Certains AVC se manifestent par des signes inhabituels qui peuvent égarer les témoins : troubles soudains de la vision, vertiges intenses avec perte d\'équilibre, ou céphalée brutale et inhabituelle décrite comme le pire mal de tête de la vie. Ces signes isolés méritent la même réponse que les signes VITE classiques : appel immédiat au 15. L\'accident ischémique transitoire (AIT), dont les symptômes régressent en quelques minutes, doit également conduire à une consultation d\'urgence sans délai : il précède souvent un AVC constitué." },
       { type: "h2", text: "L\'AVC dans le contexte professionnel" },
-      { type: "p", text: "Le stress professionnel intense, les horaires décalés et une hypertension non dépistée sont des facteurs favorisant les accidents cardiovasculaires, dont l\'AVC ischémique. Les travailleurs exposés à une forte tension — délais serrés, faible latitude décisionnelle, travail de nuit — présentent un profil de risque particulier. Le médecin du travail joue un rôle clé dans la détection précoce de ces facteurs lors du suivi individuel de l\'état de santé des salariés." },
-      { type: "quote", text: "Le principal ennemi de l\'AVC n\'est pas le diagnostic médical — c\'est l\'hésitation. Un témoin qui attend trente minutes pour voir si ça passe retire à la victime la chance d\'un traitement dans la fenêtre thérapeutique." },
+      { type: "p", text: "Le stress professionnel intense, les horaires décalés et une hypertension non dépistée sont des facteurs favorisant les accidents cardiovasculaires, dont l\'AVC ischémique. Les travailleurs exposés à une forte tension (délais serrés, faible latitude décisionnelle, travail de nuit) présentent un profil de risque particulier. Le médecin du travail joue un rôle clé dans la détection précoce de ces facteurs lors du suivi individuel de l\'état de santé des salariés." },
+      { type: "quote", text: "Le principal ennemi de l\'AVC n\'est pas le diagnostic médical, c\'est l\'hésitation. Un témoin qui attend trente minutes pour voir si ça passe retire à la victime la chance d\'un traitement dans la fenêtre thérapeutique." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La formation Sauveteur Secouriste du Travail, dispensée dans le cadre du référentiel national INRS, intègre la conduite à tenir face aux urgences médicales, dont l\'accident vasculaire cérébral." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
@@ -4155,7 +4155,7 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En cas d\'accident, l\'employeur doit pouvoir démontrer qu\'il a dispensé la formation. La formalisation est indispensable : une fiche d\'accueil sécurité datée et signée par le salarié et son responsable, conservée dans le dossier individuel, constitue la pièce justificative de référence. Cette fiche doit mentionner les risques couverts, les consignes remises et les EPI fournis." },
       { type: "h2", text: "Qui assure concrètement cet accueil ?" },
       { type: "p", text: "L\'employeur est le débiteur légal de cette obligation. Il peut la déléguer à un manager de proximité, un responsable sécurité ou un formateur interne, mais la responsabilité reste entière. Les Sauveteurs Secouristes du Travail de l\'équipe peuvent être associés à la présentation des consignes de premiers secours. L\'accueil doit idéalement avoir lieu avant la première prise de poste réelle, ou au plus tard lors de la première journée." },
-      { type: "quote", text: "L\'accueil sécurité n\'est pas une formalité administrative : c\'est le premier maillon de la chaîne de prévention. Un salarié qui comprend pourquoi une consigne existe l\'applique — celui à qui on la lit sans explication l\'oubliera dès la deuxième heure." },
+      { type: "quote", text: "L\'accueil sécurité n\'est pas une formalité administrative : c\'est le premier maillon de la chaîne de prévention. Un salarié qui comprend pourquoi une consigne existe l\'applique. Celui à qui on la lit sans explication l\'oubliera dès la deuxième heure." },
       { type: "p", text: "Référence officielle : article L.4141-1 du Code du travail, relatif à l\'obligation de formation pratique à la sécurité pour tout travailleur nouvellement embauché, changeant de poste ou reprenant après absence." },
       { type: "cta", text: "Pour structurer votre démarche de prévention et former vos encadrants à l\'accueil sécurité,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
     ],
@@ -4169,7 +4169,7 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/registre-accidents-benins-conditions-autorisation-bonne-tenue.jpg",
     content: [
-      { type: "p", text: "L\'accident du travail bénin est une blessure légère survenant dans le cadre professionnel — coupure superficielle, petite brûlure, hématome — qui ne nécessite ni arrêt de travail ni soins médicaux remboursables. Plutôt que de déclarer chaque incident à l\'Assurance maladie par la voie standard, certains employeurs peuvent utiliser un registre spécial, sous conditions strictes. Ce dispositif allège la gestion administrative tout en maintenant la traçabilité exigée par la réglementation." },
+      { type: "p", text: "L\'accident du travail bénin est une blessure légère survenant dans le cadre professionnel (coupure superficielle, petite brûlure, hématome) qui ne nécessite ni arrêt de travail ni soins médicaux remboursables. Plutôt que de déclarer chaque incident à l\'Assurance maladie par la voie standard, certains employeurs peuvent utiliser un registre spécial, sous conditions strictes. Ce dispositif allège la gestion administrative tout en maintenant la traçabilité exigée par la réglementation." },
       { type: "h2", text: "Qu\'est-ce qu\'un accident bénin au sens de la réglementation ?" },
       { type: "p", text: "Un accident bénin est un accident du travail ou de trajet qui ne donne lieu ni à un arrêt de travail, ni à des soins dispensés par du personnel médical extérieur à l\'entreprise. Le salarié reçoit les premiers soins sur place, reprend son poste le jour même et aucune incapacité n\'est constatée. Ce cadre exclut les maladies professionnelles, qui suivent un circuit de déclaration distinct." },
       { type: "h2", text: "Les conditions légales pour ouvrir un registre spécial" },
@@ -4211,14 +4211,14 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les articles R.4224-20 à R.4224-26 du Code du travail imposent à l\'employeur de mettre en place une signalisation adéquate partout où subsiste un risque qui ne peut être évité ou réduit par des mesures de prévention technique. Cette obligation s\'applique aux zones de danger, aux voies d\'évacuation, aux équipements de secours et aux équipements de lutte contre l\'incendie. Elle découle de la directive européenne 92/58/CEE du 24 juin 1992, qui a harmonisé les règles de signalisation de sécurité au travail dans toute l\'Union européenne." },
       { type: "h2", text: "Les cinq familles de panneaux et leurs codes couleur" },
       { type: "ul", items: [
-        "Interdiction (fond blanc, bord et barre rouge, pictogramme noir) : désigne une action interdite — fumer, utiliser un téléphone, introduire une flamme nue. À placer à l\'entrée des zones concernées.",
-        "Avertissement (fond jaune, bord et pictogramme noirs) : signale un danger ou un risque — haute tension, sol glissant, chariots élévateurs. À hauteur des yeux, à proximité immédiate du danger.",
-        "Obligation (fond bleu, pictogramme blanc) : indique une protection individuelle requise — port du casque, du gilet, des lunettes ou des gants. À l\'entrée de la zone où l\'EPI est obligatoire.",
+        "Interdiction (fond blanc, bord et barre rouge, pictogramme noir) : désigne une action interdite (fumer, utiliser un téléphone, introduire une flamme nue). À placer à l\'entrée des zones concernées.",
+        "Avertissement (fond jaune, bord et pictogramme noirs) : signale un danger ou un risque (haute tension, sol glissant, chariots élévateurs). À hauteur des yeux, à proximité immédiate du danger.",
+        "Obligation (fond bleu, pictogramme blanc) : indique une protection individuelle requise (port du casque, du gilet, des lunettes ou des gants). À l\'entrée de la zone où l\'EPI est obligatoire.",
         "Secours et sauvetage (fond vert, pictogramme blanc) : matérialise les issues de secours, les dégagements, le matériel de premiers secours et les douches de sécurité. Doit rester visible même en cas de défaillance de l\'éclairage normal.",
         "Lutte contre l\'incendie (fond rouge, pictogramme blanc) : identifie les extincteurs, les robinets d\'incendie armés (RIA), les coupures de fluides. Doit rester dégagé et accessible en permanence.",
       ]},
       { type: "h2", text: "La norme NF EN ISO 7010 : un pictogramme universel" },
-      { type: "p", text: "La norme NF EN ISO 7010 standardise les pictogrammes de sécurité utilisés dans les entreprises, les bâtiments publics et les transports dans le monde entier. Elle garantit que le message est compris indépendamment de la langue du lecteur, ce qui est particulièrement important dans les établissements où travaillent des salariés étrangers ou des prestataires extérieurs. Toute signalétique achetée auprès d\'un fournisseur sérieux doit être conforme à cette norme — un pictogramme non normalisé peut être contesté lors d\'une inspection." },
+      { type: "p", text: "La norme NF EN ISO 7010 standardise les pictogrammes de sécurité utilisés dans les entreprises, les bâtiments publics et les transports dans le monde entier. Elle garantit que le message est compris indépendamment de la langue du lecteur, ce qui est particulièrement important dans les établissements où travaillent des salariés étrangers ou des prestataires extérieurs. Toute signalétique achetée auprès d\'un fournisseur sérieux doit être conforme à cette norme : un pictogramme non normalisé peut être contesté lors d\'une inspection." },
       { type: "h2", text: "Où et comment positionner les panneaux" },
       { type: "ul", items: [
         "Hauteur de pose : entre 1,50 m et 1,80 m du sol pour les panneaux d\'avertissement et d\'interdiction, de façon à se trouver dans le champ visuel naturel d\'un adulte debout.",
@@ -4229,7 +4229,7 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "h2", text: "Les oublis les plus fréquents lors des inspections" },
       { type: "p", text: "L\'Inspection du travail relève régulièrement les mêmes manquements : panneaux décolorés ou illisibles jamais remplacés, signalisation de secours obstruée par du stockage temporaire devenu permanent, nouvelles zones de danger créées lors d\'un aménagement sans mise à jour de la signalétique. La réglementation impose une vérification périodique de l\'état des panneaux, à intégrer dans le plan de maintenance de l\'établissement. Chaque modification de l\'aménagement ou des procédés doit déclencher une revue de la signalétique concernée, en cohérence avec la mise à jour du Document Unique d\'Évaluation des Risques Professionnels (DUERP)." },
-      { type: "quote", text: "Un panneau illisible n\'est pas un panneau — c\'est un faux sentiment de conformité. La signalétique que personne ne voit, ou que tout le monde a appris à ignorer, ne protège plus personne." },
+      { type: "quote", text: "Un panneau illisible n\'est pas un panneau : c\'est un faux sentiment de conformité. La signalétique que personne ne voit, ou que tout le monde a appris à ignorer, ne protège plus personne." },
       { type: "p", text: "Référence officielle : articles R.4224-20 à R.4224-26 du Code du travail, relatifs à l\'obligation de signalisation de sécurité en entreprise, transposant la directive 92/58/CEE du Conseil du 24 juin 1992 concernant les prescriptions minimales pour la signalisation de sécurité et de santé au travail. La norme NF EN ISO 7010 fixe les pictogrammes graphiques de sécurité applicables à l\'ensemble des secteurs d\'activité." },
       { type: "cta", text: "Pour renforcer la culture sécurité de vos équipes et structurer votre démarche de prévention,", label: "contactez notre équipe via notre page dédiée", href: "/contact" },
     ],
@@ -4243,12 +4243,12 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/coup-de-chaleur-au-travail-prevention-conduite-a-tenir.jpg",
     content: [
-      { type: "p", text: "Par forte chaleur, le corps peut dépasser sa capacité à réguler sa température. Cette défaillance — appelée hyperthermie maligne ou coup de chaleur d\'effort — constitue une urgence vitale. Contrairement à une insolation ou à un épuisement thermique, elle ne se résout pas spontanément : sans intervention immédiate, elle peut engager le pronostic vital en quelques dizaines de minutes. Un Sauveteur Secouriste du Travail formé à en reconnaître les signes peut changer radicalement le pronostic." },
+      { type: "p", text: "Par forte chaleur, le corps peut dépasser sa capacité à réguler sa température. Cette défaillance, appelée hyperthermie maligne ou coup de chaleur d\'effort, constitue une urgence vitale. Contrairement à une insolation ou à un épuisement thermique, elle ne se résout pas spontanément : sans intervention immédiate, elle peut engager le pronostic vital en quelques dizaines de minutes. Un Sauveteur Secouriste du Travail formé à en reconnaître les signes peut changer radicalement le pronostic." },
       { type: "h2", text: "Coup de chaleur, épuisement thermique et insolation : savoir les distinguer" },
-      { type: "p", text: "Trois tableaux cliniques se présentent lors d\'une exposition à la chaleur, du moins grave au plus grave. L\'insolation se manifeste par des maux de tête, des vertiges et une grande fatigue après une exposition solaire directe — la température reste normale et le repos à l\'ombre suffit. L\'épuisement thermique se traduit par une transpiration abondante, une pâleur et une faiblesse musculaire intense, avec une légère élévation de température — hydratation et repos permettent une récupération. Le coup de chaleur est une urgence absolue : la température corporelle dépasse 40 °C, des signes neurologiques apparaissent (confusion, agitation, perte de connaissance) et le mécanisme de thermorégulation est dépassé." },
+      { type: "p", text: "Trois tableaux cliniques se présentent lors d\'une exposition à la chaleur, du moins grave au plus grave. L\'insolation se manifeste par des maux de tête, des vertiges et une grande fatigue après une exposition solaire directe : la température reste normale et le repos à l\'ombre suffit. L\'épuisement thermique se traduit par une transpiration abondante, une pâleur et une faiblesse musculaire intense, avec une légère élévation de température : hydratation et repos permettent une récupération. Le coup de chaleur est une urgence absolue : la température corporelle dépasse 40 °C, des signes neurologiques apparaissent (confusion, agitation, perte de connaissance) et le mécanisme de thermorégulation est dépassé." },
       { type: "h2", text: "Les signes qui imposent d\'appeler immédiatement le 15" },
       { type: "ul", items: [
-        "Température corporelle très élevée, supérieure à 40 °C si mesurée — la peau est brûlante.",
+        "Température corporelle très élevée, supérieure à 40 °C si mesurée : la peau est brûlante.",
         "Confusion mentale, propos incohérents, agitation ou au contraire grande somnolence : tout signe neurologique est un signal d\'alarme majeur.",
         "Peau rouge et sèche (forme classique, par exemple chez une personne exposée à la canicule sans effort physique) ou au contraire très moite (coup de chaleur d\'effort chez un travailleur physique).",
         "Maux de tête intenses, nausées, vomissements.",
@@ -4256,7 +4256,7 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "h2", text: "Conduite à tenir : refroidir et alerter sans délai" },
       { type: "ul", items: [
-        "Appeler immédiatement le 15 (SAMU) — ne pas attendre pour voir si la situation s\'améliore seule.",
+        "Appeler immédiatement le 15 (SAMU) : ne pas attendre pour voir si la situation s\'améliore seule.",
         "Mettre la victime à l\'abri de la chaleur : ombre, local climatisé ou ventilé.",
         "Déshabiller la victime et refroidir activement : linges humides froids sur le cou, les aisselles et les plis de l\'aine, là où les vaisseaux sanguins sont superficiels et l\'échange thermique maximal.",
         "Ventiler si possible (ventilateur, courant d\'air) pour accélérer l\'évaporation cutanée.",
@@ -4264,7 +4264,7 @@ export const articles: Record<string, Article> = {
         "Si la victime perd conscience et ne respire plus normalement : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
       ]},
       { type: "h2", text: "Salariés les plus exposés en entreprise" },
-      { type: "p", text: "Certains postes et profils concentrent le risque. Les travailleurs en extérieur — BTP, agriculture, voirie — sont exposés au rayonnement solaire direct et aux températures ambiantes élevées. Les salariés affectés à des postes proches de sources de chaleur artificielle (fonderies, cuisines professionnelles, blanchisseries) peuvent être exposés toute l\'année. Le port d\'équipements de protection individuelle couvrants (combinaisons, tabliers, casques) réduit la capacité d\'évaporation sudorale et aggrave le risque. Certains traitements médicaux — diurétiques, antihypertenseurs, psychotropes — diminuent la tolérance à la chaleur et doivent être signalés au médecin du travail lors du suivi individuel de l\'état de santé." },
+      { type: "p", text: "Certains postes et profils concentrent le risque. Les travailleurs en extérieur (BTP, agriculture, voirie) sont exposés au rayonnement solaire direct et aux températures ambiantes élevées. Les salariés affectés à des postes proches de sources de chaleur artificielle (fonderies, cuisines professionnelles, blanchisseries) peuvent être exposés toute l\'année. Le port d\'équipements de protection individuelle couvrants (combinaisons, tabliers, casques) réduit la capacité d\'évaporation sudorale et aggrave le risque. Certains traitements médicaux (diurétiques, antihypertenseurs, psychotropes) diminuent la tolérance à la chaleur et doivent être signalés au médecin du travail lors du suivi individuel de l\'état de santé." },
       { type: "h2", text: "Obligations de l\'employeur lors des épisodes de chaleur intense" },
       { type: "ul", items: [
         "Mettre à disposition de l\'eau fraîche potable en quantité suffisante et librement accessible à tous les postes de travail (article R.4225-1 du Code du travail).",
@@ -4287,7 +4287,7 @@ export const articles: Record<string, Article> = {
     readingTime: 4,
     image: "/formations/formation-incendie-en-etablissement-recevant-du-public.jpg",
     content: [
-      { type: "p", text: "L\'arrêté du 1er décembre 2025 (NOR : INTE2529354A) modifie le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public. Publié pour une entrée en vigueur générale au 1er janvier 2026, il prévoit une seconde échéance au 1er juillet 2026 pour les dispositions relatives à la vérification des installations de gaz — un délai désormais très proche pour les gestionnaires d\'ERP concernés." },
+      { type: "p", text: "L\'arrêté du 1er décembre 2025 (NOR : INTE2529354A) modifie le règlement de sécurité contre les risques d\'incendie dans les établissements recevant du public. Publié pour une entrée en vigueur générale au 1er janvier 2026, il prévoit une seconde échéance au 1er juillet 2026 pour les dispositions relatives à la vérification des installations de gaz, un délai désormais très proche pour les gestionnaires d\'ERP concernés." },
       { type: "h2", text: "Ce que change le texte" },
       { type: "p", text: "L\'arrêté modifie plusieurs articles du livre PE du règlement de sécurité ERP (arrêté du 25 juin 1980). L\'article PE 4 instaure un contrôle technique périodique des installations électriques et de gaz tous les trois ans. L\'article PE 10 est restructuré : toute installation de gaz neuve ou modifiée doit faire l\'objet d\'une vérification par un organisme habilité à la réception des travaux. L\'article PE 21 précise les conditions d\'installation des appareils alimentés au gaz dans les établissements de 5e catégorie." },
       { type: "h2", text: "Qui est concerné ?" },
@@ -4299,7 +4299,7 @@ export const articles: Record<string, Article> = {
         "Organismes de contrôle habilités intervenants sur les réseaux de gaz en ERP",
       ]},
       { type: "h2", text: "Impact sur les formations" },
-      { type: "p", text: "Ces nouvelles exigences renforcent le contenu attendu des formations incendie ERP. Les personnels de sécurité incendie — équipiers de première intervention, chargés d\'évacuation, exploitants d\'un système de sécurité incendie — doivent connaître les obligations de vérification des installations techniques de leur établissement, et notamment la distinction entre installations électriques et installations de gaz. Cette connaissance conditionne la capacité à signaler une anomalie et à sécuriser les intervenants lors d\'un sinistre." },
+      { type: "p", text: "Ces nouvelles exigences renforcent le contenu attendu des formations incendie ERP. Les personnels de sécurité incendie (équipiers de première intervention, chargés d\'évacuation, exploitants d\'un système de sécurité incendie) doivent connaître les obligations de vérification des installations techniques de leur établissement, et notamment la distinction entre installations électriques et installations de gaz. Cette connaissance conditionne la capacité à signaler une anomalie et à sécuriser les intervenants lors d\'un sinistre." },
       { type: "ul", items: [
         "Formations incendie ERP (tous types) : intégration des obligations PE 4 et PE 10 dans la connaissance du cadre réglementaire de l\'établissement",
         "Formation SSI : articulation entre détection automatique incendie et gestion des risques liés aux installations de gaz",
@@ -4318,12 +4318,12 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/hypoglycemie-au-travail-signes-conduite-a-tenir-sst.jpg",
     content: [
-      { type: "p", text: "Par définition, une hypoglycémie survient lorsque la concentration de glucose dans le sang descend en dessous d\'un seuil critique, habituellement fixé à 0,70 g/L. En milieu professionnel, elle peut frapper à tout moment, y compris chez des salariés sans antécédents médicaux connus. Un Sauveteur Secouriste du Travail capable d\'identifier les signes précoces et d\'agir sans attendre peut éviter une perte de connaissance — et les risques que cela représente sur le poste de travail." },
+      { type: "p", text: "Par définition, une hypoglycémie survient lorsque la concentration de glucose dans le sang descend en dessous d\'un seuil critique, habituellement fixé à 0,70 g/L. En milieu professionnel, elle peut frapper à tout moment, y compris chez des salariés sans antécédents médicaux connus. Un Sauveteur Secouriste du Travail capable d\'identifier les signes précoces et d\'agir sans attendre peut éviter une perte de connaissance et les risques que cela représente sur le poste de travail." },
       { type: "h2", text: "Qu\'est-ce qu\'une hypoglycémie ?" },
       { type: "p", text: "Le glucose est le carburant principal du cerveau et des muscles. Quand son taux sanguin chute, l\'organisme envoie des signaux d\'alarme progressifs. Dans la grande majorité des cas, les crises surviennent chez des salariés diabétiques traités par insuline ou par antidiabétiques oraux, notamment si un repas a été sauté ou qu\'un effort physique inhabituel a été fourni. Elles peuvent aussi toucher des personnes en jeûne prolongé, en situation de stress intense ou exposées à des conditions thermiques extrêmes. La rapidité de la prise en charge conditionne directement la gravité de l\'épisode." },
       { type: "h2", text: "Les signes qui doivent alerter le SST" },
       { type: "ul", items: [
-        "Tremblements des mains ou du corps — souvent le premier signe perceptible.",
+        "Tremblements des mains ou du corps : souvent le premier signe perceptible.",
         "Sueurs froides, pâleur soudaine, sensation de faiblesse générale.",
         "Faim intense et soudaine, parfois accompagnée de nausées.",
         "Palpitations cardiaques, sensation de cœur qui s\'emballe.",
@@ -4351,7 +4351,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Salariés particulièrement exposés au travail" },
       { type: "p", text: "Certains profils concentrent le risque. Les salariés diabétiques traités par insuline ou par sulfamides hypoglycémiants sont les plus concernés, a fortiori si leurs horaires décalés ou les repas sautés perturbent l\'équilibre de leur traitement. Les travailleurs physiques soumis à un effort prolongé sans prise alimentaire suffisante peuvent également présenter une hypoglycémie réactionnelle. Les salariés en jeûne prolongé exposés à des conditions climatiques difficiles voient leur risque augmenter. La médecine du travail joue un rôle clé dans l\'identification de ces profils lors du suivi individuel de l\'état de santé." },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à tout employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Pour les salariés exposés à un risque hypoglycémique identifié, cela implique d\'informer les équipes de premiers secours, de prévoir un stock de sucres rapides accessibles sur le poste, et de s\'assurer que la liste nominative des SST est tenue à jour. Le protocole de prise en charge doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP) pour les postes concernés. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité, et article R.4224-16, relatif au matériel de premiers secours adapté aux risques de l\'entreprise." },
-      { type: "quote", text: "Donner du sucre à une victime consciente qui tremble : c\'est peut-être le geste de premiers secours le plus simple qui soit. C\'est aussi celui qu\'on hésite le plus à faire, faute de l\'avoir reconnu pour ce qu\'il est — une urgence médicale qui n\'attend pas." },
+      { type: "quote", text: "Donner du sucre à une victime consciente qui tremble : c\'est peut-être le geste de premiers secours le plus simple qui soit. C\'est aussi celui qu\'on hésite le plus à faire, faute de l\'avoir reconnu pour ce qu\'il est : une urgence médicale qui n\'attend pas." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
@@ -4366,10 +4366,10 @@ export const articles: Record<string, Article> = {
     content: [
       { type: "p", text: "L\'asthme touche une partie non négligeable de la population active. Dans l\'entreprise, les crises peuvent survenir sans signe annonciateur et évoluer rapidement vers une détresse respiratoire sévère. Un Sauveteur Secouriste du Travail capable d\'identifier les signes d\'une crise et de savoir quand appeler le 15 peut changer radicalement l\'issue d\'une situation qui se dégrade vite." },
       { type: "h2", text: "Asthme de fond et asthme professionnel : deux réalités au même poste" },
-      { type: "p", text: "L\'asthme est une maladie chronique des bronches caractérisée par une inflammation et une hypersensibilité des voies aériennes. Les crises surviennent lors d\'une exposition à un déclencheur : poussières, produits chimiques, variations thermiques, effort physique intense ou stress. L\'asthme professionnel désigne les formes dont l\'origine ou l\'aggravation est directement liée au poste de travail — expositions aux isocyanates, à la farine, aux poussières de bois ou aux agents nettoyants. Ces formes sont reconnues au titre des maladies professionnelles dans le régime général de la Sécurité sociale. L\'employeur doit évaluer les expositions concernées dans le cadre du Document Unique d\'Évaluation des Risques Professionnels (DUERP)." },
+      { type: "p", text: "L\'asthme est une maladie chronique des bronches caractérisée par une inflammation et une hypersensibilité des voies aériennes. Les crises surviennent lors d\'une exposition à un déclencheur : poussières, produits chimiques, variations thermiques, effort physique intense ou stress. L\'asthme professionnel désigne les formes dont l\'origine ou l\'aggravation est directement liée au poste de travail : expositions aux isocyanates, à la farine, aux poussières de bois ou aux agents nettoyants. Ces formes sont reconnues au titre des maladies professionnelles dans le régime général de la Sécurité sociale. L\'employeur doit évaluer les expositions concernées dans le cadre du Document Unique d\'Évaluation des Risques Professionnels (DUERP)." },
       { type: "h2", text: "Reconnaître une crise d\'asthme : les signes que le SST doit identifier" },
       { type: "ul", items: [
-        "Sifflement expiratoire audible, parfois perceptible à distance — la respiration est plus difficile à l\'expiration qu\'à l\'inspiration.",
+        "Sifflement expiratoire audible, parfois perceptible à distance : la respiration est plus difficile à l\'expiration qu\'à l\'inspiration.",
         "Oppression thoracique et difficulté à expirer : la personne inspire relativement bien mais peine à vider ses poumons.",
         "Toux sèche persistante, parfois déclenchée par l\'effort, un changement d\'air ou une émotion.",
         "Essoufflement disproportionné par rapport à l\'activité en cours.",
@@ -4377,16 +4377,16 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "h2", text: "Conduite à tenir lors d\'une crise d\'asthme" },
       { type: "ul", items: [
-        "Faire asseoir la victime en position demi-assise, jambes pendantes — la position allongée aggrave la gêne respiratoire.",
+        "Faire asseoir la victime en position demi-assise, jambes pendantes : la position allongée aggrave la gêne respiratoire.",
         "L\'éloigner immédiatement de la source déclencheuse si l\'environnement est en cause (produit chimique, poussière, atmosphère confinée).",
-        "L\'aider à prendre son traitement de secours si elle en dispose — un inhalateur bronchodilatateur prescrit par son médecin. Ne jamais administrer un médicament qui n\'est pas le sien.",
+        "L\'aider à prendre son traitement de secours si elle en dispose (un inhalateur bronchodilatateur prescrit par son médecin). Ne jamais administrer un médicament qui n\'est pas le sien.",
         "Desserrer les vêtements serrés autour du cou et de la poitrine.",
         "Rester auprès d\'elle et la rassurer calmement : l\'anxiété aggrave le bronchospasme.",
         "Surveiller l\'évolution : si les symptômes ne s\'améliorent pas dans les 5 à 10 minutes après la prise du traitement, appeler le 15 immédiatement.",
       ]},
       { type: "h3", text: "Signes de gravité : appeler le 15 sans délai" },
       { type: "ul", items: [
-        "Incapacité à parler ou à finir ses phrases — signe d\'un bronchospasme sévère.",
+        "Incapacité à parler ou à finir ses phrases : signe d\'un bronchospasme sévère.",
         "Cyanose : coloration bleutée des lèvres ou du bout des doigts, indiquant un manque d\'oxygénation.",
         "Utilisation des muscles du cou et des épaules pour respirer : signe d\'un effort respiratoire extrême.",
         "Épuisement, somnolence ou confusion : le salarié n\'a plus la force de compenser.",
@@ -4395,7 +4395,7 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "h2", text: "Obligations de l\'employeur face au risque asthmatique" },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé des salariés. Pour les postes exposant à des substances susceptibles de déclencher ou d\'aggraver un asthme, cela implique d\'identifier les agents en cause, de prévoir des mesures de substitution ou de réduction des expositions, et de s\'assurer que les Sauveteurs Secouristes du Travail sont formés et identifiables sur le site. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement." },
-      { type: "quote", text: "Face à une crise d\'asthme, le premier réflexe du SST n\'est pas de courir chercher quelque chose — c\'est de rester calme auprès du salarié, de l\'aider à s\'asseoir et d\'observer si la situation se stabilise ou se détériore. Cinq minutes d\'attention peuvent suffire à décider s\'il faut appeler le 15." },
+      { type: "quote", text: "Face à une crise d\'asthme, le premier réflexe du SST n\'est pas de courir chercher quelque chose : c\'est de rester calme auprès du salarié, de l\'aider à s\'asseoir et d\'observer si la situation se stabilise ou se détériore. Cinq minutes d\'attention peuvent suffire à décider s\'il faut appeler le 15." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences respiratoires et des malaises en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
@@ -4433,8 +4433,8 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Phase post-ictale : observation et décision d\'appel du 15" },
       { type: "p", text: "Après les convulsions, la victime entre dans une période de récupération de durée variable. Elle peut être confuse, agressive ou somnolente : cette désorientation est normale et ne doit pas alarmer le SST. La surveillance reste essentielle. Il faut appeler le 15 dans les situations suivantes : première crise sans antécédent épileptique connu, crise durant plus de cinq minutes, deuxième crise survenant sans reprise de conscience entre les deux (état de mal épileptique), traumatisme survenu lors de la chute, difficultés respiratoires persistantes après la crise, ou absence de retour à l\'état habituel dans un délai raisonnable. Pour un salarié dont l\'épilepsie est connue, un protocole individuel peut être établi avec le médecin du travail et mentionné dans le DUERP." },
       { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
-      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de mettre en œuvre les mesures de protection adaptées. Pour les postes sensibles — travail en hauteur, conduite d\'engins, opérations à proximité de machines en mouvement —, l\'aptitude médicale d\'un salarié épileptique relève du médecin du travail, qui peut préconiser des restrictions ou aménagements. Les Sauveteurs Secouristes du Travail doivent être présents en nombre suffisant sur le site et avoir suivi leur recyclage dans les délais requis. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement. Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
-      { type: "quote", text: "Face à une crise d\'épilepsie, le premier réflexe n\'est pas d\'intervenir sur la victime — c\'est de sécuriser ce qui l\'entoure, de noter l\'heure et d\'observer. Protéger sans contraindre : c\'est l\'essentiel de la conduite à tenir." },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de mettre en œuvre les mesures de protection adaptées. Pour les postes sensibles (travail en hauteur, conduite d\'engins, opérations à proximité de machines en mouvement), l\'aptitude médicale d\'un salarié épileptique relève du médecin du travail, qui peut préconiser des restrictions ou aménagements. Les Sauveteurs Secouristes du Travail doivent être présents en nombre suffisant sur le site et avoir suivi leur recyclage dans les délais requis. L\'article R.4224-16 précise que le matériel de premiers secours doit être adapté aux risques spécifiques de l\'établissement. Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur, et article R.4224-16 relatif au matériel de premiers secours devant être adapté aux risques spécifiques de l\'établissement." },
+      { type: "quote", text: "Face à une crise d\'épilepsie, le premier réflexe n\'est pas d\'intervenir sur la victime : c\'est de sécuriser ce qui l\'entoure, de noter l\'heure et d\'observer. Protéger sans contraindre : c\'est l\'essentiel de la conduite à tenir." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
@@ -4450,7 +4450,7 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le choc anaphylactique est la forme la plus sévère des réactions allergiques. Il peut se déclencher en quelques minutes après un contact avec un allergène et évoluer rapidement vers un état de détresse vitale. Dans l\'entreprise, les déclencheurs sont multiples : piqûre d\'insecte sur un chantier, contact avec du latex dans un atelier, aliment allergène dans une cuisine collective. Le Sauveteur Secouriste du Travail doit être capable de reconnaître les signes, d\'agir immédiatement et d\'accompagner les secours jusqu\'à leur arrivée." },
       { type: "h2", text: "Les déclencheurs les plus fréquents en milieu professionnel" },
       { type: "ul", items: [
-        "Piqûres d\'hyménoptères — guêpes, abeilles, frelons — fréquentes sur les chantiers extérieurs, dans les entrepôts et les espaces verts.",
+        "Piqûres d\'hyménoptères (guêpes, abeilles, frelons), fréquentes sur les chantiers extérieurs, dans les entrepôts et les espaces verts.",
         "Latex naturel : risque spécifique dans les secteurs médicaux, paramédicaux et certains ateliers industriels où des gants en latex sont utilisés.",
         "Aliments allergènes dans les métiers de la restauration et de la cuisine collective : arachides, fruits à coque, fruits de mer, lait, œufs.",
         "Produits antiseptiques ou médicaments utilisés dans les infirmeries d\'entreprise.",
@@ -4460,16 +4460,16 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les symptômes apparaissent généralement peu après l\'exposition à l\'allergène. Ils peuvent toucher plusieurs systèmes simultanément, ce qui distingue le choc anaphylactique d\'une simple réaction localisée. La combinaison et la rapidité d\'installation des signes sont les éléments qui doivent alerter le SST." },
       { type: "ul", items: [
         "Réaction cutanée généralisée : urticaire, rougeurs diffuses, démangeaisons intenses sur l\'ensemble du corps.",
-        "Gonflement du visage, des lèvres, de la langue ou du larynx (œdème de Quincke) — signe d\'alarme majeur signalant une atteinte des voies aériennes.",
+        "Gonflement du visage, des lèvres, de la langue ou du larynx (œdème de Quincke) : signe d\'alarme majeur signalant une atteinte des voies aériennes.",
         "Gêne respiratoire : oppression thoracique, sifflement à l\'expiration, difficulté à avaler ou à parler.",
         "Chute brutale de la tension artérielle : pouls faible et rapide, pâleur soudaine, sensation de faiblesse intense ou de malaise.",
-        "Nausées, vomissements ou douleurs abdominales — fréquents dans les réactions aux aliments.",
+        "Nausées, vomissements ou douleurs abdominales : fréquents dans les réactions aux aliments.",
         "Perte de connaissance dans les formes graves, pouvant évoluer vers un arrêt cardiaque sans traitement rapide.",
       ]},
       { type: "h2", text: "Conduite à tenir du SST face à un choc anaphylactique" },
       { type: "ul", items: [
-        "Appeler le 15 (SAMU) immédiatement — c\'est la priorité absolue, même si les symptômes semblent encore modérés.",
-        "Allonger la victime sur le dos, jambes légèrement surélevées si elle ne présente pas de gêne respiratoire — cette position soutient le retour veineux en cas de chute de pression.",
+        "Appeler le 15 (SAMU) immédiatement : c\'est la priorité absolue, même si les symptômes semblent encore modérés.",
+        "Allonger la victime sur le dos, jambes légèrement surélevées si elle ne présente pas de gêne respiratoire : cette position soutient le retour veineux en cas de chute de pression.",
         "Si la victime souffre d\'une gêne respiratoire ou présente des nausées, la mettre en position demi-assise.",
         "Rechercher si la victime dispose d\'un auto-injecteur d\'adrénaline dans ses affaires ou sur son poste de travail.",
         "L\'aider à utiliser son auto-injecteur ou le faire soi-même si un protocole a été établi avec le médecin du travail.",
@@ -4477,10 +4477,10 @@ export const articles: Record<string, Article> = {
         "Si la victime perd conscience et s\'arrête de respirer : démarrer immédiatement une réanimation cardiopulmonaire (RCP).",
       ]},
       { type: "h3", text: "L\'auto-injecteur d\'adrénaline : utilisation et points d\'attention" },
-      { type: "p", text: "L\'adrénaline est le seul traitement d\'urgence efficace pour inverser un choc anaphylactique. Elle est disponible en France sous forme d\'auto-injecteur — un dispositif stylo que certains salariés allergiques portent sur eux en permanence, sous les marques Anapen et Jext. L\'injection se fait dans la face antéro-latérale de la cuisse, à travers le vêtement si nécessaire. Après l\'injection, il faut maintenir la surveillance : l\'effet de l\'adrénaline peut s\'estomper avant l\'arrivée des secours, et une deuxième vague de réaction reste possible. Un seul auto-injecteur n\'est jamais suffisant — le 15 doit être appelé avant ou pendant son utilisation, jamais après." },
+      { type: "p", text: "L\'adrénaline est le seul traitement d\'urgence efficace pour inverser un choc anaphylactique. Elle est disponible en France sous forme d\'auto-injecteur : un dispositif stylo que certains salariés allergiques portent sur eux en permanence, sous les marques Anapen et Jext. L\'injection se fait dans la face antéro-latérale de la cuisse, à travers le vêtement si nécessaire. Après l\'injection, il faut maintenir la surveillance : l\'effet de l\'adrénaline peut s\'estomper avant l\'arrivée des secours, et une deuxième vague de réaction reste possible. Un seul auto-injecteur n\'est jamais suffisant : le 15 doit être appelé avant ou pendant son utilisation, jamais après." },
       { type: "h2", text: "Obligations de l\'employeur et intégration dans le DUERP" },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels et de prendre les mesures nécessaires pour protéger la santé des salariés. Lorsqu\'un salarié est connu pour présenter une allergie sévère, cela implique, en lien avec le médecin du travail, d\'évaluer les risques d\'exposition au poste concerné, d\'informer les Sauveteurs Secouristes du Travail présents sur le site et d\'intégrer un protocole individualisé dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP). L\'article R.4224-16 du Code du travail précise que le matériel de premiers secours disponible dans l\'établissement doit être adapté aux risques spécifiques identifiés. Référence officielle : article L.4121-1 et article R.4224-16 du Code du travail." },
-      { type: "quote", text: "Face à un choc anaphylactique, attendre de voir si ça va mieux est la pire des décisions. La réaction peut se stabiliser quelques minutes puis reprendre avec une violence redoublée. Appeler le 15 tout de suite — avant même de chercher l\'auto-injecteur — c\'est le seul réflexe qui sauve." },
+      { type: "quote", text: "Face à un choc anaphylactique, attendre de voir si ça va mieux est la pire des décisions. La réaction peut se stabiliser quelques minutes puis reprendre avec une violence redoublée. Appeler le 15 tout de suite, avant même de chercher l\'auto-injecteur, c\'est le seul réflexe qui sauve." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences médicales graves en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
@@ -4505,17 +4505,17 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les signes qui doivent alerter le SST" },
       { type: "p", text: "Après un choc à la tête, certains signes indiquent une atteinte cérébrale potentiellement grave. Ils ne sont pas toujours immédiats : une victime consciente dans les premières minutes peut se dégrader rapidement. Tout signe de la liste suivante justifie un appel immédiat au 15 ou au 18." },
       { type: "ul", items: [
-        "Perte de connaissance, même brève — c\'est le signe le plus significatif, quelles que soient les apparences actuelles.",
+        "Perte de connaissance, même brève : c\'est le signe le plus significatif, quelles que soient les apparences actuelles.",
         "Amnésie de l\'événement ou des instants qui l\'ont précédé.",
         "Maux de tête inhabituels ou en augmentation.",
         "Nausées ou vomissements apparus après le choc.",
         "Confusion, désorientation, propos incohérents.",
-        "Inégalité des pupilles — l\'une plus dilatée que l\'autre.",
+        "Inégalité des pupilles : l\'une plus dilatée que l\'autre.",
         "Somnolence anormale ou difficulté à rester éveillé.",
         "Écoulement de sang ou de liquide clair par l\'oreille ou le nez.",
         "Perte de force ou engourdissement dans un membre.",
       ]},
-      { type: "quote", text: "Un traumatisme crânien sans perte de connaissance visible n\'est pas un traumatisme crânien bénin. La dégradation peut survenir dans les heures qui suivent. Le SST ne pose pas de diagnostic — il alerte les secours et surveille." },
+      { type: "quote", text: "Un traumatisme crânien sans perte de connaissance visible n\'est pas un traumatisme crânien bénin. La dégradation peut survenir dans les heures qui suivent. Le SST ne pose pas de diagnostic : il alerte les secours et surveille." },
       { type: "h2", text: "Conduite à tenir : protéger, alerter, surveiller" },
       { type: "ul", items: [
         "Protéger : sécuriser la zone autour de la victime sans la déplacer.",
@@ -4554,14 +4554,14 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Les signes d\'une intoxication au monoxyde de carbone" },
       { type: "p", text: "Les symptômes varient selon la concentration et la durée d\'exposition. Ils peuvent ressembler à ceux d\'une grippe ou d\'un malaise banal, ce qui retarde souvent la prise en charge. Un signal fort doit alerter le SST : plusieurs salariés sont touchés simultanément dans le même local." },
       { type: "ul", items: [
-        "Céphalées (maux de tête) persistantes — premier signe d\'une exposition modérée au CO.",
+        "Céphalées (maux de tête) persistantes : premier signe d\'une exposition modérée au CO.",
         "Nausées, vomissements, vertiges ou sensations d\'étourdissement.",
         "Fatigue intense et soudaine, faiblesse musculaire inexpliquée.",
         "Confusion, difficultés à se concentrer, propos incohérents.",
-        "Coloration rose ou rouge cerise de la peau — signe tardif et grave, indiquant une intoxication sévère.",
+        "Coloration rose ou rouge cerise de la peau : signe tardif et grave, indiquant une intoxication sévère.",
         "Perte de connaissance, convulsions ou arrêt cardiaque dans les formes les plus graves.",
       ]},
-      { type: "quote", text: "Si plusieurs salariés présentent simultanément des maux de tête dans le même espace, l\'intoxication au CO est à suspecter immédiatement. Ne cherchez pas la source — évacuez d\'abord." },
+      { type: "quote", text: "Si plusieurs salariés présentent simultanément des maux de tête dans le même espace, l\'intoxication au CO est à suspecter immédiatement. Ne cherchez pas la source : évacuez d\'abord." },
       { type: "h2", text: "Conduite à tenir du SST face à une intoxication au CO" },
       { type: "ul", items: [
         "Ne pas pénétrer seul dans le local suspect : le CO peut faire une deuxième victime parmi les secouristes.",
@@ -4594,7 +4594,7 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/electrisation-electrocution-travail-conduite-a-tenir-sst.jpg",
     content: [
-      { type: "p", text: "L\'électrisation désigne le passage du courant électrique dans le corps humain. Lorsqu\'elle entraîne le décès, on parle d\'électrocution. En milieu professionnel, ces accidents surviennent lors d\'opérations sur ou au voisinage d\'installations électriques, de contacts accidentels avec des lignes sous tension, ou de défauts d\'isolement non détectés. Une électrisation peut sembler bénigne en surface et masquer une fibrillation ventriculaire imminente ou des lésions internes profondes — toute victime d\'un contact électrique justifie une prise en charge médicale d\'urgence." },
+      { type: "p", text: "L\'électrisation désigne le passage du courant électrique dans le corps humain. Lorsqu\'elle entraîne le décès, on parle d\'électrocution. En milieu professionnel, ces accidents surviennent lors d\'opérations sur ou au voisinage d\'installations électriques, de contacts accidentels avec des lignes sous tension, ou de défauts d\'isolement non détectés. Une électrisation peut sembler bénigne en surface et masquer une fibrillation ventriculaire imminente ou des lésions internes profondes. Toute victime d\'un contact électrique justifie une prise en charge médicale d\'urgence." },
       { type: "h2", text: "Quels travailleurs sont les plus exposés ?" },
       { type: "ul", items: [
         "Électriciens et techniciens de maintenance intervenant sur des installations basse ou haute tension, notamment lors d\'opérations sans consignation préalable.",
@@ -4642,7 +4642,7 @@ export const articles: Record<string, Article> = {
     content: [
       { type: "p", text: "Le Plan Santé au Travail 2026-2030 (PST5), présenté le 5 juin 2026 par le ministre du Travail au Conseil national d\'orientation des conditions de travail (CNOCT), constitue la feuille de route nationale pour améliorer la santé des salariés et réduire les risques professionnels d\'ici 2030. Ce cinquième plan s\'inscrit dans la continuité du PST 2021-2025 et intègre les enjeux émergents identifiés avec les partenaires sociaux." },
       { type: "h2", text: "Ce que prévoit le plan" },
-      { type: "p", text: "Le PST5 n\'est pas un texte réglementaire mais une feuille de route stratégique déclinée au niveau régional par les Plans régionaux santé travail (PRST), pilotés par les DREETS. Il fixe cinq axes sur lesquels les acteurs de la prévention — médecins du travail, inspection du travail, CARSAT, INRS et organismes de formation — doivent concentrer leurs efforts jusqu\'en 2030. Il anticipe également des évolutions réglementaires sur chacun de ces axes." },
+      { type: "p", text: "Le PST5 n\'est pas un texte réglementaire mais une feuille de route stratégique déclinée au niveau régional par les Plans régionaux santé travail (PRST), pilotés par les DREETS. Il fixe cinq axes sur lesquels les acteurs de la prévention (médecins du travail, inspection du travail, CARSAT, INRS et organismes de formation) doivent concentrer leurs efforts jusqu\'en 2030. Il anticipe également des évolutions réglementaires sur chacun de ces axes." },
       { type: "h2", text: "Les cinq axes prioritaires" },
       { type: "ul", items: [
         "Prévention des accidents graves et mortels : renforcement des dispositifs d\'accueil des salariés temporaires et des jeunes, populations statistiquement surexposées aux accidents du travail.",
@@ -4657,7 +4657,7 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: [
         "L\'axe prévention des accidents graves renforce l\'importance des formations Sauveteur Secouriste du Travail (SST), incendie (EPI, guide-file) et habilitation électrique pour les postes exposés, notamment pour les salariés temporaires.",
         "L\'axe santé mentale et RPS conforte la nécessité de former les élus du CSE à l\'évaluation des risques psychosociaux dans le cadre de leur mission santé-sécurité.",
-        "L\'axe prévention de l\'absentéisme vise directement la réduction des troubles musculo-squelettiques (TMS), première maladie professionnelle en France — ce qui renforce l\'intérêt des formations PRAP IBC et PRAP 2S ALM.",
+        "L\'axe prévention de l\'absentéisme vise directement la réduction des troubles musculo-squelettiques (TMS), première maladie professionnelle en France, ce qui renforce l\'intérêt des formations PRAP IBC et PRAP 2S ALM.",
         "L\'axe femmes au travail met en lumière les risques spécifiques liés à la manutention de personnes dans les EHPAD et établissements de soins, domaine couvert par le PRAP 2S ALM.",
       ]},
       { type: "p", text: "Référence officielle : Plan Santé au Travail 2026-2030 (PST5), présenté au Conseil national d\'orientation des conditions de travail (CNOCT) le 5 juin 2026. Document accessible sur le site du ministère du Travail et des Solidarités (travail-emploi.gouv.fr)." },
@@ -4684,7 +4684,7 @@ export const articles: Record<string, Article> = {
         "Fonctionnalités alternatives dans la plateforme : maintenues jusqu\'au 15 novembre 2026.",
       ]},
       { type: "h2", text: "Qui est concerné ?" },
-      { type: "p", text: "Toutes les entreprises ayant fait réaliser des formations en santé et sécurité au travail depuis 2025 sont concernées par ces nouvelles échéances. Les organismes de formation habilités — pour le SST, le PRAP, l\'incendie, les habilitations électriques — doivent également déclarer leurs sessions dans la plateforme passeport de prévention, accessible via Mon Compte Formation (moncompteformation.gouv.fr)." },
+      { type: "p", text: "Toutes les entreprises ayant fait réaliser des formations en santé et sécurité au travail depuis 2025 sont concernées par ces nouvelles échéances. Les organismes de formation habilités (pour le SST, le PRAP, l\'incendie, les habilitations électriques) doivent également déclarer leurs sessions dans la plateforme passeport de prévention, accessible via Mon Compte Formation (moncompteformation.gouv.fr)." },
       { type: "h2", text: "Impact sur les formations de prévention" },
       { type: "p", text: "Toutes les formations en santé-sécurité sont éligibles à l\'enregistrement dans le passeport de prévention : SST et MAC SST, PRAP IBC et PRAP 2S ALM, formations incendie EPI, habilitations électriques, formations gestes et postures. Ces déclarations constituent une traçabilité utile lors des contrôles liés aux obligations des articles R.4224-15 et R.4227-28 du Code du travail, et permettent aux salariés de valoriser leurs compétences tout au long de leur carrière." },
       { type: "p", text: "Référence officielle : décret n° 2026-496 du 12 juin 2026 (NOR : TRST2612774D), modifiant le décret n° 2025-748 du 1er août 2025, pris en application de l\'article L.4141-5 du Code du travail. Consultable sur Légifrance (JORFTEXT000054245439)." },
@@ -4694,13 +4694,13 @@ export const articles: Record<string, Article> = {
 
   "malaise-vagal-au-travail-signes-conduite-a-tenir-sst": {
     title: "Malaise vagal au travail : reconnaître les signes et agir en secouriste",
-    excerpt: "Le malaise vagal est l\'une des pertes de connaissance les plus fréquentes en entreprise. Impressionnant, il est rarement grave — à condition que le SST sache le reconnaître et adopte la bonne conduite à tenir.",
+    excerpt: "Le malaise vagal est l\'une des pertes de connaissance les plus fréquentes en entreprise. Impressionnant, il est rarement grave, à condition que le SST sache le reconnaître et adopte la bonne conduite à tenir.",
     publishedAt: "2026-06-22",
     category: "Secourisme",
     readingTime: 5,
     image: "/images/articles/malaise-vagal-au-travail-signes-conduite-a-tenir-sst.jpg",
     content: [
-      { type: "p", text: "Le malaise vagal — ou syncope vasovagale — est l\'une des pertes de connaissance les plus fréquentes en milieu professionnel. Il survient lors d\'un choc émotionnel, d\'une douleur soudaine, d\'une chaleur excessive, d\'une longue station debout ou d\'une prise de sang. Impressionnant pour l\'entourage, ce malaise est rarement grave dans sa forme classique — mais il peut masquer une urgence cardiaque ou provoquer un traumatisme lors de la chute. Le Sauveteur Secouriste du Travail doit savoir le reconnaître et réagir." },
+      { type: "p", text: "Le malaise vagal (ou syncope vasovagale) est l\'une des pertes de connaissance les plus fréquentes en milieu professionnel. Il survient lors d\'un choc émotionnel, d\'une douleur soudaine, d\'une chaleur excessive, d\'une longue station debout ou d\'une prise de sang. Impressionnant pour l\'entourage, ce malaise est rarement grave dans sa forme classique, mais il peut masquer une urgence cardiaque ou provoquer un traumatisme lors de la chute. Le Sauveteur Secouriste du Travail doit savoir le reconnaître et réagir." },
       { type: "h2", text: "Qu\'est-ce qu\'un malaise vagal ?" },
       { type: "p", text: "Le malaise vagal résulte d\'une stimulation excessive du nerf vague, qui provoque une chute brutale de la fréquence cardiaque et de la pression artérielle. Le cerveau, temporairement moins irrigué, commande une perte de connaissance pour forcer le retour à l\'horizontale. Cette réaction de l\'organisme est protectrice : en allongeant la personne, la gravité rétablit rapidement le débit sanguin cérébral. La perte de connaissance dure en général quelques secondes à deux minutes." },
       { type: "h2", text: "Les signes avant-coureurs à reconnaître" },
@@ -4721,7 +4721,7 @@ export const articles: Record<string, Article> = {
         "Si la victime est inconsciente mais respire : la maintenir allongée, jambes surélevées, desserrer les vêtements serrés (ceinture, col, cravate). Ne pas la relever brutalement.",
         "Alerter le 15 ou le 18, ou demander à quelqu\'un de le faire, pendant que vous restez auprès de la victime.",
         "Surveiller en continu la conscience et la respiration jusqu\'au retour à la normale ou à l\'arrivée des secours.",
-        "Si la victime ne respire plus ou respire anormalement : basculer immédiatement en protocole arrêt cardiaque — appel du 15, RCP et DAE.",
+        "Si la victime ne respire plus ou respire anormalement : basculer immédiatement en protocole arrêt cardiaque (appel du 15, RCP et DAE).",
       ]},
       { type: "quote", text: "Allonger une victime qui présente les signes d\'un malaise vagal, c\'est parfois la seule action nécessaire pour qu\'elle reprenne conscience en quelques secondes." },
       { type: "h2", text: "Malaise vagal ou arrêt cardiaque : ne pas confondre" },
@@ -4792,10 +4792,10 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les vibrations mains-bras (VMB) sont transmises aux membres supérieurs via des outils tenus à la main : perceuses, meuleuses, marteaux-piqueurs, tronçonneuses. Les vibrations corps entier (VCE) se propagent à l\'ensemble du corps via le siège ou le plancher : chariots élévateurs, tracteurs, engins de terrassement, véhicules roulant sur terrain accidenté. Ces deux catégories relèvent de valeurs réglementaires distinctes et génèrent des pathologies différentes." },
       { type: "h2", text: "Les valeurs réglementaires d\'exposition" },
       { type: "ul", items: [
-        "VMB — Valeur d\'action journalière : 2,5 m/s² A(8). Dès ce seuil, l\'employeur doit mettre en œuvre un programme de mesures de prévention.",
-        "VMB — Valeur limite d\'exposition journalière : 5 m/s² A(8). Ce seuil ne peut jamais être dépassé.",
-        "VCE — Valeur d\'action journalière : 0,5 m/s² A(8). Des mesures de prévention s\'imposent dès ce niveau.",
-        "VCE — Valeur limite d\'exposition journalière : 1,15 m/s² A(8). Plafond absolu, dépassement interdit.",
+        "VMB, valeur d\'action journalière : 2,5 m/s² A(8). Dès ce seuil, l\'employeur doit mettre en œuvre un programme de mesures de prévention.",
+        "VMB, valeur limite d\'exposition journalière : 5 m/s² A(8). Ce seuil ne peut jamais être dépassé.",
+        "VCE, valeur d\'action journalière : 0,5 m/s² A(8). Des mesures de prévention s\'imposent dès ce niveau.",
+        "VCE, valeur limite d\'exposition journalière : 1,15 m/s² A(8). Plafond absolu, dépassement interdit.",
         "Ces seuils sont fixés par le Code du travail (articles R.4441-1 et suivants), en application de la directive européenne 2002/44/CE.",
       ]},
       { type: "h2", text: "Effets sur la santé reconnus en maladie professionnelle" },
@@ -4841,7 +4841,7 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: [
         "Asphyxie par déficience en oxygène : l\'air peut être appauvri en O₂ en dessous de 17 % par décomposition de matières organiques, réactions chimiques ou déplacement par un autre gaz. En dessous de 12 %, la perte de connaissance est quasi immédiate.",
         "Intoxication par gaz toxiques : le sulfure d\'hydrogène (H₂S) dans les réseaux d\'assainissement, le monoxyde de carbone (CO) dans les espaces où des moteurs ont fonctionné, ou des vapeurs de produits chimiques résiduels peuvent atteindre des concentrations mortelles.",
-        "Explosion ou incendie : un espace confiné peut contenir des vapeurs de solvants, du méthane ou d\'autres gaz inflammables. Une étincelle — outil électrique, téléphone — peut déclencher une explosion.",
+        "Explosion ou incendie : un espace confiné peut contenir des vapeurs de solvants, du méthane ou d\'autres gaz inflammables. Une étincelle (outil électrique, téléphone) peut déclencher une explosion.",
         "Chutes dans les cuves ou fosses profondes, ensevelissement dans les silos à granulats ou à céréales, noyade dans les bassins de rétention.",
         "Accidents de sauvetage : la majorité des décès dans les espaces confinés surviennent chez les sauveteurs qui tentent d\'intervenir sans équipement approprié.",
       ]},
@@ -4854,13 +4854,13 @@ export const articles: Record<string, Article> = {
         "Énergie et tertiaire : maintenance des chaufferies, transformateurs et galeries de câbles souterrains.",
       ]},
       { type: "h2", text: "Le permis de pénétrer : outil clé de maîtrise des risques" },
-      { type: "p", text: "Le permis de pénétrer est un document écrit, signé avant chaque intervention, qui formalise l\'évaluation des risques propres à l\'espace concerné et les mesures de sécurité à respecter. Il identifie les personnes autorisées à entrer, le superviseur responsable, les mesures de ventilation préalable, les mesures atmosphériques réalisées, les équipements de protection individuelle (EPI) à porter — masque à adduction d\'air, harnais, ligne de vie — et la procédure d\'alerte et de sauvetage. Ce document n\'est pas un outil bureaucratique : il contraint à poser les bonnes questions avant d\'agir et à ne pas entrer sans avoir vérifié que les conditions sont sûres." },
+      { type: "p", text: "Le permis de pénétrer est un document écrit, signé avant chaque intervention, qui formalise l\'évaluation des risques propres à l\'espace concerné et les mesures de sécurité à respecter. Il identifie les personnes autorisées à entrer, le superviseur responsable, les mesures de ventilation préalable, les mesures atmosphériques réalisées, les équipements de protection individuelle (EPI) à porter (masque à adduction d\'air, harnais, ligne de vie) et la procédure d\'alerte et de sauvetage. Ce document n\'est pas un outil bureaucratique : il contraint à poser les bonnes questions avant d\'agir et à ne pas entrer sans avoir vérifié que les conditions sont sûres." },
       { type: "h2", text: "Préparer l\'intervention : les points de contrôle" },
       { type: "ul", items: [
         "Identifier formellement l\'espace confiné et l\'intégrer au Document Unique d\'Évaluation des Risques Professionnels (DUERP) avec ses risques spécifiques.",
         "Ventiler mécaniquement l\'espace avant entrée et, si nécessaire, pendant toute la durée de l\'intervention.",
         "Mesurer l\'atmosphère intérieure avec un détecteur multigaz (O₂, CO, H₂S, gaz inflammables) avant toute entrée et régulièrement pendant l\'intervention.",
-        "Désigner un surveillant posté à l\'extérieur, en communication constante avec l\'opérateur à l\'intérieur — le surveillant ne pénètre jamais dans l\'espace.",
+        "Désigner un surveillant posté à l\'extérieur, en communication constante avec l\'opérateur à l\'intérieur : le surveillant ne pénètre jamais dans l\'espace.",
         "Prévoir les équipements de sauvetage accessibles depuis l\'extérieur : treuil, ligne de vie, appareil respiratoire isolant (ARI) pour le sauveteur potentiel.",
         "Former les intervenants aux risques spécifiques des espaces confinés et à la conduite à tenir en cas d\'urgence.",
         "Ne jamais intervenir seul : toute intervention nécessite au minimum un opérateur à l\'intérieur et un surveillant à l\'extérieur.",
@@ -4917,9 +4917,9 @@ export const articles: Record<string, Article> = {
     readingTime: 6,
     image: "/images/articles/atmospheres-explosives-atex-zones-prevention-risques-explosion.jpg",
     content: [
-      { type: "p", text: "Une atmosphère explosible peut se former partout où des gaz, vapeurs, brouillards ou poussières combustibles se mélangent à l\'air dans certaines proportions. En milieu industriel, ce risque est présent dans des secteurs aussi variés que la chimie, l\'agro-alimentaire, le pétrole ou la menuiserie. Lorsqu\'une source d\'inflammation — une étincelle électrique, une surface chaude, une décharge électrostatique — survient dans une telle atmosphère, la déflagration peut être dévastatrice. La réglementation ATEX impose à l\'employeur d\'identifier ces zones, de les délimiter et de maîtriser les sources d\'inflammation." },
+      { type: "p", text: "Une atmosphère explosible peut se former partout où des gaz, vapeurs, brouillards ou poussières combustibles se mélangent à l\'air dans certaines proportions. En milieu industriel, ce risque est présent dans des secteurs aussi variés que la chimie, l\'agro-alimentaire, le pétrole ou la menuiserie. Lorsqu\'une source d\'inflammation (une étincelle électrique, une surface chaude, une décharge électrostatique) survient dans une telle atmosphère, la déflagration peut être dévastatrice. La réglementation ATEX impose à l\'employeur d\'identifier ces zones, de les délimiter et de maîtriser les sources d\'inflammation." },
       { type: "h2", text: "Qu\'est-ce qu\'une atmosphère explosible ?" },
-      { type: "p", text: "Une atmosphère explosible, ou ATEX (ATmosphère EXplosible), se forme lorsqu\'un combustible — gaz, vapeur de liquide inflammable, brouillard ou poussière combustible — est présent en concentration suffisante dans l\'air pour s\'enflammer sous l\'effet d\'une source d\'inflammation. La zone de risque est définie par les limites d\'explosivité : la Limite Inférieure d\'Explosivité (LIE) et la Limite Supérieure d\'Explosivité (LSE). En dessous de la LIE, le mélange est trop pauvre ; au-dessus de la LSE, trop riche. C\'est dans la plage entre les deux que le risque est maximal." },
+      { type: "p", text: "Une atmosphère explosible, ou ATEX (ATmosphère EXplosible), se forme lorsqu\'un combustible (gaz, vapeur de liquide inflammable, brouillard ou poussière combustible) est présent en concentration suffisante dans l\'air pour s\'enflammer sous l\'effet d\'une source d\'inflammation. La zone de risque est définie par les limites d\'explosivité : la Limite Inférieure d\'Explosivité (LIE) et la Limite Supérieure d\'Explosivité (LSE). En dessous de la LIE, le mélange est trop pauvre ; au-dessus de la LSE, trop riche. C\'est dans la plage entre les deux que le risque est maximal." },
       { type: "h2", text: "Classification des zones ATEX : gaz et poussières" },
       { type: "ul", items: [
         "Zone 0 (gaz) : atmosphère explosible présente en permanence, pendant de longues périodes ou fréquemment. Exemple : intérieur d\'une cuve de stockage d\'hydrocarbures.",
@@ -4968,10 +4968,10 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En milieu industriel, la majorité des accidents électriques survenant lors de travaux de maintenance est liée à une remise sous tension non prévue pendant l\'intervention. Un opérateur qui ignore qu\'une équipe travaille sur l\'installation, un réenclenchement automatique, une alimentation de secours non identifiée : chacun de ces scénarios peut survenir en quelques secondes. La NF C 18-510 définit précisément les opérations à réaliser, leur ordre obligatoire et les habilitations requises pour chaque acteur." },
       { type: "h2", text: "Les quatre étapes de la consignation selon la NF C 18-510" },
       { type: "ul", items: [
-        "Étape 1 — Séparation : identifier et ouvrir le ou les dispositifs de séparation (disjoncteur, interrupteur-sectionneur, sectionneur) qui alimentent l\'installation. La séparation doit être visible ou physiquement vérifiable.",
-        "Étape 2 — Condamnation : verrouiller le dispositif de séparation en position ouverte à l\'aide d\'un cadenas individuel et apposer une signalisation d\'interdiction de manœuvre. Si plusieurs intervenants participent aux travaux, chacun pose son propre cadenas.",
-        "Étape 3 — Vérification d\'Absence de Tension (VAT) : vérifier l\'absence de tension sur chaque conducteur accessible à l\'aide d\'un appareil de mesure homologué, avant tout contact avec les pièces nues. Cette étape est obligatoire même si la séparation paraît évidente.",
-        "Étape 4 — Mise À la Terre et en Court-Circuit (MALT/CCT) : obligatoire pour les ouvrages haute tension (HTA, HTB). En basse tension, elle est requise dès qu\'un risque de retour de tension ou de tension induite existe. Les conducteurs sont mis à la terre et en court-circuit pour neutraliser toute tension résiduelle.",
+        "Étape 1 : Séparation. Identifier et ouvrir le ou les dispositifs de séparation (disjoncteur, interrupteur-sectionneur, sectionneur) qui alimentent l\'installation. La séparation doit être visible ou physiquement vérifiable.",
+        "Étape 2 : Condamnation. Verrouiller le dispositif de séparation en position ouverte à l\'aide d\'un cadenas individuel et apposer une signalisation d\'interdiction de manœuvre. Si plusieurs intervenants participent aux travaux, chacun pose son propre cadenas.",
+        "Étape 3 : Vérification d\'Absence de Tension (VAT). Vérifier l\'absence de tension sur chaque conducteur accessible à l\'aide d\'un appareil de mesure homologué, avant tout contact avec les pièces nues. Cette étape est obligatoire même si la séparation paraît évidente.",
+        "Étape 4 : Mise À la Terre et en Court-Circuit (MALT/CCT). Obligatoire pour les ouvrages haute tension (HTA, HTB). En basse tension, elle est requise dès qu\'un risque de retour de tension ou de tension induite existe. Les conducteurs sont mis à la terre et en court-circuit pour neutraliser toute tension résiduelle.",
       ]},
       { type: "h2", text: "Les acteurs : chargé de consignation et chargé de travaux" },
       { type: "p", text: "La consignation est réservée aux personnes habilitées. Le chargé de consignation (habilitation BC pour le domaine basse tension, HC pour le domaine haute tension) est la seule personne autorisée à réaliser et lever une consignation. Le chargé de travaux (B2, B2V ou BR pour la basse tension) dirige l\'exécution des travaux et est responsable de la sécurité de son équipe pendant toute la durée de l\'intervention. Ces deux rôles peuvent être tenus par la même personne si son habilitation le permet, mais leur séparation est recommandée dès que plusieurs intervenants sont impliqués." },
@@ -5009,7 +5009,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Effets sur la santé : de la gêne aux lésions graves" },
       { type: "ul", items: [
         "Hypothermie : la température corporelle centrale descend en dessous de 35 °C. Les premiers signes sont les frissons intenses, la confusion et le ralentissement des gestes. En dessous de 32 °C, l\'hypothermie sévère engage le pronostic vital.",
-        "Engelures et gelures : les extrémités — doigts, orteils, oreilles, nez — sont les premières atteintes. Les engelures sont douloureuses mais réversibles ; les gelures profondes peuvent entraîner une nécrose des tissus.",
+        "Engelures et gelures : les extrémités (doigts, orteils, oreilles, nez) sont les premières atteintes. Les engelures sont douloureuses mais réversibles ; les gelures profondes peuvent entraîner une nécrose des tissus.",
         "Aggravation des troubles musculo-squelettiques (TMS) : le froid réduit la circulation sanguine vers les muscles et les tendons, augmente la viscosité des fluides articulaires et accroît la fréquence des contractures, entorses et lombalgies.",
         "Syndrome de Raynaud professionnel : le froid déclenche des vasospasmes qui blanchissent les doigts et provoquent des douleurs intenses. Ce syndrome est aggravé par l\'utilisation simultanée d\'outils vibrants.",
         "Troubles de la vigilance : le refroidissement corporel diminue les capacités de concentration et de réaction, augmentant le risque d\'accidents mécaniques et de chutes.",
@@ -5023,7 +5023,7 @@ export const articles: Record<string, Article> = {
         "Commerce : personnels des grandes surfaces exposés aux rayons frais et surgelés lors des opérations répétées de réapprovisionnement.",
       ]},
       { type: "h2", text: "Les obligations de l\'employeur" },
-      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer tous les risques professionnels et de prendre les mesures nécessaires pour protéger la santé physique et mentale des salariés. Le risque lié aux ambiances froides doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP), avec une évaluation précise de l\'exposition — durée, intensité, conditions associées — et les mesures de prévention adoptées. Lors des épisodes de grand froid, les conditions d\'exposition doivent être réévaluées et les mesures adaptées sans délai." },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer tous les risques professionnels et de prendre les mesures nécessaires pour protéger la santé physique et mentale des salariés. Le risque lié aux ambiances froides doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels (DUERP), avec une évaluation précise de l\'exposition (durée, intensité, conditions associées) et les mesures de prévention adoptées. Lors des épisodes de grand froid, les conditions d\'exposition doivent être réévaluées et les mesures adaptées sans délai." },
       { type: "h2", text: "Mesures de prévention à mettre en place" },
       { type: "ul", items: [
         "EPI thermiques : vêtements à plusieurs couches (sous-vêtement thermique, couche intermédiaire isolante, veste coupe-vent imperméable), gants thermorésistants, chaussures isolantes et imperméables, bonnet ou cagoule selon l\'intensité du froid.",
@@ -5063,7 +5063,7 @@ export const articles: Record<string, Article> = {
         "Catégorie 1A : transpalettes à conducteur accompagnant, à pied.",
         "Catégorie 1B : transpalettes gerbeurs à conducteur accompagnant ou porté debout.",
         "Catégorie 2A et 2B : chariots à mât rétractable.",
-        "Catégorie 3 : chariots élévateurs en porte-à-faux d\'une capacité inférieure à 6 000 kg — la catégorie la plus répandue en logistique.",
+        "Catégorie 3 : chariots élévateurs en porte-à-faux d\'une capacité inférieure à 6 000 kg, la catégorie la plus répandue en logistique.",
         "Catégorie 4 : chariots élévateurs en porte-à-faux de capacité égale ou supérieure à 6 000 kg.",
         "Catégorie 5 : chariots élévateurs à mât multidirectionnel et chariots à prise latérale, utilisés dans les ateliers à couloirs étroits.",
       ]},
@@ -5079,8 +5079,8 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La cohabitation non organisée entre piétons et chariots élévateurs est la principale source d\'accidents mortels en milieu logistique et industriel. La mesure la plus efficace reste la séparation physique des flux : marquage au sol avec des couleurs contrastées, barrières de guidage dans les zones à risque, signalisation verticale aux croisements. Les vitesses maximales doivent être affichées et respectées. Dans les zones de déchargement et de préparation de commandes, des miroirs de surveillance ou des détecteurs de présence permettent de compenser les angles morts." },
       { type: "h2", text: "Vérifications quotidiennes et contrôle périodique" },
       { type: "p", text: "Avant chaque prise de poste, le conducteur doit effectuer un tour de contrôle : état des fourches, des pneumatiques, des feux et de l\'avertisseur sonore, niveau de charge de la batterie pour les chariots électriques ou niveau des fluides pour les chariots thermiques. Tout défaut constaté doit être signalé immédiatement et le chariot mis hors service jusqu\'à réparation. Un registre de sécurité consigne ces vérifications et les interventions de maintenance." },
-      { type: "quote", text: "Un chariot élévateur n\'est pas un outil anodin : ses 3 à 5 tonnes en charge peuvent écraser un piéton en quelques mètres. L\'autorisation de conduite, la séparation des flux et la VGP annuelle ne sont pas des formalités administratives — ce sont les conditions minimales d\'un site logistique sûr." },
-      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles R.4323-55 à R.4323-57 du Code du travail (autorisation de conduite des équipements de travail mobiles automoteurs) ; recommandation de l\'Assurance Maladie — Risques Professionnels R489 relative aux chariots automoteurs de manutention à conducteur porté." },
+      { type: "quote", text: "Un chariot élévateur n\'est pas un outil anodin : ses 3 à 5 tonnes en charge peuvent écraser un piéton en quelques mètres. L\'autorisation de conduite, la séparation des flux et la VGP annuelle ne sont pas des formalités administratives : ce sont les conditions minimales d\'un site logistique sûr." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles R.4323-55 à R.4323-57 du Code du travail (autorisation de conduite des équipements de travail mobiles automoteurs) ; recommandation de l\'Assurance Maladie Risques Professionnels R489 relative aux chariots automoteurs de manutention à conducteur porté." },
       { type: "cta", text: "Pour former vos conducteurs de chariots et sensibiliser vos encadrants aux risques de manutention mécanisée,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
   },
@@ -5093,7 +5093,7 @@ export const articles: Record<string, Article> = {
     readingTime: 6,
     image: "/images/articles/protocole-securite-chargement-dechargement-transport.jpg",
     content: [
-      { type: "p", text: "Un camion qui recule vers un quai, un chauffeur inconnu du site, un chariot élévateur qui manœuvre à proximité : les opérations de chargement et de déchargement concentrent des risques spécifiques — écrasement, chute de charge, heurt de piéton. Dès qu\'une entreprise de transport extérieure intervient, le Code du travail impose un document précis avant même le début de l\'opération." },
+      { type: "p", text: "Un camion qui recule vers un quai, un chauffeur inconnu du site, un chariot élévateur qui manœuvre à proximité : les opérations de chargement et de déchargement concentrent des risques spécifiques (écrasement, chute de charge, heurt de piéton). Dès qu\'une entreprise de transport extérieure intervient, le Code du travail impose un document précis avant même le début de l\'opération." },
       { type: "h2", text: "Un régime distinct du plan de prévention" },
       { type: "p", text: "Ce document ne concerne pas toutes les interventions d\'entreprises extérieures. Il s\'applique spécifiquement aux opérations de chargement ou de déchargement réalisées par une entreprise de transport, pour des marchandises en provenance ou à destination d\'un lieu extérieur à l\'établissement, dit \"entreprise d\'accueil\". Il remplace alors le plan de prévention prévu pour les autres interventions d\'entreprises extérieures, conformément à l\'article R.4515-1 du Code du travail." },
       { type: "h2", text: "Ce que doit contenir le protocole" },
@@ -5104,13 +5104,13 @@ export const articles: Record<string, Article> = {
         "Les moyens de secours disponibles en cas d\'accident ou d\'incident.",
         "L\'identité du responsable désigné par l\'entreprise d\'accueil pour l\'opération.",
       ]},
-      { type: "p", text: "Le transporteur apporte, de son côté, les informations relatives aux caractéristiques de son véhicule, à son aménagement et à ses équipements, ainsi qu\'à la nature et au conditionnement de la marchandise. Il précise également les précautions particulières liées à la nature des produits transportés — matières dangereuses, produits fragiles ou périssables, par exemple." },
+      { type: "p", text: "Le transporteur apporte, de son côté, les informations relatives aux caractéristiques de son véhicule, à son aménagement et à ses équipements, ainsi qu\'à la nature et au conditionnement de la marchandise. Il précise également les précautions particulières liées à la nature des produits transportés (matières dangereuses, produits fragiles ou périssables, par exemple)." },
       { type: "h2", text: "Qui l\'établit, et à quel moment ?" },
-      { type: "p", text: "Le protocole de sécurité est rédigé dans le cadre d\'un échange entre les deux employeurs concernés, préalablement à la réalisation de l\'opération. Il prend la forme d\'un document écrit — pas d\'une simple consigne orale donnée au chauffeur à son arrivée. Chaque opération non répétitive donne lieu, en principe, à un protocole qui lui est propre." },
+      { type: "p", text: "Le protocole de sécurité est rédigé dans le cadre d\'un échange entre les deux employeurs concernés, préalablement à la réalisation de l\'opération. Il prend la forme d\'un document écrit, pas d\'une simple consigne orale donnée au chauffeur à son arrivée. Chaque opération non répétitive donne lieu, en principe, à un protocole qui lui est propre." },
       { type: "h3", text: "Le cas des opérations répétitives" },
       { type: "p", text: "Lorsque plusieurs opérations portent sur des produits ou substances de même nature, réalisées dans les mêmes lieux, selon le même mode opératoire et avec les mêmes types de véhicules et d\'engins de manutention, elles sont qualifiées de répétitives. Un protocole unique peut alors couvrir cet ensemble d\'opérations, sans qu\'il soit nécessaire d\'en établir un pour chaque livraison." },
       { type: "quote", text: "Un protocole de sécurité rédigé après l\'arrivée du camion n\'a plus grand-chose d\'un protocole : il documente un risque déjà pris, pas un risque anticipé." },
-      { type: "p", text: "En pratique, l\'entreprise d\'accueil a intérêt à formaliser un modèle de protocole par type de flux — transporteur habituel, nature de marchandise, poste de déchargement — plutôt que de le découvrir à chaque livraison. Cela permet de vérifier en amont la compatibilité entre le véhicule annoncé et les installations du site, et d\'éviter les improvisations sur le quai." },
+      { type: "p", text: "En pratique, l\'entreprise d\'accueil a intérêt à formaliser un modèle de protocole par type de flux (transporteur habituel, nature de marchandise, poste de déchargement) plutôt que de le découvrir à chaque livraison. Cela permet de vérifier en amont la compatibilité entre le véhicule annoncé et les installations du site, et d\'éviter les improvisations sur le quai." },
       { type: "p", text: "Référence officielle : articles R.4515-1 à R.4515-11 du Code du travail (opérations de chargement et de déchargement) ; article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur)." },
       { type: "cta", text: "Pour sécuriser les opérations de chargement et déchargement sur votre site et former vos équipes,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
@@ -5139,7 +5139,7 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que doit couvrir la formation renforcée" },
       { type: "p", text: "Pour ces postes, le salarié en intérim ou en CDD bénéficie d\'une formation renforcée à la sécurité ainsi que d\'un accueil et d\'une information adaptés, conformément à l\'article L.4154-2 du Code du travail. Cette formation détaille les risques propres au poste, les procédures d\'urgence du site, les équipements de protection à utiliser et les consignes de circulation. Elle s\'ajoute aux formations générales à la sécurité déjà dues à tout salarié." },
       { type: "h2", text: "Intérim : le rôle de l\'entreprise utilisatrice" },
-      { type: "p", text: "Pour un salarié intérimaire, c\'est l\'entreprise utilisatrice — celle qui accueille physiquement le salarié — qui est responsable de cette formation renforcée, et non l\'agence d\'intérim. Le contrat de mise à disposition doit mentionner si le poste figure sur la liste des postes à risques particuliers. Pour un salarié en CDD, l\'obligation incombe directement à l\'employeur qui l\'a recruté, dans les mêmes conditions." },
+      { type: "p", text: "Pour un salarié intérimaire, c\'est l\'entreprise utilisatrice (celle qui accueille physiquement le salarié) qui est responsable de cette formation renforcée, et non l\'agence d\'intérim. Le contrat de mise à disposition doit mentionner si le poste figure sur la liste des postes à risques particuliers. Pour un salarié en CDD, l\'obligation incombe directement à l\'employeur qui l\'a recruté, dans les mêmes conditions." },
       { type: "h2", text: "Organiser un accueil sécurité efficace" },
       { type: "ul", items: [
         "Remettre un livret d\'accueil sécurité propre au poste, avant la prise de fonction et non le jour même dans l\'urgence.",
@@ -5148,7 +5148,7 @@ export const articles: Record<string, Article> = {
         "Vérifier que l\'aptitude médicale au poste a bien été confirmée avant l\'affectation, notamment pour les postes à surveillance renforcée.",
         "Contrôler la mise à disposition et le port effectif des équipements de protection individuelle dès le premier jour.",
       ]},
-      { type: "quote", text: "Un intérimaire ou un CDD n\'est pas un salarié \"à part\" sur un poste à risques : c\'est un salarié qui doit recevoir, avant sa prise de fonction, une formation à la hauteur du danger auquel il est exposé — pas une visite guidée improvisée." },
+      { type: "quote", text: "Un intérimaire ou un CDD n\'est pas un salarié \"à part\" sur un poste à risques : c\'est un salarié qui doit recevoir, avant sa prise de fonction, une formation à la hauteur du danger auquel il est exposé, pas une visite guidée improvisée." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail (obligation générale de prévention de l\'employeur) ; articles L.4154-2 et L.4154-3 du Code du travail (formation renforcée à la sécurité et liste des postes à risques particuliers pour les salariés temporaires et en contrat à durée déterminée)." },
       { type: "cta", text: "Pour organiser l\'accueil sécurité de vos intérimaires et CDD sur les postes à risques de votre établissement,", label: "contactez notre équipe via la page dédiée", href: "/contact" },
     ],
@@ -5162,13 +5162,13 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/alcool-drogues-travail-obligations-employeur-prevention.jpg",
     content: [
-      { type: "p", text: "Un salarié qui arrive ivre, une tournée de bières partagée après une réussite commerciale, un collègue somnolent après une pause prolongée : la consommation d\'alcool et de substances psychoactives en entreprise n\'est pas un sujet tabou pour le droit du travail. Le Code du travail encadre précisément ce que l\'employeur peut interdire, contrôler et sanctionner — et ce qu\'il ne peut pas faire." },
+      { type: "p", text: "Un salarié qui arrive ivre, une tournée de bières partagée après une réussite commerciale, un collègue somnolent après une pause prolongée : la consommation d\'alcool et de substances psychoactives en entreprise n\'est pas un sujet tabou pour le droit du travail. Le Code du travail encadre précisément ce que l\'employeur peut interdire, contrôler et sanctionner, et ce qu\'il ne peut pas faire." },
       { type: "h2", text: "Ce que dit le Code du travail sur l\'alcool" },
-      { type: "p", text: "L\'article R4228-20 du Code du travail pose une règle simple : aucune boisson alcoolisée autre que le vin, la bière, le cidre et le poiré n\'est autorisée sur le lieu de travail. Quand leur consommation, même autorisée, risque de porter atteinte à la sécurité ou à la santé des salariés, l\'employeur doit prévoir dans le règlement intérieur — ou par note de service — des mesures proportionnées, pouvant aller jusqu\'à une interdiction totale sur certains postes." },
+      { type: "p", text: "L\'article R4228-20 du Code du travail pose une règle simple : aucune boisson alcoolisée autre que le vin, la bière, le cidre et le poiré n\'est autorisée sur le lieu de travail. Quand leur consommation, même autorisée, risque de porter atteinte à la sécurité ou à la santé des salariés, l\'employeur doit prévoir dans le règlement intérieur, ou par note de service, des mesures proportionnées, pouvant aller jusqu\'à une interdiction totale sur certains postes." },
       { type: "h2", text: "Refuser l\'accès à un salarié en état d\'ivresse manifeste" },
       { type: "p", text: "L\'article R4228-21 interdit de laisser entrer ou séjourner dans l\'entreprise une personne en état d\'ivresse. L\'employeur peut donc refuser l\'accès du site à un salarié manifestement alcoolisé, y compris pour le protéger : il ne doit jamais repartir seul, en particulier au volant. Cette mise à l\'écart n\'est pas une sanction disciplinaire mais une mesure de sécurité immédiate, à distinguer d\'une éventuelle procédure ultérieure." },
       { type: "h3", text: "Le dépistage par éthylotest : un cadre strict" },
-      { type: "p", text: "Un contrôle par éthylotest n\'est licite que si le règlement intérieur le prévoit explicitement, pour des postes de sûreté ou de sécurité clairement identifiés — conduite de véhicules, travail en hauteur, conduite d\'engins, manipulation de produits dangereux. Le salarié doit pouvoir demander une contre-expertise immédiate. Un dépistage généralisé, sans lien avec un poste à risque, expose l\'employeur à un contentieux." },
+      { type: "p", text: "Un contrôle par éthylotest n\'est licite que si le règlement intérieur le prévoit explicitement, pour des postes de sûreté ou de sécurité clairement identifiés : conduite de véhicules, travail en hauteur, conduite d\'engins, manipulation de produits dangereux. Le salarié doit pouvoir demander une contre-expertise immédiate. Un dépistage généralisé, sans lien avec un poste à risque, expose l\'employeur à un contentieux." },
       { type: "h2", text: "Et pour les drogues et autres substances psychoactives ?" },
       { type: "p", text: "Le Code du travail ne prévoit pas de disposition aussi détaillée que pour l\'alcool. C\'est l\'obligation générale de sécurité de l\'article L.4121-1 qui s\'applique : l\'employeur doit prévenir tout risque, y compris celui lié à la consommation de substances altérant la vigilance. Le règlement intérieur peut fixer des règles, à condition qu\'elles restent proportionnées au but recherché et non discriminatoires." },
       { type: "h2", text: "Prévenir plutôt que seulement sanctionner" },
@@ -5264,7 +5264,7 @@ export const articles: Record<string, Article> = {
     readingTime: 5,
     image: "/images/articles/travail-sur-ecran-obligations-employeur-prevention.jpg",
     content: [
-      { type: "p", text: "Ordinateur toute la journée, double écran, visioconférences enchaînées : le travail de bureau s\'est largement transformé en travail sur écran. Cette réalité n\'est pas neutre pour la santé des salariés — fatigue visuelle, tensions cervicales, troubles musculo-squelettiques. Le Code du travail encadre spécifiquement ces postes depuis 2008, avec des obligations précises pour l\'employeur. Voici ce qu\'un RH, un manager ou un préventeur doit connaître pour sécuriser ces situations, très fréquentes mais souvent négligées dans le document unique." },
+      { type: "p", text: "Ordinateur toute la journée, double écran, visioconférences enchaînées : le travail de bureau s\'est largement transformé en travail sur écran. Cette réalité n\'est pas neutre pour la santé des salariés : fatigue visuelle, tensions cervicales, troubles musculo-squelettiques. Le Code du travail encadre spécifiquement ces postes depuis 2008, avec des obligations précises pour l\'employeur. Voici ce qu\'un RH, un manager ou un préventeur doit connaître pour sécuriser ces situations, très fréquentes mais souvent négligées dans le document unique." },
       { type: "h2", text: "Un cadre juridique dédié aux écrans de visualisation" },
       { type: "p", text: "Les articles R.4542-1 à R.4542-19 du Code du travail s\'appliquent à tout salarié utilisant habituellement un écran de visualisation pour une part non négligeable de son travail normal. Sont exclus les postes de conduite de véhicules ou d\'engins, les systèmes embarqués et les appareils dotés d\'un simple afficheur de données. Pour les autres salariés de bureau, ce cadre s\'ajoute à l\'obligation générale de prévention posée par l\'article L.4121-1." },
       { type: "h2", text: "Évaluer les risques de chaque poste de travail" },
@@ -5280,7 +5280,7 @@ export const articles: Record<string, Article> = {
       { type: "h3", text: "Un suivi médical centré sur la vue" },
       { type: "p", text: "Un salarié ne peut être affecté à un poste sur écran qu\'après un examen approprié des yeux et de la vue, réalisé dans le cadre de sa visite d\'information et de prévention. Si les résultats le justifient, l\'article R.4542-17 prévoit un examen ophtalmologique complémentaire prescrit par le médecin du travail. Ce suivi doit être anticipé, pas découvert au moment d\'une plainte du salarié." },
       { type: "h2", text: "Informer et former avant la prise de poste" },
-      { type: "p", text: "L\'article R.4542-16 impose à l\'employeur d\'assurer l\'information et la formation des travailleurs sur les modalités d\'utilisation de l\'écran et de l\'équipement de travail. Cette formation doit intervenir avant la première affectation au poste, puis à chaque modification substantielle de son organisation — par exemple lors d\'un changement de matériel ou de configuration du bureau." },
+      { type: "p", text: "L\'article R.4542-16 impose à l\'employeur d\'assurer l\'information et la formation des travailleurs sur les modalités d\'utilisation de l\'écran et de l\'équipement de travail. Cette formation doit intervenir avant la première affectation au poste, puis à chaque modification substantielle de son organisation, par exemple lors d\'un changement de matériel ou de configuration du bureau." },
       { type: "p", text: "Référence officielle : articles R.4542-1, R.4542-3, R.4542-4, R.4542-16 et R.4542-17 du Code du travail." },
       { type: "cta", text: "Pour intégrer ces obligations à votre document unique,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
