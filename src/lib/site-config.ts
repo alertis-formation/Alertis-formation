@@ -14,6 +14,8 @@ export const siteConfig = {
   url: "https://alertisformation.com",
   contact: {
     email: "contact@alertis.fr",
+    /** Référent handicap (page accessibilité). */
+    handicapEmail: "psh@alertis.fr",
     phone: "04 78 90 46 30",
     phoneE164: "+33478904630",
     address: {

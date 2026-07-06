@@ -215,10 +215,10 @@ export default function AccessibiliteHandicapPage() {
                   E-mail
                 </div>
                 <a
-                  href={`mailto:${siteConfig.contact.email}?subject=Accessibilité%20et%20handicap`}
+                  href={`mailto:${siteConfig.contact.handicapEmail}?subject=Accessibilité%20et%20handicap`}
                   className="text-white font-semibold hover:text-[color:var(--brand-mint)] transition-colors break-all"
                 >
-                  {siteConfig.contact.email}
+                  {siteConfig.contact.handicapEmail}
                 </a>
               </div>
             </li>
@@ -446,7 +446,7 @@ export default function AccessibiliteHandicapPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a
-              href={`mailto:${siteConfig.contact.email}?subject=Accessibilité%20et%20handicap`}
+              href={`mailto:${siteConfig.contact.handicapEmail}?subject=Accessibilité%20et%20handicap`}
               className="inline-flex items-center gap-1.5 rounded-lg bg-[color:var(--brand-red)] text-white px-5 py-2.5 text-sm font-semibold uppercase tracking-wider hover:bg-[color:var(--brand-red-dark)] transition-colors"
             >
               Écrire au référent
