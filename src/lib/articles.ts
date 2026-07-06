@@ -100,6 +100,7 @@ export const articleSlugs = [
   "alcool-drogues-travail-obligations-employeur-prevention",
   "harcelement-moral-sexuel-travail-obligations-employeur",
   "teletravail-obligations-employeur-sante-securite",
+  "travail-sur-ecran-obligations-employeur-prevention",
 ] as const;
 
 /**
@@ -5253,6 +5254,35 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : articles L.1222-9, L.1222-10 et L.4121-1 du Code du travail ; accord national interprofessionnel du 26 novembre 2020 relatif à la mise en œuvre du télétravail." },
       { type: "cta", text: "Pour outiller vos managers sur le cadre juridique du télétravail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "travail-sur-ecran-obligations-employeur-prevention": {
+    title: "Travail sur écran : quelles obligations de prévention pour l\'employeur ?",
+    excerpt: "Le travail sur écran expose à la fatigue visuelle et aux troubles musculo-squelettiques. Le Code du travail impose une évaluation des risques, des pauses régulières et un suivi médical adapté.",
+    publishedAt: "2026-07-06",
+    category: "Ergonomie",
+    readingTime: 5,
+    image: "/images/articles/travail-sur-ecran-obligations-employeur-prevention.jpg",
+    content: [
+      { type: "p", text: "Ordinateur toute la journée, double écran, visioconférences enchaînées : le travail de bureau s\'est largement transformé en travail sur écran. Cette réalité n\'est pas neutre pour la santé des salariés — fatigue visuelle, tensions cervicales, troubles musculo-squelettiques. Le Code du travail encadre spécifiquement ces postes depuis 2008, avec des obligations précises pour l\'employeur. Voici ce qu\'un RH, un manager ou un préventeur doit connaître pour sécuriser ces situations, très fréquentes mais souvent négligées dans le document unique." },
+      { type: "h2", text: "Un cadre juridique dédié aux écrans de visualisation" },
+      { type: "p", text: "Les articles R.4542-1 à R.4542-19 du Code du travail s\'appliquent à tout salarié utilisant habituellement un écran de visualisation pour une part non négligeable de son travail normal. Sont exclus les postes de conduite de véhicules ou d\'engins, les systèmes embarqués et les appareils dotés d\'un simple afficheur de données. Pour les autres salariés de bureau, ce cadre s\'ajoute à l\'obligation générale de prévention posée par l\'article L.4121-1." },
+      { type: "h2", text: "Évaluer les risques de chaque poste de travail" },
+      { type: "p", text: "L\'article R.4542-3 impose à l\'employeur d\'analyser les conditions de travail pour déterminer les risques du poste, puis de prendre les mesures nécessaires pour y remédier. Cette analyse a vocation à rejoindre le document unique d\'évaluation des risques professionnels, et doit être reprise à chaque changement significatif d\'organisation ou d\'aménagement du poste." },
+      { type: "ul", items: [
+        "hauteur et inclinaison de l\'écran, réglées pour éviter une flexion prolongée de la nuque ;",
+        "éclairage et position de l\'écran par rapport aux fenêtres, pour limiter reflets et éblouissements ;",
+        "mobilier réglable : siège, hauteur de plan de travail, repose-pieds si nécessaire ;",
+        "disposition clavier-souris-écran permettant des appuis naturels des avant-bras.",
+      ]},
+      { type: "h2", text: "Des pauses obligatoires, pas une option de confort" },
+      { type: "p", text: "L\'article R.4542-4 impose à l\'employeur d\'organiser l\'activité du salarié de manière à ce que son temps de travail quotidien sur écran soit périodiquement interrompu par des pauses ou par des changements d\'activité qui réduisent la charge de travail devant l\'écran. Cette obligation ne dépend pas de la bonne volonté du salarié : elle relève de l\'organisation du poste, décidée par l\'employeur ou le manager." },
+      { type: "h3", text: "Un suivi médical centré sur la vue" },
+      { type: "p", text: "Un salarié ne peut être affecté à un poste sur écran qu\'après un examen approprié des yeux et de la vue, réalisé dans le cadre de sa visite d\'information et de prévention. Si les résultats le justifient, l\'article R.4542-17 prévoit un examen ophtalmologique complémentaire prescrit par le médecin du travail. Ce suivi doit être anticipé, pas découvert au moment d\'une plainte du salarié." },
+      { type: "h2", text: "Informer et former avant la prise de poste" },
+      { type: "p", text: "L\'article R.4542-16 impose à l\'employeur d\'assurer l\'information et la formation des travailleurs sur les modalités d\'utilisation de l\'écran et de l\'équipement de travail. Cette formation doit intervenir avant la première affectation au poste, puis à chaque modification substantielle de son organisation — par exemple lors d\'un changement de matériel ou de configuration du bureau." },
+      { type: "p", text: "Référence officielle : articles R.4542-1, R.4542-3, R.4542-4, R.4542-16 et R.4542-17 du Code du travail." },
+      { type: "cta", text: "Pour intégrer ces obligations à votre document unique,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
