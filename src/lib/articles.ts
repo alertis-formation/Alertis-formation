@@ -101,6 +101,7 @@ export const articleSlugs = [
   "harcelement-moral-sexuel-travail-obligations-employeur",
   "teletravail-obligations-employeur-sante-securite",
   "travail-sur-ecran-obligations-employeur-prevention",
+  "salarie-handicap-obligations-employeur-amenagement-poste",
 ] as const;
 
 /**
@@ -5283,6 +5284,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article R.4542-16 impose à l\'employeur d\'assurer l\'information et la formation des travailleurs sur les modalités d\'utilisation de l\'écran et de l\'équipement de travail. Cette formation doit intervenir avant la première affectation au poste, puis à chaque modification substantielle de son organisation, par exemple lors d\'un changement de matériel ou de configuration du bureau." },
       { type: "p", text: "Référence officielle : articles R.4542-1, R.4542-3, R.4542-4, R.4542-16 et R.4542-17 du Code du travail." },
       { type: "cta", text: "Pour intégrer ces obligations à votre document unique,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "salarie-handicap-obligations-employeur-amenagement-poste": {
+    title: "Salarié en situation de handicap : les obligations de l\'employeur pour aménager le poste",
+    excerpt: "Quota d\'emploi, aménagement du poste, rôle du médecin du travail, référent handicap : ces obligations légales envers un salarié en situation de handicap restent souvent mal appliquées en entreprise.",
+    publishedAt: "2026-07-07",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/salarie-handicap-obligations-employeur-amenagement-poste.jpg",
+    content: [
+      { type: "p", text: "Recruter ou maintenir dans l\'emploi un salarié en situation de handicap engage l\'employeur sur un plan réglementaire précis, pas seulement moral. Quota d\'emploi, aménagement du poste, rôle du médecin du travail, référent handicap : ces obligations sont anciennes, mais leur application concrète reste mal connue dans beaucoup d\'entreprises." },
+      { type: "h2", text: "L\'obligation d\'emploi des travailleurs handicapés" },
+      { type: "p", text: "Toute entreprise d\'au moins 20 salariés doit employer des travailleurs handicapés à hauteur de 6% de son effectif, en application de L.5212-2. Ce taux peut être atteint par l\'embauche directe, l\'accueil de stagiaires, la sous-traitance auprès du secteur adapté ou protégé, ou une combinaison de ces leviers. À défaut, l\'entreprise verse une contribution annuelle à l\'Agefiph, calculée sur l\'écart entre l\'effectif employé et le seuil légal." },
+      { type: "h2", text: "Aménager le poste : une obligation individuelle" },
+      { type: "p", text: "Au-delà du quota collectif, L.5213-6 impose une obligation individuelle : l\'employeur doit prendre les mesures appropriées pour permettre à un travailleur handicapé d\'accéder à un emploi, de l\'exercer ou d\'y progresser, sauf si ces mesures représentent une charge disproportionnée. Refuser un aménagement sans justification expose l\'employeur à un risque de discrimination." },
+      { type: "ul", items: [
+        "adaptation du poste physique : mobilier ergonomique, hauteur du plan de travail, éclairage, accès aux locaux ;",
+        "aménagement des horaires ou du rythme de travail, notamment pour des traitements médicaux réguliers ;",
+        "recours ponctuel au télétravail lorsque le poste le permet ;",
+        "aide humaine ou technique : interprète, logiciel adapté, matériel spécifique financé en partie par l\'Agefiph.",
+      ]},
+      { type: "h2", text: "Le médecin du travail, pivot de l\'adaptation du poste" },
+      { type: "p", text: "Le médecin du travail joue un rôle central. En application de L.4624-3, il peut proposer des mesures individuelles telles que mutation, transformation de poste ou aménagement du temps de travail, justifiées par des considérations relatives à l\'état de santé du salarié. L\'employeur prend en compte ces propositions et, s\'il ne peut y donner suite, motive son refus par écrit." },
+      { type: "h2", text: "Le référent handicap, obligatoire à partir de 250 salariés" },
+      { type: "p", text: "Depuis la loi Avenir professionnel, L.5213-6-1 impose aux entreprises d\'au moins 250 salariés de désigner un référent handicap. Sa mission : informer et accompagner les travailleurs handicapés, coordonner les démarches d\'aménagement avec le service de santé au travail, et faire le lien avec l\'Agefiph ou Cap emploi pour mobiliser les aides disponibles." },
+      { type: "quote", text: "Un poste aménagé à temps n\'est pas une faveur accordée au salarié : c\'est une obligation légale qui, correctement anticipée, coûte souvent moins cher qu\'un contentieux pour discrimination." },
+      { type: "ul", items: [
+        "vérifier le taux d\'emploi de travailleurs handicapés et anticiper la contribution Agefiph si le seuil n\'est pas atteint ;",
+        "associer le médecin du travail dès qu\'un aménagement de poste est envisagé, y compris avant la reprise après un arrêt ;",
+        "désigner un référent handicap si l\'effectif atteint 250 salariés et communiquer ses coordonnées en interne ;",
+        "mobiliser les aides financières de l\'Agefiph pour le matériel, les études ergonomiques ou la formation adaptée.",
+      ]},
+      { type: "p", text: "Anticiper ces obligations dès le recrutement évite bien des tensions. Un poste pensé pour être adaptable, un dialogue régulier avec le salarié concerné et une coordination précoce avec le médecin du travail limitent les ruptures de parcours professionnel liées au handicap." },
+      { type: "p", text: "Référence officielle : articles L.5212-2, L.5213-6, L.5213-6-1 et L.4624-3 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à l\'accueil et à l\'accompagnement des salariés en situation de handicap,", label: "consultez notre catalogue de formations", href: "/formations" },
     ],
   },
 };
