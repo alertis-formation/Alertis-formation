@@ -102,6 +102,7 @@ export const articleSlugs = [
   "teletravail-obligations-employeur-sante-securite",
   "travail-sur-ecran-obligations-employeur-prevention",
   "salarie-handicap-obligations-employeur-amenagement-poste",
+  "local-restauration-entreprise-obligations-employeur",
 ] as const;
 
 /**
@@ -5319,6 +5320,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Anticiper ces obligations dès le recrutement évite bien des tensions. Un poste pensé pour être adaptable, un dialogue régulier avec le salarié concerné et une coordination précoce avec le médecin du travail limitent les ruptures de parcours professionnel liées au handicap." },
       { type: "p", text: "Référence officielle : articles L.5212-2, L.5213-6, L.5213-6-1 et L.4624-3 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à l\'accueil et à l\'accompagnement des salariés en situation de handicap,", label: "consultez notre catalogue de formations", href: "/formations" },
+    ],
+  },
+  "local-restauration-entreprise-obligations-employeur": {
+    title: "Local de restauration en entreprise : quelles obligations pour l\'employeur ?",
+    excerpt: "Au-delà de 25 salariés qui déjeunent sur site, l\'employeur doit aménager un local de restauration équipé et consulter le CSE. En dessous de ce seuil, une obligation allégée s\'applique malgré tout.",
+    publishedAt: "2026-07-08",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/local-restauration-entreprise-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Beaucoup de salariés déjeunent sur leur lieu de travail, à leur bureau, dans un atelier ou dans une salle improvisée. Cette pratique paraît anodine, mais le Code du travail l\'encadre précisément. À partir d\'un certain effectif, l\'employeur doit aménager un véritable local de restauration, équipé et entretenu selon des règles précises. En dessous de ce seuil, une obligation existe malgré tout. Voici ce qu\'un RH ou un dirigeant doit vérifier avant que l\'inspection du travail ne le fasse à sa place." },
+      { type: "h2", text: "Le principe : repas interdits dans les locaux de travail" },
+      { type: "p", text: "L\'article R.4228-19 du Code du travail pose une interdiction claire : il est interdit de laisser les travailleurs prendre leurs repas dans les locaux affectés au travail. Cette règle protège la santé des salariés, qui ne doivent pas manger dans un environnement exposé à des poussières, des produits chimiques ou des agents biologiques, mais aussi la propreté des postes de travail eux-mêmes." },
+      { type: "h2", text: "Un local dédié à partir de 25 salariés" },
+      { type: "p", text: "L\'article R.4228-22 fixe le seuil qui déclenche l\'obligation d\'un local dédié : dès que 25 salariés au moins souhaitent habituellement prendre leur repas sur le site, l\'employeur doit, après avis du comité social et économique, mettre à leur disposition un local de restauration. Cet avis du CSE n\'est pas une formalité facultative : il doit précéder l\'aménagement, pas simplement l\'accompagner." },
+      { type: "ul", items: [
+        "des sièges et des tables en nombre suffisant pour l\'effectif concerné ;",
+        "un robinet d\'eau potable, fraîche et chaude, pour 10 travailleurs ;",
+        "un moyen de conservation ou de réfrigération des aliments et des boissons ;",
+        "une installation permettant de réchauffer les plats.",
+      ]},
+      { type: "h3", text: "En dessous de 25 salariés, une obligation allégée mais réelle" },
+      { type: "p", text: "Quand l\'effectif qui déjeune sur place reste inférieur à 25, l\'employeur n\'échappe pas pour autant à toute obligation. Il doit mettre à disposition un emplacement permettant aux salariés de se restaurer dans de bonnes conditions d\'hygiène et de sécurité. Cet emplacement n\'a pas besoin d\'atteindre le niveau d\'équipement du local de restauration, mais il doit rester distinct des postes de travail exposés à des risques." },
+      { type: "quote", text: "Laisser un salarié manger sur un poste exposé à des produits chimiques ou à des poussières n\'est jamais anodin : c\'est un manquement à l\'obligation générale de prévention, bien avant d\'être un simple manque de confort." },
+      { type: "h2", text: "Entretien, ventilation et suivi dans la durée" },
+      { type: "p", text: "Le local de restauration doit rester propre et correctement ventilé, au même titre que tout local affecté au travail. Un entretien négligé transforme rapidement un avantage social en risque sanitaire : moisissures, nuisibles, mauvaise conservation des aliments. Le sujet mérite d\'être suivi dans la durée, pas seulement au moment de l\'aménagement initial." },
+      { type: "ul", items: [
+        "vérifier le nombre de salariés qui déjeunent habituellement sur site pour situer l\'entreprise par rapport au seuil de 25 ;",
+        "consulter le CSE avant tout aménagement ou réaménagement du local de restauration ;",
+        "contrôler que l\'équipement (sièges, point d\'eau, réfrigération, réchauffage) reste complet et fonctionnel ;",
+        "planifier l\'entretien régulier du local au même titre que les autres locaux sociaux de l\'entreprise.",
+      ]},
+      { type: "p", text: "Référence officielle : articles R.4228-19, R.4228-22 et R.4228-23 du Code du travail." },
+      { type: "cta", text: "Pour intégrer ces obligations à votre document unique et former vos équipes RH,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
