@@ -103,6 +103,7 @@ export const articleSlugs = [
   "travail-sur-ecran-obligations-employeur-prevention",
   "salarie-handicap-obligations-employeur-amenagement-poste",
   "local-restauration-entreprise-obligations-employeur",
+  "femme-enceinte-travail-postes-interdits-amenagement-employeur",
 ] as const;
 
 /**
@@ -5354,6 +5355,40 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : articles R.4228-19, R.4228-22 et R.4228-23 du Code du travail." },
       { type: "cta", text: "Pour intégrer ces obligations à votre document unique et former vos équipes RH,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "femme-enceinte-travail-postes-interdits-amenagement-employeur": {
+    title: "Femme enceinte au travail : postes interdits, aménagements et protections légales",
+    excerpt: "Certains postes sont interdits à la salariée enceinte, d\'autres nécessitent un aménagement temporaire. Examens médicaux rémunérés, reclassement, protection contre le licenciement : les obligations de l\'employeur.",
+    publishedAt: "2026-07-09",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/femme-enceinte-travail-postes-interdits-amenagement-employeur.jpg",
+    content: [
+      { type: "p", text: "La grossesse d\'une salariée déclenche plusieurs obligations pour l\'employeur, distinctes de la simple bienveillance. Certains postes deviennent interdits, d\'autres doivent être aménagés temporairement, et le contrat de travail bénéficie d\'une protection renforcée contre le licenciement. Ces règles, précises et anciennes, restent pourtant mal connues des services RH, souvent découvertes au moment même où une salariée annonce sa grossesse." },
+      { type: "h2", text: "Des postes interdits pendant la grossesse" },
+      { type: "p", text: "L\'article L.4152-1 du Code du travail interdit d\'affecter une salariée enceinte à certains travaux dangereux : exposition à des agents chimiques cancérogènes, mutagènes ou toxiques pour la reproduction, à des rayonnements ionisants au-delà de seuils précis, à certains agents biologiques pathogènes ou à des travaux en milieu hyperbare. L\'employeur doit identifier ces postes en amont dans le document unique, avant même qu\'une grossesse ne soit déclarée." },
+      { type: "h2", text: "Le changement temporaire d\'affectation et le travail de nuit" },
+      { type: "p", text: "Quand un poste s\'avère incompatible avec l\'état de grossesse, sur avis du médecin du travail ou à la demande de la salariée elle-même, l\'employeur propose une affectation temporaire dans un autre emploi, sans diminution de rémunération, en application de L.1225-12. La salariée qui travaille de nuit bénéficie d\'un droit similaire : elle peut demander un poste de jour pendant la grossesse et jusqu\'à son retour de congé postnatal, conformément à L.1225-9. Si aucun reclassement n\'est possible, le contrat est suspendu avec maintien de salaire." },
+      { type: "ul", items: [
+        "vérifier dès la déclaration de grossesse si le poste occupé figure parmi les travaux interdits ou à risque identifiés dans le document unique ;",
+        "solliciter le médecin du travail avant toute décision de reclassement, y compris en cas de demande émanant de la salariée elle-même ;",
+        "formaliser par écrit l\'affectation temporaire, sa durée prévisible et le maintien de la rémunération antérieure ;",
+      ]},
+      { type: "h2", text: "Les examens médicaux, un temps rémunéré" },
+      { type: "p", text: "La salariée enceinte bénéficie d\'une autorisation d\'absence pour se rendre aux examens médicaux obligatoires liés au suivi de la grossesse, sans que cela n\'entraîne de diminution de rémunération, en application de L.1225-16. Ce temps est assimilé à du temps de travail effectif pour le calcul des congés payés et de l\'ancienneté. Le conjoint, le partenaire de Pacs ou le concubin peut également s\'absenter pour accompagner la salariée à trois de ces examens." },
+      { type: "h2", text: "Protection contre le licenciement" },
+      { type: "p", text: "Le licenciement d\'une salariée est interdit pendant toute la durée de la grossesse médicalement constatée, pendant le congé de maternité, ainsi que pendant les dix semaines suivant son retour dans l\'entreprise, en application de L.1225-4. Cette protection cède uniquement en cas de faute grave sans lien avec la grossesse, ou d\'impossibilité de maintenir le contrat pour un motif totalement étranger à celle-ci, motif que l\'employeur doit être en mesure de justifier précisément." },
+      { type: "quote", text: "Un poste aménagé ou un reclassement temporaire n\'est pas un geste de bienveillance facultatif : c\'est une obligation légale, et son absence expose l\'employeur à un contentieux pour discrimination bien plus coûteux qu\'un aménagement anticipé." },
+      { type: "ul", items: [
+        "recenser les postes exposant à des agents chimiques, biologiques ou à des rayonnements pour anticiper les reclassements ;",
+        "informer les salariées de leur droit à un poste de jour en cas de travail de nuit pendant la grossesse ;",
+        "tracer par écrit les autorisations d\'absence pour examens médicaux et leur maintien de rémunération ;",
+        "vérifier la protection contre le licenciement avant toute procédure engagée pendant ou après une grossesse.",
+      ]},
+      { type: "p", text: "Ces obligations ne s\'arrêtent pas à l\'accouchement. Le congé de maternité, le droit à un poste de jour post-partum ou la protection contre le licenciement se prolongent parfois plusieurs semaines après le retour de la salariée. Anticiper ces échéances, plutôt que de les découvrir au fil de l\'eau, évite des tensions évitables entre service RH et salariée concernée." },
+      { type: "p", text: "Référence officielle : articles L.1225-4, L.1225-9, L.1225-12, L.1225-16 et L.4152-1 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes RH et managers à ces obligations,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
