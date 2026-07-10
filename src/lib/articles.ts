@@ -104,6 +104,7 @@ export const articleSlugs = [
   "salarie-handicap-obligations-employeur-amenagement-poste",
   "local-restauration-entreprise-obligations-employeur",
   "femme-enceinte-travail-postes-interdits-amenagement-employeur",
+  "desenfumage-obligations-locaux-travail-naturel-mecanique",
 ] as const;
 
 /**
@@ -5389,6 +5390,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Ces obligations ne s\'arrêtent pas à l\'accouchement. Le congé de maternité, le droit à un poste de jour post-partum ou la protection contre le licenciement se prolongent parfois plusieurs semaines après le retour de la salariée. Anticiper ces échéances, plutôt que de les découvrir au fil de l\'eau, évite des tensions évitables entre service RH et salariée concernée." },
       { type: "p", text: "Référence officielle : articles L.1225-4, L.1225-9, L.1225-12, L.1225-16 et L.4152-1 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes RH et managers à ces obligations,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "desenfumage-obligations-locaux-travail-naturel-mecanique": {
+    title: "Désenfumage des locaux de travail : quand et comment l\'installer",
+    excerpt: "Au-delà de certains seuils de surface, un local doit être équipé d\'un dispositif de désenfumage naturel ou mécanique. Le Code du travail fixe les seuils, les débits d\'extraction et les règles de vérification à respecter.",
+    publishedAt: "2026-07-10",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/desenfumage-obligations-locaux-travail-naturel-mecanique.jpg",
+    content: [
+      { type: "p", text: "En cas d\'incendie, la majorité des victimes ne meurent pas brûlées mais asphyxiées ou intoxiquées par les fumées, souvent avant même l\'arrivée des secours. Le désenfumage consiste à évacuer ces fumées hors des locaux et à maintenir les issues praticables. Ce n\'est pas un équipement optionnel réservé aux grands sites industriels : le Code du travail impose son installation dès que certains seuils de surface sont atteints." },
+      { type: "h2", text: "Évacuer la fumée sauve plus de vies que combattre les flammes" },
+      { type: "p", text: "La fumée d\'un incendie contient des gaz toxiques, réduit fortement la visibilité et se propage souvent plus vite que le feu lui-même le long des couloirs et des cages d\'escalier. Un dispositif de désenfumage limite son accumulation, maintient une couche d\'air respirable en partie basse et facilite à la fois l\'évacuation des occupants et l\'intervention des secours. Sans ce dispositif, une cage d\'escalier peut devenir impraticable en quelques minutes." },
+      { type: "h2", text: "Les locaux concernés par l\'obligation de désenfumage" },
+      { type: "ul", items: [
+        "les locaux de plus de 300 m² situés en rez-de-chaussée ou en étage ;",
+        "les locaux aveugles ou situés en sous-sol de plus de 100 m² ;",
+        "tous les escaliers, quelle que soit la surface des locaux qu\'ils desservent.",
+      ]},
+      { type: "h2", text: "Désenfumage naturel ou désenfumage mécanique" },
+      { type: "p", text: "Le désenfumage naturel repose sur des ouvertures en partie haute et en partie basse du local, communiquant directement avec l\'extérieur : les fumées s\'évacuent par le haut pendant que l\'air frais entre par le bas. L\'article R.4216-14 du Code du travail impose une surface d\'évacuation supérieure au centième de la superficie du local, avec un minimum d\'un mètre carré, et une règle identique pour les amenées d\'air. Chaque ouverture doit rester manœuvrable depuis le plancher." },
+      { type: "p", text: "Quand la configuration du bâtiment ne permet pas d\'ouvertures directes sur l\'extérieur, un système mécanique prend le relais : des extracteurs aspirent les fumées et les rejettent hors du bâtiment. L\'article R.4216-15 fixe le débit minimal à un mètre cube par seconde pour 100 mètres carrés de surface desservie. Ce calcul doit tenir compte de la configuration réelle du local, pas seulement de sa surface au sol." },
+      { type: "h3", text: "Des règles renforcées au-delà de huit mètres de hauteur" },
+      { type: "p", text: "Pour les bâtiments dont le plancher du dernier niveau dépasse huit mètres du sol, les articles R.4216-24 à R.4216-29 durcissent les exigences : l\'ensemble des compartiments doit être désenfumé, quelle que soit leur superficie, et les cages d\'escalier comme les gaines d\'ascenseur doivent être isolées par des parois coupe-feu ou ouvertes directement à l\'air libre. Ces bâtiments concentrent un risque d\'enfumage rapide sur plusieurs niveaux à la fois." },
+      { type: "h2", text: "Ce que l\'employeur doit vérifier dans la durée" },
+      { type: "ul", items: [
+        "vérifier que rien n\'obstrue durablement les exutoires, les grilles d\'amenée d\'air ou les commandes d\'ouverture ;",
+        "faire contrôler périodiquement le bon fonctionnement des dispositifs par un technicien qualifié ;",
+        "intégrer le désenfumage aux exercices d\'évacuation, en observant si les couloirs restent praticables ;",
+        "consigner les vérifications dans le registre de sécurité de l\'établissement.",
+      ]},
+      { type: "p", text: "Un désenfumage mal entretenu ou obstrué par du stockage perd toute son utilité au moment où il devient indispensable. Le sujet mérite d\'être intégré au document unique d\'évaluation des risques, au même titre que les extincteurs ou les issues de secours, et suivi dans la durée plutôt que vérifié une seule fois lors de la réception du bâtiment." },
+      { type: "p", text: "Référence officielle : articles R.4216-13, R.4216-14, R.4216-15, R.4216-16 et R.4216-24 à R.4216-29 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à la sécurité incendie et à la gestion des dispositifs de désenfumage,", label: "consultez notre page formation incendie", href: "/formations/incendie" },
     ],
   },
 };
