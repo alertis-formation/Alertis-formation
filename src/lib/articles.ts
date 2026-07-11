@@ -105,6 +105,7 @@ export const articleSlugs = [
   "local-restauration-entreprise-obligations-employeur",
   "femme-enceinte-travail-postes-interdits-amenagement-employeur",
   "desenfumage-obligations-locaux-travail-naturel-mecanique",
+  "risque-biologique-travail-agents-prevention-exposition",
 ] as const;
 
 /**
@@ -5424,6 +5425,46 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un désenfumage mal entretenu ou obstrué par du stockage perd toute son utilité au moment où il devient indispensable. Le sujet mérite d\'être intégré au document unique d\'évaluation des risques, au même titre que les extincteurs ou les issues de secours, et suivi dans la durée plutôt que vérifié une seule fois lors de la réception du bâtiment." },
       { type: "p", text: "Référence officielle : articles R.4216-13, R.4216-14, R.4216-15, R.4216-16 et R.4216-24 à R.4216-29 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à la sécurité incendie et à la gestion des dispositifs de désenfumage,", label: "consultez notre page formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "risque-biologique-travail-agents-prevention-exposition": {
+    title: "Risque biologique au travail : identifier les expositions et prévenir la contamination",
+    excerpt: "Secteurs du soin, gestion des déchets, agroalimentaire, agriculture : de nombreux salariés sont exposés à des agents biologiques. Comment évaluer ce risque et le prévenir efficacement au quotidien.",
+    publishedAt: "2026-07-11",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/risque-biologique-travail-agents-prevention-exposition.jpg",
+    content: [
+      { type: "p", text: "Le risque biologique concerne toute exposition à des micro-organismes, virus, bactéries, champignons ou parasites susceptibles de provoquer une infection, une allergie ou une intoxication. Il ne se limite pas aux laboratoires ou aux hôpitaux : soignants, agents de collecte des déchets, salariés de l\'agroalimentaire, du secteur agricole ou de l\'assainissement y sont exposés au quotidien. L\'évaluation de ce risque s\'inscrit dans l\'obligation générale de sécurité de l\'employeur, posée par l\'article L.4121-1 du Code du travail." },
+      { type: "h2", text: "Quatre groupes d\'agents biologiques selon leur dangerosité" },
+      { type: "p", text: "Le Code du travail (articles R.4421-1 et suivants) classe les agents biologiques en quatre groupes, du moins au plus dangereux, selon leur pouvoir infectieux, leur capacité de propagation dans la collectivité et l\'existence d\'un traitement ou d\'une prophylaxie efficace. Le groupe 1 régit les agents sans risque de maladie chez l\'homme. Le groupe 4 couvre les agents les plus dangereux, à fort risque de propagation et sans traitement disponible. Cette classification structure directement le niveau de confinement et de protection à mettre en œuvre." },
+      { type: "ul", items: [
+        "le secteur du soin : hôpitaux, cliniques, EHPAD, laboratoires d\'analyses médicales ;",
+        "la collecte et le traitement des déchets, l\'assainissement et le nettoyage des réseaux d\'eaux usées ;",
+        "l\'agroalimentaire et l\'agriculture : élevage, abattage, travail du bois ou du cuir ;",
+        "les laboratoires de recherche et les activités de génie génétique.",
+      ]},
+      { type: "h2", text: "Les voies de contamination à connaître" },
+      { type: "p", text: "La contamination peut survenir par inhalation de poussières ou d\'aérosols contenant des micro-organismes, par contact cutané ou muqueux lors de la manipulation de matières contaminées, par ingestion accidentelle en cas d\'hygiène des mains insuffisante, ou par blessure avec un objet souillé. Le mode de transmission dominant dépend directement de l\'activité exercée et doit être identifié poste par poste dans le document unique." },
+      { type: "h3", text: "Le cas particulier des accidents d\'exposition au sang (AES)" },
+      { type: "p", text: "Un accident d\'exposition au sang désigne tout contact percutané, piqûre ou coupure, ou muqueux avec du sang ou un liquide biologique. La conduite à tenir immédiate combine le nettoyage de la plaie à l\'eau et au savon, une antisepsie prolongée, puis une consultation médicale en urgence pour évaluer le besoin d\'un traitement post-exposition. Chaque accident doit être déclaré comme accident du travail et analysé pour corriger la procédure." },
+      { type: "h2", text: "La hiérarchie des mesures de prévention" },
+      { type: "ul", items: [
+        "substituer l\'agent biologique dangereux par un agent moins nocif quand la nature de l\'activité le permet ;",
+        "réduire l\'exposition par le confinement, une ventilation adaptée et des procédures limitant la formation d\'aérosols ;",
+        "organiser le travail pour limiter le nombre de salariés exposés et la durée d\'exposition ;",
+        "appliquer des règles d\'hygiène strictes : interdiction de manger, boire ou fumer sur le poste, lavage systématique des mains, tenues de travail dédiées.",
+      ]},
+      { type: "p", text: "Pour certains postes exposés, la vaccination complète le dispositif de prévention. Les professionnels de santé sont notamment soumis à des obligations vaccinales précisées par l\'article L.3111-4 du Code de la santé publique. Au-delà de cette obligation, le médecin du travail peut recommander des vaccinations complémentaires selon les agents biologiques identifiés dans l\'évaluation des risques." },
+      { type: "h2", text: "Ce que l\'employeur doit documenter dans la durée" },
+      { type: "ul", items: [
+        "intégrer le risque biologique au document unique d\'évaluation des risques, poste par poste ;",
+        "formaliser un protocole écrit de conduite à tenir en cas d\'accident d\'exposition ;",
+        "assurer le suivi individuel renforcé de l\'état de santé des salariés exposés, en lien avec le médecin du travail ;",
+        "tracer les expositions dans la durée, y compris après un changement de poste ou un départ de l\'entreprise.",
+      ]},
+      { type: "p", text: "Référence officielle : articles L.4121-1 et R.4421-1 et suivants du Code du travail, article L.3111-4 du Code de la santé publique." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques biologiques et aux gestes qui protègent en cas d\'accident d\'exposition,", label: "consultez notre page formation SST", href: "/formations/sst" },
     ],
   },
 };
