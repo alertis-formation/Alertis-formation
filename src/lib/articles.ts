@@ -106,6 +106,7 @@ export const articleSlugs = [
   "femme-enceinte-travail-postes-interdits-amenagement-employeur",
   "desenfumage-obligations-locaux-travail-naturel-mecanique",
   "risque-biologique-travail-agents-prevention-exposition",
+  "jeunes-travailleurs-mineurs-stagiaires-travaux-interdits-reglementes",
 ] as const;
 
 /**
@@ -5465,6 +5466,40 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : articles L.4121-1 et R.4421-1 et suivants du Code du travail, article L.3111-4 du Code de la santé publique." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques biologiques et aux gestes qui protègent en cas d\'accident d\'exposition,", label: "consultez notre page formation SST", href: "/formations/sst" },
+    ],
+  },
+  "jeunes-travailleurs-mineurs-stagiaires-travaux-interdits-reglementes": {
+    title: "Jeunes travailleurs mineurs : travaux interdits et dérogations possibles",
+    excerpt: "Stagiaires, apprentis ou jeunes salariés de moins de 18 ans : le Code du travail distingue travaux interdits et travaux réglementés soumis à déclaration de dérogation. Le point sur les règles à respecter.",
+    publishedAt: "2026-07-12",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/jeunes-travailleurs-mineurs-stagiaires-travaux-interdits-reglementes.jpg",
+    content: [
+      { type: "p", text: "Un stagiaire de troisième, un apprenti en CAP ou un jeune salarié en contrat de professionnalisation partage le même statut au regard du droit du travail dès lors qu\'il a moins de 18 ans. Le Code du travail encadre strictement les tâches qui peuvent lui être confiées, avec une liste de travaux interdits et une liste de travaux réglementés soumis à dérogation. Ignorer ce cadre expose l\'entreprise à des sanctions et le jeune à un risque réel." },
+      { type: "h2", text: "Un principe d\'interdiction, sauf dérogation encadrée" },
+      { type: "p", text: "L\'article L.4153-8 du Code du travail pose le principe : il est interdit d\'affecter un jeune travailleur de moins de 18 ans à des travaux qui l\'exposent à des risques pour sa santé, sa sécurité ou son développement. Les articles D.4153-15 à D.4153-37 détaillent cette liste, en distinguant les travaux strictement interdits, sans dérogation possible, et les travaux réglementés, susceptibles d\'être confiés à un jeune en formation professionnelle sous conditions." },
+      { type: "h2", text: "Des travaux interdits sans aucune dérogation possible" },
+      { type: "ul", items: [
+        "les travaux exposant à des actes ou représentations à caractère pornographique ou violent ;",
+        "l\'exposition à des agents biologiques des groupes 3 ou 4 ;",
+        "l\'exposition à des vibrations mécaniques au-delà des valeurs limites fixées pour les adultes ;",
+        "les travaux en milieu hyperbare, hors interventions de classe 0 ;",
+        "l\'exposition à des rayonnements ionisants nécessitant un classement en catégorie A ou B.",
+      ]},
+      { type: "h2", text: "Des travaux réglementés, ouverts sous conditions à la formation professionnelle" },
+      { type: "p", text: "D\'autres travaux restent en principe interdits mais peuvent être confiés à un apprenti ou un stagiaire de la voie professionnelle par dérogation. C\'est le cas de la conduite d\'équipements de travail mobiles automoteurs ou d\'équipements de levage, de l\'utilisation de certaines machines comportant des éléments mobiles dangereux, du travail en hauteur dès lors que la prévention des chutes est assurée par des protections collectives, ou encore de l\'exposition à des agents chimiques dangereux." },
+      { type: "h3", text: "Le régime de la déclaration, depuis le décret du 17 avril 2015" },
+      { type: "p", text: "Depuis le décret n°2015-443 du 17 avril 2015, l\'employeur ou le chef d\'établissement de formation n\'a plus besoin d\'une autorisation préalable de l\'inspection du travail. Une simple déclaration de dérogation suffit, valable trois ans, sur le fondement de l\'article L.4153-9 et des articles R.4153-38 à R.4153-52 du Code du travail. Elle doit être renouvelée à chaque changement d\'établissement ou de formation." },
+      { type: "ul", items: [
+        "informer le jeune des risques liés à son poste et des mesures de prévention mises en place ;",
+        "désigner un encadrant compétent chargé de surveiller son activité en permanence ;",
+        "obtenir un avis d\'aptitude médicale du médecin du travail, valable un an ;",
+        "conserver la déclaration de dérogation et la tenir à disposition de l\'inspection du travail.",
+      ]},
+      { type: "quote", text: "Confier un travail réglementé à un jeune sans déclaration préalable n\'est pas une simplification administrative que l\'on peut s\'accorder : c\'est une infraction, qui expose l\'employeur comme le jeune lui-même." },
+      { type: "p", text: "Référence officielle : articles L.4153-8, L.4153-9, D.4153-15 à D.4153-37 et R.4153-38 à R.4153-52 du Code du travail, décret n°2015-443 du 17 avril 2015." },
+      { type: "cta", text: "Pour sécuriser l\'accueil de vos stagiaires et apprentis mineurs,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
