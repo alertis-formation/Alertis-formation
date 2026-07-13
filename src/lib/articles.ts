@@ -107,6 +107,8 @@ export const articleSlugs = [
   "desenfumage-obligations-locaux-travail-naturel-mecanique",
   "risque-biologique-travail-agents-prevention-exposition",
   "jeunes-travailleurs-mineurs-stagiaires-travaux-interdits-reglementes",
+  "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
+  "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
 ] as const;
 
 /**
@@ -139,6 +141,8 @@ export const veilleArticleSlugs = new Set<string>([
   "arrete-1-decembre-2025-erp-gaz-verification-pe4-pe10-juillet-2026",
   "plan-national-sante-travail-2026-2030-pst5-axes-prevention",
   "decret-2026-496-passeport-prevention-echeances-declarations",
+  "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
+  "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
 ]);
 
 export type ArticleBlock =
@@ -5500,6 +5504,55 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Confier un travail réglementé à un jeune sans déclaration préalable n\'est pas une simplification administrative que l\'on peut s\'accorder : c\'est une infraction, qui expose l\'employeur comme le jeune lui-même." },
       { type: "p", text: "Référence officielle : articles L.4153-8, L.4153-9, D.4153-15 à D.4153-37 et R.4153-38 à R.4153-52 du Code du travail, décret n°2015-443 du 17 avril 2015." },
       { type: "cta", text: "Pour sécuriser l\'accueil de vos stagiaires et apprentis mineurs,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours": {
+    title: "Premiers secours grand public : l\'arrêté du 7 juillet 2026 fixe des références techniques nationales",
+    excerpt: "Un arrêté du 7 juillet 2026 (NOR INTE2618304A) remplace les recommandations par des références techniques nationales opposables pour les formations GQS, PSC et PSE1/PSE2.",
+    publishedAt: "2026-07-11",
+    category: "Secourisme",
+    readingTime: 4,
+    image: "/formations/formation-psc-premiers-secours-citoyen.jpg",
+    content: [
+      { type: "p", text: "Un arrêté du 7 juillet 2026, publié au Journal officiel le 11 juillet 2026, change la nature juridique des règles pédagogiques utilisées pour les formations grand public aux premiers secours. Jusqu\'ici qualifiées de « recommandations », elles deviennent des « références techniques nationales » fixées par le ministère de l\'Intérieur, avec une portée opposable pour les organismes de formation habilités." },
+      { type: "h2", text: "Ce que change le texte" },
+      { type: "p", text: "L\'arrêté du 7 juillet 2026 (NOR INTE2618304A) structure ces références en trois annexes : l\'annexe 1 pour la sensibilisation Gestes Qui Sauvent (GQS), l\'annexe 2 pour le Premiers Secours Citoyen (PSC), l\'annexe 3 pour le Premiers Secours en Équipe de niveau 1 et 2 (PSE1/PSE2). Les articles 2 à 4 imposent leur usage exclusif pour dispenser ces formations. Les articles 5 et 6 étendent cette obligation à la pédagogie des formateurs (FPSC et FPSE)." },
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "ul", items: [
+        "Les organismes habilités à délivrer les formations GQS et PSC, dont le contenu pédagogique doit désormais s\'appuyer sur les annexes 1 et 2.",
+        "Les formateurs GQS et PSC (FPSC), tenus d\'actualiser leur pratique selon les mêmes références.",
+        "Les organismes délivrant du PSE1/PSE2 et leurs formateurs (FPSE), via les annexes 1 à 3.",
+        "L\'article 2 prévoit une marge d\'adaptation pédagogique pour la sensibilisation GQS, sous validation du ministère chargé de la sécurité civile.",
+      ]},
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "Pour un organisme proposant du GQS et du PSC, ce texte ne modifie pas dans l\'immédiat les gestes enseignés : il change leur statut juridique. Une fois les annexes techniques publiées par le ministère chargé de la sécurité civile (article 7 de l\'arrêté), les contenus pédagogiques diffusés en formation devront s\'y conformer strictement, et non plus s\'en inspirer comme de simples recommandations. Les équipes pédagogiques ont intérêt à suivre la publication de ces annexes pour ajuster leurs supports dès leur diffusion." },
+      { type: "p", text: "Référence officielle : arrêté du 7 juillet 2026 fixant les références techniques nationales dans le domaine de la formation aux premiers secours (NOR INTE2618304A), publié au Journal officiel du 11 juillet 2026, consultable sur Légifrance." },
+      { type: "cta", text: "Pour intégrer les dernières évolutions pédagogiques à vos sessions Gestes Qui Sauvent et Premiers Secours Citoyen,", href: "/formations-secourisme", label: "découvrez nos formations secourisme" },
+    ],
+  },
+  "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail": {
+    title: "Brochure INRS TJ 30 : les prérogatives du CSE et de la CSSCT actualisées en 2026",
+    excerpt: "L\'INRS publie l\'aide-mémoire juridique TJ 30, consacré aux prérogatives et missions du CSE et de la CSSCT en santé et sécurité au travail, mis en avant le 7 juillet 2026.",
+    publishedAt: "2026-07-07",
+    category: "Prévention",
+    readingTime: 4,
+    image: "/formations/formation-cse-chsct.png",
+    content: [
+      { type: "p", text: "L\'INRS publie l\'aide-mémoire juridique TJ 30 « Prérogatives et missions du CSE et de la CSSCT en matière de santé et sécurité au travail », mis en avant sur inrs.fr le 7 juillet 2026. Cette brochure de 52 pages rassemble en un seul document les droits et responsabilités du Comité Social et Économique et de sa Commission Santé, Sécurité et Conditions de Travail." },
+      { type: "h2", text: "Ce que couvre la brochure TJ 30" },
+      { type: "p", text: "L\'aide-mémoire détaille le cadre juridique des prérogatives du CSE et de la CSSCT en santé-sécurité : droit à l\'information, accès aux documents obligatoires de l\'entreprise, modalités de consultation sur le document unique d\'évaluation des risques professionnels (DUERP), et articulation entre les deux instances." },
+      { type: "ul", items: [
+        "Droit à l\'information et à la consultation du CSE sur les questions de santé, sécurité et conditions de travail.",
+        "Accès aux documents obligatoires : DUERP, registres de sécurité, bilans et programmes de prévention.",
+        "Mission de la CSSCT, commission du CSE dédiée à la santé-sécurité, et répartition des rôles entre les deux instances.",
+        "Modalités pratiques d\'exercice du mandat : inspections, enquêtes après accident, droit d\'alerte.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "L\'article L.2315-18 du Code du travail impose une formation santé-sécurité aux membres du CSE et de la CSSCT dès leur première désignation, renouvelée à chaque mandat. Cette brochure s\'adresse directement à ces représentants du personnel, ainsi qu\'aux employeurs et responsables prévention qui préparent ou animent ces échanges." },
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "Pour une formation CSE / CSSCT, la TJ 30 constitue un support de référence actualisé pour la partie juridique du programme : elle permet aux stagiaires de repartir avec une synthèse fiable de leurs prérogatives, complémentaire du travail sur le DUERP déjà couvert par la brochure INRS TJ 29. Les formateurs disposent ainsi de deux aide-mémoire juridiques cohérents pour structurer le volet réglementaire des sessions CSE." },
+      { type: "p", text: "Référence officielle : brochure INRS, aide-mémoire juridique TJ 30, « Prérogatives et missions du CSE et de la CSSCT en matière de santé et sécurité au travail », édition juin 2026. Disponible en téléchargement gratuit sur inrs.fr." },
+      { type: "cta", text: "Pour former les membres de votre CSE et de votre CSSCT à leurs prérogatives en santé et sécurité,", href: "/formations", label: "consultez notre catalogue de formations" },
     ],
   },
 };
