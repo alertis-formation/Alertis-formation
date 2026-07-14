@@ -109,6 +109,7 @@ export const articleSlugs = [
   "jeunes-travailleurs-mineurs-stagiaires-travaux-interdits-reglementes",
   "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
+  "traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir",
 ] as const;
 
 /**
@@ -5553,6 +5554,45 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Pour une formation CSE / CSSCT, la TJ 30 constitue un support de référence actualisé pour la partie juridique du programme : elle permet aux stagiaires de repartir avec une synthèse fiable de leurs prérogatives, complémentaire du travail sur le DUERP déjà couvert par la brochure INRS TJ 29. Les formateurs disposent ainsi de deux aide-mémoire juridiques cohérents pour structurer le volet réglementaire des sessions CSE." },
       { type: "p", text: "Référence officielle : brochure INRS, aide-mémoire juridique TJ 30, « Prérogatives et missions du CSE et de la CSSCT en matière de santé et sécurité au travail », édition juin 2026. Disponible en téléchargement gratuit sur inrs.fr." },
       { type: "cta", text: "Pour former les membres de votre CSE et de votre CSSCT à leurs prérogatives en santé et sécurité,", href: "/formations", label: "consultez notre catalogue de formations" },
+    ],
+  },
+  "traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir": {
+    title: "Traumatisme oculaire au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Projection chimique, corps étranger, choc direct : trois mécanismes de blessure oculaire imposent des gestes différents. Le point sur la conduite à tenir pour le SST et les signes qui imposent d\'appeler le 15.",
+    publishedAt: "2026-07-14",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir.jpg",
+    content: [
+      { type: "p", text: "Une projection de produit chimique, un éclat de métal ou un choc direct : les blessures oculaires touchent de nombreux postes de travail, de l\'atelier au laboratoire en passant par le chantier. Une lésion de la cornée ou de la rétine peut s\'installer en quelques secondes. La rapidité et la justesse du geste du Sauveteur Secouriste du Travail conditionnent directement le pronostic visuel de la victime." },
+      { type: "h2", text: "Trois mécanismes de blessure oculaire à distinguer" },
+      { type: "p", text: "Toutes les atteintes de l\'œil n\'appellent pas la même réponse. La projection chimique, avec un acide, une base ou un solvant, impose un rinçage immédiat et prolongé. Le corps étranger (poussière, éclat de métal ou de bois, particule de meulage) ne doit jamais être frotté ni retiré à la légère. Le choc direct, coup, projection d\'objet ou chute, peut provoquer une lésion interne invisible à l\'œil nu. Le SST identifie d\'abord le mécanisme en cause avant d\'agir." },
+      { type: "h2", text: "Projection chimique : rincer sans attendre" },
+      { type: "p", text: "Face à une projection chimique, le rinçage prime sur tout le reste. Il commence dans les secondes qui suivent l\'accident, à l\'eau claire ou au dispositif de lavage oculaire du poste de travail, jamais avec un autre produit. La paupière doit rester maintenue ouverte pendant toute la durée du rinçage, en dirigeant le jet du coin interne vers le coin externe de l\'œil pour ne pas contaminer l\'autre œil ni le visage." },
+      { type: "ul", items: [
+        "Rincer à l\'eau claire pendant quinze à vingt minutes minimum, sans interruption ;",
+        "Retirer les lentilles de contact si la victime en porte, sans jamais retarder le début du rinçage pour cela ;",
+        "Appeler le 15 pendant le rinçage ou dès qu\'il est terminé, en précisant le produit en cause si possible ;",
+        "Conserver la fiche de données de sécurité du produit pour les secours.",
+      ]},
+      { type: "h2", text: "Corps étranger : les gestes à ne jamais faire" },
+      { type: "p", text: "Une poussière ou un éclat qui flotte à la surface de l\'œil peut parfois être évacué par un clignement naturel ou un rinçage doux à l\'eau claire. Mais dès que la particule semble fichée dans la cornée, ou qu\'un objet reste planté dans l\'œil après un choc, le SST arrête toute tentative de retrait : l\'extraire pourrait aggraver la lésion et provoquer une perte définitive de la vision." },
+      { type: "ul", items: [
+        "Ne jamais frotter l\'œil, même si la sensation de corps étranger est vive ;",
+        "Ne jamais tenter d\'extraire une particule enfoncée ou un objet resté planté dans le globe oculaire ;",
+        "Ne jamais appliquer de coton, de pommade ou de collyre sans avis médical ;",
+        "Couvrir l\'œil sans exercer de pression, avec une compresse propre maintenue sans serrer, et appeler le 15.",
+      ]},
+      { type: "h2", text: "Choc direct : les signes qui imposent d\'appeler le 15" },
+      { type: "ul", items: [
+        "Une baisse brutale ou une perte de vision de l\'œil atteint ;",
+        "Une douleur intense qui persiste au-delà de quelques minutes ;",
+        "Du sang visible dans le blanc de l\'œil ou derrière la cornée ;",
+        "Une déformation du globe oculaire ou des paupières, ou une vision double.",
+      ]},
+      { type: "p", text: "En présence de l\'un de ces signes, le SST évite toute pression sur l\'œil et couvre légèrement les deux yeux avec une compresse pour limiter les mouvements oculaires, symétriques entre les deux côtés. Sur les postes exposés à ces risques, la prévention prime sur le secours : l\'article R.4224-14 du Code du travail impose un matériel de premiers secours adapté à la nature des risques, incluant un dispositif de lavage oculaire à proximité des postes exposés aux projections chimiques. Le port de lunettes de protection conformes à la norme EN 166 reste la mesure la plus efficace, bien avant le geste de secours." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et R.4224-14 du Code du travail, norme EN 166 relative à la protection individuelle de l\'œil." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à un accident oculaire,", label: "consultez notre page formation SST", href: "/formations/sst" },
     ],
   },
 };
