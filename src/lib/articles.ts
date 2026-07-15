@@ -110,6 +110,7 @@ export const articleSlugs = [
   "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
   "traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir",
+  "local-premiers-secours-entreprise-obligations-amenagement",
 ] as const;
 
 /**
@@ -5593,6 +5594,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En présence de l\'un de ces signes, le SST évite toute pression sur l\'œil et couvre légèrement les deux yeux avec une compresse pour limiter les mouvements oculaires, symétriques entre les deux côtés. Sur les postes exposés à ces risques, la prévention prime sur le secours : l\'article R.4224-14 du Code du travail impose un matériel de premiers secours adapté à la nature des risques, incluant un dispositif de lavage oculaire à proximité des postes exposés aux projections chimiques. Le port de lunettes de protection conformes à la norme EN 166 reste la mesure la plus efficace, bien avant le geste de secours." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et R.4224-14 du Code du travail, norme EN 166 relative à la protection individuelle de l\'œil." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à un accident oculaire,", label: "consultez notre page formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "local-premiers-secours-entreprise-obligations-amenagement": {
+    title: "Local de premiers secours en entreprise : obligations et aménagement",
+    excerpt:
+      "L\'article R4214-23 impose un local dédié aux premiers secours à partir de 200 salariés dans l\'industrie et 500 ailleurs. Seuils, contenu et lien avec la trousse de secours classique, obligatoire partout.",
+    publishedAt: "2026-07-15",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/local-premiers-secours-entreprise-obligations-amenagement.jpg",
+    content: [
+      { type: "p", text: "Un local dédié aux premiers secours n\'est pas obligatoire dans toutes les entreprises. L\'article R.4214-23 du Code du travail ne l\'impose qu\'à partir d\'un certain effectif. En dessous de ce seuil, c\'est une autre obligation, plus légère, qui s\'applique : celle du matériel de premiers secours prévue à l\'article R.4224-14. Les deux textes se complètent mais ne couvrent pas la même réalité." },
+      { type: "h2", text: "Le seuil qui déclenche l\'obligation de local" },
+      { type: "p", text: "L\'article R.4214-23 impose l\'aménagement d\'un local de premiers secours à partir de 200 salariés dans les établissements industriels, et de 500 salariés dans les autres établissements. Le texte précise que ce local doit être facilement accessible avec des brancards, ce qui exclut d\'emblée les pièces exiguës ou les étages sans accès adapté." },
+      { type: "ul", items: [
+        "Une signalisation visible depuis les circulations principales, permettant à tout salarié de localiser le local sans hésitation ;",
+        "Un accès dégagé, compatible avec le passage d\'un brancard, y compris dans les couloirs et devant les portes ;",
+        "Le matériel et les installations nécessaires aux premiers secours, dont la nature dépend des risques identifiés dans l\'établissement.",
+      ]},
+      { type: "h2", text: "Les locaux médicaux peuvent parfois faire double emploi" },
+      { type: "p", text: "Lorsque l\'entreprise dispose déjà d\'un local médical répondant aux conditions applicables au service de santé au travail, l\'article R.4214-23 autorise à l\'utiliser aussi comme local de premiers secours, à condition qu\'il respecte les mêmes exigences d\'accessibilité et de signalisation. Cela évite de dupliquer les espaces dans les établissements qui emploient déjà un infirmier ou une infirmière du travail." },
+      { type: "h2", text: "Sous le seuil, une obligation différente mais bien réelle" },
+      { type: "p", text: "Une entreprise de 30 ou 80 salariés n\'a pas à aménager un local dédié. Elle reste en revanche soumise à l\'article R.4224-14, qui impose un matériel de premiers secours adapté à la nature des risques et facilement accessible, quelle que soit sa taille. Une armoire à pharmacie murale, correctement identifiée et réapprovisionnée, suffit à répondre à cette exigence si les risques du poste ne justifient rien de plus complexe." },
+      { type: "quote", text: "Le local de premiers secours n\'est pas un supplément de confort : c\'est l\'endroit où l\'on gagne les minutes qui séparent un accident maîtrisé d\'une situation qui dégénère." },
+      { type: "h2", text: "Organiser les secours ne se limite pas à un local" },
+      { type: "p", text: "Un local bien équipé ne remplace ni la formation, ni l\'alerte. L\'article R.4224-15 impose la présence d\'un secouriste formé dans chaque atelier où sont réalisés des travaux dangereux, et sur les chantiers employant au moins 20 travailleurs pendant plus de 15 jours dans les mêmes conditions. L\'article R.4224-16 complète le dispositif : en l\'absence d\'infirmier en nombre suffisant, l\'employeur définit, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours." },
+      { type: "ul", items: [
+        "Centraliser l\'information sur l\'emplacement du local dans le livret d\'accueil et l\'affichage obligatoire ;",
+        "Vérifier régulièrement les stocks et les dates de péremption du matériel, en désignant un responsable identifié ;",
+        "Rapprocher le local, quand c\'est possible, de l\'emplacement d\'un défibrillateur automatisé externe.",
+      ]},
+      { type: "p", text: "Référence officielle : articles R.4214-23, R.4224-14, R.4224-15 et R.4224-16 du Code du travail." },
+      { type: "cta", text: "Pour structurer l\'organisation des secours dans votre entreprise,", label: "échangez avec notre équipe formation SST", href: "/formations/sst" },
     ],
   },
 };
