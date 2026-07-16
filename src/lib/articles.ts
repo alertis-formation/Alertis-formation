@@ -111,6 +111,7 @@ export const articleSlugs = [
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
   "traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir",
   "local-premiers-secours-entreprise-obligations-amenagement",
+  "manutention-manuelle-charges-limites-reglementaires-prevention",
 ] as const;
 
 /**
@@ -5628,6 +5629,40 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : articles R.4214-23, R.4224-14, R.4224-15 et R.4224-16 du Code du travail." },
       { type: "cta", text: "Pour structurer l\'organisation des secours dans votre entreprise,", label: "échangez avec notre équipe formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "manutention-manuelle-charges-limites-reglementaires-prevention": {
+    title: "Manutention manuelle de charges : limites réglementaires et bonnes pratiques",
+    excerpt: "Le Code du travail encadre précisément le poids des charges portées à la main et impose une formation spécifique. Voici les seuils, les obligations de l\'employeur et les leviers de prévention à activer en priorité.",
+    publishedAt: "2026-07-16",
+    category: "Ergonomie",
+    readingTime: 6,
+    image: "/images/articles/manutention-manuelle-charges-limites-reglementaires-prevention.jpg",
+    content: [
+      { type: "p", text: "Porter, pousser ou tirer une charge sans assistance mécanique reste une cause majeure de troubles musculo-squelettiques en entreprise. Le Code du travail encadre précisément cette pratique : il fixe des seuils de poids, impose une évaluation des risques avant toute exposition et rend obligatoire une formation spécifique pour les salariés concernés. Voici ce qu\'un employeur doit connaître et mettre en œuvre concrètement." },
+      { type: "h2", text: "Éviter la manutention manuelle avant de l\'encadrer" },
+      { type: "p", text: "Le Code du travail pose un principe de hiérarchie : l\'employeur doit d\'abord chercher à éviter le recours à la manutention manuelle en mettant à disposition des aides mécaniques (diables, transpalettes, chariots, palans, ponts roulants). Ce n\'est que lorsque cette suppression est impossible que la manutention manuelle peut être organisée, à condition de réduire le risque au minimum pour la santé du travailleur." },
+      { type: "h2", text: "Les limites de poids fixées par la réglementation" },
+      { type: "p", text: "Le poids qu\'un salarié peut transporter manuellement de façon habituelle est limité à 55 kilogrammes. Ce seuil peut être porté à 105 kilogrammes pour un travailleur isolé, mais uniquement après un avis du médecin du travail concluant à son aptitude physique. Ces limites sont fixées par l\'article R4541-9 du Code du travail et doivent orienter le choix des équipements d\'aide à la manutention." },
+      { type: "ul", items: [
+        "Le poids, la forme et le volume de la charge, qui déterminent la prise en main et l\'équilibre du porteur.",
+        "La fréquence et la durée de l\'effort physique demandé au cours de la journée de travail.",
+        "La distance à parcourir, la hauteur de prise et de dépose, et la présence d\'obstacles au sol.",
+        "Les caractéristiques individuelles du travailleur : état de santé, aptitude physique, formation reçue.",
+      ]},
+      { type: "h2", text: "La formation gestes et postures, une obligation légale" },
+      { type: "p", text: "L\'article R4541-8 du Code du travail impose à l\'employeur de faire bénéficier les travailleurs exposés à la manutention manuelle d\'une formation adaptée à la sécurité relative à l\'exécution de leur tâche. Cette formation, souvent appelée gestes et postures, porte sur les techniques limitant l\'effort physique et les risques dorso-lombaires. Elle doit être renouvelée dès que l\'évolution des risques ou des équipements le justifie." },
+      { type: "h3", text: "Les leviers de prévention à activer en priorité" },
+      { type: "ul", items: [
+        "Mettre à disposition des aides mécaniques adaptées à chaque poste (diables, transpalettes, palans, tables élévatrices) plutôt que d\'ajouter des consignes de prudence.",
+        "Organiser la rotation des postes exposés pour limiter le temps d\'exposition cumulé d\'un même salarié.",
+        "Aménager les zones de stockage pour limiter les hauteurs de prise et de dépose situées sous les genoux ou au-dessus des épaules.",
+        "Associer les salariés concernés à l\'évaluation du risque : ce sont eux qui connaissent le mieux les contraintes réelles du poste.",
+      ]},
+      { type: "quote", text: "Le meilleur geste de manutention reste celui qu\'il n\'a pas été nécessaire de faire." },
+      { type: "p", text: "Référence officielle : articles R4541-1 à R4541-11 du Code du travail relatifs à la manutention manuelle des charges, dont l\'article R4541-8 (formation à la sécurité) et l\'article R4541-9 (limites de poids)." },
+      { type: "cta", text: "Pour former vos équipes aux bons gestes de manutention,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
     ],
   },
 };
