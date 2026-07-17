@@ -112,6 +112,7 @@ export const articleSlugs = [
   "traumatisme-oculaire-projection-oeil-travail-conduite-a-tenir",
   "local-premiers-secours-entreprise-obligations-amenagement",
   "manutention-manuelle-charges-limites-reglementaires-prevention",
+  "inaptitude-travail-procedure-obligations-employeur",
 ] as const;
 
 /**
@@ -5663,6 +5664,41 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Le meilleur geste de manutention reste celui qu\'il n\'a pas été nécessaire de faire." },
       { type: "p", text: "Référence officielle : articles R4541-1 à R4541-11 du Code du travail relatifs à la manutention manuelle des charges, dont l\'article R4541-8 (formation à la sécurité) et l\'article R4541-9 (limites de poids)." },
       { type: "cta", text: "Pour former vos équipes aux bons gestes de manutention,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
+    ],
+  },
+
+  "inaptitude-travail-procedure-obligations-employeur": {
+    title: "Inaptitude au travail : procédure et obligations de l\'employeur",
+    excerpt: "Quand le médecin du travail déclare un salarié inapte, l\'employeur doit respecter une procédure précise : reclassement, délais, consultation du CSE. Voici les étapes à ne pas manquer.",
+    publishedAt: "2026-07-17",
+    category: "Santé au travail",
+    readingTime: 6,
+    image: "/images/articles/inaptitude-travail-procedure-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié peut être déclaré inapte à son poste à l\'issue d\'un examen médical, sans qu\'aucune faute ni sanction ne soit en cause. Cette décision, réservée au médecin du travail, déclenche une procédure précise qui encadre l\'employeur : recherche de reclassement, délais à respecter, consultation éventuelle des représentants du personnel. Mal maîtrisée, elle expose l\'entreprise à un contentieux prud\'homal, souvent tranché en faveur du salarié." },
+      { type: "h2", text: "Le médecin du travail, seul habilité à constater l\'inaptitude" },
+      { type: "p", text: "Seul le médecin du travail peut prononcer une inaptitude, à l\'issue d\'un examen médical de reprise ou d\'une visite spontanée. Un seul examen suffit en principe, à condition qu\'il ait réalisé une étude du poste et des conditions de travail, ainsi qu\'un échange avec l\'employeur et le salarié. Un second examen reste possible s\'il l\'estime nécessaire. Ces exigences, posées par l\'article L.4624-4 du Code du travail, protègent le salarié contre une décision prise à la légère." },
+      { type: "h2", text: "Origine professionnelle ou non : une distinction déterminante" },
+      { type: "p", text: "La procédure diverge selon que l\'inaptitude découle d\'un accident du travail, d\'une maladie professionnelle, ou d\'une cause étrangère au travail. Dans le premier cas, l\'employeur doit consulter le Comité Social et Économique avant toute proposition de reclassement, et le salarié licencié pour impossibilité de reclassement perçoit une indemnité spécifique, généralement doublée par rapport au régime de droit commun. Ignorer cette distinction dès le premier échange avec le médecin du travail expose à des vices de procédure difficiles à corriger ensuite." },
+      { type: "h2", text: "L\'obligation de reclassement, un passage obligé" },
+      { type: "p", text: "Avant d\'envisager un licenciement, l\'employeur doit rechercher un poste compatible avec les préconisations du médecin du travail : aménagement, adaptation, transformation du poste actuel, ou mutation vers un autre poste de même catégorie. Cette recherche doit être loyale, sérieuse et tracée par écrit. Elle n\'est écartée que si le médecin du travail mentionne expressément que tout maintien dans l\'entreprise serait gravement préjudiciable à la santé du salarié, ou que son état de santé fait obstacle à tout reclassement." },
+      { type: "ul", items: [
+        "Solliciter par écrit l\'avis du médecin du travail sur les capacités réelles du salarié et les types de poste envisageables.",
+        "Recenser les postes disponibles dans l\'entreprise, y compris ceux nécessitant une adaptation ou une formation courte.",
+        "Étendre la recherche aux autres établissements ou sociétés du groupe lorsque l\'organisation le permet.",
+        "Formaliser par écrit chaque proposition de poste ainsi que chaque refus du salarié, pour constituer une preuve en cas de litige.",
+      ]},
+      { type: "h2", text: "Que se passe-t-il si aucun poste n\'est trouvé ?" },
+      { type: "p", text: "Si le reclassement échoue et que le médecin du travail n\'a pas écarté toute possibilité, l\'employeur engage une procédure de licenciement pour inaptitude, avec entretien préalable. Passé un délai d\'un mois à compter de l\'examen médical constatant l\'inaptitude, si le salarié n\'est ni reclassé ni licencié, l\'employeur doit reprendre le versement de son salaire, même en l\'absence de toute prestation de travail. Ce délai est un point de vigilance fréquemment sous-estimé." },
+      { type: "h3", text: "Les erreurs qui fragilisent la procédure" },
+      { type: "ul", items: [
+        "Proposer un reclassement générique, sans lien avec les préconisations précises du médecin du travail.",
+        "Omettre la consultation du CSE alors que l\'inaptitude a une origine professionnelle.",
+        "Attendre la fin du délai d\'un mois sans avoir engagé la moindre démarche de reclassement ou de licenciement.",
+      ]},
+      { type: "quote", text: "Une procédure d\'inaptitude ne se gagne pas au moment du licenciement : elle se sécurise dès le premier échange avec le médecin du travail." },
+      { type: "p", text: "Référence officielle : articles L.4624-4, L.1226-2, L.1226-4 et L.1226-10 à L.1226-12 du Code du travail, relatifs à la constatation de l\'inaptitude et à l\'obligation de reclassement." },
+      { type: "cta", text: "Pour former vos équipes RH aux procédures liées à la santé au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
