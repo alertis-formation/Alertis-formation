@@ -113,6 +113,7 @@ export const articleSlugs = [
   "local-premiers-secours-entreprise-obligations-amenagement",
   "manutention-manuelle-charges-limites-reglementaires-prevention",
   "inaptitude-travail-procedure-obligations-employeur",
+  "plaies-au-travail-simple-grave-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -5699,6 +5700,43 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Une procédure d\'inaptitude ne se gagne pas au moment du licenciement : elle se sécurise dès le premier échange avec le médecin du travail." },
       { type: "p", text: "Référence officielle : articles L.4624-4, L.1226-2, L.1226-4 et L.1226-10 à L.1226-12 du Code du travail, relatifs à la constatation de l\'inaptitude et à l\'obligation de reclassement." },
       { type: "cta", text: "Pour former vos équipes RH aux procédures liées à la santé au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "plaies-au-travail-simple-grave-conduite-a-tenir-sst": {
+    title: "Plaies au travail : reconnaître la gravité et réagir en SST",
+    excerpt: "Toute plaie n\'appelle pas la même réponse. Savoir distinguer une plaie simple d\'une plaie grave et connaître les gestes qui protègent la victime évite l\'aggravation en attendant les secours.",
+    publishedAt: "2026-07-18",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/plaies-au-travail-simple-grave-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Coupure, éraflure, plaie punctiforme ou lacération profonde : toutes les plaies ne se valent pas. Une plaie simple se soigne en quelques gestes, sans risque particulier. Une plaie grave engage le pronostic vital ou fonctionnel et impose d\'alerter les secours sans attendre. Pour un Sauveteur Secouriste du Travail, distinguer les deux situations en quelques secondes conditionne la suite de la prise en charge et évite les erreurs qui aggravent l\'état de la victime." },
+      { type: "h2", text: "Plaie simple ou plaie grave : les critères qui font la différence" },
+      { type: "ul", items: [
+        "La localisation : une plaie au visage, à l\'œil, au thorax, à l\'abdomen, au cou ou près d\'une articulation est considérée comme grave même si elle paraît peu profonde.",
+        "La profondeur et l\'étendue : une plaie qui atteint les tissus sous-cutanés, les muscles ou les tendons, ou dont les bords sont largement écartés, relève de la plaie grave.",
+        "Le saignement associé : toute plaie accompagnée d\'une hémorragie qui ne se tarit pas sous une simple pression devient une urgence.",
+        "La présence d\'un corps étranger enfoncé (couteau, éclat de verre, morceau de métal) classe automatiquement la plaie parmi les plaies graves.",
+        "Le mécanisme de la blessure : une morsure, une plaie par écrasement ou par un objet souillé augmente le risque infectieux, même sur une petite surface.",
+      ]},
+      { type: "h2", text: "La conduite à tenir face à une plaie simple" },
+      { type: "p", text: "Lavez-vous les mains ou enfilez des gants à usage unique avant tout contact avec la plaie. Nettoyez-la à l\'eau et au savon, du centre vers l\'extérieur, puis rincez abondamment. Séchez avec une compresse propre et appliquez un antiseptique adapté. Recouvrez d\'un pansement stérile si la plaie reste exposée aux frottements ou aux salissures. Surveillez ensuite l\'apparition de rougeur, de chaleur ou de gonflement dans les jours suivants, signes d\'une infection débutante." },
+      { type: "h2", text: "Face à une plaie grave, les gestes qui protègent la victime" },
+      { type: "ul", items: [
+        "N\'ôtez jamais un corps étranger planté dans la plaie : son retrait peut déclencher ou aggraver une hémorragie interne.",
+        "Ne nettoyez pas la plaie et ne tentez pas de repousser les tissus ou organes visibles.",
+        "Allongez la victime et limitez ses mouvements pour ralentir la diffusion et calmer la douleur.",
+        "Comprimez une hémorragie associée avec un pansement compressif, sans jamais appuyer directement sur un corps étranger enfoncé.",
+        "Alertez le 15 ou le 18 sans délai et décrivez précisément la localisation, la cause et l\'état de conscience de la victime.",
+      ]},
+      { type: "h3", text: "Pourquoi un corps étranger enfoncé ne se retire jamais" },
+      { type: "p", text: "Un objet planté dans une plaie comprime parfois un vaisseau sanguin sectionné et limite le saignement. Le retirer libère l\'hémorragie et peut provoquer un choc hémorragique en quelques minutes. La règle du SST est stricte : on immobilise l\'objet dans sa position, on protège la zone autour avec des compresses, et on laisse l\'équipe médicale intervenir avec le matériel et les compétences nécessaires." },
+      { type: "h2", text: "La position de la victime selon la localisation de la plaie" },
+      { type: "p", text: "La position d\'attente influence le confort et parfois le pronostic. Une plaie au thorax se gère en position demi-assise, qui facilite la respiration. Une plaie à l\'abdomen impose une position allongée, jambes fléchies, pour détendre la paroi abdominale. Une plaie à un membre sans autre lésion associée peut être surélevée si cela ne provoque pas de douleur. En cas de doute sur la position adaptée, allongez la victime et suivez les instructions données par le régulateur du SAMU." },
+      { type: "quote", text: "Une plaie grave mal gérée dans les premières minutes peut transformer une blessure stabilisable en urgence vitale. La règle du SST reste constante : ne pas aggraver, positionner correctement, alerter vite." },
+      { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La formation Sauveteur Secouriste du Travail, dispensée dans le cadre du référentiel national INRS, détaille la conduite à tenir face aux plaies simples et aux plaies graves." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
