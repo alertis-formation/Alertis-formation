@@ -114,6 +114,7 @@ export const articleSlugs = [
   "manutention-manuelle-charges-limites-reglementaires-prevention",
   "inaptitude-travail-procedure-obligations-employeur",
   "plaies-au-travail-simple-grave-conduite-a-tenir-sst",
+  "maladie-professionnelle-reconnaissance-demarche-obligations-employeur",
 ] as const;
 
 /**
@@ -5737,6 +5738,41 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Une plaie grave mal gérée dans les premières minutes peut transformer une blessure stabilisable en urgence vitale. La règle du SST reste constante : ne pas aggraver, positionner correctement, alerter vite." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La formation Sauveteur Secouriste du Travail, dispensée dans le cadre du référentiel national INRS, détaille la conduite à tenir face aux plaies simples et aux plaies graves." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours et préparer vos Sauveteurs Secouristes du Travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "maladie-professionnelle-reconnaissance-demarche-obligations-employeur": {
+    title: "Maladie professionnelle : reconnaissance, démarche et rôle de l\'employeur",
+    excerpt: "Une maladie professionnelle n\'est jamais reconnue par défaut : elle doit remplir des conditions précises inscrites dans un tableau, ou faire l\'objet d\'un examen individuel. La procédure et le rôle de l\'employeur.",
+    publishedAt: "2026-07-19",
+    category: "Santé au travail",
+    readingTime: 6,
+    image: "/images/articles/maladie-professionnelle-reconnaissance-demarche-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié atteint d\'une pathologie liée à son activité professionnelle n\'obtient pas automatiquement la reconnaissance de maladie professionnelle. La procédure repose sur des tableaux précis, un système de reconnaissance individuelle pour les cas hors tableau, et une série d\'obligations partagées entre le salarié, le médecin et l\'employeur. Comprendre ce mécanisme permet d\'accompagner correctement un salarié concerné, sans commettre d\'erreur qui retarderait sa prise en charge ou exposerait l\'entreprise." },
+      { type: "h2", text: "Ce que la loi entend par maladie professionnelle" },
+      { type: "p", text: "L\'article L.461-1 du Code de la sécurité sociale organise la reconnaissance des maladies professionnelles autour de tableaux. Chaque tableau associe une pathologie à des travaux susceptibles de la provoquer. Lorsque le salarié remplit les conditions du tableau, la maladie est présumée d\'origine professionnelle : il n\'a pas à démontrer le lien de causalité, contrairement à un accident du travail classique où l\'origine professionnelle se déduit du fait générateur soudain." },
+      { type: "h2", text: "Trois conditions cumulatives pour la présomption" },
+      { type: "ul", items: [
+        "La désignation de la maladie : elle doit correspondre exactement à la pathologie décrite dans le tableau, avec les mêmes critères médicaux.",
+        "Le délai de prise en charge : le diagnostic doit intervenir dans la période fixée par le tableau après la fin de l\'exposition au risque.",
+        "La liste des travaux : selon les tableaux, cette liste est limitative ou seulement indicative des activités concernées.",
+      ]},
+      { type: "h2", text: "Quand la maladie ne figure dans aucun tableau" },
+      { type: "p", text: "Une maladie qui ne remplit pas toutes les conditions d\'un tableau, ou qui n\'y figure pas du tout, peut malgré tout être reconnue d\'origine professionnelle. Le dossier est alors soumis au comité régional de reconnaissance des maladies professionnelles (CRRMP), qui examine le lien direct et essentiel entre le travail habituel du salarié et la pathologie. Cette voie suppose en principe un taux d\'incapacité permanente prévisible suffisamment élevé pour être instruite." },
+      { type: "h2", text: "La démarche du salarié et le rôle de l\'employeur" },
+      { type: "p", text: "C\'est au salarié, et non à l\'employeur, qu\'il revient de déclarer la maladie professionnelle à sa caisse primaire d\'assurance maladie, en application de l\'article L.461-5 du Code de la sécurité sociale. Il joint un certificat médical initial établi par son médecin, qui décrit la pathologie et le lien évoqué avec l\'activité professionnelle. La CPAM instruit ensuite le dossier et peut solliciter l\'employeur pour obtenir des informations sur le poste occupé et les conditions de travail." },
+      { type: "ul", items: [
+        "Répondre dans les délais aux questionnaires et demandes de pièces adressés par la CPAM, sous peine de fragiliser sa position en cas de contentieux.",
+        "Ne pas chercher à influencer le salarié dans sa déclaration ni dans le contenu du certificat médical, rédigé sous la seule responsabilité du médecin.",
+        "Informer le médecin du travail et, le cas échéant, consulter le CSE si la pathologie révèle un risque non identifié dans le document unique.",
+        "Réexaminer le poste concerné à la lumière du diagnostic, indépendamment de l\'issue de la procédure de reconnaissance.",
+      ]},
+      { type: "h3", text: "Le risque de la faute inexcusable" },
+      { type: "p", text: "Lorsque l\'employeur avait ou aurait dû avoir conscience du danger auquel le salarié était exposé, et qu\'il n\'a pas pris les mesures nécessaires pour l\'en préserver, sa faute inexcusable peut être retenue sur le fondement des articles L.452-1 et suivants du Code de la sécurité sociale. Elle entraîne une majoration de la rente versée au salarié et l\'indemnisation de préjudices complémentaires, à la charge de l\'employeur au-delà de la couverture habituelle de l\'assurance maladie." },
+      { type: "quote", text: "Une maladie professionnelle reconnue n\'est pas un désaveu de l\'entreprise : c\'est le signal qu\'un risque, souvent connu de longue date, méritait une action de prévention plus tôt." },
+      { type: "p", text: "Référence officielle : articles L.461-1 et L.461-5 du Code de la sécurité sociale relatifs aux tableaux de maladies professionnelles et à la déclaration par la victime, et articles L.452-1 et suivants relatifs à la faute inexcusable de l\'employeur." },
+      { type: "cta", text: "Pour former vos équipes RH et managers à la prévention des risques professionnels,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
