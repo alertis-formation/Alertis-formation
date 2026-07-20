@@ -115,6 +115,7 @@ export const articleSlugs = [
   "inaptitude-travail-procedure-obligations-employeur",
   "plaies-au-travail-simple-grave-conduite-a-tenir-sst",
   "maladie-professionnelle-reconnaissance-demarche-obligations-employeur",
+  "reglement-interieur-entreprise-contenu-procedure-adoption",
 ] as const;
 
 /**
@@ -5773,6 +5774,40 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Une maladie professionnelle reconnue n\'est pas un désaveu de l\'entreprise : c\'est le signal qu\'un risque, souvent connu de longue date, méritait une action de prévention plus tôt." },
       { type: "p", text: "Référence officielle : articles L.461-1 et L.461-5 du Code de la sécurité sociale relatifs aux tableaux de maladies professionnelles et à la déclaration par la victime, et articles L.452-1 et suivants relatifs à la faute inexcusable de l\'employeur." },
       { type: "cta", text: "Pour former vos équipes RH et managers à la prévention des risques professionnels,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "reglement-interieur-entreprise-contenu-procedure-adoption": {
+    title: "Règlement intérieur en entreprise : contenu obligatoire et procédure d\'adoption",
+    excerpt: "Au-delà de cinquante salariés, le règlement intérieur devient obligatoire, mais son contenu reste strictement encadré par la loi, qui en impose et en interdit certaines clauses selon une procédure précise.",
+    publishedAt: "2026-07-20",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/reglement-interieur-entreprise-contenu-procedure-adoption.jpg",
+    content: [
+      { type: "p", text: "Le règlement intérieur n\'est pas un simple document interne rédigé au fil des besoins. Le Code du travail en encadre strictement le contenu et impose une procédure précise avant toute entrée en vigueur. Une entreprise qui néglige ces règles risque de voir ses propres clauses jugées inopposables aux salariés, y compris dans une procédure disciplinaire engagée de bonne foi." },
+      { type: "h2", text: "Une obligation qui démarre à cinquante salariés" },
+      { type: "p", text: "L\'article L.1311-2 du Code du travail rend le règlement intérieur obligatoire dans les entreprises et établissements employant habituellement au moins cinquante salariés. L\'obligation s\'applique douze mois après le franchissement de ce seuil, ce qui laisse à l\'employeur le temps de préparer un texte conforme. En dessous de ce seuil, rien n\'empêche d\'en adopter un volontairement, à condition de respecter la même procédure." },
+      { type: "h2", text: "Un contenu strictement limité par la loi" },
+      { type: "p", text: "L\'article L.1321-1 réserve le règlement intérieur à trois objets : les mesures d\'application de la réglementation en matière de santé et de sécurité, les règles générales et permanentes de discipline avec la nature et l\'échelle des sanctions, et les dispositions relatives aux droits de la défense des salariés. Une clause étrangère à ces trois domaines n\'a pas sa place dans ce document et relève d\'une simple note de service." },
+      { type: "ul", items: [
+        "Rappeler les garanties de procédure disciplinaire et les droits de la défense du salarié convoqué.",
+        "Rappeler l\'interdiction du harcèlement moral, du harcèlement sexuel et des agissements sexistes.",
+        "Mentionner l\'existence du dispositif de protection des lanceurs d\'alerte prévu par la loi.",
+      ]},
+      { type: "h2", text: "Les clauses que la loi interdit" },
+      { type: "p", text: "L\'article L.1321-3 écarte du règlement intérieur toute disposition qui apporterait aux droits des personnes des restrictions non justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché, toute clause discriminatoire, et toute sanction pécuniaire. Une retenue sur prime présentée comme la conséquence automatique d\'un retard reste une sanction pécuniaire déguisée : seule cette clause est nulle, le reste du règlement continue de s\'appliquer." },
+      { type: "h2", text: "La procédure d\'élaboration, du projet à l\'affichage" },
+      { type: "p", text: "L\'article L.1321-4 impose une consultation du comité social et économique avant toute entrée en vigueur du règlement intérieur, y compris pour ses modifications ultérieures. Le texte, accompagné de l\'avis du CSE, est ensuite communiqué à l\'inspecteur du travail. Il est enfin déposé au greffe du conseil de prud\'hommes du ressort et porté à la connaissance des salariés par affichage ou par tout support garantissant une date certaine et une consultation effective." },
+      { type: "ul", items: [
+        "Vérifier l\'effectif habituel de l\'entreprise pour situer son obligation par rapport au seuil de cinquante salariés.",
+        "Consulter le CSE avant toute diffusion et conserver une trace écrite de son avis.",
+        "Transmettre le texte et l\'avis du CSE à l\'inspecteur du travail, puis déposer le règlement au greffe du conseil de prud\'hommes.",
+        "Fixer une date d\'entrée en vigueur postérieure à l\'accomplissement de ces formalités et afficher le texte en vigueur en permanence.",
+      ]},
+      { type: "quote", text: "Un règlement intérieur mal élaboré ne protège personne : il expose l\'employeur au risque de voir sa propre sanction jugée inopposable, alors même que le manquement reproché au salarié est réel." },
+      { type: "p", text: "Référence officielle : articles L.1311-2, L.1321-1, L.1321-2, L.1321-3 et L.1321-4 du Code du travail, relatifs au champ d\'application, au contenu et à la procédure d\'élaboration du règlement intérieur." },
+      { type: "cta", text: "Pour sécuriser la rédaction ou la mise à jour de ce document,", label: "prenez contact avec notre équipe", href: "/contact" },
     ],
   },
 };
