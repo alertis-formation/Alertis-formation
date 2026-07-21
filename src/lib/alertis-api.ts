@@ -144,6 +144,36 @@ export async function getFormationById(
 }
 
 /**
+ * URL S3 pré-signée du PDF de programme, récupérée SANS cache.
+ *
+ * L'API signe ces URLs pour 1 h ; toute mise en cache (revalidate) les fait
+ * expirer avant la page qui les contient — d'où le `no-store` obligatoire.
+ * Renvoie null si la formation n'a pas de PDF ou si l'API est indisponible.
+ */
+export async function getFreshProgrammePdfUrl(
+  id: number
+): Promise<string | null> {
+  if (!API_KEY) return null;
+  try {
+    const res = await fetch(`${API_BASE}/formations/${id}`, {
+      headers: { "X-API-Key": API_KEY },
+      cache: "no-store",
+    });
+    if (!res.ok) {
+      console.error(
+        `[alertis-api] getFreshProgrammePdfUrl(${id}) HTTP ${res.status}`
+      );
+      return null;
+    }
+    const json = (await res.json()) as ApiResponse<ApiFormation>;
+    return json.data.programmePdf?.downloadUrl ?? null;
+  } catch (e) {
+    console.error(`[alertis-api] getFreshProgrammePdfUrl(${id}) failed:`, e);
+    return null;
+  }
+}
+
+/**
  * Fetch upcoming inter-entreprise sessions filtered by formation name (partial match).
  * Returns an empty array on error.
  */

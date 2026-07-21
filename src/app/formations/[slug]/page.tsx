@@ -196,9 +196,11 @@ export default async function FormationDetailPage({
               </div>
 
               {/* Programme PDF */}
+              {/* Lien vers notre route de redirection, jamais vers l'URL S3
+                  pré-signée (valable 1 h, expirerait dans la page en cache). */}
               {apiData?.programmePdf && (
                 <a
-                  href={apiData.programmePdf.downloadUrl}
+                  href={`/formations/${slug}/programme.pdf`}
                   target="_blank"
                   rel="noopener"
                   className="group flex items-center gap-4 rounded-sm border border-[color:var(--brand-gray-medium)]/15 bg-[color:var(--brand-cream)] p-5 hover:border-[color:var(--brand-red)]/40 hover:bg-white transition-all"
