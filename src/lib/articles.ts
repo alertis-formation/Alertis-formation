@@ -116,6 +116,7 @@ export const articleSlugs = [
   "plaies-au-travail-simple-grave-conduite-a-tenir-sst",
   "maladie-professionnelle-reconnaissance-demarche-obligations-employeur",
   "reglement-interieur-entreprise-contenu-procedure-adoption",
+  "arret-cardiaque-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -5808,6 +5809,41 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un règlement intérieur mal élaboré ne protège personne : il expose l\'employeur au risque de voir sa propre sanction jugée inopposable, alors même que le manquement reproché au salarié est réel." },
       { type: "p", text: "Référence officielle : articles L.1311-2, L.1321-1, L.1321-2, L.1321-3 et L.1321-4 du Code du travail, relatifs au champ d\'application, au contenu et à la procédure d\'élaboration du règlement intérieur." },
       { type: "cta", text: "Pour sécuriser la rédaction ou la mise à jour de ce document,", label: "prenez contact avec notre équipe", href: "/contact" },
+    ],
+  },
+
+  "arret-cardiaque-travail-signes-conduite-a-tenir-sst": {
+    title: "Arrêt cardiaque au travail : reconnaître les signes et réagir en SST",
+    excerpt: "Un arrêt cardiaque ne laisse que quelques minutes pour agir avant l\'arrivée des secours. Reconnaître les signes, alerter et démarrer le massage cardiaque : la conduite à tenir pour un SST.",
+    publishedAt: "2026-07-21",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/arret-cardiaque-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Un arrêt cardiaque survient sans prévenir, sur un poste de travail comme ailleurs. Contrairement à l\'infarctus, la victime perd connaissance et cesse de respirer normalement en quelques secondes. Chaque minute sans massage cardiaque réduit fortement les chances de survie. Pour un Sauveteur Secouriste du Travail, reconnaître la situation et agir dans l\'ordre, sans hésitation, conditionne l\'issue en attendant l\'arrivée des secours." },
+      { type: "h2", text: "Reconnaître un arrêt cardiaque en quelques secondes" },
+      { type: "p", text: "Face à une victime inconsciente, deux vérifications suffisent. Interpellez-la à voix haute et secouez doucement ses épaules : si elle ne répond pas, elle est inconsciente. Basculez ensuite sa tête en arrière et observez, écoutez et sentez sa respiration pendant quelques secondes. Une respiration absente, ou réduite à des gasps bruyants et espacés, signe un arrêt cardiaque et impose d\'agir immédiatement." },
+      { type: "ul", items: [
+        "Des gasps bruyants et espacés, souvent pris pour une respiration normale, sont en réalité un signe d\'arrêt cardiaque.",
+        "Une coloration du visage conservée ne permet pas d\'écarter un arrêt cardiaque.",
+        "En cas de doute sur la respiration, agissez comme s\'il s\'agissait d\'un arrêt cardiaque : le risque d\'un massage inutile est sans commune mesure avec celui de ne rien faire.",
+      ]},
+      { type: "h2", text: "Alerter avant tout autre geste" },
+      { type: "p", text: "Composez le 15 (SAMU) ou le 112 depuis un téléphone portable, ou faites alerter par un témoin pendant que vous restez auprès de la victime. Indiquez l\'adresse précise, le nombre de victimes et les circonstances. Précisez que la victime est inconsciente et ne respire pas : cette information oriente immédiatement le régulateur, qui peut guider le massage cardiaque par téléphone en attendant l\'équipe médicale." },
+      { type: "h2", text: "Le massage cardiaque, geste central de la chaîne de survie" },
+      { type: "p", text: "Agenouillez-vous à côté de la victime, placez le talon d\'une main au centre du thorax, l\'autre main par-dessus, doigts entrelacés. Bras tendus, épaules à l\'aplomb des mains, comprimez le thorax sur une profondeur de 5 à 6 centimètres, à un rythme de 100 à 120 compressions par minute, en le laissant se relâcher complètement entre chaque compression." },
+      { type: "quote", text: "Un massage cardiaque efficace ne s\'interrompt que pour l\'analyse du défibrillateur ou l\'arrivée des secours. Chaque pause prolongée fait retomber la pression de perfusion du cerveau et du cœur." },
+      { type: "h2", text: "Le défibrillateur automatisé externe, un allié décisif" },
+      { type: "ul", items: [
+        "Allumez l\'appareil dès qu\'il est disponible : les messages vocaux guident chaque étape.",
+        "Dénudez le torse de la victime et collez les électrodes à l\'endroit indiqué par les schémas, sans interrompre longtemps le massage cardiaque.",
+        "Écartez-vous de la victime pendant l\'analyse du rythme et, si un choc est délivré, assurez-vous que personne ne la touche.",
+        "Reprenez le massage cardiaque immédiatement après le choc, ou dès que l\'appareil l\'indique.",
+      ]},
+      { type: "h2", text: "Un geste qui s\'apprend et s\'entretient" },
+      { type: "p", text: "La formation SST inclut cette séquence de reconnaissance, d\'alerte et de massage cardiaque, complétée par la manipulation d\'un défibrillateur. L\'article R4224-15 du Code du travail impose la présence de secouristes formés dans certains ateliers et chantiers, mais la maîtrise réelle du geste dépend surtout de l\'entraînement régulier. Un massage cardiaque pratiqué sans assurance perd en efficacité, ce qui justifie le recyclage périodique des Sauveteurs Secouristes du Travail." },
+      { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La technique de réanimation cardio-pulmonaire et d\'utilisation du défibrillateur automatisé externe est enseignée dans le cadre du référentiel national de formation Sauveteur Secouriste du Travail de l\'INRS." },
+      { type: "cta", text: "Pour former vos équipes aux gestes qui sauvent face à un arrêt cardiaque,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
