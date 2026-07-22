@@ -13,6 +13,11 @@ const API_BASE =
 
 const API_KEY = process.env.ALERTIS_API_KEY;
 
+// Entité utilisée pour les programmes PDF : le site expose ceux d'Alertis 2.
+// L'API ne fait AUCUN repli : si une formation n'a pas de PDF Alertis 2,
+// `programmePdf` est null et le site n'affiche pas de programme.
+const ENTREPRISE = "2";
+
 if (!API_KEY) {
   console.warn(
     "[alertis-api] ALERTIS_API_KEY is not set — API calls will fail."
@@ -116,7 +121,7 @@ export type FormationLookup =
 export async function fetchFormation(id: number): Promise<FormationLookup> {
   if (!API_KEY) return { status: "error" };
   try {
-    const res = await fetch(`${API_BASE}/formations/${id}`, {
+    const res = await fetch(`${API_BASE}/formations/${id}?entreprise=${ENTREPRISE}`, {
       headers: { "X-API-Key": API_KEY },
       next: { revalidate: 3600 },
     });
@@ -155,7 +160,7 @@ export async function getFreshProgrammePdfUrl(
 ): Promise<string | null> {
   if (!API_KEY) return null;
   try {
-    const res = await fetch(`${API_BASE}/formations/${id}`, {
+    const res = await fetch(`${API_BASE}/formations/${id}?entreprise=${ENTREPRISE}`, {
       headers: { "X-API-Key": API_KEY },
       cache: "no-store",
     });
@@ -210,7 +215,7 @@ export async function getAllFormations(): Promise<ApiFormation[]> {
     const limit = 100;
     while (true) {
       const json = await apiFetch<ApiResponse<ApiFormation[]>>(
-        `/formations?limit=${limit}&offset=${offset}`
+        `/formations?limit=${limit}&offset=${offset}&entreprise=${ENTREPRISE}`
       );
       all.push(...json.data);
       if (!json.pagination?.hasMore) break;
