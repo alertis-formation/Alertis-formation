@@ -117,6 +117,7 @@ export const articleSlugs = [
   "maladie-professionnelle-reconnaissance-demarche-obligations-employeur",
   "reglement-interieur-entreprise-contenu-procedure-adoption",
   "arret-cardiaque-travail-signes-conduite-a-tenir-sst",
+  "autorisation-de-conduite-caces-obligations-employeur",
 ] as const;
 
 /**
@@ -5844,6 +5845,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La formation SST inclut cette séquence de reconnaissance, d\'alerte et de massage cardiaque, complétée par la manipulation d\'un défibrillateur. L\'article R4224-15 du Code du travail impose la présence de secouristes formés dans certains ateliers et chantiers, mais la maîtrise réelle du geste dépend surtout de l\'entraînement régulier. Un massage cardiaque pratiqué sans assurance perd en efficacité, ce qui justifie le recyclage périodique des Sauveteurs Secouristes du Travail." },
       { type: "p", text: "Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'obligation de former des secouristes et d\'organiser les premiers secours en entreprise. La technique de réanimation cardio-pulmonaire et d\'utilisation du défibrillateur automatisé externe est enseignée dans le cadre du référentiel national de formation Sauveteur Secouriste du Travail de l\'INRS." },
       { type: "cta", text: "Pour former vos équipes aux gestes qui sauvent face à un arrêt cardiaque,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "autorisation-de-conduite-caces-obligations-employeur": {
+    title: "Autorisation de conduite : ce que l\'employeur doit délivrer au-delà du CACES",
+    excerpt: "Le CACES atteste une compétence technique, mais ne vaut pas autorisation de conduire un engin : c\'est à l\'employeur de délivrer cette autorisation, sous sa propre responsabilité.",
+    publishedAt: "2026-07-22",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/autorisation-de-conduite-caces-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié titulaire d\'un CACES en cours de validité n\'est pas automatiquement autorisé à conduire un engin dans l\'entreprise. La certification atteste une aptitude technique, mais l\'autorisation de conduite reste un acte propre à l\'employeur, engagé sous sa responsabilité. Beaucoup d\'employeurs confondent les deux documents, avec un risque réel en cas d\'accident ou de contrôle." },
+      { type: "h2", text: "Le CACES atteste une compétence, pas un droit de conduire" },
+      { type: "p", text: "Le certificat d\'aptitude à la conduite en sécurité (CACES) résulte d\'une évaluation théorique et pratique, réalisée par un organisme testeur certifié, sur la base des recommandations de la Caisse nationale de l\'assurance maladie (CNAM). Il valide que le salarié maîtrise la conduite de la catégorie d\'engin concernée, mais il ne constitue pas l\'autorisation de conduite exigée par le Code du travail, qui reste un document distinct délivré par l\'employeur." },
+      { type: "h2", text: "L\'autorisation de conduite, une décision propre à l\'employeur" },
+      { type: "p", text: "L\'article R.4323-55 du Code du travail réserve la conduite des équipements de travail mobiles automoteurs et des équipements de levage aux travailleurs qui disposent d\'une autorisation de conduite délivrée par l\'employeur. Cette autorisation s\'appuie sur trois éléments distincts, que l\'employeur doit vérifier avant toute délivrance, quelle que soit l\'ancienneté du salarié dans l\'entreprise." },
+      { type: "ul", items: [
+        "Un examen d\'aptitude médicale réalisé par le médecin du travail, attestant l\'absence de contre-indication à la conduite de l\'équipement.",
+        "Un contrôle des connaissances et du savoir-faire du salarié pour la conduite en sécurité de l\'équipement, généralement matérialisé par le CACES.",
+        "Une connaissance des lieux et des instructions à respecter sur le site d\'utilisation, propre à chaque entreprise et à chaque poste.",
+      ]},
+      { type: "h2", text: "Des équipements concernés au-delà des seuls chariots" },
+      { type: "p", text: "La liste des équipements soumis à autorisation de conduite est fixée par arrêté et couvre notamment les chariots élévateurs, les grues à tour, les grues mobiles, les grues auxiliaires de chargement de véhicules, les plates-formes élévatrices mobiles de personnel et les engins de chantier. Un salarié peut détenir un CACES pour une catégorie et ne jamais recevoir l\'autorisation correspondante si l\'employeur ne la délivre pas formellement." },
+      { type: "h2", text: "Un document à renouveler et à tracer" },
+      { type: "p", text: "L\'autorisation de conduite n\'a pas de durée de validité fixée par la loi, mais elle doit être réexaminée en cas de changement d\'engin, de site, ou après un accident ou un arrêt de travail prolongé. Sa forme n\'est pas imposée : un document écrit, daté et signé par l\'employeur, conservé dans le dossier du salarié, suffit à en attester l\'existence en cas de contrôle." },
+      { type: "quote", text: "En cas d\'accident impliquant un engin conduit sans autorisation délivrée par l\'employeur, la responsabilité de ce dernier peut être engagée, même si le salarié détenait un CACES valide." },
+      { type: "h2", text: "Ce que risque l\'employeur qui néglige cette formalité" },
+      { type: "p", text: "L\'absence d\'autorisation de conduite constitue un manquement distinct de l\'absence de formation, sanctionné au même titre que les autres infractions aux règles d\'utilisation des équipements de travail. En cas d\'accident du travail, son absence complique la défense de l\'employeur devant les juridictions et peut faciliter la reconnaissance d\'une faute inexcusable." },
+      { type: "p", text: "Référence officielle : articles R.4323-55, R.4323-56 et R.4323-57 du Code du travail, relatifs à l\'autorisation de conduite des équipements de travail mobiles automoteurs et des équipements de levage." },
+      { type: "cta", text: "Pour organiser la formation et le suivi des autorisations de conduite dans votre entreprise,", label: "prenez contact avec notre équipe", href: "/contact" },
     ],
   },
 };
