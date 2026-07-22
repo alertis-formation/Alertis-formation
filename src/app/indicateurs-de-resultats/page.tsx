@@ -18,30 +18,34 @@ export const metadata = {
   alternates: { canonical: "/indicateurs-de-resultats" },
 };
 
-const period = "Mai 2025 — Mai 2026 (12 mois glissants)";
-const lastUpdate = "Mai 2026";
+const period = "01/01/2025 — 31/12/2025 (12 mois glissants)";
+const lastUpdate = "31/12/2025";
 
 const headlineStats = [
   {
-    icon: TrendingUp,
-    value: "97,4",
-    suffix: "%",
-    label: "Satisfaction stagiaires",
-    sub: "Note moyenne issue des évaluations à chaud sur l'ensemble de nos sessions.",
+    icon: Users,
+    value: "3 082",
+    label: "Stagiaires formés",
+    sub: "Nombre de stagiaires formés sur la période, toutes formations confondues.",
   },
   {
     icon: Award,
-    value: "100",
-    suffix: "%",
-    label: "Réussite SST",
-    sub: "Taux de validation du certificat Sauveteur Secouriste du Travail.",
+    value: "402",
+    label: "Stagiaires SST tous niveaux",
+    sub: "Stagiaires Sauveteur Secouriste du Travail, formation initiale et recyclage (MAC).",
   },
   {
-    icon: ShieldCheck,
-    value: "100",
-    suffix: "%",
-    label: "Réussite habilitation électrique",
-    sub: "Initial et recyclage, du B0 au BR — toutes habilitations confondues.",
+    icon: CalendarDays,
+    value: "391",
+    label: "Stages réalisés",
+    sub: "Sessions de formation réalisées sur la période, en intra comme en inter-entreprises.",
+  },
+  {
+    icon: TrendingUp,
+    value: "9,4",
+    suffix: "/10",
+    label: "Satisfaction à chaud",
+    sub: "Note moyenne issue des évaluations à chaud remplies par les apprenants en fin de session.",
   },
 ];
 
@@ -121,11 +125,11 @@ export default function IndicateursPage() {
           <div className="text-center mb-12">
             <span className="eyebrow">Vue d&apos;ensemble</span>
             <h2 className="mt-4 text-[color:var(--brand-charcoal)]">
-              Trois indicateurs{" "}
+              Quatre indicateurs{" "}
               <span className="text-[color:var(--brand-red)]">clés</span>.
             </h2>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {headlineStats.map(({ icon: Icon, value, suffix, label, sub }) => {
               const isTodo = value === "TODO";
               return (

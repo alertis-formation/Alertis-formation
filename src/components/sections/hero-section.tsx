@@ -13,10 +13,10 @@ const trustBadges = [
 export async function HeroSection() {
   const formationCount = await getLiveFormationCount();
   const heroStats = [
-    { value: "97,4%", label: "Satisfaction stagiaires" },
-    { value: "100%", label: "Réussite SST" },
-    { value: `${formationCount}`, label: "Formations au catalogue" },
-    { value: "10+", label: "Ans d'expertise terrain" },
+    { value: "3 082", label: "Stagiaires formés" },
+    { value: "402", label: "Stagiaires SST tous niveaux" },
+    { value: "391", label: "Stages réalisés" },
+    { value: "9,4/10", label: "Satisfaction à chaud" },
   ];
   return (
     <section className="relative overflow-hidden bg-[color:var(--brand-cream)]">
