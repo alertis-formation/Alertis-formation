@@ -122,7 +122,7 @@ const process = [
     icon: FileSearch,
     title: "Identifier",
     description:
-      "Revue hebdomadaire des sources officielles (Légifrance, INRS, ministère du Travail, DREETS, CARSAT, France Compétences) par notre référent qualité.",
+      "Revue bimensuelle des sources officielles (Légifrance, INRS, ministère du Travail, DREETS, CARSAT, France Compétences) par notre référent qualité.",
   },
   {
     icon: Bell,
@@ -312,7 +312,7 @@ export default function VeilleReglementairePage() {
                 <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/60 mb-0.5">
                   Périodicité
                 </div>
-                <div className="text-white font-semibold">Revue hebdomadaire</div>
+                <div className="text-white font-semibold">Revue bimensuelle</div>
               </div>
             </li>
             <li className="flex items-start gap-3">
