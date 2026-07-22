@@ -102,7 +102,15 @@ export async function HeroSection() {
         </div>
 
         {/* Bottom stat strip — editorial ledger */}
-        <div className="mt-16 lg:mt-24 grid grid-cols-2 md:grid-cols-4 gap-px bg-[color:var(--brand-gray-medium)]/15 border border-[color:var(--brand-gray-medium)]/15 rounded-sm overflow-hidden">
+        <div className="mt-16 lg:mt-24 flex items-center justify-between gap-4 mb-3">
+          <span className="text-xs uppercase tracking-widest font-semibold text-[color:var(--brand-gray-medium)]">
+            Nos chiffres
+          </span>
+          <span className="text-xs text-[color:var(--brand-gray-medium)]">
+            Du 01/01/2025 au 31/12/2025
+          </span>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[color:var(--brand-gray-medium)]/15 border border-[color:var(--brand-gray-medium)]/15 rounded-sm overflow-hidden">
           {heroStats.map((s) => (
             <div
               key={s.label}
