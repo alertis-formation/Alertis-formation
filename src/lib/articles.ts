@@ -118,6 +118,7 @@ export const articleSlugs = [
   "reglement-interieur-entreprise-contenu-procedure-adoption",
   "arret-cardiaque-travail-signes-conduite-a-tenir-sst",
   "autorisation-de-conduite-caces-obligations-employeur",
+  "methode-arbre-des-causes-analyser-accident-travail",
 ] as const;
 
 /**
@@ -5875,6 +5876,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'absence d\'autorisation de conduite constitue un manquement distinct de l\'absence de formation, sanctionné au même titre que les autres infractions aux règles d\'utilisation des équipements de travail. En cas d\'accident du travail, son absence complique la défense de l\'employeur devant les juridictions et peut faciliter la reconnaissance d\'une faute inexcusable." },
       { type: "p", text: "Référence officielle : articles R.4323-55, R.4323-56 et R.4323-57 du Code du travail, relatifs à l\'autorisation de conduite des équipements de travail mobiles automoteurs et des équipements de levage." },
       { type: "cta", text: "Pour organiser la formation et le suivi des autorisations de conduite dans votre entreprise,", label: "prenez contact avec notre équipe", href: "/contact" },
+    ],
+  },
+  "methode-arbre-des-causes-analyser-accident-travail": {
+    title: "Méthode de l\'arbre des causes : analyser un accident du travail",
+    excerpt: "Après un accident du travail, l\'arbre des causes permet de reconstituer l\'enchaînement des faits qui l\'ont rendu possible, pour agir sur l\'organisation plutôt que sur un seul comportement.",
+    publishedAt: "2026-07-23",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/methode-arbre-des-causes-analyser-accident-travail.jpg",
+    content: [
+      { type: "p", text: "Un accident du travail vient de se produire. La déclaration est faite, les secours sont intervenus, le salarié va mieux ou est arrêté. Vient alors une question trop souvent négligée : pourquoi cet accident a-t-il eu lieu, précisément ? La méthode de l\'arbre des causes y répond de façon structurée, sans se contenter d\'incriminer un geste ou une personne." },
+      { type: "h2", text: "Comprendre avant de corriger" },
+      { type: "p", text: "Face à un accident, le réflexe est souvent de chercher un responsable : le salarié n\'a pas mis ses gants, la machine était mal réglée. Cette lecture s\'arrête trop tôt. L\'arbre des causes part du principe qu\'un accident résulte toujours d\'un enchaînement de faits, jamais d\'une cause unique. Reconstituer cet enchaînement permet d\'agir sur l\'organisation du travail, pas seulement sur un comportement individuel." },
+      { type: "h2", text: "Le principe : remonter du fait ultime aux causes premières" },
+      { type: "p", text: "La construction de l\'arbre commence par le fait ultime, la blessure ou l\'incident lui-même. À partir de là, l\'équipe qui mène l\'analyse remonte le temps en se demandant, pour chaque fait, ce qui a dû se produire juste avant pour le rendre possible. L\'arbre grandit ainsi vers la gauche, jusqu\'à atteindre des causes premières sur lesquelles une action de prévention devient possible." },
+      { type: "ul", items: [
+        "Le fait ultime : la blessure, la chute ou l\'incident qui déclenche l\'analyse.",
+        "Les faits antécédents : chaque événement, état ou absence de contrôle qui a rendu le fait suivant possible.",
+        "Les liaisons logiques : les relations de nécessité entre deux faits, du type « il a fallu que… pour que… ».",
+      ]},
+      { type: "h3", text: "Recueillir des faits, pas des opinions" },
+      { type: "p", text: "La qualité de l\'arbre dépend entièrement de la qualité du recueil. Un fait est observable, daté et vérifiable par plusieurs témoins indépendants. Une opinion ou une explication toute faite, comme « il a été imprudent », n\'a pas sa place dans l\'arbre : elle doit être retraduite en faits concrets avant d\'y entrer." },
+      { type: "ul", items: [
+        "Interroger la victime en priorité, puis les témoins directs et l\'encadrement de proximité.",
+        "Poser des questions ouvertes (quoi, qui, où, quand, comment) et éviter le « pourquoi », qui invite à interpréter plutôt qu\'à décrire.",
+        "Ne jamais arrêter la remontée au premier facteur trouvé : chercher systématiquement le fait antérieur, encore et encore.",
+      ]},
+      { type: "quote", text: "Un fait se prouve et se vérifie ; une explication ne se devine pas, elle se reconstruit fait par fait." },
+      { type: "h2", text: "Des causes premières aux mesures de prévention" },
+      { type: "p", text: "Une fois l\'arbre stabilisé, chaque cause première est examinée séparément : est-elle liée à l\'individu, à la tâche, au matériel ou à l\'organisation ? Cette catégorisation oriente les actions correctives vers des leviers réels : procédure à revoir, formation à renforcer, équipement à adapter, charge de travail à ajuster. L\'objectif reste la prévention, jamais la sanction." },
+      { type: "p", text: "En France, le comité social et économique dispose d\'un droit d\'enquête après un accident du travail ou une maladie professionnelle, prévu par l\'article L.2312-13 du Code du travail. Associer ses membres à la construction de l\'arbre renforce la légitimité de l\'analyse et facilite l\'adhésion aux mesures qui en découlent." },
+      { type: "p", text: "Référence officielle : brochure INRS ED 6163, « L\'analyse de l\'accident du travail : la méthode de l\'arbre des causes », et article L.2312-13 du Code du travail sur le droit d\'enquête du comité social et économique." },
+      { type: "cta", text: "Pour structurer durablement votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
