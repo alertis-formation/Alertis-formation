@@ -119,6 +119,7 @@ export const articleSlugs = [
   "arret-cardiaque-travail-signes-conduite-a-tenir-sst",
   "autorisation-de-conduite-caces-obligations-employeur",
   "methode-arbre-des-causes-analyser-accident-travail",
+  "verifications-periodiques-equipements-travail-obligations-employeur",
 ] as const;
 
 /**
@@ -5909,6 +5910,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En France, le comité social et économique dispose d\'un droit d\'enquête après un accident du travail ou une maladie professionnelle, prévu par l\'article L.2312-13 du Code du travail. Associer ses membres à la construction de l\'arbre renforce la légitimité de l\'analyse et facilite l\'adhésion aux mesures qui en découlent." },
       { type: "p", text: "Référence officielle : brochure INRS ED 6163, « L\'analyse de l\'accident du travail : la méthode de l\'arbre des causes », et article L.2312-13 du Code du travail sur le droit d\'enquête du comité social et économique." },
       { type: "cta", text: "Pour structurer durablement votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "verifications-periodiques-equipements-travail-obligations-employeur": {
+    title: "Vérifications périodiques des équipements de travail : ce que doit organiser l\'employeur",
+    excerpt: "Chariots, extincteurs, installations électriques, appareils de levage : chaque équipement de travail a sa propre fréquence de vérification. Un suivi mal organisé engage la responsabilité de l\'employeur en cas d\'accident.",
+    publishedAt: "2026-07-24",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/verifications-periodiques-equipements-travail-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un chariot élévateur, un extincteur, une armoire électrique ou un pont roulant n\'ont pas la même fréquence de contrôle. Chaque famille d\'équipement de travail obéit à ses propres règles de vérification périodique. Pour l\'employeur, l\'enjeu n\'est pas de connaître chaque texte par cœur, mais de mettre en place un suivi qui ne laisse rien passer." },
+      { type: "h2", text: "Quels équipements sont concernés" },
+      { type: "p", text: "La vérification périodique s\'applique à tout équipement dont l\'usure ou une défaillance peut créer un danger immédiat. Cela couvre les appareils de levage, les équipements sous pression, les installations électriques, les moyens de lutte contre l\'incendie et certains équipements de protection collective comme les échafaudages." },
+      { type: "ul", items: [
+        "Appareils et accessoires de levage : ponts roulants, chariots élévateurs, palans, grues.",
+        "Installations électriques : tableaux, armoires, prises de terre.",
+        "Moyens de secours incendie : extincteurs, RIA, systèmes de détection.",
+        "Équipements de travail en hauteur : échafaudages, échelles, harnais.",
+      ]},
+      { type: "h2", text: "Qui réalise ces vérifications" },
+      { type: "p", text: "Certaines vérifications relèvent d\'une personne compétente désignée en interne, formée à cet effet. D\'autres exigent un organisme accrédité, extérieur à l\'entreprise. Le choix dépend du type d\'équipement et de la nature du contrôle : vérification quotidienne d\'un chariot élévateur par son conducteur, contrôle annuel d\'une installation électrique par un organisme agréé, par exemple." },
+      { type: "h2", text: "Qui est responsable en cas de défaut de vérification ?" },
+      { type: "p", text: "L\'employeur reste responsable, même quand la vérification est confiée à un prestataire externe. L\'obligation générale de sécurité prévue par L.4121-1 impose de prendre les mesures nécessaires pour assurer la sécurité des travailleurs, ce qui inclut le contrôle réel de l\'état des équipements mis à disposition. Un accident lié à un équipement non vérifié engage directement cette responsabilité." },
+      { type: "h2", text: "Organiser un suivi qui ne dépend pas de la mémoire" },
+      { type: "ul", items: [
+        "Un registre unique recensant chaque équipement, sa fréquence de contrôle et la date de la dernière vérification.",
+        "Un responsable désigné pour chaque famille d\'équipement, avec délégation claire.",
+        "Un calendrier annuel partagé, avec alerte avant chaque échéance.",
+        "Un classement des rapports de vérification, accessible en cas de contrôle ou d\'accident.",
+      ]},
+      { type: "p", text: "Ce suivi n\'a pas besoin d\'être sophistiqué. Un tableau partagé, mis à jour à chaque intervention, suffit dans une petite structure. Une personne, et une seule, doit savoir à tout moment quel équipement contrôler et à quelle échéance." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation générale de sécurité de l\'employeur." },
+      { type: "cta", text: "Pour structurer le suivi des équipements de travail dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
