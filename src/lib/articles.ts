@@ -120,6 +120,7 @@ export const articleSlugs = [
   "autorisation-de-conduite-caces-obligations-employeur",
   "methode-arbre-des-causes-analyser-accident-travail",
   "verifications-periodiques-equipements-travail-obligations-employeur",
+  "registre-securite-incendie-erp-decret-2025-1100",
 ] as const;
 
 /**
@@ -154,6 +155,7 @@ export const veilleArticleSlugs = new Set<string>([
   "decret-2026-496-passeport-prevention-echeances-declarations",
   "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
+  "registre-securite-incendie-erp-decret-2025-1100",
 ]);
 
 export type ArticleBlock =
@@ -5943,6 +5945,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Ce suivi n\'a pas besoin d\'être sophistiqué. Un tableau partagé, mis à jour à chaque intervention, suffit dans une petite structure. Une personne, et une seule, doit savoir à tout moment quel équipement contrôler et à quelle échéance." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation générale de sécurité de l\'employeur." },
       { type: "cta", text: "Pour structurer le suivi des équipements de travail dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "registre-securite-incendie-erp-decret-2025-1100": {
+    title: "Registre de sécurité incendie des ERP : le nouveau contenu imposé depuis juillet 2026",
+    excerpt: "Depuis le 1er juillet 2026, le registre de sécurité des ERP doit documenter les solutions d\'effet équivalent mises en œuvre, en plus des rubriques déjà connues et vérifiées en commission de sécurité.",
+    publishedAt: "2026-07-25",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/registre-securite-incendie-erp-decret-2025-1100.jpg",
+    content: [
+      { type: "p", text: "Le registre de sécurité est un document que tout exploitant d\'établissement recevant du public connaît déjà. Depuis le 1er juillet 2026, son contenu s\'enrichit d\'une nouvelle rubrique consacrée aux solutions d\'effet équivalent, une nouveauté introduite par le décret du 19 novembre 2025. Les exploitants doivent adapter leur pratique sans attendre le prochain passage de la commission de sécurité." },
+      { type: "h2", text: "Un registre déjà obligatoire, désormais enrichi" },
+      { type: "p", text: "L\'obligation de tenir un registre de sécurité dans les établissements recevant du public n\'est pas nouvelle. Elle figure à l\'article R.143-44 du code de la construction et de l\'habitation, issu de la recodification du règlement de sécurité contre les risques d\'incendie et de panique approuvé par l\'arrêté du 25 juin 1980. Le décret 2025-1100 du 19 novembre 2025 vient compléter ce cadre, sans remettre en cause les rubriques existantes." },
+      { type: "h2", text: "Ce que doit contenir le registre au quotidien" },
+      { type: "ul", items: [
+        "L\'état et l\'adresse des personnes chargées du service de sécurité incendie, présentées de façon hiérarchisée.",
+        "Les consignes générales et particulières établies en cas d\'incendie, y compris les consignes d\'évacuation adaptées aux différents types de handicap.",
+        "Les dates des vérifications et contrôles techniques réalisés, avec les observations qui en résultent.",
+        "Les dates des exercices d\'évacuation et la nature des travaux d\'aménagement ou de transformation réalisés dans l\'établissement.",
+      ]},
+      { type: "h2", text: "La nouveauté du 1er juillet 2026 : documenter les solutions d\'effet équivalent" },
+      { type: "p", text: "Le décret 2025-1100 introduit la notion de solution d\'effet équivalent (SEE) : une solution technique qui s\'écarte d\'une règle prescriptive du règlement de sécurité, tout en atteignant un niveau de sécurité jugé équivalent. Un maître d\'ouvrage ou un exploitant peut ainsi proposer une alternative à une exigence standard, à condition d\'en démontrer l\'efficacité par des justificatifs techniques." },
+      { type: "h3", text: "Qui doit s\'en préoccuper" },
+      { type: "p", text: "Tous les établissements recevant du public sont concernés, quelle que soit leur catégorie, ainsi que les immeubles de grande hauteur. Le décret transfère par ailleurs certaines dispositions de sécurité incendie propres aux bâtiments à usage professionnel vers le code de la construction et de l\'habitation, ce qui unifie le cadre applicable à ces locaux." },
+      { type: "quote", text: "Une solution d\'effet équivalent ne se déclare pas, elle se démontre : rapports d\'essais, avis techniques ou notes de calcul doivent figurer au registre pour en attester la conformité." },
+      { type: "h2", text: "Organiser la mise à jour du registre" },
+      { type: "ul", items: [
+        "Recenser les solutions d\'effet équivalent déjà mises en œuvre dans l\'établissement, même si elles datent d\'avant le décret.",
+        "Rassembler les justificatifs techniques correspondants (essais, avis, notes de calcul) auprès du maître d\'œuvre ou du bureau d\'études concerné.",
+        "Classer ces pièces dans le registre, aux côtés des rubriques existantes, pour qu\'elles soient consultables lors d\'une visite de la commission de sécurité.",
+      ]},
+      { type: "p", text: "En pratique, cette mise à jour ne nécessite pas de refondre le registre existant. Il s\'agit d\'ajouter une rubrique dédiée aux solutions d\'effet équivalent, alimentée au fil des travaux et des choix techniques opérés dans l\'établissement. Un registre incomplet lors d\'un contrôle expose l\'exploitant aux mêmes conséquences qu\'une absence de registre." },
+      { type: "p", text: "Référence officielle : article R.143-44 du code de la construction et de l\'habitation et décret n° 2025-1100 du 19 novembre 2025 relatif aux solutions d\'effet équivalent en matière de sécurité incendie, entré en vigueur le 1er juillet 2026." },
+      { type: "cta", text: "Pour former vos équipes à la prévention incendie dans les ERP,", label: "découvrez notre formation EPI/ESI", href: "/formations/incendie" },
     ],
   },
 };
