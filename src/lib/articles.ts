@@ -121,6 +121,7 @@ export const articleSlugs = [
   "methode-arbre-des-causes-analyser-accident-travail",
   "verifications-periodiques-equipements-travail-obligations-employeur",
   "registre-securite-incendie-erp-decret-2025-1100",
+  "consigne-securite-incendie-locaux-travail-contenu-affichage",
 ] as const;
 
 /**
@@ -5979,6 +5980,42 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En pratique, cette mise à jour ne nécessite pas de refondre le registre existant. Il s\'agit d\'ajouter une rubrique dédiée aux solutions d\'effet équivalent, alimentée au fil des travaux et des choix techniques opérés dans l\'établissement. Un registre incomplet lors d\'un contrôle expose l\'exploitant aux mêmes conséquences qu\'une absence de registre." },
       { type: "p", text: "Référence officielle : article R.143-44 du code de la construction et de l\'habitation et décret n° 2025-1100 du 19 novembre 2025 relatif aux solutions d\'effet équivalent en matière de sécurité incendie, entré en vigueur le 1er juillet 2026." },
       { type: "cta", text: "Pour former vos équipes à la prévention incendie dans les ERP,", label: "découvrez notre formation EPI/ESI", href: "/formations/incendie" },
+    ],
+  },
+
+  "consigne-securite-incendie-locaux-travail-contenu-affichage": {
+    title: "Consigne de sécurité incendie dans les locaux de travail : contenu et affichage obligatoires",
+    excerpt: "Toute entreprise doit afficher une consigne de sécurité incendie prévue par le Code du travail, précisant le matériel d\'extinction, les responsables de l\'évacuation et les moyens d\'alerte à disposition des salariés.",
+    publishedAt: "2026-07-26",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/consigne-securite-incendie-locaux-travail-contenu-affichage.jpg",
+    content: [
+      { type: "p", text: "Toute entreprise doit afficher, dans ses locaux, une consigne de sécurité incendie. Cette obligation, prévue par le Code du travail, concerne les bureaux, ateliers et commerces employant des salariés, indépendamment du classement en établissement recevant du public. Elle précise qui fait quoi en cas de sinistre : qui alerte, qui dirige l\'évacuation, où se trouve le matériel d\'extinction." },
+      { type: "h2", text: "Un texte distinct du registre des ERP" },
+      { type: "p", text: "La consigne de sécurité incendie relève des articles R.4227-37 à R.4227-41 du Code du travail. Elle ne se confond pas avec le registre de sécurité imposé aux établissements recevant du public par le code de la construction et de l\'habitation. Un local peut relever des deux régimes à la fois, un magasin ouvert au public par exemple, et doit alors satisfaire aux deux obligations séparément." },
+      { type: "h2", text: "Quels locaux doivent afficher la consigne" },
+      { type: "ul", items: [
+        "Les locaux pouvant recevoir plus de cinq personnes : affichage dans chaque local.",
+        "Les locaux à risques particuliers d\'incendie visés à l\'article R.4227-24, comme le stockage de matières inflammables ou les ateliers dangereux : affichage systématique.",
+        "Les autres locaux : affichage dans chaque local ou dans chaque dégagement desservant un groupe de locaux.",
+      ]},
+      { type: "h2", text: "Ce que la consigne doit préciser" },
+      { type: "p", text: "L\'article R.4227-38 encadre le contenu de la consigne. Elle ne se limite pas à un plan d\'évacuation générique : elle nomme des responsabilités précises, applicables à l\'effectif réel de l\'établissement." },
+      { type: "ul", items: [
+        "Le matériel d\'extinction disponible et le personnel chargé de l\'utiliser.",
+        "Les personnes chargées de diriger l\'évacuation, local par local.",
+        "Les mesures spécifiques prévues pour les personnes en situation de handicap.",
+        "Les moyens d\'alerte, ainsi que l\'adresse et le numéro d\'appel du service de secours compétent.",
+        "L\'obligation, pour toute personne qui détecte un départ de feu, de donner l\'alarme sans délai.",
+      ]},
+      { type: "h3", text: "Le cas des structures de moins de cinq salariés" },
+      { type: "p", text: "Les établissements de moins de cinq salariés, non concernés par les locaux à risques particuliers de l\'article R.4227-24, échappent à l\'obligation d\'affichage formel. L\'employeur doit néanmoins établir des instructions permettant d\'assurer l\'évacuation rapide et sûre de tous les occupants. L\'absence d\'affichage ne dispense donc pas d\'organiser la conduite à tenir." },
+      { type: "quote", text: "Une consigne de sécurité incendie restée identique depuis l\'ouverture de l\'établissement a de bonnes chances d\'être obsolète : l\'effectif change, les locaux évoluent, les responsables aussi." },
+      { type: "h2", text: "Mettre la consigne à jour et la transmettre" },
+      { type: "p", text: "La consigne doit suivre les évolutions de l\'établissement : changement d\'effectif, réaménagement des locaux, nouveaux responsables désignés. L\'article R.4227-40 impose de la communiquer à l\'inspection du travail. Une consigne à jour facilite aussi l\'accueil des nouveaux salariés et la préparation des exercices d\'évacuation." },
+      { type: "p", text: "Référence officielle : articles R.4227-37 à R.4227-41 du Code du travail, relatifs à la consigne de sécurité incendie dans les établissements employant du personnel." },
+      { type: "cta", text: "Pour former vos équipes à la prévention et à la lutte contre l\'incendie,", label: "découvrez notre formation EPI/ESI", href: "/formations/incendie" },
     ],
   },
 };
