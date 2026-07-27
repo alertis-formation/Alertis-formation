@@ -123,6 +123,7 @@ export const articleSlugs = [
   "registre-securite-incendie-erp-decret-2025-1100",
   "consigne-securite-incendie-locaux-travail-contenu-affichage",
   "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
+  "hyperglycemie-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6069,6 +6070,52 @@ export const articles: Record<string, Article> = {
         label: "prenez contact via notre page dédiée",
         href: "/contact",
       },
+    ],
+  },
+
+  "hyperglycemie-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Hyperglycémie au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Une hyperglycémie sévère peut évoluer vers un coma diabétique si elle n\'est pas repérée à temps. Le SST doit savoir reconnaître les signes et déclencher l\'alerte au bon moment.",
+    publishedAt: "2026-07-27",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/hyperglycemie-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "L\'hyperglycémie survient quand la concentration de glucose dans le sang dépasse largement les valeurs normales. Moins spectaculaire qu\'une hypoglycémie dans ses tout premiers signes, elle peut pourtant évoluer sur plusieurs heures vers une urgence vitale si elle n\'est pas repérée. Un Sauveteur Secouriste du Travail formé à reconnaître ces signaux d\'alerte peut déclencher l\'appel au 15 au bon moment, avant que la situation ne bascule." },
+      { type: "h2", text: "Une urgence qui s\'installe plus lentement" },
+      { type: "p", text: "Chez un salarié diabétique, l\'hyperglycémie peut résulter d\'un oubli de traitement, d\'un repas trop riche en sucres rapides, d\'une infection en cours ou d\'un stress important. Contrairement à l\'hypoglycémie qui frappe en quelques minutes, elle se développe souvent sur plusieurs heures. Ce délai est à la fois une chance, car il laisse le temps de réagir, et un piège, car les premiers signes sont discrets et souvent mis sur le compte de la fatigue ou de la chaleur." },
+      { type: "h2", text: "Les signes qui doivent alerter le SST" },
+      { type: "ul", items: [
+        "Soif intense et bouche sèche, malgré des apports en eau réguliers.",
+        "Envie fréquente d\'uriner, y compris la nuit.",
+        "Fatigue inhabituelle, somnolence, difficulté à se concentrer sur la tâche en cours.",
+        "Vision trouble ou floue signalée par le salarié.",
+        "Maux de tête et sensation de bouche pâteuse.",
+        "Nausées, douleurs abdominales dans les formes qui s\'aggravent.",
+      ]},
+      { type: "h2", text: "Le risque majeur : l\'acidocétose diabétique" },
+      { type: "p", text: "Quand l\'hyperglycémie n\'est pas corrigée, l\'organisme peut basculer vers une acidocétose diabétique : faute de glucose utilisable, le corps brûle des graisses et produit des corps cétoniques qui acidifient le sang. Cette complication touche surtout les diabétiques traités par insuline en cas d\'oubli d\'injection. Elle se signale par une respiration ample et rapide, une haleine à l\'odeur de pomme ou de dissolvant, et une aggravation rapide de la fatigue. C\'est une urgence médicale qui peut conduire au coma diabétique." },
+      { type: "h2", text: "Conduite à tenir face à une suspicion d\'hyperglycémie" },
+      { type: "ul", items: [
+        "Installer la victime au calme, en position assise ou demi-assise.",
+        "L\'interroger sur son diabète, son traitement et la dernière prise d\'insuline ou de médicament.",
+        "Ne jamais donner de sucre : contrairement à l\'hypoglycémie, cela aggraverait la situation.",
+        "Proposer de l\'eau si la victime est consciente et peut avaler sans difficulté.",
+        "Surveiller l\'apparition de signes de gravité et chronométrer leur évolution.",
+        "Prévenir le service de santé au travail ou le référent SST du site.",
+      ]},
+      { type: "h3", text: "Signes de gravité imposant l\'appel au 15" },
+      { type: "ul", items: [
+        "Respiration ample et rapide, haleine à l\'odeur particulière.",
+        "Confusion, désorientation, propos incohérents.",
+        "Douleurs abdominales intenses accompagnées de vomissements répétés.",
+        "Somnolence marquée ou difficulté à rester éveillé.",
+        "Perte de connaissance : placer la victime en position latérale de sécurité si elle respire, et rester auprès d\'elle jusqu\'à l\'arrivée des secours.",
+      ]},
+      { type: "h2", text: "Ce que doit prévoir l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques et de protéger la santé des salariés, ce qui inclut les situations de malaise liées à une pathologie chronique connue comme le diabète. Concrètement, cela suppose que les Sauveteurs Secouristes du Travail soient formés à ces situations, que leur liste soit affichée et à jour, et que le protocole de prise en charge des malaises figure dans le Document Unique d\'Évaluation des Risques Professionnels pour les postes concernés. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité, et article R.4224-16, relatif au matériel de premiers secours adapté aux risques de l\'entreprise." },
+      { type: "quote", text: "Face à une hyperglycémie, le réflexe qui sauve n\'est pas de donner du sucre. C\'est justement de ne rien donner, d\'observer, et de savoir reconnaître le moment où seul le 15 peut agir." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
