@@ -122,6 +122,7 @@ export const articleSlugs = [
   "verifications-periodiques-equipements-travail-obligations-employeur",
   "registre-securite-incendie-erp-decret-2025-1100",
   "consigne-securite-incendie-locaux-travail-contenu-affichage",
+  "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
 ] as const;
 
 /**
@@ -157,6 +158,7 @@ export const veilleArticleSlugs = new Set<string>([
   "arrete-7-juillet-2026-references-techniques-nationales-premiers-secours",
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
   "registre-securite-incendie-erp-decret-2025-1100",
+  "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
 ]);
 
 export type ArticleBlock =
@@ -6016,6 +6018,57 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La consigne doit suivre les évolutions de l\'établissement : changement d\'effectif, réaménagement des locaux, nouveaux responsables désignés. L\'article R.4227-40 impose de la communiquer à l\'inspection du travail. Une consigne à jour facilite aussi l\'accueil des nouveaux salariés et la préparation des exercices d\'évacuation." },
       { type: "p", text: "Référence officielle : articles R.4227-37 à R.4227-41 du Code du travail, relatifs à la consigne de sécurité incendie dans les établissements employant du personnel." },
       { type: "cta", text: "Pour former vos équipes à la prévention et à la lutte contre l\'incendie,", label: "découvrez notre formation EPI/ESI", href: "/formations/incendie" },
+    ],
+  },
+
+  "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie": {
+    title:
+      "DUERP absent : la loi du 25 juin 2026 instaure une amende administrative sans juge",
+    excerpt:
+      "La loi du 25 juin 2026 permet à la DREETS de sanctionner un DUERP absent ou obsolète par une amende administrative jusqu\'à 4 000 euros par salarié, sans passage devant un tribunal.",
+    publishedAt: "2026-07-27",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/formations/formation-cse-chsct.png",
+    content: [
+      {
+        type: "p",
+        text: "Depuis le 27 juin 2026, l\'absence ou l\'obsolescence du Document Unique d\'Évaluation des Risques Professionnels (DUERP) peut être sanctionnée par une amende administrative, sans passage devant un juge. Cette mesure résulte de la loi n° 2026-534 du 25 juin 2026 relative à la lutte contre les fraudes sociales et fiscales, publiée au Journal officiel le 26 juin 2026.",
+      },
+      { type: "h2", text: "Ce que change le texte" },
+      {
+        type: "p",
+        text: "L\'article 48 de la loi ajoute le DUERP à la liste des manquements sanctionnables par amende administrative, codifiée à l\'article L.8115-1 du Code du travail (6°). Jusqu\'ici, l\'absence de DUERP relevait uniquement de la contravention de cinquième classe (article R.4741-1, 1 500 à 3 000 euros), poursuivie devant le tribunal de police. La voie administrative s\'y ajoute désormais, sans exclure la voie pénale.",
+      },
+      { type: "h2", text: "Qui est concerné ?" },
+      {
+        type: "ul",
+        items: [
+          "Toute entreprise employant au moins un salarié, dès lors qu\'elle n\'a pas de DUERP ou que le document n\'est pas à jour",
+          "Le montant de l\'amende est de 4 000 euros par salarié concerné, plafonné selon l\'article L.8115-3 du Code du travail",
+          "Le plafond passe à 8 000 euros par salarié en cas de réitération du manquement dans un délai de deux ans",
+        ],
+      },
+      { type: "h2", text: "Une procédure pilotée par la DREETS" },
+      {
+        type: "p",
+        text: "C\'est le directeur de la DREETS qui prononce la sanction, sur rapport de l\'agent de contrôle de l\'inspection du travail. L\'employeur est informé par écrit du manquement constaté et peut présenter ses observations avant toute décision, conformément à l\'article L.8115-5. La sanction peut être contestée devant le tribunal administratif, en application de l\'article L.8115-6.",
+      },
+      { type: "h2", text: "Impact sur les formations" },
+      {
+        type: "p",
+        text: "Cette évolution renforce l\'enjeu des formations aux membres du CSE et de la CSSCT, qui sont consultés sur le DUERP et son plan d\'actions associé. Elle rappelle aussi qu\'un DUERP ne se rédige pas une fois pour toutes : sa mise à jour régulière, documentée et tracée devient un point de contrôle direct de l\'inspection du travail, avec une sanction financière immédiate à la clé.",
+      },
+      {
+        type: "p",
+        text: "Référence officielle : loi n° 2026-534 du 25 juin 2026 relative à la lutte contre les fraudes sociales et fiscales (article 48), codifiée aux articles L.8115-1 et L.8115-3 du Code du travail, consultable sur Légifrance.",
+      },
+      {
+        type: "cta",
+        text: "Pour former les membres du CSE à l\'évaluation des risques professionnels,",
+        label: "prenez contact via notre page dédiée",
+        href: "/contact",
+      },
     ],
   },
 };
