@@ -124,6 +124,7 @@ export const articleSlugs = [
   "consigne-securite-incendie-locaux-travail-contenu-affichage",
   "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
   "hyperglycemie-au-travail-signes-conduite-a-tenir-sst",
+  "quart-heure-securite-organiser-reunion-terrain-efficace",
 ] as const;
 
 /**
@@ -6116,6 +6117,42 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques et de protéger la santé des salariés, ce qui inclut les situations de malaise liées à une pathologie chronique connue comme le diabète. Concrètement, cela suppose que les Sauveteurs Secouristes du Travail soient formés à ces situations, que leur liste soit affichée et à jour, et que le protocole de prise en charge des malaises figure dans le Document Unique d\'Évaluation des Risques Professionnels pour les postes concernés. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité, et article R.4224-16, relatif au matériel de premiers secours adapté aux risques de l\'entreprise." },
       { type: "quote", text: "Face à une hyperglycémie, le réflexe qui sauve n\'est pas de donner du sucre. C\'est justement de ne rien donner, d\'observer, et de savoir reconnaître le moment où seul le 15 peut agir." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences médicales en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "quart-heure-securite-organiser-reunion-terrain-efficace": {
+    title: "Le quart d\'heure sécurité : comment l\'organiser pour qu\'il serve vraiment",
+    excerpt: "Réunion courte sur le terrain, le quart d\'heure sécurité fait remonter les risques du quotidien s\'il est bien préparé. Format, sujets, animation : comment l\'organiser pour qu\'il serve vraiment vos équipes.",
+    publishedAt: "2026-07-29",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/quart-heure-securite-organiser-reunion-terrain-efficace.jpg",
+    content: [
+      { type: "p", text: "Le quart d\'heure sécurité est une réunion courte, organisée sur le terrain, pour échanger avec une équipe sur un risque précis. Bien préparé, il fait remonter des signaux faibles avant que l\'incident ne survienne. Mal préparé, il devient un rituel que personne n\'écoute plus, répété par habitude sans jamais changer une pratique de travail." },
+      { type: "h2", text: "Un format court, au plus près du poste de travail" },
+      { type: "p", text: "Ce n\'est ni une formation ni une réunion d\'information descendante. Le quart d\'heure sécurité dure dix à quinze minutes, se tient sur le lieu de travail lui-même et porte sur un seul sujet concret. L\'animateur est le chef d\'équipe ou le responsable de proximité, pas uniquement le service prévention, qui reste en soutien." },
+      { type: "h2", text: "Choisir le bon moment pour le déclencher" },
+      { type: "ul", items: [
+        "Avant une tâche inhabituelle ou identifiée comme dangereuse dans le document unique.",
+        "Après un incident ou un presqu\'accident survenu sur le site ou ailleurs dans l\'entreprise.",
+        "À intervalle régulier, sur un jour fixe, pour installer une habitude d\'échange.",
+        "À l\'ouverture d\'un chantier ou d\'une nouvelle activité, avant le démarrage des travaux.",
+      ]},
+      { type: "h2", text: "Un sujet, pas dix" },
+      { type: "p", text: "Un quart d\'heure sécurité efficace traite un seul point, ancré dans le quotidien de l\'équipe : un outil, une consigne, un équipement de protection, une situation vécue récemment. Empiler plusieurs thèmes dilue l\'attention et ne laisse aucune trace dans les pratiques. Mieux vaut revenir sur le même sujet la semaine suivante que le noyer dans une liste." },
+      { type: "h3", text: "Des sources concrètes pour ne jamais manquer de sujet" },
+      { type: "ul", items: [
+        "Les presqu\'accidents et remarques remontées par les salariés eux-mêmes.",
+        "Le registre des accidents bénins et les fiches d\'accident du travail classées.",
+        "Les évolutions du document unique d\'évaluation des risques professionnels.",
+        "Les observations faites lors d\'une visite de poste ou d\'un contrôle externe.",
+      ]},
+      { type: "h2", text: "Faire parler l\'équipe plutôt que réciter une fiche" },
+      { type: "p", text: "Poser une question ouverte fonctionne mieux qu\'un exposé descendant : demander comment chacun procède réellement, ce qui bloque, ce qui a déjà posé problème. Manipuler l\'objet concerné (équipement, outil, protection) rend l\'échange plus concret qu\'un discours théorique. L\'objectif est qu\'un salarié reparte avec un geste ou un réflexe clarifié, pas avec une consigne récitée." },
+      { type: "h2", text: "Garder une trace utile, sans alourdir le suivi" },
+      { type: "p", text: "Un compte rendu de deux lignes suffit : date, sujet abordé, présents, décision éventuelle. Cette trace nourrit le document unique lorsque le sujet révèle un risque non identifié, et permet de vérifier, plusieurs mois après, que la même question n\'est pas revenue sans réponse. L\'article L.4121-1 du Code du travail rappelle que l\'employeur doit adapter en continu ses mesures de prévention : ce suivi en est une forme concrète." },
+      { type: "quote", text: "Un quart d\'heure sécurité qui ne change jamais rien à la façon de travailler n\'est pas un outil de prévention. C\'est une case cochée." },
+      { type: "cta", text: "Pour structurer ces temps d\'échange et former vos encadrants à les animer,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
