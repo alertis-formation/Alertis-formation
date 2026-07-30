@@ -125,6 +125,7 @@ export const articleSlugs = [
   "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
   "hyperglycemie-au-travail-signes-conduite-a-tenir-sst",
   "quart-heure-securite-organiser-reunion-terrain-efficace",
+  "piqures-morsures-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6153,6 +6154,50 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un compte rendu de deux lignes suffit : date, sujet abordé, présents, décision éventuelle. Cette trace nourrit le document unique lorsque le sujet révèle un risque non identifié, et permet de vérifier, plusieurs mois après, que la même question n\'est pas revenue sans réponse. L\'article L.4121-1 du Code du travail rappelle que l\'employeur doit adapter en continu ses mesures de prévention : ce suivi en est une forme concrète." },
       { type: "quote", text: "Un quart d\'heure sécurité qui ne change jamais rien à la façon de travailler n\'est pas un outil de prévention. C\'est une case cochée." },
       { type: "cta", text: "Pour structurer ces temps d\'échange et former vos encadrants à les animer,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "piqures-morsures-travail-conduite-a-tenir-sst": {
+    title: "Piqûres et morsures au travail : conduite à tenir pour le SST",
+    excerpt: "Guêpe, tique ou morsure d\'animal sur un chantier, un espace vert ou en entrepôt : la plupart des piqûres restent bénignes, mais certaines évoluent vite. Le SST doit savoir reconnaître les signes qui imposent d\'agir.",
+    publishedAt: "2026-07-30",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/piqures-morsures-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Chantier extérieur, espace vert, entrepôt agroalimentaire ou zone de stockage : de nombreux postes exposent les salariés à des piqûres d\'insectes ou à des morsures. La plupart des cas restent bénins et se résolvent seuls. Mais certains évoluent vers une urgence en quelques minutes. Le Sauveteur Secouriste du Travail doit savoir distinguer les deux situations et réagir au bon moment." },
+      { type: "h2", text: "Les piqûres d\'insectes, un risque fréquent en extérieur" },
+      { type: "p", text: "Guêpes, abeilles et frelons sont attirés par les chantiers en plein air, les espaces verts et les zones où sont stockées des denrées sucrées ou alimentaires. Une piqûre isolée provoque en général une douleur vive, une rougeur et un gonflement localisé qui régressent en quelques heures. Le risque grave concerne une minorité de salariés, mais il peut survenir chez une personne qui n\'a jamais réagi fortement auparavant." },
+      { type: "ul", items: [
+        "Retirer le dard s\'il est visible (piqûre d\'abeille), en le grattant latéralement avec un objet rigide, sans le pincer pour ne pas injecter davantage de venin.",
+        "Nettoyer la zone à l\'eau et au savon.",
+        "Appliquer du froid, enveloppé dans un linge, pour limiter le gonflement et la douleur.",
+        "Ne pas gratter la zone et ne pas y appliquer de substance non recommandée par un professionnel de santé.",
+        "Surveiller la victime pendant les trente minutes qui suivent, période où une réaction sévère peut apparaître.",
+      ]},
+      { type: "h3", text: "Signes qui imposent l\'appel immédiat au 15" },
+      { type: "ul", items: [
+        "Gonflement du visage, des lèvres ou de la gorge.",
+        "Difficulté à respirer ou à avaler.",
+        "Urticaire ou rougeurs étendues sur tout le corps, loin du point de piqûre.",
+        "Vertiges, malaise, perte de connaissance.",
+        "Piqûre localisée dans la bouche ou la gorge, même chez une personne non allergique, en raison du risque d\'obstruction des voies respiratoires.",
+      ]},
+      { type: "h2", text: "Les tiques, un risque sous-estimé pour les métiers en extérieur" },
+      { type: "p", text: "Forestiers, paysagistes, agents d\'entretien d\'espaces verts et salariés agricoles sont régulièrement exposés aux tiques lors du passage en zone boisée ou herbeuse. La morsure elle-même est indolore et passe souvent inaperçue. Le risque tient à la transmission de la maladie de Lyme, qui augmente avec le temps de fixation de la tique sur la peau. Un retrait rapide et correct limite fortement ce risque." },
+      { type: "ul", items: [
+        "Retirer la tique avec un tire-tique, jamais avec les doigts ni avec de l\'éther ou de l\'alcool, qui peuvent faire régurgiter la tique et augmenter le risque de transmission.",
+        "Tirer perpendiculairement à la peau, sans tourner ni écraser le corps de la tique.",
+        "Désinfecter la zone après le retrait.",
+        "Noter la date de la morsure et surveiller la zone pendant plusieurs semaines.",
+        "Consulter un médecin en cas de rougeur qui s\'étend autour du point de morsure, de fièvre ou de douleurs articulaires dans les jours ou semaines suivantes.",
+      ]},
+      { type: "h2", text: "Morsures animales : le risque infectieux à ne pas négliger" },
+      { type: "p", text: "Chien de garde sur un site, rongeur dans un entrepôt ou animal rencontré lors d\'une intervention extérieure : une morsure expose avant tout à un risque infectieux. La plaie doit être lavée abondamment à l\'eau et au savon, puis désinfectée. Le statut vaccinal antitétanique de la victime doit être vérifié, et un avis médical reste nécessaire dès que la peau est entamée, même pour une morsure d\'apparence superficielle." },
+      { type: "h2", text: "Ce que doit organiser l\'employeur" },
+      { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de fournir un matériel adapté aux risques identifiés. Pour les postes exposés à un risque de piqûre ou de morsure, cela suppose une trousse de secours comportant un tire-tique et de quoi désinfecter, ainsi qu\'une sensibilisation des équipes aux gestes qui font gagner du temps, en particulier pendant la saison où les insectes et les tiques sont les plus actifs. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
+      { type: "quote", text: "Face à une tique, le geste qui compte n\'est pas la vitesse, c\'est la méthode. Un retrait mal fait peut augmenter le risque qu\'il est censé réduire." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des piqûres, morsures et urgences de terrain,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
