@@ -126,6 +126,7 @@ export const articleSlugs = [
   "hyperglycemie-au-travail-signes-conduite-a-tenir-sst",
   "quart-heure-securite-organiser-reunion-terrain-efficace",
   "piqures-morsures-travail-conduite-a-tenir-sst",
+  "noyade-hydrocution-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6198,6 +6199,43 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de fournir un matériel adapté aux risques identifiés. Pour les postes exposés à un risque de piqûre ou de morsure, cela suppose une trousse de secours comportant un tire-tique et de quoi désinfecter, ainsi qu\'une sensibilisation des équipes aux gestes qui font gagner du temps, en particulier pendant la saison où les insectes et les tiques sont les plus actifs. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
       { type: "quote", text: "Face à une tique, le geste qui compte n\'est pas la vitesse, c\'est la méthode. Un retrait mal fait peut augmenter le risque qu\'il est censé réduire." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des piqûres, morsures et urgences de terrain,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "noyade-hydrocution-travail-conduite-a-tenir-sst": {
+    title: "Noyade et hydrocution au travail : conduite à tenir pour le SST",
+    excerpt: "Ports, stations d\'épuration, chantiers en zone humide ou bases nautiques exposent certains salariés au risque de noyade. Le SST doit reconnaître l\'hydrocution et réagir sans se mettre en danger.",
+    publishedAt: "2026-07-31",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/noyade-hydrocution-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Zones portuaires, stations d\'épuration, chantiers en bord de rivière, bases nautiques ou piscines municipales : certains salariés travaillent à proximité immédiate de l\'eau sans que ce risque soit toujours identifié comme prioritaire. Une noyade évolue en quelques minutes. Le Sauveteur Secouriste du Travail doit savoir reconnaître les signes d\'alerte et réagir sans se mettre lui-même en danger." },
+      { type: "h2", text: "Des postes exposés au-delà des métiers de l\'eau" },
+      { type: "p", text: "Le risque de noyade ne concerne pas seulement les maîtres-nageurs ou les agents portuaires. Un salarié qui intervient sur un bassin de traitement des eaux, un chantier de génie civil en zone humide, une plateforme flottante ou un poste de surveillance en bord de plan d\'eau y est également exposé. Le froid, la fatigue, un équipement encombrant ou une chute imprévue suffisent à transformer une situation banale en urgence vitale." },
+      { type: "h2", text: "L\'hydrocution, un malaise brutal à l\'entrée dans l\'eau" },
+      { type: "p", text: "L\'hydrocution, aussi appelée syncope thermodifférentielle, survient lors d\'un contact brutal avec une eau froide, en particulier après une exposition au soleil, un effort physique ou un repas. Le choc thermique provoque un malaise soudain qui peut entraîner une perte de connaissance dans l\'eau, avec un risque de noyade immédiat si personne n\'intervient." },
+      { type: "ul", items: [
+        "Sensation de froid intense ou de crampe au moment de l\'entrée dans l\'eau.",
+        "Essoufflement soudain, vertiges ou troubles de la vision.",
+        "Pâleur marquée et sueurs froides.",
+        "Perte de connaissance brève ou prolongée.",
+      ]},
+      { type: "h2", text: "La conduite à tenir face à une noyade" },
+      { type: "p", text: "Le premier réflexe du secouriste est d\'assurer sa propre sécurité. Se jeter à l\'eau sans formation ni équipement de flottaison expose à devenir une seconde victime. Il faut d\'abord alerter les secours, puis tenter d\'atteindre la victime depuis la berge ou le bord, avec une perche, une bouée ou tout objet flottant à lancer." },
+      { type: "ul", items: [
+        "Alerter immédiatement les secours et indiquer le lieu précis et l\'accès le plus rapide.",
+        "Lancer un objet flottant à la victime plutôt que de plonger sans équipement adapté.",
+        "Sortir la victime de l\'eau uniquement si cela peut se faire sans risque pour le sauveteur.",
+        "Une fois hors de l\'eau, vérifier la conscience et la respiration.",
+        "Placer la victime consciente qui respire en position latérale de sécurité, en anticipant un rejet d\'eau avalée.",
+      ]},
+      { type: "h3", text: "Si la victime ne respire plus" },
+      { type: "p", text: "L\'arrêt respiratoire impose de débuter immédiatement la réanimation cardio-pulmonaire, en alternant trente compressions thoraciques et deux insufflations, et de faire chercher un défibrillateur automatisé externe si l\'entreprise en dispose. Une victime de noyade peut vomir de l\'eau pendant la réanimation. Il faut alors tourner la tête sur le côté pour dégager les voies respiratoires, sans interrompre les gestes plus que nécessaire." },
+      { type: "quote", text: "Même consciente et apparemment rétablie, une victime de noyade doit toujours être examinée par un médecin. Un œdème pulmonaire peut apparaître plusieurs heures après l\'incident." },
+      { type: "h2", text: "Ce que doit organiser l\'employeur" },
+      { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés dans l\'entreprise. Sur un site exposé au risque de noyade, cela suppose la présence de moyens de sauvetage accessibles, une consigne claire sur la conduite à tenir et la présence de salariés formés au sauvetage et aux gestes de premiers secours. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences vitales, y compris en milieu aquatique,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
