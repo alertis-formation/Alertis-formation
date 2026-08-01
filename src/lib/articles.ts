@@ -127,6 +127,7 @@ export const articleSlugs = [
   "quart-heure-securite-organiser-reunion-terrain-efficace",
   "piqures-morsures-travail-conduite-a-tenir-sst",
   "noyade-hydrocution-travail-conduite-a-tenir-sst",
+  "burn-out-travail-signes-alerte-obligations-employeur",
 ] as const;
 
 /**
@@ -6236,6 +6237,36 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que doit organiser l\'employeur" },
       { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés dans l\'entreprise. Sur un site exposé au risque de noyade, cela suppose la présence de moyens de sauvetage accessibles, une consigne claire sur la conduite à tenir et la présence de salariés formés au sauvetage et aux gestes de premiers secours. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences vitales, y compris en milieu aquatique,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "burn-out-travail-signes-alerte-obligations-employeur": {
+    title: "Burn-out au travail : signes d\'alerte et obligations de l\'employeur",
+    excerpt: "Le burn-out n\'est pas une simple fatigue passagère. Repérer les signes précoces et connaître le cadre légal de la prévention permet à l\'employeur d\'agir avant la rupture.",
+    publishedAt: "2026-08-01",
+    category: "Santé mentale",
+    readingTime: 6,
+    image: "/images/articles/burn-out-travail-signes-alerte-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié qui en fait toujours plus, ne décroche jamais et finit par s\'effondrer sans signe apparent : c\'est le scénario classique du burn-out. Ce phénomène progresse souvent en silence, porté par un excès d\'engagement que l\'entourage professionnel prend d\'abord pour de la performance. Savoir le repérer tôt change tout pour le salarié comme pour l\'entreprise." },
+      { type: "h2", text: "Un phénomène reconnu, mais pas une maladie à part entière" },
+      { type: "p", text: "L\'Organisation mondiale de la santé classe le burn-out, dans la 11e révision de la Classification internationale des maladies (CIM-11), comme un phénomène lié au travail et non comme une maladie. Il résulte d\'un stress chronique au travail qui n\'a pas été géré avec succès, caractérisé par trois dimensions : un épuisement d\'énergie, un cynisme ou une distance mentale accrue vis-à-vis du travail, et une efficacité professionnelle réduite." },
+      { type: "h2", text: "Les signes qui doivent alerter" },
+      { type: "ul", items: [
+        "Fatigue qui ne disparaît plus, même après le repos ou les congés.",
+        "Irritabilité, perte de patience, cynisme envers les collègues ou les usagers.",
+        "Sentiment d\'inefficacité et perte de sens malgré un investissement inchangé, voire accru.",
+        "Troubles du sommeil, maux de tête ou douleurs digestives récurrents sans cause médicale identifiée.",
+        "Isolement progressif, désengagement des échanges informels avec l\'équipe.",
+      ]},
+      { type: "h3", text: "Le rôle du manager de proximité" },
+      { type: "p", text: "Le manager n\'a pas à poser un diagnostic, ce n\'est pas son rôle. Il est en revanche le mieux placé pour observer une rupture de rythme chez un salarié habituellement stable : une baisse soudaine d\'énergie, des erreurs inhabituelles, un repli. Un entretien individuel, mené sans jugement, permet souvent d\'ouvrir la discussion avant que la situation ne se dégrade davantage." },
+      { type: "quote", text: "Le signal le plus fiable n\'est pas la plainte du salarié, qui vient rarement de lui-même, mais le changement observé par ceux qui travaillent avec lui au quotidien." },
+      { type: "h2", text: "L\'obligation de prévention de l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs. Cette obligation inclut la prévention des risques psychosociaux liés à la charge de travail, à l\'organisation et au management, qui doivent être identifiés et évalués dans le Document Unique d\'Évaluation des Risques Professionnels. Revoir la répartition des tâches, clarifier les priorités et limiter les sollicitations en dehors des horaires agissent sur la cause plutôt que sur les symptômes." },
+      { type: "p", text: "Le burn-out ne figure dans aucun tableau de maladie professionnelle. Sa reconnaissance passe par la voie complémentaire prévue à l\'article L.461-1 du Code de la sécurité sociale : le dossier est alors examiné par le comité régional de reconnaissance des maladies professionnelles, qui apprécie le lien direct et essentiel entre le travail habituel du salarié et la pathologie constatée. Au retour d\'un arrêt lié à un burn-out, la visite de reprise auprès du service de santé au travail est l\'occasion d\'ajuster le poste avant toute nouvelle exposition aux mêmes facteurs de risque." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation de prévention de l\'employeur, article L.461-1 du Code de la sécurité sociale relatif à la reconnaissance des maladies professionnelles hors tableau, classification internationale des maladies (CIM-11) de l\'Organisation mondiale de la santé." },
+      { type: "cta", text: "Pour former vos managers et équipes RH à la prévention des risques psychosociaux,", label: "découvrez notre formation PSSM", href: "/formations" },
     ],
   },
 };
