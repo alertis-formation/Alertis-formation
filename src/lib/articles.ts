@@ -128,6 +128,7 @@ export const articleSlugs = [
   "piqures-morsures-travail-conduite-a-tenir-sst",
   "noyade-hydrocution-travail-conduite-a-tenir-sst",
   "burn-out-travail-signes-alerte-obligations-employeur",
+  "aeration-assainissement-locaux-travail-obligations-employeur",
 ] as const;
 
 /**
@@ -6267,6 +6268,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le burn-out ne figure dans aucun tableau de maladie professionnelle. Sa reconnaissance passe par la voie complémentaire prévue à l\'article L.461-1 du Code de la sécurité sociale : le dossier est alors examiné par le comité régional de reconnaissance des maladies professionnelles, qui apprécie le lien direct et essentiel entre le travail habituel du salarié et la pathologie constatée. Au retour d\'un arrêt lié à un burn-out, la visite de reprise auprès du service de santé au travail est l\'occasion d\'ajuster le poste avant toute nouvelle exposition aux mêmes facteurs de risque." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation de prévention de l\'employeur, article L.461-1 du Code de la sécurité sociale relatif à la reconnaissance des maladies professionnelles hors tableau, classification internationale des maladies (CIM-11) de l\'Organisation mondiale de la santé." },
       { type: "cta", text: "Pour former vos managers et équipes RH à la prévention des risques psychosociaux,", label: "découvrez notre formation PSSM", href: "/formations" },
+    ],
+  },
+
+  "aeration-assainissement-locaux-travail-obligations-employeur": {
+    title: "Aération et assainissement des locaux de travail : les obligations de l\'employeur",
+    excerpt: "Renouveler l\'air des locaux fermés, capter les polluants à la source, entretenir les installations : la ventilation du poste de travail répond à des règles précises que l\'employeur doit connaître.",
+    publishedAt: "2026-08-02",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/aeration-assainissement-locaux-travail-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un bureau où l\'air stagne, un atelier où les vapeurs s\'accumulent : ces situations ne relèvent pas seulement du confort. Le Code du travail impose à l\'employeur de renouveler l\'air des locaux fermés et d\'en évacuer les polluants. Une obligation souvent réduite, à tort, à l\'installation d\'une climatisation, alors qu\'elle couvre l\'ensemble du bâti, son entretien et son contrôle dans la durée." },
+      { type: "h2", text: "Une obligation ancrée dans le Code du travail" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour protéger la santé physique des travailleurs. L\'aération des locaux fermés en fait partie intégrante : elle est encadrée par les articles R.4222-1 et suivants, regroupés dans le chapitre consacré à l\'aération et à l\'assainissement des lieux de travail." },
+      { type: "h2", text: "Deux catégories de locaux, deux logiques de ventilation" },
+      { type: "p", text: "Le Code du travail distingue les locaux à pollution non spécifique, où l\'air n\'est pollué que par la présence humaine (bureaux, salles de réunion, accueil), des locaux à pollution spécifique, où l\'activité dégage des poussières, gaz ou vapeurs (ateliers, cabines de peinture, zones de soudage). Cette distinction détermine le type de ventilation à mettre en place." },
+      { type: "ul", items: [
+        "Locaux à pollution non spécifique : renouvellement d\'air permanent, par ventilation mécanique ou par ouvrants donnant sur l\'extérieur, pour diluer le dioxyde de carbone et les odeurs liés à la présence humaine.",
+        "Locaux à pollution spécifique : captage des polluants à la source (hottes, gaines d\'aspiration) avant qu\'ils ne se diffusent dans l\'atmosphère de travail, complété si besoin d\'une ventilation générale.",
+        "Interdiction, dans les deux cas, de recycler l\'air extrait d\'un local à pollution spécifique vers un autre local, pour éviter de déplacer la pollution plutôt que de la supprimer.",
+      ]},
+      { type: "h2", text: "Entretien des installations : une obligation dans la durée" },
+      { type: "p", text: "Installer un système de ventilation ne suffit pas : il faut aussi prouver qu\'il fonctionne dans la durée. Pour les installations mécaniques, l\'employeur doit disposer d\'un dossier décrivant les caractéristiques du système et les modalités de son entretien. Nettoyage des filtres, vérification des débits, remplacement des éléments défaillants : ces opérations doivent être tracées, pour démontrer que le renouvellement d\'air annoncé à la conception reste effectif au fil des années." },
+      { type: "quote", text: "Une ventilation qui fonctionnait le jour de sa réception ne garantit rien si personne ne vérifie qu\'elle fonctionne encore trois ans plus tard." },
+      { type: "h2", text: "Ce que risque l\'employeur qui néglige la ventilation" },
+      { type: "p", text: "Un défaut d\'aération constaté par l\'inspection du travail peut donner lieu à une mise en demeure de mettre les installations en conformité. Au-delà du risque de sanction, une ventilation défaillante expose les salariés à une exposition prolongée à des polluants, avec des conséquences sur la santé respiratoire, et peut engager la responsabilité de l\'employeur en cas d\'accident ou de maladie liée à cette exposition." },
+      { type: "ul", items: [
+        "Identifier, local par local, s\'il s\'agit d\'un local à pollution spécifique ou non spécifique, et vérifier que le système en place correspond à cette classification.",
+        "Programmer les opérations d\'entretien et de contrôle des installations de ventilation dans le plan de maintenance du bâtiment, avec traçabilité écrite.",
+        "Intégrer la qualité de l\'air dans le Document Unique d\'Évaluation des Risques Professionnels, en particulier pour les locaux à pollution spécifique.",
+      ]},
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation de sécurité de l\'employeur, articles R.4222-1 et suivants du Code du travail relatifs à l\'aération et à l\'assainissement des lieux de travail." },
+      { type: "cta", text: "Pour structurer la prévention des risques dans vos locaux de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
