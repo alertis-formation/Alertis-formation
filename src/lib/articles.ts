@@ -129,6 +129,7 @@ export const articleSlugs = [
   "noyade-hydrocution-travail-conduite-a-tenir-sst",
   "burn-out-travail-signes-alerte-obligations-employeur",
   "aeration-assainissement-locaux-travail-obligations-employeur",
+  "hypothermie-gelures-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6301,6 +6302,46 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation de sécurité de l\'employeur, articles R.4222-1 et suivants du Code du travail relatifs à l\'aération et à l\'assainissement des lieux de travail." },
       { type: "cta", text: "Pour structurer la prévention des risques dans vos locaux de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "hypothermie-gelures-travail-conduite-a-tenir-sst": {
+    title: "Hypothermie et gelures au travail : conduite à tenir pour le SST",
+    excerpt: "Chantiers hivernaux, entrepôts frigorifiques, vendanges tardives : certains postes exposent les salariés au froid intense. Le SST doit reconnaître les signes d\'hypothermie et de gelure avant l\'aggravation.",
+    publishedAt: "2026-08-03",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/hypothermie-gelures-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Compagnon du BTP en plein hiver, opérateur en chambre de surgélation, viticulteur lors de vendanges tardives ou agent de sécurité en poste de nuit : le froid intense expose certains salariés à deux urgences distinctes, l\'hypothermie et la gelure. Ces atteintes progressent parfois sans que la victime en ait pleinement conscience. Le Sauveteur Secouriste du Travail doit savoir repérer les premiers signes et réagir avant que la situation ne s\'aggrave." },
+      { type: "h2", text: "L\'hypothermie, une chute progressive de la température du corps" },
+      { type: "p", text: "L\'hypothermie survient lorsque la température corporelle centrale descend en dessous de 35 °C. L\'organisme, exposé au froid, à l\'humidité ou au vent pendant une durée prolongée, ne parvient plus à compenser la perte de chaleur. La fatigue, un vêtement mouillé ou insuffisant et l\'immobilité accélèrent ce phénomène, même à des températures qui ne semblent pas extrêmes." },
+      { type: "ul", items: [
+        "Hypothermie légère (35 à 32 °C) : frissons intenses et incontrôlables, peau froide et pâle, gestes moins précis.",
+        "Hypothermie modérée (32 à 28 °C) : les frissons cessent, la victime devient confuse, somnolente, parle avec difficulté et perd progressivement sa coordination.",
+        "Hypothermie sévère (moins de 28 °C) : perte de connaissance, respiration ralentie, troubles du rythme cardiaque pouvant aller jusqu\'à l\'arrêt cardiaque.",
+      ]},
+      { type: "h3", text: "Les gestes à adopter face à une hypothermie" },
+      { type: "ul", items: [
+        "Mettre la victime à l\'abri du froid, du vent et de l\'humidité le plus rapidement possible.",
+        "Retirer les vêtements mouillés et les remplacer par des vêtements secs, ou envelopper la victime dans une couverture isotherme.",
+        "Réchauffer progressivement en isolant la victime du sol froid, sans chercher un réchauffement brutal.",
+        "Proposer une boisson chaude et sucrée uniquement si la victime est consciente et cohérente.",
+        "Ne jamais frictionner les membres ni donner d\'alcool, qui accélère la déperdition de chaleur.",
+        "Surveiller la conscience et la respiration, et appeler le 15 dès les premiers signes de confusion ou de somnolence.",
+      ]},
+      { type: "h2", text: "Les gelures, l\'atteinte localisée des extrémités" },
+      { type: "p", text: "La gelure touche les zones les moins bien irriguées et les plus exposées : doigts, orteils, nez, oreilles. Elle se distingue de l\'engelure, une atteinte superficielle et douloureuse qui reste réversible. La gelure profonde correspond à un gel réel des tissus, avec un risque de nécrose si la prise en charge tarde." },
+      { type: "ul", items: [
+        "Engelure : peau rouge ou violacée, douloureuse, avec sensation de picotement ou de brûlure.",
+        "Gelure superficielle : peau pâle, cireuse, engourdie, mais qui reste souple sous la pression du doigt.",
+        "Gelure profonde : peau blanche ou grisâtre, dure et cassante au toucher, perte totale de sensibilité de la zone atteinte.",
+      ]},
+      { type: "p", text: "Face à une gelure, il faut retirer bagues, montre ou tout objet compressif avant l\'apparition d\'un œdème, puis réchauffer la zone dans une eau tiède, entre 37 et 39 °C, jamais brûlante. Une source de chaleur directe, comme un radiateur ou une flamme, est à proscrire : la zone engourdie ne ressent plus la douleur qui alerterait normalement d\'une brûlure. Il ne faut ni frotter la peau gelée, ni percer une éventuelle cloque, et protéger ensuite la zone avec un pansement stérile sec et non compressif avant d\'orienter la victime vers une structure médicale." },
+      { type: "quote", text: "Frotter une zone gelée pour la réchauffer semble être un réflexe naturel, mais ce geste détruit les tissus déjà fragilisés au lieu de les préserver." },
+      { type: "h2", text: "Ce que doit organiser l\'employeur" },
+      { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés. Sur les postes exposés au grand froid, cela suppose des couvertures isothermes accessibles, une consigne claire sur la conduite à tenir et une sensibilisation des équipes aux premiers signes d\'hypothermie et de gelure, en particulier lors des pics de froid hivernaux. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences liées au froid,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
