@@ -130,6 +130,7 @@ export const articleSlugs = [
   "burn-out-travail-signes-alerte-obligations-employeur",
   "aeration-assainissement-locaux-travail-obligations-employeur",
   "hypothermie-gelures-travail-conduite-a-tenir-sst",
+  "etat-de-choc-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6342,6 +6343,45 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que doit organiser l\'employeur" },
       { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés. Sur les postes exposés au grand froid, cela suppose des couvertures isothermes accessibles, une consigne claire sur la conduite à tenir et une sensibilisation des équipes aux premiers signes d\'hypothermie et de gelure, en particulier lors des pics de froid hivernaux. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des urgences liées au froid,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "etat-de-choc-travail-signes-conduite-a-tenir-sst": {
+    title: "État de choc au travail : signes et conduite à tenir pour le SST",
+    excerpt: "Après une hémorragie, un traumatisme grave ou une brûlure étendue, l\'organisme peut basculer en état de choc. Le SST doit reconnaître les signes de cette détresse circulatoire et réagir sans délai.",
+    publishedAt: "2026-08-04",
+    category: "Secourisme",
+    readingTime: 6,
+    image: "/images/articles/etat-de-choc-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Une hémorragie importante, un traumatisme sévère, une brûlure étendue ou une réaction allergique grave peuvent faire basculer l\'organisme en état de choc. Cette détresse circulatoire prive progressivement les organes vitaux d\'oxygène. Sans réaction rapide du Sauveteur Secouriste du Travail, l\'aggravation peut être brutale. Reconnaître les premiers signes et connaître la conduite à tenir permet de gagner un temps précieux avant l\'arrivée des secours." },
+      { type: "h2", text: "Une détresse circulatoire qui prive les organes d\'oxygène" },
+      { type: "p", text: "L\'état de choc correspond à une chute de la pression artérielle qui empêche le sang d\'irriguer correctement les organes. Pour compenser, le cœur accélère et les vaisseaux périphériques se contractent, ce qui détourne le sang vers les organes vitaux au détriment de la peau et des extrémités. Plusieurs causes peuvent le déclencher au travail : une hémorragie externe ou interne, une brûlure étendue, un traumatisme grave, une déshydratation sévère ou une réaction allergique majeure." },
+      { type: "h2", text: "Les signes qui doivent alerter" },
+      { type: "ul", items: [
+        "Peau pâle, moite et froide, en particulier au niveau des extrémités.",
+        "Pouls rapide et difficile à percevoir.",
+        "Respiration accélérée et superficielle.",
+        "Soif intense, une réaction naturelle de l\'organisme face à la perte de volume sanguin.",
+        "Anxiété, agitation ou au contraire abattement inhabituel.",
+        "Dans les formes sévères, confusion puis perte de connaissance.",
+      ]},
+      { type: "h2", text: "La conduite à tenir face à un état de choc" },
+      { type: "p", text: "Le secouriste alerte les secours en priorité, en décrivant les circonstances et les signes observés. Il recherche ensuite la cause du choc, en particulier une hémorragie externe qu\'il faut comprimer immédiatement. La victime consciente est allongée, si possible avec les jambes surélevées pour favoriser le retour du sang vers le cœur et le cerveau." },
+      { type: "ul", items: [
+        "Allonger la victime et surélever les jambes, sauf en cas de traumatisme du dos, du bassin, du thorax ou de la tête.",
+        "Couvrir la victime pour limiter la déperdition de chaleur, sans la réchauffer excessivement.",
+        "Comprimer immédiatement toute hémorragie externe visible.",
+        "Ne rien donner à boire ni à manger, même si la victime réclame de l\'eau.",
+        "Surveiller en continu la conscience et la respiration jusqu\'à l\'arrivée des secours.",
+        "Placer en position latérale de sécurité si la victime perd connaissance tout en continuant de respirer.",
+      ]},
+      { type: "h3", text: "Les contre-indications à connaître" },
+      { type: "p", text: "Surélever les jambes est déconseillé en cas de suspicion de fracture du bassin, de traumatisme du rachis, de traumatisme crânien ou de difficulté respiratoire liée à un traumatisme thoracique. Dans ces situations, la victime reste allongée à plat, dans la position la moins inconfortable pour elle, en attendant les secours." },
+      { type: "quote", text: "L\'état de choc s\'aggrave souvent en silence. Une victime qui semble seulement anxieuse ou pâle peut basculer en quelques minutes vers une détresse vitale." },
+      { type: "h2", text: "Ce que doit organiser l\'employeur" },
+      { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés dans l\'entreprise. Sur les postes exposés à un risque de traumatisme grave ou d\'hémorragie, cela suppose la présence de secouristes formés, un matériel de premiers secours accessible et une procédure d\'alerte connue de tous. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la reconnaissance des détresses vitales,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
