@@ -131,6 +131,7 @@ export const articleSlugs = [
   "aeration-assainissement-locaux-travail-obligations-employeur",
   "hypothermie-gelures-travail-conduite-a-tenir-sst",
   "etat-de-choc-travail-signes-conduite-a-tenir-sst",
+  "vestiaires-sanitaires-douches-entreprise-obligations-employeur",
 ] as const;
 
 /**
@@ -6382,6 +6383,35 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que doit organiser l\'employeur" },
       { type: "p", text: "Les articles R.4224-15 et R.4224-16 du Code du travail imposent à l\'employeur d\'organiser les premiers secours et de mettre à disposition un matériel adapté aux risques identifiés dans l\'entreprise. Sur les postes exposés à un risque de traumatisme grave ou d\'hémorragie, cela suppose la présence de secouristes formés, un matériel de premiers secours accessible et une procédure d\'alerte connue de tous. Référence officielle : articles R.4224-15 et R.4224-16 du Code du travail, relatifs à l\'organisation des premiers secours et au matériel adapté aux risques de l\'entreprise." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la reconnaissance des détresses vitales,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "vestiaires-sanitaires-douches-entreprise-obligations-employeur": {
+    title: "Vestiaires, sanitaires et douches en entreprise : les obligations de l\'employeur",
+    excerpt: "Le Code du travail impose des vestiaires, des sanitaires et, selon l\'activité, des douches adaptées aux salariés. Ratios par effectif et cas où la douche devient obligatoire : ce que doit prévoir l\'employeur.",
+    publishedAt: "2026-08-05",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/vestiaires-sanitaires-douches-entreprise-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Vestiaires pour se changer, lavabos pour se laver les mains, cabinets d\'aisance, parfois des douches : le Code du travail encadre précisément les installations sanitaires que l\'employeur doit mettre à disposition des salariés. Les obligations varient selon l\'effectif et la nature de l\'activité, mais aucune entreprise n\'y échappe totalement." },
+      { type: "h2", text: "Des vestiaires obligatoires dès qu\'il faut se changer" },
+      { type: "p", text: "Un vestiaire collectif est obligatoire dès que les salariés doivent porter une tenue de travail, un équipement de protection individuelle ou se changer pour des raisons d\'hygiène. Il doit être distinct des locaux de travail, correctement aéré, chauffé et fermer à clé. Un siège est prévu pour chaque utilisateur." },
+      { type: "p", text: "Pour les travaux salissants ou insalubres, le vestiaire comporte deux compartiments séparés : l\'un pour les vêtements de ville, l\'autre pour les vêtements de travail, afin d\'éviter que les deux ne se contaminent. Chaque salarié dispose d\'une armoire individuelle, ventilée si les vêtements de travail restent humides ou souillés." },
+      { type: "h2", text: "Lavabos et cabinets d\'aisance : des ratios liés à l\'effectif" },
+      { type: "p", text: "Le nombre de lavabos doit être proportionné à l\'effectif présent au même moment, avec eau chaude et froide, savon et moyen de séchage individuel ou hygiénique. Les cabinets d\'aisance sont séparés pour les femmes et les hommes, ventilés, éclairés et accessibles depuis les locaux de travail et les vestiaires sans délai excessif." },
+      { type: "ul", items: [
+        "Un lavabo pour dix salariés au maximum, à proximité immédiate des postes de travail ou des vestiaires.",
+        "Des cabinets d\'aisance en nombre suffisant, distincts pour chaque sexe dès que l\'effectif le justifie.",
+        "Un entretien quotidien et une désinfection régulière, à la charge de l\'employeur.",
+      ]},
+      { type: "h2", text: "Douches : une obligation liée à la nature des travaux" },
+      { type: "p", text: "Des douches doivent être installées lorsque les salariés effectuent des travaux insalubres et salissants, une catégorie définie par arrêté selon l\'activité exercée. L\'eau y est à température réglable, en quantité suffisante, et chaque poste de douche est individualisé par une cloison ou un rideau." },
+      { type: "p", text: "Le temps passé à se laver dans ces situations est assimilé à du temps de travail effectif lorsque la douche est rendue obligatoire par les textes ou par les risques du poste. Ce point figure souvent dans les accords d\'entreprise ou les conventions collectives, qui peuvent préciser sa durée." },
+      { type: "quote", text: "Un vestiaire mal entretenu ou des sanitaires insuffisants ne sont jamais un détail : c\'est souvent le premier signe, visible par tous, du niveau réel d\'attention porté aux conditions de travail." },
+      { type: "h2", text: "Ce que l\'employeur doit organiser dans la durée" },
+      { type: "p", text: "Au-delà de l\'installation initiale, l\'employeur doit assurer un entretien régulier de ces locaux, renouveler le matériel dégradé et vérifier que les ratios restent cohérents avec l\'évolution de l\'effectif. Un manquement constaté peut donner lieu à une mise en demeure de l\'inspection du travail. Référence officielle : articles R4228-1 et suivants du Code du travail, relatifs aux installations sanitaires mises à la disposition des salariés." },
+      { type: "cta", text: "Pour organiser la prévention des risques liés à l\'hygiène et aux conditions de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
