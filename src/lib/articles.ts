@@ -132,6 +132,7 @@ export const articleSlugs = [
   "hypothermie-gelures-travail-conduite-a-tenir-sst",
   "etat-de-choc-travail-signes-conduite-a-tenir-sst",
   "vestiaires-sanitaires-douches-entreprise-obligations-employeur",
+  "coordination-sps-chantier-btp-role-coordonnateur-documents",
 ] as const;
 
 /**
@@ -6412,6 +6413,35 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que l\'employeur doit organiser dans la durée" },
       { type: "p", text: "Au-delà de l\'installation initiale, l\'employeur doit assurer un entretien régulier de ces locaux, renouveler le matériel dégradé et vérifier que les ratios restent cohérents avec l\'évolution de l\'effectif. Un manquement constaté peut donner lieu à une mise en demeure de l\'inspection du travail. Référence officielle : articles R4228-1 et suivants du Code du travail, relatifs aux installations sanitaires mises à la disposition des salariés." },
       { type: "cta", text: "Pour organiser la prévention des risques liés à l\'hygiène et aux conditions de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "coordination-sps-chantier-btp-role-coordonnateur-documents": {
+    title: "Coordination SPS sur les chantiers du BTP : rôle et documents obligatoires",
+    excerpt: "Dès que plusieurs entreprises interviennent sur un chantier, un coordonnateur SPS doit être désigné. Catégories d\'opérations, documents à produire et responsabilités du maître d\'ouvrage expliqués.",
+    publishedAt: "2026-08-06",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/coordination-sps-chantier-btp-role-coordonnateur-documents.jpg",
+    content: [
+      { type: "p", text: "Dès que plusieurs entreprises interviennent sur un même chantier de bâtiment ou de génie civil, un risque nouveau apparaît : celui de la coactivité. Une entreprise qui creuse une tranchée pendant qu\'une autre pose une charpente au-dessus, un livreur qui croise un engin de terrassement. Pour encadrer ces situations, la loi impose au maître d\'ouvrage de désigner un coordonnateur SPS (Sécurité et Protection de la Santé) sur la plupart des opérations de construction." },
+      { type: "h2", text: "Une obligation issue de la directive chantiers mobiles" },
+      { type: "p", text: "La coordination SPS découle de la loi du 31 décembre 1993, qui transpose une directive européenne sur les chantiers temporaires ou mobiles. Codifiée aux articles L4532-1 et suivants du Code du travail, elle s\'impose dès qu\'une opération de bâtiment ou de génie civil fait intervenir plusieurs entreprises, y compris des sous-traitants, simultanément ou successivement." },
+      { type: "h2", text: "Trois catégories d\'opérations, trois niveaux d\'exigence" },
+      { type: "p", text: "Le Code du travail classe les opérations en trois catégories selon leur ampleur, mesurée notamment par l\'effectif prévisionnel et le volume de travail. Cette catégorie détermine le niveau de compétence exigé du coordonnateur, l\'obligation ou non de constituer un collège interentreprises, et la nature des documents à produire." },
+      { type: "ul", items: [
+        "Catégorie 1 : les opérations les plus importantes, avec constitution obligatoire d\'un collège interentreprises de sécurité, de santé et des conditions de travail (CISSCT).",
+        "Catégorie 2 : des opérations de taille intermédiaire, sans collège obligatoire sauf décision de l\'inspection du travail.",
+        "Catégorie 3 : les opérations de moindre ampleur, qui restent soumises à une coordination SPS dès qu\'un risque de coactivité existe.",
+      ]},
+      { type: "h2", text: "Les documents que produit le coordonnateur" },
+      { type: "p", text: "Pour les catégories 1 et 2, le coordonnateur rédige un plan général de coordination (PGC) qui fixe les mesures de prévention communes au chantier : circulation des engins, zones de stockage, accès, moyens de secours. Chaque entreprise intervenante décline ensuite ces mesures dans son propre plan particulier de sécurité et de protection de la santé (PPSPS), avant le début de son intervention." },
+      { type: "h3", text: "Le DIUO, une mémoire pour l\'après-chantier" },
+      { type: "p", text: "Le coordonnateur constitue aussi un dossier d\'intervention ultérieure sur l\'ouvrage (DIUO). Ce document rassemble les informations utiles à la prévention des risques lors des opérations de maintenance, d\'entretien ou de rénovation menées après la livraison du bâtiment. Il est remis au maître d\'ouvrage, qui le conserve et le transmet en cas de revente." },
+      { type: "quote", text: "Un coordonnateur SPS n\'est pas là pour contrôler un chantier ; il est là pour anticiper les moments où deux entreprises se marchent dessus, avant que cela ne devienne un accident." },
+      { type: "h2", text: "Ce que risque le maître d\'ouvrage en l\'absence de coordination" },
+      { type: "p", text: "L\'absence de coordonnateur SPS sur une opération qui l\'exige engage la responsabilité du maître d\'ouvrage. En cas d\'accident, l\'insuffisance de coordination peut être retenue par les juridictions, y compris au titre de la faute inexcusable lorsque l\'employeur d\'une victime est concerné. Le maître d\'œuvre et les entreprises intervenantes peuvent aussi voir leur responsabilité recherchée s\'ils n\'ont pas respecté les mesures fixées par le PGC. Référence officielle : loi du 31 décembre 1993 et articles L4532-1 et suivants du Code du travail." },
+      { type: "cta", text: "Pour sensibiliser vos équipes aux risques de coactivité sur chantier,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
