@@ -93,6 +93,50 @@ export default async function SecourismePage() {
           href: "/formation-sst-obligatoire-code-du-travail",
         }}
       />
+      {/* Nous formons a l'usage du defibrillateur, nous n'en vendons pas et
+          nous n'entretenons pas les vôtres. Un stagiaire qui repart en sachant
+          s'en servir demande souvent où en trouver un, ou qui s'occupe de
+          celui qui dort dans le hall depuis quatre ans : autant lui dire. */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10">
+          <div className="max-w-3xl space-y-5 text-[color:var(--brand-gray-medium)] leading-relaxed">
+            <h2 className="text-[color:var(--brand-charcoal)]">
+              Former, oui. Encore faut-il que l&apos;appareil{" "}
+              <span className="text-[color:var(--brand-red)]">fonctionne</span>.
+            </h2>
+            <p className="text-lg">
+              Un défibrillateur signale ses pannes électroniques tout seul, mais jamais la
+              date de péremption de ses électrodes : il continue de clignoter au vert avec
+              des consommables périmés depuis des mois. La formation ne sert à rien si
+              l&apos;appareil refuse le choc le jour venu.
+            </p>
+            <p>
+              Ce n&apos;est pas notre métier, c&apos;est celui de{" "}
+              <a
+                href="https://www.entretien-maintenance-defibrillateur.fr"
+                target="_blank"
+                rel="noopener"
+                className="font-semibold text-[color:var(--brand-charcoal)] underline underline-offset-4"
+              >
+                MaintenanceDAE
+              </a>
+              , qui contrôle les dates et mesure l&apos;énergie réellement délivrée au choc.
+              Pour équiper un site qui n&apos;a pas encore d&apos;appareil, ou remplacer des
+              électrodes,{" "}
+              <a
+                href="https://www.ventedefibrillateur.fr"
+                target="_blank"
+                rel="noopener"
+                className="font-semibold text-[color:var(--brand-charcoal)] underline underline-offset-4"
+              >
+                VenteDéfibrillateur
+              </a>{" "}
+              tient le catalogue.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <RelatedArticles
         title="Nos articles sur le secourisme"
         subtitle="SST, gestes qui sauvent, premiers secours : les conseils de nos formateurs."
