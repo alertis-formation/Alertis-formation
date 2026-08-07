@@ -133,6 +133,7 @@ export const articleSlugs = [
   "etat-de-choc-travail-signes-conduite-a-tenir-sst",
   "vestiaires-sanitaires-douches-entreprise-obligations-employeur",
   "coordination-sps-chantier-btp-role-coordonnateur-documents",
+  "eclairage-locaux-travail-obligations-valeurs-minimales",
 ] as const;
 
 /**
@@ -6442,6 +6443,37 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que risque le maître d\'ouvrage en l\'absence de coordination" },
       { type: "p", text: "L\'absence de coordonnateur SPS sur une opération qui l\'exige engage la responsabilité du maître d\'ouvrage. En cas d\'accident, l\'insuffisance de coordination peut être retenue par les juridictions, y compris au titre de la faute inexcusable lorsque l\'employeur d\'une victime est concerné. Le maître d\'œuvre et les entreprises intervenantes peuvent aussi voir leur responsabilité recherchée s\'ils n\'ont pas respecté les mesures fixées par le PGC. Référence officielle : loi du 31 décembre 1993 et articles L4532-1 et suivants du Code du travail." },
       { type: "cta", text: "Pour sensibiliser vos équipes aux risques de coactivité sur chantier,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "eclairage-locaux-travail-obligations-valeurs-minimales": {
+    title: "Éclairage des locaux de travail : obligations et valeurs minimales à respecter",
+    excerpt: "Le Code du travail fixe des valeurs minimales d\'éclairement selon le type de local et impose un entretien régulier des installations. Ce que doit vérifier l\'employeur, poste par poste.",
+    publishedAt: "2026-08-07",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/eclairage-locaux-travail-obligations-valeurs-minimales.jpg",
+    content: [
+      { type: "p", text: "Un sol mal éclairé favorise les chutes, un poste sous-éclairé fatigue la vue et ralentit le travail de précision. Le Code du travail ne laisse pas l\'éclairage des locaux à l\'appréciation de chaque employeur : il fixe des règles de conception et des valeurs minimales à respecter." },
+      { type: "h2", text: "Une obligation de conception avant tout" },
+      { type: "p", text: "Dès la conception des locaux, l\'article R.4223-1 du Code du travail impose de tirer le meilleur parti de la lumière naturelle compte tenu de l\'activité exercée. L\'éclairage artificiel vient ensuite compléter ou remplacer la lumière du jour, sans provoquer d\'éblouissement ni de zones d\'ombre gênantes sur les postes de travail." },
+      { type: "h2", text: "Des valeurs minimales selon le type d\'espace" },
+      { type: "p", text: "L\'article R.4223-4 du Code du travail fixe un niveau d\'éclairement minimal, exprimé en lux, pour chaque catégorie de local. Ce seuil grimpe avec la précision du travail effectué et le temps que les salariés y passent." },
+      { type: "ul", items: [
+        "Voies de circulation intérieure : 40 lux.",
+        "Escaliers et entrepôts : 60 lux.",
+        "Locaux de travail, vestiaires et sanitaires : 120 lux.",
+        "Locaux aveugles affectés à un travail permanent : 200 lux.",
+      ]},
+      { type: "p", text: "Ces valeurs sont des minimums légaux, pas des objectifs de confort. Un poste de contrôle visuel fin, un atelier de précision ou une salle de tri exigent souvent un éclairage complémentaire, localisé au plus près de la tâche." },
+      { type: "h2", text: "Un entretien qui conditionne la conformité" },
+      { type: "p", text: "Un éclairage conforme le jour de l\'installation ne le reste pas automatiquement. Poussière sur les luminaires, tubes vieillissants, vitres encrassées : le niveau d\'éclairement réel baisse progressivement si personne ne l\'entretient. L\'employeur doit organiser un nettoyage régulier des installations et remplacer sans délai le matériel défaillant." },
+      { type: "h3", text: "Le rôle du DUERP" },
+      { type: "p", text: "Un éclairage insuffisant sur un poste ou une zone de circulation est un facteur de risque à part entière : chutes de plain-pied, fatigue visuelle, gestes imprécis. Il doit figurer dans le document unique d\'évaluation des risques, avec les mesures correctives associées et leur échéance." },
+      { type: "quote", text: "Un éclairage insuffisant ne se voit pas toujours sur le moment ; c\'est souvent l\'accumulation de petites gênes visuelles qui débouche, des mois plus tard, sur une chute ou une erreur de manipulation." },
+      { type: "h2", text: "Ce que risque l\'employeur en cas de manquement" },
+      { type: "p", text: "En cas de contrôle, l\'inspection du travail peut mettre en demeure l\'employeur de corriger une installation non conforme. Si un accident survient et qu\'un éclairage défaillant y a contribué, cet élément peut être retenu dans l\'appréciation des responsabilités. Référence officielle : articles R.4223-1 et R.4223-4 du Code du travail, relatifs à l\'éclairage des lieux de travail." },
+      { type: "cta", text: "Pour intégrer l\'éclairage des locaux dans votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
