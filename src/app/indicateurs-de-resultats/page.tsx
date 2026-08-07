@@ -10,11 +10,13 @@ import {
 } from "lucide-react";
 import { PageShell } from "@/components/site/page-shell";
 import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { QualiopiSection } from "@/components/sections/qualiopi-section";
+import { siteConfig } from "@/lib/site-config";
 
 export const metadata = {
   title: "Indicateurs de résultats — Qualité de nos formations",
   description:
-    "Taux de satisfaction, taux de réussite, taux d'abandon : nos indicateurs de résultats publics sur les 12 derniers mois.",
+    "Taux de satisfaction, taux de réussite, taux d'abandon : les indicateurs de résultats publics d'Alertis Formation, organisme certifié Qualiopi, sur les 12 derniers mois.",
   alternates: { canonical: "/indicateurs-de-resultats" },
 };
 
@@ -112,7 +114,9 @@ export default function IndicateursPage() {
                 <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/60 mb-0.5">
                   Démarche
                 </div>
-                <div className="text-white font-semibold">Qualité & transparence</div>
+                <div className="text-white font-semibold">
+                  Certifié Qualiopi n° {siteConfig.qualiopi.certificateNumber}
+                </div>
               </div>
             </li>
           </ul>
@@ -176,6 +180,9 @@ export default function IndicateursPage() {
           </div>
         </div>
       </section>
+
+      {/* Certification Qualiopi */}
+      <QualiopiSection />
 
       {/* Methodology */}
       <section className="py-20 bg-white">

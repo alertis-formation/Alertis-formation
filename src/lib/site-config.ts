@@ -10,7 +10,7 @@ export const siteConfig = {
   fullName: "Alertis Formation",
   tagline: "Formation / Prévention des risques professionnels",
   description:
-    "Centre de formation spécialisé en santé et sécurité au travail. Formateurs experts issus du terrain, présents sur tout le territoire français.",
+    "Centre de formation certifié Qualiopi, spécialisé en santé et sécurité au travail. Formateurs experts issus du terrain, présents sur tout le territoire français.",
   url: "https://alertisformation.com",
   contact: {
     email: "contact@alertis.fr",
@@ -39,6 +39,25 @@ export const siteConfig = {
     vat: "FR64939516571",
     nda: "84 69 24105 69",
     ndaRegion: "Auvergne-Rhône-Alpes",
+  },
+  /**
+   * Certification Qualiopi — certificat n° 26FOR01077.1 délivré par QUALITIA
+   * Certification. Le PDF du certificat est publié dans `public/docs/`.
+   * À mettre à jour à chaque audit de surveillance / renouvellement.
+   */
+  qualiopi: {
+    certificateNumber: "26FOR01077.1",
+    /** Organisme certificateur accrédité par le COFRAC. */
+    certifier: "QUALITIA Certification",
+    /** Catégories d'actions couvertes (art. L.6313-1 du code du travail). */
+    scope: "L.6313-1 - 1° : Les actions de formation",
+    /** Dates ISO — utilisées par le JSON-LD et l'affichage (format FR). */
+    issuedOn: "2026-08-07",
+    validFrom: "2026-08-07",
+    validUntil: "2029-08-06",
+    /** Certificat téléchargeable. */
+    certificateUrl: "/docs/certificat-qualiopi-alertis-formation.pdf",
+    certificateFileSize: "184 Ko",
   },
   social: {
     instagram: "https://www.instagram.com/alertis_formation",

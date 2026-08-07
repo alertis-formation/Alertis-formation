@@ -19,6 +19,8 @@ export function GET(): Response {
     "",
     `Organisme de formation santé et sécurité au travail basé à ${siteConfig.contact.address.city} (${siteConfig.contact.address.postalCode}), intervenant partout en France, en intra comme en inter-entreprises. SIRET ${siteConfig.legal.siret} · NDA ${siteConfig.legal.nda} (${siteConfig.legal.ndaRegion}).`,
     "",
+    `Certifié Qualiopi (certificat n° ${siteConfig.qualiopi.certificateNumber}, délivré par ${siteConfig.qualiopi.certifier}, valable jusqu'au ${siteConfig.qualiopi.validUntil.split("-").reverse().join("/")}) au titre de la catégorie d'action « actions de formation ». Certificat : ${base}${siteConfig.qualiopi.certificateUrl}`,
+    "",
     "## Pages clés",
     `- [Accueil](${base}/)`,
     `- [Qui sommes-nous](${base}/qui-sommes-nous)`,

@@ -59,6 +59,27 @@ export function OrganizationJsonLd() {
       value: siteConfig.legal.siret,
     },
     vatID: siteConfig.legal.vat,
+    /**
+     * Certification Qualiopi — délivrée par un organisme certificateur accrédité,
+     * elle se modélise comme un `EducationalOccupationalCredential` reconnu par
+     * le certificateur (`recognizedBy`).
+     */
+    hasCredential: {
+      "@type": "EducationalOccupationalCredential",
+      name: "Qualiopi — processus certifié",
+      credentialCategory: "certification",
+      identifier: siteConfig.qualiopi.certificateNumber,
+      description:
+        "Certification qualité délivrée au titre de la catégorie d'action suivante : actions de formation (Référentiel National Qualité, art. L.6316-3 du code du travail).",
+      url: `${siteConfig.url}${siteConfig.qualiopi.certificateUrl}`,
+      dateCreated: siteConfig.qualiopi.issuedOn,
+      expires: siteConfig.qualiopi.validUntil,
+      validIn: { "@type": "Country", name: "France" },
+      recognizedBy: {
+        "@type": "Organization",
+        name: siteConfig.qualiopi.certifier,
+      },
+    },
     areaServed: {
       "@type": "Country",
       name: "France",

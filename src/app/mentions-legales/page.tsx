@@ -50,6 +50,37 @@ export default function MentionsLegalesPage() {
             </p>
           </div>
           <div>
+            <h2 className="text-[color:var(--brand-gray)] mb-3 text-2xl">
+              Certification qualité
+            </h2>
+            <p>
+              Alertis Formation est certifié{" "}
+              <strong className="text-[color:var(--brand-gray)]">Qualiopi</strong>{" "}
+              sous le certificat n°{" "}
+              <strong className="text-[color:var(--brand-gray)]">
+                {siteConfig.qualiopi.certificateNumber}
+              </strong>
+              , délivré par {siteConfig.qualiopi.certifier}.
+            </p>
+            <p className="mt-4 text-sm">
+              La certification qualité a été délivrée au titre de la catégorie
+              d&apos;action suivante : actions de formation. Elle atteste du
+              respect du Référentiel National Qualité mentionné à l&apos;article
+              L.6316-3 du code du travail.
+            </p>
+            <p className="mt-4 text-sm">
+              <a
+                href={siteConfig.qualiopi.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[color:var(--brand-red)] hover:underline"
+              >
+                Télécharger le certificat Qualiopi (PDF ·{" "}
+                {siteConfig.qualiopi.certificateFileSize})
+              </a>
+            </p>
+          </div>
+          <div>
             <h2 className="text-[color:var(--brand-gray)] mb-3 text-2xl">Contact</h2>
             <p>
               Email : {siteConfig.contact.email}

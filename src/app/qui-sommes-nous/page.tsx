@@ -17,6 +17,7 @@ import {
 import { PageShell } from "@/components/site/page-shell";
 import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { GoogleRatingBadge } from "@/components/site/google-rating-badge";
+import { QualiopiSection } from "@/components/sections/qualiopi-section";
 
 const values = [
   {
@@ -98,7 +99,7 @@ const ecoCommitments = [
 export const metadata = {
   title: "Qui sommes-nous",
   description:
-    "Alertis Formation : 15 collaborateurs au siège, des formateurs partenaires partout en France, au service de la prévention des risques en entreprise. Notre équipe, nos valeurs, nos engagements.",
+    "Alertis Formation, organisme certifié Qualiopi : 15 collaborateurs au siège, des formateurs partenaires partout en France, au service de la prévention des risques en entreprise. Notre équipe, nos valeurs, nos engagements.",
   alternates: { canonical: "/qui-sommes-nous" },
 };
 
@@ -215,6 +216,9 @@ export default function QuiSommesNousPage() {
           </div>
         </div>
       </section>
+
+      {/* Certification Qualiopi */}
+      <QualiopiSection background="white" />
 
       {/* Values */}
       <section className="py-20 bg-[color:var(--brand-cream)]">

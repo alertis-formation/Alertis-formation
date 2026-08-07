@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, Clock, MapPin, ArrowUpRight } from "lucide-react";
+import { Phone, Mail, Clock, MapPin, ArrowUpRight, FileText } from "lucide-react";
 import { AlertisLogo } from "./alertis-logo";
 import { footerNav, siteConfig } from "@/lib/site-config";
 import { locations } from "@/lib/locations";
@@ -31,6 +32,34 @@ export function SiteFooter() {
           <p className="text-sm text-white/65 leading-relaxed max-w-sm">
             {siteConfig.description}
           </p>
+          {/* Certification Qualiopi — mention légale + certificat téléchargeable */}
+          <div className="max-w-sm rounded-sm border border-white/10 bg-white/5 p-4">
+            <div className="flex items-start gap-4">
+              <span className="shrink-0 rounded-sm bg-white p-2">
+                <Image
+                  src="/brand/qualiopi.png"
+                  alt="Qualiopi — processus certifié — République française"
+                  width={633}
+                  height={338}
+                  sizes="96px"
+                  className="h-auto w-24"
+                />
+              </span>
+              <p className="text-xs text-white/60 leading-[1.55]">
+                La certification qualité a été délivrée au titre de la catégorie
+                d&apos;action suivante&nbsp;: actions de formation.
+              </p>
+            </div>
+            <a
+              href={siteConfig.qualiopi.certificateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-white hover:text-[color:var(--brand-mint)] transition-colors"
+            >
+              <FileText className="size-3.5 text-[color:var(--brand-red)]" />
+              Certificat n° {siteConfig.qualiopi.certificateNumber} (PDF)
+            </a>
+          </div>
         </div>
 
         {/* Nav: Découvrir + Formations */}
@@ -172,6 +201,15 @@ export function SiteFooter() {
           </div>
           <p className="text-xs text-white/45 order-1 md:order-2 text-center md:text-right">
             © {new Date().getFullYear()} {siteConfig.fullName}
+            <span className="mx-1.5 text-white/20">·</span>
+            <a
+              href={siteConfig.qualiopi.certificateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              Certifié Qualiopi
+            </a>
             <span className="mx-1.5 text-white/20">·</span>
             <Link href="/mentions-legales" className="hover:text-white">
               Mentions légales
