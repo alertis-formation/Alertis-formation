@@ -65,27 +65,27 @@ export function QualiopiSection({ background = "cream" }: Props) {
                 d&apos;action suivante&nbsp;: ACTIONS DE FORMATION. Certification
                 délivrée par {qualiopi.certifier}.
               </p>
-            </div>
 
-            {/* Certificat téléchargeable */}
-            <a
-              href={qualiopi.certificateUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group/doc shrink-0 inline-flex items-center gap-3 rounded-sm border border-[color:var(--brand-gray-medium)]/20 bg-white py-2 pl-2 pr-4 text-left hover:border-[color:var(--brand-red)]/45 hover:shadow-sm transition-colors"
-            >
-              <span className="inline-grid size-9 shrink-0 place-items-center rounded-sm bg-[color:var(--brand-red-soft)] text-[color:var(--brand-red)] group-hover/doc:bg-[color:var(--brand-red)] group-hover/doc:text-white transition-colors">
-                <FileText className="size-4" />
-              </span>
-              <span>
-                <b className="block text-[13.5px] font-bold leading-tight text-[color:var(--brand-charcoal)] group-hover/doc:text-[color:var(--brand-red)] transition-colors">
-                  Certificat Qualiopi
-                </b>
-                <span className="mt-0.5 block text-[10px] font-semibold uppercase tracking-[0.09em] text-[color:var(--brand-gray-medium)]">
-                  {certificateMeta}
+              {/* Certificat téléchargeable */}
+              <a
+                href={qualiopi.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group/doc mt-3.5 inline-flex items-center gap-3 rounded-sm border border-[color:var(--brand-gray-medium)]/20 bg-white py-2 pl-2 pr-4 text-left hover:border-[color:var(--brand-red)]/45 hover:shadow-sm transition-colors"
+              >
+                <span className="inline-grid size-9 shrink-0 place-items-center rounded-sm bg-[color:var(--brand-red-soft)] text-[color:var(--brand-red)] group-hover/doc:bg-[color:var(--brand-red)] group-hover/doc:text-white transition-colors">
+                  <FileText className="size-4" />
                 </span>
-              </span>
-            </a>
+                <span>
+                  <b className="block text-[13.5px] font-bold leading-tight text-[color:var(--brand-charcoal)] group-hover/doc:text-[color:var(--brand-red)] transition-colors">
+                    Certificat Qualiopi
+                  </b>
+                  <span className="mt-0.5 block text-[10px] font-semibold uppercase tracking-[0.09em] text-[color:var(--brand-gray-medium)]">
+                    {certificateMeta}
+                  </span>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
