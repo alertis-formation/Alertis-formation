@@ -41,7 +41,7 @@ export function QualiopiSection({ background = "cream" }: Props) {
     >
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         <div className="bg-white border border-[color:var(--brand-gray-medium)]/15 rounded-sm">
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-6 px-8 py-6 max-sm:flex-col max-sm:text-center">
+          <div className="flex items-center gap-8 px-8 py-6 max-md:flex-col max-md:gap-6 max-md:text-center">
             {/* Logo officiel */}
             <Image
               src="/brand/qualiopi.png"
@@ -52,8 +52,8 @@ export function QualiopiSection({ background = "cream" }: Props) {
               className="h-[104px] w-auto shrink-0"
             />
 
-            {/* Mention légale + certificat */}
-            <div className="max-w-[54ch]">
+            {/* Mention légale */}
+            <div className="min-w-0 flex-1">
               <h2
                 id="qualiopi-heading"
                 className="!text-[19px] !font-extrabold !leading-tight tracking-[-0.01em] text-[color:var(--brand-charcoal)]"
@@ -65,27 +65,27 @@ export function QualiopiSection({ background = "cream" }: Props) {
                 d&apos;action suivante&nbsp;: ACTIONS DE FORMATION. Certification
                 délivrée par {qualiopi.certifier}.
               </p>
-              <div className="mt-3.5 flex flex-wrap gap-2.5 max-sm:justify-center">
-                <a
-                  href={qualiopi.certificateUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group/doc inline-flex items-center gap-3 rounded-sm border border-[color:var(--brand-gray-medium)]/20 bg-white py-2 pl-2 pr-4 text-left hover:border-[color:var(--brand-red)]/45 hover:shadow-sm transition-colors"
-                >
-                  <span className="inline-grid size-9 shrink-0 place-items-center rounded-sm bg-[color:var(--brand-red-soft)] text-[color:var(--brand-red)] group-hover/doc:bg-[color:var(--brand-red)] group-hover/doc:text-white transition-colors">
-                    <FileText className="size-4" />
-                  </span>
-                  <span>
-                    <b className="block text-[13.5px] font-bold leading-tight text-[color:var(--brand-charcoal)] group-hover/doc:text-[color:var(--brand-red)] transition-colors">
-                      Certificat Qualiopi
-                    </b>
-                    <span className="mt-0.5 block text-[10px] font-semibold uppercase tracking-[0.09em] text-[color:var(--brand-gray-medium)]">
-                      {certificateMeta}
-                    </span>
-                  </span>
-                </a>
-              </div>
             </div>
+
+            {/* Certificat téléchargeable */}
+            <a
+              href={qualiopi.certificateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/doc shrink-0 inline-flex items-center gap-3 rounded-sm border border-[color:var(--brand-gray-medium)]/20 bg-white py-2 pl-2 pr-4 text-left hover:border-[color:var(--brand-red)]/45 hover:shadow-sm transition-colors"
+            >
+              <span className="inline-grid size-9 shrink-0 place-items-center rounded-sm bg-[color:var(--brand-red-soft)] text-[color:var(--brand-red)] group-hover/doc:bg-[color:var(--brand-red)] group-hover/doc:text-white transition-colors">
+                <FileText className="size-4" />
+              </span>
+              <span>
+                <b className="block text-[13.5px] font-bold leading-tight text-[color:var(--brand-charcoal)] group-hover/doc:text-[color:var(--brand-red)] transition-colors">
+                  Certificat Qualiopi
+                </b>
+                <span className="mt-0.5 block text-[10px] font-semibold uppercase tracking-[0.09em] text-[color:var(--brand-gray-medium)]">
+                  {certificateMeta}
+                </span>
+              </span>
+            </a>
           </div>
         </div>
       </div>
