@@ -134,6 +134,7 @@ export const articleSlugs = [
   "vestiaires-sanitaires-douches-entreprise-obligations-employeur",
   "coordination-sps-chantier-btp-role-coordonnateur-documents",
   "eclairage-locaux-travail-obligations-valeurs-minimales",
+  "securite-cuisine-professionnelle-risques-prevention",
 ] as const;
 
 /**
@@ -6474,6 +6475,41 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que risque l\'employeur en cas de manquement" },
       { type: "p", text: "En cas de contrôle, l\'inspection du travail peut mettre en demeure l\'employeur de corriger une installation non conforme. Si un accident survient et qu\'un éclairage défaillant y a contribué, cet élément peut être retenu dans l\'appréciation des responsabilités. Référence officielle : articles R.4223-1 et R.4223-4 du Code du travail, relatifs à l\'éclairage des lieux de travail." },
       { type: "cta", text: "Pour intégrer l\'éclairage des locaux dans votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "securite-cuisine-professionnelle-risques-prevention": {
+    title: "Sécurité en cuisine professionnelle : identifier et prévenir les risques spécifiques",
+    excerpt: "Brûlures, coupures, sols glissants, risque électrique : la cuisine professionnelle cumule des dangers quotidiens. Panorama des risques et des mesures de prévention à mettre en place.",
+    publishedAt: "2026-08-08",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/securite-cuisine-professionnelle-risques-prevention.jpg",
+    content: [
+      { type: "p", text: "Une cuisine professionnelle concentre en quelques mètres carrés des risques que l\'on retrouve rarement réunis ailleurs : sources de chaleur, lames tranchantes, sols mouillés, appareils électriques et gaz sous pression. Le rythme de service et l\'espace souvent restreint aggravent chaque danger pris isolément. Identifier ces risques un par un permet de construire une prévention adaptée, poste par poste." },
+      { type: "h2", text: "Brûlures : le risque le plus fréquent en cuisine" },
+      { type: "p", text: "Huile de friture, plaques de cuisson, vapeur des marmites, eau bouillante : les sources de brûlure sont nombreuses. Les zones de passage entre poste de cuisson et plan de travail concentrent le risque de projection ou de renversement. Porter une tenue couvrante en matière adaptée et des gants résistants à la chaleur réduit la gravité des accidents, sans dispenser d\'organiser les postes pour limiter les croisements." },
+      { type: "h2", text: "Coupures : des outils tranchants à manier avec méthode" },
+      { type: "p", text: "Couteaux, mandolines, trancheuses et robots coupe-légumes provoquent l\'essentiel des blessures aux mains. Un couteau mal affûté est souvent plus dangereux qu\'une lame bien aiguisée : il glisse au lieu de trancher net. La formation au geste, l\'entretien régulier des lames et le rangement systématique après usage limitent l\'essentiel des incidents." },
+      { type: "ul", items: [
+        "Ranger les couteaux dans un bloc ou un étui, jamais en vrac dans un tiroir ou un évier.",
+        "Ne jamais tenter de rattraper un couteau qui tombe.",
+        "Utiliser des gants anti-coupure sur les postes de découpe et de désossage.",
+        "Débrancher et nettoyer les trancheuses avant toute intervention sur la lame.",
+      ]},
+      { type: "h2", text: "Sols glissants : la première cause de chute" },
+      { type: "p", text: "Graisse, eau, farine ou glace tombée au sol transforment vite une cuisine en terrain instable. Les chutes de plain-pied y sont fréquentes, en particulier lors des rushs où le nettoyage attend la fin du service. Des chaussures avec un marquage SRC, qui atteste la résistance à la glissance sur sol gras et sur sol mouillé selon la norme EN ISO 20345, réduisent le risque sans le supprimer : un nettoyage immédiat de toute projection reste indispensable." },
+      { type: "h2", text: "Électricité et gaz : des installations à surveiller" },
+      { type: "p", text: "Fours, plaques, lave-vaisselle professionnels et hottes fonctionnent souvent en continu, dans une atmosphère humide et grasse qui accélère l\'usure des installations électriques. Les appareils à gaz de cuisson exigent un entretien régulier et une ventilation efficace pour limiter tout risque d\'intoxication ou d\'explosion. Le contrôle périodique de ces installations par un professionnel qualifié n\'est pas une option laissée à l\'appréciation de l\'exploitant." },
+      { type: "h2", text: "Troubles musculo-squelettiques : la fatigue qui s\'installe" },
+      { type: "p", text: "Station debout prolongée, gestes répétitifs de découpe, port de charges lors de la réception des livraisons : le corps encaisse en silence. Ces contraintes s\'ajoutent souvent à des horaires décalés et à un rythme de service imposé par l\'affluence. Aménager les postes de travail, alterner les tâches et former aux bons gestes de manutention limitent l\'usure progressive." },
+      { type: "ul", items: [
+        "Former chaque nouvel arrivant aux postes à risque avant sa prise de poste effective.",
+        "Répartir le nettoyage pendant le service plutôt que le concentrer en fin de service.",
+        "Vérifier régulièrement l\'état des sols antidérapants et des tapis techniques.",
+        "Consigner les presque-accidents dans le document unique pour ajuster les mesures.",
+      ]},
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation générale de sécurité de l\'employeur ; norme EN ISO 20345 pour le marquage SRC des chaussures de sécurité." },
+      { type: "cta", text: "Pour former vos équipes de cuisine aux bons réflexes de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
