@@ -135,6 +135,7 @@ export const articleSlugs = [
   "coordination-sps-chantier-btp-role-coordonnateur-documents",
   "eclairage-locaux-travail-obligations-valeurs-minimales",
   "securite-cuisine-professionnelle-risques-prevention",
+  "intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -6510,6 +6511,47 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation générale de sécurité de l\'employeur ; norme EN ISO 20345 pour le marquage SRC des chaussures de sécurité." },
       { type: "cta", text: "Pour former vos équipes de cuisine aux bons réflexes de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst": {
+    title: "Intoxication alimentaire au travail : signes d\'alerte et conduite à tenir pour le SST",
+    excerpt: "Nausées, vomissements, diarrhée : une intoxication alimentaire au travail impose au SST d\'évaluer la gravité et de repérer les cas groupés. Signes, conduite à tenir et seuil d\'alerte collective.",
+    publishedAt: "2026-08-09",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Une intoxication alimentaire au travail peut toucher un seul salarié après un repas pris à l\'extérieur, ou plusieurs collègues en même temps lorsque la source est commune : cantine, restauration collective, pot partagé au bureau. Le Sauveteur Secouriste du Travail doit savoir reconnaître les symptômes, évaluer leur gravité et identifier les situations qui imposent un signalement collectif, pas seulement une prise en charge individuelle." },
+      { type: "h2", text: "Les signes qui doivent alerter" },
+      { type: "ul", items: [
+        "Nausées et vomissements apparaissant de quelques heures à deux jours après le repas en cause.",
+        "Diarrhée, parfois accompagnée de douleurs abdominales en crampes.",
+        "Fièvre, frissons et sensation de fatigue intense.",
+        "Maux de tête et déshydratation en cas de vomissements ou de diarrhée répétés.",
+      ]},
+      { type: "h2", text: "Plusieurs cas simultanés : penser à la toxi-infection alimentaire collective" },
+      { type: "p", text: "Quand au moins deux salariés présentent des symptômes similaires après avoir partagé un même repas, il peut s\'agir d\'une toxi-infection alimentaire collective (TIAC). Cette situation ne relève plus seulement des premiers secours : elle doit être signalée à l\'Agence Régionale de Santé, qui peut investiguer la source de la contamination. Conserver un échantillon du repas suspect, s\'il reste disponible, facilite l\'identification de l\'agent en cause." },
+      { type: "h2", text: "Conduite à tenir face à un salarié malade" },
+      { type: "ul", items: [
+        "Installer la personne au calme, à proximité de sanitaires.",
+        "Lui proposer de boire de l\'eau par petites quantités pour limiter la déshydratation.",
+        "Ne donner aucun médicament, y compris un antidiarrhéique, sans avis médical.",
+        "Noter l\'heure d\'apparition des symptômes et le contenu du dernier repas pris en commun.",
+        "Prévenir le référent SST ou le service de santé au travail si plusieurs salariés sont concernés.",
+      ]},
+      { type: "h3", text: "Signes de gravité imposant l\'appel au 15" },
+      { type: "ul", items: [
+        "Vomissements ou diarrhée très fréquents, incoercibles.",
+        "Signes de déshydratation marqués : bouche sèche, soif intense, urines rares et foncées.",
+        "Fièvre élevée, confusion ou grande faiblesse.",
+        "Sang dans les selles ou les vomissements.",
+        "Symptômes chez une personne fragile : femme enceinte, salarié âgé ou déjà affaibli.",
+      ]},
+      { type: "h2", text: "Ce que doit prévoir l\'employeur" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques liés à la restauration collective sur site et de mettre en œuvre les mesures de prévention adaptées, notamment via les principes HACCP pour les cuisines internes. Former les Sauveteurs Secouristes du Travail à la conduite à tenir face à un malaise digestif, et prévoir la procédure de signalement d\'une suspicion de TIAC, fait partie de cette obligation. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité de l\'employeur." },
+      { type: "quote", text: "Un salarié malade après le déjeuner n\'est pas toujours un cas isolé. Le réflexe qui change tout, c\'est de se demander si un collègue a mangé la même chose." },
+      { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences au travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
