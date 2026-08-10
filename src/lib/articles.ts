@@ -136,6 +136,7 @@ export const articleSlugs = [
   "eclairage-locaux-travail-obligations-valeurs-minimales",
   "securite-cuisine-professionnelle-risques-prevention",
   "intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst",
+  "plan-maitrise-sanitaire-pms-restauration-obligations",
 ] as const;
 
 /**
@@ -6552,6 +6553,42 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques liés à la restauration collective sur site et de mettre en œuvre les mesures de prévention adaptées, notamment via les principes HACCP pour les cuisines internes. Former les Sauveteurs Secouristes du Travail à la conduite à tenir face à un malaise digestif, et prévoir la procédure de signalement d\'une suspicion de TIAC, fait partie de cette obligation. Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de sécurité de l\'employeur." },
       { type: "quote", text: "Un salarié malade après le déjeuner n\'est pas toujours un cas isolé. Le réflexe qui change tout, c\'est de se demander si un collègue a mangé la même chose." },
       { type: "cta", text: "Pour former vos Sauveteurs Secouristes du Travail à la prise en charge des malaises et urgences au travail,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "plan-maitrise-sanitaire-pms-restauration-obligations": {
+    title: "Plan de maîtrise sanitaire : le document obligatoire pour la sécurité alimentaire",
+    excerpt: "Bonnes pratiques d\'hygiène, méthode HACCP, traçabilité : le plan de maîtrise sanitaire structure la sécurité alimentaire de tout professionnel qui prépare ou sert des denrées. Contenu et obligations.",
+    publishedAt: "2026-08-10",
+    category: "Hygiène alimentaire",
+    readingTime: 6,
+    image: "/images/articles/plan-maitrise-sanitaire-pms-restauration-obligations.jpg",
+    content: [
+      { type: "p", text: "La cuisine professionnelle expose à des risques physiques précis, mais un autre document encadre l\'ensemble de l\'activité alimentaire : le plan de maîtrise sanitaire. Ce dossier formalise les pratiques que tout professionnel doit mettre en œuvre pour garantir la sécurité sanitaire des aliments qu\'il prépare, transforme ou sert. Beaucoup d\'établissements le découvrent seulement lors d\'un contrôle." },
+      { type: "h2", text: "Un document imposé par la réglementation européenne" },
+      { type: "p", text: "L\'obligation trouve sa source dans le règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires. Ce texte impose à tout exploitant du secteur alimentaire de mettre en place des procédures fondées sur les principes de la méthode HACCP et de pouvoir démontrer, à tout moment, la maîtrise des dangers sanitaires de son activité. Le plan de maîtrise sanitaire est la traduction opérationnelle de cette exigence." },
+      { type: "h2", text: "Les trois piliers du PMS" },
+      { type: "p", text: "Un plan de maîtrise sanitaire complet s\'organise en trois volets distincts, qui se complètent sans se substituer l\'un à l\'autre." },
+      { type: "ul", items: [
+        "les bonnes pratiques d\'hygiène (BPH) : locaux, équipements, nettoyage, tenue du personnel, gestion de l\'eau ;",
+        "le plan HACCP : analyse des dangers propres à l\'activité et identification des points critiques à maîtriser ;",
+        "la traçabilité et la gestion des non-conformités : suivi des lots, procédure de retrait ou de rappel en cas de produit dangereux.",
+      ]},
+      { type: "h2", text: "Qui doit disposer d\'un PMS" },
+      { type: "p", text: "Le plan de maîtrise sanitaire concerne tout professionnel qui prépare, transforme, transporte ou sert des denrées alimentaires : restaurant, cantine scolaire, établissement de santé, traiteur, commerce de bouche, food truck. La taille de la structure ne dispense de rien : seul le niveau de formalisation du document varie selon la complexité de l\'activité." },
+      { type: "h3", text: "S\'appuyer sur un guide sectoriel" },
+      { type: "p", text: "Pour construire son PMS, un établissement peut s\'appuyer sur un guide de bonnes pratiques d\'hygiène propre à son secteur d\'activité. Ces guides détaillent les dangers spécifiques du métier et les mesures de maîtrise adaptées : restauration commerciale, boulangerie, boucherie ou restauration collective, chaque secteur dispose du sien." },
+      { type: "quote", text: "Un plan de maîtrise sanitaire qui reste dans un tiroir ne protège personne. C\'est son application quotidienne, vérifiée et actualisée, qui fait la différence lors d\'un contrôle comme lors d\'un incident réel." },
+      { type: "h2", text: "Ce que vérifient les contrôles officiels" },
+      { type: "p", text: "Les services de l\'État chargés de la sécurité alimentaire peuvent contrôler un établissement à tout moment, avec ou sans préavis. Ils examinent en priorité la cohérence entre le PMS écrit et les pratiques réellement observées sur place." },
+      { type: "ul", items: [
+        "les relevés de température des enceintes froides et des points critiques identifiés ;",
+        "la traçabilité des matières premières, de la réception jusqu\'au produit fini ;",
+        "la formation du personnel à l\'hygiène alimentaire et à la gestion des allergènes ;",
+        "le plan de nettoyage-désinfection et la lutte contre les nuisibles.",
+      ]},
+      { type: "p", text: "Un PMS absent, incomplet ou déconnecté de la pratique réelle expose l\'établissement à des mesures allant de l\'avertissement à la fermeture administrative en cas de danger pour la santé publique. Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène et à la méthode HACCP,", label: "consultez nos formations", href: "/formations" },
     ],
   },
 };
