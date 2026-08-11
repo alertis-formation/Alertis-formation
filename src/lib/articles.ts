@@ -137,6 +137,7 @@ export const articleSlugs = [
   "securite-cuisine-professionnelle-risques-prevention",
   "intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst",
   "plan-maitrise-sanitaire-pms-restauration-obligations",
+  "agressions-incivilites-travail-prevention-violence-externe",
 ] as const;
 
 /**
@@ -6589,6 +6590,44 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Un PMS absent, incomplet ou déconnecté de la pratique réelle expose l\'établissement à des mesures allant de l\'avertissement à la fermeture administrative en cas de danger pour la santé publique. Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène et à la méthode HACCP,", label: "consultez nos formations", href: "/formations" },
+    ],
+  },
+
+  "agressions-incivilites-travail-prevention-violence-externe": {
+    title: "Agressions et incivilités au travail : prévenir la violence externe",
+    excerpt: "Insultes, menaces, agressions physiques : les salariés en contact avec le public restent exposés à un risque souvent minimisé. Le point sur les obligations de prévention de l\'employeur.",
+    publishedAt: "2026-08-11",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/agressions-incivilites-travail-prevention-violence-externe.jpg",
+    content: [
+      { type: "p", text: "Un vigile insulté par un client mécontent, une hôtesse d\'accueil menacée par un usager irrité, un livreur agressé au moment d\'une remise de colis : la violence externe touche tous les métiers en contact avec le public. Contrairement au harcèlement moral, l\'auteur n\'appartient pas à l\'entreprise. Ce risque reste pourtant sous-estimé, alors qu\'il relève pleinement de l\'obligation de prévention de l\'employeur." },
+      { type: "h2", text: "Une violence trop souvent minimisée" },
+      { type: "p", text: "Insultes, menaces, gestes agressifs, vols avec violence : ces situations sont fréquentes dans le commerce, la santé, les transports, la sécurité privée ou l\'accueil du public. Beaucoup de salariés considèrent ces incidents comme faisant partie du métier et ne les signalent pas. Cette absence de remontée empêche l\'employeur d\'évaluer correctement le risque et de mettre en place des mesures de prévention adaptées." },
+      { type: "h2", text: "Ce que recouvre la violence externe au travail" },
+      { type: "ul", items: [
+        "agression verbale : insultes, injures, propos menaçants adressés au salarié ;",
+        "menace physique : geste d\'intimidation, poing levé, objet brandi sans passage à l\'acte ;",
+        "agression physique : coup, bousculade, blessure infligée par un tiers extérieur à l\'entreprise ;",
+        "vol avec violence : braquage, arraché, vol à main armée visant le salarié ou la caisse ;",
+        "dégradation en présence du salarié : casse, jet d\'objet, comportement destructeur.",
+      ]},
+      { type: "h2", text: "L\'obligation de l\'employeur : évaluer et prévenir le risque" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour protéger la santé physique et mentale de ses salariés, y compris face à des tiers extérieurs à l\'entreprise. L\'article L.4121-2 fixe les principes généraux de prévention : éviter le risque, l\'évaluer quand il ne peut être évité, et combattre les causes à la source plutôt que d\'agir après coup." },
+      { type: "p", text: "Le risque d\'agression doit être identifié dans le document unique d\'évaluation des risques professionnels, en application de l\'article L.4121-3. Pour les postes exposés (accueil, caisse, livraison, intervention à domicile), l\'évaluation précise les situations à risque, les horaires sensibles et les mesures de prévention retenues." },
+      { type: "h3", text: "Des mesures organisationnelles concrètes" },
+      { type: "ul", items: [
+        "aménager les espaces d\'accueil : file d\'attente visible, comptoir dégagé, issues accessibles ;",
+        "doubler la présence aux horaires et postes les plus exposés plutôt que de laisser un salarié seul face au public ;",
+        "mettre en place une procédure d\'alerte simple : bouton d\'urgence, mot convenu avec un collègue, liaison directe avec un responsable ;",
+        "former les salariés exposés à la gestion de l\'agressivité et à la désescalade verbale ;",
+        "analyser chaque incident survenu, même mineur, pour ajuster les mesures de prévention.",
+      ]},
+      { type: "quote", text: "Un incident non signalé n\'existe pas pour l\'employeur. Instaurer un circuit de signalement simple et sans jugement est souvent la première mesure de prévention qui manque." },
+      { type: "h2", text: "Accompagner le salarié après une agression" },
+      { type: "p", text: "Un salarié victime d\'agression peut exercer son droit de retrait s\'il estime être exposé à un danger grave et imminent, sans que l\'employeur puisse le lui reprocher. L\'incident doit être déclaré comme accident du travail dans les délais légaux lorsque des lésions physiques ou un choc psychologique en résultent. Un accompagnement rapide, y compris un soutien psychologique, limite les conséquences durables sur le salarié." },
+      { type: "p", text: "Référence officielle : articles L.4121-1, L.4121-2 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité de l\'employeur, aux principes généraux de prévention et à l\'évaluation des risques professionnels." },
+      { type: "cta", text: "Pour former vos équipes à la gestion des situations agressives et à la prévention des risques,", label: "consultez notre catalogue de formations", href: "/formations" },
     ],
   },
 };
