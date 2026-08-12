@@ -138,6 +138,7 @@ export const articleSlugs = [
   "intoxication-alimentaire-au-travail-signes-conduite-a-tenir-sst",
   "plan-maitrise-sanitaire-pms-restauration-obligations",
   "agressions-incivilites-travail-prevention-violence-externe",
+  "exposition-soleil-travail-prevention-risques-salaries-exterieur",
 ] as const;
 
 /**
@@ -6628,6 +6629,47 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un salarié victime d\'agression peut exercer son droit de retrait s\'il estime être exposé à un danger grave et imminent, sans que l\'employeur puisse le lui reprocher. L\'incident doit être déclaré comme accident du travail dans les délais légaux lorsque des lésions physiques ou un choc psychologique en résultent. Un accompagnement rapide, y compris un soutien psychologique, limite les conséquences durables sur le salarié." },
       { type: "p", text: "Référence officielle : articles L.4121-1, L.4121-2 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité de l\'employeur, aux principes généraux de prévention et à l\'évaluation des risques professionnels." },
       { type: "cta", text: "Pour former vos équipes à la gestion des situations agressives et à la prévention des risques,", label: "consultez notre catalogue de formations", href: "/formations" },
+    ],
+  },
+
+  "exposition-soleil-travail-prevention-risques-salaries-exterieur": {
+    title: "Exposition au soleil au travail : prévenir les risques pour les salariés en extérieur",
+    excerpt: "Coup de soleil, vieillissement cutané, risque accru de cancer de la peau : les salariés qui travaillent en extérieur restent exposés au rayonnement solaire. Les mesures de prévention à connaître.",
+    publishedAt: "2026-08-12",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/exposition-soleil-travail-prevention-risques-salaries-exterieur.jpg",
+    content: [
+      { type: "p", text: "Chantier de BTP, exploitation agricole, chantier d\'espaces verts, voirie, livraison : de nombreux métiers exposent au rayonnement solaire pendant l\'essentiel de la journée de travail. Ce risque est distinct du coup de chaleur, il agit sur la peau et les yeux et s\'accumule au fil des années, souvent sans mesure de prévention dédiée." },
+      { type: "h2", text: "Un risque professionnel à part entière" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de protéger la santé physique de ses salariés, sans distinction entre risques aigus et risques différés. Le rayonnement solaire répété doit à ce titre être identifié comme un risque professionnel pour les postes exposés, au même titre que le bruit, le froid ou les vibrations, et intégré au Document Unique en application de l\'article L.4121-3." },
+      { type: "h2", text: "Les effets d\'une exposition répétée" },
+      { type: "ul", items: [
+        "coup de soleil : rougeur, douleur et parfois cloques après une exposition intense sans protection ;",
+        "vieillissement cutané accéléré : peau épaissie, tachée, moins élastique sur les zones découvertes ;",
+        "risque accru de cancer de la peau à long terme, en particulier sur le visage, la nuque et les avant-bras ;",
+        "atteintes oculaires : kératite, gêne visuelle, et à terme risque de cataracte favorisé par les UV.",
+      ]},
+      { type: "h2", text: "Les métiers les plus exposés" },
+      { type: "p", text: "Le risque concerne en priorité les postes en extérieur sans point d\'ombre disponible : ouvriers du bâtiment et des travaux publics, salariés agricoles, agents d\'entretien des espaces verts, agents de voirie, livreurs, gardiens de chantier. La durée d\'exposition cumulée compte autant que l\'intensité d\'une journée isolée." },
+      { type: "h3", text: "Les moments et situations qui aggravent le risque" },
+      { type: "ul", items: [
+        "créneau de milieu de journée, entre 12h et 16h, quand le rayonnement est le plus intense ;",
+        "réverbération sur des surfaces claires, l\'eau, le métal ou le sable qui renforcent l\'exposition ;",
+        "travail en altitude, où le rayonnement UV augmente avec l\'altitude ;",
+        "ciel voilé ou nuageux, qui donne une fausse impression de protection alors que les UV traversent les nuages.",
+      ]},
+      { type: "h2", text: "Les mesures de prévention à mettre en place" },
+      { type: "ul", items: [
+        "organiser les tâches les plus exposées en dehors du créneau 12h-16h quand l\'activité le permet ;",
+        "fournir des vêtements couvrants légers et un couvre-nuque, ainsi qu\'une casquette ou un casque à visière ;",
+        "mettre à disposition des lunettes filtrant les UV pour les postes exposés en continu ;",
+        "prévoir de la crème solaire à indice élevé et rappeler son application régulière, y compris par temps couvert ;",
+        "aménager des zones d\'ombre pour les pauses et les temps de repos sur le chantier ou le site.",
+      ]},
+      { type: "quote", text: "La protection solaire n\'est pas une question de confort individuel, c\'est une mesure de prévention à organiser comme n\'importe quel autre risque physique du poste de travail." },
+      { type: "p", text: "Le médecin du travail doit être informé de toute lésion cutanée suspecte apparue sur une zone habituellement exposée, en particulier chez les salariés aux antécédents de coups de soleil répétés. Référence officielle : articles L.4121-1 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité et à l\'évaluation des risques professionnels." },
+      { type: "cta", text: "Pour intégrer les risques physiques liés au travail en extérieur dans votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
