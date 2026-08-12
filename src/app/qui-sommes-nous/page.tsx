@@ -56,7 +56,7 @@ const direction = [
   {
     name: "Rose Rivoirard",
     role: "Directrice Formation & Commerciale",
-    bio: "Rose dirige la formation et le commercial. Formatrice de formateurs SST, elle transmet les bons gestes et structure la pédagogie avec énergie.",
+    bio: "Rose dirige la formation et le commercial. Formatrice SST, elle transmet les bons gestes et structure la pédagogie avec énergie.",
     image: "/team/roselyne-rivoirard.jpg",
     roleIcon: GraduationCap,
   },

@@ -52,7 +52,7 @@ export default async function HabilitationElectriquePage() {
       <FormationsList
         category="habilitation-electrique"
         title="Nos formations en habilitation électrique"
-        subtitle="Habilitations BT et HT, initiales et recyclages, formation de formateur : tout le catalogue conforme NFC 18-510."
+        subtitle="Habilitations BT et HT, initiales et recyclages : tout le catalogue conforme NFC 18-510."
       />
       <FormationCategoryContent
         approaches={[

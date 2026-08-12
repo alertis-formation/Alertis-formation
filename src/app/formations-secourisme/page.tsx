@@ -49,7 +49,7 @@ export default async function SecourismePage() {
       <FormationsList
         category="secourisme"
         title="Nos formations en secourisme"
-        subtitle="SST initial et recyclage, formateurs SST, PSC, défibrillateur, gestes qui sauvent, oxygénothérapie… Découvrez l'ensemble du catalogue secourisme."
+        subtitle="SST initial et recyclage, PSC, défibrillateur, gestes qui sauvent, oxygénothérapie… Découvrez l'ensemble du catalogue secourisme."
       />
       <FormationCategoryContent
         approaches={[
@@ -73,17 +73,6 @@ export default async function SecourismePage() {
               "GQS — Gestes Qui Sauvent",
               "Initiation au défibrillateur (DAE)",
               "Oxygénothérapie d'urgence…",
-            ],
-          },
-          {
-            title: "Formations de formateur SST",
-            description:
-              "Former, c'est transmettre plus que des gestes : c'est ancrer une culture de prévention. Notre programme structuré accompagne vos futurs formateurs SST sur la pédagogie active, l'animation de groupe et la maîtrise des référentiels INRS.",
-            bullets: [
-              "Programme axé pédagogie active et animation",
-              "Maîtrise des référentiels INRS",
-              "Validation par certification de formateur",
-              "Maintien et actualisation des compétences inclus",
             ],
           },
         ]}

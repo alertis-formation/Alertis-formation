@@ -48,7 +48,7 @@ export default async function ErgonomiePage() {
       <FormationsList
         category="ergonomie"
         title="Nos formations en ergonomie"
-        subtitle="Gestes et postures par secteur, PRAP IBC et 2S, prévention TMS, formation de formateur : tout le catalogue ergonomie."
+        subtitle="Gestes et postures par secteur, PRAP IBC et 2S, prévention TMS : tout le catalogue ergonomie."
       />
       <FormationCategoryContent
         approaches={[
@@ -75,9 +75,9 @@ export default async function ErgonomiePage() {
             ],
           },
           {
-            title: "Formation de formateur PRAP",
+            title: "PRAP IBC et PRAP 2S",
             description:
-              "Former, c'est transmettre bien plus que des mouvements : c'est diffuser une culture de prévention durable. Notre programme structuré centre la formation sur la pédagogie active et les principes d'ergonomie pour vos référents internes.",
+              "Le PRAP va plus loin que les gestes et postures : le participant apprend à analyser son propre poste, à repérer ce qui l'expose et à proposer des améliorations concrètes. Le programme est centré sur l'activité réelle et les principes d'ergonomie.",
             bullets: [
               "PRAP IBC (Industrie, Bâtiment, Commerce)",
               "PRAP 2S (Sanitaire et social)",

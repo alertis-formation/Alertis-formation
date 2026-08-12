@@ -59,10 +59,10 @@ export const formationsContent: Record<string, FormationContent> = {
       "Personnels non-soignants des établissements de santé (administratifs, techniques, logistiques), structures médico-sociales et collaborateurs de professionnels libéraux de santé (secrétaires médicaux, agents d'accueil, agents d'entretien).",
     prerequis: "Aucun.",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) habilités par un CESU à enseigner l'AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
     notes: [
       "Attestation valable 4 ans · remise à niveau obligatoire pour maintien",
-      "Formateurs professionnels de santé titulaires de l'attestation de formation de formateur AFGSU, à jour de leurs compétences",
+      "Formateurs professionnels de santé habilités par un CESU à enseigner l'AFGSU, à jour de leurs compétences",
       "Éligible au financement FIFPL pour les professionnels de santé libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
@@ -91,10 +91,10 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Inscription au Code de la santé publique. L'AFGSU niveau 1 n'est pas requise : le niveau 2 intègre l'ensemble des compétences du niveau 1.",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) habilités par un CESU à enseigner l'AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
     notes: [
       "Attestation valable 4 ans · remise à niveau obligatoire pour maintien",
-      "Formateurs professionnels de santé titulaires de l'attestation de formation de formateur AFGSU, à jour de leurs compétences",
+      "Formateurs professionnels de santé habilités par un CESU à enseigner l'AFGSU, à jour de leurs compétences",
       "Éligible au financement FIFPL pour les professionnels de santé libéraux (médecins, dentistes, kinés, sages-femmes…)",
     ],
   },
@@ -121,7 +121,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Être titulaire de l'AFGSU 1 en cours de validité (moins de 4 ans).",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (mannequins, défibrillateur, oxygène). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) habilités par un CESU à enseigner l'AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
   },
 
   "formation-recyclage-afgsu2": {
@@ -146,7 +146,7 @@ export const formationsContent: Record<string, FormationContent> = {
     prerequis:
       "Être titulaire de l'AFGSU 2 en cours de validité (moins de 4 ans).",
     pedagogie:
-      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) titulaires de l'attestation de formation de formateur AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
+      "Approche terrain : 40 % de théorie (exposés interactifs, supports visuels) et 60 % de pratique sur matériel d'urgence (chariot, défibrillateur, mannequins, oxygène, BAVU (ballon auto-remplisseur à valve unidirectionnelle)). Les formateurs Alertis — professionnels de santé urgentistes (médecins, IDE, ARM) habilités par un CESU à enseigner l'AFGSU et issus du terrain — adaptent les cas concrets aux risques réels de votre activité. Effectif limité pour garantir un suivi individualisé.",
   },
 
   // ───────────────────────── SECOURISME ─────────────────────────

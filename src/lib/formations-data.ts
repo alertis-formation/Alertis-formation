@@ -940,6 +940,10 @@ export function resolveFormationTitle(
  */
 export const HIDDEN_FORMATION_SLUGS: ReadonlySet<string> = new Set([
   "formation-de-formateur-incendie",
+  // Alertis ne dispense pas de formation de formateur SST.
+  "formation-formateur-sst",
+  "formation-mac-formateur-sst",
+  "formation-passerelle-pae-formateur-sst",
   "formation-equipier-de-seconde-intervention",
   "formation-incendie-en-immeuble-de-grande-hauteur",
   "formation-gqs-gestes-qui-sauvent",
