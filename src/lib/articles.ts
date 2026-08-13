@@ -139,6 +139,7 @@ export const articleSlugs = [
   "plan-maitrise-sanitaire-pms-restauration-obligations",
   "agressions-incivilites-travail-prevention-violence-externe",
   "exposition-soleil-travail-prevention-risques-salaries-exterieur",
+  "chute-objets-travail-prevention-risques-salaries",
 ] as const;
 
 /**
@@ -6670,6 +6671,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "La protection solaire n\'est pas une question de confort individuel, c\'est une mesure de prévention à organiser comme n\'importe quel autre risque physique du poste de travail." },
       { type: "p", text: "Le médecin du travail doit être informé de toute lésion cutanée suspecte apparue sur une zone habituellement exposée, en particulier chez les salariés aux antécédents de coups de soleil répétés. Référence officielle : articles L.4121-1 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité et à l\'évaluation des risques professionnels." },
       { type: "cta", text: "Pour intégrer les risques physiques liés au travail en extérieur dans votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "chute-objets-travail-prevention-risques-salaries": {
+    title: "Chute d\'objets au travail : identifier les risques et protéger les salariés",
+    excerpt: "Une palette mal arrimée, un outil qui glisse d\'un échafaudage, un rack de stockage instable : la chute d\'objets blesse des salariés qui ne sont pourtant pas eux-mêmes en hauteur. Les mesures de prévention à connaître.",
+    publishedAt: "2026-08-13",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/chute-objets-travail-prevention-risques-salaries.jpg",
+    content: [
+      { type: "p", text: "Une caisse qui bascule d\'un rayonnage, un outil qui tombe d\'un échafaudage, une palette mal gerbée qui s\'effondre : la chute d\'objets touche aussi bien les entrepôts logistiques que les chantiers du BTP. Ce risque frappe des salariés qui ne sont pas eux-mêmes en hauteur, ce qui le rend souvent moins visible que la chute de plain-pied ou la chute de hauteur." },
+      { type: "h2", text: "Un risque distinct des chutes de personnes" },
+      { type: "p", text: "Le Code du travail distingue plusieurs familles de chutes dans l\'évaluation des risques professionnels. La chute de plain-pied concerne un salarié qui trébuche au sol, la chute de hauteur un salarié qui tombe depuis un point élevé. La chute d\'objets désigne une troisième situation : un élément qui se détache, glisse ou bascule et vient heurter une personne située en dessous ou à proximité. L\'article L.4121-1 du Code du travail impose à l\'employeur de prévenir ces trois risques au même titre." },
+      { type: "h2", text: "Les situations les plus exposées" },
+      { type: "p", text: "Le risque se concentre sur quelques activités récurrentes : le stockage en hauteur sur des racks ou des mezzanines, les travaux en élévation au-dessus d\'une zone de circulation, le gerbage de palettes, et la manutention d\'objets lourds ou encombrants à proximité d\'autres postes de travail." },
+      { type: "ul", items: [
+        "un arrimage insuffisant ou un cerclage détérioré sur une palette stockée en hauteur ;",
+        "un rack de stockage non vérifié, déformé ou chargé au-delà de sa capacité indiquée ;",
+        "un outil ou un matériau non attaché qui glisse depuis un échafaudage ou une nacelle ;",
+        "une zone de circulation non balisée sous un poste de travail en hauteur.",
+      ]},
+      { type: "h2", text: "Les mesures de prévention collective à privilégier" },
+      { type: "p", text: "La prévention collective agit en priorité, avant le recours aux équipements individuels. Elle consiste à empêcher l\'objet de tomber ou à intercepter sa chute avant qu\'elle n\'atteigne un salarié." },
+      { type: "ul", items: [
+        "baliser et interdire l\'accès aux zones situées sous un poste de travail en hauteur ;",
+        "installer des filets, bâches ou plinthes de rive pour intercepter tout objet qui glisserait ;",
+        "limiter la hauteur de gerbage des palettes et vérifier régulièrement l\'état des racks de stockage ;",
+        "attacher les outils portatifs utilisés en hauteur avec une longe adaptée.",
+      ]},
+      { type: "h3", text: "Le casque de protection, une protection individuelle indispensable" },
+      { type: "p", text: "Quand le risque ne peut pas être totalement supprimé par des mesures collectives, l\'employeur doit fournir un équipement de protection individuelle adapté. Le casque de protection reste la référence pour tout salarié qui évolue sous une zone de stockage en hauteur ou à proximité d\'un chantier en élévation. Son port doit être rendu obligatoire par une signalétique claire et rappelé lors de l\'accueil sécurité des nouveaux arrivants." },
+      { type: "quote", text: "Un objet qui tombe de quelques mètres frappe avec une énergie qu\'un équipement de protection individuelle seul suffit rarement à absorber. La prévention collective doit toujours passer en premier." },
+      { type: "h2", text: "Intégrer le risque au document unique" },
+      { type: "p", text: "Le risque de chute d\'objets doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels dès qu\'un poste y est exposé, en application de l\'article L.4121-3 du Code du travail. L\'évaluation précise les zones concernées, la hauteur de stockage et les mesures de prévention retenues, qu\'elles soient collectives ou individuelles. Référence officielle : articles L.4121-1 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité et à l\'évaluation des risques professionnels." },
+      { type: "cta", text: "Pour intégrer ce risque à votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
