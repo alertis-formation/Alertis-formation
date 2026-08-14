@@ -140,6 +140,7 @@ export const articleSlugs = [
   "agressions-incivilites-travail-prevention-violence-externe",
   "exposition-soleil-travail-prevention-risques-salaries-exterieur",
   "chute-objets-travail-prevention-risques-salaries",
+  "systeme-securite-incendie-ssi-categories-types",
 ] as const;
 
 /**
@@ -6707,6 +6708,43 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Intégrer le risque au document unique" },
       { type: "p", text: "Le risque de chute d\'objets doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels dès qu\'un poste y est exposé, en application de l\'article L.4121-3 du Code du travail. L\'évaluation précise les zones concernées, la hauteur de stockage et les mesures de prévention retenues, qu\'elles soient collectives ou individuelles. Référence officielle : articles L.4121-1 et L.4121-3 du Code du travail, relatifs à l\'obligation générale de sécurité et à l\'évaluation des risques professionnels." },
       { type: "cta", text: "Pour intégrer ce risque à votre démarche de prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "systeme-securite-incendie-ssi-categories-types": {
+    title: "Système de sécurité incendie (SSI) : catégories et types à connaître",
+    excerpt: "Détection automatique, alarme, désenfumage : le système de sécurité incendie orchestre la mise en sécurité d\'un bâtiment. Comprendre ses catégories et types aide à l\'exploiter correctement.",
+    publishedAt: "2026-08-14",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/systeme-securite-incendie-ssi-categories-types.jpg",
+    content: [
+      { type: "p", text: "Détection, alarme, désenfumage, déverrouillage des issues : dans un bâtiment équipé, ces fonctions ne s\'activent pas indépendamment les unes des autres. Elles sont pilotées par un système de sécurité incendie (SSI), dont la complexité varie fortement d\'un établissement à l\'autre selon sa taille et son activité." },
+      { type: "h2", text: "Un système qui orchestre détection et mise en sécurité" },
+      { type: "p", text: "Le SSI regroupe deux ensembles complémentaires. Le système de détection incendie (SDI) surveille les locaux et remonte l\'alerte dès qu\'un capteur ou un déclencheur manuel s\'active. Le système de mise en sécurité incendie (SMSI) pilote ensuite les dispositifs actionnés de sécurité (DAS) : désenfumage, compartimentage coupe-feu, déverrouillage des issues, arrêt de certaines installations techniques." },
+      { type: "h2", text: "Les cinq catégories de SSI, de A à E" },
+      { type: "ul", items: [
+        "catégorie A : le niveau le plus élevé, avec détection automatique généralisée dans tout le bâtiment et pilotage centralisé de l\'ensemble des équipements de mise en sécurité ;",
+        "catégorie B : une détection automatique généralisée, mais un périmètre de dispositifs pilotés plus restreint qu\'en catégorie A ;",
+        "catégorie C : un système simplifié, où l\'alerte repose surtout sur des déclencheurs manuels centralisés plutôt que sur une détection automatique généralisée ;",
+        "catégorie D : un niveau d\'équipement réduit, avec un nombre limité de dispositifs asservis ;",
+        "catégorie E : le niveau le plus simple, un déclenchement manuel qui commande directement les équipements de sécurité concernés, sans centralisation complexe.",
+      ]},
+      { type: "p", text: "Le choix de la catégorie n\'est pas laissé à l\'appréciation de l\'exploitant. Il découle de la classification du bâtiment et de l\'analyse des risques menée lors de la conception ou d\'une rénovation, en lien avec le bureau d\'études et le bureau de contrôle." },
+      { type: "h2", text: "Les quatre types de systèmes d\'alarme incendie" },
+      { type: "ul", items: [
+        "type 1 : le plus complet, associé à un système de détection incendie et à une diffusion sonore générale, parfois temporisée ;",
+        "type 2a et 2b : des équipements d\'alarme sans détection automatique généralisée obligatoire, avec des exigences qui varient selon la taille de l\'établissement ;",
+        "type 3 : une alarme restreinte, avec des avertisseurs sonores non temporisés, adaptée aux petits établissements ;",
+        "type 4 : le plus simple, souvent des blocs autonomes d\'alarme sonore, sans centralisation.",
+      ]},
+      { type: "h3", text: "Lire un tableau de signalisation ne s\'improvise pas" },
+      { type: "p", text: "Un équipier de première intervention ou un chargé d\'évacuation confronté à une alarme doit savoir localiser la zone de détection concernée sur le tableau de signalisation, distinguer un défaut technique d\'un véritable départ de feu, et connaître la procédure associée à chaque signal. Cette compétence s\'acquiert par une formation pratique sur un tableau représentatif du site, et se maintient par des exercices réguliers." },
+      { type: "quote", text: "Un système de sécurité incendie performant ne protège que si le personnel présent sait l\'interpréter et réagir dans les premières minutes. La technologie ne remplace jamais la formation." },
+      { type: "h2", text: "Un point de vigilance pour les exploitants" },
+      { type: "p", text: "Une fois installé, le SSI doit rester opérationnel en permanence. Cela suppose des vérifications périodiques par un technicien qualifié, un contrat de maintenance à jour et une tenue rigoureuse du registre de sécurité incendie de l\'établissement, où sont consignées les anomalies constatées et les interventions réalisées." },
+      { type: "p", text: "Référence officielle : norme NF S61-931, qui fixe les dispositions générales applicables aux systèmes de sécurité incendie." },
+      { type: "cta", text: "Pour former vos équipes à l\'exploitation d\'un système de sécurité incendie,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
     ],
   },
 };
