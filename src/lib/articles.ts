@@ -141,6 +141,7 @@ export const articleSlugs = [
   "exposition-soleil-travail-prevention-risques-salaries-exterieur",
   "chute-objets-travail-prevention-risques-salaries",
   "systeme-securite-incendie-ssi-categories-types",
+  "guide-file-serre-file-role-designation-evacuation-incendie",
 ] as const;
 
 /**
@@ -6745,6 +6746,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une fois installé, le SSI doit rester opérationnel en permanence. Cela suppose des vérifications périodiques par un technicien qualifié, un contrat de maintenance à jour et une tenue rigoureuse du registre de sécurité incendie de l\'établissement, où sont consignées les anomalies constatées et les interventions réalisées." },
       { type: "p", text: "Référence officielle : norme NF S61-931, qui fixe les dispositions générales applicables aux systèmes de sécurité incendie." },
       { type: "cta", text: "Pour former vos équipes à l\'exploitation d\'un système de sécurité incendie,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
+    ],
+  },
+
+  "guide-file-serre-file-role-designation-evacuation-incendie": {
+    title: "Guide-file et serre-file : rôle, désignation et formation pour l\'évacuation incendie",
+    excerpt: "Ces deux fonctions structurent l\'évacuation en cas d\'incendie, mais leur rôle reste flou pour beaucoup d\'employeurs. Désignation, formation, limites de la mission : le point complet sur ce dispositif de sécurité.",
+    publishedAt: "2026-08-15",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/guide-file-serre-file-role-designation-evacuation-incendie.jpg",
+    content: [
+      { type: "p", text: "Dans un plan d\'évacuation, deux rôles reviennent systématiquement : guide-file et serre-file. Ils apparaissent dans la quasi-totalité des formations incendie, mais leur périmètre exact reste flou pour beaucoup d\'employeurs. Qui les désigne, quelle formation ils suivent, et ce que couvre réellement leur mission le jour d\'un sinistre : le point sur ce dispositif." },
+      { type: "h2", text: "Deux fonctions distinctes dans la chaîne d\'évacuation" },
+      { type: "p", text: "Le guide-file ouvre la marche. Il connaît l\'itinéraire d\'évacuation de son secteur, y compris les cheminements alternatifs si une issue est bloquée, et conduit le groupe vers le point de rassemblement. Le serre-file ferme la marche. Il s\'assure qu\'aucune personne ne reste en arrière, vérifie les locaux annexes comme les sanitaires et les réserves, et referme les portes coupe-feu derrière lui pour freiner la propagation." },
+      { type: "h2", text: "La désignation revient à l\'employeur" },
+      { type: "p", text: "Aucun texte n\'impose un profil type. L\'employeur choisit des salariés volontaires, présents de façon régulière sur le secteur concerné et capables de garder leur calme sous tension. Avant de valider une désignation, il vérifie plusieurs points :" },
+      { type: "ul", items: [
+        "que le salarié connaît le site : issues, itinéraires alternatifs, emplacement des extincteurs et du point de rassemblement ;",
+        "qu\'il est présent aux horaires où le risque existe, y compris en horaires décalés ou de nuit ;",
+        "qu\'un suppléant est identifié pour couvrir les absences, congés et arrêts maladie.",
+      ]},
+      { type: "h3", text: "Le cas des visiteurs et des personnes à mobilité réduite" },
+      { type: "p", text: "Le guide-file et le serre-file ne se limitent pas aux salariés habituels. Ils repèrent aussi les visiteurs, prestataires et intérimaires présents au moment de l\'alerte, ainsi que les personnes qui ne peuvent pas emprunter les escaliers seules. Sans procédure écrite pour ces situations, l\'improvisation prend le pas au moment où la clarté compte le plus." },
+      { type: "h2", text: "Une formation pratique, pas une simple note de service" },
+      { type: "p", text: "Une fiche de poste ne suffit pas. La formation doit inclure une reconnaissance physique des lieux, la manipulation du système d\'alarme et des exercices d\'évacuation réels, chronométrés, avec un débriefing collectif. Un guide-file qui découvre son itinéraire le jour de l\'exercice n\'aura pas plus de repères le jour d\'un incendie réel." },
+      { type: "quote", text: "Un rôle qu\'on découvre en le lisant sur une fiche affichée dans le couloir n\'est pas un rôle qu\'on sait tenir sous la fumée. Seul l\'exercice répété donne les réflexes." },
+      { type: "h2", text: "Consigner le dispositif dans le registre de sécurité" },
+      { type: "p", text: "La liste des guides-files et serre-files, les dates de formation et les comptes rendus d\'exercice doivent figurer dans le registre de sécurité incendie de l\'établissement. Cette traçabilité permet de vérifier, à tout moment, que chaque secteur reste couvert malgré les départs, les mobilités internes et les nouvelles embauches. Référence officielle : articles R.4227-28 à R.4227-41 du Code du travail, relatifs aux mesures d\'évacuation en cas d\'incendie." },
+      { type: "cta", text: "Pour former guides-files et serre-files aux gestes qui comptent le jour d\'un sinistre,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
     ],
   },
 };
