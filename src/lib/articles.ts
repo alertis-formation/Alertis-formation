@@ -142,6 +142,7 @@ export const articleSlugs = [
   "chute-objets-travail-prevention-risques-salaries",
   "systeme-securite-incendie-ssi-categories-types",
   "guide-file-serre-file-role-designation-evacuation-incendie",
+  "plan-circulation-entreprise-securiser-flux-pietons-vehicules",
 ] as const;
 
 /**
@@ -6775,6 +6776,37 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Consigner le dispositif dans le registre de sécurité" },
       { type: "p", text: "La liste des guides-files et serre-files, les dates de formation et les comptes rendus d\'exercice doivent figurer dans le registre de sécurité incendie de l\'établissement. Cette traçabilité permet de vérifier, à tout moment, que chaque secteur reste couvert malgré les départs, les mobilités internes et les nouvelles embauches. Référence officielle : articles R.4227-28 à R.4227-41 du Code du travail, relatifs aux mesures d\'évacuation en cas d\'incendie." },
       { type: "cta", text: "Pour former guides-files et serre-files aux gestes qui comptent le jour d\'un sinistre,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
+    ],
+  },
+
+  "plan-circulation-entreprise-securiser-flux-pietons-vehicules": {
+    title: "Plan de circulation en entreprise : séparer les flux piétons et véhicules",
+    excerpt: "Un chariot qui recule sans visibilité, un piéton qui coupe une allée de stockage : la cohabitation entre engins et personnes cause des accidents graves. Comment organiser un plan de circulation efficace.",
+    publishedAt: "2026-08-16",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/plan-circulation-entreprise-securiser-flux-pietons-vehicules.jpg",
+    content: [
+      { type: "p", text: "Un chariot élévateur qui recule sans visibilité, un piéton qui traverse une allée de stockage pour gagner du temps : la cohabitation entre engins et personnes est une cause fréquente d\'accidents graves en entrepôt, en atelier et sur les chantiers. Organiser un plan de circulation clair réduit ce risque avant même de renforcer les équipements de protection individuelle." },
+      { type: "h2", text: "Une obligation générale inscrite dans le Code du travail" },
+      { type: "p", text: "L\'article R.4224-3 impose que les lieux de travail intérieurs comme extérieurs soient aménagés pour que la circulation des piétons et des véhicules se fasse en sécurité. Pour les bâtiments neufs ou rénovés, les articles R.4214-9 à R.4214-17 précisent que les voies doivent permettre un usage facile par les piétons et les véhicules, sans mettre en danger les travailleurs qui évoluent à proximité." },
+      { type: "h2", text: "Séparer les flux plutôt que les faire cohabiter" },
+      { type: "ul", items: [
+        "des allées piétonnes physiquement délimitées par des barrières, des potelets ou un marquage au sol contrasté ;",
+        "des sens de circulation à sens unique dans les zones étroites, pour supprimer les croisements ;",
+        "des portillons et passages protégés aux points de traversée obligatoires, notamment près des quais de chargement ;",
+        "une vitesse limitée et affichée pour les engins, adaptée à chaque zone.",
+      ]},
+      { type: "p", text: "Le marquage au sol seul ne suffit pas si le risque n\'est pas doublé d\'un obstacle physique là où il est le plus élevé. Un piéton pressé franchit une ligne peinte plus facilement qu\'une barrière." },
+      { type: "h2", text: "Les points noirs à traiter en priorité" },
+      { type: "p", text: "Certaines zones concentrent l\'essentiel des situations dangereuses : les quais de chargement, où un chariot recule vers une zone que les piétons traversent pour rejoindre un vestiaire ; les angles de rayonnages, qui masquent la visibilité des deux côtés ; les intersections entre une allée interne et une voie utilisée par les véhicules de livraison." },
+      { type: "h3", text: "Un document écrit, affiché et mis à jour" },
+      { type: "p", text: "Le plan de circulation formalise ces choix sur un support visuel : voies piétonnes, sens de circulation des engins, zones de croisement autorisées, limitations de vitesse, issues de secours. Il doit être affiché aux points d\'entrée et actualisé à chaque réaménagement de l\'espace, extension d\'entrepôt ou changement de flux logistique." },
+      { type: "quote", text: "Un plan de circulation qui ne correspond plus à l\'usage réel du site n\'est plus un outil de prévention, il devient un faux sentiment de sécurité." },
+      { type: "h2", text: "Former les conducteurs et informer l\'ensemble du personnel" },
+      { type: "p", text: "La séparation des flux ne dispense pas de former les caristes à la vigilance active : klaxon aux intersections, vitesse réduite en zone piétonne, vérification des angles morts. Chaque nouvel arrivant, salarié comme intérimaire, doit être informé du plan de circulation dès l\'accueil sécurité." },
+      { type: "p", text: "Référence officielle : Code du travail, articles R.4224-3 et R.4214-9 à R.4214-17." },
+      { type: "cta", text: "Pour organiser la prévention des risques de circulation sur votre site,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
