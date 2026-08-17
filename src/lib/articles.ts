@@ -143,6 +143,7 @@ export const articleSlugs = [
   "systeme-securite-incendie-ssi-categories-types",
   "guide-file-serre-file-role-designation-evacuation-incendie",
   "plan-circulation-entreprise-securiser-flux-pietons-vehicules",
+  "evacuation-incendie-personnes-handicap-espace-attente-securise",
 ] as const;
 
 /**
@@ -6807,6 +6808,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La séparation des flux ne dispense pas de former les caristes à la vigilance active : klaxon aux intersections, vitesse réduite en zone piétonne, vérification des angles morts. Chaque nouvel arrivant, salarié comme intérimaire, doit être informé du plan de circulation dès l\'accueil sécurité." },
       { type: "p", text: "Référence officielle : Code du travail, articles R.4224-3 et R.4214-9 à R.4214-17." },
       { type: "cta", text: "Pour organiser la prévention des risques de circulation sur votre site,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "evacuation-incendie-personnes-handicap-espace-attente-securise": {
+    title: "Évacuation incendie des personnes en situation de handicap : les mesures à prévoir",
+    excerpt: "Un salarié en fauteuil roulant ne peut pas emprunter les escaliers seul en cas d\'incendie. Repérage, espace d\'attente sécurisé, formation des référents : les mesures concrètes à mettre en place.",
+    publishedAt: "2026-08-17",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/evacuation-incendie-personnes-handicap-espace-attente-securise.jpg",
+    content: [
+      { type: "p", text: "Un salarié en fauteuil roulant, une personne malvoyante ou un agent en incapacité temporaire après une opération : au moment de l\'alerte incendie, tous ne peuvent pas emprunter un escalier seuls. Sans mesure spécifique prévue à l\'avance, cette situation se règle dans l\'urgence, au pire moment possible." },
+      { type: "h2", text: "Une obligation qui concerne tous les employeurs" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité de tous les travailleurs, sans distinction. Les articles R.4227-28 à R.4227-41 précisent les obligations d\'évacuation en cas d\'incendie. Cette exigence s\'applique quelle que soit la taille de l\'entreprise, dès qu\'un seul salarié ou visiteur présente une mobilité réduite, permanente ou temporaire." },
+      { type: "h2", text: "Repérer en amont qui ne peut pas évacuer seul" },
+      { type: "p", text: "Le repérage se fait avant l\'incident, pas pendant. Cela concerne les salariés en situation de handicap déclarée, mais aussi des cas temporaires : jambe plâtrée, grossesse avancée, malaise récent. Un registre tenu à jour par le service RH ou le référent sécurité permet de savoir, à tout moment, qui a besoin d\'une assistance et sur quel secteur." },
+      { type: "h3", text: "L\'évacuation différée n\'est pas un renoncement" },
+      { type: "p", text: "Quand la personne ne peut pas descendre un escalier avant l\'arrivée des secours, la solution n\'est pas de l\'abandonner ni de la porter dans la précipitation. Elle consiste à la mettre à l\'abri temporairement dans un espace d\'attente sécurisé, protégé du feu et de la fumée, en attendant une prise en charge organisée par les secours ou par du personnel formé." },
+      { type: "ul", items: [
+        "identifier et signaler les espaces d\'attente sécurisés (paliers d\'escalier protégés, locaux coupe-feu) sur chaque niveau accessible ;",
+        "équiper ces espaces d\'un moyen de communication avec le point de rassemblement ou le poste de sécurité ;",
+        "désigner un référent chargé de vérifier la présence de la personne à l\'espace d\'attente et de transmettre l\'information aux secours ;",
+        "prévoir, si le site le justifie, une chaise d\'évacuation ou un dispositif d\'aide à la descente utilisable par du personnel formé.",
+      ]},
+      { type: "h2", text: "Adapter les exercices d\'évacuation" },
+      { type: "p", text: "Un exercice qui ignore systématiquement les personnes à mobilité réduite ne teste qu\'une partie du dispositif. Intégrer un scénario avec évacuation différée, même de façon ponctuelle, révèle les failles concrètes : espace d\'attente mal identifié, référent absent ce jour-là, porte coupe-feu bloquée par du matériel stocké." },
+      { type: "quote", text: "Un dispositif d\'évacuation qui fonctionne pour tout le monde sauf pour ceux qui en ont le plus besoin n\'est pas complet, il est juste rassurant sur le papier." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4227-28 à R.4227-41." },
+      { type: "cta", text: "Pour intégrer ces situations dans votre plan d\'évacuation incendie,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
     ],
   },
 };
