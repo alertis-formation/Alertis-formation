@@ -144,6 +144,7 @@ export const articleSlugs = [
   "guide-file-serre-file-role-designation-evacuation-incendie",
   "plan-circulation-entreprise-securiser-flux-pietons-vehicules",
   "evacuation-incendie-personnes-handicap-espace-attente-securise",
+  "echafaudages-montage-verification-securite-utilisation",
 ] as const;
 
 /**
@@ -6836,6 +6837,35 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un dispositif d\'évacuation qui fonctionne pour tout le monde sauf pour ceux qui en ont le plus besoin n\'est pas complet, il est juste rassurant sur le papier." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4227-28 à R.4227-41." },
       { type: "cta", text: "Pour intégrer ces situations dans votre plan d\'évacuation incendie,", label: "découvrez notre formation EPI et ESI", href: "/formations/incendie" },
+    ],
+  },
+  "echafaudages-montage-verification-securite-utilisation": {
+    title: "Échafaudages : montage, vérification et sécurité d\'utilisation",
+    excerpt: "Un plancher mal jointif, un garde-corps absent, une vérification oubliée : l\'échafaudage reste très impliqué dans les chutes de hauteur graves. Les obligations et points de contrôle à connaître.",
+    publishedAt: "2026-08-18",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/echafaudages-montage-verification-securite-utilisation.jpg",
+    content: [
+      { type: "p", text: "Un plancher mal jointif, un garde-corps manquant sur une trémie, une vérification journalière oubliée : l\'échafaudage reste l\'un des équipements de travail les plus impliqués dans les chutes de hauteur graves. Une organisation rigoureuse du montage et du contrôle réduit ce risque de façon mesurable." },
+      { type: "h2", text: "Un montage réservé à une personne compétente" },
+      { type: "p", text: "L\'article R.4323-69 du Code du travail impose qu\'un échafaudage soit monté, démonté ou modifié sous la direction d\'une personne compétente, en respectant la notice du fabricant ou, à défaut, un plan de montage et de démontage établi par une personne qualifiée. Improviser un montage sans cette notice expose l\'entreprise et les salariés qui l\'utilisent ensuite." },
+      { type: "h2", text: "Trois vérifications distinctes, à ne pas confondre" },
+      { type: "ul", items: [
+        "la vérification à la mise en service, avant toute première utilisation ou après un montage sur un nouveau site ;",
+        "la vérification après toute modification, démontage partiel ou remontage, ou après un arrêt prolongé ;",
+        "la vérification journalière, effectuée par l\'utilisateur avant de monter dessus, portant sur l\'état visible de la structure.",
+      ]},
+      { type: "p", text: "Les deux premières vérifications sont formalisées dans un registre de sécurité et engagent la responsabilité de l\'employeur. La troisième, plus simple, repose sur la vigilance de chaque utilisateur : elle ne remplace pas les contrôles réglementaires mais évite de monter sur une structure visiblement dégradée depuis la veille." },
+      { type: "h3", text: "Ce que le monteur doit vérifier avant de lever le pied" },
+      { type: "p", text: "Stabilité de l\'assise, calage sur sol meuble, présence de tous les garde-corps et plinthes, plancher continu sans trou ni planche manquante, accès par une trappe ou un escalier plutôt qu\'une échelle extérieure : chacun de ces points conditionne la sécurité de l\'ensemble de la structure." },
+      { type: "h2", text: "La distance aux lignes électriques, un point souvent oublié" },
+      { type: "p", text: "Un échafaudage monté à proximité d\'une ligne électrique aérienne impose de respecter une distance de sécurité définie avant le début des travaux, avec consignation ou mise hors tension si cette distance ne peut pas être garantie. Ce risque électrique s\'ajoute au risque de chute et doit être évalué dès la préparation du chantier." },
+      { type: "quote", text: "Un échafaudage qui semblait stable au montage peut ne plus l\'être après une nuit de vent ou le choc d\'un véhicule, d\'où l\'intérêt d\'un contrôle visuel systématique avant chaque prise de poste." },
+      { type: "h2", text: "Bloquer l\'accès en cas de doute" },
+      { type: "p", text: "Toute anomalie constatée, garde-corps desserré, plancher qui bouge, ancrage visiblement endommagé, doit interrompre l\'utilisation immédiatement. Un balisage ou une signalisation d\'interdiction d\'accès évite qu\'un autre salarié ne monte avant la remise en état par une personne compétente." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4323-69 à R.4323-80." },
+      { type: "cta", text: "Pour former vos équipes au montage et à la vérification des échafaudages,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
