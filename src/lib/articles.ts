@@ -145,6 +145,7 @@ export const articleSlugs = [
   "plan-circulation-entreprise-securiser-flux-pietons-vehicules",
   "evacuation-incendie-personnes-handicap-espace-attente-securise",
   "echafaudages-montage-verification-securite-utilisation",
+  "evaluer-efficacite-formation-securite-indicateurs",
 ] as const;
 
 /**
@@ -6866,6 +6867,44 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Toute anomalie constatée, garde-corps desserré, plancher qui bouge, ancrage visiblement endommagé, doit interrompre l\'utilisation immédiatement. Un balisage ou une signalisation d\'interdiction d\'accès évite qu\'un autre salarié ne monte avant la remise en état par une personne compétente." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4323-69 à R.4323-80." },
       { type: "cta", text: "Pour former vos équipes au montage et à la vérification des échafaudages,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "evaluer-efficacite-formation-securite-indicateurs": {
+    title: "Évaluer l\'efficacité d\'une formation sécurité : les indicateurs qui comptent",
+    excerpt: "La feuille d\'émargement prouve la présence, pas la compétence. Voici les indicateurs à suivre avant, pendant et après une formation sécurité pour mesurer son impact réel sur le terrain.",
+    publishedAt: "2026-08-19",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/evaluer-efficacite-formation-securite-indicateurs.jpg",
+    content: [
+      { type: "p", text: "Une session de formation sécurité se termine, les feuilles d\'émargement sont signées, le certificat est délivré. Sur le papier, l\'obligation est remplie. Mais rien dans ce dossier n\'indique si les salariés appliquent réellement les gestes appris une fois revenus à leur poste. Conformité et efficacité sont deux choses distinctes, et confondre les deux prive l\'entreprise d\'un vrai levier de prévention." },
+      { type: "h2", text: "Distinguer ce qui est obligatoire de ce qui est utile" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires à la sécurité des travailleurs et de les adapter en tenant compte du changement des circonstances. Cette obligation d\'adaptation suppose de savoir si une formation a produit un changement de comportement, pas seulement si elle a eu lieu. Un plan de formation qui se limite au respect des échéances de recyclage ne répond qu\'à la moitié de l\'exigence." },
+      { type: "h2", text: "Quatre niveaux à observer, pas un seul" },
+      { type: "p", text: "L\'ingénierie de formation distingue classiquement quatre niveaux d\'évaluation, du plus superficiel au plus révélateur. La plupart des entreprises s\'arrêtent au premier." },
+      { type: "ul", items: [
+        "la réaction à chaud : satisfaction exprimée en fin de stage, souvent via un questionnaire ;",
+        "l\'apprentissage : résultat de l\'évaluation pratique ou théorique en fin de formation, quand elle existe ;",
+        "le comportement : ce que le salarié applique réellement sur son poste, plusieurs semaines après ;",
+        "les résultats : évolution mesurable des indicateurs sécurité de l\'entreprise sur la durée.",
+      ]},
+      { type: "p", text: "Le premier niveau mesure le ressenti, pas la compétence. Un stagiaire peut noter une formation cinq étoiles et oublier le geste enseigné dès la première situation réelle. Ce sont les niveaux trois et quatre qui indiquent si l\'investissement a porté ses fruits." },
+      { type: "h2", text: "Constituer une base de comparaison avant la formation" },
+      { type: "p", text: "Évaluer un impact suppose de disposer d\'un point de départ. Avant une session, il est utile de rassembler les données déjà disponibles : nombre d\'accidents et de presque accidents sur le poste concerné, remarques remontées lors des quarts d\'heure sécurité, constats d\'audit ou de visite de poste, risques identifiés dans le document unique pour cette activité. Sans cette photographie initiale, toute comparaison ultérieure reste approximative." },
+      { type: "h3", text: "Le rôle de l\'encadrement de proximité" },
+      { type: "p", text: "Le formateur observe le salarié pendant quelques heures. Le manager de proximité le voit travailler toute l\'année. C\'est lui qui est le mieux placé pour repérer si un geste appris en salle est effectivement transposé sur le terrain, ou s\'il s\'efface au bout de quelques semaines faute de rappel." },
+      { type: "quote", text: "Une formation qui ne change rien à la façon de travailler n\'a pas échoué au moment où elle a eu lieu : elle échoue dans les semaines qui suivent, quand personne n\'observe si les gestes tiennent." },
+      { type: "h2", text: "Les pièges les plus courants" },
+      { type: "ul", items: [
+        "s\'arrêter à la feuille d\'émargement et considérer que présence égale compétence ;",
+        "ne jamais interroger l\'encadrant de proximité sur ce qu\'il observe réellement après coup ;",
+        "ne pas relier le contenu de la formation aux risques réels identifiés dans le document unique ;",
+        "reconduire le même programme d\'année en année sans vérifier s\'il correspond encore aux situations rencontrées.",
+      ]},
+      { type: "h2", text: "Ajuster le contenu plutôt que de seulement respecter le calendrier" },
+      { type: "p", text: "Le recyclage périodique, tous les deux ou trois ans selon les formations, fixe un rythme minimal. Mais si les remontées de terrain montrent qu\'un geste précis est mal maîtrisé avant l\'échéance, rien n\'empêche de resserrer une séquence spécifique ou d\'ajouter une piqûre de rappel courte. L\'indicateur doit piloter le calendrier, pas l\'inverse." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de prévention et d\'adaptation des mesures de sécurité par l\'employeur." },
+      { type: "cta", text: "Pour construire un plan de formation sécurité qui suit des indicateurs concrets,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
