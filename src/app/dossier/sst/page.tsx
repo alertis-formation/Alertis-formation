@@ -34,6 +34,11 @@ export const metadata = {
   description:
     "Bibliothèque de ressources pédagogiques pour la formation SST : référentiels INRS, manuels formateurs, aide-mémoires, grilles de certification, plans d'action prévention et outils d'animation.",
   alternates: { canonical: "/dossier/sst" },
+  openGraph: {
+    title: "Ressources SST — Sauveteur Secouriste du Travail",
+    url: "/dossier/sst",
+    type: "website",
+  },
 };
 
 const referentiels: DocumentItem[] = [

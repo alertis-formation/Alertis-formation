@@ -17,6 +17,11 @@ export const metadata = {
   description:
     "Procédure de réclamation Alertis Formation : qui peut nous saisir, comment, et nos engagements de traitement. Démarche qualité conforme au Référentiel National Qualité.",
   alternates: { canonical: "/reclamations" },
+  openGraph: {
+    title: "Réclamations et amélioration continue",
+    url: "/reclamations",
+    type: "website",
+  },
 };
 
 const channels = [

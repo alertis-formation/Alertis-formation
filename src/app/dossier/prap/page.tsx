@@ -26,6 +26,11 @@ export const metadata = {
   description:
     "Documents de référence INRS pour la PRAP IBC (industrie, BTP, commerce) et PRAP 2S (sanitaire et social). Manuel acteur, fiches d'observation, supports formateur.",
   alternates: { canonical: "/dossier/prap" },
+  openGraph: {
+    title: "Ressources PRAP IBC & 2S — Prévention des Risques liés à l'Activité Physique",
+    url: "/dossier/prap",
+    type: "website",
+  },
 };
 
 const documentsCommuns: DocumentItem[] = [

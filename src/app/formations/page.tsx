@@ -60,6 +60,11 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "Toutes nos formations santé & sécurité au travail",
     description: `Catalogue complet Alertis : Sécurité Incendie, Secourisme, Habilitation électrique, Ergonomie, Prévention, Safety Day, AFGSU. ${formationCount} formations conformes au Code du travail.`,
     alternates: { canonical: "/formations" },
+  openGraph: {
+    title: "Toutes nos formations santé & sécurité au travail",
+    url: "/formations",
+    type: "website",
+  },
   };
 }
 

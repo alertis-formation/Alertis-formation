@@ -6,6 +6,11 @@ export const metadata = {
   description:
     "Politique de confidentialité et protection des données personnelles d'Alertis Formation, conforme au RGPD.",
   alternates: { canonical: "/politique-de-confidentialite" },
+  openGraph: {
+    title: "Politique de confidentialité",
+    url: "/politique-de-confidentialite",
+    type: "website",
+  },
 };
 
 export default function PrivacyPolicyPage() {

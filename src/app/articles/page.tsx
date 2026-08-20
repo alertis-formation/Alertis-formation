@@ -22,19 +22,30 @@ export async function generateMetadata({
   ]
     .filter(Boolean)
     .join("&");
+  const titre = isVeille
+    ? isPaginated
+      ? `Veille réglementaire — page ${parsed}`
+      : "Veille réglementaire — Analyses Alertis"
+    : isPaginated
+      ? `Actualités — page ${parsed}`
+      : "Actualités";
+  const description = isVeille
+    ? "Toutes nos analyses des évolutions réglementaires, normatives et pédagogiques en santé et sécurité au travail."
+    : "Articles, conseils et veille réglementaire sur la santé et la sécurité au travail, par Alertis Formation.";
+  const chemin = qs ? `/articles?${qs}` : "/articles";
   return {
-    title: isVeille
-      ? isPaginated
-        ? `Veille réglementaire — page ${parsed}`
-        : "Veille réglementaire — Analyses Alertis"
-      : isPaginated
-        ? `Actualités — page ${parsed}`
-        : "Actualités",
-    description: isVeille
-      ? "Toutes nos analyses des évolutions réglementaires, normatives et pédagogiques en santé et sécurité au travail."
-      : "Articles, conseils et veille réglementaire sur la santé et la sécurité au travail, par Alertis Formation.",
+    title: titre,
+    description,
     alternates: {
-      canonical: qs ? `/articles?${qs}` : "/articles",
+      canonical: chemin,
+    },
+    // Sans Open Graph propre, la page herite de celui du layout : partagee,
+    // elle annonce l'accueil et le titre du site.
+    openGraph: {
+      title: titre,
+      description,
+      url: chemin,
+      type: "website",
     },
     robots: isPaginated
       ? { index: false, follow: true }

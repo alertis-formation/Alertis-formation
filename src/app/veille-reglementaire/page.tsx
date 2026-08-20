@@ -24,6 +24,11 @@ export const metadata = {
   description:
     "Notre démarche de veille réglementaire en santé et sécurité au travail : sources officielles, mise à jour continue des programmes et traçabilité de nos actions.",
   alternates: { canonical: "/veille-reglementaire" },
+  openGraph: {
+    title: "Veille réglementaire — Sécurité et santé au travail",
+    url: "/veille-reglementaire",
+    type: "website",
+  },
 };
 
 const pillars = [

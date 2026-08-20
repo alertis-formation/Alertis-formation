@@ -17,6 +17,11 @@ export const metadata = {
   description:
     "Référent handicap, accueil adapté, partenariats AGEFIPH et Cap emploi : la démarche d'accessibilité d'Alertis Formation pour les personnes en situation de handicap.",
   alternates: { canonical: "/accessibilite-handicap" },
+  openGraph: {
+    title: "Accessibilité et handicap — Notre démarche",
+    url: "/accessibilite-handicap",
+    type: "website",
+  },
 };
 
 const partnerUrl = {

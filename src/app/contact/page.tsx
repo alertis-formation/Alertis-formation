@@ -10,6 +10,11 @@ export const metadata = {
   description:
     "Contactez Alertis Formation pour un devis personnalisé sur vos besoins en formation santé et sécurité au travail. Réponse sous 24h ouvrées.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact & demande de devis",
+    url: "/contact",
+    type: "website",
+  },
 };
 
 export default function ContactPage() {

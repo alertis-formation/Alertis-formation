@@ -101,6 +101,11 @@ export const metadata = {
   description:
     "Alertis Formation, organisme certifié Qualiopi : 15 collaborateurs au siège, des formateurs partenaires partout en France, au service de la prévention des risques en entreprise. Notre équipe, nos valeurs, nos engagements.",
   alternates: { canonical: "/qui-sommes-nous" },
+  openGraph: {
+    title: "L'humain d'abord",
+    url: "/qui-sommes-nous",
+    type: "website",
+  },
 };
 
 export default function QuiSommesNousPage() {

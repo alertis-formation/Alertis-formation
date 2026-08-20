@@ -25,6 +25,11 @@ export const metadata = {
   description:
     "Bibliothèque de ressources pédagogiques sur la sécurité incendie : consignes affichables, livret de formation, supports d'animation et procédures pour ERP, IGH, crèches et établissements de soins.",
   alternates: { canonical: "/dossier/incendie" },
+  openGraph: {
+    title: "Ressources Incendie — Supports & consignes de sécurité",
+    url: "/dossier/incendie",
+    type: "website",
+  },
 };
 
 const publics: DocumentItem[] = [

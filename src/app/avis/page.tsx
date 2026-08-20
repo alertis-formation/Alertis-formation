@@ -8,6 +8,11 @@ export const metadata = {
   description:
     "Vous avez suivi une formation chez Alertis ? Sélectionnez le domaine pour être redirigé vers la fiche Google de l'établissement à noter.",
   alternates: { canonical: "/avis" },
+  openGraph: {
+    title: "Laissez-nous un avis Google",
+    url: "/avis",
+    type: "website",
+  },
   robots: { index: false, follow: false },
 };
 

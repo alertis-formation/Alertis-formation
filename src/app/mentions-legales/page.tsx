@@ -5,6 +5,11 @@ export const metadata = {
   title: "Mentions légales",
   description: "Mentions légales et informations sur l'éditeur du site Alertis Formation.",
   alternates: { canonical: "/mentions-legales" },
+  openGraph: {
+    title: "Mentions légales",
+    url: "/mentions-legales",
+    type: "website",
+  },
 };
 
 export default function MentionsLegalesPage() {

@@ -18,6 +18,11 @@ export const metadata = {
   description:
     "Taux de satisfaction, taux de réussite, taux d'abandon : les indicateurs de résultats publics d'Alertis Formation, organisme certifié Qualiopi, sur les 12 derniers mois.",
   alternates: { canonical: "/indicateurs-de-resultats" },
+  openGraph: {
+    title: "Indicateurs de résultats — Qualité de nos formations",
+    url: "/indicateurs-de-resultats",
+    type: "website",
+  },
 };
 
 const period = "01/01/2025 — 31/12/2025 (12 mois glissants)";

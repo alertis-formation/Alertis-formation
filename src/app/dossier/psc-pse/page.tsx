@@ -22,6 +22,11 @@ export const metadata = {
   description:
     "Référentiel national 2024 du PSC (Premier Secours Citoyen). Recommandations et supports de formation citoyens aux gestes qui sauvent.",
   alternates: { canonical: "/dossier/psc-pse" },
+  openGraph: {
+    title: "Ressources PSC — Premier Secours Citoyen",
+    url: "/dossier/psc-pse",
+    type: "website",
+  },
 };
 
 const psc: DocumentItem[] = [

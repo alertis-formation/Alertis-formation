@@ -32,6 +32,11 @@ export const metadata = {
   description:
     "L'espace formateur Alertis : ressources pédagogiques officielles (SST, incendie, gestes qui sauvent, PSC, PRAP), supports de formation, vidéos et accès dédié à nos formateurs missionnés.",
   alternates: { canonical: "/dossier" },
+  openGraph: {
+    title: "Espace formateur — Ressources pédagogiques santé & sécurité au travail",
+    url: "/dossier",
+    type: "website",
+  },
 };
 
 type Resource = {

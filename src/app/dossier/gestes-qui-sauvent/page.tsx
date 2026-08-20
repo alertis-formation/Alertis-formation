@@ -24,6 +24,11 @@ export const metadata = {
   description:
     "Référentiel GQS 2024, recommandations nationales, fiches techniques et supports d'animation pour conduire vos sensibilisations aux gestes qui sauvent.",
   alternates: { canonical: "/dossier/gestes-qui-sauvent" },
+  openGraph: {
+    title: "Ressources GQS — Gestes qui sauvent",
+    url: "/dossier/gestes-qui-sauvent",
+    type: "website",
+  },
 };
 
 const referentiels: DocumentItem[] = [

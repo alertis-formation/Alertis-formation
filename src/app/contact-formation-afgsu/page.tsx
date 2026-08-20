@@ -8,6 +8,11 @@ export const metadata = {
   description:
     "Inscription et demande de devis pour une formation AFGSU niveau 1, niveau 2 ou remise à niveau. Réponse sous 24h ouvrées.",
   alternates: { canonical: "/contact-formation-afgsu" },
+  openGraph: {
+    title: "Demande de formation AFGSU",
+    url: "/contact-formation-afgsu",
+    type: "website",
+  },
 };
 
 export default function ContactAfgsuPage() {
