@@ -146,6 +146,7 @@ export const articleSlugs = [
   "evacuation-incendie-personnes-handicap-espace-attente-securise",
   "echafaudages-montage-verification-securite-utilisation",
   "evaluer-efficacite-formation-securite-indicateurs",
+  "epi-electriques-gants-isolants-vat-outils-isoles",
 ] as const;
 
 /**
@@ -6905,6 +6906,40 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le recyclage périodique, tous les deux ou trois ans selon les formations, fixe un rythme minimal. Mais si les remontées de terrain montrent qu\'un geste précis est mal maîtrisé avant l\'échéance, rien n\'empêche de resserrer une séquence spécifique ou d\'ajouter une piqûre de rappel courte. L\'indicateur doit piloter le calendrier, pas l\'inverse." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, relatif à l\'obligation générale de prévention et d\'adaptation des mesures de sécurité par l\'employeur." },
       { type: "cta", text: "Pour construire un plan de formation sécurité qui suit des indicateurs concrets,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "epi-electriques-gants-isolants-vat-outils-isoles": {
+    title: "Gants isolants, VAT, écran facial : les EPI du risque électrique",
+    excerpt: "Gants isolants, écran facial anti-arc, tapis isolant, VAT : les équipements de protection individuelle du risque électrique se choisissent selon la classe de tension, pas au hasard.",
+    publishedAt: "2026-08-20",
+    category: "Habilitation électrique",
+    readingTime: 5,
+    image: "/images/articles/epi-electriques-gants-isolants-vat-outils-isoles.jpg",
+    content: [
+      { type: "p", text: "Un opérateur qui intervient sur une installation électrique s\'expose à deux dangers distincts : le contact direct avec un conducteur sous tension, et l\'arc électrique qui peut se produire lors d\'un court-circuit. Les équipements de protection individuelle propres au risque électrique répondent à ces deux menaces. Gants isolants, écran facial, tapis isolant : chacun a un rôle précis et des règles de vérification qui lui sont propres." },
+      { type: "h2", text: "Le risque électrique justifie des équipements dédiés" },
+      { type: "p", text: "Un gant de manutention ou des lunettes de chantier classiques n\'offrent aucune protection contre le risque électrique. Les EPI électriques répondent à la NF C 18-510, norme qui encadre les opérations sur les ouvrages et installations électriques. Le choix de chaque équipement dépend du domaine de tension concerné, basse ou haute tension, et de la nature de l\'intervention : consignation, dépannage, mesurage." },
+      { type: "h2", text: "Gants isolants : la protection de base, mais pas suffisante seule" },
+      { type: "ul", items: [
+        "Les gants isolants sont classés selon la tension maximale d\'utilisation, de la classe la plus basse pour les interventions basse tension jusqu\'aux classes réservées à la haute tension.",
+        "Un contrôle visuel et un gonflage à l\'air pour détecter une micro-perforation sont réalisés avant chaque utilisation, indépendamment des vérifications périodiques confiées à un organisme compétent.",
+        "Les gants isolants se portent avec des surgants en cuir qui les protègent des perforations mécaniques et des coupures, sans quoi leur durée de vie chute fortement.",
+        "Un gant isolant endommagé, même par une simple entaille superficielle, doit être retiré du service immédiatement, pas seulement remplacé au recyclage suivant.",
+      ]},
+      { type: "h2", text: "Le vérificateur d\'absence de tension (VAT), un outil, pas un EPI" },
+      { type: "p", text: "Le VAT permet de confirmer l\'absence de tension avant tout contact avec des pièces nues, lors de l\'étape de vérification de la consignation. Ce n\'est pas un équipement de protection individuelle au sens du règlement (UE) 2016/425 : c\'est un appareil de mesure, dont le bon fonctionnement doit être contrôlé avant et après chaque utilisation, sur une source de tension connue. Un VAT dont le fonctionnement n\'a pas été vérifié avant emploi peut donner une fausse indication de sécurité, aux conséquences potentiellement mortelles." },
+      { type: "h2", text: "Casque, écran facial, tapis isolant : compléter la protection" },
+      { type: "ul", items: [
+        "Le casque isolant protège la tête des chocs et, selon son type, du risque électrique ; il se distingue du casque de chantier classique par sa classe d\'isolation.",
+        "L\'écran facial anti-arc protège le visage des projections et du rayonnement thermique en cas d\'arc électrique lors d\'une opération sous tension ou à proximité.",
+        "Le tapis ou le tabouret isolant crée une double isolation entre l\'opérant et le sol, utile notamment lors des opérations de consignation ou de mesurage en environnement humide.",
+        "Les outils à main isolés, tournevis et pinces, complètent l\'équipement pour toute opération où un contact accidentel avec une pièce sous tension reste possible.",
+      ]},
+      { type: "h3", text: "L\'arc électrique, un risque à part" },
+      { type: "p", text: "Un arc électrique dégage en une fraction de seconde une chaleur intense et une onde de pression capable de provoquer des brûlures graves à plusieurs mètres de distance, même sans contact direct. Ce risque n\'est pas couvert par les gants isolants seuls : il justifie le port de vêtements et d\'écrans faciaux spécifiquement testés contre l\'arc, dès lors que l\'analyse de risque de l\'intervention l\'exige." },
+      { type: "quote", text: "Un gant isolant impeccable ne protège de rien s\'il est porté sans surgant de protection mécanique, ni ne remplace un VAT contrôlé avant usage : chaque équipement a un rôle précis, et aucun ne compense l\'absence d\'un autre." },
+      { type: "p", text: "Référence officielle : NF C 18-510, norme relative aux opérations sur les ouvrages et installations électriques et dans un environnement électrique ; règlement (UE) 2016/425 relatif aux équipements de protection individuelle ; articles R.4544-1 à R.4544-11 et L.4121-1 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes au choix et à l\'utilisation des équipements de protection contre le risque électrique,", label: "consultez notre page habilitation électrique", href: "/formations/habilitation-electrique" },
     ],
   },
 };
