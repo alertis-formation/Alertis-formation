@@ -147,6 +147,7 @@ export const articleSlugs = [
   "echafaudages-montage-verification-securite-utilisation",
   "evaluer-efficacite-formation-securite-indicateurs",
   "epi-electriques-gants-isolants-vat-outils-isoles",
+  "salarie-competent-prevention-risques-professionnels-obligation",
 ] as const;
 
 /**
@@ -6940,6 +6941,37 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un gant isolant impeccable ne protège de rien s\'il est porté sans surgant de protection mécanique, ni ne remplace un VAT contrôlé avant usage : chaque équipement a un rôle précis, et aucun ne compense l\'absence d\'un autre." },
       { type: "p", text: "Référence officielle : NF C 18-510, norme relative aux opérations sur les ouvrages et installations électriques et dans un environnement électrique ; règlement (UE) 2016/425 relatif aux équipements de protection individuelle ; articles R.4544-1 à R.4544-11 et L.4121-1 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes au choix et à l\'utilisation des équipements de protection contre le risque électrique,", label: "consultez notre page habilitation électrique", href: "/formations/habilitation-electrique" },
+    ],
+  },
+
+  "salarie-competent-prevention-risques-professionnels-obligation": {
+    title: "Salarié compétent en prévention des risques professionnels : une désignation obligatoire",
+    excerpt: "La loi impose à tout employeur de désigner un salarié compétent en prévention des risques professionnels, quelle que soit la taille de l\'entreprise. Ce que prévoit le Code du travail.",
+    publishedAt: "2026-08-21",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/salarie-competent-prevention-risques-professionnels-obligation.jpg",
+    content: [
+      { type: "p", text: "L\'article L.4644-1 du Code du travail impose à tout employeur de désigner un ou plusieurs salariés compétents pour s\'occuper des activités de protection et de prévention des risques professionnels de l\'entreprise. Cette obligation existe depuis 2012, mais elle reste largement méconnue et rarement formalisée, notamment dans les structures de petite taille." },
+      { type: "h2", text: "Une obligation générale, quelle que soit la taille de l\'entreprise" },
+      { type: "p", text: "L\'obligation posée par L.4644-1 ne dépend ni de l\'effectif ni du secteur d\'activité. Chaque employeur doit disposer, en interne, d\'au moins une personne identifiée comme référente sur les sujets de prévention. Ce salarié n\'a pas vocation à se substituer à l\'employeur, qui reste responsable de la sécurité de ses salariés, mais à l\'appuyer dans l\'analyse des risques et la mise en œuvre des actions de prévention." },
+      { type: "h2", text: "Qui peut être désigné, et selon quelle procédure" },
+      { type: "p", text: "La loi ne fixe aucun diplôme ni certification obligatoire pour occuper cette fonction. L\'employeur choisit un salarié dont les compétences, l\'expérience ou la formation le rendent apte à la mission, après avis du comité social et économique lorsque l\'entreprise en est dotée. Rien n\'empêche de désigner plusieurs salariés compétents, notamment lorsque l\'activité se répartit sur plusieurs sites ou plusieurs métiers." },
+      { type: "ul", items: [
+        "Participer à l\'identification des risques et à la mise à jour du document unique d\'évaluation des risques ;",
+        "Proposer des actions de prévention adaptées aux postes et aux situations de travail observées ;",
+        "Assurer le lien avec les acteurs externes de la prévention : médecin du travail, service de prévention et de santé au travail, inspection du travail ;",
+        "Suivre la mise en œuvre des mesures décidées et alerter en cas de dérive.",
+      ]},
+      { type: "h2", text: "Quand l\'entreprise ne dispose pas des compétences en interne" },
+      { type: "p", text: "Si aucun salarié ne dispose des compétences nécessaires, l\'employeur peut, après avis du comité social et économique, faire appel à un intervenant en prévention des risques professionnels (IPRP) rattaché à un service de prévention et de santé au travail, ou enregistré auprès de l\'administration. Il peut aussi solliciter les services de prévention des Carsat, l\'OPPBTP pour le bâtiment et les travaux publics, ou le réseau Anact-Aract." },
+      { type: "quote", text: "Un salarié compétent clairement identifié change la façon dont l\'entreprise traite la prévention : les risques remontent plus tôt, et les actions correctives ne dépendent plus de la seule vigilance de l\'employeur." },
+      { type: "h2", text: "La formation, une obligation à la charge de l\'employeur" },
+      { type: "p", text: "L\'article R.4644-1 précise que les salariés désignés bénéficient, à la charge de l\'employeur, de la formation nécessaire à l\'exercice de leur mission. Cette formation n\'est pas standardisée par un référentiel national unique : son contenu doit être adapté aux risques réels de l\'entreprise et aux missions confiées au salarié désigné." },
+      { type: "h2", text: "Formaliser la désignation pour clarifier les rôles" },
+      { type: "p", text: "Une note de service ou un avenant au contrat de travail suffit à formaliser la désignation. Ce document évite qu\'un salarié se retrouve à assumer, sans l\'avoir jamais officiellement accepté, un rôle qui suppose du temps dédié, une formation adaptée et un accès direct à la direction en cas d\'urgence." },
+      { type: "p", text: "Référence officielle : article L.4644-1 du Code du travail (désignation d\'un salarié compétent en prévention des risques professionnels) et article R.4644-1 du Code du travail (formation du salarié désigné, à la charge de l\'employeur)." },
+      { type: "cta", text: "Pour structurer la fonction de référent prévention dans votre entreprise,", label: "échangez avec notre équipe", href: "/contact" },
     ],
   },
 };
