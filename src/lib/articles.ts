@@ -148,6 +148,7 @@ export const articleSlugs = [
   "evaluer-efficacite-formation-securite-indicateurs",
   "epi-electriques-gants-isolants-vat-outils-isoles",
   "salarie-competent-prevention-risques-professionnels-obligation",
+  "chaine-du-froid-restauration-temperatures-controles-obligatoires",
 ] as const;
 
 /**
@@ -6972,6 +6973,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une note de service ou un avenant au contrat de travail suffit à formaliser la désignation. Ce document évite qu\'un salarié se retrouve à assumer, sans l\'avoir jamais officiellement accepté, un rôle qui suppose du temps dédié, une formation adaptée et un accès direct à la direction en cas d\'urgence." },
       { type: "p", text: "Référence officielle : article L.4644-1 du Code du travail (désignation d\'un salarié compétent en prévention des risques professionnels) et article R.4644-1 du Code du travail (formation du salarié désigné, à la charge de l\'employeur)." },
       { type: "cta", text: "Pour structurer la fonction de référent prévention dans votre entreprise,", label: "échangez avec notre équipe", href: "/contact" },
+    ],
+  },
+  "chaine-du-froid-restauration-temperatures-controles-obligatoires": {
+    title: "Chaîne du froid en restauration : maîtriser les températures et les contrôles obligatoires",
+    excerpt: "Une rupture de la chaîne du froid suffit à rendre une denrée dangereuse, souvent sans signe visible. Repères de température, points de contrôle critiques et bons réflexes pour la restauration professionnelle.",
+    publishedAt: "2026-08-22",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/chaine-du-froid-restauration-temperatures-controles-obligatoires.jpg",
+    content: [
+      { type: "p", text: "Une rupture de la chaîne du froid rend une denrée alimentaire dangereuse en quelques heures, parfois sans altération visible du produit. Bactéries et toxines se développent silencieusement entre 4 et 63 degrés Celsius, la zone que les professionnels de la restauration appellent la zone à risque. Maîtriser le froid, c\'est maîtriser ce premier facteur de risque sanitaire." },
+      { type: "h2", text: "Le principe : ne jamais interrompre le froid" },
+      { type: "p", text: "Du fournisseur à l\'assiette, chaque produit sensible doit rester en permanence dans sa plage de température. Un poisson frais laissé quinze minutes sur un plan de travail à température ambiante lors de la réception, un plat cuisiné qui attend son refroidissement, une vitrine réfrigérée mal réglée : chacune de ces situations constitue une rupture, même brève." },
+      { type: "h2", text: "Les repères de température à connaître" },
+      { type: "ul", items: [
+        "Produits réfrigérés (viandes, poissons, produits laitiers frais) : entre 0 et 4 degrés Celsius selon la denrée ;",
+        "Produits surgelés et congelés : moins 18 degrés Celsius au maximum ;",
+        "Plats cuisinés à conserver chauds : 63 degrés Celsius minimum ;",
+        "Refroidissement rapide après cuisson : de plus 63 à plus 10 degrés Celsius à cœur en moins de deux heures.",
+      ]},
+      { type: "p", text: "Ces repères, issus des bonnes pratiques d\'hygiène reconnues par la profession, s\'inscrivent dans les principes de la méthode HACCP imposée par le règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires. Chaque établissement doit les décliner dans son plan de maîtrise sanitaire et démontrer qu\'il les respecte au quotidien." },
+      { type: "h2", text: "Les points de rupture les plus fréquents" },
+      { type: "ul", items: [
+        "La réception des livraisons, quand le camion n\'est pas réfrigéré ou que le contrôle à quai est sauté ;",
+        "L\'attente en cuisine avant stockage, lorsque les denrées restent groupées sur un chariot ;",
+        "Le dressage en vitrine ou en buffet, souvent sous-estimé car visible des clients ;",
+        "Le transport vers un site de livraison ou un lieu de restauration collective.",
+      ]},
+      { type: "h2", text: "Contrôler et tracer, la clé de la conformité" },
+      { type: "p", text: "Un thermomètre étalonné, si possible à sonde, permet de vérifier la température à cœur des produits et non celle affichée par l\'équipement, qui peut être erronée. Les relevés doivent être notés, datés et conservés : ce sont les seules preuves opposables en cas de contrôle des services vétérinaires ou de toxi-infection alimentaire déclarée." },
+      { type: "quote", text: "Un relevé de température qui n\'existe pas vaut, en cas de contrôle, une température qui n\'a jamais été vérifiée." },
+      { type: "h2", text: "Que faire face à une rupture constatée" },
+      { type: "p", text: "Une rupture ponctuelle ne signifie pas automatiquement que le produit est impropre à la consommation. L\'évaluation dépend de la durée d\'exposition, de l\'écart de température et de la nature du produit. En cas de doute, la denrée doit être écartée : le principe de précaution prime sur la perte économique, et la décision doit être tracée dans le registre de non-conformités." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose la méthode HACCP à tout exploitant du secteur alimentaire." },
+      { type: "cta", text: "Pour former vos équipes de cuisine à la maîtrise des températures et à l\'HACCP,", label: "consultez notre page formations", href: "/formations" },
     ],
   },
 };
