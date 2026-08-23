@@ -149,6 +149,7 @@ export const articleSlugs = [
   "epi-electriques-gants-isolants-vat-outils-isoles",
   "salarie-competent-prevention-risques-professionnels-obligation",
   "chaine-du-froid-restauration-temperatures-controles-obligatoires",
+  "echelles-escabeaux-travail-usage-encadrement-obligations",
 ] as const;
 
 /**
@@ -7008,6 +7009,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une rupture ponctuelle ne signifie pas automatiquement que le produit est impropre à la consommation. L\'évaluation dépend de la durée d\'exposition, de l\'écart de température et de la nature du produit. En cas de doute, la denrée doit être écartée : le principe de précaution prime sur la perte économique, et la décision doit être tracée dans le registre de non-conformités." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose la méthode HACCP à tout exploitant du secteur alimentaire." },
       { type: "cta", text: "Pour former vos équipes de cuisine à la maîtrise des températures et à l\'HACCP,", label: "consultez notre page formations", href: "/formations" },
+    ],
+  },
+  "echelles-escabeaux-travail-usage-encadrement-obligations": {
+    title: "Échelles et escabeaux au travail : un accès, pas un poste de travail",
+    excerpt: "Une échelle ou un escabeau ne constituent pas un poste de travail : leur usage est réservé à des cas précis, sous conditions strictes. Ce qu\'un employeur doit vérifier avant d\'y faire monter un salarié.",
+    publishedAt: "2026-08-23",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/echelles-escabeaux-travail-usage-encadrement-obligations.jpg",
+    content: [
+      { type: "p", text: "Changer une ampoule, atteindre une étagère haute, intervenir sur un faux plafond : l\'échelle ou l\'escabeau semblent la solution la plus rapide. Le Code du travail encadre pourtant strictement leur usage. Ils ne sont pas conçus pour servir de poste de travail prolongé, et leur emploi reste l\'une des causes récurrentes de chutes de hauteur, y compris à faible hauteur, dans les entreprises de tous les secteurs." },
+      { type: "h2", text: "Un moyen d\'accès, pas un poste de travail" },
+      { type: "p", text: "L\'article R.4323-63 du Code du travail est explicite : les échelles, escabeaux et marchepieds ne constituent pas des postes de travail. Ils ne peuvent être utilisés comme tels qu\'en cas d\'impossibilité technique de recourir à un équipement de protection collective, ou lorsque l\'évaluation des risques a établi que le risque est faible et que les travaux sont de courte durée, sans caractère répétitif." },
+      { type: "h2", text: "Les deux conditions qui autorisent leur usage" },
+      { type: "ul", items: [
+        "Une impossibilité technique de mettre en place un équipement de protection collective, une nacelle par exemple, sur le lieu d\'intervention ;",
+        "Un risque évalué comme faible, pour une tâche brève et non répétitive : un dépannage ponctuel, pas une activité programmée chaque semaine ;",
+        "Dans tous les autres cas, un équipement offrant une protection collective doit être privilégié : plateforme individuelle roulante, échafaudage léger, nacelle élévatrice.",
+      ]},
+      { type: "h2", text: "Ce que l\'évaluation des risques doit couvrir" },
+      { type: "p", text: "La décision de recourir à une échelle ne se prend pas au dernier moment. Elle s\'appuie sur une analyse formalisée : hauteur à atteindre, durée réelle de l\'intervention, fréquence, nature du sol, présence d\'obstacles ou de lignes électriques à proximité. Cette analyse trouve sa place dans le document unique d\'évaluation des risques, pas seulement dans la mémoire du chef d\'équipe." },
+      { type: "h3", text: "Escabeau, échelle simple, échelle transformable : des usages différents" },
+      { type: "p", text: "L\'escabeau, avec sa base large et ses marches horizontales, convient à un travail bref à faible hauteur. L\'échelle simple ou transformable sert avant tout à accéder à un niveau, pas à travailler dessus de façon prolongée. Confondre les deux usages, ou charger une échelle au delà de la capacité prévue par le fabricant, augmente le risque de basculement." },
+      { type: "quote", text: "Une échelle stable au sol reste un appui instable dès qu\'on s\'en sert pour autre chose que monter et descendre." },
+      { type: "h2", text: "Les points à contrôler avant chaque utilisation" },
+      { type: "ul", items: [
+        "L\'état général : montants, marches ou échelons sans fissure, patins antidérapants présents et en bon état ;",
+        "La stabilité de l\'assise, sur un sol plan et non meuble, avec un angle d\'inclinaison conforme aux préconisations du fabricant pour une échelle simple ;",
+        "Le dégagement autour de l\'équipement, sans câble au sol, passage de véhicule ou ligne électrique aérienne à proximité immédiate.",
+      ]},
+      { type: "p", text: "Un salarié qui utilise une échelle garde en permanence trois points d\'appui, évite de se tenir sur les derniers échelons, et ne transporte que des charges légères pour garder les mains libres. Ces règles simples, souvent connues, restent les premières oubliées lors d\'une intervention perçue comme rapide et sans danger." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4323-63." },
+      { type: "cta", text: "Pour former vos équipes aux travaux en hauteur et au choix du bon équipement,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
