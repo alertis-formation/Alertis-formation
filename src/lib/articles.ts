@@ -150,6 +150,7 @@ export const articleSlugs = [
   "salarie-competent-prevention-risques-professionnels-obligation",
   "chaine-du-froid-restauration-temperatures-controles-obligatoires",
   "echelles-escabeaux-travail-usage-encadrement-obligations",
+  "consignation-mecanique-loto-etapes-securiser-maintenance",
 ] as const;
 
 /**
@@ -7042,6 +7043,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un salarié qui utilise une échelle garde en permanence trois points d\'appui, évite de se tenir sur les derniers échelons, et ne transporte que des charges légères pour garder les mains libres. Ces règles simples, souvent connues, restent les premières oubliées lors d\'une intervention perçue comme rapide et sans danger." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et R.4323-63." },
       { type: "cta", text: "Pour former vos équipes aux travaux en hauteur et au choix du bon équipement,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "consignation-mecanique-loto-etapes-securiser-maintenance": {
+    title: "Consignation mécanique (LOTO) : sécuriser les interventions de maintenance",
+    excerpt: "Une machine à l\'arrêt garde souvent de l\'énergie : ressort comprimé, air sous pression, charge suspendue. Les étapes de la consignation mécanique, ou LOTO, avant toute intervention de maintenance.",
+    publishedAt: "2026-08-24",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/consignation-mecanique-loto-etapes-securiser-maintenance.jpg",
+    content: [
+      { type: "p", text: "Une machine à l\'arrêt n\'est pas une machine sans danger. Un ressort comprimé, un vérin sous pression, une charge suspendue ou un volant d\'inertie encore lancé peuvent libérer leur énergie sans préavis. Avant toute opération de maintenance, de réglage ou de dépannage, la consignation mécanique neutralise ces sources d\'énergie, bien au delà du seul risque électrique." },
+      { type: "h2", text: "Une énergie qui reste dangereuse même à l\'arrêt" },
+      { type: "p", text: "La méthode LOTO, pour lockout tagout, désigne la pratique consistant à verrouiller physiquement une source d\'énergie puis à l\'identifier par une étiquette. Elle couvre l\'énergie électrique mais aussi l\'énergie pneumatique, hydraulique, mécanique (ressorts, contrepoids, volants) et gravitationnelle (charges en hauteur). Un équipement débranché peut encore contenir de l\'air comprimé ou une charge suspendue capable de blesser gravement un intervenant." },
+      { type: "h2", text: "Les cinq étapes de la consignation mécanique" },
+      { type: "p", text: "La séquence de consignation suit un ordre précis. Sauter une étape, même par habitude, revient à annuler la protection des suivantes." },
+      { type: "ul", items: [
+        "Identifier toutes les sources d\'énergie de l\'équipement et informer les personnes concernées de l\'arrêt à venir ;",
+        "Arrêter l\'équipement selon la procédure normale, puis isoler chaque source d\'énergie à son point de séparation ;",
+        "Dissiper ou retenir l\'énergie résiduelle stockée : purger l\'air comprimé, bloquer mécaniquement une charge suspendue, décharger un condensateur ;",
+        "Cadenasser chaque point d\'isolement avec un cadenas personnel et poser une étiquette identifiant l\'intervenant et la date ;",
+        "Vérifier l\'absence d\'énergie par un essai de mise en route à vide avant de commencer l\'intervention.",
+      ]},
+      { type: "h2", text: "Cadenas et étiquettes : rendre la consignation visible" },
+      { type: "p", text: "Le cadenas personnel matérialise la consignation : lui seul peut l\'ouvrir, avec sa propre clé. L\'étiquette qui l\'accompagne précise qui est intervenu, sur quel organe et depuis quand. Cette double preuve, physique et écrite, évite qu\'un tiers ne remette l\'équipement sous tension pendant que quelqu\'un travaille encore dessus." },
+      { type: "ul", items: [
+        "Chaque intervenant pose son propre cadenas, jamais celui d\'un collègue, même en cas d\'urgence apparente ;",
+        "Plusieurs intervenants sur le même équipement utilisent un moyen de cadenassage collectif (boîte de consignation, moraillon) qui accueille un cadenas par personne ;",
+        "Le cadenas ne se retire qu\'après vérification que la zone est dégagée de tout intervenant et de tout outil.",
+      ]},
+      { type: "h2", text: "Qui consigne, qui déconsigne" },
+      { type: "p", text: "La règle est simple : celui qui pose un cadenas est le seul habilité à le retirer. Un cadenas oublié ou perdu ne se coupe pas sur décision individuelle, il fait l\'objet d\'une procédure de retrait exceptionnel encadrée par un responsable, avec traçabilité de la décision. Cette rigueur protège aussi l\'intervenant qui a quitté le site sans redémarrer l\'équipement lui même." },
+      { type: "quote", text: "Le cadenas ne protège vraiment que s\'il porte le nom de celui qui l\'a posé." },
+      { type: "p", text: "Les incidents surviennent rarement lors d\'une consignation complète. Ils surviennent quand une étape est raccourcie sous pression du temps : énergie résiduelle non purgée, cadenas symbolique sans vérification finale, redémarrage confié à un collègue non informé. La formation régulière du personnel de maintenance à la procédure reste le meilleur rempart contre ces raccourcis." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité des travailleurs, y compris lors des opérations de maintenance sur les équipements de travail." },
+      { type: "cta", text: "Pour former vos équipes de maintenance à la consignation des équipements,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
