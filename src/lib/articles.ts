@@ -151,6 +151,7 @@ export const articleSlugs = [
   "chaine-du-froid-restauration-temperatures-controles-obligatoires",
   "echelles-escabeaux-travail-usage-encadrement-obligations",
   "consignation-mecanique-loto-etapes-securiser-maintenance",
+  "visite-securite-terrain-outil-prevention-proactive",
 ] as const;
 
 /**
@@ -7078,6 +7079,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les incidents surviennent rarement lors d\'une consignation complète. Ils surviennent quand une étape est raccourcie sous pression du temps : énergie résiduelle non purgée, cadenas symbolique sans vérification finale, redémarrage confié à un collègue non informé. La formation régulière du personnel de maintenance à la procédure reste le meilleur rempart contre ces raccourcis." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4121-1, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité des travailleurs, y compris lors des opérations de maintenance sur les équipements de travail." },
       { type: "cta", text: "Pour former vos équipes de maintenance à la consignation des équipements,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "visite-securite-terrain-outil-prevention-proactive": {
+    title: "La visite de sécurité terrain : repérer les risques avant l\'accident",
+    excerpt: "Repérer un risque avant qu\'il ne cause un accident, plutôt que l\'analyser après coup : c\'est l\'objectif de la visite de sécurité terrain. Préparation, observation, restitution : comment l\'organiser utilement.",
+    publishedAt: "2026-08-25",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/visite-securite-terrain-outil-prevention-proactive.jpg",
+    content: [
+      { type: "p", text: "Un accident du travail est rarement une totale surprise. Souvent, un signe existait avant qu\'il ne survienne : un passage encombré, une protection retirée, un équipement de protection individuelle non porté par habitude. La visite de sécurité terrain consiste à aller chercher ces signes avant qu\'ils ne deviennent un accident, plutôt qu\'à les découvrir après coup dans une enquête ou un arbre des causes." },
+      { type: "h2", text: "Une démarche proactive, différente de l\'analyse après accident" },
+      { type: "p", text: "Contrairement à l\'arbre des causes, mené après un événement, la visite de sécurité terrain intervient en amont. Elle ne remplace pas le quart d\'heure sécurité, centré sur un sujet précis avec une équipe, ni l\'audit réglementaire mené par un organisme externe. Elle consiste en une observation directe des situations de travail réelles, menée par un encadrant, un préventeur ou un salarié compétent en prévention des risques professionnels." },
+      { type: "h2", text: "Préparer la visite pour ne rien laisser au hasard" },
+      { type: "p", text: "Une visite improvisée repère peu de choses et laisse une impression de contrôle plutôt que d\'écoute. Mieux vaut cibler une zone ou une activité précise, prévoir un créneau où le travail se déroule normalement, et associer si possible le salarié concerné. Une grille d\'observation, même simple, évite d\'oublier un point et permet de comparer les visites dans le temps." },
+      { type: "h3", text: "Ce que la grille d\'observation doit couvrir" },
+      { type: "ul", items: [
+        "Le port effectif des équipements de protection individuelle prévus pour le poste.",
+        "L\'état des protections collectives : garde-corps, carters, dispositifs d\'arrêt d\'urgence.",
+        "La circulation dans la zone : encombrement, dégagement des issues, signalétique lisible.",
+        "Les écarts entre le geste observé et le mode opératoire prévu.",
+      ]},
+      { type: "h2", text: "Faut-il annoncer la visite à l\'avance ?" },
+      { type: "p", text: "Les deux approches ont leur place. Une visite annoncée met les équipes en confiance et facilite l\'échange sur les raisons d\'un écart, sans donner l\'impression d\'un contrôle surprise. Une visite inopinée montre en revanche les pratiques réelles, celles qui reprennent dès que l\'observateur a le dos tourné. Alterner les deux évite que la visite ne devienne un rituel prévisible sans effet sur les pratiques." },
+      { type: "h2", text: "Ce qui compte pendant l\'échange sur le terrain" },
+      { type: "p", text: "L\'objectif n\'est pas de sanctionner un salarié pris en défaut, mais de comprendre pourquoi l\'écart existe. Un équipement mal porté cache parfois un défaut de taille, une gêne pour le geste, ou un manque de formation sur son usage. Interroger directement la personne concernée, sur place, apporte plus d\'informations qu\'une remarque notée à distance et jamais discutée." },
+      { type: "h2", text: "Restituer et suivre les actions décidées" },
+      { type: "p", text: "Une visite sans suite se transforme vite en exercice sans valeur aux yeux des équipes. Chaque écart identifié mérite une action, même mineure, avec un responsable et une échéance. Les constats les plus significatifs viennent nourrir la mise à jour du document unique d\'évaluation des risques professionnels, qui doit refléter les situations réelles de travail. L\'article L.4121-1 du Code du travail impose à l\'employeur d\'adapter en continu ses mesures de prévention : la visite terrain en est un outil direct." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation pour l\'employeur d\'adapter en continu ses mesures de prévention." },
+      { type: "cta", text: "Pour former vos encadrants et préventeurs à mener ces visites de terrain,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
