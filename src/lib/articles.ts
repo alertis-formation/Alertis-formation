@@ -152,6 +152,7 @@ export const articleSlugs = [
   "echelles-escabeaux-travail-usage-encadrement-obligations",
   "consignation-mecanique-loto-etapes-securiser-maintenance",
   "visite-securite-terrain-outil-prevention-proactive",
+  "traumatisme-rachis-dos-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -7110,6 +7111,43 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une visite sans suite se transforme vite en exercice sans valeur aux yeux des équipes. Chaque écart identifié mérite une action, même mineure, avec un responsable et une échéance. Les constats les plus significatifs viennent nourrir la mise à jour du document unique d\'évaluation des risques professionnels, qui doit refléter les situations réelles de travail. L\'article L.4121-1 du Code du travail impose à l\'employeur d\'adapter en continu ses mesures de prévention : la visite terrain en est un outil direct." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation pour l\'employeur d\'adapter en continu ses mesures de prévention." },
       { type: "cta", text: "Pour former vos encadrants et préventeurs à mener ces visites de terrain,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "traumatisme-rachis-dos-travail-conduite-a-tenir-sst": {
+    title: "Suspicion de traumatisme du rachis au travail : la conduite à tenir",
+    excerpt: "Une chute ou un choc violent peut léser la colonne vertébrale sans plaie visible. Reconnaître les signes et ne jamais mobiliser la victime : le geste qui protège avant l\'arrivée des secours.",
+    publishedAt: "2026-08-26",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/traumatisme-rachis-dos-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Une chute de hauteur, un choc direct dans le dos ou une chute d\'objet sur la tête peuvent léser la colonne vertébrale sans qu\'aucune plaie ne soit visible. Le risque ne vient pas du choc lui même mais du geste qui suit : bouger une victime dont le rachis est fracturé peut aggraver une lésion stable en atteinte irréversible de la moelle épinière. Reconnaître les signes et connaître le seul geste qui compte, l\'immobilité, fait la différence avant l\'arrivée des secours." },
+      { type: "h2", text: "Les signes qui doivent alerter" },
+      { type: "p", text: "Un traumatisme du rachis se manifeste rarement par une déformation visible. La douleur se concentre sur la nuque ou le bas du dos, parfois absente si la victime est sous le choc. D\'autres signes orientent davantage : fourmillements, sensation de décharge électrique dans un bras ou une jambe, ou incapacité soudaine à bouger un membre après une chute. Face à un accident violent, même sans plainte immédiate, la prudence s\'impose." },
+      { type: "ul", items: [
+        "Chute d\'une hauteur supérieure à celle de la victime, même sur une surface souple ;",
+        "Choc direct et violent sur la tête, la nuque ou le dos ;",
+        "Douleur vive à la palpation de la colonne vertébrale ;",
+        "Fourmillements, engourdissement ou perte de force dans un bras ou une jambe ;",
+        "Victime inconsciente après une chute, dont le mécanisme de l\'accident reste inconnu.",
+      ]},
+      { type: "h2", text: "Le geste qui protège : ne jamais mobiliser la victime" },
+      { type: "p", text: "Face à ces signes, le réflexe du secouriste n\'est pas d\'aider la victime à se relever ou à changer de position pour la mettre plus à l\'aise. Un déplacement, même de quelques centimètres, peut faire glisser une vertèbre fracturée sur la moelle épinière et transformer une lésion stable en paralysie définitive. La victime reste exactement dans la position où elle a été trouvée, sauf danger immédiat pour sa vie." },
+      { type: "ul", items: [
+        "Retirer un casque de moto ou de chantier sans geste technique à deux secouristes ;",
+        "Asseoir ou relever la victime pour la rassurer ;",
+        "Tourner la tête de la victime, même pour dégager les voies aériennes, sans maintenir l\'axe tête cou tronc ;",
+        "Laisser la victime se déplacer seule vers un endroit jugé plus confortable.",
+      ]},
+      { type: "h3", text: "Maintenir la victime immobile en attendant les secours" },
+      { type: "p", text: "En attendant l\'arrivée des secours, le secouriste maintient la tête de la victime dans l\'axe du corps, sans traction, en la calant avec ses mains ou des objets stables si la victime est consciente et coopérante. Il lui parle pour la rassurer et l\'inciter à rester immobile, surveille sa respiration et son état de conscience, et évite tout geste qui la ferait bouger inutilement." },
+      { type: "quote", text: "Un geste destiné à rassurer peut, sur un rachis fracturé, causer plus de dommages que l\'accident lui même." },
+      { type: "h2", text: "Alerter avec les informations qui orientent les secours" },
+      { type: "p", text: "L\'appel au 15 ou au 112 précise le mécanisme de l\'accident : hauteur de chute, nature du choc, position retrouvée de la victime. Ces éléments orientent la régulation médicale sur le degré d\'urgence et le matériel à envoyer. Préciser si la victime ressent ou non ses membres, et si elle peut les bouger sur demande sans réaliser de mouvement inutile, complète utilement le bilan transmis aux secours." },
+      { type: "p", text: "Seul un danger immédiat et avéré, incendie, explosion, effondrement ou noyade, justifie de déplacer une victime suspectée de traumatisme du rachis avant l\'arrivée des secours. Ce dégagement d\'urgence, enseigné en formation, cherche alors à maintenir autant que possible l\'axe tête cou tronc pendant le déplacement, pour limiter l\'aggravation d\'une lésion déjà présente." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'organiser les premiers secours et de former les salariés désignés à la conduite à tenir face aux accidents graves." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à un traumatisme grave,", label: "consultez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
