@@ -153,6 +153,7 @@ export const articleSlugs = [
   "consignation-mecanique-loto-etapes-securiser-maintenance",
   "visite-securite-terrain-outil-prevention-proactive",
   "traumatisme-rachis-dos-travail-conduite-a-tenir-sst",
+  "taux-frequence-gravite-accidents-travail-indicateurs",
 ] as const;
 
 /**
@@ -7148,6 +7149,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Seul un danger immédiat et avéré, incendie, explosion, effondrement ou noyade, justifie de déplacer une victime suspectée de traumatisme du rachis avant l\'arrivée des secours. Ce dégagement d\'urgence, enseigné en formation, cherche alors à maintenir autant que possible l\'axe tête cou tronc pendant le déplacement, pour limiter l\'aggravation d\'une lésion déjà présente." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'organiser les premiers secours et de former les salariés désignés à la conduite à tenir face aux accidents graves." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à un traumatisme grave,", label: "consultez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "taux-frequence-gravite-accidents-travail-indicateurs": {
+    title: "Taux de fréquence et taux de gravité : mesurer les accidents du travail",
+    excerpt: "Deux indicateurs résument la sinistralité d\'une entreprise : le taux de fréquence compte les accidents avec arrêt, le taux de gravité pèse leurs conséquences en jours perdus. Calcul et usages pour un préventeur.",
+    publishedAt: "2026-08-27",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/taux-frequence-gravite-accidents-travail-indicateurs.jpg",
+    content: [
+      { type: "p", text: "Deux chiffres résument la sinistralité d\'une entreprise sur une période donnée : le taux de fréquence et le taux de gravité des accidents du travail. Le premier compte le nombre d\'accidents, le second pèse leurs conséquences en jours d\'arrêt. Suivis ensemble, ils permettent de dégager une tendance, de comparer des sites entre eux et d\'objectiver l\'impact réel de la prévention mise en place." },
+      { type: "h2", text: "Le taux de fréquence : compter les accidents avec arrêt" },
+      { type: "p", text: "Le taux de fréquence (TF) mesure le nombre d\'accidents du travail avec arrêt pour un million d\'heures travaillées. Il se calcule ainsi : TF = (nombre d\'accidents avec arrêt x 1 000 000) / nombre d\'heures travaillées. Seuls les accidents ayant entraîné au moins un jour d\'arrêt entrent dans le calcul ; les accidents sans arrêt et les accidents de trajet en sont exclus." },
+      { type: "h2", text: "Le taux de gravité : mesurer la sévérité des lésions" },
+      { type: "p", text: "Le taux de gravité (TG) rapporte le nombre de journées d\'incapacité temporaire au volume d\'heures travaillées. Il se calcule ainsi : TG = (nombre de journées d\'incapacité temporaire x 1 000) / nombre d\'heures travaillées. Un TG élevé signale des accidents peu nombreux mais sévères ; un TF élevé sans TG élevé traduit à l\'inverse une accidentologie fréquente mais bénigne." },
+      { type: "quote", text: "Deux entreprises peuvent afficher le même taux de fréquence pour des réalités opposées : l\'une accumule les petites blessures, l\'autre encaisse un accident grave isolé. Le taux de gravité fait la distinction que la fréquence seule ne montre pas." },
+      { type: "h2", text: "Les données à collecter pour construire l\'indicateur" },
+      { type: "p", text: "Le calcul suppose un suivi rigoureux tout au long de l\'année. Trois données doivent être fiabilisées avant tout calcul :" },
+      { type: "ul", items: [
+        "Le nombre d\'accidents du travail avec arrêt, déclarés et reconnus sur la période considérée ;",
+        "Le nombre de journées d\'incapacité temporaire correspondant à ces accidents, comptées en jours calendaires d\'arrêt ;",
+        "Le nombre d\'heures réellement travaillées par l\'ensemble du personnel sur la même période.",
+      ]},
+      { type: "h2", text: "À quoi servent ces indicateurs au quotidien" },
+      { type: "p", text: "Suivis mois après mois ou année après année, le TF et le TG révèlent une tendance que le décompte brut des accidents ne montre pas. Une baisse du nombre d\'accidents peut masquer une hausse de leur gravité, ou l\'inverse. Comparer ces taux à ceux d\'entreprises de même activité permet aussi de situer son niveau de sinistralité par rapport à la branche." },
+      { type: "h3", text: "Les limites à connaître" },
+      { type: "p", text: "Ces indicateurs ne remplacent pas l\'analyse qualitative de chaque accident ni la mise à jour du document unique d\'évaluation des risques. Dans une petite structure, un seul accident grave peut faire bondir le taux de gravité d\'une année sur l\'autre sans traduire une dégradation réelle de la prévention. Le TF et le TG s\'interprètent toujours sur plusieurs années et en tenant compte de la taille de l\'effectif." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer les risques professionnels et d\'adapter en continu ses mesures de prévention, dont le suivi d\'indicateurs de sinistralité fait partie." },
+      { type: "cta", text: "Pour structurer le suivi de vos indicateurs sécurité et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
