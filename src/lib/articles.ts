@@ -154,6 +154,7 @@ export const articleSlugs = [
   "visite-securite-terrain-outil-prevention-proactive",
   "traumatisme-rachis-dos-travail-conduite-a-tenir-sst",
   "taux-frequence-gravite-accidents-travail-indicateurs",
+  "rayonnements-optiques-artificiels-roa-travail-prevention-risques",
 ] as const;
 
 /**
@@ -7179,6 +7180,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Ces indicateurs ne remplacent pas l\'analyse qualitative de chaque accident ni la mise à jour du document unique d\'évaluation des risques. Dans une petite structure, un seul accident grave peut faire bondir le taux de gravité d\'une année sur l\'autre sans traduire une dégradation réelle de la prévention. Le TF et le TG s\'interprètent toujours sur plusieurs années et en tenant compte de la taille de l\'effectif." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer les risques professionnels et d\'adapter en continu ses mesures de prévention, dont le suivi d\'indicateurs de sinistralité fait partie." },
       { type: "cta", text: "Pour structurer le suivi de vos indicateurs sécurité et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "rayonnements-optiques-artificiels-roa-travail-prevention-risques": {
+    title: "Rayonnements optiques artificiels au travail : identifier et prévenir les risques",
+    excerpt: "Soudage à l\'arc, lampes UV, lasers de découpe : ces sources émettent des rayonnements optiques artificiels, capables de brûler la cornée en quelques secondes. Évaluer ce risque et protéger les salariés exposés.",
+    publishedAt: "2026-08-28",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/rayonnements-optiques-artificiels-roa-travail-prevention-risques.jpg",
+    content: [
+      { type: "p", text: "Le soudage à l\'arc, les lampes UV industrielles et les lasers de découpe émettent des rayonnements optiques artificiels, un risque physique souvent sous-estimé car il ne produit aucune douleur immédiate. Une exposition de quelques secondes suffit pourtant à brûler la cornée ou la peau. Comprendre les sources et les mesures de prévention permet d\'éviter des lésions qui restent largement évitables." },
+      { type: "h2", text: "Les sources de rayonnements optiques artificiels en entreprise" },
+      { type: "p", text: "Les rayonnements optiques artificiels regroupent trois familles de rayonnements non ionisants : l\'ultraviolet, la lumière visible intense et l\'infrarouge. En entreprise, les sources les plus courantes sont l\'arc électrique de soudage, les lasers industriels de découpe ou de marquage, les fours et procédés à haute température, ainsi que les lampes UV utilisées pour la désinfection, la photopolymérisation ou le contrôle non destructif." },
+      { type: "ul", items: [
+        "Soudeurs et opérateurs de découpe plasma, exposés à l\'arc électrique et à ses projections lumineuses ;",
+        "Techniciens utilisant des lasers industriels de découpe, de marquage ou de mesure ;",
+        "Personnel de désinfection par lampes UV-C, notamment en milieu hospitalier ou agroalimentaire ;",
+        "Opérateurs à proximité de fours, de coulées métalliques ou de procédés à très haute température.",
+      ]},
+      { type: "h2", text: "Des lésions qui vont de la brûlure cornéenne au risque cutané cumulé" },
+      { type: "p", text: "L\'oeil est l\'organe le plus exposé. Une exposition brève et intense aux UV provoque une kératite actinique, aussi appelée coup d\'arc, une brûlure de la cornée. Les rayonnements infrarouges favorisent à terme l\'apparition de cataractes. Sur la peau, l\'exposition répétée aux UV accélère le vieillissement cutané et augmente le risque de cancer de la peau, au même titre qu\'une exposition solaire prolongée." },
+      { type: "h3", text: "Le coup d\'arc, une douleur qui arrive plusieurs heures après l\'exposition" },
+      { type: "p", text: "Le piège du coup d\'arc tient à son délai d\'apparition. La lésion se produit au moment de l\'exposition, mais la douleur, une sensation de sable ou de gravier dans les yeux, souvent accompagnée de larmoiement et de photophobie, n\'apparaît que quatre à douze heures plus tard. Ce décalage explique pourquoi un salarié peut s\'exposer plusieurs fois sans en percevoir la gravité immédiate." },
+      { type: "h2", text: "Évaluer le risque et mettre en place la prévention" },
+      { type: "p", text: "L\'évaluation du risque s\'intègre au document unique d\'évaluation des risques, au même titre que le bruit ou le risque chimique. Elle identifie les postes exposés, la nature du rayonnement et sa durée. La prévention suit ensuite une hiérarchie classique : réduire l\'exposition à la source par des écrans ou le confinement du poste, organiser le travail pour limiter la durée d\'exposition, puis équiper les salariés en protection individuelle adaptée." },
+      { type: "ul", items: [
+        "Écran de soudage à teinte variable, choisie selon l\'intensité du courant utilisé ;",
+        "Lunettes ou visières filtrantes adaptées à la longueur d\'onde émise, UV, IR ou laser ;",
+        "Vêtements de travail couvrants, à manches longues, limitant l\'exposition cutanée ;",
+        "Formation des salariés aux risques spécifiques de leur poste et aux équipements à porter.",
+      ]},
+      { type: "quote", text: "Un coup d\'arc ne fait pas mal sur le moment. La douleur arrive plusieurs heures plus tard, quand la lésion de la cornée est déjà installée." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels, y compris les risques physiques comme les rayonnements optiques artificiels, et d\'adapter ses mesures de prévention en conséquence." },
+      { type: "cta", text: "Pour évaluer les risques physiques présents dans votre entreprise et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
