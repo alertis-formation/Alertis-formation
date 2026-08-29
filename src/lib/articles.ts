@@ -155,6 +155,7 @@ export const articleSlugs = [
   "traumatisme-rachis-dos-travail-conduite-a-tenir-sst",
   "taux-frequence-gravite-accidents-travail-indicateurs",
   "rayonnements-optiques-artificiels-roa-travail-prevention-risques",
+  "sedentarite-travail-risques-sante-prevention",
 ] as const;
 
 /**
@@ -7215,6 +7216,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un coup d\'arc ne fait pas mal sur le moment. La douleur arrive plusieurs heures plus tard, quand la lésion de la cornée est déjà installée." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels, y compris les risques physiques comme les rayonnements optiques artificiels, et d\'adapter ses mesures de prévention en conséquence." },
       { type: "cta", text: "Pour évaluer les risques physiques présents dans votre entreprise et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "sedentarite-travail-risques-sante-prevention": {
+    title: "Sédentarité au travail : identifier les risques et agir concrètement",
+    excerpt: "De nombreux postes imposent de longues périodes assises, un facteur reconnu de risques cardiovasculaires et musculo-squelettiques. Comprendre ce risque et les leviers pour l\'intégrer à la prévention.",
+    publishedAt: "2026-08-29",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/sedentarite-travail-risques-sante-prevention.jpg",
+    content: [
+      { type: "p", text: "Un poste de bureau, une caisse, un standard téléphonique ou un poste de conduite imposent souvent de longues heures sans lever le corps. Cette sédentarité professionnelle, distincte du manque d\'exercice physique en dehors du travail, pèse sur la santé des salariés de façon progressive et silencieuse. Elle mérite une place dans la démarche de prévention, au même titre que les risques physiques plus visibles." },
+      { type: "h2", text: "Une exposition plus large que le seul bureau" },
+      { type: "p", text: "La sédentarité au travail ne concerne pas uniquement les employés de bureau. Un chauffeur routier, un opérateur de saisie, un standardiste ou un conducteur d\'engin passent aussi de longues périodes assis, sans changement de posture. Le point commun de ces postes est l\'absence de mobilisation musculaire prolongée, bien plus que l\'intensité de l\'effort demandé." },
+      { type: "h2", text: "Des effets qui s\'installent progressivement" },
+      { type: "p", text: "L\'immobilité prolongée ralentit la circulation sanguine dans les jambes, sollicite en continu les mêmes groupes musculaires du dos et des cervicales, et réduit la dépense énergétique globale sur la journée. Ces effets ne provoquent pas d\'accident du travail identifiable, ce qui explique qu\'ils restent souvent absents des évaluations de risques classiques." },
+      { type: "ul", items: [
+        "Douleurs lombaires et cervicales liées au maintien prolongé d\'une même posture ;",
+        "Ralentissement de la circulation veineuse dans les membres inférieurs ;",
+        "Fatigue visuelle et musculaire en fin de journée, surtout devant un écran ;",
+        "Baisse générale de la condition physique à moyen terme.",
+      ]},
+      { type: "h2", text: "Une obligation qui rejoint l\'évaluation générale des risques" },
+      { type: "p", text: "Le Code du travail ne cite pas la sédentarité comme un risque nommé, à la différence du bruit ou du risque chimique. L\'article L.4121-1 impose cependant à l\'employeur d\'évaluer l\'ensemble des risques pour la santé des salariés et d\'adapter ses mesures de prévention en conséquence. Un poste qui impose l\'immobilité prolongée entre dans ce périmètre, au même titre que les troubles musculo-squelettiques liés à la manutention." },
+      { type: "h3", text: "Des leviers simples à intégrer au quotidien" },
+      { type: "ul", items: [
+        "Alterner les postures avec un bureau assis debout ou des pauses régulières toutes les heures ;",
+        "Organiser certaines réunions courtes debout, pour limiter leur durée autant que la posture ;",
+        "Favoriser les déplacements à pied dans les locaux plutôt que les échanges à distance entre collègues proches ;",
+        "Aménager les horaires pour permettre une activité physique avant, pendant ou après la journée de travail.",
+      ]},
+      { type: "h2", text: "Un changement d\'habitudes porté par l\'encadrement" },
+      { type: "p", text: "Ces leviers fonctionnent rarement si l\'entreprise se contente d\'en informer les salariés par affichage. Un encadrant qui prend lui même les escaliers ou propose une réunion debout donne un signal plus fort qu\'une note de service. Le salarié compétent en prévention des risques professionnels ou le CSE peuvent relayer ce sujet, encore peu identifié comme un risque professionnel à part entière." },
+      { type: "quote", text: "Un salarié assis toute la journée ne se blesse pas sur le moment. Le risque s\'accumule en silence, loin des statistiques d\'accidents du travail." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels, y compris ceux liés à l\'organisation du poste de travail, et d\'adapter ses mesures de prévention en conséquence." },
+      { type: "cta", text: "Pour intégrer ce risque à votre document unique et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
