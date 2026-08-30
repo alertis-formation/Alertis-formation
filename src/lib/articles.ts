@@ -156,6 +156,7 @@ export const articleSlugs = [
   "taux-frequence-gravite-accidents-travail-indicateurs",
   "rayonnements-optiques-artificiels-roa-travail-prevention-risques",
   "sedentarite-travail-risques-sante-prevention",
+  "papripact-programme-annuel-prevention-risques-professionnels",
 ] as const;
 
 /**
@@ -7252,6 +7253,41 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un salarié assis toute la journée ne se blesse pas sur le moment. Le risque s\'accumule en silence, loin des statistiques d\'accidents du travail." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer l\'ensemble des risques professionnels, y compris ceux liés à l\'organisation du poste de travail, et d\'adapter ses mesures de prévention en conséquence." },
       { type: "cta", text: "Pour intégrer ce risque à votre document unique et former vos équipes à la prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "papripact-programme-annuel-prevention-risques-professionnels": {
+    title: "PAPRIPACT : ce que le programme annuel de prévention doit contenir",
+    excerpt: "Depuis 2022, les entreprises d\'au moins 50 salariés doivent formaliser un programme annuel de prévention des risques professionnels. Contenu obligatoire, obligation allégée en dessous de ce seuil : ce qu\'il faut savoir.",
+    publishedAt: "2026-08-30",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/papripact-programme-annuel-prevention-risques-professionnels.jpg",
+    content: [
+      { type: "p", text: "Le document unique d\'évaluation des risques professionnels (DUERP) ne suffit pas à lui seul. Depuis 2022, les entreprises d\'au moins 50 salariés doivent aussi formaliser un programme annuel de prévention des risques professionnels et d\'amélioration des conditions de travail, plus connu sous son acronyme PAPRIPACT. Ce document transforme le diagnostic du DUERP en plan d\'action daté et chiffré." },
+      { type: "h2", text: "Une obligation issue de la réforme de 2021" },
+      { type: "p", text: "La loi du 2 août 2021 renforçant la prévention en santé au travail a inséré l\'article L.4121-3-1 dans le Code du travail. Depuis son entrée en application le 31 mars 2022, ce texte impose aux employeurs de traduire les résultats du DUERP en actions concrètes. Pour les entreprises d\'au moins 50 salariés, cette traduction prend la forme d\'un programme annuel formalisé." },
+      { type: "h2", text: "Ce que la loi impose d\'y faire figurer" },
+      { type: "p", text: "Le PAPRIPACT n\'est pas une simple liste d\'intentions. L.4121-3-1 fixe un contenu minimal, vérifiable lors d\'un contrôle de l\'inspection du travail." },
+      { type: "ul", items: [
+        "La liste détaillée des mesures de prévention à prendre au cours de l\'année à venir ;",
+        "Pour chaque mesure, ses conditions d\'exécution, un indicateur de résultat et une estimation de son coût ;",
+        "Les ressources de l\'entreprise, humaines et financières, pouvant être mobilisées pour les mettre en œuvre.",
+      ]},
+      { type: "h2", text: "En dessous de 50 salariés, une obligation allégée" },
+      { type: "p", text: "Les entreprises de moins de 50 salariés échappent au formalisme du programme annuel séparé. La loi leur demande seulement de consigner, directement dans le DUERP, une liste des actions de prévention et de protection décidées à l\'issue de l\'évaluation des risques. L\'exigence de fond reste identique : des actions réelles, datées et suivies, pas une déclaration d\'intention." },
+      { type: "h2", text: "Construire un programme qui sert vraiment" },
+      { type: "p", text: "Un PAPRIPACT efficace part toujours du contenu réel du DUERP, jamais d\'un modèle générique téléchargé en ligne. Quelques réflexes évitent d\'en faire un exercice administratif de plus." },
+      { type: "ul", items: [
+        "Reprendre chaque risque coté dans le DUERP et vérifier qu\'il donne lieu à au moins une action, même modeste ;",
+        "Désigner un responsable et une échéance précise pour chaque action, pas un porteur collectif flou ;",
+        "Prioriser selon la gravité et la fréquence des risques identifiés, pas selon la facilité de mise en œuvre.",
+      ]},
+      { type: "h3", text: "Le programme n\'est pas figé une fois signé" },
+      { type: "p", text: "Le programme est présenté pour avis au comité social et économique, qui peut proposer des ajustements avant sa validation. Une révision annuelle s\'impose, à l\'occasion de la mise à jour du DUERP : un programme qui ne bouge jamais d\'une année sur l\'autre a de fortes chances de ne plus correspondre à la réalité du terrain." },
+      { type: "quote", text: "Un programme de prévention qui reprend les mêmes lignes chaque année n\'a probablement jamais été confronté à la réalité du terrain." },
+      { type: "p", text: "Référence officielle : article L.4121-3-1 du Code du travail, issu de la loi n° 2021-1018 du 2 août 2021 renforçant la prévention en santé au travail." },
+      { type: "cta", text: "Pour structurer votre démarche de prévention et former les équipes concernées,", label: "consultez nos formations", href: "/formations" },
     ],
   },
 };
