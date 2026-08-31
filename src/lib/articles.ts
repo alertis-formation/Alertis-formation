@@ -157,6 +157,7 @@ export const articleSlugs = [
   "rayonnements-optiques-artificiels-roa-travail-prevention-risques",
   "sedentarite-travail-risques-sante-prevention",
   "papripact-programme-annuel-prevention-risques-professionnels",
+  "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
 ] as const;
 
 /**
@@ -193,6 +194,7 @@ export const veilleArticleSlugs = new Set<string>([
   "inrs-tj-30-prerogatives-missions-cse-cssct-sante-securite-travail",
   "registre-securite-incendie-erp-decret-2025-1100",
   "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
+  "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
 ]);
 
 export type ArticleBlock =
@@ -7288,6 +7290,55 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un programme de prévention qui reprend les mêmes lignes chaque année n\'a probablement jamais été confronté à la réalité du terrain." },
       { type: "p", text: "Référence officielle : article L.4121-3-1 du Code du travail, issu de la loi n° 2021-1018 du 2 août 2021 renforçant la prévention en santé au travail." },
       { type: "cta", text: "Pour structurer votre démarche de prévention et former les équipes concernées,", label: "consultez nos formations", href: "/formations" },
+    ],
+  },
+
+  "decret-2026-728-referentiel-national-qualite-qualiopi-v10": {
+    title: "Qualiopi : le décret 2026-728 fixe la nouvelle version V10 du Référentiel National Qualité",
+    excerpt: "Le décret n° 2026-728 du 1er août 2026 porte le Référentiel National Qualité à 33 indicateurs : prévention des violences renforcée, nouvel indicateur d\'évaluation pédagogique. En vigueur le 1er novembre 2026.",
+    publishedAt: "2026-08-31",
+    category: "Veille qualité",
+    readingTime: 4,
+    image: "/images/formateurs.jpg",
+    content: [
+      {
+        type: "p",
+        text: "Le décret n° 2026-728 du 1er août 2026, publié au Journal officiel du 4 août 2026, actualise le Référentiel National Qualité qui sert de socle à la certification Qualiopi. Il remplace l\'annexe prévue par l\'article R.6316-1 du Code du travail et entrera en vigueur le 1er novembre 2026. Les sept critères de qualité restent inchangés, mais le nombre d\'indicateurs passe de 32 à 33.",
+      },
+      { type: "h2", text: "Ce que change le texte" },
+      {
+        type: "p",
+        text: "Le nouveau référentiel distingue désormais les indicateurs d\'appréciation des indicateurs spécifiques d\'appréciation, propres à certains publics ou certaines modalités. L\'indicateur 12 est renforcé : le prestataire doit décrire et mettre en œuvre les mesures favorisant l\'engagement des bénéficiaires et prévenant les ruptures de parcours, et s\'assurer de la prévention et du traitement de toute violence, y compris sexiste et sexuelle, de harcèlement ou de discrimination.",
+      },
+      {
+        type: "p",
+        text: "Un indicateur 33 fait son apparition : le prestataire doit mettre en place un dispositif d\'évaluation des contenus et des enseignements par les apprenants, distinct de l\'enquête de satisfaction générale. Les résultats doivent être partagés avec les équipes pédagogiques et déboucher sur une démarche d\'amélioration continue dont l\'efficacité est mesurée périodiquement.",
+      },
+      { type: "h2", text: "Qui est concerné ?" },
+      {
+        type: "p",
+        text: "Le texte s\'applique à tous les organismes certifiés Qualiopi ou engagés dans une démarche de certification, quel que soit leur champ d\'intervention : formation continue, bilan de compétences, VAE ou apprentissage. L\'échéance du 1er novembre 2026 laisse peu de temps pour ajuster les processus documentaires avant les prochains audits de surveillance ou de renouvellement.",
+      },
+      { type: "h2", text: "Ce que ça implique en pratique" },
+      {
+        type: "ul",
+        items: [
+          "Formaliser un dispositif écrit de prévention et de traitement des violences sexistes et sexuelles, du harcèlement et des discriminations, exigé par l\'indicateur 12 ;",
+          "Mettre en place une évaluation des contenus et des enseignements par les apprenants, distincte des enquêtes de satisfaction déjà en place, pour répondre au nouvel indicateur 33 ;",
+          "Documenter la boucle d\'amélioration continue qui découle de cette évaluation, avec une mesure périodique de son efficacité ;",
+          "Anticiper l\'audit sur la base du nouveau référentiel avant l\'entrée en vigueur du 1er novembre 2026, plutôt que de l\'aborder au dernier moment.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Référence officielle : décret n° 2026-728 du 1er août 2026 relatif au référentiel national sur la qualité des actions concourant au développement des compétences (NOR TRSD2619632D), publié au Journal officiel du 4 août 2026 et consultable sur Légifrance.",
+      },
+      {
+        type: "cta",
+        text: "Pour suivre les prochaines échéances réglementaires et qualité,",
+        label: "consultez nos autres fiches de veille",
+        href: "/articles?categorie=veille",
+      },
     ],
   },
 };
