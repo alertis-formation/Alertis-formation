@@ -158,6 +158,7 @@ export const articleSlugs = [
   "sedentarite-travail-risques-sante-prevention",
   "papripact-programme-annuel-prevention-risques-professionnels",
   "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
+  "securite-des-machines-marquage-ce-protecteurs-obligations-employeur",
 ] as const;
 
 /**
@@ -7339,6 +7340,36 @@ export const articles: Record<string, Article> = {
         label: "consultez nos autres fiches de veille",
         href: "/articles?categorie=veille",
       },
+    ],
+  },
+  "securite-des-machines-marquage-ce-protecteurs-obligations-employeur": {
+    title: "Sécurité des machines : ce que l\'employeur doit vérifier avant leur mise en service",
+    excerpt: "Marquage CE, notice en français, protecteurs en place : avant de mettre une machine à disposition des salariés, l\'employeur doit vérifier plusieurs points précis, neuve ou d\'occasion.",
+    publishedAt: "2026-08-31",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/securite-des-machines-marquage-ce-protecteurs-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Une machine sans protecteur, un bouton d\'arrêt d\'urgence masqué par du matériel stocké, une notice d\'utilisation restée en anglais : ces situations reviennent régulièrement lors des visites de prévention. Avant qu\'un salarié touche une machine, l\'employeur doit s\'assurer qu\'elle respecte un socle de règles précises, que la machine soit neuve ou d\'occasion." },
+      { type: "h2", text: "Deux obligations qui se suivent : celle du fabricant, puis celle de l\'employeur" },
+      { type: "p", text: "Le fabricant qui met une machine sur le marché doit la concevoir conforme aux exigences essentielles de santé et de sécurité, apposer le marquage CE, rédiger une déclaration de conformité et fournir une notice d\'instructions rédigée en français. L\'employeur, lui, n\'a pas à refaire cette évaluation technique. Sa responsabilité commence au moment où il choisit la machine, l\'installe et la met à disposition de ses salariés." },
+      { type: "h2", text: "Ce que l\'employeur doit vérifier avant la mise en service" },
+      { type: "p", text: "Avant qu\'une machine ne soit utilisée, plusieurs points se contrôlent simplement, sans expertise technique particulière :" },
+      { type: "ul", items: [
+        "La présence du marquage CE, visible et lisible sur la machine elle-même.",
+        "La notice d\'instructions en français, accessible aux opérateurs et non rangée dans un tiroir.",
+        "Les protecteurs et carters d\'origine installés et fixés, sans pièce démontée ni contournée.",
+        "Le dispositif d\'arrêt d\'urgence repérable au premier coup d\'œil, jamais obstrué par du matériel stocké à proximité.",
+      ]},
+      { type: "h2", text: "Les protecteurs ne se retirent jamais pour gagner du temps" },
+      { type: "p", text: "Un carter démonté pour accélérer un réglage, un protecteur contourné parce qu\'il gêne un geste répétitif : ces pratiques s\'installent souvent sans intention de nuire, par habitude. Elles exposent pourtant directement aux happements, coupures et projections que le protecteur était censé empêcher. Remettre en place un protecteur retiré fait partie des vérifications de routine, au même titre que le contrôle d\'un extincteur." },
+      { type: "quote", text: "Une machine ne redevient jamais plus sûre parce qu\'on s\'y est habitué. Le protecteur retiré la semaine dernière reste un danger actif aujourd\'hui." },
+      { type: "h2", text: "Le cas des machines d\'occasion" },
+      { type: "p", text: "Une machine achetée d\'occasion reste soumise aux mêmes exigences qu\'une machine neuve : marquage CE, notice en français, protecteurs en état. Si l\'un de ces éléments manque ou si la machine a été modifiée par rapport à sa conception d\'origine, l\'employeur doit la mettre en conformité avant toute utilisation, éventuellement avec l\'appui d\'un organisme spécialisé. Acheter moins cher ne dispense d\'aucune de ces obligations." },
+      { type: "h3", text: "Former à la machine réellement utilisée, pas à un modèle générique" },
+      { type: "p", text: "Une formation générique sur les risques mécaniques ne remplace pas une prise en main sur la machine concrètement utilisée au poste : emplacement de l\'arrêt d\'urgence, gestes interdits, conduite à tenir en cas de dysfonctionnement. Cette formation se retrace, avec la date et le nom des salariés formés, pour pouvoir la présenter en cas de contrôle ou d\'accident." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité des travailleurs, y compris dans le choix, l\'installation et l\'entretien des équipements de travail." },
+      { type: "cta", text: "Pour structurer la vérification et le suivi des équipements de travail dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
