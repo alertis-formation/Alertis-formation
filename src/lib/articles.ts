@@ -159,6 +159,7 @@ export const articleSlugs = [
   "papripact-programme-annuel-prevention-risques-professionnels",
   "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
   "securite-des-machines-marquage-ce-protecteurs-obligations-employeur",
+  "amiante-avant-travaux-reperage-obligations-employeur",
 ] as const;
 
 /**
@@ -7370,6 +7371,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une formation générique sur les risques mécaniques ne remplace pas une prise en main sur la machine concrètement utilisée au poste : emplacement de l\'arrêt d\'urgence, gestes interdits, conduite à tenir en cas de dysfonctionnement. Cette formation se retrace, avec la date et le nom des salariés formés, pour pouvoir la présenter en cas de contrôle ou d\'accident." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité des travailleurs, y compris dans le choix, l\'installation et l\'entretien des équipements de travail." },
       { type: "cta", text: "Pour structurer la vérification et le suivi des équipements de travail dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "amiante-avant-travaux-reperage-obligations-employeur": {
+    title: "Amiante avant travaux : ce que l\'employeur doit vérifier",
+    excerpt: "Dans un bâtiment construit avant juillet 1997, aucun chantier ne démarre sans repérage amiante. Voici les documents à demander et les vérifications à effectuer avant de faire intervenir une entreprise sur site.",
+    publishedAt: "2026-09-01",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/amiante-avant-travaux-reperage-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un devis de rénovation signé, une entreprise qui arrive sur site, et personne n\'a demandé si le bâtiment contient de l\'amiante : ce scénario reste fréquent dans les bâtiments anciens. Avant tout chantier susceptible de toucher des matériaux amiantés, la loi impose un repérage préalable, à la charge du donneur d\'ordre." },
+      { type: "h2", text: "Une obligation légale, pas une simple précaution" },
+      { type: "p", text: "L\'article L.4412-2 du Code du travail impose au donneur d\'ordre, au maître d\'ouvrage ou au propriétaire de faire réaliser un repérage de l\'amiante avant toute opération susceptible d\'exposer des travailleurs. Ce repérage doit être achevé avant la passation du marché de travaux, sauf lorsque des interventions spécifiques sont nécessaires pour y accéder." },
+      { type: "h2", text: "Le DTA, un document à réclamer avant de signer" },
+      { type: "p", text: "Pour tout bâtiment dont le permis de construire est antérieur au 1er juillet 1997, le propriétaire détient normalement un dossier technique amiante (DTA). Ce document recense la présence, la nature et la localisation des matériaux amiantés repérés dans l\'immeuble. Il n\'a pas de durée de validité mais doit être mis à jour après chaque nouveau repérage." },
+      { type: "ul", items: [
+        "Demander le DTA au propriétaire ou au bailleur avant tout démarrage de chantier, y compris pour de petits travaux.",
+        "Vérifier que le repérage amiante avant travaux couvre bien la zone concernée par l\'intervention, pas seulement les parties communes.",
+        "Transmettre le rapport de repérage à l\'entreprise intervenante avant la signature du marché.",
+        "En l\'absence de document ou en cas de doute sur une zone non repérée, suspendre l\'intervention jusqu\'à clarification.",
+      ]},
+      { type: "h3", text: "Deux régimes différents selon la nature de l\'intervention" },
+      { type: "p", text: "Les travaux de retrait ou d\'encapsulage de matériaux amiantés relèvent de la sous-section 3 (articles R.4412-125 à R.4412-143) et nécessitent une entreprise certifiée. Les interventions qui risquent seulement de dégrader des matériaux amiantés sans les retirer, comme un perçage ou une opération de maintenance, relèvent de la sous-section 4 (articles R.4412-144 à R.4412-148) et exigent une formation spécifique des opérateurs." },
+      { type: "quote", text: "Un chantier qui démarre sans repérage amiante n\'est pas un oubli administratif sans conséquence : c\'est une exposition non maîtrisée pour les salariés qui travaillent sur place." },
+      { type: "p", text: "Les entreprises qui interviennent régulièrement dans des bâtiments anciens, électriciens, plombiers, agents de maintenance, sont particulièrement concernées, même pour des interventions ponctuelles. Une cloison percée ou un faux plafond démonté sans vérification préalable suffit à libérer des fibres d\'amiante dans l\'air respiré." },
+      { type: "p", text: "Référence officielle : article L.4412-2 du Code du travail relatif au repérage de l\'amiante avant travaux, et articles R.4412-94 à R.4412-148 du Code du travail relatifs aux sous-sections 3 et 4 encadrant les travaux et interventions sur des matériaux amiantés." },
+      { type: "cta", text: "Pour organiser la vérification des documents amiante avant vos prochains chantiers,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
