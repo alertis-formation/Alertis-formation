@@ -160,6 +160,7 @@ export const articleSlugs = [
   "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
   "securite-des-machines-marquage-ce-protecteurs-obligations-employeur",
   "amiante-avant-travaux-reperage-obligations-employeur",
+  "local-charge-batteries-chariots-elevateurs-risques-prevention",
 ] as const;
 
 /**
@@ -7398,6 +7399,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les entreprises qui interviennent régulièrement dans des bâtiments anciens, électriciens, plombiers, agents de maintenance, sont particulièrement concernées, même pour des interventions ponctuelles. Une cloison percée ou un faux plafond démonté sans vérification préalable suffit à libérer des fibres d\'amiante dans l\'air respiré." },
       { type: "p", text: "Référence officielle : article L.4412-2 du Code du travail relatif au repérage de l\'amiante avant travaux, et articles R.4412-94 à R.4412-148 du Code du travail relatifs aux sous-sections 3 et 4 encadrant les travaux et interventions sur des matériaux amiantés." },
       { type: "cta", text: "Pour organiser la vérification des documents amiante avant vos prochains chantiers,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "local-charge-batteries-chariots-elevateurs-risques-prevention": {
+    title: "Local de charge des chariots élévateurs : risques et prévention",
+    excerpt: "La charge des batteries de chariots élévateurs dégage de l\'hydrogène, un gaz explosif invisible. Ventilation, interdiction de fumer, formation des caristes : les mesures de prévention à connaître.",
+    publishedAt: "2026-09-02",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/local-charge-batteries-chariots-elevateurs-risques-prevention.jpg",
+    content: [
+      { type: "p", text: "Un local de charge de chariots élévateurs a l\'apparence d\'un coin technique sans enjeu particulier. Pourtant, la charge des batteries au plomb dégage de l\'hydrogène, un gaz incolore et inodore qui devient explosif au contact de l\'air dès une certaine concentration. Ventilation, distance de sécurité et consignes claires transforment une opération courante en geste maîtrisé." },
+      { type: "h2", text: "Un dégagement de gaz invisible pendant la charge" },
+      { type: "p", text: "Les batteries au plomb-acide, les plus répandues sur les chariots élévateurs thermiques et électriques, produisent de l\'hydrogène par électrolyse pendant la phase de charge. Ce gaz plus léger que l\'air s\'accumule en partie haute du local s\'il n\'est pas évacué. Sans ventilation suffisante, la concentration peut atteindre la limite inférieure d\'explosivité en quelques heures, surtout dans un espace fermé et peu aéré." },
+      { type: "h2", text: "Aménager un local conforme" },
+      { type: "p", text: "Le local de charge doit être séparé des zones de circulation et de stockage de matières combustibles, construit avec des matériaux résistant au feu, et équipé d\'une ventilation naturelle ou mécanique dimensionnée pour évacuer l\'hydrogène en continu pendant la charge. Le sol doit résister aux projections d\'acide et permettre un nettoyage rapide en cas de fuite d\'électrolyte." },
+      { type: "ul", items: [
+        "Ventilation haute et basse assurant un renouvellement d\'air continu pendant toute la durée de charge.",
+        "Interdiction stricte de fumer et de tout point chaud à proximité immédiate des postes de charge.",
+        "Extincteur adapté au risque électrique à proximité, sans gêner l\'accès aux chargeurs.",
+        "Éclairage et matériel électrique conformes aux exigences de la zone si elle est classée à risque d\'explosion.",
+        "Arrêt d\'urgence facilement accessible pour couper l\'alimentation des chargeurs.",
+      ]},
+      { type: "h2", text: "Les gestes à respecter pendant la charge" },
+      { type: "p", text: "Le cariste doit brancher le chargeur avant de mettre sous tension, jamais l\'inverse, pour éviter les arcs électriques au niveau des connecteurs. Il ne doit ni fumer ni approcher une flamme du poste de charge, et vérifier que les capots de la batterie restent ouverts pendant l\'opération pour laisser l\'hydrogène s\'évacuer. Le port de lunettes et de gants résistant aux acides s\'impose pour tout contrôle du niveau d\'électrolyte." },
+      { type: "h3", text: "Le cas particulier des batteries lithium-ion" },
+      { type: "p", text: "Les batteries lithium-ion, de plus en plus présentes sur les chariots électriques récents, ne dégagent pas d\'hydrogène en fonctionnement normal. Leur risque principal est l\'emballement thermique en cas de choc, de surcharge ou d\'utilisation d\'un chargeur non adapté à leur technologie. Une batterie endommagée ou gonflée doit être immédiatement mise à l\'écart et signalée, sans tenter de la recharger." },
+      { type: "h2", text: "Intégrer ce risque au document unique" },
+      { type: "p", text: "Le risque lié à la charge des batteries doit figurer dans le Document Unique d\'Évaluation des Risques Professionnels, avec les mesures de prévention retenues pour chaque type de batterie utilisé sur le site. La formation des caristes ne doit pas se limiter à la conduite : elle doit couvrir les gestes de charge, le port des EPI adaptés et la conduite à tenir en cas de fuite ou de dégagement de fumée." },
+      { type: "quote", text: "Un local de charge mal ventilé transforme une opération de routine en zone à risque d\'explosion, sans qu\'aucun signe visible n\'alerte avant l\'accident." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité, et articles R.4227-4 à R.4227-57 du Code du travail relatifs à la prévention des incendies et à l\'aménagement des locaux de travail." },
+      { type: "cta", text: "Pour sensibiliser vos caristes et vos équipes logistiques à ces risques,", label: "consultez nos formations sécurité", href: "/formations" },
     ],
   },
 };
