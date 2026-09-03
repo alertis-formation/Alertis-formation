@@ -161,6 +161,7 @@ export const articleSlugs = [
   "securite-des-machines-marquage-ce-protecteurs-obligations-employeur",
   "amiante-avant-travaux-reperage-obligations-employeur",
   "local-charge-batteries-chariots-elevateurs-risques-prevention",
+  "amputation-traumatique-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -7430,6 +7431,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un local de charge mal ventilé transforme une opération de routine en zone à risque d\'explosion, sans qu\'aucun signe visible n\'alerte avant l\'accident." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité, et articles R.4227-4 à R.4227-57 du Code du travail relatifs à la prévention des incendies et à l\'aménagement des locaux de travail." },
       { type: "cta", text: "Pour sensibiliser vos caristes et vos équipes logistiques à ces risques,", label: "consultez nos formations sécurité", href: "/formations" },
+    ],
+  },
+
+  "amputation-traumatique-travail-conduite-a-tenir-sst": {
+    title: "Amputation traumatique au travail : conduite à tenir et conservation du segment",
+    excerpt: "Presse, machine-outil, engin de manutention : une amputation traumatique engage le pronostic vital. Contrôle de l\'hémorragie, conservation du segment, alerte : la conduite à tenir pour le SST.",
+    publishedAt: "2026-09-03",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/amputation-traumatique-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Une amputation traumatique survient lors d\'un accident avec une machine coupante, une presse, un engin de manutention ou un outil tranchant. Le segment atteint, doigt, main ou avant-bras, est arraché ou sectionné net. Face à cette urgence vitale, le Sauveteur Secouriste du Travail suit un ordre précis : contrôler l\'hémorragie avant toute chose, puis conserver correctement le segment amputé, sans jamais inverser ces priorités." },
+      { type: "h2", text: "Quels postes sont les plus exposés ?" },
+      { type: "ul", items: [
+        "Métallurgie et travail du métal : presses, cisailles, machines-outils.",
+        "Menuiserie et travail du bois : scies circulaires, dégauchisseuses, toupies.",
+        "Agroalimentaire : machines de découpe, hachoirs, trancheuses.",
+        "BTP et espaces verts : engins de terrassement, tronçonneuses, broyeurs à végétaux.",
+        "Logistique et manutention : convoyeurs, portes automatiques, chariots élévateurs.",
+      ]},
+      { type: "h2", text: "Contrôler l\'hémorragie est la priorité absolue" },
+      { type: "p", text: "Avant de s\'occuper du segment amputé, le SST agit sur la victime. Une hémorragie massive au niveau du moignon met la vie en jeu en quelques minutes. La compression directe avec un tissu propre est le premier geste. Si elle ne suffit pas, ou si l\'amputation est complète, un garrot est posé sans délai, quelques centimètres au-dessus de la plaie, jamais sur une articulation." },
+      { type: "quote", text: "Le segment amputé n\'est jamais la priorité. Un SST qui perd du temps à l\'envelopper avant d\'avoir arrêté l\'hémorragie met la vie de la victime en danger." },
+      { type: "h2", text: "Conserver le segment amputé : la méthode qui optimise les chances de réimplantation" },
+      { type: "ul", items: [
+        "Envelopper le segment dans une compresse ou un tissu propre et sec, sans le laver ni le désinfecter.",
+        "Le placer dans un sac plastique étanche, fermé hermétiquement.",
+        "Poser ce sac dans un second récipient contenant de la glace, sans contact direct entre le segment et la glace.",
+        "Noter l\'heure de l\'accident et transporter le segment avec la victime, jamais séparément.",
+      ]},
+      { type: "h3", text: "Ce qu\'il ne faut jamais faire" },
+      { type: "p", text: "Ne jamais immerger le segment dans l\'eau, le sérum physiologique ou l\'alcool : cela endommage les tissus et compromet la réimplantation. Ne jamais le mettre en contact direct avec la glace, au risque de provoquer des gelures qui détruisent les cellules. Et surtout, ne jamais retarder la prise en charge de la victime pour s\'occuper du segment en premier." },
+      { type: "h2", text: "Alerter les secours et transmettre les informations utiles" },
+      { type: "p", text: "L\'alerte au 15 ou au 18 précise le mécanisme de l\'accident, l\'heure exacte, la localisation du segment amputé et les gestes déjà réalisés. Ces informations orientent le régulateur vers un centre disposant d\'une équipe de chirurgie réparatrice, seule habilitée à évaluer la possibilité d\'une réimplantation. Le SST poursuit la surveillance de la victime, conscience, respiration, état de choc, jusqu\'à l\'arrivée des secours." },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques et de prendre les mesures de prévention adaptées aux machines et équipements présents sur le site. L\'organisation des premiers secours, prévue aux articles R.4224-15 et R.4224-16, doit permettre une prise en charge immédiate en cas d\'accident grave. Référence officielle : articles L.4121-1, R.4224-15 et R.4224-16 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes aux gestes qui sauvent face aux accidents graves en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
