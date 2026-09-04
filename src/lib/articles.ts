@@ -162,6 +162,7 @@ export const articleSlugs = [
   "amiante-avant-travaux-reperage-obligations-employeur",
   "local-charge-batteries-chariots-elevateurs-risques-prevention",
   "amputation-traumatique-travail-conduite-a-tenir-sst",
+  "habilitations-electriques-be-he-operations-specifiques",
 ] as const;
 
 /**
@@ -7467,6 +7468,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'alerte au 15 ou au 18 précise le mécanisme de l\'accident, l\'heure exacte, la localisation du segment amputé et les gestes déjà réalisés. Ces informations orientent le régulateur vers un centre disposant d\'une équipe de chirurgie réparatrice, seule habilitée à évaluer la possibilité d\'une réimplantation. Le SST poursuit la surveillance de la victime, conscience, respiration, état de choc, jusqu\'à l\'arrivée des secours." },
       { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur d\'évaluer les risques et de prendre les mesures de prévention adaptées aux machines et équipements présents sur le site. L\'organisation des premiers secours, prévue aux articles R.4224-15 et R.4224-16, doit permettre une prise en charge immédiate en cas d\'accident grave. Référence officielle : articles L.4121-1, R.4224-15 et R.4224-16 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes aux gestes qui sauvent face aux accidents graves en entreprise,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+
+  "habilitations-electriques-be-he-operations-specifiques": {
+    title: "Habilitations électriques BE et HE : les niveaux pour les opérations spécifiques",
+    excerpt: "Manœuvre, essai, vérification, mesurage : la norme NF C18-510 prévoit des habilitations BE et HE pour des opérations électriques ciblées, sans faire du salarié un électricien complet.",
+    publishedAt: "2026-09-04",
+    category: "Habilitation électrique",
+    readingTime: 5,
+    image: "/images/articles/habilitations-electriques-be-he-operations-specifiques.jpg",
+    content: [
+      { type: "p", text: "Un technicien de maintenance qui réarme un disjoncteur, un agent SAV qui teste un appareil électrique en atelier, un contrôleur qui vérifie une installation sans y intervenir : ces situations ne relèvent pas des habilitations B1, B2 ou BR réservées aux électriciens. La norme NF C18-510 prévoit pour elles un indice spécifique, E, qui cible une opération précise sans faire du salarié un électricien." },
+      { type: "h2", text: "Le principe de l\'indice E : une opération, pas un métier" },
+      { type: "p", text: "Les habilitations B1, B2, BR ou BC couvrent un métier d\'électricien, avec un périmètre large de travaux ou d\'interventions. L\'indice E fonctionne différemment : il autorise une seule catégorie d\'opération, clairement définie par l\'employeur, sur une installation ou un ouvrage donné. Le salarié habilité BE ou HE n\'est pas électricien : il exécute un geste précis, dans un cadre fixé par une consigne de sécurité." },
+      { type: "h2", text: "Les quatre habilitations BE en basse tension" },
+      { type: "p", text: "La norme distingue quatre opérations spécifiques en basse tension, chacune avec son propre titre d\'habilitation :" },
+      { type: "ul", items: [
+        "BE Manœuvre : réarmer un disjoncteur, remplacer un fusible ou manœuvrer un appareil de coupure, dans les conditions précisées par une consigne écrite.",
+        "BE Essai : réaliser des essais sur un ouvrage ou une installation électrique, en atelier, en laboratoire ou avant mise en service.",
+        "BE Vérification : contrôler la conformité d\'une installation existante, par examen visuel ou par mesure, sans intervenir sur l\'ouvrage.",
+        "BE Mesurage : utiliser un appareil de mesure, pince ampèremétrique ou multimètre, sur une installation, y compris sous tension, sans réaliser d\'autre opération.",
+      ]},
+      { type: "p", text: "Chaque titre BE se limite strictement à l\'opération qu\'il désigne. Un salarié habilité BE Essai ne peut pas, avec ce seul titre, réarmer un disjoncteur au titre du BE Manœuvre : il lui faut une habilitation distincte pour chaque type d\'opération confiée. Cette précision protège le salarié en évitant qu\'il soit exposé à une opération pour laquelle il n\'a reçu ni formation ni consigne." },
+      { type: "h3", text: "HE, la même logique en haute tension" },
+      { type: "p", text: "Les habilitations HE Manœuvre, HE Essai et HE Vérification reprennent exactement la même logique pour les installations haute tension. Elles restent rares en dehors des gestionnaires de réseaux, des industries lourdes et de certains laboratoires d\'essais, où des opérations ponctuelles bien identifiées justifient une habilitation ciblée plutôt qu\'une habilitation H1 ou H2 complète." },
+      { type: "quote", text: "Une habilitation BE Essai ne rend pas électricien : elle autorise un geste précis, dans un cadre défini, rien de plus." },
+      { type: "h2", text: "Qui a besoin d\'une habilitation BE en pratique ?" },
+      { type: "ul", items: [
+        "Techniciens de maintenance chargés de réarmer des protections ou de changer des fusibles, sans réaliser d\'autres opérations électriques : BE Manœuvre.",
+        "Techniciens SAV ou de laboratoire qui testent des équipements électriques avant expédition ou remise en service : BE Essai.",
+        "Contrôleurs qualité ou techniciens qui vérifient la conformité d\'une installation sans y intervenir : BE Vérification.",
+        "Agents de maintenance qui relèvent des mesures électriques dans le cadre d\'un diagnostic ou d\'un suivi : BE Mesurage.",
+      ]},
+      { type: "p", text: "Référence officielle : norme NF C18-510 relative aux opérations sur les ouvrages et installations électriques, qui définit les habilitations à indice E (BE, HE) pour des opérations spécifiques ; articles R.4544-9 et R.4544-10 du Code du travail, qui imposent à l\'employeur de délivrer une habilitation adaptée au poste, après une formation préalable à la prévention du risque électrique." },
+      { type: "cta", text: "Pour habiliter vos techniciens aux opérations électriques spécifiques qu\'ils réalisent réellement,", label: "consultez nos formations habilitation électrique", href: "/formations/habilitation-electrique" },
     ],
   },
 };
