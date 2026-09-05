@@ -163,6 +163,7 @@ export const articleSlugs = [
   "local-charge-batteries-chariots-elevateurs-risques-prevention",
   "amputation-traumatique-travail-conduite-a-tenir-sst",
   "habilitations-electriques-be-he-operations-specifiques",
+  "iso-45001-systeme-management-sante-securite-travail",
 ] as const;
 
 /**
@@ -7503,6 +7504,37 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : norme NF C18-510 relative aux opérations sur les ouvrages et installations électriques, qui définit les habilitations à indice E (BE, HE) pour des opérations spécifiques ; articles R.4544-9 et R.4544-10 du Code du travail, qui imposent à l\'employeur de délivrer une habilitation adaptée au poste, après une formation préalable à la prévention du risque électrique." },
       { type: "cta", text: "Pour habiliter vos techniciens aux opérations électriques spécifiques qu\'ils réalisent réellement,", label: "consultez nos formations habilitation électrique", href: "/formations/habilitation-electrique" },
+    ],
+  },
+
+  "iso-45001-systeme-management-sante-securite-travail": {
+    title: "ISO 45001 : le système de management de la sécurité au travail",
+    excerpt: "La norme ISO 45001 propose un cadre structuré pour piloter la santé et la sécurité au travail dans la durée, au-delà du diagnostic ponctuel du document unique.",
+    publishedAt: "2026-09-05",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/iso-45001-systeme-management-sante-securite-travail.jpg",
+    content: [
+      { type: "p", text: "Le document unique d\'évaluation des risques identifie les dangers à un instant donné. Beaucoup d\'entreprises peinent ensuite à transformer ce diagnostic en démarche continue. La norme ISO 45001 répond à ce besoin : elle structure un système de management dédié à la santé et à la sécurité au travail, applicable à toute organisation, quel que soit son secteur ou sa taille." },
+      { type: "h2", text: "Une norme volontaire, pas une obligation légale" },
+      { type: "p", text: "ISO 45001 est publiée en 2018 par l\'Organisation internationale de normalisation. Elle remplace le référentiel britannique OHSAS 18001, jusque là la référence la plus utilisée en matière de management de la sécurité. Son adoption reste facultative : aucun texte du Code du travail n\'impose à un employeur de s\'y conformer ni de se faire certifier. L\'obligation générale de sécurité prévue par l\'article L.4121-1 demeure le socle légal, indépendamment de toute certification." },
+      { type: "h2", text: "Le cycle planifier, faire, vérifier, agir" },
+      { type: "p", text: "La norme reprend la structure commune à l\'ensemble des normes de management ISO, qualité, environnement, sécurité. Le système s\'organise autour d\'un cycle en quatre temps : planifier les objectifs et les mesures de prévention, les mettre en œuvre, vérifier leur efficacité par des indicateurs et des audits, puis ajuster la démarche. Ce fonctionnement en boucle distingue le système de management d\'un plan d\'action figé, révisé une fois par an." },
+      { type: "h2", text: "Les exigences clés du système" },
+      { type: "ul", items: [
+        "Un engagement formalisé de la direction, incluant l\'allocation de ressources humaines et financières à la prévention.",
+        "Une identification continue des dangers et une évaluation des risques, articulée avec le document unique existant.",
+        "Une planification opérationnelle des mesures de prévention, avec des responsabilités et des échéances définies.",
+        "Un pilotage par indicateurs : taux de fréquence, taux de gravité, résultats des audits internes, remontées du terrain.",
+        "Une revue de direction périodique, qui réexamine la performance du système et ses axes d\'amélioration.",
+      ]},
+      { type: "h3", text: "La participation des travailleurs, une exigence explicite" },
+      { type: "p", text: "ISO 45001 impose une consultation et une participation réelle des salariés à l\'identification des dangers, à l\'enquête après incident et à la définition des mesures de prévention. Cette exigence dépasse la simple information descendante : elle suppose des mécanismes concrets, remontées de terrain, groupes de travail, implication du CSE, pour que les personnes exposées au risque participent à sa réduction." },
+      { type: "quote", text: "Un système de management qui ignore la parole des salariés exposés au risque n\'atteint jamais la conformité réelle à la norme." },
+      { type: "h2", text: "La certification, un choix stratégique" },
+      { type: "p", text: "La certification ISO 45001 est délivrée par un organisme tiers accrédité, après audit du système mis en place. Elle n\'est pas une fin en soi : certaines entreprises adoptent la structure de la norme sans rechercher la certification, pour organiser leur prévention de façon plus rigoureuse. Pour d\'autres, la certification répond à une exigence contractuelle, notamment dans les appels d\'offres ou les relations avec des donneurs d\'ordre attentifs à la sécurité de leurs sous-traitants." },
+      { type: "p", text: "Le PAPRIPACT et le document unique restent les outils réglementaires du quotidien : la norme ISO 45001 leur donne un cadre de pilotage dans la durée, sans les remplacer. Référence officielle : norme ISO 45001:2018, articles L.4121-1 et L.4121-2 du Code du travail relatifs à l\'obligation générale de sécurité de l\'employeur." },
+      { type: "cta", text: "Pour structurer la démarche de prévention de votre organisation,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
