@@ -164,6 +164,7 @@ export const articleSlugs = [
   "amputation-traumatique-travail-conduite-a-tenir-sst",
   "habilitations-electriques-be-he-operations-specifiques",
   "iso-45001-systeme-management-sante-securite-travail",
+  "etiquetage-allergenes-restauration-obligations-employeur",
 ] as const;
 
 /**
@@ -7535,6 +7536,54 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La certification ISO 45001 est délivrée par un organisme tiers accrédité, après audit du système mis en place. Elle n\'est pas une fin en soi : certaines entreprises adoptent la structure de la norme sans rechercher la certification, pour organiser leur prévention de façon plus rigoureuse. Pour d\'autres, la certification répond à une exigence contractuelle, notamment dans les appels d\'offres ou les relations avec des donneurs d\'ordre attentifs à la sécurité de leurs sous-traitants." },
       { type: "p", text: "Le PAPRIPACT et le document unique restent les outils réglementaires du quotidien : la norme ISO 45001 leur donne un cadre de pilotage dans la durée, sans les remplacer. Référence officielle : norme ISO 45001:2018, articles L.4121-1 et L.4121-2 du Code du travail relatifs à l\'obligation générale de sécurité de l\'employeur." },
       { type: "cta", text: "Pour structurer la démarche de prévention de votre organisation,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "etiquetage-allergenes-restauration-obligations-employeur": {
+    title: "Étiquetage des allergènes en restauration : les obligations de l\'employeur",
+    excerpt:
+      "Le règlement européen INCO impose d\'informer les clients sur 14 allergènes majeurs, même pour un plat non préemballé. Voici ce que la réglementation impose concrètement en restauration et cuisine collective.",
+    publishedAt: "2026-09-06",
+    category: "Hygiène alimentaire",
+    readingTime: 6,
+    image: "/images/articles/etiquetage-allergenes-restauration-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un client allergique qui commande un plat sans connaître sa composition prend un risque réel, parfois vital. La réglementation européenne oblige tout professionnel qui sert de la nourriture, restaurant, cantine, traiteur ou food truck, à informer sur la présence de 14 allergènes majeurs. Cette obligation s\'applique même sans emballage, y compris pour un plat du jour annoncé oralement." },
+      { type: "h2", text: "Le règlement INCO et les 14 allergènes à déclarer" },
+      { type: "p", text: "Le règlement (UE) n° 1169/2011, dit règlement INCO, fixe la liste des substances devant être signalées dès qu\'elles entrent dans la composition d\'un plat, même en faible quantité ou sous forme de trace maîtrisable. Cette liste est harmonisée dans toute l\'Union européenne et s\'impose à tout établissement qui prépare ou sert des denrées alimentaires, quelle que soit sa taille." },
+      { type: "ul", items: [
+        "Céréales contenant du gluten (blé, seigle, orge, avoine…)",
+        "Crustacés",
+        "Œufs",
+        "Poissons",
+        "Arachides",
+        "Soja",
+        "Lait (y compris le lactose)",
+        "Fruits à coque (amandes, noisettes, noix, noix de cajou…)",
+        "Céleri",
+        "Moutarde",
+        "Graines de sésame",
+        "Anhydride sulfureux et sulfites (au-delà de 10 mg/kg ou 10 mg/l)",
+        "Lupin",
+        "Mollusques",
+      ]},
+      { type: "h2", text: "Une obligation spécifique aux plats non préemballés" },
+      { type: "p", text: "Pour la restauration commerciale et collective, le décret n° 2015-447 du 17 avril 2015 précise les modalités de cette information depuis son entrée en application le 1er juillet 2015. Restaurants, cantines, traiteurs, food trucks et dark kitchens doivent pouvoir indiquer à chaque client, pour chaque plat proposé, quels allergènes parmi les 14 il contient." },
+      { type: "h3", text: "Quel support pour l\'information ?" },
+      { type: "p", text: "Un renvoi oral au personnel ne suffit pas à lui seul : un support écrit, consultable par le client, reste obligatoire. Menu annoté, pictogrammes, classeur en salle, affichette ou fiche technique disponible sur demande, plusieurs formats sont acceptés, à condition que l\'information soit exacte, à jour et facilement accessible avant la commande." },
+      { type: "h2", text: "Sécuriser la déclaration en cuisine" },
+      { type: "p", text: "La fiabilité de l\'information dépend de ce qui se passe avant le service. Chaque recette doit être documentée à partir des étiquettes fournisseurs, et cette fiche doit être mise à jour dès qu\'un ingrédient change, même pour un dépannage ponctuel. Une sauce industrielle substituée à une préparation maison peut suffire à introduire un allergène non déclaré." },
+      { type: "ul", items: [
+        "Tenir une fiche allergènes à jour pour chaque plat de la carte.",
+        "Vérifier les étiquettes à chaque réception de marchandise, pas seulement à la première commande.",
+        "Former le personnel de salle à répondre précisément, pas par approximation.",
+        "Séparer les postes et le matériel pour limiter les contaminations croisées.",
+        "Réévaluer la fiche à chaque changement de recette ou de fournisseur.",
+      ]},
+      { type: "quote", text: "Un client allergique ne demande pas un plat parfait, il demande une réponse exacte. Une approximation en cuisine se paie parfois aux urgences." },
+      { type: "p", text: "En cas de contrôle, la DGCCRF vérifie la disponibilité et l\'exactitude du support d\'information, ainsi que la cohérence entre la fiche déclarée et la recette réellement servie. Au-delà de la sanction administrative, une erreur peut déclencher une réaction allergique sévère chez un client, jusqu\'au choc anaphylactique dans les cas les plus graves." },
+      { type: "p", text: "Référence officielle : règlement (UE) n° 1169/2011 du Parlement européen et du Conseil (INCO), décret n° 2015-447 du 17 avril 2015 relatif à l\'information des consommateurs sur les allergènes et les denrées alimentaires non préemballées." },
+      { type: "cta", text: "Pour former vos équipes de cuisine et de salle à la gestion des allergènes,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
