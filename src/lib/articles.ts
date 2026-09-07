@@ -165,6 +165,7 @@ export const articleSlugs = [
   "habilitations-electriques-be-he-operations-specifiques",
   "iso-45001-systeme-management-sante-securite-travail",
   "etiquetage-allergenes-restauration-obligations-employeur",
+  "cout-accident-travail-couts-directs-indirects-employeur",
 ] as const;
 
 /**
@@ -7584,6 +7585,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "En cas de contrôle, la DGCCRF vérifie la disponibilité et l\'exactitude du support d\'information, ainsi que la cohérence entre la fiche déclarée et la recette réellement servie. Au-delà de la sanction administrative, une erreur peut déclencher une réaction allergique sévère chez un client, jusqu\'au choc anaphylactique dans les cas les plus graves." },
       { type: "p", text: "Référence officielle : règlement (UE) n° 1169/2011 du Parlement européen et du Conseil (INCO), décret n° 2015-447 du 17 avril 2015 relatif à l\'information des consommateurs sur les allergènes et les denrées alimentaires non préemballées." },
       { type: "cta", text: "Pour former vos équipes de cuisine et de salle à la gestion des allergènes,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "cout-accident-travail-couts-directs-indirects-employeur": {
+    title: "Combien coûte un accident du travail à l\'entreprise ?",
+    excerpt: "Au-delà de la cotisation versée à l\'Assurance Maladie, un accident du travail génère des coûts indirects souvent invisibles en comptabilité. Comprendre cette mécanique aide à prioriser la prévention.",
+    publishedAt: "2026-09-07",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/cout-accident-travail-couts-directs-indirects-employeur.jpg",
+    content: [
+      { type: "p", text: "Le coût réel d\'un accident du travail dépasse largement la cotisation versée à l\'Assurance Maladie. Une part importante reste invisible dans les comptes de l\'entreprise : désorganisation de l\'équipe, remplacement du salarié absent, temps passé par l\'encadrement à gérer la situation. Comprendre cette mécanique aide les dirigeants et les RH à prioriser la prévention, pas seulement pour des raisons humaines." },
+      { type: "h2", text: "Les coûts directs, visibles dans la comptabilité" },
+      { type: "p", text: "Les soins et les indemnités journalières de la victime sont pris en charge par la branche Accidents du travail et maladies professionnelles de la Sécurité sociale, financée par la cotisation AT/MP de l\'employeur. Cette cotisation n\'est pas figée : selon la taille de l\'entreprise, son mode de calcul intègre progressivement la sinistralité propre à l\'établissement, ce qui rend chaque accident potentiellement coûteux sur plusieurs années." },
+      { type: "ul", items: [
+        "Le maintien de salaire au-delà de la subrogation, lorsque la convention collective l\'impose ;",
+        "Les franchises et la part non assurée des dommages matériels causés par l\'accident ;",
+        "Les frais de recrutement ou d\'intérim en urgence pour remplacer le salarié absent ;",
+        "La hausse mécanique, à moyen terme, de la cotisation AT/MP pour les entreprises soumises à la tarification individuelle.",
+      ]},
+      { type: "h2", text: "Les coûts indirects, plus difficiles à chiffrer mais tout aussi réels" },
+      { type: "p", text: "Un accident n\'immobilise pas seulement la victime. Il mobilise l\'encadrement pour l\'enquête, ralentit la production le temps de réorganiser les postes, et peut fragiliser durablement le climat social si les collègues estiment que l\'accident aurait pu être évité. Ces effets ne figurent sur aucune ligne comptable dédiée, mais ils pèsent sur l\'activité pendant des semaines." },
+      { type: "ul", items: [
+        "Le temps de formation d\'un remplaçant et la perte temporaire de savoir-faire ;",
+        "La désorganisation de l\'équipe et les retards pris sur les commandes en cours ;",
+        "Le temps consacré par l\'encadrement et le CSE à l\'analyse des causes de l\'accident ;",
+        "L\'impact sur l\'image de l\'entreprise auprès des clients, des candidats et des salariés eux-mêmes.",
+      ]},
+      { type: "h2", text: "La tarification AT/MP responsabilise l\'employeur dans la durée" },
+      { type: "p", text: "Le mode de calcul de la cotisation AT/MP varie selon l\'effectif de l\'entreprise. Les plus petites structures relèvent d\'un taux largement mutualisé à l\'échelle de leur secteur d\'activité. À mesure que l\'effectif augmente, la part individualisée progresse, jusqu\'à un taux propre à l\'établissement pour les plus grandes entreprises. Dans ce dernier cas, chaque accident déclaré pèse directement, et pendant plusieurs années, sur le montant de la cotisation." },
+      { type: "h2", text: "Prévenir coûte moins cher que réparer" },
+      { type: "p", text: "Un document unique d\'évaluation des risques tenu à jour, des équipements adaptés et des salariés formés ne suppriment pas tout risque, mais réduisent la fréquence et la gravité des accidents. Cet investissement se compare rarement, dans les esprits, à la facture cumulée d\'un accident évité : arrêt de travail, désorganisation, enquête, cotisation. C\'est pourtant la même somme, simplement déplacée en amont." },
+      { type: "quote", text: "Un accident évité ne coûte jamais rien à l\'entreprise. Un accident survenu coûte toujours plus que ce que la première facture indique." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs." },
+      { type: "cta", text: "Pour réduire durablement la fréquence de vos accidents du travail,", label: "faites le point sur vos besoins en formation sécurité", href: "/contact" },
     ],
   },
 };
