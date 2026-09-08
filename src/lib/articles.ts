@@ -166,6 +166,7 @@ export const articleSlugs = [
   "iso-45001-systeme-management-sante-securite-travail",
   "etiquetage-allergenes-restauration-obligations-employeur",
   "cout-accident-travail-couts-directs-indirects-employeur",
+  "nacelles-elevatrices-pemp-regles-securite-utilisation",
 ] as const;
 
 /**
@@ -7620,6 +7621,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un accident évité ne coûte jamais rien à l\'entreprise. Un accident survenu coûte toujours plus que ce que la première facture indique." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs." },
       { type: "cta", text: "Pour réduire durablement la fréquence de vos accidents du travail,", label: "faites le point sur vos besoins en formation sécurité", href: "/contact" },
+    ],
+  },
+
+  "nacelles-elevatrices-pemp-regles-securite-utilisation": {
+    title: "Nacelles élévatrices : les règles de sécurité pour une utilisation sans risque",
+    excerpt: "Chute de la plateforme, basculement de l\'engin, écrasement contre un obstacle : les nacelles élévatrices concentrent des risques spécifiques que la formation et des vérifications régulières permettent de maîtriser.",
+    publishedAt: "2026-09-08",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/nacelles-elevatrices-pemp-regles-securite-utilisation.jpg",
+    content: [
+      { type: "p", text: "Une plateforme élévatrice mobile de personnel, plus connue sous le nom de nacelle, permet de travailler en hauteur sans échafaudage. Mal utilisée, elle expose pourtant à des risques graves : basculement, écrasement contre une structure fixe ou chute depuis le panier. La prévention repose sur trois piliers : la formation du conducteur, l\'état de l\'engin et le respect des consignes d\'utilisation." },
+      { type: "h2", text: "Des risques propres à ce type d\'engin" },
+      { type: "p", text: "Le renversement de la nacelle reste le risque le plus redouté, en particulier sur sol meuble ou en pente, ou lorsque la charge dépasse celle autorisée. Le déplacement de la plateforme expose aussi à l\'écrasement du conducteur entre le panier et un obstacle fixe, mur, poutre ou ligne électrique aérienne. Enfin, une sortie du panier en hauteur, volontaire ou accidentelle, provoque une chute grave." },
+      { type: "ul", items: [
+        "Sol instable, en pente ou non stabilisé sous les vérins ;",
+        "Charge dans le panier supérieure à celle indiquée par le constructeur ;",
+        "Approche d\'une ligne électrique aérienne sans distance de sécurité respectée ;",
+        "Vent dépassant le seuil fixé par la notice du constructeur.",
+      ]},
+      { type: "h2", text: "Qui peut conduire une nacelle élévatrice ?" },
+      { type: "p", text: "La conduite d\'une nacelle élévatrice suppose une formation théorique et pratique portant sur les manœuvres, les vérifications avant utilisation et la conduite à tenir en cas d\'incident. La recommandation R486 de l\'Assurance Maladie Risques professionnels sert de référence à la profession pour organiser cette formation et l\'évaluation des compétences du conducteur." },
+      { type: "h3", text: "L\'autorisation de conduite, une responsabilité de l\'employeur" },
+      { type: "p", text: "La formation ne suffit pas à elle seule. C\'est à l\'employeur de délivrer une autorisation de conduite, document par lequel il reconnaît qu\'un salarié maîtrise la conduite en sécurité de l\'engin, compte tenu des lieux et des travaux à réaliser. Cette autorisation s\'appuie sur l\'aptitude médicale du salarié, son évaluation des connaissances et son savoir-faire dans l\'utilisation de la nacelle concernée." },
+      { type: "h2", text: "Les vérifications à effectuer avant chaque utilisation" },
+      { type: "p", text: "Avant de monter dans le panier, l\'opérateur contrôle l\'état général de la nacelle : niveau d\'huile, pression des pneumatiques, état des stabilisateurs, fonctionnement des commandes et du dispositif de secours au sol. Un carnet de maintenance suit l\'engin et trace les vérifications périodiques réalisées par un organisme compétent." },
+      { type: "ul", items: [
+        "Fonctionnement du harnais et du point d\'ancrage dans le panier ;",
+        "Absence de fuite hydraulique visible sous la machine ;",
+        "Dégagement de la zone d\'évolution, sans obstacle ni passage de piétons ;",
+        "Présence et lisibilité de la notice d\'utilisation dans la nacelle.",
+      ]},
+      { type: "p", text: "Le port du harnais avec longe courte, attaché au point d\'ancrage prévu dans le panier, protège contre l\'éjection en cas de choc ou de mouvement brusque de la nacelle. Il complète les protections collectives de l\'engin, sans les remplacer, pour les situations où un heurt reste possible." },
+      { type: "quote", text: "Une nacelle bien entretenue et un conducteur formé ne suppriment pas le risque de hauteur, ils le ramènent à un niveau maîtrisable." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'assurer la sécurité des travailleurs, et recommandation R486 de l\'Assurance Maladie Risques professionnels relative à l\'utilisation des plateformes élévatrices mobiles de personnel." },
+      { type: "cta", text: "Pour organiser la formation à la conduite de nacelles élévatrices dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
