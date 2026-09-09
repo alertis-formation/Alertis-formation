@@ -167,6 +167,7 @@ export const articleSlugs = [
   "etiquetage-allergenes-restauration-obligations-employeur",
   "cout-accident-travail-couts-directs-indirects-employeur",
   "nacelles-elevatrices-pemp-regles-securite-utilisation",
+  "classement-erp-categories-types-consequences",
 ] as const;
 
 /**
@@ -7657,6 +7658,44 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Une nacelle bien entretenue et un conducteur formé ne suppriment pas le risque de hauteur, ils le ramènent à un niveau maîtrisable." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'assurer la sécurité des travailleurs, et recommandation R486 de l\'Assurance Maladie Risques professionnels relative à l\'utilisation des plateformes élévatrices mobiles de personnel." },
       { type: "cta", text: "Pour organiser la formation à la conduite de nacelles élévatrices dans votre entreprise,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "classement-erp-categories-types-consequences": {
+    title: "Classement des ERP : catégories, types et conséquences pratiques",
+    excerpt: "Chaque établissement recevant du public reçoit une lettre selon son activité et un chiffre selon son effectif. Ce classement fixe les règles de sécurité incendie applicables, du personnel requis aux contrôles.",
+    publishedAt: "2026-09-09",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/classement-erp-categories-types-consequences.jpg",
+    content: [
+      { type: "p", text: "Un établissement recevant du public ne suit pas toutes les mêmes règles de sécurité incendie. La réglementation classe chaque ERP selon deux critères : son type, qui reflète l\'activité exercée, et sa catégorie, qui dépend du nombre de personnes accueillies. Ce double classement détermine concrètement les obligations de l\'exploitant, du personnel requis à la fréquence des contrôles." },
+      { type: "h2", text: "Le type, une lettre liée à l\'activité de l\'établissement" },
+      { type: "p", text: "Le type d\'ERP est désigné par une lettre, fixée par le code de la construction et de l\'habitation et précisée par l\'arrêté du 25 juin 1980 relatif au règlement de sécurité contre les risques d\'incendie et de panique. Cette lettre correspond à la nature de l\'activité exercée dans les locaux, indépendamment de leur taille." },
+      { type: "ul", items: [
+        "M : magasins de vente et centres commerciaux ;",
+        "N : restaurants et débits de boissons ;",
+        "O : hôtels et autres établissements d\'hébergement ;",
+        "R : établissements d\'enseignement ;",
+        "U : établissements de soins ;",
+        "W : administrations, banques et bureaux ouverts au public ;",
+        "X : établissements sportifs couverts.",
+      ]},
+      { type: "h2", text: "La catégorie, un chiffre lié à l\'effectif accueilli" },
+      { type: "p", text: "La catégorie complète le type. Elle se détermine selon le nombre de personnes que l\'établissement est autorisé à recevoir, public et parfois personnel compris. Les quatre premières catégories correspondent aux établissements accueillant le plus de monde, la cinquième aux établissements de taille plus réduite. Les seuils diffèrent selon le type d\'établissement : ils ne sont pas identiques pour un magasin et pour un établissement de soins." },
+      { type: "h3", text: "Premier groupe et second groupe : deux régimes de sécurité" },
+      { type: "p", text: "Les catégories 1 à 4 forment ce que le règlement appelle le premier groupe. Les établissements qui s\'y trouvent suivent les dispositions générales et particulières les plus complètes du règlement de sécurité. La catégorie 5 constitue le second groupe : elle regroupe les petits établissements, soumis à des règles allégées, propres à chaque type d\'activité." },
+      { type: "h2", text: "Ce que le classement change concrètement pour l\'exploitant" },
+      { type: "p", text: "Le type et la catégorie déterminent ensemble le contenu des obligations : composition du service de sécurité, nature des équipements exigés, fréquence des vérifications et des exercices. Un établissement du premier groupe accueillant plusieurs milliers de personnes n\'a pas le même niveau d\'exigence qu\'un commerce de proximité classé en cinquième catégorie." },
+      { type: "ul", items: [
+        "Présence ou non d\'un service de sécurité incendie qualifié (SSIAP) ;",
+        "Périodicité des visites de la commission de sécurité ;",
+        "Nombre et type des exercices d\'évacuation à organiser ;",
+        "Contenu du registre de sécurité à tenir à jour.",
+      ]},
+      { type: "quote", text: "Connaître le type et la catégorie de son établissement est la première étape avant toute organisation de la sécurité incendie : le reste du règlement en découle directement." },
+      { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les établissements recevant du public, et code de la construction et de l\'habitation." },
+      { type: "cta", text: "Pour adapter la formation de vos équipes au type et à la catégorie de votre établissement,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
