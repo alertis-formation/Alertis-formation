@@ -168,6 +168,7 @@ export const articleSlugs = [
   "cout-accident-travail-couts-directs-indirects-employeur",
   "nacelles-elevatrices-pemp-regles-securite-utilisation",
   "classement-erp-categories-types-consequences",
+  "silice-cristalline-btp-risques-prevention",
 ] as const;
 
 /**
@@ -7696,6 +7697,44 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Connaître le type et la catégorie de son établissement est la première étape avant toute organisation de la sécurité incendie : le reste du règlement en découle directement." },
       { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les établissements recevant du public, et code de la construction et de l\'habitation." },
       { type: "cta", text: "Pour adapter la formation de vos équipes au type et à la catégorie de votre établissement,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "silice-cristalline-btp-risques-prevention": {
+    title: "Silice cristalline sur les chantiers : identifier le risque et protéger les salariés",
+    excerpt: "Présente dans le béton, la pierre et de nombreux matériaux de construction, la silice cristalline expose les salariés du BTP à un risque respiratoire grave et sous-estimé. Repères pour l\'évaluer et le prévenir.",
+    publishedAt: "2026-09-10",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/silice-cristalline-btp-risques-prevention.jpg",
+    content: [
+      { type: "p", text: "Béton, granit, grès, brique, mortier : la silice cristalline est présente dans la majorité des matériaux manipulés sur un chantier du bâtiment et des travaux publics. Sciée, percée ou poncée, elle libère des poussières fines invisibles à l\'œil nu. Leur inhalation répétée expose les salariés à des maladies respiratoires graves, souvent découvertes des années après l\'exposition." },
+      { type: "h2", text: "Où se cache la silice cristalline sur un chantier" },
+      { type: "p", text: "La silice cristalline se retrouve dans le béton, le mortier, le grès, le granit, l\'ardoise, la brique et certains carrelages. Les opérations qui la libèrent sous forme de poussière fine sont le sciage à sec, le perçage, le meulage, le ponçage, le burinage et la démolition. Plus l\'outil tourne vite et plus le matériau est dur, plus la quantité de poussière émise augmente." },
+      { type: "ul", items: [
+        "Carotteurs et opérateurs de sciage sur béton ou enrobé",
+        "Tailleurs de pierre et marbriers",
+        "Maçons lors du perçage et du ragréage",
+        "Poseurs de sols et de revêtements en pierre reconstituée",
+        "Ouvriers de démolition et de curage",
+      ]},
+      { type: "h2", text: "Silicose et cancer du poumon : deux maladies professionnelles reconnues" },
+      { type: "p", text: "La fraction la plus dangereuse, dite alvéolaire, est assez fine pour atteindre les alvéoles pulmonaires et s\'y déposer durablement. Une exposition répétée peut provoquer une silicose, maladie inscrite au tableau n°25 des maladies professionnelles du régime général. Le Centre International de Recherche sur le Cancer classe par ailleurs la silice cristalline parmi les agents cancérogènes avérés pour l\'homme." },
+      { type: "h2", text: "Réduire l\'exposition à la source : la hiérarchie des moyens de prévention" },
+      { type: "p", text: "La prévention suit une hiérarchie stricte. La substitution par un matériau moins émissif ou une technique de découpe alternative vient en premier. Quand elle n\'est pas possible, la réduction à la source prime sur la protection individuelle : arrosage continu du point de coupe, aspiration intégrée à l\'outil, cabine ou zone de confinement pour les opérations les plus poussiéreuses." },
+      { type: "ul", items: [
+        "Raccorder les outils électroportatifs à un aspirateur de classe M ou H adapté",
+        "Travailler à l\'humide sur les découpes de béton, de pierre ou de carrelage",
+        "Isoler la zone de meulage ou de démolition avec un confinement souple",
+        "Organiser une rotation des postes pour limiter la durée d\'exposition individuelle",
+        "Nettoyer par aspiration, jamais au balai ni à l\'air comprimé",
+      ]},
+      { type: "p", text: "Découper du béton à sec sans arrosage ni aspiration expose les salariés à des niveaux de poussière qu\'un simple masque jetable ne suffit pas à maîtriser. La protection respiratoire individuelle intervient en complément des mesures collectives, jamais à leur place. Le choix de l\'appareil, demi-masque filtrant, masque à ventilation assistée, dépend du niveau d\'empoussièrement réel du poste, pas d\'une habitude de chantier." },
+      { type: "quote", text: "Un appareil de protection respiratoire mal choisi ou mal ajusté donne une fausse impression de sécurité, alors que la poussière la plus fine continue de passer." },
+      { type: "h2", text: "Tracer l\'exposition dans le document unique et le suivi médical" },
+      { type: "p", text: "Le risque silice doit figurer explicitement dans le document unique, poste par poste, avec les opérations concernées et les moyens de protection retenus. Les salariés exposés à cet agent cancérogène relèvent d\'un suivi individuel renforcé assuré par le médecin du travail, avec traçabilité de l\'exposition dans leur dossier médical. La formation aux gestes qui réduisent l\'empoussièrement complète ce dispositif." },
+      { type: "p", text: "Référence officielle : Code du travail, articles R.4412-1 et suivants relatifs à la prévention du risque chimique et aux agents cancérogènes, mutagènes et toxiques pour la reproduction, et tableau n°25 des maladies professionnelles du régime général (affections consécutives à l\'inhalation de poussières minérales renfermant de la silice cristalline)." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques face au risque poussières sur chantier,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
