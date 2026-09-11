@@ -169,6 +169,7 @@ export const articleSlugs = [
   "nacelles-elevatrices-pemp-regles-securite-utilisation",
   "classement-erp-categories-types-consequences",
   "silice-cristalline-btp-risques-prevention",
+  "appareils-levage-ponts-roulants-elingues-risques-prevention",
 ] as const;
 
 /**
@@ -7735,6 +7736,41 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le risque silice doit figurer explicitement dans le document unique, poste par poste, avec les opérations concernées et les moyens de protection retenus. Les salariés exposés à cet agent cancérogène relèvent d\'un suivi individuel renforcé assuré par le médecin du travail, avec traçabilité de l\'exposition dans leur dossier médical. La formation aux gestes qui réduisent l\'empoussièrement complète ce dispositif." },
       { type: "p", text: "Référence officielle : Code du travail, articles R.4412-1 et suivants relatifs à la prévention du risque chimique et aux agents cancérogènes, mutagènes et toxiques pour la reproduction, et tableau n°25 des maladies professionnelles du régime général (affections consécutives à l\'inhalation de poussières minérales renfermant de la silice cristalline)." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques face au risque poussières sur chantier,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "appareils-levage-ponts-roulants-elingues-risques-prevention": {
+    title: "Appareils de levage : les obligations de sécurité et de vérification",
+    excerpt: "Chute de charge, rupture d\'élingue, basculement de l\'engin : les appareils de levage exposent à des risques graves. Vérifications régulières et conduite autorisée en réduisent l\'essentiel.",
+    publishedAt: "2026-09-11",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/appareils-levage-ponts-roulants-elingues-risques-prevention.jpg",
+    content: [
+      { type: "p", text: "Pont roulant, grue à tour, grue mobile, palan : ces appareils de levage partagent un même point commun, une charge suspendue au-dessus de zones où circulent des salariés. Une élingue mal choisie, un chemin de roulement mal entretenu ou une manœuvre improvisée suffisent à transformer un geste courant en accident grave. La prévention repose sur trois piliers : l\'état de l\'équipement, la formation du conducteur et l\'organisation de la zone de manœuvre." },
+      { type: "h2", text: "Des risques propres à la charge suspendue" },
+      { type: "p", text: "La chute de charge reste le risque le plus redouté : rupture d\'un accessoire de levage, mauvais élinguage, dépassement de la charge maximale d\'utilisation. Le basculement de l\'engin lors d\'un levage en porte-à-faux, l\'écrasement d\'un salarié entre la charge et un obstacle fixe, ou encore la défaillance d\'un chemin de roulement mal entretenu complètent ce panorama. Ces situations concernent aussi bien un pont roulant d\'atelier qu\'une grue mobile de chantier." },
+      { type: "h2", text: "La vérification périodique, distincte de l\'entretien courant" },
+      { type: "p", text: "L\'entretien courant garde l\'appareil en état de fonctionnement. La vérification périodique répond à un objectif différent : détecter toute détérioration susceptible de créer une situation dangereuse, avant qu\'elle ne cause un accident. Elle est réalisée par une personne compétente ou un organisme accrédité, selon le type d\'équipement, et donne lieu à un rapport conservé dans le dossier de maintenance de l\'appareil." },
+      { type: "ul", items: [
+        "Ponts roulants et portiques : vérification périodique de la structure, des freins et des dispositifs de fin de course.",
+        "Grues à tour et grues mobiles : contrôle de la stabilité, des limiteurs de charge et de moment, des câbles et des treuils.",
+        "Grues auxiliaires de chargement montées sur véhicule : vérification des flexibles hydrauliques et des sécurités de bras.",
+        "Palans, élingues, chaînes et sangles : examen visuel de l\'usure, des déformations et de la lisibilité du marquage.",
+      ]},
+      { type: "p", text: "Les accessoires de levage restent souvent le maillon négligé. Une élingue, une chaîne ou une sangle porte toujours une charge maximale d\'utilisation (CMU) marquée sur l\'accessoire, un marquage qui doit rester lisible tout au long de sa vie. Un accessoire qui a subi un choc, un dépassement de charge ou un début de déformation doit être retiré du service sur le champ, même s\'il paraît intact à l\'œil nu." },
+      { type: "h2", text: "Une conduite réservée aux salariés formés et autorisés" },
+      { type: "p", text: "L\'article R.4323-55 du Code du travail réserve la conduite des équipements de levage aux salariés qui disposent d\'une autorisation de conduite délivrée par l\'employeur. Cette autorisation s\'appuie sur une formation adaptée à l\'équipement réellement utilisé : les recommandations CACES R484 pour les ponts roulants et portiques, R487 pour les grues à tour, R483 pour les grues mobiles et R490 pour les grues auxiliaires de chargement en constituent la référence usuelle." },
+      { type: "quote", text: "Un CACES valide ne dispense jamais l\'employeur de délivrer l\'autorisation de conduite : c\'est cette autorisation, et non le seul certificat, qui engage sa responsabilité." },
+      { type: "h2", text: "Organiser la zone de manœuvre autour de la charge" },
+      { type: "ul", items: [
+        "Baliser la zone de manœuvre et interdire tout passage sous une charge suspendue.",
+        "Désigner un chef de manœuvre lorsque le conducteur n\'a pas une vue directe sur la charge.",
+        "Fixer un mode de communication normalisé, gestuel ou radio, pour guider les mouvements à risque.",
+        "Vérifier l\'absence de lignes électriques aériennes ou d\'obstacles dans le rayon d\'action de l\'engin.",
+      ]},
+      { type: "p", text: "Ce risque doit figurer dans le document unique, avec les appareils concernés, la fréquence de vérification retenue et les mesures organisationnelles mises en place. Un carnet de maintenance à jour et un registre des vérifications accessibles facilitent le contrôle, en interne comme lors d\'une visite de l\'inspection du travail." },
+      { type: "p", text: "Référence officielle : article R.4323-55 du Code du travail relatif à l\'autorisation de conduite des équipements de levage ; recommandations CACES R483, R484, R487 et R490 de l\'Assurance Maladie - Risques professionnels." },
+      { type: "cta", text: "Pour former vos équipes à la conduite en sécurité des appareils de levage,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
