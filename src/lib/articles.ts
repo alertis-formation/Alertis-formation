@@ -170,6 +170,7 @@ export const articleSlugs = [
   "classement-erp-categories-types-consequences",
   "silice-cristalline-btp-risques-prevention",
   "appareils-levage-ponts-roulants-elingues-risques-prevention",
+  "recyclage-sst-mac-periodicite-obligations-employeur",
 ] as const;
 
 /**
@@ -7771,6 +7772,38 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Ce risque doit figurer dans le document unique, avec les appareils concernés, la fréquence de vérification retenue et les mesures organisationnelles mises en place. Un carnet de maintenance à jour et un registre des vérifications accessibles facilitent le contrôle, en interne comme lors d\'une visite de l\'inspection du travail." },
       { type: "p", text: "Référence officielle : article R.4323-55 du Code du travail relatif à l\'autorisation de conduite des équipements de levage ; recommandations CACES R483, R484, R487 et R490 de l\'Assurance Maladie - Risques professionnels." },
       { type: "cta", text: "Pour former vos équipes à la conduite en sécurité des appareils de levage,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "recyclage-sst-mac-periodicite-obligations-employeur": {
+    title: "Recyclage SST (MAC) : périodicité et obligations de l\'employeur",
+    excerpt: "La formation initiale de sauveteur secouriste du travail ne suffit pas indéfiniment : sans recyclage régulier, les gestes techniques se dégradent et la certification perd sa valeur opérationnelle.",
+    publishedAt: "2026-09-12",
+    category: "SST",
+    readingTime: 6,
+    image: "/images/articles/recyclage-sst-mac-periodicite-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Devenir sauveteur secouriste du travail (SST) ne se limite pas à une formation initiale de deux jours. Sans pratique régulière, les gestes techniques se dégradent, les protocoles évoluent et la certification perd de sa valeur opérationnelle. Le recyclage, appelé maintien et actualisation des compétences (MAC), permet au salarié formé de rester réellement capable d\'intervenir efficacement face à un accident du travail." },
+      { type: "h2", text: "Des compétences qui s\'érodent sans pratique régulière" },
+      { type: "p", text: "Masser une victime en arrêt cardiaque, positionner une personne inconsciente en position latérale de sécurité ou reconnaître un étouffement grave demandent des réflexes précis. Ces gestes ne s\'exercent pas au quotidien dans la plupart des métiers, et la précision d\'exécution diminue avec le temps si elle n\'est pas entretenue. Les protocoles eux-mêmes évoluent : rythme de compression, usage du défibrillateur, conduite face à une hémorragie." },
+      { type: "h2", text: "Une périodicité de recyclage à inscrire dans le plan de formation" },
+      { type: "p", text: "Le réseau national de prévention de l\'INRS et de l\'Assurance Maladie (branche Risques professionnels) recommande un recyclage tous les 24 mois pour les sauveteurs secouristes du travail. Certains secteurs exposés à un risque élevé d\'accident grave, comme le bâtiment ou l\'industrie lourde, resserrent ce rythme dans leur plan de formation interne. L\'employeur reste responsable du choix de la périodicité effective, en s\'appuyant sur le document unique d\'évaluation des risques." },
+      { type: "ul", items: [
+        "Remise à niveau des gestes techniques : compressions thoraciques, ventilation, position latérale de sécurité, pose d\'un pansement compressif.",
+        "Étude de cas concrets tirés de l\'activité de l\'entreprise, adaptés aux risques réels du poste de travail.",
+        "Point sur les évolutions réglementaires et sur le matériel disponible sur site, notamment un défibrillateur automatisé externe récemment installé.",
+      ]},
+      { type: "h2", text: "Le recyclage est-il obligatoire pour rester sauveteur secouriste du travail ?" },
+      { type: "p", text: "Le certificat SST ne porte pas de date de péremption légale inscrite dans un texte spécifique. En pratique, un sauveteur qui n\'a pas suivi son recyclage dans les délais recommandés reste titulaire du certificat, mais l\'entreprise ne peut plus considérer sa présence comme une réponse fiable à l\'obligation générale de sécurité prévue par L.4121-1 du Code du travail. Un dépassement important du délai impose de refaire une formation complète plutôt qu\'un simple recyclage." },
+      { type: "quote", text: "Un sauveteur non recyclé reste sauveteur sur le papier, mais ses réflexes ont perdu la fiabilité que l\'employeur croit avoir sécurisée." },
+      { type: "h2", text: "Organiser le suivi des recyclages à l\'échelle de l\'entreprise" },
+      { type: "p", text: "Le suivi individuel des dates de recyclage relève souvent du service RH ou du référent sécurité, avec un tableau de bord dédié. Le choix se porte sur un organisme de formation habilité par le réseau INRS, qui délivre un certificat valable pour la durée recommandée. Le nombre de sauveteurs formés doit rester cohérent avec l\'effectif et les postes à risque identifiés dans le document unique." },
+      { type: "ul", items: [
+        "Tenir un tableau de suivi individuel des dates d\'obtention et de recyclage par salarié SST.",
+        "Anticiper les départs et les mobilités internes pour ne pas perdre de couverture SST sur un site ou une équipe.",
+        "Informer les sauveteurs de la date de leur recyclage plusieurs semaines à l\'avance pour sécuriser l\'inscription.",
+      ]},
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur ; référentiel national de formation SST du réseau de l\'INRS et de l\'Assurance Maladie (branche Risques professionnels)." },
+      { type: "cta", text: "Pour organiser le recyclage SST de vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
