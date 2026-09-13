@@ -171,6 +171,7 @@ export const articleSlugs = [
   "silice-cristalline-btp-risques-prevention",
   "appareils-levage-ponts-roulants-elingues-risques-prevention",
   "recyclage-sst-mac-periodicite-obligations-employeur",
+  "verification-epi-antichute-harnais-longes-ancrages-periodicite",
 ] as const;
 
 /**
@@ -7804,6 +7805,33 @@ export const articles: Record<string, Article> = {
       ]},
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail relatif à l\'obligation générale de sécurité de l\'employeur ; référentiel national de formation SST du réseau de l\'INRS et de l\'Assurance Maladie (branche Risques professionnels)." },
       { type: "cta", text: "Pour organiser le recyclage SST de vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "verification-epi-antichute-harnais-longes-ancrages-periodicite": {
+    title: "Vérification périodique des EPI antichute : harnais, longes et ancrages",
+    excerpt: "Un harnais ou une longe antichute non vérifiés peuvent céder sans signe visible. Voici la périodicité imposée par la réglementation et les points de contrôle à connaître.",
+    publishedAt: "2026-09-13",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/verification-epi-antichute-harnais-longes-ancrages-periodicite.jpg",
+    content: [
+      { type: "p", text: "Un harnais antichute rangé dans un vestiaire depuis deux ans a peut-être perdu une partie de sa résistance sans qu\'aucun signe extérieur ne le trahisse. Une sangle fragilisée par les UV, une couture distendue ou un mousqueton qui grippe restent souvent invisibles à l\'œil non averti. Pourtant, ce sont précisément ces équipements qui doivent absorber le choc d\'une chute de plusieurs mètres. Leur fiabilité ne se présume pas : elle se vérifie, à intervalles réguliers et selon une méthode définie." },
+      { type: "h2", text: "Les équipements concernés par la vérification périodique" },
+      { type: "p", text: "La vérification périodique s\'applique à l\'ensemble des équipements de protection individuelle contre les chutes de hauteur : harnais, longes, absorbeurs d\'énergie, connecteurs, antichutes mobiles sur support d\'assurage et points d\'ancrage. Chaque élément de la chaîne d\'assurage doit être contrôlé, car la résistance globale du système dépend de son maillon le plus faible." },
+      { type: "ul", items: [
+        "Sangles et coutures : recherche de coupures, effilochage, décoloration due aux UV ou à des produits chimiques.",
+        "Éléments métalliques : boucles, anneaux en D, mousquetons ; vérification de l\'absence de corrosion, de déformation et du bon fonctionnement du verrouillage.",
+        "Étiquette et marquage CE : lisibilité, date de fabrication et durée de vie maximale indiquée par le fabricant.",
+      ]},
+      { type: "h2", text: "Une périodicité annuelle minimale fixée par la réglementation" },
+      { type: "p", text: "Les articles R.4323-99 à R.4323-103 du Code du travail et l\'arrêté du 19 mars 1993 imposent une vérification périodique des équipements de protection individuelle contre les chutes de hauteur, au minimum une fois par an. Un usage intensif, une exposition à des produits chimiques ou des conditions climatiques sévères peuvent justifier une fréquence plus rapprochée, précisée par la notice du fabricant." },
+      { type: "h3", text: "Qui peut réaliser la vérification ?" },
+      { type: "p", text: "L\'employeur désigne une personne compétente, interne ou externe à l\'entreprise, capable d\'identifier les défauts susceptibles de compromettre la sécurité du salarié. En interne, cette compétence s\'acquiert par une formation dédiée à l\'inspection des EPI antichute. À défaut, l\'entreprise fait appel à un prestataire spécialisé, qui délivre un rapport de vérification pour chaque équipement contrôlé." },
+      { type: "quote", text: "Un harnais ou une longe ayant arrêté une chute doit être mis au rebut, sauf autorisation écrite contraire du fabricant." },
+      { type: "h2", text: "Tracer chaque vérification pour garder la maîtrise du parc" },
+      { type: "p", text: "Un registre de vérification, papier ou numérique, recense pour chaque équipement sa date de mise en service, ses contrôles successifs et sa date de mise au rebut. Une étiquette ou un système de code couleur apposé sur le harnais permet à l\'utilisateur de vérifier en un coup d\'œil que l\'équipement reste dans sa période de validité avant chaque usage." },
+      { type: "p", text: "Référence officielle : articles R.4323-99 à R.4323-103 du Code du travail relatifs à la vérification des équipements de travail et de protection individuelle ; arrêté du 19 mars 1993 fixant la liste des équipements de protection individuelle soumis à vérifications périodiques." },
+      { type: "cta", text: "Pour structurer le suivi des EPI antichute de vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
