@@ -172,6 +172,7 @@ export const articleSlugs = [
   "appareils-levage-ponts-roulants-elingues-risques-prevention",
   "recyclage-sst-mac-periodicite-obligations-employeur",
   "verification-epi-antichute-harnais-longes-ancrages-periodicite",
+  "exosquelettes-entreprise-prevention-tms-manutention",
 ] as const;
 
 /**
@@ -7832,6 +7833,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un registre de vérification, papier ou numérique, recense pour chaque équipement sa date de mise en service, ses contrôles successifs et sa date de mise au rebut. Une étiquette ou un système de code couleur apposé sur le harnais permet à l\'utilisateur de vérifier en un coup d\'œil que l\'équipement reste dans sa période de validité avant chaque usage." },
       { type: "p", text: "Référence officielle : articles R.4323-99 à R.4323-103 du Code du travail relatifs à la vérification des équipements de travail et de protection individuelle ; arrêté du 19 mars 1993 fixant la liste des équipements de protection individuelle soumis à vérifications périodiques." },
       { type: "cta", text: "Pour structurer le suivi des EPI antichute de vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "exosquelettes-entreprise-prevention-tms-manutention": {
+    title: "Exosquelettes en entreprise : un outil de prévention des TMS, pas un remède miracle",
+    excerpt: "Un exosquelette peut soulager le dos ou les épaules sur certains postes, mais il ne remplace jamais la réorganisation du poste ni l\'évaluation des risques imposée par le Code du travail.",
+    publishedAt: "2026-09-14",
+    category: "Ergonomie",
+    readingTime: 6,
+    image: "/images/articles/exosquelettes-entreprise-prevention-tms-manutention.jpg",
+    content: [
+      { type: "p", text: "Un exosquelette de travail est une structure portée sur le corps qui vient soutenir un geste physique répétitif ou une posture contraignante. Présenté comme une réponse aux troubles musculo-squelettiques, l\'outil suscite un intérêt croissant dans la logistique, le BTP et l\'industrie. Encore faut-il savoir ce qu\'il apporte réellement, et surtout ce qu\'il ne remplace pas dans une démarche de prévention." },
+      { type: "h2", text: "Deux familles d\'exosquelettes" },
+      { type: "p", text: "Les exosquelettes passifs reposent sur des ressorts, des sangles ou des structures mécaniques qui restituent une partie de l\'énergie du mouvement, sans moteur ni batterie. Les exosquelettes actifs intègrent des actionneurs motorisés qui assistent directement l\'effort. Les premiers dominent largement le marché de l\'entreprise, pour leur simplicité d\'entretien et leur coût plus accessible que les seconds." },
+      { type: "h2", text: "Ce qu\'un exosquelette peut apporter" },
+      { type: "p", text: "Selon la zone du corps sollicitée, un exosquelette peut soulager les épaules lors de travaux bras levés, ou le bas du dos lors du port répété de charges. L\'objectif est de réduire la fatigue musculaire cumulée sur la journée, pas de permettre de lever des charges plus lourdes que ce que le corps peut supporter en toute sécurité." },
+      { type: "ul", items: [
+        "Travaux prolongés bras levés au-dessus des épaules (montage, peinture, plafonds).",
+        "Manutention répétitive de charges légères à moyennes.",
+        "Postures statiques maintenues sur de longues séquences.",
+      ]},
+      { type: "h2", text: "Une protection individuelle, pas une solution de premier niveau" },
+      { type: "p", text: "L\'article L.4121-2 du Code du travail fixe l\'ordre des principes généraux de prévention : éviter le risque, l\'évaluer, le combattre à la source, adapter le travail à l\'homme, avant d\'envisager une protection individuelle. Un exosquelette relève de cette dernière catégorie. Il ne remplace ni la réorganisation d\'un poste, ni l\'aide mécanique, ni la réduction du port de charges : l\'installer sans revoir l\'organisation revient à traiter le symptôme sans toucher à la cause." },
+      { type: "h2", text: "Comment l\'introduire sans se tromper" },
+      { type: "ul", items: [
+        "Faire tester plusieurs modèles par les salariés concernés sur leur poste réel, avant tout achat.",
+        "Associer le médecin du travail et le CSE à l\'évaluation, en particulier pour les salariés en restriction d\'aptitude.",
+        "Prévoir un temps d\'adaptation et une formation au réglage et au retrait de l\'équipement.",
+        "Intégrer l\'usage de l\'exosquelette dans le document unique d\'évaluation des risques, comme une mesure parmi d\'autres.",
+      ]},
+      { type: "p", text: "Aucun modèle ne convient à toutes les morphologies ni à toutes les tâches. Un exosquelette mal réglé peut gêner les mouvements fins, créer des points de frottement ou une sensation de contrainte plus pénible que l\'effort qu\'il devait soulager. Le choix se fait poste par poste, jamais sur catalogue." },
+      { type: "quote", text: "Un exosquelette ne corrige pas un poste de travail mal pensé. Il peut, au mieux, en rendre les contraintes plus supportables le temps de le repenser." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, relatifs à l\'obligation générale de sécurité de l\'employeur et aux principes généraux de prévention des risques professionnels." },
+      { type: "cta", text: "Pour objectiver les postes à risque de TMS avant d\'envisager un équipement individuel,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
     ],
   },
 };
