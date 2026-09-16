@@ -173,6 +173,7 @@ export const articleSlugs = [
   "recyclage-sst-mac-periodicite-obligations-employeur",
   "verification-epi-antichute-harnais-longes-ancrages-periodicite",
   "exosquelettes-entreprise-prevention-tms-manutention",
+  "hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp",
 ] as const;
 
 /**
@@ -7866,6 +7867,42 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un exosquelette ne corrige pas un poste de travail mal pensé. Il peut, au mieux, en rendre les contraintes plus supportables le temps de le repenser." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, relatifs à l\'obligation générale de sécurité de l\'employeur et aux principes généraux de prévention des risques professionnels." },
       { type: "cta", text: "Pour objectiver les postes à risque de TMS avant d\'envisager un équipement individuel,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
+    ],
+  },
+  "hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp": {
+    title: "Hygiène des mains et tenue professionnelle en restauration : les bonnes pratiques HACCP",
+    excerpt: "Un lavage des mains mal fait ou une tenue non conforme suffisent à contaminer un plat entier. Voici les gestes et les règles vestimentaires qui structurent l\'hygiène en cuisine professionnelle.",
+    publishedAt: "2026-09-16",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp.jpg",
+    content: [
+      { type: "p", text: "En cuisine professionnelle, la contamination d\'un plat ne vient pas toujours d\'un ingrédient périmé. Elle passe le plus souvent par les mains et la tenue de la personne qui le prépare. Un rinçage rapide sans savon, une bague oubliée, une veste portée deux services de suite : ces gestes anodins suffisent à transférer des bactéries d\'une surface à une assiette. Les bonnes pratiques HACCP commencent avant la découpe, dès l\'entrée en cuisine." },
+      { type: "h2", text: "Le lavage des mains, premier geste avant toute manipulation" },
+      { type: "p", text: "Les mains transportent des micro-organismes présents sur les emballages, les poignées de porte ou la peau elle-même. Un lavage insuffisant les redépose directement sur les aliments manipulés ensuite. Ce risque explique pourquoi le lavage des mains figure toujours en tête des plans de maîtrise sanitaire, avant même le contrôle des températures ou la gestion des dates limites." },
+      { type: "ul", items: [
+        "En arrivant en cuisine, avant toute prise de poste ;",
+        "Après chaque passage aux toilettes, sans exception ;",
+        "Après avoir touché des emballages, des déchets ou des surfaces sales ;",
+        "Entre la manipulation d\'un produit cru et celle d\'un produit prêt à consommer ;",
+        "Après s\'être mouché, avoir toussé ou touché son visage ou ses cheveux.",
+      ]},
+      { type: "h3", text: "Un geste qui ne se limite pas à passer les mains sous l\'eau" },
+      { type: "p", text: "Un lavage efficace suit un enchaînement précis : mouiller les mains, appliquer du savon, frotter au moins trente secondes en insistant sur les ongles, les espaces entre les doigts et les poignets, rincer, puis sécher avec un essuie-mains à usage unique. Le séchage compte autant que le lavage : des mains humides transfèrent davantage de germes que des mains sèches." },
+      { type: "h2", text: "La tenue professionnelle, une seconde barrière contre la contamination" },
+      { type: "p", text: "La tenue ne protège pas seulement l\'image du service, elle limite le transfert de particules, de cheveux ou de fibres textiles vers les aliments. Une tenue propre, changée dès qu\'elle est salie et réservée à l\'activité en cuisine, réduit un risque que l\'on sous-estime souvent face aux enjeux de température ou de date limite." },
+      { type: "ul", items: [
+        "Une coiffe ou une charlotte couvrant intégralement les cheveux ;",
+        "Une veste ou un tablier propre, changé au moins une fois par jour ;",
+        "Des chaussures fermées, antidérapantes et réservées à la cuisine ;",
+        "Aucun bijou aux mains ou aux poignets, alliance comprise ;",
+        "Des ongles courts, sans vernis ni faux ongles.",
+      ]},
+      { type: "p", text: "Une plaie, même petite, aux mains doit être couverte par un pansement propre et, dans l\'idéal, un doigtier ou un gant. Un téléphone manipulé en cuisine puis reposé sur le plan de travail transporte les mêmes germes qu\'une poignée de porte. Ces détails, rarement mis en avant, pèsent pourtant sur le résultat d\'un contrôle sanitaire autant qu\'une chambre froide mal réglée." },
+      { type: "quote", text: "Le premier contrôle sanitaire d\'une cuisine se joue souvent avant même l\'ouverture du réfrigérateur, dès que quelqu\'un se lave les mains ou enfile sa veste." },
+      { type: "p", text: "Une affiche près du point d\'eau rappelant les moments de lavage, un contrôle visuel de la tenue avant chaque service et un rappel lors de l\'accueil des nouveaux arrivants suffisent souvent à faire tenir ces règles dans la durée. Ce sont des vérifications simples, intégrées à l\'auto-contrôle du plan de maîtrise sanitaire, qui coûtent peu de temps face aux conséquences d\'une intoxication alimentaire." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose aux exploitants du secteur alimentaire de mettre en place des procédures fondées sur les principes HACCP, incluant l\'hygiène du personnel." },
+      { type: "cta", text: "Pour structurer ces bonnes pratiques HACCP au sein de votre équipe,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
