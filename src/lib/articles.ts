@@ -174,6 +174,7 @@ export const articleSlugs = [
   "verification-epi-antichute-harnais-longes-ancrages-periodicite",
   "exosquelettes-entreprise-prevention-tms-manutention",
   "hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp",
+  "gestion-de-crise-entreprise-plan-action-operationnel",
 ] as const;
 
 /**
@@ -7903,6 +7904,42 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une affiche près du point d\'eau rappelant les moments de lavage, un contrôle visuel de la tenue avant chaque service et un rappel lors de l\'accueil des nouveaux arrivants suffisent souvent à faire tenir ces règles dans la durée. Ce sont des vérifications simples, intégrées à l\'auto-contrôle du plan de maîtrise sanitaire, qui coûtent peu de temps face aux conséquences d\'une intoxication alimentaire." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose aux exploitants du secteur alimentaire de mettre en place des procédures fondées sur les principes HACCP, incluant l\'hygiène du personnel." },
       { type: "cta", text: "Pour structurer ces bonnes pratiques HACCP au sein de votre équipe,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "gestion-de-crise-entreprise-plan-action-operationnel": {
+    title: "Gestion de crise en entreprise : construire un plan d\'action opérationnel",
+    excerpt:
+      "Accident grave, incendie, cyberattaque : sans préparation, les premières heures d\'une crise se jouent dans la confusion. Comment structurer une cellule de crise et un plan d\'action avant l\'urgence.",
+    publishedAt: "2026-09-17",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/gestion-de-crise-entreprise-plan-action-operationnel.jpg",
+    content: [
+      { type: "p", text: "Un incendie qui se propage plus vite que prévu, un accident grave sur une machine, une intrusion malveillante ou une panne informatique qui bloque toute l\'activité : ces événements ont un point commun. Ils exigent des décisions rapides, dans un contexte où l\'information manque et où chaque minute compte. Une entreprise qui n\'a jamais réfléchi à sa réaction improvise, et l\'improvisation coûte cher, en sécurité comme en image." },
+      { type: "h2", text: "Reconnaître les situations qui basculent en crise" },
+      { type: "p", text: "Toute difficulté n\'est pas une crise. Un incident devient une crise lorsqu\'il dépasse les procédures habituelles : il touche la sécurité des personnes, menace la continuité de l\'activité ou risque d\'attirer l\'attention des autorités ou des médias. Un accident du travail grave, un incendie, une cyberattaque bloquant le système d\'information ou un rappel produit massif entrent dans cette catégorie. Le point commun : la réponse ne peut plus être improvisée par une seule personne." },
+      { type: "h2", text: "Composer une cellule de crise avant l\'urgence" },
+      { type: "p", text: "La cellule de crise rassemble, en amont, les personnes qui devront décider ensemble le jour où un événement grave survient. Elle reste restreinte, réunit des rôles complémentaires et sait joignable à tout moment. L\'objectif n\'est pas de tout prévoir, mais de savoir qui fait quoi dans les premières heures, quand la pression est la plus forte et l\'information la plus incomplète." },
+      { type: "ul", items: [
+        "Un pilote de crise, qui coordonne les décisions et arbitre en cas de désaccord",
+        "Un référent sécurité, qui évalue le danger et déclenche les mesures de protection",
+        "Un référent ressources humaines, qui informe les salariés et accompagne les personnes concernées",
+        "Un référent communication, qui centralise les messages vers l\'extérieur pour éviter les versions contradictoires",
+      ]},
+      { type: "h2", text: "Préparer les outils qui feront gagner du temps" },
+      { type: "p", text: "Le jour de la crise n\'est pas le moment de chercher un numéro de téléphone ou de rédiger un premier communiqué. Les outils utiles se préparent à froid, se testent et se mettent à jour régulièrement. Un dossier de crise centralisé, accessible même si les locaux ou le réseau informatique sont hors service, évite de perdre un temps précieux au moment où il compte le plus." },
+      { type: "ul", items: [
+        "Une liste de contacts à jour : cellule de crise, services de secours, médecine du travail, assureur",
+        "Des modèles de communication prêts à adapter, pour les salariés, les familles et les partenaires",
+        "La procédure d\'alerte interne et les coordonnées du CSE",
+        "Un point de repli si les locaux habituels deviennent inaccessibles",
+      ]},
+      { type: "h3", text: "La communication interne, premier réflexe" },
+      { type: "p", text: "Avant toute communication externe, les salariés doivent savoir ce qui se passe et ce qu\'on attend d\'eux. Un message tardif ou contradictoire nourrit les rumeurs plus vite qu\'il ne rassure. Un seul porte-parole s\'exprime vers l\'extérieur, journalistes ou clients, pour garder un message cohérent. Les autres membres de la cellule de crise se concentrent sur la gestion opérationnelle de la situation." },
+      { type: "h2", text: "Tirer les enseignements une fois la crise retombée" },
+      { type: "p", text: "Une fois la situation stabilisée, un temps de débriefing avec la cellule de crise permet d\'identifier ce qui a fonctionné et ce qui a manqué. Ce retour d\'expérience nourrit la mise à jour du document unique d\'évaluation des risques et des procédures d\'évacuation. Sans cette étape, l\'organisation retient la peur de l\'événement, mais pas les moyens concrets de mieux y faire face la prochaine fois." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui fixe l\'obligation générale de l\'employeur d\'assurer la sécurité et de protéger la santé physique et mentale des travailleurs." },
+      { type: "cta", text: "Pour structurer la réponse de vos équipes face à un accident grave,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
