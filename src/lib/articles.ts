@@ -175,6 +175,7 @@ export const articleSlugs = [
   "exosquelettes-entreprise-prevention-tms-manutention",
   "hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp",
   "gestion-de-crise-entreprise-plan-action-operationnel",
+  "defense-exterieure-contre-incendie-deci-obligations-entreprise",
 ] as const;
 
 /**
@@ -7940,6 +7941,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une fois la situation stabilisée, un temps de débriefing avec la cellule de crise permet d\'identifier ce qui a fonctionné et ce qui a manqué. Ce retour d\'expérience nourrit la mise à jour du document unique d\'évaluation des risques et des procédures d\'évacuation. Sans cette étape, l\'organisation retient la peur de l\'événement, mais pas les moyens concrets de mieux y faire face la prochaine fois." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui fixe l\'obligation générale de l\'employeur d\'assurer la sécurité et de protéger la santé physique et mentale des travailleurs." },
       { type: "cta", text: "Pour structurer la réponse de vos équipes face à un accident grave,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "defense-exterieure-contre-incendie-deci-obligations-entreprise": {
+    title: "Défense extérieure contre l\'incendie (DECI) : ce que doit savoir l\'entreprise",
+    excerpt:
+      "Un point d\'eau incendie mal positionné ou jamais entretenu retarde l\'intervention des secours au moment critique. Ce que la réglementation impose aux entreprises en matière de défense extérieure contre l\'incendie.",
+    publishedAt: "2026-09-18",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/defense-exterieure-contre-incendie-deci-obligations-entreprise.jpg",
+    content: [
+      { type: "p", text: "Un feu qui se propage vite, un camion de pompiers qui arrive sur place et qui ne trouve pas de point d\'eau exploitable à proximité immédiate. Ce scénario existe, et il retarde l\'attaque du sinistre de plusieurs minutes décisives. La défense extérieure contre l\'incendie organise justement l\'accès des secours à une ressource en eau suffisante autour de chaque bâtiment, une obligation que beaucoup d\'entreprises découvrent seulement au moment d\'un projet de construction." },
+      { type: "h2", text: "Ce que recouvre la défense extérieure contre l\'incendie" },
+      { type: "p", text: "La défense extérieure contre l\'incendie, abrégée DECI, désigne l\'ensemble des points d\'eau incendie (PEI) mobilisables par les services de secours pour éteindre un feu : poteaux et bouches d\'incendie raccordés au réseau, mais aussi réserves, bassins ou citernes lorsque le réseau public ne suffit pas. Elle complète les moyens de première intervention internes à l\'entreprise, extincteurs et robinets d\'incendie armés, qui ne suffisent plus une fois le sinistre installé." },
+      { type: "h2", text: "Un cadre réglementaire décentralisé depuis 2015" },
+      { type: "p", text: "Le décret du 27 février 2015 a confié la compétence DECI aux maires et aux établissements publics de coopération intercommunale, avec l\'appui technique du service départemental d\'incendie et de secours (SDIS). L\'arrêté du 27 mars 2015 relatif à la défense extérieure contre l\'incendie fixe le cadre national, mais chaque préfet approuve ensuite un règlement départemental (RDDECI) qui précise les débits, distances et volumes attendus selon les zones et les niveaux de risque." },
+      { type: "h2", text: "Qui installe et entretient le point d\'eau : la commune ou l\'entreprise ?" },
+      { type: "p", text: "Le réseau public de points d\'eau incendie relève en principe de la commune. Mais pour un site isolé, un entrepôt de grande surface, une installation classée ou un bâtiment trop éloigné du réseau existant, le règlement départemental peut imposer à l\'exploitant de créer et d\'entretenir son propre point d\'eau privé, réserve ou citerne, à ses frais." },
+      { type: "ul", items: [
+        "Un projet de construction ou d\'extension en zone peu ou pas desservie par le réseau public",
+        "Un entrepôt, un site industriel ou une installation classée pour la protection de l\'environnement (ICPE) soumise à des exigences de débit renforcées",
+        "Un point d\'eau existant mais mal positionné, obstrué par du stockage ou un aménagement récent",
+        "Une réserve privée dont la maintenance et le contrôle périodique n\'ont jamais été formalisés",
+      ]},
+      { type: "h3", text: "Le point d\'eau doit rester accessible et vérifié" },
+      { type: "p", text: "Un poteau incendie caché derrière des palettes, un accès bloqué par un stationnement gênant ou une réserve jamais contrôlée perdent toute utilité en cas de sinistre. Le règlement départemental fixe la fréquence des reconnaissances opérationnelles effectuées par le SDIS et des contrôles techniques de maintenance. Le chef d\'établissement doit s\'assurer que ces vérifications sont réalisées et que rien ne vient jamais obstruer l\'accès au point d\'eau." },
+      { type: "quote", text: "Un point d\'eau incendie qui existe sur le papier mais qui reste inaccessible le jour du sinistre n\'apporte aucune protection réelle." },
+      { type: "h2", text: "Anticiper la question dès la conception d\'un projet" },
+      { type: "p", text: "Vérifier la desserte en défense incendie avant de déposer un permis de construire évite des surprises coûteuses en cours de chantier. Le SDIS et le service instructeur peuvent être consultés en amont pour connaître les exigences du règlement départemental applicables à la zone et à l\'activité concernées. Un point d\'eau à créer après coup revient toujours plus cher qu\'un point d\'eau intégré dès la conception du site." },
+      { type: "p", text: "Référence officielle : articles L.2225-1 à L.2225-4 et R.2225-1 à R.2225-10 du Code général des collectivités territoriales, arrêté du 27 mars 2015 relatif à la défense extérieure contre l\'incendie." },
+      { type: "cta", text: "Pour intégrer la défense incendie dans vos projets et vos exercices d\'évacuation,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
