@@ -176,6 +176,7 @@ export const articleSlugs = [
   "hygiene-mains-tenue-professionnelle-restauration-bonnes-pratiques-haccp",
   "gestion-de-crise-entreprise-plan-action-operationnel",
   "defense-exterieure-contre-incendie-deci-obligations-entreprise",
+  "plan-nettoyage-desinfection-restauration-obligations-haccp",
 ] as const;
 
 /**
@@ -7972,6 +7973,43 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Vérifier la desserte en défense incendie avant de déposer un permis de construire évite des surprises coûteuses en cours de chantier. Le SDIS et le service instructeur peuvent être consultés en amont pour connaître les exigences du règlement départemental applicables à la zone et à l\'activité concernées. Un point d\'eau à créer après coup revient toujours plus cher qu\'un point d\'eau intégré dès la conception du site." },
       { type: "p", text: "Référence officielle : articles L.2225-1 à L.2225-4 et R.2225-1 à R.2225-10 du Code général des collectivités territoriales, arrêté du 27 mars 2015 relatif à la défense extérieure contre l\'incendie." },
       { type: "cta", text: "Pour intégrer la défense incendie dans vos projets et vos exercices d\'évacuation,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "plan-nettoyage-desinfection-restauration-obligations-haccp": {
+    title: "Plan de nettoyage et désinfection en restauration : méthode et obligations HACCP",
+    excerpt:
+      "Un protocole mal défini expose à la contamination croisée. Contenu, méthode en plusieurs étapes et fréquences : ce que doit prévoir un plan de nettoyage et désinfection conforme aux exigences HACCP.",
+    publishedAt: "2026-09-19",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/plan-nettoyage-desinfection-restauration-obligations-haccp.jpg",
+    content: [
+      { type: "p", text: "Un plan de nettoyage et désinfection mal conçu se voit rarement avant qu\'un contrôle sanitaire ou un cas de contamination ne le révèle. Pourtant, ce document structure l\'ensemble des opérations d\'hygiène d\'une cuisine professionnelle : quelle surface nettoyer, avec quel produit, à quelle fréquence et selon quelle méthode. Sans lui, l\'hygiène repose sur la mémoire et la bonne volonté de chacun, deux appuis fragiles face à un risque sanitaire." },
+      { type: "h2", text: "Un document obligatoire, pièce du plan de maîtrise sanitaire" },
+      { type: "p", text: "Le règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires impose à tout exploitant du secteur alimentaire de démontrer la maîtrise des dangers sanitaires de son activité selon la méthode HACCP. Le plan de nettoyage et désinfection en est une pièce centrale : il traduit, zone par zone, les mesures d\'hygiène qui limitent la prolifération microbienne. Il s\'intègre au plan de maîtrise sanitaire, aux côtés de la traçabilité et du contrôle des températures." },
+      { type: "h2", text: "Ce que doit préciser le plan pour chaque zone" },
+      { type: "p", text: "Un plan efficace ne se limite pas à une liste de consignes générales. Pour chaque zone ou équipement, il détaille plusieurs informations que le personnel doit pouvoir retrouver rapidement, affichées ou classées à proximité du poste concerné :" },
+      { type: "ul", items: [
+        "la zone ou l\'équipement concerné : plan de travail, sol, chambre froide, hotte, ustensiles ;",
+        "la fréquence de l\'opération, adaptée au niveau de risque de contact avec les denrées ;",
+        "le produit utilisé, son dosage et son temps de contact recommandé par le fabricant ;",
+        "la méthode à suivre, étape par étape ;",
+        "la personne responsable de l\'opération et de sa vérification.",
+      ]},
+      { type: "h2", text: "Une méthode en plusieurs étapes, pas un simple coup d\'éponge" },
+      { type: "p", text: "Passer un chiffon humide sur une surface ne désinfecte rien : cela déplace la saleté sans éliminer les micro-organismes. Un nettoyage efficace suit un enchaînement précis : un pré-nettoyage pour retirer les résidus visibles, un nettoyage au détergent qui décolle les salissures, un rinçage, l\'application du désinfectant, un second rinçage si le produit l\'exige, puis un séchage à l\'air libre ou avec un essuie-tout à usage unique." },
+      { type: "h3", text: "Respecter le temps de contact du désinfectant" },
+      { type: "p", text: "Un désinfectant appliqué puis essuyé immédiatement n\'a pas eu le temps d\'agir. Chaque produit indique sur son étiquette un temps de contact minimal, souvent entre cinq et dix minutes, pendant lequel la surface doit rester humide. Réduire ce temps pour gagner en rapidité de service annule une grande partie de l\'efficacité de l\'opération. Les fréquences, elles aussi, se hiérarchisent selon le risque de contact avec les aliments :" },
+      { type: "ul", items: [
+        "plans de travail et ustensiles en contact direct avec les aliments : après chaque utilisation ;",
+        "sols de la cuisine : au moins une fois par jour ;",
+        "chambres froides et réfrigérateurs : une fois par semaine, en plus des essuyages quotidiens ;",
+        "hottes, grilles de ventilation et joints : selon un rythme mensuel à trimestriel, à adapter à l\'activité.",
+      ]},
+      { type: "quote", text: "Un plan de nettoyage bien conçu ne sert pas qu\'à passer un contrôle sanitaire : il évite, jour après jour, que la routine remplace la vigilance face au risque de contamination." },
+      { type: "p", text: "Un plan de nettoyage ne prouve son efficacité que s\'il est vérifié. Un contrôle visuel avant chaque service, complété ponctuellement par des tests plus poussés comme l\'ATP-métrie ou l\'écouvillonnage, permet de détecter une zone mal traitée avant qu\'elle ne pose problème. Toute non-conformité relevée doit déboucher sur une action corrective tracée : un nettoyage supplémentaire, un rappel des consignes ou un changement de produit." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose aux exploitants du secteur alimentaire de fonder leurs procédures sur les principes de la méthode HACCP." },
+      { type: "cta", text: "Pour structurer ce plan de nettoyage au sein de votre équipe,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
