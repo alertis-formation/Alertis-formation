@@ -177,6 +177,7 @@ export const articleSlugs = [
   "gestion-de-crise-entreprise-plan-action-operationnel",
   "defense-exterieure-contre-incendie-deci-obligations-entreprise",
   "plan-nettoyage-desinfection-restauration-obligations-haccp",
+  "verification-installations-electriques-periodicite-obligations-employeur",
 ] as const;
 
 /**
@@ -8010,6 +8011,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un plan de nettoyage ne prouve son efficacité que s\'il est vérifié. Un contrôle visuel avant chaque service, complété ponctuellement par des tests plus poussés comme l\'ATP-métrie ou l\'écouvillonnage, permet de détecter une zone mal traitée avant qu\'elle ne pose problème. Toute non-conformité relevée doit déboucher sur une action corrective tracée : un nettoyage supplémentaire, un rappel des consignes ou un changement de produit." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires, qui impose aux exploitants du secteur alimentaire de fonder leurs procédures sur les principes de la méthode HACCP." },
       { type: "cta", text: "Pour structurer ce plan de nettoyage au sein de votre équipe,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "verification-installations-electriques-periodicite-obligations-employeur": {
+    title: "Vérification des installations électriques : périodicité et obligations de l\'employeur",
+    excerpt:
+      "La vérification périodique des installations électriques s\'impose à tout employeur : périodicité de référence, personnes habilitées à l\'effectuer et suivi des rapports de contrôle.",
+    publishedAt: "2026-09-20",
+    category: "Habilitation électrique",
+    readingTime: 4,
+    image: "/images/articles/verification-installations-electriques-periodicite-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Une installation électrique se dégrade avec le temps : un contact se desserre, un isolant se fragilise, une protection devient inadaptée aux équipements ajoutés depuis sa mise en service. Le code du travail impose donc à l\'employeur de faire vérifier ses installations électriques à intervalles réguliers, pas seulement au moment de leur mise en service." },
+      { type: "h2", text: "Une vérification initiale, puis périodique" },
+      { type: "p", text: "L\'article R4226-14 impose une vérification initiale des installations électriques lors de leur mise en service, et après toute modification de structure. Cette étape confirme la conformité de l\'installation avant son exploitation. L\'article R4226-16 ajoute une obligation distincte : une vérification périodique, destinée à s\'assurer que l\'installation reste conforme dans la durée, au fil des ajouts d\'équipements et de l\'usure normale du matériel." },
+      { type: "h2", text: "Une périodicité annuelle, extensible à deux ans" },
+      { type: "p", text: "La périodicité de référence fixée par le code du travail est d\'un an, le point de départ étant la date de la vérification initiale. L\'employeur peut porter cet intervalle à deux ans lorsque le rapport de la vérification précédente ne relève aucune défectuosité. Cette souplesse récompense une installation bien entretenue, elle ne dispense pas de suivre les rapports d\'une année sur l\'autre." },
+      { type: "h3", text: "Qui peut réaliser la vérification ?" },
+      { type: "p", text: "L\'article R4226-17 ouvre deux possibilités à l\'employeur. Il peut faire appel à un organisme accrédité, en général une société de contrôle technique spécialisée. Il peut aussi confier la vérification à une personne compétente en interne, à condition d\'évaluer cette compétence selon des critères fixés par arrêté ministériel." },
+      { type: "p", text: "Dans les deux cas, le contenu du rapport de vérification est encadré par l\'arrêté du 26 décembre 2011 relatif aux vérifications des installations électriques. Ce rapport liste les points contrôlés, consigne les défectuosités relevées et sert de référence pour la vérification suivante." },
+      { type: "h2", text: "Ce que couvre concrètement le contrôle" },
+      { type: "ul", items: [
+        "l\'état des conducteurs, câbles et canalisations électriques ;",
+        "les dispositifs de protection contre les surintensités et les contacts indirects ;",
+        "la mise à la terre et les liaisons équipotentielles ;",
+        "l\'accessibilité et le repérage des tableaux et organes de coupure ;",
+        "l\'état du matériel installé dans les zones à risque d\'explosion ou d\'incendie accru.",
+      ]},
+      { type: "h2", text: "Un enjeu de prévention incendie" },
+      { type: "p", text: "Une installation électrique dégradée expose l\'entreprise à un départ de feu : un contact desserré s\'échauffe, un isolant se fragilise, une protection mal calibrée ne coupe pas à temps. Un contrôle régulier permet de repérer ces signaux avant qu\'un court-circuit ne déclenche un incendie." },
+      { type: "p", text: "Les défectuosités relevées dans un rapport de vérification doivent être levées, pas seulement archivées. En cas d\'accident ou de contrôle de l\'inspection du travail, l\'absence de suivi des rapports antérieurs expose l\'employeur, y compris quand la vérification elle-même a bien été réalisée dans les délais." },
+      { type: "p", text: "La vérification des installations électriques ne remplace pas les autres contrôles obligatoires : équipements de levage, moyens de lutte contre l\'incendie, équipements sous pression. Elle s\'inscrit dans un calendrier de vérifications que l\'employeur a intérêt à centraliser, par bâtiment ou par site, pour ne pas dépendre de la mémoire d\'un seul interlocuteur." },
+      { type: "p", text: "Référence officielle : code du travail, articles R4226-14, R4226-16 et R4226-17. Arrêté du 26 décembre 2011 relatif aux vérifications des installations électriques. Brochures INRS ED 828 (Principales vérifications périodiques) et ED 6187 (La prévention du risque électrique)." },
+      { type: "cta", text: "Pour organiser le suivi des vérifications électriques de vos sites,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
