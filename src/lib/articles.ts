@@ -178,6 +178,7 @@ export const articleSlugs = [
   "defense-exterieure-contre-incendie-deci-obligations-entreprise",
   "plan-nettoyage-desinfection-restauration-obligations-haccp",
   "verification-installations-electriques-periodicite-obligations-employeur",
+  "protection-respiratoire-travail-filtrants-isolants-choix",
 ] as const;
 
 /**
@@ -8044,6 +8045,43 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La vérification des installations électriques ne remplace pas les autres contrôles obligatoires : équipements de levage, moyens de lutte contre l\'incendie, équipements sous pression. Elle s\'inscrit dans un calendrier de vérifications que l\'employeur a intérêt à centraliser, par bâtiment ou par site, pour ne pas dépendre de la mémoire d\'un seul interlocuteur." },
       { type: "p", text: "Référence officielle : code du travail, articles R4226-14, R4226-16 et R4226-17. Arrêté du 26 décembre 2011 relatif aux vérifications des installations électriques. Brochures INRS ED 828 (Principales vérifications périodiques) et ED 6187 (La prévention du risque électrique)." },
       { type: "cta", text: "Pour organiser le suivi des vérifications électriques de vos sites,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "protection-respiratoire-travail-filtrants-isolants-choix": {
+    title: "Appareils de protection respiratoire au travail : filtrants ou isolants, comment choisir",
+    excerpt:
+      "Masque filtrant ou appareil isolant : le choix dépend du contaminant, de sa concentration et de la teneur en oxygène de l\'air. Le guide pratique pour les préventeurs.",
+    publishedAt: "2026-09-21",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/protection-respiratoire-travail-filtrants-isolants-choix.jpg",
+    content: [
+      { type: "p", text: "Poussières de ponçage, vapeurs de solvant, gaz de soudage, atmosphère confinée pauvre en oxygène : chaque situation appelle un appareil de protection respiratoire différent. Confondre les familles d\'équipements, ou choisir une cartouche inadaptée au contaminant présent, revient à porter un masque qui rassure sans protéger réellement." },
+      { type: "h2", text: "Filtrants : épurer l\'air ambiant" },
+      { type: "p", text: "Un appareil filtrant ne fait qu\'une chose : débarrasser l\'air ambiant d\'une partie de ses contaminants avant de le faire respirer à son porteur. Il suppose donc que l\'air reste par ailleurs respirable, avec une teneur en oxygène suffisante. Pour les poussières, fumées et aérosols, le demi-masque filtrant jetable (norme EN 149) se décline en trois classes d\'efficacité croissante, FFP1, FFP2 et FFP3, à choisir selon la concentration et la dangerosité de la poussière inhalée. Face à des vapeurs ou des gaz, le demi-masque ou le masque complet à cartouches (normes EN 140 et EN 136) prend le relais : chaque cartouche filtrante est identifiée par une lettre et une couleur, définies par la norme EN 14387, qui indiquent la famille de contaminants qu\'elle retient." },
+      { type: "ul", items: [
+        "type A, marron : vapeurs organiques (solvants, peintures) ;",
+        "type B, gris : gaz et vapeurs inorganiques (hors monoxyde de carbone) ;",
+        "type E, jaune : dioxyde de soufre et gaz acides ;",
+        "type K, vert : ammoniac et dérivés aminés ;",
+        "type P, blanc : particules et aérosols, souvent combiné à une cartouche gazeuse.",
+      ]},
+      { type: "h2", text: "Isolants : quand l\'air ambiant n\'est plus une option" },
+      { type: "p", text: "Un appareil isolant ne filtre rien : il fournit à son porteur un air propre venu d\'ailleurs, indépendamment de l\'atmosphère environnante. L\'appareil respiratoire isolant autonome (norme EN 137), alimenté par une bouteille d\'air comprimé, ou l\'appareil à adduction d\'air alimenté depuis une source extérieure, s\'imposent dès que l\'atmosphère est appauvrie en oxygène, que le contaminant est inconnu, ou que sa concentration dépasse ce qu\'un filtre peut retenir." },
+      { type: "quote", text: "Un masque filtrant ne protège jamais contre un manque d\'oxygène : dans une cuve, une fosse ou un espace confiné dont l\'atmosphère n\'a pas été mesurée, seul un appareil isolant garantit un air respirable." },
+      { type: "h2", text: "Le facteur de protection, pas seulement le type de filtre" },
+      { type: "p", text: "Chaque appareil filtrant est associé à un facteur de protection : il indique dans quelle proportion il réduit la concentration du contaminant inhalé par rapport à l\'air ambiant. Choisir un appareil adapté suppose de connaître la valeur limite d\'exposition professionnelle (VLEP) du produit concerné, mesurée ou estimée dans l\'air du poste de travail, puis de vérifier que la concentration résiduelle sous le masque reste bien inférieure à cette limite." },
+      { type: "p", text: "L\'ajustement conditionne l\'efficacité : un appareil filtrant mal ajusté au visage laisse passer l\'air contaminé par les bords, quelle que soit la qualité du filtre. La présence de barbe au niveau du joint facial annule une grande partie de la protection. Un essai d\'ajustement (fit test) est recommandé pour les usages fréquents ou les contaminants les plus dangereux, et un contrôle d\'étanchéité rapide, par pression négative, devrait précéder chaque utilisation." },
+      { type: "h2", text: "Entretien, durée de vie et formation" },
+      { type: "ul", items: [
+        "nettoyer et désinfecter les pièces faciales réutilisables après chaque usage, selon la notice du fabricant ;",
+        "stocker les appareils à l\'abri de la lumière, de la chaleur et des vapeurs, dans leur emballage d\'origine ;",
+        "remplacer une cartouche dès l\'apparition d\'une odeur, d\'un goût ou d\'une gêne respiratoire, sans attendre la date de péremption indiquée sur l\'emballage ;",
+        "vérifier la pression des bouteilles et l\'étanchéité des appareils isolants avant chaque intervention, selon un planning tracé.",
+      ]},
+      { type: "p", text: "Le port prolongé d\'un appareil de protection respiratoire augmente l\'effort respiratoire et peut ne pas convenir à certains salariés : un avis du médecin du travail est utile avant d\'imposer un port régulier. La formation au choix, à l\'ajustement et à la vérification de l\'appareil reste la condition la plus déterminante de son efficacité réelle sur le terrain." },
+      { type: "p", text: "Référence officielle : règlement (UE) 2016/425 relatif aux équipements de protection individuelle. Code du travail, articles L.4321-1 et R.4321-1 à R.4321-5. Normes EN 149, EN 140, EN 136, EN 137 et EN 14387." },
+      { type: "cta", text: "Pour former vos équipes au choix et à l\'utilisation des appareils de protection respiratoire adaptés à vos risques,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
