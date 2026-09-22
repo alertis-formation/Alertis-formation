@@ -179,6 +179,7 @@ export const articleSlugs = [
   "plan-nettoyage-desinfection-restauration-obligations-haccp",
   "verification-installations-electriques-periodicite-obligations-employeur",
   "protection-respiratoire-travail-filtrants-isolants-choix",
+  "quasi-accidents-travail-recenser-analyser-prevenir",
 ] as const;
 
 /**
@@ -8082,6 +8083,44 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le port prolongé d\'un appareil de protection respiratoire augmente l\'effort respiratoire et peut ne pas convenir à certains salariés : un avis du médecin du travail est utile avant d\'imposer un port régulier. La formation au choix, à l\'ajustement et à la vérification de l\'appareil reste la condition la plus déterminante de son efficacité réelle sur le terrain." },
       { type: "p", text: "Référence officielle : règlement (UE) 2016/425 relatif aux équipements de protection individuelle. Code du travail, articles L.4321-1 et R.4321-1 à R.4321-5. Normes EN 149, EN 140, EN 136, EN 137 et EN 14387." },
       { type: "cta", text: "Pour former vos équipes au choix et à l\'utilisation des appareils de protection respiratoire adaptés à vos risques,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "quasi-accidents-travail-recenser-analyser-prevenir": {
+    title: "Quasi-accidents au travail : comment les recenser et les exploiter",
+    excerpt:
+      "Un quasi-accident signalé et analysé permet d\'agir avant qu\'un scénario similaire ne cause une blessure. Circuit de signalement, hiérarchisation et retour aux équipes : la méthode.",
+    publishedAt: "2026-09-22",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/quasi-accidents-travail-recenser-analyser-prevenir.jpg",
+    content: [
+      { type: "p", text: "Un chariot qui freine de justesse devant un piéton, une échelle qui glisse sans chute, un produit chimique renversé sans blessure : ces événements ne laissent aucune trace dans les statistiques d\'accidents du travail. Ils signalent pourtant une défaillance réelle dans l\'organisation ou le poste concerné. Les recenser et les analyser permet d\'agir avant qu\'un même scénario ne cause, la prochaine fois, une blessure." },
+      { type: "h2", text: "Un signal qui précède souvent l\'accident" },
+      { type: "p", text: "Un quasi-accident partage la même chaîne de causes qu\'un accident avéré : seul le résultat diffère, parfois pour des raisons de pur hasard, un geste d\'esquive, une distance de quelques centimètres. Traiter ces situations comme des incidents mineurs sans suite revient à ignorer un avertissement gratuit sur une défaillance qui, dans d\'autres circonstances, aurait blessé un salarié." },
+      { type: "h2", text: "Pourquoi les remontées restent rares" },
+      { type: "p", text: "Un salarié qui évite de justesse un accident n\'a, la plupart du temps, aucune raison de le signaler. Il n\'y a ni blessure ni arrêt de travail, rien qui déclenche automatiquement une procédure. S\'ajoute parfois la crainte d\'être identifié comme responsable de la situation, ou le sentiment que le signalement n\'aura aucune suite concrète. Sans circuit dédié, l\'information reste dans la mémoire de celui qui l\'a vécue et disparaît avec elle." },
+      { type: "h2", text: "Un circuit de signalement accessible à tous" },
+      { type: "p", text: "Un dispositif de remontée efficace ne repose pas sur un formulaire complexe rempli après coup, mais sur plusieurs canaux simples, ouverts à tous les postes et à tous les niveaux hiérarchiques :" },
+      { type: "ul", items: [
+        "un signalement oral immédiat auprès de l\'encadrant de proximité, sans attendre une réunion formelle ;",
+        "une fiche courte, papier ou numérique, disponible directement sur le poste de travail ;",
+        "un registre ou une boîte dédiée, accessible sans passer par un supérieur direct ;",
+        "un point de recueil systématique lors du quart d\'heure sécurité ou de la visite de poste.",
+      ]},
+      { type: "h3", text: "Un signalement sans sanction" },
+      { type: "p", text: "Un salarié qui signale un quasi-accident dont il est à l\'origine ne doit jamais craindre une sanction ou un reproche. Un circuit perçu comme punitif se tarit rapidement : les remontées cessent, pas les situations dangereuses. L\'absence de conséquence disciplinaire automatique conditionne la fiabilité du dispositif dans la durée." },
+      { type: "h2", text: "Hiérarchiser avant d\'agir" },
+      { type: "p", text: "Tous les quasi-accidents signalés n\'appellent pas le même traitement. Un tri rapide, mené par un encadrant ou un préventeur, permet de concentrer les moyens sur les situations qui le justifient réellement, plutôt que de traiter chaque remontée dans l\'ordre d\'arrivée :" },
+      { type: "ul", items: [
+        "la gravité potentielle si le scénario s\'était terminé en accident ;",
+        "la fréquence d\'exposition des salariés à la situation identifiée ;",
+        "la facilité de correction, certains écarts se corrigeant en quelques minutes.",
+      ]},
+      { type: "h2", text: "Refermer la boucle avec les équipes" },
+      { type: "p", text: "Un quasi-accident signalé puis resté sans réponse visible décourage les remontées suivantes. Informer l\'équipe de l\'action engagée, même modeste (un carter réparé, un passage dégagé, une consigne rappelée), montre que le signalement a une utilité concrète. Cette information peut circuler lors du quart d\'heure sécurité suivant ou d\'un simple affichage." },
+      { type: "quote", text: "Un quasi-accident traité en silence n\'apprend rien à personne ; le même signalé, corrigé puis expliqué à l\'équipe change durablement une pratique." },
+      { type: "p", text: "Les quasi-accidents les plus significatifs méritent d\'être intégrés au document unique d\'évaluation des risques professionnels, qui doit refléter les situations réelles de travail. L\'article L.4121-1 du Code du travail impose à l\'employeur d\'adapter en continu ses mesures de prévention : un quasi-accident correctement exploité en est l\'un des leviers les plus directs. Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation pour l\'employeur d\'adapter en continu ses mesures de prévention." },
+      { type: "cta", text: "Pour structurer un circuit de signalement des quasi-accidents dans votre organisation,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
