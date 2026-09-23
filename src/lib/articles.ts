@@ -180,6 +180,7 @@ export const articleSlugs = [
   "verification-installations-electriques-periodicite-obligations-employeur",
   "protection-respiratoire-travail-filtrants-isolants-choix",
   "quasi-accidents-travail-recenser-analyser-prevenir",
+  "colonnes-seches-humides-securite-incendie-obligations",
 ] as const;
 
 /**
@@ -8121,6 +8122,36 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un quasi-accident traité en silence n\'apprend rien à personne ; le même signalé, corrigé puis expliqué à l\'équipe change durablement une pratique." },
       { type: "p", text: "Les quasi-accidents les plus significatifs méritent d\'être intégrés au document unique d\'évaluation des risques professionnels, qui doit refléter les situations réelles de travail. L\'article L.4121-1 du Code du travail impose à l\'employeur d\'adapter en continu ses mesures de prévention : un quasi-accident correctement exploité en est l\'un des leviers les plus directs. Référence officielle : article L.4121-1 du Code du travail, sur l\'obligation pour l\'employeur d\'adapter en continu ses mesures de prévention." },
       { type: "cta", text: "Pour structurer un circuit de signalement des quasi-accidents dans votre organisation,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "colonnes-seches-humides-securite-incendie-obligations": {
+    title: "Colonnes sèches et colonnes humides : rôle et obligations en sécurité incendie",
+    excerpt:
+      "Une colonne sèche ou humide permet aux sapeurs-pompiers d\'acheminer l\'eau à chaque étage d\'un bâtiment en quelques minutes. Fonctionnement, différences et obligations d\'entretien pour l\'exploitant.",
+    publishedAt: "2026-09-23",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/colonnes-seches-humides-securite-incendie-obligations.jpg",
+    content: [
+      { type: "p", text: "Une colonne sèche ou une colonne humide est une conduite installée à demeure dans un bâtiment, avec un raccord au rez-de-chaussée et une bouche d\'incendie à chaque étage. Objectif : permettre aux sapeurs-pompiers d\'acheminer l\'eau vers les niveaux supérieurs sans dérouler leurs tuyaux dans les escaliers, un gain de temps précieux lors d\'un sinistre." },
+      { type: "h2", text: "Le fonctionnement d\'une colonne sèche" },
+      { type: "p", text: "La colonne sèche est une tuyauterie rigide, vide d\'eau en temps normal. Les sapeurs-pompiers la mettent en service à leur arrivée : ils raccordent leur véhicule pompe à la prise d\'alimentation située en façade ou dans le hall d\'entrée, puis utilisent les bouches d\'incendie de chaque niveau pour dérouler leurs propres tuyaux jusqu\'au sinistre." },
+      { type: "h2", text: "La colonne humide, une réserve d\'eau sous pression permanente" },
+      { type: "p", text: "La colonne humide reprend le même principe, mais reste remplie d\'eau en permanence et sous pression, grâce à un réservoir ou un surpresseur intégré au bâtiment. Elle s\'impose lorsque la hauteur de l\'immeuble ne permet plus à la seule pression des pompes d\'engin de suffire, notamment dans certains immeubles de grande hauteur." },
+      { type: "h2", text: "Quels bâtiments doivent en être équipés ?" },
+      { type: "p", text: "L\'obligation d\'installer une colonne sèche ou humide dépend de la configuration du bâtiment : hauteur, nombre de niveaux, accessibilité aux échelles aériennes des services de secours. Le règlement de sécurité incendie applicable aux établissements recevant du public (arrêté du 25 juin 1980) et les dispositions propres aux immeubles de grande hauteur en posent le principe. La norme NF S61-759 encadre, elle, les caractéristiques techniques du matériel installé." },
+      { type: "ul", items: [
+        "établissements recevant du public dont les étages ne sont pas directement accessibles aux échelles des services de secours ;",
+        "immeubles de grande hauteur, avec passage à la colonne humide au-delà d\'un certain seuil de hauteur ;",
+        "parcs de stationnement couverts de grande superficie.",
+      ]},
+      { type: "h2", text: "L\'entretien, une responsabilité de l\'exploitant" },
+      { type: "p", text: "Une colonne sèche ou humide inutilisable au moment où les secours en ont besoin perd toute son utilité. L\'exploitant du bâtiment doit garantir en permanence l\'accès aux raccords et aux bouches d\'incendie, sans stockage ni obstacle, et faire vérifier périodiquement l\'étanchéité et le bon état de l\'installation par une entreprise qualifiée." },
+      { type: "quote", text: "Un raccord pompier bloqué par des cartons ou un chariot, c\'est une colonne qui existe sur le papier mais qui ne sert à rien le jour où le feu se déclare." },
+      { type: "h2", text: "Ce que contrôle la commission de sécurité" },
+      { type: "p", text: "Lors des visites périodiques, la commission de sécurité vérifie la présence, l\'accessibilité et l\'état apparent de ces installations au même titre que les autres moyens de secours. Une colonne défaillante ou inaccessible peut donner lieu à une prescription, voire à un avis défavorable à la poursuite de l\'exploitation." },
+      { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public, et norme NF S61-759 relative aux colonnes sèches et colonnes humides." },
+      { type: "cta", text: "Pour sensibiliser vos équipes aux moyens de secours incendie et à leur bon usage,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
     ],
   },
 };
