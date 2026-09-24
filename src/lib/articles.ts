@@ -181,6 +181,7 @@ export const articleSlugs = [
   "protection-respiratoire-travail-filtrants-isolants-choix",
   "quasi-accidents-travail-recenser-analyser-prevenir",
   "colonnes-seches-humides-securite-incendie-obligations",
+  "portes-coupe-feu-compartimentage-securite-incendie-batiments",
 ] as const;
 
 /**
@@ -8152,6 +8153,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Lors des visites périodiques, la commission de sécurité vérifie la présence, l\'accessibilité et l\'état apparent de ces installations au même titre que les autres moyens de secours. Une colonne défaillante ou inaccessible peut donner lieu à une prescription, voire à un avis défavorable à la poursuite de l\'exploitation." },
       { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public, et norme NF S61-759 relative aux colonnes sèches et colonnes humides." },
       { type: "cta", text: "Pour sensibiliser vos équipes aux moyens de secours incendie et à leur bon usage,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "portes-coupe-feu-compartimentage-securite-incendie-batiments": {
+    title: "Portes coupe-feu et compartimentage : les piliers de la sécurité passive",
+    excerpt:
+      "Avant même l'alarme ou l'extincteur, un bâtiment se défend d'un incendie par sa construction. Compartimentage et portes coupe-feu ralentissent la propagation du feu et de la fumée, et laissent le temps d'évacuer.",
+    publishedAt: "2026-09-24",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/portes-coupe-feu-compartimentage-securite-incendie-batiments.jpg",
+    content: [
+      { type: "p", text: "Un extincteur ou une alarme relèvent de la sécurité active : ils supposent une action, humaine ou automatique, au moment du sinistre. Le compartimentage et les portes coupe-feu relèvent d'une autre logique, la sécurité passive. Ils ralentissent la propagation du feu et de la fumée par leur seule présence, sans intervention, et gagnent le temps nécessaire à l'évacuation et à l'arrivée des secours." },
+      { type: "h2", text: "Le compartimentage, diviser pour mieux contenir" },
+      { type: "p", text: "Le compartimentage consiste à découper un bâtiment en zones étanches au feu, séparées par des parois, planchers et portes capables de résister aux flammes pendant une durée déterminée. Un incendie qui démarre dans un compartiment reste, en théorie, confiné à celui-ci le temps que dure cette résistance, ce qui évite une propagation rapide à l'ensemble du bâtiment." },
+      { type: "h2", text: "Comment se mesure la résistance au feu" },
+      { type: "p", text: "La norme NF EN 13501-2 classe les éléments de construction selon leur performance face au feu. La lettre E désigne l'étanchéité aux flammes et aux fumées, la lettre I l'isolation thermique, chacune assortie d'une durée en minutes (EI 30, EI 60, EI 120). Une porte classée EI 60 doit ainsi conserver ces deux propriétés pendant 60 minutes d'exposition au feu en essai normalisé." },
+      { type: "h2", text: "Une porte coupe-feu ne sert à rien si elle reste ouverte" },
+      { type: "p", text: "Une porte coupe-feu bloquée en position ouverte, avec une cale ou un carton, perd instantanément toute son utilité : elle ne fermera pas d'elle-même au moment du sinistre. Le bon entretien de ces portes repose sur quelques règles simples, souvent négligées au quotidien :" },
+      { type: "ul", items: [
+        "ne jamais caler une porte coupe-feu en position ouverte, même temporairement ;",
+        "vérifier que le ferme-porte ramène systématiquement le vantail en position fermée ;",
+        "signaler tout joint intumescent endommagé, toute poignée ou tout ferme-porte défectueux ;",
+        "ne pas percer, découper ou modifier une porte coupe-feu sans avis d'un professionnel qualifié.",
+      ]},
+      { type: "h3", text: "Le cas des portes asservies à la détection incendie" },
+      { type: "p", text: "Certaines portes coupe-feu restent ouvertes en usage normal pour faciliter la circulation, mais se referment automatiquement dès qu'un détecteur de fumée se déclenche. Ce mécanisme, piloté par le système de sécurité incendie du bâtiment, ne dispense pas d'une vérification périodique : un dispositif de fermeture qui ne se déclenche plus rend le compartimentage inopérant sans que personne ne s'en aperçoive avant le sinistre." },
+      { type: "h2", text: "Une obligation qui dépend du type de bâtiment" },
+      { type: "p", text: "Le règlement de sécurité incendie des établissements recevant du public (arrêté du 25 juin 1980) impose un compartimentage adapté à la catégorie et au type d'établissement, en particulier pour isoler les locaux à risques (cuisines, réserves, locaux techniques) du reste du bâtiment. Les immeubles de grande hauteur et de nombreux bâtiments à usage professionnel obéissent à des logiques de cloisonnement comparables, avec des exigences renforcées selon la hauteur ou l'activité." },
+      { type: "quote", text: "Un compartimentage efficace ne se voit pas : c'est une porte qui ferme toute seule, un joint intact, un mur sans trémie oubliée." },
+      { type: "h2", text: "Ce que vérifie la commission de sécurité" },
+      { type: "p", text: "Lors des visites périodiques, la commission de sécurité contrôle l'état apparent des portes coupe-feu, le bon fonctionnement des ferme-portes et l'absence de perçages ou de trémies non rebouchées dans les parois séparatives. Une défaillance constatée sur ces éléments peut entraîner une prescription, voire un avis défavorable à la poursuite de l'exploitation." },
+      { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public, et norme NF EN 13501-2 relative à la classification de résistance au feu des éléments de construction." },
+      { type: "cta", text: "Pour former vos équipes à repérer les défaillances des dispositifs de sécurité incendie,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
     ],
   },
 };
