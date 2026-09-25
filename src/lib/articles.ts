@@ -182,6 +182,7 @@ export const articleSlugs = [
   "quasi-accidents-travail-recenser-analyser-prevenir",
   "colonnes-seches-humides-securite-incendie-obligations",
   "portes-coupe-feu-compartimentage-securite-incendie-batiments",
+  "hottes-cuisine-professionnelle-entretien-prevention-incendie",
 ] as const;
 
 /**
@@ -8186,6 +8187,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Lors des visites périodiques, la commission de sécurité contrôle l'état apparent des portes coupe-feu, le bon fonctionnement des ferme-portes et l'absence de perçages ou de trémies non rebouchées dans les parois séparatives. Une défaillance constatée sur ces éléments peut entraîner une prescription, voire un avis défavorable à la poursuite de l'exploitation." },
       { type: "p", text: "Référence officielle : arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public, et norme NF EN 13501-2 relative à la classification de résistance au feu des éléments de construction." },
       { type: "cta", text: "Pour former vos équipes à repérer les défaillances des dispositifs de sécurité incendie,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "hottes-cuisine-professionnelle-entretien-prevention-incendie": {
+    title: "Entretien des hottes et conduits de cuisine : prévenir le risque incendie",
+    excerpt: "Graisse accumulée dans les filtres et les conduits, une hotte de cuisine mal entretenue peut transformer un simple feu de cuisson en incendie de bâtiment. Fréquence de nettoyage et bonnes pratiques essentielles.",
+    publishedAt: "2026-09-25",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/hottes-cuisine-professionnelle-entretien-prevention-incendie.jpg",
+    content: [
+      { type: "p", text: "Une flambée qui démarre sur une plaque de cuisson n'est pas rare en cuisine professionnelle. Ce qui l'est moins, c'est qu'elle reste confinée à l'appareil qui l'a provoquée. La graisse accumulée dans les filtres, la hotte et les conduits d'extraction transforme un feu maîtrisable en incendie qui se propage vers le reste du bâtiment. L'entretien de ces installations n'est pas un détail d'hygiène, c'est une mesure de prévention incendie à part entière." },
+      { type: "h2", text: "Un dépôt de graisse qui devient combustible" },
+      { type: "p", text: "Chaque cuisson au gaz ou en friture projette des particules grasses en suspension, aspirées par la hotte vers les conduits d'extraction. Ces particules se déposent progressivement sur les filtres, les parois internes et le caisson du ventilateur. Une fois sèche, cette graisse devient un combustible qui alimente et propage un départ de feu bien au-delà du point où il a démarré." },
+      { type: "h2", text: "Les filtres, première ligne d'entretien" },
+      { type: "p", text: "Les filtres à graisse placés sous la hotte retiennent une partie des particules avant qu'elles n'atteignent le conduit. Leur efficacité dépend d'un nettoyage régulier, généralement en lave-vaisselle ou par trempage dans un dégraissant adapté. Un filtre saturé laisse passer davantage de graisse vers le conduit et perd sa fonction de barrière." },
+      { type: "ul", items: [
+        "Nettoyer les filtres à graisse au minimum une fois par semaine, davantage en cas de friture intensive.",
+        "Dégraisser les surfaces visibles de la hotte à la fin de chaque service.",
+        "Vérifier que les filtres sont correctement repositionnés après chaque nettoyage.",
+      ]},
+      { type: "h2", text: "Le nettoyage du conduit, une opération à confier à un professionnel" },
+      { type: "p", text: "À l'intérieur du conduit, la graisse s'accumule dans des zones inaccessibles sans démontage partiel de l'installation. Cette intervention relève d'une entreprise spécialisée, capable de dégraisser l'ensemble du réseau jusqu'au ventilateur d'extraction et, le cas échéant, jusqu'à la sortie en toiture. La fréquence dépend de l'intensité d'utilisation de la cuisine : une friteuse en service quotidien n'a pas les mêmes besoins qu'un poste de cuisson occasionnel. Un contrat d'entretien avec attestation datée reste la meilleure preuve de cette vigilance, un document déterminant en cas de sinistre." },
+      { type: "quote", text: "Un feu qui reste sur la plaque se maîtrise avec un extincteur ; le même feu qui remonte dans un conduit encrassé de graisse devient un incendie de bâtiment." },
+      { type: "h2", text: "Un local que le règlement de sécurité classe à risques" },
+      { type: "p", text: "Le règlement de sécurité incendie des établissements recevant du public (arrêté du 25 juin 1980) range les cuisines parmi les locaux à risques, au même titre que les réserves ou les locaux techniques. Cette classification impose un cloisonnement renforcé et justifie une vigilance particulière sur tout ce qui peut favoriser un départ de feu, à commencer par les dépôts de graisse dans les systèmes d'extraction." },
+      { type: "h2", text: "Ce que vérifie la commission de sécurité" },
+      { type: "p", text: "Lors de ses visites périodiques, la commission de sécurité peut demander la présentation du contrat d'entretien et des attestations de nettoyage des installations de cuisine. L'absence de justificatif ou un encrassement visible des équipements constitue un point de non-conformité, susceptible de donner lieu à une prescription. L'obligation générale de sécurité de l'employeur, posée par l'article L.4121-1 du Code du travail, s'applique pleinement à ce risque. Référence officielle : article L.4121-1 du Code du travail, et arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public." },
+      { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie en cuisine professionnelle,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
     ],
   },
 };
