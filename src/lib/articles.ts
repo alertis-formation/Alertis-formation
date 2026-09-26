@@ -183,6 +183,7 @@ export const articleSlugs = [
   "colonnes-seches-humides-securite-incendie-obligations",
   "portes-coupe-feu-compartimentage-securite-incendie-batiments",
   "hottes-cuisine-professionnelle-entretien-prevention-incendie",
+  "ingestion-produit-toxique-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -8215,6 +8216,41 @@ export const articles: Record<string, Article> = {
       { type: "h2", text: "Ce que vérifie la commission de sécurité" },
       { type: "p", text: "Lors de ses visites périodiques, la commission de sécurité peut demander la présentation du contrat d'entretien et des attestations de nettoyage des installations de cuisine. L'absence de justificatif ou un encrassement visible des équipements constitue un point de non-conformité, susceptible de donner lieu à une prescription. L'obligation générale de sécurité de l'employeur, posée par l'article L.4121-1 du Code du travail, s'applique pleinement à ce risque. Référence officielle : article L.4121-1 du Code du travail, et arrêté du 25 juin 1980 portant règlement de sécurité incendie des établissements recevant du public." },
       { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie en cuisine professionnelle,", label: "consultez notre offre de formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "ingestion-produit-toxique-travail-conduite-a-tenir-sst": {
+    title: "Ingestion accidentelle de produit toxique au travail : la conduite à tenir",
+    excerpt: "Un produit ménager avalé par erreur, un solvant confondu avec une boisson : l\'ingestion d\'un produit toxique au travail impose des gestes précis, à l\'opposé des réflexes spontanés.",
+    publishedAt: "2026-09-26",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/ingestion-produit-toxique-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Un produit d\'entretien avalé par erreur, un flacon mal étiqueté confondu avec une boisson, un solvant industriel manipulé sans précaution : l\'ingestion accidentelle d\'un produit toxique peut survenir dans n\'importe quel environnement professionnel. Le Sauveteur Secouriste du Travail doit reconnaître les signes de gravité et connaître les gestes qui limitent les lésions, sans jamais improviser un traitement à la place des services spécialisés." },
+      { type: "h2", text: "Reconnaître une intoxication par ingestion" },
+      { type: "p", text: "En entreprise, les cas les plus fréquents concernent des produits ménagers ou chimiques stockés dans des contenants alimentaires détournés (bouteille, gobelet), ou des erreurs de manipulation avec des solvants, des acides de nettoyage ou des bases industrielles. La gravité dépend de la nature du produit, de la quantité ingérée et du délai avant la prise en charge." },
+      { type: "ul", items: [
+        "Douleur ou sensation de brûlure au niveau de la bouche, de la gorge ou de l\'estomac.",
+        "Hypersalivation, difficulté à avaler ou voix modifiée.",
+        "Nausées, vomissements, parfois teintés de sang.",
+        "Troubles de la conscience ou somnolence inhabituelle.",
+      ]},
+      { type: "h2", text: "Les gestes qui protègent la victime" },
+      { type: "p", text: "Le premier réflexe est d\'identifier le produit en cause : conserver l\'emballage, l\'étiquette ou la fiche de données de sécurité (FDS) disponible sur le poste de travail. Ces informations orientent directement la prise en charge médicale et évitent de perdre un temps précieux au téléphone avec les secours." },
+      { type: "quote", text: "Ne jamais faire vomir une victime après l\'ingestion d\'un produit caustique : le reflux du produit aggrave les lésions de l\'œsophage et des voies respiratoires en cas de fausse route." },
+      { type: "p", text: "Ne donnez ni à boire ni à manger, sauf instruction contraire donnée par téléphone par un médecin. Installez la victime en position assise ou semi-assise si elle est consciente, en position latérale de sécurité si elle vomit et perd connaissance. Restez auprès d\'elle jusqu\'à l\'arrivée des secours." },
+      { type: "h2", text: "Qui appeler et quelles informations transmettre" },
+      { type: "p", text: "Composez le 15 (SAMU) ou le centre antipoison de votre région, dont le numéro figure généralement dans le protocole d\'urgence affiché sur le lieu de travail. Le médecin régulateur adapte sa réponse à la nature exacte du produit ingéré, ce qui rend la précision des informations transmises déterminante." },
+      { type: "ul", items: [
+        "Nom exact du produit, ou à défaut sa composition lue sur l\'étiquette.",
+        "Quantité approximative ingérée et heure de l\'ingestion.",
+        "Âge, poids approximatif et état de conscience de la victime.",
+        "Symptômes observés depuis l\'ingestion.",
+      ]},
+      { type: "h2", text: "Prévenir l\'ingestion accidentelle en entreprise" },
+      { type: "p", text: "Le stockage des produits chimiques dans leur emballage d\'origine, étiqueté et fermé, limite fortement ce risque. Les contenants alimentaires détournés pour stocker un solvant ou un désinfectant restent une cause récurrente d\'accident, y compris chez des salariés expérimentés. La fiche de données de sécurité de chaque produit doit rester accessible sur le poste concerné, pas seulement archivée dans un classeur." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer les risques liés au stockage et à la manipulation des produits chimiques et d\'organiser les premiers secours en conséquence." },
+      { type: "cta", text: "Pour structurer les gestes de premiers secours de vos équipes face à ce type d\'urgence,", label: "découvrez la formation SST", href: "/formations/sst" },
     ],
   },
 };
