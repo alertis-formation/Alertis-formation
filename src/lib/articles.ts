@@ -184,6 +184,7 @@ export const articleSlugs = [
   "portes-coupe-feu-compartimentage-securite-incendie-batiments",
   "hottes-cuisine-professionnelle-entretien-prevention-incendie",
   "ingestion-produit-toxique-travail-conduite-a-tenir-sst",
+  "affichage-obligatoire-entreprise-documents-employeur",
 ] as const;
 
 /**
@@ -8251,6 +8252,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le stockage des produits chimiques dans leur emballage d\'origine, étiqueté et fermé, limite fortement ce risque. Les contenants alimentaires détournés pour stocker un solvant ou un désinfectant restent une cause récurrente d\'accident, y compris chez des salariés expérimentés. La fiche de données de sécurité de chaque produit doit rester accessible sur le poste concerné, pas seulement archivée dans un classeur." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, qui impose à l\'employeur d\'évaluer les risques liés au stockage et à la manipulation des produits chimiques et d\'organiser les premiers secours en conséquence." },
       { type: "cta", text: "Pour structurer les gestes de premiers secours de vos équipes face à ce type d\'urgence,", label: "découvrez la formation SST", href: "/formations/sst" },
+    ],
+  },
+  "affichage-obligatoire-entreprise-documents-employeur": {
+    title: "Affichage obligatoire en entreprise : les documents que doit afficher l\'employeur",
+    excerpt: "Règlement intérieur, horaires, interdiction de fumer, prévention du harcèlement : l\'affichage obligatoire en entreprise recouvre plusieurs obligations légales distinctes, trop souvent réunies sur un seul panneau.",
+    publishedAt: "2026-09-27",
+    category: "Réglementation",
+    readingTime: 5,
+    image: "/images/articles/affichage-obligatoire-entreprise-documents-employeur.jpg",
+    content: [
+      { type: "p", text: "L\'affichage obligatoire en entreprise n\'est pas un panneau unique près de la machine à café. Il recouvre plusieurs obligations légales distinctes, chacune répondant à un texte du Code du travail différent. Confondre ces obligations, ou les regrouper sur un seul support mal mis à jour, expose l\'employeur à un risque de non-conformité lors d\'un contrôle de l\'inspection du travail." },
+      { type: "h2", text: "Les numéros et coordonnées de secours" },
+      { type: "p", text: "Les salariés doivent pouvoir accéder rapidement aux numéros d\'urgence : SAMU, pompiers, police, ainsi qu\'aux coordonnées du médecin du travail et, si l\'activité manipule des produits chimiques, du centre antipoison compétent. Ces informations complètent les consignes de sécurité incendie propres à l\'établissement, qui font l\'objet d\'un affichage réglementé à part entière." },
+      { type: "h2", text: "Les horaires de travail, un document à part entière" },
+      { type: "p", text: "L\'article L.3171-1 du Code du travail impose l\'affichage d\'un document précisant la répartition de la durée du travail lorsque tous les salariés ne travaillent pas selon le même horaire collectif. Ce document doit être daté, tenu à jour et accessible sur chaque lieu de travail concerné, pas seulement archivé dans un logiciel de gestion des temps." },
+      { type: "ul", items: [
+        "L\'horaire collectif applicable à chaque atelier, service ou équipe.",
+        "Les jours et heures de repos hebdomadaire lorsqu\'ils diffèrent du régime général.",
+        "La date de la dernière mise à jour, pour prouver que le document reflète l\'organisation réelle.",
+      ]},
+      { type: "h2", text: "Le règlement intérieur, une affiche permanente" },
+      { type: "p", text: "Dans les entreprises de cinquante salariés et plus, le règlement intérieur adopté selon la procédure prévue à l\'article L.1321-4 doit rester affiché en permanence, à un emplacement accessible à l\'ensemble du personnel. Un règlement modifié sans nouvel affichage ni nouvelle consultation du comité social et économique reste inopposable aux salariés, même si le texte de fond est correct." },
+      { type: "h2", text: "L\'interdiction de fumer et la prévention du harcèlement" },
+      { type: "p", text: "Le décret n°2006-1386 impose la signalisation de l\'interdiction de fumer dans les locaux à usage collectif, avec un rappel spécifique à l\'entrée des locaux concernés. L\'article L.1153-5 impose par ailleurs l\'affichage, sur les lieux de travail et dans les locaux de recrutement, du texte réprimant le harcèlement sexuel ainsi que des coordonnées des autorités compétentes en la matière : médecin du travail, inspection du travail, défenseur des droits." },
+      { type: "quote", text: "Un affichage périmé ou incomplet ne protège ni les salariés ni l\'employeur : il ne fait que déplacer le problème au jour du contrôle." },
+      { type: "p", text: "Consulter la liste de ces obligations une fois par an, à l\'occasion d\'une revue documentaire, évite d\'accumuler les oublis au fil des embauches et des réorganisations. Référence officielle : articles L.3171-1, L.1321-4 et L.1153-5 du Code du travail, et décret n°2006-1386 du 15 novembre 2006 relatif à l\'interdiction de fumer dans les lieux à usage collectif." },
+      { type: "cta", text: "Pour vérifier la conformité de vos procédures internes sur ce sujet,", label: "prenez contact avec notre équipe", href: "/contact" },
     ],
   },
 };
