@@ -185,6 +185,7 @@ export const articleSlugs = [
   "hottes-cuisine-professionnelle-entretien-prevention-incendie",
   "ingestion-produit-toxique-travail-conduite-a-tenir-sst",
   "affichage-obligatoire-entreprise-documents-employeur",
+  "protection-oculaire-travail-choisir-lunettes-ecrans-faciaux",
 ] as const;
 
 /**
@@ -8279,6 +8280,35 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un affichage périmé ou incomplet ne protège ni les salariés ni l\'employeur : il ne fait que déplacer le problème au jour du contrôle." },
       { type: "p", text: "Consulter la liste de ces obligations une fois par an, à l\'occasion d\'une revue documentaire, évite d\'accumuler les oublis au fil des embauches et des réorganisations. Référence officielle : articles L.3171-1, L.1321-4 et L.1153-5 du Code du travail, et décret n°2006-1386 du 15 novembre 2006 relatif à l\'interdiction de fumer dans les lieux à usage collectif." },
       { type: "cta", text: "Pour vérifier la conformité de vos procédures internes sur ce sujet,", label: "prenez contact avec notre équipe", href: "/contact" },
+    ],
+  },
+  "protection-oculaire-travail-choisir-lunettes-ecrans-faciaux": {
+    title: "Protection oculaire au travail : choisir lunettes et écrans faciaux",
+    excerpt: "Projection, poussière, rayonnement de soudage : le risque oculaire change selon le poste, pas la lunette de protection. Critères de choix, compatibilité vue corrigée et entretien.",
+    publishedAt: "2026-09-28",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/protection-oculaire-travail-choisir-lunettes-ecrans-faciaux.jpg",
+    content: [
+      { type: "p", text: "Un éclat de meulage, une projection de produit chimique, un rayonnement de soudage : l\'œil ne dispose d\'aucune protection naturelle contre ces agressions, et une lésion oculaire peut être irréversible en quelques secondes. Choisir une protection oculaire ne se résume pourtant pas à distribuer des lunettes en fin de vestiaire : l\'équipement doit correspondre au risque réel du poste." },
+      { type: "h2", text: "Trois familles de risques, trois réponses différentes" },
+      { type: "p", text: "Le risque mécanique regroupe les projections de particules, d\'éclats ou de poussières grossières, typiques du meulage, du perçage ou du travail du bois. Le risque chimique concerne les éclaboussures de produits corrosifs ou irritants, où l\'étanchéité du pourtour de l\'œil devient déterminante. Le risque optique, enfin, vient des rayonnements ultraviolets ou infrarouges émis par le soudage ou certains procédés industriels, invisibles mais capables de brûler la rétine sans sensation immédiate de douleur." },
+      { type: "h2", text: "Lunettes, lunettes-masque ou écran facial" },
+      { type: "ul", items: [
+        "Les lunettes à branches conviennent aux risques mécaniques légers et aux environnements où une bonne ventilation de l\'œil est recherchée, mais laissent des interstices sur les côtés.",
+        "Les lunettes-masque, à monture souple et pourtour étanche, sont nécessaires dès qu\'un risque de projection liquide ou de poussière fine existe : elles isolent complètement le pourtour de l\'œil.",
+        "L\'écran facial protège l\'ensemble du visage contre les projections importantes ou la chaleur rayonnante, mais ne remplace jamais une paire de lunettes portée en dessous, car il laisse un passage libre par le bas et les côtés.",
+      ]},
+      { type: "h2", text: "Le soudage, un cas à part" },
+      { type: "p", text: "Le rayonnement émis par un arc de soudage n\'est pas filtré par une paire de lunettes de protection classique. Le masque de soudeur intègre un filtre dont la teinte, plus ou moins sombre, se choisit selon le procédé de soudage et l\'intensité du courant utilisé. Un opérateur qui soude avec une teinte inadaptée à l\'intensité réelle s\'expose à une brûlure de la cornée, ressentie plusieurs heures après l\'exposition, bien après la fin de l\'opération." },
+      { type: "quote", text: "Une lésion par rayonnement optique ne fait pas mal sur le moment : la douleur apparaît des heures plus tard, quand le geste qui l\'a causée est déjà oublié." },
+      { type: "h2", text: "Porteurs de lunettes de vue : deux solutions, pas d\'improvisation" },
+      { type: "p", text: "Porter ses lunettes de vue seules sous un équipement de protection ne suffit jamais : elles n\'offrent aucune garantie de résistance aux chocs ni d\'étanchéité. Deux solutions existent, la surlunette de protection portée par-dessus les lunettes de vue, ou la lunette de protection à verres correcteurs intégrés, montée sur prescription. Le choix dépend du poste, de la fréquence de port et du confort recherché sur la durée d\'un poste de travail." },
+      { type: "p", text: "Un verre rayé perd une partie de sa résistance mécanique et de sa transparence, même si la rayure semble superficielle. Le traitement anti-buée intégré aux montures s\'use avec le temps et les nettoyages répétés, ce qui explique pourquoi une paire ancienne s\'embue davantage qu\'une paire neuve dans les mêmes conditions. Un stockage dans un étui rigide, à l\'écart des solvants et de la chaleur directe, prolonge nettement la durée d\'usage de l\'équipement." },
+      { type: "h2", text: "L\'obligation de l\'employeur" },
+      { type: "p", text: "L\'article L.4321-1 du Code du travail impose à l\'employeur de mettre à disposition des travailleurs les équipements de protection individuelle appropriés aux risques identifiés, gratuitement. Les articles R.4321-1 à R.4321-5 précisent que le choix doit tenir compte des conditions d\'exposition réelles du poste, pas d\'une distribution uniforme à l\'ensemble d\'un atelier. Sur les postes exposés à des projections chimiques, l\'article R.4224-14 impose en complément un dispositif de lavage oculaire d\'urgence à proximité immédiate." },
+      { type: "p", text: "Référence officielle : articles L.4321-1, R.4321-1 à R.4321-5 et R.4224-14 du Code du travail, et règlement (UE) 2016/425 relatif aux équipements de protection individuelle." },
+      { type: "cta", text: "Pour évaluer les équipements de protection individuelle adaptés à vos postes de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
