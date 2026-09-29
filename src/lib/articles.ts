@@ -186,6 +186,7 @@ export const articleSlugs = [
   "ingestion-produit-toxique-travail-conduite-a-tenir-sst",
   "affichage-obligatoire-entreprise-documents-employeur",
   "protection-oculaire-travail-choisir-lunettes-ecrans-faciaux",
+  "eclairage-securite-baes-evacuation-entretien-verification",
 ] as const;
 
 /**
@@ -8309,6 +8310,39 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'article L.4321-1 du Code du travail impose à l\'employeur de mettre à disposition des travailleurs les équipements de protection individuelle appropriés aux risques identifiés, gratuitement. Les articles R.4321-1 à R.4321-5 précisent que le choix doit tenir compte des conditions d\'exposition réelles du poste, pas d\'une distribution uniforme à l\'ensemble d\'un atelier. Sur les postes exposés à des projections chimiques, l\'article R.4224-14 impose en complément un dispositif de lavage oculaire d\'urgence à proximité immédiate." },
       { type: "p", text: "Référence officielle : articles L.4321-1, R.4321-1 à R.4321-5 et R.4224-14 du Code du travail, et règlement (UE) 2016/425 relatif aux équipements de protection individuelle." },
       { type: "cta", text: "Pour évaluer les équipements de protection individuelle adaptés à vos postes de travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "eclairage-securite-baes-evacuation-entretien-verification": {
+    title: "Éclairage de sécurité et BAES : assurer l\'évacuation en cas de coupure",
+    excerpt: "Lors d\'un incendie, une coupure de courant plonge les circulations dans le noir. L\'éclairage de sécurité guide l\'évacuation : rôle des BAES, autonomie, entretien et traçabilité des vérifications.",
+    publishedAt: "2026-09-29",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/eclairage-securite-baes-evacuation-entretien-verification.jpg",
+    content: [
+      { type: "p", text: "Un incendie provoque souvent une coupure de l\'alimentation électrique, ou oblige à la couper. Dans un couloir sans fenêtre ou un escalier encloisonné, l\'obscurité est alors totale en quelques secondes. L\'éclairage de sécurité prend le relais pour permettre aux occupants de repérer les issues et de les atteindre sans se perdre ni chuter." },
+      { type: "h2", text: "Deux fonctions distinctes" },
+      { type: "p", text: "L\'éclairage d\'évacuation a pour rôle de signaler les cheminements et les sorties, et d\'éclairer suffisamment les circulations pour s\'y déplacer. L\'éclairage d\'ambiance, ou anti-panique, éclaire les grands volumes afin d\'éviter les mouvements de foule dans un local où le public ou les salariés sont nombreux. Ces deux fonctions ne se confondent pas avec l\'éclairage normal du local." },
+      { type: "h2", text: "Le BAES, brique de base du dispositif" },
+      { type: "p", text: "Le bloc autonome d\'éclairage de sécurité (BAES) embarque sa propre batterie. Il s\'allume automatiquement dès que l\'alimentation normale disparaît, sans dépendre d\'une source centrale. Les blocs d\'évacuation, avec leur pictogramme vert de sortie, se placent sur les issues et aux changements de direction. Les blocs d\'ambiance, sans pictogramme, complètent l\'éclairement des espaces plus larges." },
+      { type: "p", text: "Une autonomie d\'une heure est la référence courante pour les blocs autonomes : la batterie doit tenir ce temps après la coupure. Le dimensionnement précis (nombre de blocs, niveau d\'éclairement, emplacement) relève de la réglementation applicable au bâtiment et du dossier de conception, pas d\'une estimation à l\'œil." },
+      { type: "h2", text: "Ce que prévoit la réglementation" },
+      { type: "p", text: "Dans les ERP, les dispositions relatives à l\'éclairage de sécurité figurent dans le règlement de sécurité issu de l\'arrêté du 25 juin 1980. Pour les lieux de travail, l\'employeur reste tenu d\'assurer la sécurité et la protection de la santé des travailleurs au titre de L.4121-1, ce qui inclut la possibilité d\'évacuer en sécurité. Un bâtiment mixte cumule parfois les deux logiques." },
+      { type: "h2", text: "Entretien et vérifications" },
+      { type: "p", text: "Un bloc dont la batterie est morte reste allumé en veille, avec un voyant rassurant, et ne sert à rien le jour où il faut. Seuls des essais réguliers révèlent cette défaillance. La norme NF C71-830 encadre la maintenance des blocs autonomes : essais de fonctionnement, contrôle de l\'autonomie, remplacement des batteries en fin de vie." },
+      { type: "ul", items: [
+        "Vérifier le voyant de chaque bloc lors des rondes ou des visites de sécurité, et signaler toute anomalie.",
+        "Faire réaliser les essais périodiques de fonctionnement et d\'autonomie par une personne compétente.",
+        "Remplacer sans attendre un bloc défectueux ou une batterie usée, et noter la date de remplacement.",
+        "Dégager les blocs des obstacles : un carton empilé ou une signalétique masquée annule leur utilité.",
+      ]},
+      { type: "h2", text: "Tracer pour pouvoir prouver" },
+      { type: "p", text: "Les essais et les interventions se consignent dans le registre de sécurité incendie, avec la date, le résultat et l\'auteur de la vérification. Cette traçabilité sert lors d\'un contrôle, mais aussi en interne : elle permet de repérer un bloc qui tombe en panne à répétition ou une zone dont l\'entretien a été oublié." },
+      { type: "h2", text: "Relier l\'éclairage à l\'exercice d\'évacuation" },
+      { type: "p", text: "Un exercice d\'évacuation est l\'occasion de tester le dispositif en conditions réelles. Couper l\'éclairage normal d\'un couloir pendant l\'exercice, lorsque c\'est possible en toute sécurité, montre si les blocs s\'allument et si le cheminement reste lisible. Les guide-files et serre-files peuvent relever les zones trop sombres ou les pictogrammes mal orientés." },
+      { type: "quote", text: "Un bloc de sécurité ne se remarque que lorsqu\'il est absent : c\'est justement pour cela qu\'il faut le tester avant l\'urgence." },
+      { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les ERP, norme NF C71-830." },
+      { type: "cta", text: "Pour former vos équipes à l\'évacuation et à la sécurité incendie,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
