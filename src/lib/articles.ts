@@ -187,6 +187,7 @@ export const articleSlugs = [
   "affichage-obligatoire-entreprise-documents-employeur",
   "protection-oculaire-travail-choisir-lunettes-ecrans-faciaux",
   "eclairage-securite-baes-evacuation-entretien-verification",
+  "rayonnages-stockage-palettiers-inspection-securite-entrepot",
 ] as const;
 
 /**
@@ -8343,6 +8344,39 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un bloc de sécurité ne se remarque que lorsqu\'il est absent : c\'est justement pour cela qu\'il faut le tester avant l\'urgence." },
       { type: "p", text: "Référence officielle : article L.4121-1 du Code du travail, arrêté du 25 juin 1980 portant approbation des dispositions générales du règlement de sécurité contre les risques d\'incendie et de panique dans les ERP, norme NF C71-830." },
       { type: "cta", text: "Pour former vos équipes à l\'évacuation et à la sécurité incendie,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },  "rayonnages-stockage-palettiers-inspection-securite-entrepot": {
+    title: "Rayonnages et palettiers : inspecter le stockage pour éviter l\\'effondrement",
+    excerpt: "Un rayonnage abîmé peut céder sans prévenir. Défauts à repérer, capacités de charge, inspections selon la norme NF EN 15635 et conduite à tenir après un choc de chariot.",
+    publishedAt: "2026-09-30",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/rayonnages-stockage-palettiers-inspection-securite-entrepot.jpg",
+    content: [
+      { type: "p", text: "Un palettier qui s\'effondre entraîne dans sa chute des tonnes de marchandises, des chariots et parfois des salariés. Ces accidents ont rarement une cause unique : un montant déformé par un choc, une lisse mal clipsée, une charge supérieure à la capacité affichée. Le rayonnage est un équipement de travail à part entière, qui demande un suivi régulier." },
+      { type: "h2", text: "Un équipement de travail soumis à l\'obligation de l\'employeur" },
+      { type: "p", text: "L\'employeur doit mettre à disposition des équipements adaptés au travail à réaliser et veiller à leur maintien en état de conformité, ce que prévoit notamment R.4321-1. Cette exigence s\'inscrit dans l\'obligation générale de sécurité de L.4121-1. Un rayonnage de stockage relève de cette logique, au même titre qu\'un chariot ou un pont roulant." },
+      { type: "h2", text: "Les défauts qui fragilisent une structure" },
+      { type: "p", text: "Les chocs de chariots sont la première cause de dégradation. Un montant plié, même légèrement, perd une part de sa résistance sans que la structure ait l\'air atteinte. D\'autres défauts s\'ajoutent avec le temps." },
+      { type: "ul", items: [
+        "Montants et lisses déformés, fissurés ou corrodés, en particulier au pied des échelles.",
+        "Goupilles ou clips de sécurité manquants, qui laissent une lisse se décrocher.",
+        "Ancrage au sol desserré ou platines de pied endommagées.",
+        "Palettes abîmées ou mal calées, qui débordent des lisses.",
+        "Charges posées à un niveau non prévu par le plan de stockage.",
+      ]},
+      { type: "h2", text: "Afficher et respecter les capacités de charge" },
+      { type: "p", text: "Chaque installation est calculée pour des charges précises par niveau et par alvéole. Ces valeurs figurent sur une plaque de charge fixée à l\'échelle, à côté de chaque travée. Le personnel doit pouvoir la lire et savoir qu\'un changement de type de palette ou de hauteur de niveau modifie les capacités admissibles. En cas de doute, il faut interroger le fabricant ou un bureau compétent avant de reconfigurer." },
+      { type: "h2", text: "Organiser l\'inspection du rayonnage" },
+      { type: "p", text: "La norme NF EN 15635, relative à l\'utilisation et à la maintenance des équipements de stockage, recommande de désigner une personne responsable de la sécurité du stockage et de mettre en place des inspections à plusieurs niveaux. Le principe est simple : les utilisateurs signalent, un référent contrôle régulièrement, un expert examine en profondeur à intervalle défini." },
+      { type: "p", text: "Les caristes et les magasiniers sont les premiers observateurs. Ils voient un choc quand il se produit et doivent pouvoir le déclarer sans crainte de reproche. Une fiche de signalement simple, accessible dans l\'entrepôt, facilite ce réflexe. Le référent classe ensuite chaque dommage selon sa gravité : suivi, réparation programmée ou déchargement immédiat de la travée." },
+      { type: "h2", text: "Réagir après un choc" },
+      { type: "p", text: "Une travée endommagée doit être balisée et déchargée avant toute nouvelle manutention. Le montant ou la lisse abîmés se remplacent, ils ne se redressent pas et ne se réparent pas par soudure improvisée. Le fournisseur ou un installateur qualifié peut indiquer la marche à suivre. Chaque incident se consigne avec la date, la localisation et l\'action menée." },
+      { type: "h2", text: "Prévenir les chocs à la source" },
+      { type: "p", text: "Les protections de pied de montant, les lisses de guidage et le marquage des allées réduisent l\'énergie transmise à la structure. La formation des conducteurs, le respect des autorisations de conduite et un plan de circulation clair font le reste. Une allée trop étroite pour les engins utilisés génère des accrochages en série, quelle que soit la vigilance des caristes." },
+      { type: "quote", text: "Un rayonnage abîmé qui reste chargé finit par tomber : c\'est le déchargement qui protège, pas l\'espoir que la structure tienne." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et R.4321-1 du Code du travail, norme NF EN 15635 (systèmes de stockage statique en acier, utilisation et maintenance de l\'équipement de stockage)." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques en entrepôt,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
