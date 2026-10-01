@@ -188,6 +188,7 @@ export const articleSlugs = [
   "protection-oculaire-travail-choisir-lunettes-ecrans-faciaux",
   "eclairage-securite-baes-evacuation-entretien-verification",
   "rayonnages-stockage-palettiers-inspection-securite-entrepot",
+  "crise-de-panique-au-travail-reconnaitre-reagir-pssm",
 ] as const;
 
 /**
@@ -8377,6 +8378,40 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Un rayonnage abîmé qui reste chargé finit par tomber : c\'est le déchargement qui protège, pas l\'espoir que la structure tienne." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et R.4321-1 du Code du travail, norme NF EN 15635 (systèmes de stockage statique en acier, utilisation et maintenance de l\'équipement de stockage)." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques en entrepôt,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "crise-de-panique-au-travail-reconnaitre-reagir-pssm": {
+    title: "Crise de panique au travail : reconnaître les signes et réagir auprès d\'un collègue",
+    excerpt: "Palpitations, souffle court, sensation de perdre le contrôle : une crise de panique impressionne, mais elle passe. Les signes à reconnaître et les gestes qui aident un collègue.",
+    publishedAt: "2026-10-01",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/crise-de-panique-au-travail-reconnaitre-reagir-pssm.jpg",
+    content: [
+      { type: "p", text: "Un salarié se lève brusquement en réunion, le visage pâle, la respiration rapide. Il dit qu\'il étouffe, que son coeur s\'emballe. Les collègues pensent à un malaise cardiaque, parfois à raison. Une crise de panique donne exactement cette impression, ce qui rend la situation déroutante pour l\'entourage comme pour la personne." },
+      { type: "h2", text: "Ce qu\'est une crise de panique" },
+      { type: "p", text: "Il s\'agit d\'un accès brutal d\'anxiété intense, qui atteint son maximum en quelques minutes puis retombe. La personne éprouve une peur disproportionnée, sans danger réel immédiat. La crise dure en général de quelques minutes à une vingtaine de minutes, mais elle laisse souvent un épuisement et la crainte d\'en vivre une nouvelle." },
+      { type: "h2", text: "Les signes qui doivent alerter" },
+      { type: "p", text: "Les manifestations sont physiques autant que psychiques. Elles varient d\'une personne à l\'autre et peuvent se combiner." },
+      { type: "ul", items: [
+        "Palpitations, serrement dans la poitrine, souffle court ou impression d\'étouffer.",
+        "Sueurs, tremblements, vertiges, fourmillements dans les mains ou autour de la bouche.",
+        "Sensation d\'irréalité, de perdre le contrôle ou de \'devenir fou\'.",
+        "Peur de mourir, besoin urgent de fuir la pièce.",
+      ]},
+      { type: "h2", text: "Écarter d\'abord une urgence vitale" },
+      { type: "p", text: "Les signes d\'une crise de panique ressemblent à ceux d\'un infarctus ou d\'une crise d\'asthme. Le témoin n\'a pas à poser un diagnostic. Une douleur thoracique qui irradie, une première survenue chez une personne à risque cardiaque, une perte de connaissance ou un malaise qui ne cède pas appellent une alerte immédiate au 15 ou au 112. Dans le doute, on alerte." },
+      { type: "h2", text: "Les gestes qui aident" },
+      { type: "p", text: "Si la personne est consciente et que le doute médical est levé, l\'objectif est de réduire la stimulation et de rétablir le calme. Le secouriste ou le collègue se présente, parle lentement et reste à côté, sans toucher la personne sans son accord." },
+      { type: "p", text: "Il propose de s\'isoler dans un lieu calme, de s\'asseoir et d\'éloigner les curieux. Il guide la respiration à voix basse : inspirer par le nez, expirer lentement par la bouche, en comptant avec elle. Il rassure par des phrases simples : la crise va passer, elle n\'est pas dangereuse, il reste là." },
+      { type: "h2", text: "Les réflexes à éviter" },
+      { type: "p", text: "Minimiser (\'calme-toi, ce n\'est rien\'), faire la leçon ou multiplier les questions aggrave le sentiment d\'incompréhension. Il faut aussi éviter l\'attroupement autour de la personne et de commenter la crise ensuite devant l\'équipe. Cette information relève de la santé de la personne : elle ne se partage pas sans son accord." },
+      { type: "h2", text: "Après la crise : le rôle du manager et des RH" },
+      { type: "p", text: "Une fois la crise passée, laissez la personne récupérer, proposez de l\'eau et un temps de repos. Demandez-lui ce dont elle a besoin : rentrer chez elle, joindre un proche, consulter son médecin. Le médecin du travail peut être sollicité à sa demande. Une crise isolée n\'implique pas forcément un trouble durable, mais des crises répétées justifient un avis médical." },
+      { type: "p", text: "L\'employeur doit aussi regarder le contexte. Une crise peut être le signal d\'une surcharge, d\'un conflit ou d\'une tension persistante. Cette analyse s\'inscrit dans l\'obligation de protéger la santé physique et mentale des salariés prévue par L.4121-1, et dans les principes généraux de prévention de L.4121-2." },
+      { type: "quote", text: "Face à une crise de panique, la présence calme d\'un témoin compte plus que le bon mot : elle suffit souvent à ramener la personne vers le calme." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
+      { type: "cta", text: "Pour apprendre à repérer et accompagner un collègue en détresse psychique,", label: "découvrez nos formations en santé mentale", href: "/formations" },
     ],
   },
 };
