@@ -189,6 +189,7 @@ export const articleSlugs = [
   "eclairage-securite-baes-evacuation-entretien-verification",
   "rayonnages-stockage-palettiers-inspection-securite-entrepot",
   "crise-de-panique-au-travail-reconnaitre-reagir-pssm",
+  "verification-extincteurs-entreprise-maintenance-obligations-employeur",
 ] as const;
 
 /**
@@ -8412,6 +8413,37 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Face à une crise de panique, la présence calme d\'un témoin compte plus que le bon mot : elle suffit souvent à ramener la personne vers le calme." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
       { type: "cta", text: "Pour apprendre à repérer et accompagner un collègue en détresse psychique,", label: "découvrez nos formations en santé mentale", href: "/formations" },
+    ],
+  },
+  "verification-extincteurs-entreprise-maintenance-obligations-employeur": {
+    title:
+      "Vérification des extincteurs en entreprise : maintenance et obligations de l\'employeur",
+    excerpt:
+      "Un extincteur mal entretenu ne sert à rien le jour du sinistre. Ce que l\'employeur doit faire chaque année, ce que l\'on contrôle au quotidien et comment tracer les vérifications.",
+    publishedAt: "2026-10-02",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/verification-extincteurs-entreprise-maintenance-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un extincteur accroché au mur donne une impression de sécurité, mais seul un appareil vérifié est certain de fonctionner. Le Code du travail impose à l\'employeur de maintenir en bon état son matériel de lutte contre l\'incendie. Cet article détaille le cadre réglementaire, le rythme des contrôles et la façon de les organiser sans rien laisser au hasard." },
+      { type: "h2", text: "Ce que prévoit le Code du travail" },
+      { type: "p", text: "L\'article R4227-28 impose de doter les lieux de travail de moyens de premiers secours contre l\'incendie, adaptés aux risques. L\'article R4227-29 précise qu\'un extincteur portatif à eau pulvérisée d\'au moins 6 litres doit être prévu pour 200 mètres carrés de plancher, avec au minimum un appareil par niveau." },
+      { type: "p", text: "L\'article R4227-39 fixe l\'obligation de maintenance : le matériel de secours et de lutte contre l\'incendie est maintenu en bon état de fonctionnement et vérifié au moins une fois par an. La responsabilité en revient à l\'employeur, même s\'il confie la tâche à un prestataire." },
+      { type: "h2", text: "La vérification annuelle par une personne compétente" },
+      { type: "p", text: "Le contrôle annuel porte sur chaque appareil : état du corps et de la tête, pression, présence et intégrité des goupilles et scellés, état du tuyau et de la buse, lisibilité de l\'étiquette. Certains appareils exigent un démontage ou une recharge selon leur type et leur ancienneté." },
+      { type: "p", text: "Beaucoup d\'entreprises confient cette opération à un installateur-mainteneur. Le référentiel APSAD R4 décrit les règles d\'installation et de maintenance des extincteurs mobiles. Il est utile pour rédiger un cahier des charges, même si son application relève d\'une démarche volontaire." },
+      { type: "h2", text: "Les contrôles de proximité au quotidien" },
+      { type: "p", text: "Entre deux visites du prestataire, un appareil peut être déplacé, masqué, vidé ou endommagé. Une ronde simple, confiée à un référent, suffit à détecter la plupart des anomalies. Les points à regarder :" },
+      { type: "ul", items: ["l\'extincteur est à son emplacement, accessible et non masqué par du stockage ;", "la signalisation au-dessus de l\'appareil est visible ;", "le manomètre indique une pression dans la zone de service ;", "la goupille et le plomb de scellement sont en place ;", "le corps ne présente ni choc, ni corrosion, ni fuite."] },
+      { type: "h2", text: "Choisir le bon agent extincteur" },
+      { type: "p", text: "La vérification ne sert à rien si l\'appareil n\'est pas adapté au risque. L\'eau pulvérisée convient aux feux de matériaux solides comme le papier ou le bois. Le CO2 est recommandé près des installations électriques et des équipements informatiques. Les feux d\'huile de friture demandent un agent spécifique. Après un changement d\'activité ou un réaménagement, revoyez le choix des appareils." },
+      { type: "h2", text: "Tracer chaque vérification" },
+      { type: "p", text: "Chaque contrôle doit laisser une trace : date, appareil concerné, anomalies relevées, actions correctives. Dans un établissement soumis au registre de sécurité, ces éléments y sont consignés. Une étiquette datée sur l\'appareil complète le suivi. En cas de contrôle ou de sinistre, ces documents prouvent que l\'employeur a rempli son obligation." },
+      { type: "quote", text: "Un extincteur utile est un extincteur visible, accessible, vérifié et connu des salariés qui doivent s\'en servir." },
+      { type: "h3", text: "Former les salariés à l\'usage" },
+      { type: "p", text: "Le meilleur appareil reste inefficace si personne ne sait l\'utiliser. Les exercices d\'évacuation et les formations à la manipulation permettent de s\'entraîner sur feu réel ou simulé. Ils aident aussi à repérer sur le terrain les appareils mal placés ou difficiles d\'accès." },
+      { type: "p", text: "Référence officielle : articles R4227-28, R4227-29 et R4227-39 du Code du travail ; référentiel APSAD R4." },
+      { type: "cta", text: "Pour former vos équipes à l\'usage des extincteurs,", label: "découvrez nos formations incendie", href: "/formations/incendie" },
     ],
   },
 };
