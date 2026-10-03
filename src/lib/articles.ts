@@ -190,6 +190,7 @@ export const articleSlugs = [
   "rayonnages-stockage-palettiers-inspection-securite-entrepot",
   "crise-de-panique-au-travail-reconnaitre-reagir-pssm",
   "verification-extincteurs-entreprise-maintenance-obligations-employeur",
+  "evenement-choquant-travail-soutien-collegues-employeur-apres-accident",
 ] as const;
 
 /**
@@ -8444,6 +8445,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le meilleur appareil reste inefficace si personne ne sait l\'utiliser. Les exercices d\'évacuation et les formations à la manipulation permettent de s\'entraîner sur feu réel ou simulé. Ils aident aussi à repérer sur le terrain les appareils mal placés ou difficiles d\'accès." },
       { type: "p", text: "Référence officielle : articles R4227-28, R4227-29 et R4227-39 du Code du travail ; référentiel APSAD R4." },
       { type: "cta", text: "Pour former vos équipes à l\'usage des extincteurs,", label: "découvrez nos formations incendie", href: "/formations/incendie" },
+    ],
+  },
+  "evenement-choquant-travail-soutien-collegues-employeur-apres-accident": {
+    title:
+      "Après un événement choquant au travail : soutenir les salariés et agir en employeur",
+    excerpt:
+      "Accident grave, agression, décès d\'un collègue : les premières heures comptent. Les gestes de soutien à privilégier, les erreurs à éviter et les obligations de l\'employeur.",
+    publishedAt: "2026-10-03",
+    category: "Santé mentale",
+    readingTime: 6,
+    image: "/images/articles/evenement-choquant-travail-soutien-collegues-employeur-apres-accident.jpg",
+    content: [
+      { type: "p", text: "Un accident grave, une agression ou le décès d\'un collègue ne laisse personne indifférent dans une équipe. Les témoins comme les victimes peuvent réagir tout de suite ou plusieurs jours après. L\'organisation de la première semaine joue un rôle important dans la suite. Cet article propose des repères concrets pour les managers, les RH et les préventeurs." },
+      { type: "h2", text: "Les réactions normales après un choc" },
+      { type: "p", text: "Sidération, tremblements, difficultés de concentration, troubles du sommeil, irritabilité ou besoin de parler en boucle sont des réactions fréquentes après un événement brutal. Elles ne signalent pas une fragilité personnelle. Chez la plupart des personnes, elles s\'atténuent en quelques jours. Elles méritent toutefois une attention particulière si elles persistent ou s\'aggravent." },
+      { type: "h2", text: "Les premières heures : sécuriser et accompagner" },
+      { type: "p", text: "La priorité reste la prise en charge des blessés par les secouristes et l\'appel des secours. Ensuite, il faut mettre les personnes touchées à l\'abri du regard, leur proposer à boire et à s\'asseoir, et ne pas les laisser seules. Le manager informe ses équipes de façon factuelle, sans détails inutiles ni spéculation sur les causes." },
+      { type: "ul", items: ["rester calme, parler lentement et utiliser des phrases simples ;", "écouter sans forcer la personne à raconter ce qu\'elle a vu ;", "prévenir ses proches si elle le souhaite ;", "organiser son retour à domicile avec un accompagnement, pas seule au volant ;", "garder une trace des faits et des témoins pour la suite."] },
+      { type: "h2", text: "Ce qu\'il vaut mieux éviter" },
+      { type: "p", text: "Minimiser l\'événement (\"ce n\'est rien\", \"il faut passer à autre chose\") ferme la discussion. Imposer un récit détaillé à un témoin peut raviver le choc. Reprendre le travail comme si de rien n\'était dès le lendemain, sans temps d\'échange, est souvent mal vécu. Enfin, ne cherchez pas de coupable dans les premières heures : l\'analyse des causes viendra plus tard." },
+      { type: "h3", text: "Repérer les signes qui appellent un avis médical" },
+      { type: "p", text: "Cauchemars répétés, évitement du lieu de l\'accident, isolement, consommation accrue d\'alcool, crises d\'angoisse ou idées noires doivent conduire à orienter la personne vers le médecin du travail ou son médecin traitant. Un salarié formé aux premiers secours en santé mentale (PSSM) peut aider à ouvrir cette conversation sans jugement." },
+      { type: "h2", text: "Les obligations de l\'employeur" },
+      { type: "p", text: "Selon l\'article L.4121-1 du Code du travail, l\'employeur prend les mesures nécessaires pour protéger la santé physique et mentale des travailleurs. Cela comprend des actions de prévention, d\'information et de formation, ainsi qu\'une organisation adaptée. Les principes généraux de prévention de l\'article L.4121-2 incluent l\'évaluation des risques et la planification de la prévention." },
+      { type: "p", text: "Après un événement grave, cela se traduit par l\'information du service de prévention et de santé au travail, l\'association du CSE, la déclaration de l\'accident si elle s\'impose et la mise à jour du document unique. Les violences externes et les accidents graves y figurent comme risques à traiter." },
+      { type: "h2", text: "Organiser le suivi dans les semaines qui suivent" },
+      { type: "p", text: "Un point individuel avec le manager au bout de quelques jours, puis à intervalles réguliers, permet de repérer les difficultés qui s\'installent. Prévoyez des ajustements temporaires si nécessaire : horaires, charge de travail, tâches proches du lieu de l\'accident. Rappelez les ressources disponibles : médecin du travail, service social, dispositif d\'écoute de l\'entreprise s\'il existe." },
+      { type: "quote", text: "Le soutien le plus utile après un choc est souvent le plus simple : être présent, écouter, ne pas laisser la personne seule." },
+      { type: "ul", items: ["analyser l\'événement avec la méthode de l\'arbre des causes, sans chercher de coupable ;", "mettre à jour le document unique et le plan d\'action de prévention ;", "former les managers à la conduite à tenir après un événement grave ;", "prévoir une procédure écrite connue de tous avant qu\'un événement survienne."] },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à réagir face à une situation de détresse,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
