@@ -191,6 +191,7 @@ export const articleSlugs = [
   "crise-de-panique-au-travail-reconnaitre-reagir-pssm",
   "verification-extincteurs-entreprise-maintenance-obligations-employeur",
   "evenement-choquant-travail-soutien-collegues-employeur-apres-accident",
+  "douche-securite-lave-yeux-urgence-entreprise-installation-entretien",
 ] as const;
 
 /**
@@ -8476,6 +8477,38 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["analyser l\'événement avec la méthode de l\'arbre des causes, sans chercher de coupable ;", "mettre à jour le document unique et le plan d\'action de prévention ;", "former les managers à la conduite à tenir après un événement grave ;", "prévoir une procédure écrite connue de tous avant qu\'un événement survienne."] },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à réagir face à une situation de détresse,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "douche-securite-lave-yeux-urgence-entreprise-installation-entretien": {
+    title:
+      "Douche de sécurité et lave-yeux d\'urgence : installer, entretenir, former",
+    excerpt:
+      "Face à une projection chimique, chaque seconde compte. Quand prévoir une douche de sécurité ou un lave-yeux, où les placer, comment les entretenir et former les salariés à s\'en servir.",
+    publishedAt: "2026-10-04",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/douche-securite-lave-yeux-urgence-entreprise-installation-entretien.jpg",
+    content: [
+      { type: "p", text: "Une éclaboussure d\'acide, de base ou de solvant peut provoquer une brûlure grave en quelques secondes. Le premier geste est toujours le même : rincer, longtemps, à grande eau. Encore faut-il avoir le matériel sous la main. Cet article aide les préventeurs et les responsables d\'atelier à décider quels équipements prévoir, où les placer et comment s\'assurer qu\'ils fonctionneront le jour venu." },
+      { type: "h2", text: "Quand ces équipements sont-ils nécessaires" },
+      { type: "p", text: "Le besoin découle de l\'évaluation des risques. L\'article L.4121-2 du Code du travail impose à l\'employeur d\'évaluer les risques qui ne peuvent être évités, et la fiche de données de sécurité de chaque produit indique les mesures de premiers secours à prévoir. Si elle mentionne un risque de lésion cutanée ou oculaire grave, un dispositif de rinçage doit être installé à proximité du poste." },
+      { type: "p", text: "Les situations typiques sont les laboratoires, les ateliers de traitement de surface, les locaux de charge de batteries, le nettoyage industriel et les zones de dilution ou de transvasement de produits corrosifs." },
+      { type: "h2", text: "Douche de sécurité, lave-yeux fixe ou flacon portable" },
+      { type: "p", text: "Les trois solutions ne se valent pas. La douche de sécurité permet de rincer tout le corps, vêtements compris. Le lave-yeux fixe, raccordé au réseau d\'eau, délivre un débit adapté aux deux yeux et laisse les mains libres pour maintenir les paupières ouvertes. Le flacon ou la station portable sert d\'appoint ou de premier rinçage quand aucun point d\'eau n\'est proche." },
+      { type: "p", text: "Les douches et les lave-yeux raccordés relèvent de la série NF EN 15154, qui fixe leurs exigences de performance et d\'essai. Le flacon portable ne remplace pas un appareil fixe sur un poste où les projections sont probables : sa réserve d\'eau est limitée." },
+      { type: "h2", text: "Où les placer" },
+      { type: "p", text: "Un équipement mal situé perd son intérêt. Une personne qui a reçu un produit dans les yeux voit mal et réagit dans la douleur. L\'appareil doit donc répondre à quelques critères simples :" },
+      { type: "ul", items: ["à quelques secondes de marche du poste exposé, sur un trajet direct ;", "sans porte, marche ni stockage à franchir ;", "signalé par un panneau de sécurité visible et un éclairage suffisant ;", "relié à une évacuation des eaux de rinçage ;", "installé de façon à ne pas être déplacé ou masqué par l\'activité."] },
+      { type: "h2", text: "Entretien et contrôle périodique" },
+      { type: "p", text: "Un appareil qui n\'a pas servi depuis des mois peut délivrer une eau stagnante, chargée de dépôts ou de bactéries, voire ne plus couler du tout. Un contrôle régulier est donc indispensable : mise en route de l\'écoulement pour purger la canalisation, vérification du débit, propreté des buses et des protections anti-poussière, état de la signalisation." },
+      { type: "p", text: "La fréquence dépend de la notice du fabricant et de l\'environnement de travail. Chaque contrôle est consigné dans un registre avec la date, le nom de l\'opérateur et les anomalies constatées. Pour les flacons de rinçage, la date de péremption est à surveiller." },
+      { type: "quote", text: "Un lave-yeux qui n\'a jamais été testé est un lave-yeux dont on ignore s\'il fonctionne." },
+      { type: "h2", text: "Former les salariés avant l\'accident" },
+      { type: "p", text: "Le jour d\'une projection, il n\'y a pas le temps de chercher le mode d\'emploi. Chaque salarié exposé doit connaître l\'emplacement de l\'appareil, savoir l\'actionner, et savoir que le rinçage dure au moins quinze minutes, conformément à la conduite à tenir enseignée en formation de sauveteur secouriste du travail. Un exercice pratique, par exemple lors du quart d\'heure sécurité, ancre ces réflexes." },
+      { type: "h3", text: "Les gestes à retenir pour le témoin" },
+      { type: "ul", items: ["accompagner la victime jusqu\'à l\'appareil sans la laisser seule ;", "retirer les vêtements imprégnés pendant le rinçage de la peau ;", "maintenir les paupières ouvertes pour un rinçage oculaire complet ;", "faire alerter les secours et préparer la fiche de données de sécurité du produit."] },
+      { type: "p", text: "Référence officielle : article L.4121-2 du Code du travail ; norme NF EN 15154 relative aux douches de sécurité et aux lave-yeux d\'urgence." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une projection chimique,", label: "consultez notre page formation SST", href: "/formations/sst" },
     ],
   },
 };
