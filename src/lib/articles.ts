@@ -192,6 +192,7 @@ export const articleSlugs = [
   "verification-extincteurs-entreprise-maintenance-obligations-employeur",
   "evenement-choquant-travail-soutien-collegues-employeur-apres-accident",
   "douche-securite-lave-yeux-urgence-entreprise-installation-entretien",
+  "reprise-travail-arret-long-visite-reprise-rendez-vous-liaison",
 ] as const;
 
 /**
@@ -8509,6 +8510,36 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["accompagner la victime jusqu\'à l\'appareil sans la laisser seule ;", "retirer les vêtements imprégnés pendant le rinçage de la peau ;", "maintenir les paupières ouvertes pour un rinçage oculaire complet ;", "faire alerter les secours et préparer la fiche de données de sécurité du produit."] },
       { type: "p", text: "Référence officielle : article L.4121-2 du Code du travail ; norme NF EN 15154 relative aux douches de sécurité et aux lave-yeux d\'urgence." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une projection chimique,", label: "consultez notre page formation SST", href: "/formations/sst" },
+    ],
+  },
+  "reprise-travail-arret-long-visite-reprise-rendez-vous-liaison": {
+    title:
+      "Reprise du travail après un arrêt long : visites médicales et rendez-vous de liaison",
+    excerpt:
+      "Après un arrêt de travail prolongé, la reprise se prépare. Visite de préreprise, rendez-vous de liaison, visite de reprise : les étapes et les délais à connaître pour l\'employeur.",
+    publishedAt: "2026-10-05",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/reprise-travail-arret-long-visite-reprise-rendez-vous-liaison.jpg",
+    content: [
+      { type: "p", text: "Un salarié revient après plusieurs mois d\'absence pour maladie, accident ou congé maternité. Son poste a pu évoluer, l\'équipe a changé, et son état de santé peut demander des ajustements. Le Code du travail prévoit plusieurs rendez-vous pour préparer ce retour. Cet article détaille leur rôle et leur calendrier pour les RH et les managers." },
+      { type: "h2", text: "La visite de préreprise, avant la fin de l\'arrêt" },
+      { type: "p", text: "Quand un arrêt de travail dépasse trente jours, une visite de préreprise peut être organisée avec le médecin du travail, selon l\'article R.4624-29. Elle peut être demandée par le médecin traitant, le médecin-conseil de l\'assurance maladie ou le salarié lui-même. L\'employeur n\'en est pas l\'initiateur et ne peut pas l\'imposer." },
+      { type: "p", text: "Son objectif est d\'anticiper les difficultés : aménagement du poste, reclassement, formation en vue d\'une réorientation. Plus ces points sont abordés tôt, moins le retour est brutal." },
+      { type: "h2", text: "Le rendez-vous de liaison pendant l\'arrêt" },
+      { type: "p", text: "Le rendez-vous de liaison, prévu par l\'article L.1226-1-3, associe l\'employeur, le salarié et le service de prévention et de santé au travail. Il vise à informer le salarié des actions de prévention de la désinsertion professionnelle et de l\'examen de préreprise. Il ne comporte aucun contrôle médical et ne traite pas des motifs de l\'arrêt." },
+      { type: "p", text: "L\'employeur peut en prendre l\'initiative pour une absence de plus de trente jours. Le salarié peut aussi le demander. Le salarié reste libre de ne pas y donner suite." },
+      { type: "h2", text: "La visite de reprise, un examen obligatoire" },
+      { type: "p", text: "Selon l\'article R.4624-31, l\'employeur saisit le service de prévention et de santé au travail dès qu\'il a connaissance de la date de fin de l\'arrêt. La visite de reprise est obligatoire dans les cas suivants :" },
+      { type: "ul", items: ["après un congé de maternité ;", "après une absence pour maladie professionnelle ;", "après une absence d\'au moins trente jours pour accident du travail ;", "après une absence d\'au moins soixante jours pour maladie ou accident non professionnel."] },
+      { type: "p", text: "Elle a lieu au plus tard dans les huit jours suivant la reprise du travail. Elle vérifie que le poste est compatible avec l\'état de santé du salarié et peut aboutir à des préconisations d\'aménagement ou à un avis d\'inaptitude." },
+      { type: "h2", text: "Ce que l\'employeur doit anticiper" },
+      { type: "p", text: "Le suivi commence par un échange simple : date de retour, interlocuteur, besoins éventuels. Le manager prépare le terrain avec l\'équipe, sans révéler d\'information médicale, qui reste confidentielle. Il vérifie aussi les évolutions survenues pendant l\'absence : nouvelles procédures, outils, habilitations arrivées à échéance." },
+      { type: "quote", text: "Un retour bien préparé se joue avant le premier jour, pas à la porte du bureau." },
+      { type: "h3", text: "Les points à traiter la première semaine" },
+      { type: "p", text: "Un point d\'accueil avec le manager, la mise à jour des informations sur les risques du poste, et le contrôle des formations obligatoires, comme le recyclage du sauveteur secouriste du travail ou l\'habilitation électrique. Un temps de réadaptation progressif peut être envisagé si le médecin du travail l\'a recommandé." },
+      { type: "p", text: "Référence officielle : articles L.1226-1-3, R.4624-29 et R.4624-31 du Code du travail." },
+      { type: "cta", text: "Pour former vos managers et vos équipes à accompagner un retour au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
