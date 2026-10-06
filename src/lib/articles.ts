@@ -193,6 +193,7 @@ export const articleSlugs = [
   "evenement-choquant-travail-soutien-collegues-employeur-apres-accident",
   "douche-securite-lave-yeux-urgence-entreprise-installation-entretien",
   "reprise-travail-arret-long-visite-reprise-rendez-vous-liaison",
+  "batteries-lithium-ion-entreprise-risque-incendie-stockage-charge",
 ] as const;
 
 /**
@@ -8540,6 +8541,38 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un point d\'accueil avec le manager, la mise à jour des informations sur les risques du poste, et le contrôle des formations obligatoires, comme le recyclage du sauveteur secouriste du travail ou l\'habilitation électrique. Un temps de réadaptation progressif peut être envisagé si le médecin du travail l\'a recommandé." },
       { type: "p", text: "Référence officielle : articles L.1226-1-3, R.4624-29 et R.4624-31 du Code du travail." },
       { type: "cta", text: "Pour former vos managers et vos équipes à accompagner un retour au travail,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "batteries-lithium-ion-entreprise-risque-incendie-stockage-charge": {
+    title:
+      "Batteries lithium-ion en entreprise : prévenir le risque d\'incendie à la charge et au stockage",
+    excerpt:
+      "Trottinettes, outils sans fil, ordinateurs : les batteries lithium-ion sont partout. Comprendre l\'emballement thermique, organiser la charge et le stockage, et savoir réagir face à un départ de feu.",
+    publishedAt: "2026-10-06",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/batteries-lithium-ion-entreprise-risque-incendie-stockage-charge.jpg",
+    content: [
+      { type: "p", text: "Les batteries lithium-ion alimentent les outils portatifs, les trottinettes, les vélos à assistance électrique, les ordinateurs et de plus en plus d\'engins de manutention. Leur énergie concentrée en fait un risque d\'incendie à part entière dans les locaux de travail. Cet article aide les préventeurs et les dirigeants à encadrer la charge, le stockage et la réaction en cas de départ de feu." },
+      { type: "h2", text: "Comprendre l\'emballement thermique" },
+      { type: "p", text: "Une cellule lithium-ion endommagée, surchargée ou exposée à la chaleur peut s\'échauffer de manière incontrôlée. La chaleur dégagée gagne les cellules voisines et le phénomène s\'entretient de lui-même : c\'est l\'emballement thermique. Il se manifeste par un sifflement, un gonflement du boîtier, des fumées épaisses, puis des flammes parfois violentes." },
+      { type: "p", text: "Le feu peut repartir après avoir été éteint, tant que les cellules restent chaudes. Cette particularité change la manière de surveiller un incident, même quand les flammes ont disparu." },
+      { type: "h2", text: "Les causes les plus fréquentes en entreprise" },
+      { type: "ul", items: ["chargeur non adapté ou d\'origine incertaine ;", "batterie tombée, écrasée ou percée, même sans dégât visible ;", "charge sans surveillance, la nuit ou le week-end, sur un support combustible ;", "batterie exposée au soleil, à une source de chaleur ou stockée dans un local mal ventilé ;", "accumulation de batteries dans un même endroit, sans séparation."] },
+      { type: "h2", text: "Organiser la charge" },
+      { type: "p", text: "L\'évaluation des risques prévue par les articles L.4121-1 et L.4121-2 du Code du travail doit intégrer ces équipements, au même titre que les autres sources d\'ignition. Le plus simple est de désigner un emplacement de charge dédié, éloigné des issues, des circulations et des matières combustibles, avec des murs et un sol non combustibles." },
+      { type: "p", text: "Les consignes doivent rester concrètes : n\'utiliser que le chargeur fourni avec l\'appareil, ne pas charger de batterie chaude ou abîmée, débrancher dès la charge terminée. Pour les flottes importantes, un local de charge séparé du reste du bâtiment limite la propagation d\'un incendie." },
+      { type: "h2", text: "Stocker sans accumuler" },
+      { type: "p", text: "Les batteries neuves, usagées ou en attente de recyclage ne se stockent pas en vrac. Chacune est isolée par un conditionnement qui évite les courts-circuits entre les bornes. Les quantités sont limitées, le local est ventilé et protégé de la chaleur, et le stock est séparé des produits inflammables." },
+      { type: "p", text: "Une batterie gonflée, chaude, déformée ou qui sent le solvant est mise à l\'écart, à l\'extérieur si possible, sur un support non combustible, jusqu\'à sa reprise par une filière de traitement adaptée. Elle ne retourne jamais dans le circuit de charge." },
+      { type: "h2", text: "Réagir face à un départ de feu" },
+      { type: "p", text: "La règle reste celle enseignée en formation incendie : donner l\'alerte, évacuer, n\'intervenir que si le feu est naissant et sans prendre de risque. Les fumées de batteries sont irritantes et toxiques. Il ne faut jamais s\'en approcher dans un local fermé sans protection adaptée." },
+      { type: "ul", items: ["déclencher l\'alarme et appeler les secours (18 ou 112) ;", "couper l\'alimentation électrique du chargeur si cela peut se faire sans danger ;", "évacuer les personnes et fermer les portes pour limiter la propagation ;", "ne pas déplacer une batterie en feu ;", "signaler aux pompiers la présence de batteries lithium-ion et leur nombre."] },
+      { type: "quote", text: "Le meilleur moment pour préparer la réaction à un feu de batterie, c\'est avant qu\'il se produise : consignes affichées, emplacement de charge défini, personnel formé." },
+      { type: "h3", text: "Former et tester" },
+      { type: "p", text: "Les salariés qui manipulent ou chargent des batteries doivent connaître ces consignes. Un exercice d\'évacuation incluant un scénario de feu de batterie, couplé à une manipulation d\'extincteur, permet de vérifier que chacun sait où aller et qui alerter." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à la prévention et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
