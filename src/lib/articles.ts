@@ -194,6 +194,7 @@ export const articleSlugs = [
   "douche-securite-lave-yeux-urgence-entreprise-installation-entretien",
   "reprise-travail-arret-long-visite-reprise-rendez-vous-liaison",
   "batteries-lithium-ion-entreprise-risque-incendie-stockage-charge",
+  "delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions",
 ] as const;
 
 /**
@@ -8573,6 +8574,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les salariés qui manipulent ou chargent des batteries doivent connaître ces consignes. Un exercice d\'évacuation incluant un scénario de feu de batterie, couplé à une manipulation d\'extincteur, permet de vérifier que chacun sait où aller et qui alerter." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à la prévention et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions": {
+    title:
+      "Délégation de pouvoirs en matière de sécurité : conditions de validité et limites",
+    excerpt:
+      "Le chef d\'entreprise peut déléguer ses pouvoirs en santé et sécurité, mais seulement à certaines conditions. Compétence, autorité, moyens : ce que la jurisprudence exige et ce que la délégation ne couvre pas.",
+    publishedAt: "2026-10-07",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions.jpg",
+    content: [
+      { type: "p", text: "Dans une entreprise de plusieurs sites ou de plusieurs dizaines de salariés, le dirigeant ne peut pas superviser seul chaque poste de travail. Il confie donc la sécurité à un directeur d\'établissement, un chef de chantier ou un responsable d\'atelier. Cette organisation a un cadre juridique précis : la délégation de pouvoirs. Cet article en détaille les conditions, les effets et les limites." },
+      { type: "h2", text: "Le principe : le chef d\'entreprise est responsable" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Les manquements aux règles de santé et de sécurité peuvent être sanctionnés pénalement, notamment sur le fondement de l\'article L.4741-1. La responsabilité pèse en premier lieu sur celui qui dirige l\'entreprise." },
+      { type: "h2", text: "Ce que change la délégation" },
+      { type: "p", text: "Selon une jurisprudence ancienne et constante de la chambre criminelle de la Cour de cassation, le chef d\'entreprise peut s\'exonérer de sa responsabilité pénale s\'il a délégué ses pouvoirs à un préposé. Le délégataire devient alors le responsable pénal des infractions commises dans le champ de la délégation. La délégation transfère donc le risque pénal, pas l\'ensemble des obligations de l\'employeur." },
+      { type: "h2", text: "Les trois conditions de validité" },
+      { type: "p", text: "Les juges vérifient que le délégataire réunit trois qualités. L\'absence d\'une seule suffit à écarter la délégation." },
+      { type: "ul", items: ["la compétence : le délégataire connaît la réglementation, les risques du poste et les moyens de les maîtriser, ce qui suppose une formation et une expérience réelles ;", "l\'autorité : il peut donner des ordres, sanctionner un manquement et faire arrêter une activité dangereuse ;", "les moyens : il dispose d\'un budget, de matériel et de personnel pour agir sans demander chaque fois l\'accord du dirigeant."] },
+      { type: "p", text: "Un responsable qui doit obtenir une validation pour chaque achat de protection collective n\'a pas les moyens d\'agir. La délégation sera alors jugée inopérante." },
+      { type: "h2", text: "Une délégation précise et sans équivoque" },
+      { type: "p", text: "La loi n\'impose pas d\'écrit, mais en pratique la preuve de la délégation incombe au dirigeant qui l\'invoque. Un document daté et signé par les deux parties est donc indispensable. Il décrit le périmètre (site, activités, matières couvertes), les missions confiées, les moyens alloués et l\'acceptation du délégataire. Une formule générale du type « il s\'occupe de la sécurité » ne suffit pas." },
+      { type: "h2", text: "Les limites à connaître" },
+      { type: "p", text: "La délégation ne dégage pas le dirigeant dans tous les cas. S\'il a participé personnellement à l\'infraction, par exemple en donnant une instruction contraire aux règles de sécurité, sa responsabilité reste engagée. Elle ne joue pas non plus lorsque le délégataire n\'a pas les moyens d\'agir ou lorsque le dirigeant n\'a pas laissé de véritable autonomie." },
+      { type: "p", text: "L\'entreprise elle-même peut aussi voir sa responsabilité pénale engagée comme personne morale, selon l\'article 121-2 du Code pénal, lorsque l\'infraction a été commise pour son compte par un organe ou un représentant. Enfin, sur le plan civil, la faute inexcusable relève de l\'employeur au titre des articles L.452-1 et suivants du Code de la sécurité sociale : la délégation de pouvoirs ne l\'écarte pas." },
+      { type: "h3", text: "Les bons réflexes pour le dirigeant" },
+      { type: "p", text: "Choisir un délégataire formé, lui allouer un budget identifié, vérifier périodiquement l\'exercice de la mission et rendre la délégation connue des équipes. Elle doit être mise à jour en cas de changement de poste, de périmètre ou d\'organisation. Un délégataire qui quitte l\'entreprise sans remplaçant désigné laisse un vide, et la responsabilité retourne au dirigeant." },
+      { type: "quote", text: "Une délégation vaut par les moyens réels qu\'elle donne, pas par le papier qui la constate." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4741-1 du Code du travail, article 121-2 du Code pénal, articles L.452-1 et suivants du Code de la sécurité sociale, jurisprudence de la chambre criminelle de la Cour de cassation." },
+      { type: "cta", text: "Pour former vos responsables de site et vos managers à leurs obligations en santé et sécurité,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
