@@ -195,6 +195,7 @@ export const articleSlugs = [
   "reprise-travail-arret-long-visite-reprise-rendez-vous-liaison",
   "batteries-lithium-ion-entreprise-risque-incendie-stockage-charge",
   "delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions",
+  "echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre",
 ] as const;
 
 /**
@@ -8605,6 +8606,34 @@ export const articles: Record<string, Article> = {
       { type: "quote", text: "Une délégation vaut par les moyens réels qu\'elle donne, pas par le papier qui la constate." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4741-1 du Code du travail, article 121-2 du Code pénal, articles L.452-1 et suivants du Code de la sécurité sociale, jurisprudence de la chambre criminelle de la Cour de cassation." },
       { type: "cta", text: "Pour former vos responsables de site et vos managers à leurs obligations en santé et sécurité,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre": {
+    title: "Échauffement avant la prise de poste : mettre en place une routine anti-TMS",
+    excerpt:
+      "Quelques minutes de mobilisation avant de commencer peuvent compléter la prévention des troubles musculo-squelettiques. Ce que l\'échauffement peut apporter, ses limites et comment l\'organiser en entreprise.",
+    publishedAt: "2026-10-08",
+    category: "Ergonomie",
+    readingTime: 5,
+    image: "/images/articles/echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre.jpg",
+    content: [
+      { type: "p", text: "Les sportifs s\'échauffent avant l\'effort. Les salariés qui manutentionnent, répètent les mêmes gestes ou restent longtemps dans la même posture sollicitent pourtant leur corps de façon comparable. Certaines entreprises, notamment dans la logistique, l\'industrie et le bâtiment, ont donc instauré un échauffement de quelques minutes en début de poste. Voici comment le concevoir sans en faire un gadget." },
+      { type: "h2", text: "Ce que l\'échauffement peut apporter" },
+      { type: "p", text: "L\'objectif est de préparer progressivement les articulations et les muscles à l\'effort : élever légèrement la température musculaire, mobiliser les épaules, le dos, les poignets et les jambes, et passer d\'un état de repos à un état d\'activité sans à-coup. Il invite aussi le salarié à prêter attention à son corps avant de commencer, ce qui aide à repérer une gêne naissante." },
+      { type: "h2", text: "Ce qu\'il ne remplace pas" },
+      { type: "p", text: "L\'échauffement ne corrige ni un poste mal conçu, ni une charge trop lourde, ni une cadence excessive. Le Code du travail demande à l\'employeur d\'éviter les risques, de les évaluer et de combattre les risques à la source (L.4121-2). L\'aménagement du poste, les aides à la manutention et l\'organisation du travail passent donc avant toute routine corporelle." },
+      { type: "quote", text: "Un échauffement est une mesure complémentaire. S\'il sert à compenser un poste mal pensé, il masque le problème au lieu de le traiter." },
+      { type: "h2", text: "Concevoir une routine adaptée au poste" },
+      { type: "p", text: "Une routine copiée sur un autre site convient rarement. Elle part de l\'analyse du travail réel : quelles articulations sont sollicitées, dans quelles postures, à quel rythme. Le préventeur, le médecin du travail ou le kinésithérapeute intervenant en entreprise peuvent aider à choisir les mouvements. Les salariés concernés participent à sa construction, car une routine imposée sans eux est vite abandonnée." },
+      { type: "ul", items: ["durée courte, de cinq à dix minutes, pour rester tenable chaque jour ;", "mouvements simples, sans matériel, réalisables sur le lieu de travail ;", "progression douce, des grandes articulations vers les zones les plus sollicitées par le poste ;", "alternatives prévues pour les salariés qui ont une restriction médicale."] },
+      { type: "h2", text: "L\'organiser concrètement" },
+      { type: "p", text: "Le plus simple est de l\'intégrer au planning, au même moment et au même endroit chaque jour, par exemple lors de la prise de poste ou du point d\'équipe. Un salarié ou un encadrant volontaire, formé aux mouvements, peut l\'animer. Le temps consacré est du temps de travail : la routine ne doit pas empiéter sur la pause." },
+      { type: "h3", text: "Rester volontaire et progressif" },
+      { type: "p", text: "Aucun salarié ne doit se sentir contraint d\'exécuter un mouvement qui provoque une douleur. La consigne est claire : on s\'arrête en cas de gêne et on le signale. Un échauffement mal dosé ou trop intense crée lui-même un risque." },
+      { type: "h2", text: "Mesurer l\'effet dans la durée" },
+      { type: "p", text: "Pour savoir si la démarche sert à quelque chose, suivez des indicateurs simples avant et après la mise en place : plaintes remontées au médecin du travail, accidents du travail liés aux efforts, absences pour douleurs, ressenti des équipes recueilli lors d\'un échange. Les résultats alimentent le DUERP (Document Unique d\'Évaluation des Risques) et son programme d\'actions." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques liés à l\'activité physique,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
     ],
   },
 };
