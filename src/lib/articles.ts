@@ -196,6 +196,7 @@ export const articleSlugs = [
   "batteries-lithium-ion-entreprise-risque-incendie-stockage-charge",
   "delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions",
   "echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre",
+  "stockage-produits-chimiques-incompatibilites-retention-armoires-prevention",
 ] as const;
 
 /**
@@ -8634,6 +8635,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Pour savoir si la démarche sert à quelque chose, suivez des indicateurs simples avant et après la mise en place : plaintes remontées au médecin du travail, accidents du travail liés aux efforts, absences pour douleurs, ressenti des équipes recueilli lors d\'un échange. Les résultats alimentent le DUERP (Document Unique d\'Évaluation des Risques) et son programme d\'actions." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques liés à l\'activité physique,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
+    ],
+  },
+  "stockage-produits-chimiques-incompatibilites-retention-armoires-prevention": {
+    title: "Stockage des produits chimiques : incompatibilités, rétention et armoires de sécurité",
+    excerpt:
+      "Un mauvais rangement suffit à transformer deux produits stables en mélange dangereux. Lecture des étiquettes, séparation des familles, bacs de rétention et armoires : les règles de base pour un stockage maîtrisé.",
+    publishedAt: "2026-10-09",
+    category: "Prévention",
+    readingTime: 6,
+    image: "/images/articles/stockage-produits-chimiques-incompatibilites-retention-armoires-prevention.jpg",
+    content: [
+      { type: "p", text: "Les accidents chimiques surviennent souvent hors du poste de travail : lors d\'un rangement, d\'un transvasement ou de la fuite d\'un bidon mal calé. Le stockage est un risque à part entière, que l\'évaluation des risques doit traiter au même titre que l\'utilisation. Voici les points de contrôle qui comptent." },
+      { type: "h2", text: "Partir de l\'inventaire et de l\'étiquette" },
+      { type: "p", text: "Le stockage se décide produit par produit. Le règlement CE n°1272/2008 (CLP) impose un étiquetage avec pictogrammes de danger, mentions d\'avertissement et mentions de danger. La fiche de données de sécurité complète l\'information : sa rubrique 7 traite de la manipulation et du stockage, sa rubrique 10 de la stabilité et de la réactivité. Sans inventaire à jour, aucun plan de rangement sérieux n\'est possible." },
+      { type: "h2", text: "Séparer les produits incompatibles" },
+      { type: "p", text: "Certains produits ne doivent jamais être rangés côte à côte, car leur contact provoque une réaction dangereuse : dégagement de gaz toxique, échauffement, incendie ou explosion. La logique de séparation repose sur les familles de danger." },
+      { type: "ul", items: ["les produits inflammables sont éloignés des comburants, qui entretiennent et aggravent un feu ;", "les acides sont séparés des bases et des produits dont le mélange libère des gaz toxiques, comme l\'eau de Javel avec un acide ;", "les produits corrosifs sont rangés à bas niveau pour limiter les projections en cas de chute ;", "les produits qui réagissent avec l\'eau sont stockés au sec, à l\'écart des points d\'eau et des douches de sécurité." ] },
+      { type: "p", text: "Un tableau d\'incompatibilités affiché près du local, construit à partir des fiches de données de sécurité, aide les équipes à ranger sans hésiter." },
+      { type: "h2", text: "Prévoir la rétention" },
+      { type: "p", text: "Un récipient qui fuit ne doit pas répandre son contenu sur le sol, vers les évacuations ou chez le voisin. Les bacs de rétention, ou les étagères intégrant une cuvette, recueillent la fuite. Leur capacité doit correspondre aux volumes stockés, et deux produits incompatibles ne partagent jamais le même bac. Un bac rempli d\'eau de pluie ou d\'un produit inconnu est à vérifier et à vider régulièrement." },
+      { type: "h2", text: "Choisir l\'armoire et le local adaptés" },
+      { type: "p", text: "Les liquides inflammables en quantité significative se rangent dans une armoire de sécurité résistante au feu, conforme à la norme NF EN 14470-1. Les produits corrosifs ou toxiques disposent d\'armoires dédiées, ventilées si la fiche de données de sécurité l\'indique. Un local de stockage doit être aéré, fermé à clé, éloigné des sources de chaleur et d\'ignition, et signalé. L\'accès est réservé aux salariés formés et habilités à y entrer." },
+      { type: "h3", text: "Conserver les contenants d\'origine" },
+      { type: "p", text: "Le transvasement dans une bouteille d\'eau ou un récipient sans étiquette est une cause fréquente d\'intoxication. Si un transvasement est nécessaire, le nouveau contenant reçoit une étiquette reprenant au minimum le nom du produit et les pictogrammes de danger." },
+      { type: "h2", text: "Organiser le suivi dans le temps" },
+      { type: "p", text: "Un stock bien rangé le jour de l\'installation se dégrade vite. Une vérification régulière contrôle l\'état des bidons, la lisibilité des étiquettes, la propreté des bacs et les dates de péremption. Les produits périmés ou sans usage sont évacués par une filière de déchets adaptée, jamais jetés à l\'évier. La quantité stockée au poste est limitée au besoin de la journée ou du poste." },
+      { type: "quote", text: "Un stockage sûr se juge au pire scénario : que se passe-t-il si ce bidon tombe et que son voisin est incompatible ?" },
+      { type: "p", text: "Les consignes en cas de fuite, d\'incendie ou de projection doivent être connues de ceux qui accèdent au local : kit absorbant à proximité, douche de sécurité ou lave-yeux accessible, numéro d\'urgence affiché." },
+      { type: "p", text: "Référence officielle : règlement CE n°1272/2008 (CLP), règlement CE n°1907/2006 (REACH), articles R.4412-1 et suivants du Code du travail relatifs aux agents chimiques dangereux, article L.4121-1 du Code du travail, norme NF EN 14470-1." },
+      { type: "cta", text: "Pour former vos équipes à la prévention du risque chimique et aux gestes de secours associés,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
