@@ -197,6 +197,7 @@ export const articleSlugs = [
   "delegation-pouvoirs-securite-employeur-responsabilite-penale-conditions",
   "echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre",
   "stockage-produits-chimiques-incompatibilites-retention-armoires-prevention",
+  "detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance",
 ] as const;
 
 /**
@@ -8665,6 +8666,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les consignes en cas de fuite, d\'incendie ou de projection doivent être connues de ceux qui accèdent au local : kit absorbant à proximité, douche de sécurité ou lave-yeux accessible, numéro d\'urgence affiché." },
       { type: "p", text: "Référence officielle : règlement CE n°1272/2008 (CLP), règlement CE n°1907/2006 (REACH), articles R.4412-1 et suivants du Code du travail relatifs aux agents chimiques dangereux, article L.4121-1 du Code du travail, norme NF EN 14470-1." },
       { type: "cta", text: "Pour former vos équipes à la prévention du risque chimique et aux gestes de secours associés,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance": {
+    title: "Détection automatique d\'incendie : choisir ses détecteurs et les maintenir en état",
+    excerpt:
+      "Fumée, chaleur, flamme ou multicapteur : chaque détecteur répond à un type de local et de feu. Comment choisir, éviter les déclenchements intempestifs et organiser la maintenance des installations.",
+    publishedAt: "2026-10-10",
+    category: "Sécurité incendie",
+    readingTime: 6,
+    image: "/images/articles/detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance.jpg",
+    content: [
+      { type: "p", text: "Un détecteur automatique ne règle pas l\'incendie, il gagne du temps. Plus l\'alarme est précoce, plus l\'évacuation se fait dans de bonnes conditions et plus le feu est facile à maîtriser. Encore faut-il que le détecteur soit adapté au local, correctement positionné et réellement entretenu. Un équipement mal choisi sonne pour rien, ou pire, ne sonne pas." },
+      { type: "h2", text: "Ce que la détection apporte à l\'évaluation des risques" },
+      { type: "p", text: "L\'employeur doit évaluer les risques et mettre en place des mesures proportionnées, conformément aux articles L.4121-1 et L.4121-2 du Code du travail. Pour le risque incendie, la détection précoce fait partie des moyens qui limitent les conséquences d\'un départ de feu, en complément des extincteurs, de l\'alarme et de l\'organisation de l\'évacuation. Le niveau d\'équipement dépend de l\'activité, de la configuration des locaux et de la classification du bâtiment." },
+      { type: "h2", text: "Les principaux types de détecteurs" },
+      { type: "p", text: "Chaque technologie réagit à un phénomène différent, ce qui explique qu\'aucune ne convienne partout." },
+      { type: "ul", items: ["le détecteur optique de fumée repère les particules visibles d\'un feu couvant, fréquent dans les bureaux, les archives ou les chambres ;", "le détecteur thermique ou thermovélocimétrique réagit à une température élevée ou à une montée rapide de chaleur, utile là où la fumée ou la vapeur est habituelle, comme une cuisine ;", "le détecteur de flamme analyse le rayonnement du feu, adapté aux grands volumes ou aux zones de stockage de liquides inflammables ;", "le détecteur multicapteur combine plusieurs mesures pour limiter les fausses alarmes."] },
+      { type: "h2", text: "Choisir selon le local et le feu attendu" },
+      { type: "p", text: "Le choix part de l\'analyse du risque : nature des matières présentes, vitesse probable de propagation, hauteur sous plafond, ventilation, poussières, vapeurs de cuisson ou de process. Une chaufferie poussiéreuse n\'appelle pas le même détecteur qu\'une salle informatique. Le positionnement compte autant que la technologie : un détecteur masqué par une poutre, un faux plafond ou un flux d\'air perd une grande partie de son efficacité." },
+      { type: "h3", text: "Limiter les déclenchements intempestifs" },
+      { type: "p", text: "Une installation qui sonne à tort lasse le personnel, qui finit par ne plus évacuer ou par neutraliser les détecteurs. Les causes habituelles sont la poussière, la vapeur d\'eau, les fumées de cuisson, les travaux sans protection des détecteurs et les insectes dans les chambres de détection. Un diagnostic de chaque alarme intempestive permet de corriger la cause plutôt que de débrancher l\'appareil." },
+      { type: "h2", text: "Organiser la maintenance et la traçabilité" },
+      { type: "p", text: "Un détecteur s\'encrasse et vieillit. Le référentiel APSAD R7, consacré à la détection automatique d\'incendie, encadre la conception, l\'installation et la maintenance de ces systèmes. Il prévoit des contrôles périodiques réalisés par un prestataire compétent, dont le rythme et le contenu sont précisés dans le contrat de maintenance." },
+      { type: "ul", items: ["conserver le plan de l\'installation et la liste des détecteurs par zone ;", "faire consigner chaque contrôle, essai et remplacement dans un registre à jour ;", "prévenir le prestataire de tout changement d\'aménagement ou d\'usage des locaux ;", "former les occupants à reconnaître l\'alarme et à appliquer les consignes d\'évacuation."] },
+      { type: "quote", text: "Un détecteur testé une fois par an, mais jamais regardé le reste du temps, devient un décor. Son état se surveille au quotidien." },
+      { type: "h2", text: "Les bons réflexes au quotidien" },
+      { type: "p", text: "Pendant des travaux par point chaud ou des opérations très poussiéreuses, protéger les détecteurs est parfois nécessaire, mais cette mise hors service doit être temporaire, décidée par une personne responsable et suivie d\'une remise en service vérifiée. Les salariés ne doivent jamais couvrir un détecteur, par exemple avec un sac ou un ruban, pour éviter une alarme. Tout dérangement signalé sur le tableau de report doit être traité sans délai." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, référentiel APSAD R7 relatif à la détection automatique d\'incendie." },
+      { type: "cta", text: "Pour former vos équipes à réagir à l\'alarme et à évacuer dans de bonnes conditions,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
