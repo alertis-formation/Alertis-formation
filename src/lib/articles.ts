@@ -198,6 +198,7 @@ export const articleSlugs = [
   "echauffement-prise-de-poste-prevention-tms-mise-en-oeuvre",
   "stockage-produits-chimiques-incompatibilites-retention-armoires-prevention",
   "detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance",
+  "rallonges-multiprises-travail-surcharge-prevention-incendie-electrique",
 ] as const;
 
 /**
@@ -8695,6 +8696,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Pendant des travaux par point chaud ou des opérations très poussiéreuses, protéger les détecteurs est parfois nécessaire, mais cette mise hors service doit être temporaire, décidée par une personne responsable et suivie d\'une remise en service vérifiée. Les salariés ne doivent jamais couvrir un détecteur, par exemple avec un sac ou un ruban, pour éviter une alarme. Tout dérangement signalé sur le tableau de report doit être traité sans délai." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, référentiel APSAD R7 relatif à la détection automatique d\'incendie." },
       { type: "cta", text: "Pour former vos équipes à réagir à l\'alarme et à évacuer dans de bonnes conditions,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "rallonges-multiprises-travail-surcharge-prevention-incendie-electrique": {
+    title: "Rallonges et multiprises au travail : éviter la surcharge et le risque d\'incendie",
+    excerpt:
+      "Une multiprise en cascade ou une rallonge enroulée sous charge chauffe, parfois jusqu\'à l\'incendie. Les règles d\'usage, les contrôles visuels et les alternatives à mettre en place dans les locaux de travail.",
+    publishedAt: "2026-10-11",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/rallonges-multiprises-travail-surcharge-prevention-incendie-electrique.jpg",
+    content: [
+      { type: "p", text: "Dans un bureau, un atelier ou un entrepôt, les besoins en prises dépassent vite l\'installation prévue. On ajoute une multiprise, puis une seconde sur la première, puis une rallonge pour atteindre le poste. Ces solutions de dépannage deviennent permanentes et concentrent un risque réel de surchauffe, de court-circuit et de départ de feu." },
+      { type: "h2", text: "Pourquoi une multiprise surcharge" },
+      { type: "p", text: "Chaque prise, chaque câble et chaque circuit supporte une intensité maximale. Quand la somme des appareils branchés la dépasse, les conducteurs chauffent et l\'isolant se dégrade. Le danger augmente avec les appareils qui consomment beaucoup sur la durée : radiateur d\'appoint, bouilloire, machine à café, chargeurs groupés. Une multiprise n\'augmente jamais la puissance disponible à la prise murale, elle la répartit seulement." },
+      { type: "h2", text: "Les situations à risque les plus fréquentes" },
+      { type: "ul", items: ["des multiprises branchées les unes sur les autres, dites en cascade ;", "une rallonge enroulée sur son dévidoir pendant qu\'elle alimente un appareil puissant, ce qui empêche la chaleur de s\'évacuer ;", "un câble coincé sous une porte, écrasé par un chariot ou plié à angle vif ;", "un matériel domestique utilisé en atelier, en extérieur ou dans un local humide ;", "une multiprise posée au sol près de produits inflammables, de cartons ou de poussières."] },
+      { type: "h2", text: "Ce que l\'employeur doit organiser" },
+      { type: "p", text: "L\'employeur doit évaluer les risques et prendre les mesures de prévention adaptées, conformément aux articles L.4121-1 et L.4121-2 du Code du travail. Les installations électriques des locaux doivent être conçues, entretenues et vérifiées pour que les salariés n\'aient pas à multiplier les branchements de fortune. Le recours durable à des rallonges signale souvent une installation sous-dimensionnée, à traiter à la source." },
+      { type: "h3", text: "Faire adapter l\'installation" },
+      { type: "p", text: "Si les prises manquent, la bonne réponse est d\'en faire installer là où le besoin existe, par un électricien compétent, dans le respect de la norme NF C15-100 relative aux installations électriques à basse tension. Un circuit dédié se justifie pour les appareils les plus puissants. L\'ajout de prises est une opération réservée à des personnes qualifiées, jamais un bricolage de dépannage." },
+      { type: "h2", text: "Fixer des règles d\'usage simples" },
+      { type: "p", text: "Quand une rallonge temporaire est inévitable, quelques règles limitent le risque. Choisir un modèle dont la puissance admissible et l\'indice de protection correspondent à l\'usage, le dérouler entièrement, le poser hors des zones de passage et le retirer dès la fin du besoin. Les appareils de chauffage et de cuisson se branchent directement sur une prise murale. Ces consignes gagnent à être rappelées lors de l\'accueil sécurité et du quart d\'heure sécurité." },
+      { type: "quote", text: "Une multiprise tiède au toucher est déjà un signal d\'alerte : on la débranche et on la signale." },
+      { type: "h2", text: "Contrôler et faire remonter les anomalies" },
+      { type: "p", text: "Un contrôle visuel régulier suffit à repérer l\'essentiel : gaine fendue, fiche noircie ou déformée, odeur de plastique chauffé, prise qui se desserre, disjoncteur qui saute de façon répétée. Tout matériel douteux est retiré de l\'usage et remplacé, pas réparé avec du ruban adhésif. Les salariés doivent savoir à qui signaler une anomalie et être assurés que cette remontée est attendue. Les vérifications périodiques de l\'installation par un organisme ou une personne compétente complètent ce suivi du quotidien." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, norme NF C15-100." },
+      { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
