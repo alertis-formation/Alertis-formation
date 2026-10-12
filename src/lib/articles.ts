@@ -199,6 +199,7 @@ export const articleSlugs = [
   "stockage-produits-chimiques-incompatibilites-retention-armoires-prevention",
   "detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance",
   "rallonges-multiprises-travail-surcharge-prevention-incendie-electrique",
+  "tracabilite-denrees-restauration-rappel-produit-obligations",
 ] as const;
 
 /**
@@ -8723,6 +8724,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un contrôle visuel régulier suffit à repérer l\'essentiel : gaine fendue, fiche noircie ou déformée, odeur de plastique chauffé, prise qui se desserre, disjoncteur qui saute de façon répétée. Tout matériel douteux est retiré de l\'usage et remplacé, pas réparé avec du ruban adhésif. Les salariés doivent savoir à qui signaler une anomalie et être assurés que cette remontée est attendue. Les vérifications périodiques de l\'installation par un organisme ou une personne compétente complètent ce suivi du quotidien." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et L.4121-2 du Code du travail, norme NF C15-100." },
       { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "tracabilite-denrees-restauration-rappel-produit-obligations": {
+    title: "Traçabilité des denrées en restauration : enregistrer les lots et gérer un rappel produit",
+    excerpt:
+      "Savoir d\'où vient chaque denrée et où elle est partie : c\'est le principe de la traçabilité. Ce qu\'impose le règlement (CE) n° 178/2002, comment organiser les enregistrements et réagir à un rappel.",
+    publishedAt: "2026-10-12",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/tracabilite-denrees-restauration-rappel-produit-obligations.jpg",
+    content: [
+      { type: "p", text: "Un fournisseur signale un lot de fromage contaminé. En cuisine, la question est immédiate : ce lot est-il chez nous, dans quelle chambre froide, dans quels plats a-t-il été utilisé ? Sans enregistrements, la réponse prend des heures et oblige à tout jeter par précaution. Avec une traçabilité tenue au quotidien, elle prend quelques minutes." },
+      { type: "h2", text: "Ce que prévoit le règlement européen" },
+      { type: "p", text: "La traçabilité des denrées alimentaires est encadrée par l\'article 18 du règlement (CE) n° 178/2002. Chaque exploitant doit être en mesure d\'identifier celui qui lui a fourni une denrée, et les entreprises auxquelles il en a livré lorsqu\'il en cède à d\'autres professionnels. On parle d\'un pas en amont et d\'un pas en aval. Ce principe s\'applique à la restauration, qu\'elle soit commerciale ou collective." },
+      { type: "h2", text: "Les informations à conserver à la réception" },
+      { type: "p", text: "La traçabilité commence au quai de livraison. Le contrôle à réception sert à vérifier la marchandise et à garder la preuve de ce qui est entré en cuisine." },
+      { type: "ul", items: ["le nom du fournisseur et la date de livraison, avec le bon de livraison ou la facture archivés ;", "la nature du produit et son numéro de lot, repris de l\'étiquette ;", "la date limite de consommation ou la date de durabilité minimale ;", "la température relevée pour les produits réfrigérés ou surgelés, et les anomalies constatées."] },
+      { type: "h2", text: "Suivre les denrées jusqu\'à l\'assiette" },
+      { type: "p", text: "En restauration, la difficulté se situe après la réception. Un produit est déconditionné, transvasé, mélangé à d\'autres. Pour garder le fil, l\'étiquette d\'origine peut être conservée ou recopiée, et chaque contenant ouvert porte une étiquette avec la date d\'ouverture et la date limite d\'utilisation. Pour les préparations, un enregistrement relie la production du jour aux lots utilisés." },
+      { type: "h3", text: "Organiser des enregistrements simples" },
+      { type: "p", text: "Un classeur, un tableau ou un logiciel de gestion conviennent s\'ils sont remplis chaque jour par la même personne désignée. Le meilleur système est celui que l\'équipe utilise vraiment. Un registre complet une fois par mois, de mémoire, n\'a aucune valeur lors d\'un contrôle ni lors d\'une alerte." },
+      { type: "h2", text: "Réagir à un retrait ou à un rappel" },
+      { type: "p", text: "L\'article 19 du règlement (CE) n° 178/2002 prévoit que l\'exploitant qui estime qu\'une denrée n\'est pas conforme aux exigences de sécurité engage la procédure de retrait du marché et en informe les autorités compétentes. Dans l\'établissement, la première action consiste à isoler les produits concernés, bien identifiés, à l\'écart des denrées saines." },
+      { type: "ul", items: ["vérifier les lots en stock et ceux déjà utilisés en production ;", "bloquer la vente ou le service des préparations concernées ;", "conserver le produit isolé jusqu\'aux instructions du fournisseur ou des autorités ;", "consigner les actions menées, les quantités et les dates dans un enregistrement daté."] },
+      { type: "quote", text: "Une traçabilité utile se juge le jour où un lot doit être retrouvé, pas le jour où elle est archivée." },
+      { type: "h2", text: "Intégrer la traçabilité au plan de maîtrise sanitaire" },
+      { type: "p", text: "Les procédures de traçabilité et de retrait relèvent du plan de maîtrise sanitaire, qui s\'appuie sur les principes HACCP prévus par le règlement (CE) n° 852/2004. Elles doivent être écrites, connues du personnel et testées de temps en temps. Un exercice simple consiste à choisir un lot au hasard et à retrouver en quelques minutes son fournisseur, son stock restant et les plats préparés avec." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 178/2002, articles 18 et 19 ; règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires." },
+      { type: "cta", text: "Pour former vos équipes de cuisine aux bonnes pratiques d\'hygiène,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
