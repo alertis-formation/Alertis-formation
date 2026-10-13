@@ -200,6 +200,7 @@ export const articleSlugs = [
   "detection-automatique-incendie-detecteurs-fumee-chaleur-choix-maintenance",
   "rallonges-multiprises-travail-surcharge-prevention-incendie-electrique",
   "tracabilite-denrees-restauration-rappel-produit-obligations",
+  "titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions",
 ] as const;
 
 /**
@@ -8753,6 +8754,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les procédures de traçabilité et de retrait relèvent du plan de maîtrise sanitaire, qui s\'appuie sur les principes HACCP prévus par le règlement (CE) n° 852/2004. Elles doivent être écrites, connues du personnel et testées de temps en temps. Un exercice simple consiste à choisir un lot au hasard et à retrouver en quelques minutes son fournisseur, son stock restant et les plats préparés avec." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 178/2002, articles 18 et 19 ; règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires." },
       { type: "cta", text: "Pour former vos équipes de cuisine aux bonnes pratiques d\'hygiène,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions": {
+    title: "Titre d\'habilitation électrique : contenu, délivrance par l\'employeur et carnet de prescriptions",
+    excerpt:
+      "Suivre la formation ne suffit pas : c\'est l\'employeur qui habilite. Ce que doit contenir le titre d\'habilitation, comment le délivrer et à quoi sert le carnet de prescriptions remis au salarié.",
+    publishedAt: "2026-10-13",
+    category: "Habilitation électrique",
+    readingTime: 5,
+    image: "/images/articles/titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions.jpg",
+    content: [
+      { type: "p", text: "Un salarié sort d\'une formation à l\'habilitation électrique avec une attestation de stage. Il croit pouvoir intervenir dès le lendemain. Or la formation n\'est qu\'un préalable : l\'habilitation est une décision de l\'employeur, formalisée par un document écrit. Sans ce titre, le salarié n\'est pas autorisé à réaliser des opérations sur les installations électriques." },
+      { type: "h2", text: "Une décision de l\'employeur, pas de l\'organisme de formation" },
+      { type: "p", text: "Les articles R.4544-9 et R.4544-10 du Code du travail prévoient que les opérations sur les installations électriques ou dans leur voisinage sont réservées à des travailleurs habilités, et que l\'habilitation est délivrée par l\'employeur. Le formateur évalue des connaissances et un savoir-faire. L\'employeur, lui, engage sa responsabilité en autorisant une personne à effectuer des tâches précises dans des conditions précises." },
+      { type: "h2", text: "Ce que l\'employeur vérifie avant de signer" },
+      { type: "p", text: "La norme NF C18-510 décrit la démarche. Avant de délivrer l\'habilitation, l\'employeur s\'assure de trois éléments qui doivent être réunis." },
+      { type: "ul", items: ["l\'aptitude médicale du salarié, constatée dans le cadre du suivi de son état de santé ;", "une formation adaptée aux opérations confiées, théorique et pratique, avec une évaluation des acquis ;", "la connaissance des instructions de sécurité applicables à l\'entreprise et aux ouvrages concernés."] },
+      { type: "h2", text: "Le contenu du titre d\'habilitation" },
+      { type: "p", text: "Le titre d\'habilitation est un document nominatif, signé par l\'employeur et par le titulaire. Il reprend l\'identité du salarié, la date de délivrance et sa durée de validité, ainsi que les symboles d\'habilitation correspondant à ses fonctions : BS, BR, B1V, B2V, BE ou HE selon les cas. Il précise aussi le domaine de tension concerné, les ouvrages ou installations visés et les limites de l\'habilitation." },
+      { type: "h3", text: "Un symbole par type de mission" },
+      { type: "p", text: "Les niveaux de tension, le type d\'opération (travaux, consignation, intervention, mesurage, essais) et le rôle du salarié (exécutant, chargé de chantier, chargé de travaux) se lisent dans les symboles. Un titre trop général, qui attribue les mêmes droits à tous, ne décrit pas la réalité des tâches et fragilise la démarche en cas d\'accident ou de contrôle." },
+      { type: "h2", text: "Le carnet de prescriptions, outil du quotidien" },
+      { type: "p", text: "Le carnet de prescriptions est remis au salarié habilité. Il rassemble les règles de sécurité de la norme qui concernent ses opérations, à appliquer sur le terrain. Il doit rester accessible et être consulté, pas rangé dans un tiroir. Il ne remplace pas les consignes propres au site, que l\'employeur ajoute ou précise lorsque l\'installation l\'exige." },
+      { type: "quote", text: "Une habilitation vaut pour des opérations définies, sur des ouvrages définis, pour une durée définie." },
+      { type: "h2", text: "Suivre, renouveler et retirer" },
+      { type: "p", text: "L\'employeur définit la durée de validité de l\'habilitation et la mentionne dans le titre. Un recyclage régulier permet de maintenir les compétences. L\'habilitation doit être revue lors d\'un changement de poste, d\'une évolution des missions ou d\'un accident." },
+      { type: "ul", items: ["tenir un tableau de suivi des habilitations, des dates de formation et des aptitudes médicales ;", "retirer ou suspendre l\'habilitation si l\'aptitude médicale n\'est plus confirmée ;", "archiver les titres, signés des deux parties, et les mettre à disposition en cas de contrôle."] },
+      { type: "p", text: "Référence officielle : articles R.4544-9 et R.4544-10 du Code du travail, norme NF C18-510." },
+      { type: "cta", text: "Pour former vos équipes à l\'habilitation électrique,", label: "découvrez notre formation habilitation électrique", href: "/formations/habilitation-electrique" },
     ],
   },
 };
