@@ -201,6 +201,7 @@ export const articleSlugs = [
   "rallonges-multiprises-travail-surcharge-prevention-incendie-electrique",
   "tracabilite-denrees-restauration-rappel-produit-obligations",
   "titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions",
+  "bouteilles-gaz-comprime-stockage-manipulation-prevention-travail",
 ] as const;
 
 /**
@@ -8783,6 +8784,35 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["tenir un tableau de suivi des habilitations, des dates de formation et des aptitudes médicales ;", "retirer ou suspendre l\'habilitation si l\'aptitude médicale n\'est plus confirmée ;", "archiver les titres, signés des deux parties, et les mettre à disposition en cas de contrôle."] },
       { type: "p", text: "Référence officielle : articles R.4544-9 et R.4544-10 du Code du travail, norme NF C18-510." },
       { type: "cta", text: "Pour former vos équipes à l\'habilitation électrique,", label: "découvrez notre formation habilitation électrique", href: "/formations/habilitation-electrique" },
+    ],
+  },
+  "bouteilles-gaz-comprime-stockage-manipulation-prevention-travail": {
+    title: "Bouteilles de gaz comprimé au travail : stockage, manipulation et prévention des accidents",
+    excerpt:
+      "Une bouteille de gaz sous pression peut devenir un projectile ou alimenter un incendie. Les règles de stockage, de manutention et de contrôle à appliquer dans les ateliers, cuisines et laboratoires.",
+    publishedAt: "2026-10-14",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/bouteilles-gaz-comprime-stockage-manipulation-prevention-travail.jpg",
+    content: [
+      { type: "p", text: "Soudage, cuisine, laboratoire, chauffage de chantier : les bouteilles de gaz sont présentes dans de nombreux établissements. Elles contiennent un gaz sous forte pression, parfois inflammable, parfois comburant. Une bouteille qui tombe, chauffe ou fuit peut provoquer une explosion, un incendie ou une asphyxie. Les accidents viennent le plus souvent de gestes de manutention et de stockage mal maîtrisés." },
+      { type: "h2", text: "Identifier le danger du gaz contenu" },
+      { type: "p", text: "Le règlement (CE) n° 1272/2008, dit règlement CLP, impose l\'étiquetage des produits dangereux, gaz sous pression compris. Le pictogramme de la bouteille de gaz signale le danger de pression. La flamme indique un gaz inflammable, la flamme sur un cercle un gaz comburant, la tête de mort un gaz toxique. La fiche de données de sécurité du fournisseur précise les risques propres à chaque gaz." },
+      { type: "h2", text: "Les risques à connaître" },
+      { type: "ul", items: ["l\'éclatement ou la projection de la bouteille en cas de chute, de choc ou d\'échauffement ;", "l\'incendie et l\'explosion lors d\'une fuite de gaz inflammable au contact d\'une source d\'ignition ;", "l\'accélération d\'un feu en présence d\'un gaz comburant comme l\'oxygène ;", "l\'asphyxie en local fermé, y compris avec un gaz neutre comme l\'azote ou l\'argon, qui appauvrit l\'air en oxygène sans odeur ni signe annonciateur."] },
+      { type: "h2", text: "Stocker les bouteilles dans de bonnes conditions" },
+      { type: "p", text: "Le stockage se fait dans un local ou une zone dédiée, aérée, à l\'écart des sources de chaleur et d\'ignition. Les bouteilles restent debout, maintenues par une chaîne ou un support pour empêcher la chute, capuchon de protection en place sur le robinet. Les gaz inflammables sont séparés des gaz comburants, et les bouteilles pleines des bouteilles vides, repérées par une étiquette ou un marquage clair." },
+      { type: "h3", text: "Limiter les stocks et signaler la zone" },
+      { type: "p", text: "Plus la quantité stockée est élevée, plus les conséquences d\'un incident augmentent. Le stock se limite au besoin réel, avec une rotation régulière. L\'accès est réservé aux personnes autorisées, la zone est signalée, et l\'interdiction de fumer et de produire des flammes ou étincelles est affichée. Un extincteur adapté est placé à proximité." },
+      { type: "h2", text: "Manipuler sans prendre de risque" },
+      { type: "p", text: "Une bouteille se déplace sur un chariot adapté, jamais en la faisant rouler ni en la tirant par le robinet. Le robinet se manœuvre sans outil improvisé et sans graisse sur les gaz comburants, car l\'huile au contact d\'oxygène sous pression peut s\'enflammer. Après usage, le robinet est refermé, même sur une bouteille que l\'on croit vide, puis le détendeur est purgé." },
+      { type: "quote", text: "Une bouteille pleine ou vide se traite de la même façon : debout, attachée et robinet fermé." },
+      { type: "h2", text: "Vérifier avant chaque usage" },
+      { type: "p", text: "Avant de brancher une bouteille, un contrôle visuel permet de repérer un détendeur abîmé, un flexible craquelé ou un raccord inadapté. Les flexibles ont une date limite d\'utilisation et se remplacent selon les indications du fabricant. Une recherche de fuite se fait avec de l\'eau savonneuse, jamais avec une flamme. En cas d\'odeur de gaz, on ferme le robinet si c\'est possible sans danger, on aère, on évacue et on donne l\'alerte." },
+      { type: "h2", text: "Former les utilisateurs et intégrer le risque à l\'évaluation" },
+      { type: "p", text: "L\'employeur évalue les risques liés aux agents chimiques dangereux et transcrit le résultat dans le document unique, conformément aux articles L.4121-1 et R.4412-1 du Code du travail. Les salariés qui utilisent ou déplacent des bouteilles reçoivent une information et une formation à la sécurité adaptées à leur poste, avec une consigne écrite en cas de fuite ou d\'incendie à proximité du stockage." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et R.4412-1 du Code du travail, règlement (CE) n° 1272/2008 (CLP)." },
+      { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
