@@ -202,6 +202,7 @@ export const articleSlugs = [
   "tracabilite-denrees-restauration-rappel-produit-obligations",
   "titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions",
   "bouteilles-gaz-comprime-stockage-manipulation-prevention-travail",
+  "nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp",
 ] as const;
 
 /**
@@ -8813,6 +8814,32 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur évalue les risques liés aux agents chimiques dangereux et transcrit le résultat dans le document unique, conformément aux articles L.4121-1 et R.4412-1 du Code du travail. Les salariés qui utilisent ou déplacent des bouteilles reçoivent une information et une formation à la sécurité adaptées à leur poste, avec une consigne écrite en cas de fuite ou d\'incendie à proximité du stockage." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et R.4412-1 du Code du travail, règlement (CE) n° 1272/2008 (CLP)." },
       { type: "cta", text: "Pour former vos équipes à la prévention du risque incendie et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp": {
+    title: "Lutte contre les nuisibles en restauration : prévenir rongeurs et insectes dans le cadre HACCP",
+    excerpt:
+      "Rongeurs, blattes, mouches : les nuisibles contaminent les denrées et exposent l\'établissement à des sanctions. Les mesures de prévention, de surveillance et de traçabilité à intégrer au plan de maîtrise sanitaire.",
+    publishedAt: "2026-10-15",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp.jpg",
+    content: [
+      { type: "p", text: "Une souris dans une réserve sèche, des blattes derrière un lave-vaisselle, des mouches près d\'une zone de déchets : ces signes suffisent à compromettre la sécurité des aliments. Les nuisibles transportent des micro-organismes sur leurs pattes, leur pelage et leurs déjections. En restauration, leur maîtrise fait partie de la démarche HACCP, au même titre que la température ou le nettoyage." },
+      { type: "p", text: "Le règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires impose à l\'exploitant de maintenir les locaux propres et en bon état d\'entretien, et de mettre en place des procédures adéquates contre les organismes nuisibles. Ces procédures s\'intègrent au plan de maîtrise sanitaire et doivent pouvoir être présentées lors d\'un contrôle." },
+      { type: "h2", text: "Repérer les nuisibles les plus fréquents" },
+      { type: "ul", items: ["les rongeurs (souris, rats) : déjections, traces de grignotage sur les emballages, bruits nocturnes, traces de gras le long des murs ;", "les blattes : individus vivants dans les zones chaudes et humides, oothèques, odeur persistante ;", "les mouches : présence près des poubelles, des siphons et des denrées découvertes ;", "les insectes des denrées stockées (mites alimentaires, charançons) : fils soyeux et grains percés dans les farines, céréales et épices."] },
+      { type: "h2", text: "Empêcher l\'entrée et l\'installation" },
+      { type: "p", text: "Les portes donnant sur l\'extérieur ferment bien, avec un bas de porte jointif. Les ouvertures d\'aération reçoivent une grille ou une moustiquaire. Les passages de tuyaux, les fissures et les joints dégradés sont rebouchés. Les cartons de livraison, qui abritent blattes et œufs, sont retirés sans délai de la cuisine et des réserves." },
+      { type: "p", text: "Les denrées sont stockées en contenants fermés, surélevés par rapport au sol. Les déchets sont évacués chaque jour, et les poubelles restent couvertes. Les miettes et les écoulements sont nettoyés en fin de service, y compris sous et derrière les équipements. Une fuite d\'eau est réparée rapidement, car l\'humidité entretient les populations." },
+      { type: "h2", text: "Surveiller de façon organisée" },
+      { type: "p", text: "Une surveillance régulière permet de détecter une présence avant l\'infestation. Un salarié désigné inspecte à intervalle fixe les zones sensibles : réserves, local poubelles, arrière des équipements, vestiaires. Il consigne ses constats dans un registre daté, même lorsqu\'il n\'observe rien. Ce document prouve que la surveillance a lieu." },
+      { type: "h2", text: "Recourir à un prestataire de lutte antiparasitaire" },
+      { type: "p", text: "De nombreux établissements confient la lutte à une société spécialisée, par contrat, avec des passages planifiés. Le prestataire pose des dispositifs de piégeage et de contrôle, établit un plan d\'implantation et remet un rapport à chaque visite. Ces rapports, les plans et les fiches des produits utilisés rejoignent le plan de maîtrise sanitaire. L\'exploitant garde la responsabilité du résultat." },
+      { type: "h2", text: "Agir en cas de détection" },
+      { type: "ul", items: ["isoler et écarter les denrées touchées, puis les détruire selon une procédure écrite ;", "prévenir le prestataire ou le responsable de l\'établissement le jour même ;", "nettoyer et désinfecter la zone avant remise en service, sans appliquer de produit sur des surfaces au contact des aliments sans consigne précise ;", "rechercher la cause (accès, déchets, humidité) et la corriger ;", "enregistrer l\'événement et les actions menées."] },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
