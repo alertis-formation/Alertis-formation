@@ -203,6 +203,7 @@ export const articleSlugs = [
   "titre-habilitation-electrique-contenu-delivrance-carnet-prescriptions",
   "bouteilles-gaz-comprime-stockage-manipulation-prevention-travail",
   "nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp",
+  "legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur",
 ] as const;
 
 /**
@@ -8840,6 +8841,37 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["isoler et écarter les denrées touchées, puis les détruire selon une procédure écrite ;", "prévenir le prestataire ou le responsable de l\'établissement le jour même ;", "nettoyer et désinfecter la zone avant remise en service, sans appliquer de produit sur des surfaces au contact des aliments sans consigne précise ;", "rechercher la cause (accès, déchets, humidité) et la corriger ;", "enregistrer l\'événement et les actions menées."] },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 du Parlement européen et du Conseil relatif à l\'hygiène des denrées alimentaires." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur": {
+    title: "Légionelle au travail : maîtriser le risque dans les réseaux d\'eau chaude et les douches",
+    excerpt:
+      "La légionelle prolifère dans les réseaux d\'eau tiède mal entretenus. Les points de vigilance, les mesures de prévention et les obligations de l\'employeur pour les douches, vestiaires et équipements à risque.",
+    publishedAt: "2026-10-16",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "La légionelle est une bactérie présente naturellement dans l\'eau. Elle devient dangereuse lorsqu\'elle se multiplie dans un réseau d\'eau chaude ou une installation mal entretenue, puis qu\'elle est inhalée sous forme de fines gouttelettes. Dans une entreprise, les douches des vestiaires, les nettoyeurs haute pression et certaines installations de refroidissement peuvent produire ces aérosols." },
+      { type: "h2", text: "Comprendre comment la bactérie se développe" },
+      { type: "p", text: "La légionelle se multiplie surtout dans une eau tiède, autour de 25 à 45 °C environ. Les conditions qui l\'aident sont connues : eau stagnante, tartre, rouille, dépôts et biofilm sur les parois des canalisations. La contamination se fait par inhalation, pas par ingestion. Elle n\'est pas transmise d\'une personne à l\'autre." },
+      { type: "p", text: "L\'infection pulmonaire qui en découle, la légionellose, touche plus facilement les personnes fragilisées : fumeurs, personnes âgées, salariés atteints de maladies chroniques." },
+      { type: "h2", text: "Repérer les installations à risque" },
+      { type: "ul", items: ["les douches et lavabos des vestiaires, surtout s\'ils sont peu utilisés ;", "les ballons de stockage d\'eau chaude et les boucles de circulation ;", "les tours aéroréfrigérantes et certains circuits de refroidissement ;", "les nettoyeurs haute pression et les brumisateurs ;", "les bras morts, c\'est-à-dire les tronçons de tuyauterie condamnés où l\'eau ne circule plus."] },
+      { type: "h2", text: "Ce que la réglementation attend de l\'employeur" },
+      { type: "p", text: "L\'employeur doit évaluer les risques pour la santé des salariés, dont le risque biologique, et transcrire le résultat dans le document unique, selon l\'article L.4121-1 du Code du travail. Les agents biologiques sont définis à l\'article R.4421-1. La légionelle entre dans ce cadre dès que l\'activité ou les installations exposent les salariés à des aérosols contaminés." },
+      { type: "h2", text: "Mettre en place les mesures de prévention" },
+      { type: "p", text: "La prévention repose d\'abord sur la conception et l\'entretien du réseau. Il faut supprimer les bras morts, limiter la stagnation et maintenir l\'eau chaude à une température suffisante tout au long de la boucle. Le réseau d\'eau froide ne doit pas se réchauffer au contact de gaines chaudes." },
+      { type: "h3", text: "Les gestes d\'exploitation au quotidien" },
+      { type: "p", text: "Les points d\'eau peu utilisés sont purgés à intervalle régulier, par exemple après une fermeture prolongée du site. Les pommeaux de douche et les flexibles sont détartrés et désinfectés selon un planning écrit. Les ballons sont purgés et inspectés, et chaque intervention est consignée dans un carnet sanitaire." },
+      { type: "quote", text: "Une eau qui ne circule pas est une eau qui se dégrade : purger, c\'est déjà prévenir." },
+      { type: "h2", text: "Surveiller et réagir" },
+      { type: "p", text: "Un suivi de la température aux points clés du réseau permet de détecter une dérive avant qu\'elle ne devienne un risque. Des analyses de l\'eau complètent ce suivi, avec une fréquence adaptée à l\'installation et à son niveau de risque. En cas de résultat anormal ou de cas suspect de légionellose, l\'établissement informe le médecin du travail et les autorités sanitaires, puis met en œuvre les actions correctives." },
+      { type: "ul", items: ["isoler ou condamner le point d\'eau concerné ;", "procéder à un traitement curatif de l\'installation ;", "contrôler de nouveau l\'eau avant la remise en service ;", "mettre à jour l\'évaluation des risques et le carnet sanitaire."] },
+      { type: "h2", text: "Informer les salariés concernés" },
+      { type: "p", text: "Les équipes de maintenance et de nettoyage connaissent les gestes à respecter lors des interventions sur les réseaux, notamment le port d\'une protection respiratoire adaptée quand des aérosols sont possibles. Les salariés signalent tout point d\'eau défaillant, tout écoulement anormal ou toute eau trouble." },
+      { type: "p", text: "Référence officielle : articles L.4121-1 et R.4421-1 du Code du travail." },
+      { type: "cta", text: "Pour sensibiliser vos équipes à la prévention des risques professionnels,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
