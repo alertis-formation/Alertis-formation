@@ -204,6 +204,7 @@ export const articleSlugs = [
   "bouteilles-gaz-comprime-stockage-manipulation-prevention-travail",
   "nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp",
   "legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur",
+  "dlc-ddm-restauration-dates-limites-consommation-stockage-obligations",
 ] as const;
 
 /**
@@ -8872,6 +8873,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les équipes de maintenance et de nettoyage connaissent les gestes à respecter lors des interventions sur les réseaux, notamment le port d\'une protection respiratoire adaptée quand des aérosols sont possibles. Les salariés signalent tout point d\'eau défaillant, tout écoulement anormal ou toute eau trouble." },
       { type: "p", text: "Référence officielle : articles L.4121-1 et R.4421-1 du Code du travail." },
       { type: "cta", text: "Pour sensibiliser vos équipes à la prévention des risques professionnels,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "dlc-ddm-restauration-dates-limites-consommation-stockage-obligations": {
+    title: "DLC et DDM en restauration : bien distinguer les dates et gérer les stocks",
+    excerpt:
+      "Date limite de consommation ou date de durabilité minimale : la confusion expose à des risques sanitaires ou à du gaspillage inutile. Les différences, les règles de gestion en cuisine et les points à contrôler.",
+    publishedAt: "2026-10-17",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/dlc-ddm-restauration-dates-limites-consommation-stockage-obligations.jpg",
+    content: [
+      { type: "p", text: "Un yaourt ouvert depuis trois jours, un paquet de farine dont la date est dépassée de la veille : faut-il tout jeter ? La réponse dépend de la mention portée sur l\'emballage. La date limite de consommation (DLC) et la date de durabilité minimale (DDM) n\'ont pas la même signification, et les confondre conduit soit à servir un produit dangereux, soit à jeter des denrées encore bonnes." },
+      { type: "h2", text: "Comprendre la différence entre DLC et DDM" },
+      { type: "p", text: "La DLC figure sur les denrées très périssables sur le plan microbiologique : viandes fraîches, poissons, produits laitiers frais, plats préparés. Elle s\'accompagne de la mention \"À consommer jusqu\'au\". Passé cette date, la denrée est considérée comme dangereuse et ne peut plus être servie, même si elle paraît intacte." },
+      { type: "p", text: "La DDM concerne les denrées moins sensibles : épicerie sèche, conserves, boissons, biscuits. Elle s\'exprime par \"À consommer de préférence avant le\". Après cette date, le produit peut perdre en goût ou en texture, sans devenir automatiquement dangereux. Ces règles d\'étiquetage relèvent du règlement (UE) n° 1169/2011, notamment son article 24." },
+      { type: "h2", text: "Organiser les stocks en cuisine" },
+      { type: "p", text: "La méthode la plus répandue est le PEPS, premier entré, premier sorti. À chaque livraison, les produits les plus anciens sont placés devant et les plus récents derrière. Le contrôle des dates se fait à la réception, puis lors d\'un inventaire régulier, par exemple une fois par semaine pour les denrées fraîches." },
+      { type: "ul", items: ["refuser à la livraison un produit dont la DLC est trop courte pour l\'usage prévu ;", "ranger les produits à DLC courte à hauteur des yeux, dans une zone identifiée ;", "séparer clairement les produits périmés en attente d\'évacuation, dans un bac étiqueté ;", "conserver les emballages d\'origine ou reporter les dates sur les contenants de transvasement."] },
+      { type: "h2", text: "Gérer les produits ouverts et les préparations" },
+      { type: "p", text: "Dès qu\'un emballage est ouvert ou qu\'un produit est transformé, la date imprimée par le fabricant ne suffit plus. L\'établissement fixe une durée de conservation maximale, définie dans son plan de maîtrise sanitaire à partir des consignes du fabricant ou de l\'analyse de risque, et la reporte sur une étiquette collée sur le contenant." },
+      { type: "p", text: "Cette étiquette porte au minimum le nom du produit, la date d\'ouverture ou de fabrication, et la date limite d\'utilisation. Elle rejoint le dispositif de traçabilité des lots, qui permet de retrouver l\'origine d\'une denrée en cas de rappel." },
+      { type: "h3", text: "Cas particulier de la congélation" },
+      { type: "p", text: "Congeler une denrée avant sa DLC permet de prolonger sa durée de vie, mais la décongélation redémarre un nouveau délai. Notez la date de congélation et de décongélation, décongelez au réfrigérateur plutôt qu\'à température ambiante, et ne recongelez jamais un produit déjà décongelé." },
+      { type: "h2", text: "Former et contrôler" },
+      { type: "p", text: "Les erreurs viennent souvent d\'un manque de repères chez les équipes, notamment les nouveaux arrivants et les extras. Un rappel des deux mentions, une procédure d\'étiquetage affichée près du poste de rangement et un contrôle périodique des chambres froides par un responsable suffisent à réduire les écarts. Les relevés de contrôle, signés et datés, constituent la preuve de la maîtrise en cas d\'inspection." },
+      { type: "ul", items: ["vérifier que chaque denrée porte une date lisible ;", "retirer et enregistrer les produits dépassés, avec la quantité et la cause ;", "analyser les écarts répétés pour ajuster les commandes et réduire les pertes."] },
+      { type: "p", text: "Référence officielle : règlement (UE) n° 1169/2011 du Parlement européen et du Conseil concernant l\'information des consommateurs sur les denrées alimentaires, article 24." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
