@@ -205,6 +205,7 @@ export const articleSlugs = [
   "nuisibles-restauration-lutte-prevention-rongeurs-insectes-haccp",
   "legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur",
   "dlc-ddm-restauration-dates-limites-consommation-stockage-obligations",
+  "triangle-du-feu-classes-de-feu-choisir-agent-extincteur",
 ] as const;
 
 /**
@@ -8901,6 +8902,35 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["vérifier que chaque denrée porte une date lisible ;", "retirer et enregistrer les produits dépassés, avec la quantité et la cause ;", "analyser les écarts répétés pour ajuster les commandes et réduire les pertes."] },
       { type: "p", text: "Référence officielle : règlement (UE) n° 1169/2011 du Parlement européen et du Conseil concernant l\'information des consommateurs sur les denrées alimentaires, article 24." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "triangle-du-feu-classes-de-feu-choisir-agent-extincteur": {
+    title: "Triangle du feu et classes de feu : choisir le bon agent extincteur",
+    excerpt:
+      "Un extincteur mal choisi peut aggraver un départ de feu. Les trois éléments du feu, les cinq classes de feu et les agents extincteurs adaptés, pour équiper et former correctement les équipes.",
+    publishedAt: "2026-10-18",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/triangle-du-feu-classes-de-feu-choisir-agent-extincteur.jpg",
+    content: [
+      { type: "p", text: "Face à un début d\'incendie, le réflexe est de saisir l\'extincteur le plus proche. Or tous les appareils ne conviennent pas à tous les feux. Un jet d\'eau sur de l\'huile enflammée projette le liquide brûlant, et un agent inadapté sur une installation électrique expose l\'utilisateur à l\'électrisation. Comprendre comment naît un feu permet de savoir comment l\'éteindre." },
+      { type: "h2", text: "Les trois éléments du triangle du feu" },
+      { type: "p", text: "Un feu naît de la réunion de trois éléments : un combustible, un comburant et une source d\'énergie. Le combustible est la matière qui brûle (papier, bois, solvant, gaz). Le comburant est le plus souvent l\'oxygène de l\'air. L\'énergie d\'activation est la chaleur, l\'étincelle ou le frottement qui déclenche la combustion." },
+      { type: "p", text: "Supprimer un seul de ces éléments suffit à arrêter le feu. L\'eau refroidit, la mousse et la poudre isolent le combustible de l\'air, le dioxyde de carbone étouffe la flamme. Le choix de l\'agent dépend donc de la nature de ce qui brûle." },
+      { type: "h2", text: "Les classes de feu définies par la norme NF EN 2" },
+      { type: "p", text: "La norme NF EN 2 classe les feux selon le combustible. Cette classification sert de base aux étiquettes apposées sur les extincteurs et aux pictogrammes que les utilisateurs doivent savoir lire." },
+      { type: "ul", items: ["classe A : feux de matériaux solides, généralement avec formation de braises (bois, papier, carton, textiles) ;", "classe B : feux de liquides ou de solides liquéfiables (essence, solvants, peintures, cires) ;", "classe C : feux de gaz (butane, propane, gaz naturel) ;", "classe D : feux de métaux (magnésium, aluminium en poudre, sodium) ;", "classe F : feux d\'huiles et de graisses de cuisson, propres aux friteuses et aux cuisines professionnelles."] },
+      { type: "p", text: "Les feux d\'origine électrique ne forment pas une classe à part. Il s\'agit d\'un feu de matériaux (câbles, gaines, appareils) qui brûle à proximité d\'une installation sous tension. Il faut alors couper l\'alimentation dès que c\'est possible, puis employer un agent adapté." },
+      { type: "h2", text: "Associer chaque classe à un agent extincteur" },
+      { type: "p", text: "L\'eau pulvérisée, avec ou sans additif, convient aux feux de classe A. La mousse traite les feux de classe A et de classe B. La poudre polyvalente agit sur les classes A, B et C, mais elle encrasse le matériel et réduit la visibilité dans un local fermé. Le dioxyde de carbone est réservé aux feux naissants de classe B et aux équipements électriques ou informatiques, car il ne laisse pas de résidu." },
+      { type: "h3", text: "Les cas qui demandent un appareil spécifique" },
+      { type: "p", text: "Les feux de métaux exigent une poudre spéciale classe D, jamais de l\'eau. Les feux d\'huile de friture demandent un extincteur marqué F, dont l\'agent forme un film saponifiant en surface. Les feux de gaz posent un cas particulier : il vaut mieux fermer l\'arrivée de gaz avant d\'éteindre la flamme, sous peine de laisser le gaz s\'accumuler." },
+      { type: "h2", text: "Adapter l\'équipement aux risques du site" },
+      { type: "p", text: "L\'employeur doit permettre de combattre rapidement un commencement d\'incendie, conformément à l\'article R.4227-28 du Code du travail. Cela suppose de recenser les risques par local : bureaux, atelier, cuisine, stockage de produits chimiques, local technique. Chaque zone reçoit des appareils choisis pour le combustible qui s\'y trouve réellement." },
+      { type: "p", text: "Un contrôle simple consiste à relire les étiquettes de chaque extincteur, puis à les comparer aux risques de la zone. Un changement d\'activité ou un réaménagement impose de refaire cet examen. Lors des exercices, faites manipuler les appareils sur des feux réels ou simulés, en rappelant à chaque fois la classe du feu avant de choisir l\'agent." },
+      { type: "ul", items: ["lire le pictogramme et les classes indiquées sur l\'étiquette avant tout usage ;", "couper l\'énergie quand le feu est d\'origine électrique ;", "ne jamais utiliser d\'eau sur de l\'huile, un métal ou une installation sous tension ;", "alerter les secours et évacuer si le feu n\'est pas maîtrisé en quelques instants."] },
+      { type: "p", text: "Référence officielle : norme NF EN 2 (classes de feu) et article R.4227-28 du Code du travail." },
+      { type: "cta", text: "Pour former vos équipes à l\'utilisation des extincteurs,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
