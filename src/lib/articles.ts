@@ -206,6 +206,7 @@ export const articleSlugs = [
   "legionelle-reseaux-eau-chaude-travail-prevention-obligations-employeur",
   "dlc-ddm-restauration-dates-limites-consommation-stockage-obligations",
   "triangle-du-feu-classes-de-feu-choisir-agent-extincteur",
+  "formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures",
 ] as const;
 
 /**
@@ -8931,6 +8932,32 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["lire le pictogramme et les classes indiquées sur l\'étiquette avant tout usage ;", "couper l\'énergie quand le feu est d\'origine électrique ;", "ne jamais utiliser d\'eau sur de l\'huile, un métal ou une installation sous tension ;", "alerter les secours et évacuer si le feu n\'est pas maîtrisé en quelques instants."] },
       { type: "p", text: "Référence officielle : norme NF EN 2 (classes de feu) et article R.4227-28 du Code du travail." },
       { type: "cta", text: "Pour former vos équipes à l\'utilisation des extincteurs,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures": {
+    title: "Formation hygiène alimentaire en restauration commerciale : l\'obligation des 14 heures",
+    excerpt:
+      "Chaque restaurant doit compter une personne formée à l\'hygiène alimentaire. Durée, contenu, dispenses possibles et organisation pratique pour rester en règle lors d\'un contrôle.",
+    publishedAt: "2026-10-19",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures.jpg",
+    content: [
+      { type: "p", text: "Dans un restaurant, une cantine ou un snack, une erreur d\'hygiène touche vite plusieurs clients à la fois. La réglementation impose donc une compétence minimale dans chaque établissement de restauration commerciale. Cette obligation est souvent connue sous le nom de formation HACCP. Voici ce qu\'elle exige, qui est concerné et comment l\'organiser sans erreur." },
+      { type: "h2", text: "Une obligation inscrite dans le Code rural" },
+      { type: "p", text: "L\'article L.233-4 du Code rural et de la pêche maritime impose à tout établissement de restauration commerciale d\'avoir, dans son effectif, au moins une personne qui justifie d\'une formation en matière d\'hygiène alimentaire adaptée à son activité. Le décret 2011-731 a précisé ce dispositif, et l\'arrêté du 5 octobre 2011 en fixe le cahier des charges." },
+      { type: "p", text: "Sont visés les restaurants traditionnels, la restauration rapide, les traiteurs, les cafés qui servent des repas, la vente de plats à emporter et les cantines gérées en restauration commerciale. L\'obligation porte sur l\'établissement, pas sur chaque salarié : une seule personne formée suffit pour répondre au texte." },
+      { type: "h2", text: "Contenu et durée de la formation" },
+      { type: "p", text: "La formation spécifique dure 14 heures. Elle doit être dispensée par un organisme déclaré auprès de la région. Le cahier des charges de l\'arrêté du 5 octobre 2011 définit les thèmes à traiter." },
+      { type: "ul", items: ["les aliments et les risques pour le consommateur (dangers microbiens, chimiques, physiques, allergènes) ;", "les fondamentaux de la réglementation (traçabilité, gestion des non-conformités, contrôles officiels) ;", "l\'analyse des dangers et les points critiques pour leur maîtrise, selon les principes HACCP ;", "le plan de maîtrise sanitaire : bonnes pratiques d\'hygiène, plan de nettoyage et de désinfection, gestion des températures."] },
+      { type: "h2", text: "Qui peut être dispensé de la formation" },
+      { type: "p", text: "Certaines personnes justifient de leur compétence sans suivre les 14 heures. Il s\'agit des titulaires de certains diplômes ou titres professionnels dont la liste figure en annexe de l\'arrêté du 5 octobre 2011, et des personnes qui justifient d\'au moins trois ans d\'expérience professionnelle auprès d\'une entreprise du secteur alimentaire en tant que gestionnaire ou exploitant." },
+      { type: "h2", text: "Organiser la compétence dans l\'établissement" },
+      { type: "p", text: "Former une seule personne répond à la lettre du texte, mais fragilise l\'organisation : congés, arrêt maladie ou départ laissent l\'établissement sans référent. Il est plus prudent de former le chef de cuisine, son second et le responsable de salle, puis de sensibiliser les autres salariés aux gestes de base." },
+      { type: "h2", text: "Ce que risque l\'établissement sans personne formée" },
+      { type: "p", text: "L\'absence de personne justifiant de la formation constitue un manquement que les agents de contrôle (services chargés de la protection des populations) peuvent relever lors d\'une inspection. Elle s\'ajoute souvent à d\'autres constats : défaut de plan de maîtrise sanitaire, relevés de températures absents, traçabilité incomplète. La formation sert aussi de point de départ pour structurer ces documents." },
+      { type: "p", text: "Référence officielle : article L.233-4 du Code rural et de la pêche maritime, décret 2011-731 du 24 juin 2011 et arrêté du 5 octobre 2011 relatif au cahier des charges de la formation spécifique en matière d\'hygiène alimentaire." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
