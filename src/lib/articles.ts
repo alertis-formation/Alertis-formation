@@ -207,6 +207,7 @@ export const articleSlugs = [
   "dlc-ddm-restauration-dates-limites-consommation-stockage-obligations",
   "triangle-du-feu-classes-de-feu-choisir-agent-extincteur",
   "formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures",
+  "retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -8958,6 +8959,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'absence de personne justifiant de la formation constitue un manquement que les agents de contrôle (services chargés de la protection des populations) peuvent relever lors d\'une inspection. Elle s\'ajoute souvent à d\'autres constats : défaut de plan de maîtrise sanitaire, relevés de températures absents, traçabilité incomplète. La formation sert aussi de point de départ pour structurer ces documents." },
       { type: "p", text: "Référence officielle : article L.233-4 du Code rural et de la pêche maritime, décret 2011-731 du 24 juin 2011 et arrêté du 5 octobre 2011 relatif au cahier des charges de la formation spécifique en matière d\'hygiène alimentaire." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst": {
+    title: "Retrait du casque d\'une victime : quand le faire et quand s\'abstenir",
+    excerpt:
+      "Un casque ne se retire pas par réflexe. Savoir quand le laisser en place, quand le retirer et pourquoi ce geste se fait à deux secouristes permet d\'éviter d\'aggraver une lésion.",
+    publishedAt: "2026-10-20",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Chantier, atelier, livraison à moto ou à scooter : de nombreux salariés portent un casque au moment d\'un accident. Face à une victime casquée, deux erreurs sont fréquentes. Retirer le casque trop vite, au risque de mobiliser la nuque, ou le laisser en place alors qu\'il empêche de la secourir. Le bon choix dépend de l\'état de la victime." },
+      { type: "h2", text: "Pourquoi le casque pose problème" },
+      { type: "p", text: "Un casque protège la tête, mais il masque le visage et peut gêner l\'accès aux voies aériennes. Après un choc violent, une lésion de la colonne cervicale reste possible. Tirer sur le casque sans précaution peut faire bouger la tête et le cou, et aggraver une atteinte de la moelle épinière." },
+      { type: "h2", text: "Quand laisser le casque en place" },
+      { type: "p", text: "Si la victime est consciente, qu\'elle parle et respire normalement, le casque reste en place. Le secouriste la rassure, lui demande de ne pas bouger la tête, alerte les secours et surveille sa respiration. Le casque assure alors un certain maintien de la tête, et ce sont les secours médicalisés qui décideront de la suite." },
+      { type: "p", text: "Un casque intégral ne doit pas être ouvert ou retiré simplement pour parler à la victime ou lui donner à boire. Relever la visière suffit souvent pour communiquer, observer son visage et vérifier qu\'elle respire." },
+      { type: "h2", text: "Quand envisager le retrait" },
+      { type: "p", text: "Le retrait devient nécessaire lorsque le casque empêche de contrôler ou de rétablir la respiration. C\'est le cas d\'une victime qui ne répond pas et ne respire pas, pour pratiquer la réanimation cardio-pulmonaire, ou d\'une victime dont les voies aériennes sont obstruées (vomissements, saignement) et que l\'on ne peut pas libérer autrement." },
+      { type: "ul", items: ["la victime ne répond à aucune sollicitation et ne respire pas ;", "les voies aériennes sont obstruées et inaccessibles avec le casque ;", "l\'accès au visage est impossible malgré la visière relevée ;", "le casque est endommagé et risque de blesser la victime en le laissant en place."] },
+      { type: "h2", text: "Un geste à deux secouristes" },
+      { type: "p", text: "Le retrait d\'un casque se réalise à deux personnes. Le premier secouriste maintient la tête et le cou dans l\'axe, en continu, pendant que le second dégage le casque avec précaution. Cette coordination limite les mouvements de la nuque. Seule la formation, avec un mannequin et un vrai casque, permet de s\'entraîner à ce geste." },
+      { type: "p", text: "Si vous êtes seul, ne tentez pas le retrait sans nécessité vitale. Alertez les secours, restez auprès de la victime et suivez les consignes du régulateur du centre 15 ou du 112, qui peut vous guider pas à pas." },
+      { type: "h2", text: "Préparer l\'entreprise à ce scénario" },
+      { type: "p", text: "Le retrait de casque fait partie des gestes abordés en formation de sauveteur secouriste du travail. L\'employeur organise les secours dans l\'entreprise, notamment par la présence de secouristes formés, ce que prévoit l\'article R.4224-15 du Code du travail pour les ateliers où sont effectués des travaux dangereux. Intégrez ce scénario dans les mises en situation : casque de chantier, casque de moto pour les livreurs et les commerciaux." },
+      { type: "p", text: "Référence officielle : article R.4224-15 du Code du travail relatif à l\'organisation des secours dans l\'entreprise." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
