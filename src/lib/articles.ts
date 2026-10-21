@@ -208,6 +208,7 @@ export const articleSlugs = [
   "triangle-du-feu-classes-de-feu-choisir-agent-extincteur",
   "formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures",
   "retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst",
+  "refroidissement-rapide-remise-temperature-restauration-haccp",
 ] as const;
 
 /**
@@ -8986,6 +8987,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le retrait de casque fait partie des gestes abordés en formation de sauveteur secouriste du travail. L\'employeur organise les secours dans l\'entreprise, notamment par la présence de secouristes formés, ce que prévoit l\'article R.4224-15 du Code du travail pour les ateliers où sont effectués des travaux dangereux. Intégrez ce scénario dans les mises en situation : casque de chantier, casque de moto pour les livreurs et les commerciaux." },
       { type: "p", text: "Référence officielle : article R.4224-15 du Code du travail relatif à l\'organisation des secours dans l\'entreprise." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "refroidissement-rapide-remise-temperature-restauration-haccp": {
+    title: "Refroidissement rapide et remise en température : maîtriser la zone de danger en cuisine",
+    excerpt:
+      "Entre 10 et 63 °C, les bactéries se multiplient vite. Comment refroidir, stocker et remettre en température les préparations de cuisine pour limiter le risque d\'intoxication alimentaire.",
+    publishedAt: "2026-10-21",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/refroidissement-rapide-remise-temperature-restauration-haccp.jpg",
+    content: [
+      { type: "p", text: "Un fond de sauce laissé refroidir toute l\'après-midi sur le piano, une grande marmite de plat en sauce rangée encore chaude au réfrigérateur : ces habitudes de cuisine sont courantes, et elles comptent parmi les causes classiques d\'intoxication alimentaire collective. Le danger ne vient pas de la cuisson, mais de la période qui suit." },
+      { type: "h2", text: "Pourquoi la zone de température pose problème" },
+      { type: "p", text: "La cuisson détruit la majorité des bactéries, mais pas toutes les formes de résistance. Certaines bactéries sporulées survivent à la chaleur et se multiplient dès que la préparation redescend à température tiède. Entre environ 10 °C et 63 °C, les conditions leur sont favorables. Plus la préparation y reste longtemps, plus la contamination progresse." },
+      { type: "p", text: "Le règlement (CE) n° 852/2004 impose aux exploitants de maintenir la chaîne du froid pour les denrées qui en dépendent, et de mettre en place des procédures fondées sur les principes HACCP. Le refroidissement figure parmi les étapes que le plan de maîtrise sanitaire doit encadrer." },
+      { type: "h2", text: "Refroidir vite, dans une durée limitée" },
+      { type: "p", text: "Pour les préparations cuites destinées à être consommées plus tard, l\'arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail prévoit un refroidissement rapide, de 63 °C à 10 °C en moins de deux heures. Cet objectif suppose du matériel et une méthode, car une grande marmite ne refroidit pas seule à ce rythme." },
+      { type: "ul", items: ["répartir la préparation dans des bacs peu profonds plutôt que dans un grand récipient ;", "utiliser une cellule de refroidissement rapide lorsque l\'établissement en dispose ;", "à défaut, plonger les bacs dans un bain d\'eau glacée en remuant régulièrement ;", "ranger ensuite à température positive réglementaire, avec étiquette de date et de contenu."] },
+      { type: "p", text: "Ne placez pas une préparation encore très chaude dans une chambre froide ordinaire. Elle réchauffe les denrées voisines et fait monter la température de l\'enceinte, ce qui fragilise l\'ensemble du stock." },
+      { type: "h2", text: "Contrôler et enregistrer" },
+      { type: "p", text: "Un refroidissement n\'est maîtrisé que s\'il est vérifié. Utilisez une sonde propre et désinfectée, plantée au cœur de la préparation, pour relever la température au début puis à la fin du cycle. Notez l\'heure, la valeur et le nom du préparateur sur une fiche de suivi, conservée avec les autres enregistrements du plan de maîtrise sanitaire." },
+      { type: "h3", text: "Que faire en cas d\'écart" },
+      { type: "p", text: "Si la préparation n\'a pas atteint la température visée dans le délai prévu, l\'écart est consigné. Le plan de maîtrise sanitaire définit la décision : prolonger le contrôle, réorienter la préparation ou la détruire. Une denrée douteuse ne se rattrape pas par une nouvelle cuisson." },
+      { type: "h2", text: "Remettre en température sans prendre de risque" },
+      { type: "p", text: "La remise en température d\'un plat refroidi doit être rapide et complète. Le plat est chauffé à cœur jusqu\'à atteindre au moins 63 °C avant le service, puis maintenu à cette température si le service dure. Un plat réchauffé ne se réchauffe qu\'une seule fois : les restes déjà remis en température ne retournent pas en stockage." },
+      { type: "p", text: "Ne comptez pas sur le bain-marie ou le passe chaud pour remonter en température une préparation froide. Ces équipements servent à maintenir une température déjà atteinte, pas à la rétablir." },
+      { type: "h2", text: "Former les équipes à ces gestes" },
+      { type: "p", text: "Ces règles échouent rarement par manque d\'équipement, plus souvent par manque de repères partagés. Affichez la procédure près de la cellule et des bacs, désignez qui relève les températures, et vérifiez les enregistrements chaque semaine. Les extras et les nouveaux arrivants doivent être formés dès leur premier service." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires, et arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d\'entreposage et de transport de produits et denrées alimentaires." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
