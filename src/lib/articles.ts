@@ -209,6 +209,7 @@ export const articleSlugs = [
   "formation-hygiene-alimentaire-restauration-commerciale-obligation-14-heures",
   "retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst",
   "refroidissement-rapide-remise-temperature-restauration-haccp",
+  "saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -9017,6 +9018,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Ces règles échouent rarement par manque d\'équipement, plus souvent par manque de repères partagés. Affichez la procédure près de la cellule et des bacs, désignez qui relève les températures, et vérifiez les enregistrements chaque semaine. Les extras et les nouveaux arrivants doivent être formés dès leur premier service." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires, et arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d\'entreposage et de transport de produits et denrées alimentaires." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst": {
+    title: "Saignement de nez au travail : les bons gestes et les cas qui imposent d\'alerter",
+    excerpt:
+      "Un saignement de nez est le plus souvent bénin, mais certains signes imposent d\'alerter les secours. Les gestes à faire, les erreurs à éviter et le rôle du SST sur le lieu de travail.",
+    publishedAt: "2026-10-22",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Un salarié porte soudain la main au visage : le sang coule du nez. La scène est fréquente en entreprise et surprend souvent l\'entourage, par la quantité de sang visible. Dans la majorité des cas, l\'épistaxis s\'arrête avec un geste simple. Reste à connaître ce geste, et à repérer les situations où il ne suffit pas." },
+      { type: "h2", text: "Reconnaître une épistaxis et ses causes habituelles" },
+      { type: "p", text: "L\'épistaxis désigne un saignement venant des fosses nasales. La muqueuse du nez est richement vascularisée et fragile, ce qui explique qu\'un faible traumatisme suffise à la faire saigner. Les causes fréquentes sont un choc léger, un mouchage appuyé, l\'air sec ou les irritations liées aux poussières et aux vapeurs." },
+      { type: "p", text: "Certains facteurs aggravent le saignement ou le rendent plus durable : la prise d\'un traitement anticoagulant, une hypertension, ou un trouble de la coagulation. Le secouriste n\'a pas à poser de diagnostic, mais ces éléments, quand la victime les mentionne, orientent la décision d\'alerter." },
+      { type: "h2", text: "Les gestes à réaliser" },
+      { type: "p", text: "La conduite à tenir est la même que pour toute hémorragie externe : arrêter le saignement par une compression locale, tout en protégeant la victime et le secouriste. Le sauveteur secouriste du travail se lave les mains ou enfile des gants avant d\'intervenir, car le sang est un liquide biologique à risque." },
+      { type: "ul", items: ["installer la victime assise, le buste penché vers l\'avant, la tête non basculée en arrière ;", "lui demander de se moucher doucement pour évacuer les caillots, une seule fois ;", "pincer fermement la partie molle du nez, entre le pouce et l\'index, pendant dix minutes sans relâcher ;", "faire respirer par la bouche et lui demander de cracher le sang plutôt que de l\'avaler ;", "relever l\'heure de début du saignement pour la transmettre aux secours si nécessaire."] },
+      { type: "h2", text: "Les erreurs à éviter" },
+      { type: "p", text: "Renverser la tête en arrière est un réflexe répandu et inadapté : le sang coule dans la gorge, provoque des nausées ou des vomissements, et le saignement n\'est plus visible. Il ne faut pas non plus introduire de coton ou de mouchoir profondément dans la narine, ce qui peut irriter la muqueuse et compliquer le retrait." },
+      { type: "p", text: "Allonger la victime n\'est utile que si elle présente des signes de malaise. Dans ce cas, le saignement n\'est plus le sujet principal : la conduite à tenir devient celle du malaise, avec alerte des secours." },
+      { type: "h2", text: "Quand alerter les secours" },
+      { type: "p", text: "Si le saignement persiste après dix minutes de compression correctement réalisée, relancez la compression dix minutes de plus. Au-delà, ou si le flot est abondant dès le départ, contactez le 15 ou le 112. Les secours donnent alors la marche à suivre et décident d\'un transport éventuel." },
+      { type: "ul", items: ["saignement faisant suite à un coup violent sur la tête ou le visage ;", "saignement important chez une personne sous anticoagulants ;", "saignement qui ne s\'arrête pas malgré la compression prolongée ;", "pâleur, sueurs, vertiges ou perte de connaissance chez la victime ;", "écoulement de sang par l\'oreille ou liquide clair par le nez après un traumatisme."] },
+      { type: "h3", text: "Après l\'incident" },
+      { type: "p", text: "Une fois le saignement arrêté, la victime évite de se moucher, de se pencher en avant ou de forcer pendant plusieurs heures. Si l\'épistaxis survient lors du travail, l\'employeur consigne l\'événement dans le registre des accidents bénins lorsqu\'il y est autorisé, ou le déclare comme accident du travail s\'il entraîne des soins ou un arrêt. Des saignements répétés justifient un avis médical, éventuellement via le médecin du travail." },
+      { type: "h2", text: "Ce que doit prévoir l\'entreprise" },
+      { type: "p", text: "L\'employeur organise les secours dans l\'entreprise, notamment par la présence de personnes formées, comme le prévoit l\'article R.4224-15 du Code du travail pour les ateliers où sont effectués des travaux dangereux. La trousse de secours doit contenir des gants, des compresses et des mouchoirs à usage unique, et rester accessible à tous les postes." },
+      { type: "p", text: "Référence officielle : article R.4224-15 du Code du travail relatif à l\'organisation des premiers secours dans l\'entreprise." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
