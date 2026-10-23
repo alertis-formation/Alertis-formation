@@ -210,6 +210,7 @@ export const articleSlugs = [
   "retrait-casque-victime-travail-quand-comment-conduite-a-tenir-sst",
   "refroidissement-rapide-remise-temperature-restauration-haccp",
   "saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst",
+  "marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp",
 ] as const;
 
 /**
@@ -6677,7 +6678,6 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un vigile insulté par un client mécontent, une hôtesse d\'accueil menacée par un usager irrité, un livreur agressé au moment d\'une remise de colis : la violence externe touche tous les métiers en contact avec le public. Contrairement au harcèlement moral, l\'auteur n\'appartient pas à l\'entreprise. Ce risque reste pourtant sous-estimé, alors qu\'il relève pleinement de l\'obligation de prévention de l\'employeur." },
       { type: "h2", text: "Une violence trop souvent minimisée" },
       { type: "p", text: "Insultes, menaces, gestes agressifs, vols avec violence : ces situations sont fréquentes dans le commerce, la santé, les transports, la sécurité privée ou l\'accueil du public. Beaucoup de salariés considèrent ces incidents comme faisant partie du métier et ne les signalent pas. Cette absence de remontée empêche l\'employeur d\'évaluer correctement le risque et de mettre en place des mesures de prévention adaptées." },
-      { type: "h2", text: "Ce que recouvre la violence externe au travail" },
       { type: "ul", items: [
         "agression verbale : insultes, injures, propos menaçants adressés au salarié ;",
         "menace physique : geste d\'intimidation, poing levé, objet brandi sans passage à l\'acte ;",
@@ -9048,6 +9048,32 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur organise les secours dans l\'entreprise, notamment par la présence de personnes formées, comme le prévoit l\'article R.4224-15 du Code du travail pour les ateliers où sont effectués des travaux dangereux. La trousse de secours doit contenir des gants, des compresses et des mouchoirs à usage unique, et rester accessible à tous les postes." },
       { type: "p", text: "Référence officielle : article R.4224-15 du Code du travail relatif à l\'organisation des premiers secours dans l\'entreprise." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp": {
+    title: "Marche en avant et contamination croisée : séparer le propre du sale en cuisine",
+    excerpt:
+      "Une même planche pour la volaille crue et la salade suffit à contaminer un service entier. Principes de la marche en avant, séparation des flux et gestes à adopter pour limiter la contamination croisée.",
+    publishedAt: "2026-10-23",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp.jpg",
+    content: [
+      { type: "p", text: "Un poulet cru découpé sur une planche, puis une salade préparée sur la même surface sans nettoyage intermédiaire : le scénario est banal en cuisine, et il suffit à transférer des bactéries vers un plat qui ne sera plus cuit. C\'est la contamination croisée. L\'organisation des locaux et des gestes est la première parade." },
+      { type: "h2", text: "Ce que recouvre la contamination croisée" },
+      { type: "p", text: "La contamination croisée désigne le transfert de micro-organismes d\'une denrée contaminée, ou d\'un support souillé, vers une denrée saine. Les vecteurs sont multiples : mains, couteaux, planches, plans de travail, torchons, chariots, gants, mais aussi gouttes et éclaboussures dans un réfrigérateur." },
+      { type: "p", text: "Le règlement (CE) n° 852/2004 impose aux exploitants de prévenir la contamination des denrées et de mettre en place des procédures fondées sur les principes HACCP. La séparation des activités dans l\'espace ou dans le temps fait partie des mesures de maîtrise attendues." },
+      { type: "h2", text: "Le principe de la marche en avant" },
+      { type: "p", text: "La marche en avant consiste à organiser le circuit des denrées de manière à ce qu\'elles progressent de la réception vers le service sans jamais croiser un flux plus sale. Les produits bruts, les déchets et les emballages ne reviennent pas sur leurs pas, et les denrées prêtes à consommer ne repassent pas par les zones de préparation des produits crus." },
+      { type: "ul", items: ["réception et déconditionnement des marchandises ;", "stockage, en séparant produits bruts et produits finis ;", "préparations froides et préparations des produits crus, dans des zones distinctes ;", "cuisson, refroidissement éventuel, dressage et service ;", "plonge et évacuation des déchets par un circuit séparé."] },
+      { type: "p", text: "Quand les locaux sont trop petits pour séparer les flux dans l\'espace, on les sépare dans le temps : les produits les plus sensibles sont préparés en premier, puis le poste est nettoyé et désinfecté avant de passer à l\'activité suivante." },
+      { type: "h2", text: "Séparer les produits au stockage" },
+      { type: "p", text: "Au réfrigérateur, le risque vient des égouttures. Rangez les denrées prêtes à consommer et les produits cuits en haut, les produits crus en bas, avec les viandes et volailles crues tout en bas pour qu\'aucun jus ne tombe sur les étages inférieurs. Fermez ou filmez les contenants, étiquetez-les, et ne posez jamais de cartons de livraison sur les denrées déjà déconditionnées." },
+      { type: "h2", text: "Matériel, mains et tenue" },
+      { type: "p", text: "Pour chaque famille de produits, prévoyez un matériel dédié, par exemple des planches et couteaux de couleurs différentes, et un code affiché près du poste. Changer de planche ne suffit pas si les mains restent les mêmes : lavez-les après chaque manipulation de produit cru, de déchets ou de colis, et changez de gants au même rythme." },
+      { type: "p", text: "Un plan de circulation dessiné sur un plan de salle ne vaut que s\'il est respecté en plein service. Observez le travail réel à un moment de forte activité, repérez où les circuits se croisent et corrigez par des gestes simples : déplacer un poste, réorganiser une chambre froide, ajouter un lave-mains. Intégrez ces points aux contrôles internes du plan de maîtrise sanitaire." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires, et arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d\'entreposage et de transport de produits et denrées alimentaires." },
+      { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
