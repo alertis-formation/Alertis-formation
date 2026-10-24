@@ -211,6 +211,7 @@ export const articleSlugs = [
   "refroidissement-rapide-remise-temperature-restauration-haccp",
   "saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst",
   "marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp",
+  "feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir",
 ] as const;
 
 /**
@@ -9074,6 +9075,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un plan de circulation dessiné sur un plan de salle ne vaut que s\'il est respecté en plein service. Observez le travail réel à un moment de forte activité, repérez où les circuits se croisent et corrigez par des gestes simples : déplacer un poste, réorganiser une chambre froide, ajouter un lave-mains. Intégrez ces points aux contrôles internes du plan de maîtrise sanitaire." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires, et arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d\'entreposage et de transport de produits et denrées alimentaires." },
       { type: "cta", text: "Pour former vos équipes aux bonnes pratiques d\'hygiène en restauration,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir": {
+    title: "Feu d\'huile en cuisine professionnelle : les bons réflexes et l\'extincteur adapté",
+    excerpt:
+      "Une huile de friture surchauffée s\'enflamme en quelques secondes et l\'eau aggrave le feu. Causes, extincteur de classe F, couverture anti-feu et conduite à tenir pour limiter les dégâts.",
+    publishedAt: "2026-10-24",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir.jpg",
+    content: [
+      { type: "p", text: "Une friteuse laissée en chauffe, un thermostat défaillant, une poêle oubliée sur le feu : en cuisine professionnelle, le feu d\'huile démarre vite et se propage aux hottes et aux conduits. La réaction des premières secondes décide de tout. Cet article détaille les causes, le matériel adapté et la conduite à tenir." },
+      { type: "h2", text: "Pourquoi l\'huile s\'enflamme" },
+      { type: "p", text: "Chauffée au-delà de sa température d\'auto-inflammation, une huile prend feu sans flamme ni étincelle. Les causes fréquentes sont un thermostat de sécurité défaillant, une friteuse laissée sans surveillance, un bain d\'huile trop usagé ou des aliments très humides plongés dans un bain trop chaud. Les graisses déposées sur les filtres et dans les conduits d\'extraction constituent ensuite un combustible prêt à propager le feu." },
+      { type: "h2", text: "Ne jamais utiliser d\'eau" },
+      { type: "p", text: "Jeter de l\'eau sur de l\'huile en feu provoque une vaporisation brutale. L\'huile est projetée en gouttelettes enflammées et une boule de feu peut atteindre l\'opérateur et les équipements voisins. C\'est le réflexe à proscrire en priorité, y compris avec un seau, un torchon mouillé ou un extincteur à eau pulvérisée non prévu pour ce risque." },
+      { type: "h2", text: "Le matériel adapté" },
+      { type: "p", text: "Les feux d\'huiles et de graisses de cuisson relèvent de la classe F, définie par la norme NF EN 2. L\'extincteur doit porter cette mention sur son étiquette : il projette un agent qui refroidit le bain et crée une couche étouffante en surface. Un extincteur non prévu pour la classe F peut au contraire disperser l\'huile enflammée." },
+      { type: "ul", items: ["un extincteur de classe F placé près des appareils de cuisson, accessible sans traverser la zone à risque ;", "une couverture anti-feu fixée à portée de main, dont chaque cuisinier connaît l\'emplacement ;", "des couvercles adaptés aux friteuses et aux marmites ;", "une signalisation claire des moyens de secours."] },
+      { type: "h2", text: "La conduite à tenir pas à pas" },
+      { type: "p", text: "Si le feu est limité à un récipient et que vous pouvez agir sans prendre de risque, coupez d\'abord la source de chaleur (gaz, électricité). Étouffez ensuite le feu avec un couvercle ou une couverture anti-feu, sans déplacer le récipient. Laissez refroidir longtemps : l\'huile peut se rallumer tant qu\'elle reste très chaude. Si le feu s\'étend, n\'insistez pas." },
+      { type: "p", text: "Donnez l\'alerte, faites évacuer la cuisine et la salle selon la consigne en vigueur, puis appelez les secours au 18 ou au 112. Si la hotte ou les conduits sont atteints, le feu devient incontrôlable à l\'échelle d\'un opérateur : évacuez et attendez les sapeurs-pompiers. Une personne brûlée doit être prise en charge immédiatement, en refroidissant la brûlure à l\'eau tempérée." },
+      { type: "h2", text: "Prévenir plutôt que subir" },
+      { type: "p", text: "Surveillez en permanence une friteuse en chauffe et ne la laissez jamais seule en fin de service. Contrôlez le bon fonctionnement des thermostats, renouvelez l\'huile selon la fréquence prévue par le plan de maintenance et séchez les aliments avant immersion. Faites nettoyer régulièrement les filtres et les conduits d\'extraction pour limiter l\'accumulation de graisses." },
+      { type: "p", text: "L\'employeur doit évaluer ce risque et mettre en place des mesures de prévention, conformément à L.4121-1 du Code du travail. Intégrez le feu d\'huile au document unique, rédigez une consigne spécifique à la cuisine et organisez des manipulations pratiques d\'extincteur avec les équipes, y compris le personnel saisonnier." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; norme NF EN 2 (classes de feu)." },
+      { type: "cta", text: "Pour former vos équipes à la manipulation des extincteurs et à l\'évacuation,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
