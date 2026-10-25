@@ -212,6 +212,7 @@ export const articleSlugs = [
   "saignement-de-nez-epistaxis-travail-conduite-a-tenir-sst",
   "marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp",
   "feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir",
+  "vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir",
 ] as const;
 
 /**
@@ -9102,6 +9103,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur doit évaluer ce risque et mettre en place des mesures de prévention, conformément à L.4121-1 du Code du travail. Intégrez le feu d\'huile au document unique, rédigez une consigne spécifique à la cuisine et organisez des manipulations pratiques d\'extincteur avec les équipes, y compris le personnel saisonnier." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; norme NF EN 2 (classes de feu)." },
       { type: "cta", text: "Pour former vos équipes à la manipulation des extincteurs et à l\'évacuation,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir": {
+    title: "Vêtements en feu au travail : arrêter, coucher, étouffer et refroidir",
+    excerpt:
+      "Quand les vêtements d\'un collègue prennent feu, chaque seconde aggrave la brûlure. Les gestes qui éteignent, ceux à éviter, la prise en charge de la brûlure et la prévention à mettre en place.",
+    publishedAt: "2026-10-25",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir.jpg",
+    content: [
+      { type: "p", text: "Une projection de métal en fusion, un retour de flamme sur un poste de cuisson, un solvant qui s\'enflamme près d\'un point chaud : les vêtements d\'un salarié peuvent prendre feu en quelques secondes. La victime panique et court, ce qui attise les flammes. Voici les gestes qui éteignent vite et la suite à donner." },
+      { type: "h2", text: "Pourquoi la course aggrave tout" },
+      { type: "p", text: "Courir apporte de l\'oxygène au feu et accélère sa propagation vers le visage et le cou. Les fibres synthétiques fondent et collent à la peau, ce qui approfondit la brûlure. Le premier réflexe du témoin consiste donc à stopper la victime, calmement mais fermement, et à lui donner un ordre simple et répété." },
+      { type: "h2", text: "Les gestes qui éteignent" },
+      { type: "p", text: "La séquence classique tient en trois verbes. Arrêter la personne qui court, la coucher au sol, puis étouffer les flammes. Si la victime est seule et que ses vêtements brûlent, elle peut appliquer la même méthode : s\'arrêter, se coucher et se rouler au sol en protégeant son visage avec les mains." },
+      { type: "ul", items: ["arrêter la victime et l\'empêcher de courir ;", "la coucher au sol, de préférence côté enflammé vers le sol ;", "étouffer les flammes avec une couverture anti-feu, un vêtement épais ou un manteau non synthétique ;", "écarter toute source de chaleur ou de combustible autour de la victime."] },
+      { type: "p", text: "Une couverture anti-feu doit être enroulée autour du corps en laissant la tête dégagée pour ne pas piéger les fumées chaudes. Si de l\'eau est disponible à proximité immédiate, on peut aussi en utiliser en quantité, sauf en présence d\'huile, de métal en fusion ou d\'un risque électrique." },
+      { type: "h2", text: "Après l\'extinction : refroidir et alerter" },
+      { type: "p", text: "Une fois les flammes éteintes, arrosez la brûlure à l\'eau tempérée le plus tôt possible, pendant au moins dix minutes, selon la conduite à tenir enseignée en formation SST. Faites alerter les secours (15, 18 ou 112) dès que possible : une brûlure étendue, profonde ou localisée au visage, aux mains ou aux voies respiratoires impose une prise en charge médicale urgente." },
+      { type: "h3", text: "Ce qu\'il ne faut pas faire" },
+      { type: "p", text: "Ne retirez pas les vêtements collés à la peau : découpez autour si nécessaire. Ne percez pas les cloques, n\'appliquez ni pommade, ni corps gras, ni glaçons. Retirez en revanche bagues, montres et bracelets avant que le gonflement ne s\'installe, sauf s\'ils adhèrent à la peau. Surveillez la victime jusqu\'à l\'arrivée des secours, car un état de choc peut survenir." },
+      { type: "h2", text: "Prévenir le risque dans l\'entreprise" },
+      { type: "p", text: "Les postes exposés (soudure, meulage, cuisson, manipulation de produits inflammables) doivent figurer au document unique. Prévoyez des vêtements de travail adaptés à la nature du risque, une couverture anti-feu visible et accessible, et une douche de sécurité à proximité des zones les plus dangereuses. Limitez les sources d\'ignition et le stockage de produits inflammables près des postes de travail." },
+      { type: "p", text: "L\'employeur a l\'obligation d\'évaluer ces risques et de prendre les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Organisez régulièrement des mises en situation pour que chacun connaisse l\'emplacement des moyens de secours et le geste à effectuer sans hésiter." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur)." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une brûlure,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
