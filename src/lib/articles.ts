@@ -213,6 +213,7 @@ export const articleSlugs = [
   "marche-en-avant-contamination-croisee-cuisine-professionnelle-haccp",
   "feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir",
   "vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir",
+  "point-de-rassemblement-decompte-evacuation-incendie-organiser-appel",
 ] as const;
 
 /**
@@ -9130,6 +9131,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur a l\'obligation d\'évaluer ces risques et de prendre les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Organisez régulièrement des mises en situation pour que chacun connaisse l\'emplacement des moyens de secours et le geste à effectuer sans hésiter." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur)." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une brûlure,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "point-de-rassemblement-decompte-evacuation-incendie-organiser-appel": {
+    title: "Point de rassemblement et décompte après évacuation incendie : organiser l\'appel",
+    excerpt:
+      "Évacuer ne suffit pas : il faut savoir qui est sorti. Choix du point de rassemblement, rôle des guide-files et serre-files, décompte des présents et transmission aux secours.",
+    publishedAt: "2026-10-26",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/point-de-rassemblement-decompte-evacuation-incendie-organiser-appel.jpg",
+    content: [
+      { type: "p", text: "Une évacuation réussie ne se mesure pas au nombre de personnes sorties du bâtiment, mais à la certitude que tout le monde est dehors. Sans point de rassemblement clair et sans décompte, les responsables ne savent pas s'il faut signaler une personne manquante aux sapeurs-pompiers. Voici comment organiser cette étape." },
+      { type: "h2", text: "Choisir un point de rassemblement adapté" },
+      { type: "p", text: "Le point de rassemblement se situe à distance du bâtiment, hors de l'axe des façades et des chutes de vitrage. Il ne doit gêner ni les accès des secours, ni les voies de circulation. Prévoyez un lieu suffisamment grand pour l'effectif maximal et, si possible, un second emplacement de repli en cas d'obstruction." },
+      { type: "ul", items: ["éloigné du bâtiment et des accès pompiers ;", "visible depuis les issues de sortie ;", "accessible aux personnes à mobilité réduite ;", "signalé par un panneau et reporté sur le plan d'évacuation."] },
+      { type: "h2", text: "Désigner les personnes qui font le décompte" },
+      { type: "p", text: "Le décompte repose sur des rôles attribués à l'avance. Chaque guide-file conduit son groupe jusqu'au point de rassemblement, chaque serre-file vérifie que les locaux sont vides en fermant les portes sans les verrouiller. Un responsable du point de rassemblement centralise ensuite les informations et les transmet au responsable de l'évacuation." },
+      { type: "h3", text: "Prévoir des suppléants" },
+      { type: "p", text: "Les absences, les congés et les équipes en horaires décalés rendent la liste des désignés vite obsolète. Nommez un suppléant pour chaque rôle et mettez la liste à jour à chaque mouvement de personnel. Un guide-file absent le jour d'un sinistre ne doit pas désorganiser tout un étage." },
+      { type: "h2", text: "Savoir qui est présent dans le bâtiment" },
+      { type: "p", text: "Le décompte n'a de sens que s'il se compare à une liste fiable. Pour le personnel, utilisez la liste des salariés présents du jour, issue du planning ou du badgeage. Pour les visiteurs, prestataires et intérimaires, un registre d'accueil tenu à jour est indispensable. Cette liste doit être accessible hors du bâtiment, sur papier ou sur un support numérique consultable à distance." },
+      { type: "p", text: "Les personnes en situation de handicap, qui attendent des secours dans un espace d'attente sécurisé, doivent être signalées dès le début de l'évacuation. Elles font partie du décompte, même si elles n'ont pas rejoint le point de rassemblement." },
+      { type: "h2", text: "Transmettre l'information aux secours" },
+      { type: "p", text: "À l'arrivée des sapeurs-pompiers, le responsable de l'évacuation indique ce qu'il sait : le lieu supposé du sinistre, le nombre de personnes présentes, celles qui manquent et leur dernière localisation connue. Cette information oriente les recherches. Personne ne retourne dans le bâtiment pour chercher un collègue, même si l'incendie semble maîtrisé." },
+      { type: "ul", items: ["noms des personnes non retrouvées ;", "dernier lieu où elles ont été vues ;", "présence éventuelle de personnes à mobilité réduite ;", "localisation des produits dangereux ou des arrivées de gaz et d'électricité."] },
+      { type: "h2", text: "Entretenir le dispositif par des exercices" },
+      { type: "p", text: "Un exercice d'évacuation est l'occasion de tester le décompte réel, avec la liste et les rôles désignés. Mesurez le temps nécessaire pour boucler l'appel et notez les écarts : groupes mélangés, personnes parties sans prévenir, liste incomplète. Selon R.4227-39 du Code du travail, un exercice d'évacuation a lieu au moins tous les six mois." },
+      { type: "p", text: "L'employeur doit évaluer les risques et prendre les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. L'organisation de l'évacuation, du point de rassemblement et du décompte en fait partie." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l'employeur) ; Code du travail, R.4227-39 (exercices d'évacuation au moins tous les six mois)." },
+      { type: "cta", text: "Pour former vos équipes à l\'évacuation et aux rôles de guide-file et de serre-file,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
