@@ -214,6 +214,7 @@ export const articleSlugs = [
   "feu-huile-friture-cuisine-professionnelle-extincteur-classe-f-conduite-a-tenir",
   "vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir",
   "point-de-rassemblement-decompte-evacuation-incendie-organiser-appel",
+  "decongelation-restauration-methodes-securite-sanitaire-haccp",
 ] as const;
 
 /**
@@ -9161,6 +9162,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L'employeur doit évaluer les risques et prendre les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. L'organisation de l'évacuation, du point de rassemblement et du décompte en fait partie." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l'employeur) ; Code du travail, R.4227-39 (exercices d'évacuation au moins tous les six mois)." },
       { type: "cta", text: "Pour former vos équipes à l\'évacuation et aux rôles de guide-file et de serre-file,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "decongelation-restauration-methodes-securite-sanitaire-haccp": {
+    title: "Décongélation en restauration : choisir la bonne méthode pour éviter la prolifération bactérienne",
+    excerpt:
+      "Laisser un produit sur le plan de travail est la pire façon de le décongeler. Méthodes admises, durées, gestion de l'eau de fonte et règle de non-recongélation dans le cadre HACCP.",
+    publishedAt: "2026-10-27",
+    category: "Hygiène alimentaire",
+    readingTime: 5,
+    image: "/images/articles/decongelation-restauration-methodes-securite-sanitaire-haccp.jpg",
+    content: [
+      { type: "p", text: "La congélation arrête la multiplication des micro-organismes, elle ne les détruit pas. Dès que la décongélation commence, ils reprennent leur activité. Une décongélation mal conduite peut donc transformer un produit sain en denrée à risque en quelques heures. En cuisine professionnelle, cette étape se planifie et se documente comme une étape critique." },
+      { type: "h2", text: "Pourquoi la température ambiante est exclue" },
+      { type: "p", text: "Un bloc de viande ou de poisson sorti sur un plan de travail se réchauffe de l'extérieur vers le centre. La surface atteint rapidement la zone où les bactéries se multiplient vite, alors que le cœur reste gelé. Le produit semble encore froid au toucher, mais sa périphérie est déjà exposée depuis longtemps. La décongélation à température ambiante est à proscrire." },
+      { type: "h2", text: "Les méthodes à privilégier" },
+      { type: "p", text: "La méthode de référence est la décongélation en enceinte réfrigérée, à une température comprise entre 0 et 4 °C. Elle est lente mais régulière, et elle impose d'anticiper : selon l'épaisseur et le poids, il faut prévoir un à deux jours pour les grosses pièces." },
+      { type: "ul", items: ["en chambre froide ou réfrigérateur, à 0-4 °C, pour la majorité des produits ;", "au four à micro-ondes ou au four, lorsque la cuisson suit immédiatement ;", "directement à la cuisson pour les produits qui s'y prêtent (légumes, produits panés, petites pièces), selon la notice du fabricant ;", "sous eau potable courante et fraîche, uniquement pour un emballage étanche et si le procédé est prévu dans votre plan."] },
+      { type: "p", text: "Consultez toujours l'étiquette du fabricant : certains produits surgelés se cuisinent sans décongélation préalable, d'autres exigent une méthode précise." },
+      { type: "h2", text: "Maîtriser l'eau de décongélation" },
+      { type: "p", text: "L'eau de fonte des viandes et des poissons est chargée en micro-organismes. Placez les produits sur une grille au-dessus d'un bac, dans un contenant fermé, en bas de la chambre froide. Ainsi, le liquide ne coule pas sur les denrées prêtes à consommer, les fruits et légumes ou les préparations cuites rangées en dessous. Nettoyez et désinfectez le bac après chaque usage." },
+      { type: "h3", text: "Séparer les produits dans l'enceinte" },
+      { type: "p", text: "Dédiez si possible une zone ou une enceinte à la décongélation. À défaut, appliquez la marche en avant et le rangement par risque : produits crus décongelés en bas, produits cuits ou prêts à consommer en haut." },
+      { type: "h2", text: "Étiqueter, dater et ne pas recongeler" },
+      { type: "p", text: "Au moment de sortir un produit du congélateur, inscrivez sur le contenant la date et l'heure de sortie, ainsi que la date limite de consommation recalculée. La durée de vie d'un produit décongelé est courte : il doit être cuisiné puis consommé dans un délai fixé par votre plan de maîtrise sanitaire, en général de quelques jours au plus au froid positif." },
+      { type: "p", text: "Un produit décongelé ne se recongèle pas en l'état. La seule exception raisonnable concerne un produit cuit après décongélation, à condition de respecter un refroidissement rapide et de le tracer comme une nouvelle préparation. Dans le doute, éliminez." },
+      { type: "h2", text: "Intégrer la décongélation au plan HACCP" },
+      { type: "p", text: "Décrivez dans vos procédures la méthode retenue pour chaque famille de produits, la température de l'enceinte, la durée maximale et les enregistrements à tenir. Formez les équipes aux gestes qui comptent : anticiper la veille, ne jamais décongeler à l'air libre, identifier les produits et jeter ceux dont l'historique est inconnu. Un contrôle visuel quotidien des enceintes et un relevé de température complètent le dispositif." },
+      { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l'hygiène des denrées alimentaires (principes HACCP) ; Code du travail, L.4121-1 (obligation générale de prévention de l'employeur)." },
+      { type: "cta", text: "Pour former vos équipes à l'hygiène alimentaire et à la méthode HACCP,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
