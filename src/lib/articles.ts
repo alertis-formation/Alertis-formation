@@ -215,6 +215,7 @@ export const articleSlugs = [
   "vetements-en-feu-travail-arreter-coucher-etouffer-conduite-a-tenir",
   "point-de-rassemblement-decompte-evacuation-incendie-organiser-appel",
   "decongelation-restauration-methodes-securite-sanitaire-haccp",
+  "inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -9191,6 +9192,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Décrivez dans vos procédures la méthode retenue pour chaque famille de produits, la température de l'enceinte, la durée maximale et les enregistrements à tenir. Formez les équipes aux gestes qui comptent : anticiper la veille, ne jamais décongeler à l'air libre, identifier les produits et jeter ceux dont l'historique est inconnu. Un contrôle visuel quotidien des enceintes et un relevé de température complètent le dispositif." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l'hygiène des denrées alimentaires (principes HACCP) ; Code du travail, L.4121-1 (obligation générale de prévention de l'employeur)." },
       { type: "cta", text: "Pour former vos équipes à l'hygiène alimentaire et à la méthode HACCP,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst": {
+    title: "Inhalation de fumées d\'incendie au travail : signes et conduite à tenir pour le SST",
+    excerpt:
+      "Dans un incendie, les fumées font plus de victimes que les flammes. Signes d\'intoxication, mise à l\'abri, alerte des secours, surveillance de la victime et prévention en entreprise.",
+    publishedAt: "2026-10-28",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Un départ de feu dans un local de stockage, une cuisine ou un tableau électrique dégage très vite des fumées chaudes et toxiques. Un salarié peut les respirer en quelques secondes, sans avoir été touché par les flammes. Voici comment reconnaître une inhalation de fumées et agir en tant que sauveteur secouriste du travail." },
+      { type: "h2", text: "Pourquoi les fumées sont dangereuses" },
+      { type: "p", text: "Les fumées d\'incendie sont un mélange de particules, de gaz chauds et de substances irritantes ou toxiques. Elles brûlent les voies respiratoires, privent l\'organisme d\'oxygène et peuvent contenir du monoxyde de carbone, un gaz invisible et inodore. La composition dépend de ce qui brûle : plastiques, mousses, câbles et produits chimiques rendent les fumées particulièrement agressives." },
+      { type: "h2", text: "Reconnaître une victime exposée" },
+      { type: "p", text: "Les signes peuvent apparaître tout de suite ou plusieurs heures après l\'exposition. Une victime qui semble aller bien au sortir d\'un local enfumé doit donc rester sous surveillance." },
+      { type: "ul", items: ["toux, gêne ou difficulté à respirer, voix rauque ;", "traces de suie autour du nez et de la bouche, crachats noirâtres ;", "maux de tête, nausées, vertiges, confusion ;", "brûlures du visage, poils du nez roussis ;", "perte de connaissance dans les cas les plus graves."] },
+      { type: "h2", text: "La conduite à tenir pas à pas" },
+      { type: "p", text: "Ne vous exposez pas : n\'entrez jamais dans un local enfumé pour porter secours sans moyen adapté. Faites évacuer la victime à l\'air libre dès que c\'est possible sans risque, faites donner l\'alerte et appelez les secours (15, 18 ou 112). Desserrez les vêtements qui gênent la respiration et installez la personne dans la position où elle respire le mieux, souvent assise." },
+      { type: "p", text: "Précisez aux secours le lieu, le nombre de victimes, la durée approximative d\'exposition et, si vous le savez, la nature des produits qui brûlaient. Ces informations orientent la prise en charge, notamment en cas de suspicion d\'intoxication au monoxyde de carbone." },
+      { type: "h3", text: "Si la victime perd connaissance" },
+      { type: "p", text: "Vérifiez la respiration. Si elle respire, placez-la en position latérale de sécurité et surveillez-la jusqu\'à l\'arrivée des secours. Si elle ne respire pas, pratiquez une réanimation cardio-pulmonaire et utilisez un défibrillateur automatisé externe s\'il est disponible, comme enseigné en formation SST." },
+      { type: "h2", text: "Surveiller même sans symptôme grave" },
+      { type: "p", text: "Une personne qui a respiré des fumées, même peu, doit être examinée par un médecin. Les lésions des voies respiratoires peuvent évoluer après l\'exposition, avec un risque de gêne respiratoire différée. Ne la laissez pas repartir seule et ne la laissez pas fumer. Notez l\'heure de l\'exposition et les signes observés pour les transmettre aux secours." },
+      { type: "h2", text: "Limiter l\'exposition avant l\'arrivée des secours" },
+      { type: "p", text: "Pour les personnes qui doivent évacuer à travers des fumées, la consigne habituelle est de se baisser, car l\'air respirable se trouve plus près du sol, de couvrir le nez et la bouche si possible et de fermer les portes derrière soi pour freiner la propagation. Si l\'issue est coupée, mieux vaut rester dans un local fermé, signaler sa présence aux fenêtres et attendre les secours." },
+      { type: "h2", text: "Prévenir le risque en entreprise" },
+      { type: "p", text: "L\'employeur évalue le risque incendie et met en place les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Cela passe par une détection fiable, des issues dégagées, un désenfumage adapté, des consignes affichées et des exercices d\'évacuation réguliers. Les sauveteurs secouristes du travail doivent savoir ce qu\'on attend d\'eux lors d\'un sinistre : alerter, se protéger, secourir sans s\'exposer." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur)." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une victime de fumées,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
