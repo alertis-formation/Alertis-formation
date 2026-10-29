@@ -216,6 +216,7 @@ export const articleSlugs = [
   "point-de-rassemblement-decompte-evacuation-incendie-organiser-appel",
   "decongelation-restauration-methodes-securite-sanitaire-haccp",
   "inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst",
+  "plan-evacuation-incendie-contenu-affichage-mise-a-jour-entreprise",
 ] as const;
 
 /**
@@ -9222,6 +9223,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur évalue le risque incendie et met en place les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Cela passe par une détection fiable, des issues dégagées, un désenfumage adapté, des consignes affichées et des exercices d\'évacuation réguliers. Les sauveteurs secouristes du travail doivent savoir ce qu\'on attend d\'eux lors d\'un sinistre : alerter, se protéger, secourir sans s\'exposer." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur)." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours face à une victime de fumées,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "plan-evacuation-incendie-contenu-affichage-mise-a-jour-entreprise": {
+    title: "Plan d\'évacuation incendie : contenu, affichage et mise à jour dans l\'entreprise",
+    excerpt:
+      "Le plan d\'évacuation guide les occupants vers la sortie en situation de stress. Ce qu\'il doit montrer, où l\'afficher, comment le tenir à jour et le faire connaître aux salariés.",
+    publishedAt: "2026-10-29",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/plan-evacuation-incendie-contenu-affichage-mise-a-jour-entreprise.jpg",
+    content: [
+      { type: "p", text: "En cas d\'alarme, un salarié qui ne connaît pas les lieux, un intérimaire ou un visiteur cherche d\'abord où aller. Le plan d\'évacuation répond à cette question d\'un coup d\'œil. Encore faut-il qu\'il soit lisible, à jour et placé au bon endroit. Voici comment le concevoir et l\'entretenir." },
+      { type: "h2", text: "Ce que le plan d\'évacuation doit montrer" },
+      { type: "p", text: "Le plan représente le niveau ou le local où se trouve le lecteur. Il indique sa position avec la mention « vous êtes ici », orientée comme les lieux réels, ainsi que les cheminements vers les sorties. Les issues de secours sont repérées avec les mêmes couleurs et pictogrammes que la signalisation de sécurité installée dans le bâtiment." },
+      { type: "ul", items: ["les cheminements d\'évacuation et les sorties, avec les escaliers et les circuits à emprunter ;", "la position du lecteur, repérée sur le plan ;", "les moyens de secours : extincteurs, commandes d\'alarme, robinets d\'incendie armés ;", "les dispositifs de coupure utiles, comme les arrivées de gaz et d\'électricité ;", "le point de rassemblement, s\'il figure sur le plan ou sur la consigne associée."] },
+      { type: "h2", text: "Plan d\'évacuation et plan d\'intervention" },
+      { type: "p", text: "Deux documents se complètent. Le plan d\'évacuation s\'adresse aux occupants, avec un message simple. Le plan d\'intervention s\'adresse aux sapeurs-pompiers et détaille les accès, les colonnes, les locaux à risque et les organes de coupure. La norme NF X 08-070 sert de référence de conception pour ces plans, notamment pour leur format et leur lisibilité." },
+      { type: "h2", text: "Où et comment l\'afficher" },
+      { type: "p", text: "Placez un plan à chaque niveau, près des escaliers, des ascenseurs et des accès principaux, et dans les locaux où le public ou le personnel se renouvelle. Fixez-le à hauteur des yeux, dans un endroit éclairé et jamais derrière une porte qui s\'ouvre. Le support doit rester propre, visible et fixé durablement." },
+      { type: "p", text: "Le plan s\'oriente dans le sens de la marche : le haut du plan correspond à ce que voit la personne face au mur. Un plan tourné de 90 degrés fait perdre du temps au moment où chaque seconde compte." },
+      { type: "h2", text: "Le lien avec la consigne de sécurité incendie" },
+      { type: "p", text: "Le plan ne remplace pas la consigne. Selon R.4227-37 du Code du travail, une consigne de sécurité incendie est établie et affichée, et R.4227-38 en précise le contenu : numéros d\'appel, procédure d\'alerte et d\'évacuation, rôle des personnes désignées. Le plan donne le chemin, la consigne donne la conduite à tenir. Affichez-les côte à côte." },
+      { type: "h2", text: "Tenir le plan à jour" },
+      { type: "p", text: "Un plan faux est plus dangereux qu\'un plan absent. Mettez-le à jour dès qu\'un changement touche le bâtiment : cloison déplacée, nouvelle issue, réaffectation de locaux, déménagement d\'un service, changement d\'extincteurs. Prévoyez aussi une vérification annuelle, par exemple lors de la visite de sécurité ou après un exercice." },
+      { type: "ul", items: ["comparer le plan affiché à la réalité du terrain ;", "vérifier l\'état du support, la lisibilité et la position « vous êtes ici » ;", "contrôler que les issues indiquées sont dégagées et utilisables ;", "remplacer immédiatement tout plan dégradé ou obsolète."] },
+      { type: "h2", text: "Faire connaître le plan aux salariés" },
+      { type: "p", text: "Un plan affiché ne suffit pas s\'il n\'est jamais lu. Présentez-le à l\'accueil sécurité des nouveaux arrivants, rappelez-le lors des exercices et associez-le aux consignes données aux guides et serre-files. Selon R.4227-39 du Code du travail, un exercice d\'évacuation a lieu au moins tous les six mois : c\'est l\'occasion de vérifier que chacun trouve la sortie sans hésiter." },
+      { type: "p", text: "L\'employeur prend les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Un plan d\'évacuation exact et connu de tous en fait partie." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4227-37 à R.4227-39 (consignes de sécurité incendie et exercices) ; norme NF X 08-070 (plans d\'évacuation et d\'intervention)." },
+      { type: "cta", text: "Pour former vos équipes à l\'évacuation et à la lecture des consignes,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
