@@ -217,6 +217,7 @@ export const articleSlugs = [
   "decongelation-restauration-methodes-securite-sanitaire-haccp",
   "inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst",
   "plan-evacuation-incendie-contenu-affichage-mise-a-jour-entreprise",
+  "defibrillateur-dae-entreprise-maintenance-verification-registre-consommables",
 ] as const;
 
 /**
@@ -9253,6 +9254,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'employeur prend les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Un plan d\'évacuation exact et connu de tous en fait partie." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4227-37 à R.4227-39 (consignes de sécurité incendie et exercices) ; norme NF X 08-070 (plans d\'évacuation et d\'intervention)." },
       { type: "cta", text: "Pour former vos équipes à l\'évacuation et à la lecture des consignes,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
+    ],
+  },
+  "defibrillateur-dae-entreprise-maintenance-verification-registre-consommables": {
+    title: "Défibrillateur en entreprise : maintenance, vérifications et suivi des consommables",
+    excerpt:
+      "Un défibrillateur qui ne démarre pas faute de batterie ou d\'électrodes valides ne sert à rien. Les vérifications à planifier, le suivi des péremptions et l\'organisation à mettre en place.",
+    publishedAt: "2026-10-30",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/defibrillateur-dae-entreprise-maintenance-verification-registre-consommables.jpg",
+    content: [
+      { type: "p", text: "Installer un défibrillateur automatisé externe (DAE) ne règle rien si personne ne s\'assure qu\'il fonctionne. Batterie déchargée, électrodes périmées, armoire verrouillée : ces défaillances se découvrent le plus souvent au pire moment. Voici comment organiser la maintenance et le suivi de l\'appareil dans l\'entreprise." },
+      { type: "h2", text: "Pourquoi la maintenance fait partie de la prévention" },
+      { type: "p", text: "En cas d\'arrêt cardiaque, chaque minute sans choc électrique réduit les chances de survie. L\'employeur prend les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail. Lorsqu\'il choisit de mettre un DAE à disposition, l\'appareil doit être en état de marche le jour où il sert. La maintenance relève de l\'exploitant, c\'est-à-dire de l\'entreprise qui le détient." },
+      { type: "h2", text: "Ce que le fabricant impose" },
+      { type: "p", text: "Chaque modèle possède son propre mode d\'emploi, qui fixe la nature et la fréquence des contrôles. Conservez cette notice et suivez-la à la lettre. Elle précise la durée de vie de la batterie, la date de péremption des électrodes, les autotests réalisés par l\'appareil et les opérations à confier à un technicien. Un contrat de maintenance auprès du fournisseur ou d\'un prestataire peut décharger l\'entreprise de ce suivi." },
+      { type: "h2", text: "Les éléments à contrôler" },
+      { type: "p", text: "La plupart des DAE réalisent des autotests et signalent leur état par un voyant ou un message sonore. Ce voyant ne dispense pas d\'un contrôle visuel régulier par une personne désignée." },
+      { type: "ul", items: ["l\'indicateur d\'état de l\'appareil, qui doit signaler qu\'il est prêt à l\'emploi ;", "la date de péremption des électrodes, adultes et pédiatriques si le modèle en prévoit ;", "la date de remplacement de la batterie indiquée par le fabricant ;", "l\'intégrité du boîtier, des câbles et des emballages scellés ;", "la présence du kit d\'urgence : rasoir, ciseaux, compresses, gants."] },
+      { type: "h2", text: "Désigner un responsable du suivi" },
+      { type: "p", text: "Un appareil que tout le monde est censé surveiller n\'est surveillé par personne. Nommez un référent, avec un suppléant, chargé des contrôles périodiques et du lien avec le fournisseur. Les sauveteurs secouristes du travail sont des candidats naturels : ils connaissent l\'appareil et savent à quoi il sert." },
+      { type: "h2", text: "Tenir un registre de maintenance" },
+      { type: "p", text: "Consignez chaque contrôle dans un registre : date, nom de la personne, état de l\'indicateur, dates de péremption relevées, opérations réalisées. Ce document prouve que la maintenance est suivie et permet d\'anticiper les remplacements. Il aide aussi lors d\'un audit, d\'un contrôle ou d\'une analyse après incident." },
+      { type: "h3", text: "Anticiper les péremptions" },
+      { type: "p", text: "Les électrodes et la batterie ont des dates de remplacement connues à l\'avance. Reportez-les dans un agenda partagé avec un rappel plusieurs semaines avant l\'échéance, afin de laisser le temps de commander. Après une utilisation, remplacez systématiquement les électrodes et vérifiez l\'état de la batterie avant de remettre l\'appareil en place." },
+      { type: "h2", text: "Emplacement, signalisation et accès" },
+      { type: "p", text: "Le DAE doit rester accessible à tout moment, y compris en dehors des heures de bureau si des équipes travaillent en horaires décalés. Placez-le dans un lieu visible et fréquenté, signalé par un pictogramme normalisé, à l\'abri des chocs, de l\'humidité et des températures extrêmes. Vérifiez que le trajet pour l\'atteindre est dégagé, et que l\'armoire, si elle est verrouillée, s\'ouvre sans clé introuvable." },
+      { type: "h2", text: "Former et faire connaître l\'appareil" },
+      { type: "p", text: "Un DAE accessible mais ignoré reste inutilisé. Indiquez son emplacement à l\'accueil sécurité des nouveaux salariés, rappelez-le dans les consignes et intégrez-le aux exercices. Le geste de défibrillation est enseigné lors de la formation SST, et son recyclage régulier maintient la confiance des sauveteurs." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; notice d\'utilisation et de maintenance du fabricant de l\'appareil." },
+      { type: "cta", text: "Pour former vos équipes à la réanimation et à l\'usage du défibrillateur,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
