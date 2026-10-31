@@ -218,6 +218,7 @@ export const articleSlugs = [
   "inhalation-fumees-incendie-travail-signes-conduite-a-tenir-sst",
   "plan-evacuation-incendie-contenu-affichage-mise-a-jour-entreprise",
   "defibrillateur-dae-entreprise-maintenance-verification-registre-consommables",
+  "dermatoses-professionnelles-dermatite-contact-gants-prevention-employeur",
 ] as const;
 
 /**
@@ -9285,6 +9286,38 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un DAE accessible mais ignoré reste inutilisé. Indiquez son emplacement à l\'accueil sécurité des nouveaux salariés, rappelez-le dans les consignes et intégrez-le aux exercices. Le geste de défibrillation est enseigné lors de la formation SST, et son recyclage régulier maintient la confiance des sauveteurs." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; notice d\'utilisation et de maintenance du fabricant de l\'appareil." },
       { type: "cta", text: "Pour former vos équipes à la réanimation et à l\'usage du défibrillateur,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "dermatoses-professionnelles-dermatite-contact-gants-prevention-employeur": {
+    title: "Dermatoses professionnelles : prévenir la dermatite de contact au poste de travail",
+    excerpt:
+      "Rougeurs, démangeaisons, peau qui craque : la dermatite de contact touche de nombreux métiers. Les causes, les mesures de prévention à mettre en place et le bon usage des gants.",
+    publishedAt: "2026-10-31",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/dermatoses-professionnelles-dermatite-contact-gants-prevention-employeur.jpg",
+    content: [
+      { type: "p", text: "Une peau qui rougit, démange ou se fissure aux mains n\'est pas un simple désagrément. Quand les lésions apparaissent ou s\'aggravent au travail, il s\'agit souvent d\'une dermatose professionnelle, dont la forme la plus fréquente est la dermatite de contact. Elle touche la coiffure, la restauration, le nettoyage, le BTP, la santé ou la mécanique. Voici comment la repérer et la prévenir." },
+      { type: "h2", text: "Deux mécanismes à distinguer" },
+      { type: "p", text: "La dermatite irritative résulte d\'agressions répétées de la peau par l\'eau, les détergents, les solvants ou les frottements. Elle peut toucher n\'importe quel salarié exposé assez longtemps. La dermatite allergique est liée à une sensibilisation à une substance précise, comme certains métaux, résines, conservateurs ou le latex. Une fois la sensibilisation installée, de très faibles quantités suffisent à déclencher une réaction." },
+      { type: "h2", text: "Les situations de travail à surveiller" },
+      { type: "p", text: "Le risque ne vient pas seulement des produits chimiques étiquetés dangereux. Les contacts répétés avec l\'eau, le port prolongé de gants occlusifs, le lavage fréquent des mains ou la manipulation de produits d\'entretien courants suffisent à altérer la barrière cutanée." },
+      { type: "ul", items: ["travail en milieu humide ou lavage des mains très fréquent ;", "contact avec des détergents, des solvants, des huiles de coupe ou des ciments ;", "manipulation d\'aliments, de produits de coiffure ou de cosmétiques ;", "port prolongé de gants occlusifs, qui macèrent la peau ;", "frottements, coupures et microtraumatismes répétés."] },
+      { type: "h2", text: "Les signes d\'alerte à ne pas banaliser" },
+      { type: "p", text: "Les premiers signes sont une peau sèche, des rougeurs, des démangeaisons, puis des fissures ou de petites vésicules, souvent entre les doigts et sur le dos des mains. Un indice utile : les lésions s\'améliorent pendant les congés et reviennent à la reprise. Un salarié qui signale ces symptômes doit être orienté vers le médecin du travail sans attendre, car une dermatite prise tôt se corrige plus facilement." },
+      { type: "h2", text: "Évaluer le risque et supprimer la cause" },
+      { type: "p", text: "Le risque cutané se traite dans le cadre de l\'évaluation des risques, avec le document unique. L\'employeur prend les mesures de prévention nécessaires, conformément à L.4121-1 du Code du travail, et les règles relatives aux agents chimiques dangereux, à partir de R.4412-1, s\'appliquent lorsque des produits sont en cause. La démarche suit l\'ordre habituel : supprimer ou remplacer le produit irritant ou allergisant, puis limiter le contact par l\'organisation du travail, enfin protéger." },
+      { type: "h3", text: "Revoir les produits et les procédés" },
+      { type: "p", text: "Consultez les fiches de données de sécurité et demandez à vos fournisseurs des produits moins agressifs pour la peau. Un procédé qui évite de plonger les mains dans un bain, un outil qui permet de ne pas toucher la pièce, une dilution automatique des produits d\'entretien réduisent le contact à la source." },
+      { type: "h2", text: "Choisir et utiliser correctement les gants" },
+      { type: "p", text: "Les gants protègent à condition d\'être adaptés au produit manipulé. Une matière efficace contre un solvant peut être perméable à un autre, et la notice du fabricant précise les usages. Les gants doivent être enfilés sur des mains propres et sèches, retirés sans toucher l\'extérieur, et remplacés dès qu\'ils sont percés ou souillés à l\'intérieur." },
+      { type: "p", text: "Pour un port prolongé, des gants en coton portés dessous absorbent la transpiration. Les gants jetables doivent rester limités aux tâches courtes. Un salarié sensibilisé au latex a besoin d\'une alternative, à prévoir avec le médecin du travail." },
+      { type: "h2", text: "Soigner la peau au quotidien" },
+      { type: "p", text: "Mettez à disposition des produits de lavage doux, des points d\'eau accessibles et des crèmes adaptées, appliquées en fin de poste et pendant les pauses. Ces soins complètent la prévention collective sans la remplacer. Informez les équipes lors de l\'accueil sécurité et des quarts d\'heure sécurité, et associez le médecin du travail et le CSE à la démarche." },
+      { type: "h2", text: "Et si la dermatose est déjà installée" },
+      { type: "p", text: "Le médecin du travail peut proposer un aménagement de poste ou une adaptation des tâches. Une dermatose dont le lien avec l\'activité est établi peut relever d\'une démarche de reconnaissance en maladie professionnelle, à engager avec le salarié. L\'employeur garde un rôle d\'information et de soutien dans cette démarche." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4412-1 et suivants (prévention du risque chimique) ; fiches de données de sécurité et notices des fabricants de gants." },
+      { type: "cta", text: "Pour sensibiliser vos équipes à la prévention des risques professionnels,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
