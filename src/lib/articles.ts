@@ -221,6 +221,7 @@ export const articleSlugs = [
   "dermatoses-professionnelles-dermatite-contact-gants-prevention-employeur",
   "degagement-urgence-victime-travail-danger-vital-quand-deplacer-sst",
   "examen-victime-sst-detresse-vitale-saignement-conscience-respiration",
+  "role-manager-proximite-prevention-risques-equipe-leviers-signaux",
 ] as const;
 
 /**
@@ -9382,6 +9383,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L\'examen de la victime s\'apprend par la pratique, sur des cas concrets proches des risques du site. Vérifiez que vos sauveteurs sont formés, que leur recyclage est suivi et que les consignes d\'alerte sont affichées près des postes de travail. Les cas d\'accident observés dans l\'entreprise fournissent de bons scénarios d\'entraînement." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4224-15 (organisation des premiers secours dans l\'entreprise) ; documentation INRS sur le sauveteur secouriste du travail." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "role-manager-proximite-prevention-risques-equipe-leviers-signaux": {
+    title: "Le manager de proximité, premier acteur de la prévention des risques",
+    excerpt: "Le manager de proximité voit le travail réel avant tout le monde. Voici comment il repère les signaux faibles, relaie les consignes et fait remonter les risques sans se substituer à l\'employeur.",
+    publishedAt: "2026-11-03",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/role-manager-proximite-prevention-risques-equipe-leviers-signaux.jpg",
+    content: [
+      { type: "p", text: "Le DUERP décrit les risques, le plan d\'action fixe les mesures. Mais c\'est sur le terrain, au quotidien, que ces documents vivent ou s\'éteignent. Le chef d\'équipe, le responsable de service ou le chef d\'atelier est la personne qui voit le travail réel, entend les remarques et corrige les écarts. Son rôle en prévention est rarement formalisé, ce qui le rend fragile." },
+      { type: "h2", text: "Ce que la loi demande à l\'employeur, et ce que le manager porte au quotidien" },
+      { type: "p", text: "Selon L.4121-1, l\'employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. L.4121-2 détaille les principes généraux de prévention : éviter les risques, évaluer ceux qui ne peuvent l\'être, combattre les risques à la source, adapter le travail à l\'homme. La responsabilité reste celle de l\'employeur, mais l\'application passe par l\'encadrement." },
+      { type: "p", text: "Le manager de proximité n\'est donc pas le garant juridique de la prévention. Il est le relais qui rend les mesures effectives : il explique, vérifie, alerte et ajuste. Pour qu\'il puisse le faire, l\'employeur doit lui donner des moyens, du temps et une position claire dans l\'organisation." },
+      { type: "h2", text: "Quatre missions concrètes sur le terrain" },
+      { type: "ul", items: ["relayer les consignes de sécurité et vérifier qu\'elles sont comprises, pas seulement affichées ;", "contrôler le port des équipements de protection et l\'état du matériel au démarrage du poste ;", "accueillir les nouveaux arrivants, les intérimaires et les stagiaires sur leur poste réel ;", "faire remonter les situations dangereuses et les presque-accidents à la direction et au préventeur."] },
+      { type: "p", text: "Ces missions tiennent en peu de gestes, mais elles supposent de la régularité. Un tour de poste de cinq minutes en début de journée détecte plus d\'écarts qu\'un audit annuel, parce qu\'il porte sur ce qui se passe réellement ce jour-là." },
+      { type: "h2", text: "Repérer les signaux faibles avant l\'accident" },
+      { type: "p", text: "Un salarié qui contourne un protecteur, un rangement qui se dégrade, une consigne que personne ne respecte plus : ces écarts annoncent souvent un incident. Le manager les voit avant les indicateurs chiffrés. Il suffit de les noter et d\'en parler à l\'équipe avant qu\'ils ne deviennent la norme." },
+      { type: "h3", text: "Les signaux liés à la santé et à la charge de travail" },
+      { type: "p", text: "Le même regard s\'applique aux risques psychosociaux. Des retards répétés, des tensions nouvelles dans l\'équipe, des erreurs inhabituelles ou un isolement progressif méritent un échange individuel. Le manager n\'établit pas de diagnostic. Il ouvre la discussion, écoute et oriente vers le service de prévention et de santé au travail ou les ressources humaines." },
+      { type: "h2", text: "Donner l\'exemple et corriger sans sanctionner d\'emblée" },
+      { type: "p", text: "Un manager qui enjambe une consigne le jour où il est pressé annule des mois de sensibilisation. L\'exemplarité compte plus que le discours. Face à un écart, la correction immédiate et calme, avec une explication du risque, fonctionne mieux qu\'une remarque en public. La sanction reste un dernier recours, prévu par le règlement intérieur." },
+      { type: "p", text: "L.4122-1 rappelle que chaque travailleur doit prendre soin, selon sa formation et ses instructions, de sa propre sécurité et de celle des autres. Le manager s\'appuie sur cette obligation pour responsabiliser l\'équipe, sans la faire peser sur un seul individu." },
+      { type: "h2", text: "Lui donner les moyens d\'agir" },
+      { type: "ul", items: ["une formation à la prévention adaptée à son périmètre, rappelée par L.4141-1 pour l\'ensemble des salariés ;", "du temps identifié dans son planning pour les tours de poste et les échanges sécurité ;", "un circuit court pour faire traiter une alerte, avec un retour visible auprès de l\'équipe ;", "des objectifs qui ne placent pas la cadence en contradiction avec la sécurité."] },
+      { type: "p", text: "Le dernier point est souvent décisif. Un manager à qui l\'on demande à la fois de tenir les délais et de ne prendre aucun risque finit par arbitrer seul, et rarement en faveur de la prévention. La direction doit trancher ces arbitrages en amont." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de sécurité de l\'employeur), L.4121-2 (principes généraux de prévention), L.4122-1 (obligations du travailleur) et L.4141-1 (formation à la sécurité)." },
+      { type: "cta", text: "Pour former vos encadrants à leur rôle en prévention,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
