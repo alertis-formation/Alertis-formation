@@ -223,6 +223,7 @@ export const articleSlugs = [
   "examen-victime-sst-detresse-vitale-saignement-conscience-respiration",
   "role-manager-proximite-prevention-risques-equipe-leviers-signaux",
   "reception-marchandises-restauration-controles-temperature-dlc-haccp",
+  "alarme-incendie-signal-sonore-audibilite-essais-entreprise",
 ] as const;
 
 /**
@@ -9444,6 +9445,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La personne qui réceptionne n\'est pas toujours celle qui cuisine. Elle doit connaître les seuils, savoir utiliser le thermomètre et oser refuser un produit. Une fiche simple affichée au quai, mise à jour avec le plan de maîtrise sanitaire, suffit pour cadrer ses gestes. La formation à l\'hygiène alimentaire donne le cadre de ces contrôles." },
       { type: "p", text: "Référence officielle : règlement (CE) n° 852/2004 relatif à l\'hygiène des denrées alimentaires ; règlement (CE) n° 178/2002, article 18 (traçabilité) ; arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d\'entreposage et de transport de produits d\'origine animale." },
       { type: "cta", text: "Pour former vos équipes de cuisine aux bonnes pratiques d\'hygiène,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "alarme-incendie-signal-sonore-audibilite-essais-entreprise": {
+    title:
+      "Alarme incendie en entreprise : signal sonore, audibilité et essais réguliers",
+    excerpt:
+      "Une alarme qui ne s\'entend pas dans tout le bâtiment ne sert à rien. Rôle du signal, points à contrôler, essais périodiques et réflexes des salariés : le point pour les préventeurs.",
+    publishedAt: "2026-11-05",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/alarme-incendie-signal-sonore-audibilite-essais-entreprise.jpg",
+    content: [
+      { type: "p", text: "L\'alarme est le maillon qui déclenche l\'évacuation. Si elle ne retentit pas, ou si elle reste inaudible dans un local isolé, les salariés perdent les minutes qui comptent. Pourtant, ce dispositif est souvent testé à la va-vite, voire jamais. Voici ce qu\'un préventeur doit vérifier : le signal, sa portée, les essais et la façon dont les équipes y réagissent." },
+      { type: "h2", text: "Ce que prévoit le Code du travail" },
+      { type: "p", text: "Les dispositions sur l\'alarme figurent dans la partie du Code du travail consacrée à la prévention des incendies et à l\'évacuation, notamment l\'article R4227-34. Le principe : le signal d\'alarme doit permettre d\'avertir l\'ensemble des occupants et de déclencher l\'évacuation. Selon la taille et l\'activité de l\'établissement, il peut s\'agir d\'une corne, d\'une sirène ou d\'un dispositif plus complet relié à un système de détection." },
+      { type: "h2", text: "Un signal audible partout, et reconnaissable" },
+      { type: "p", text: "Le signal doit être entendu de tous les points du bâtiment, y compris les sanitaires, les réserves, les ateliers bruyants et les locaux techniques. Il doit aussi se distinguer des autres sonneries de l\'entreprise : une sonnerie de pause ou une alarme de machine ne doivent jamais être confondues avec lui. Un salarié qui hésite sur la nature du signal évacue plus tard." },
+      { type: "ul", items: ["bruit ambiant des ateliers ou de la cuisine, qui peut couvrir le signal ;", "casques antibruit portés par les opérateurs ;", "cloisons ou portes fermées qui atténuent le son ;", "salariés malentendants, pour qui un relais lumineux ou vibrant peut être nécessaire."] },
+      { type: "h2", text: "Faire un essai de la portée réelle" },
+      { type: "p", text: "Le plus simple reste de déclencher l\'alarme et de parcourir les locaux, de préférence en période d\'activité normale. Notez les zones où le signal est faible ou absent. Cette marche d\'essai révèle souvent des angles morts après un réaménagement, une extension ou l\'ajout de cloisons. Les corrections (sirène supplémentaire, déplacement d\'un diffuseur) sont ensuite à confier à l\'installateur." },
+      { type: "h2", text: "Essais périodiques et traçabilité" },
+      { type: "p", text: "L\'article R4227-38 impose des exercices d\'évacuation et des essais du matériel et des consignes au moins tous les six mois. Profitez de ces rendez-vous pour tester le déclenchement manuel, vérifier que chaque boîtier est accessible et non masqué par du stockage, et contrôler que le signal est bien perçu partout. Consignez la date, les anomalies et les actions correctives dans le registre de sécurité." },
+      { type: "h3", text: "Maintenance par un professionnel" },
+      { type: "p", text: "Au-delà des essais internes, un contrat de maintenance avec un installateur qualifié permet de contrôler l\'alimentation électrique, les batteries de secours et le câblage. Une alarme muette suite à une batterie déchargée est une panne classique, évitable par un contrôle régulier." },
+      { type: "h2", text: "Ce que les salariés doivent savoir faire" },
+      { type: "p", text: "Chaque salarié doit connaître le son du signal, l\'emplacement du déclencheur manuel le plus proche et la conduite à tenir : quitter les lieux sans reprendre ses affaires, rejoindre le point de rassemblement, ne pas utiliser l\'ascenseur. Ces réflexes se transmettent à l\'accueil sécurité des nouveaux arrivants puis se renforcent à chaque exercice. Un salarié qui a déjà entendu le signal en conditions d\'essai réagit plus vite le jour où il retentit pour de vrai." },
+      { type: "p", text: "Référence officielle : Code du travail, articles R4227-34 et R4227-38." },
+      { type: "cta", text: "Pour former vos équipes à l\'évacuation et aux réflexes en cas d\'alarme,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
