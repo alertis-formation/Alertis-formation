@@ -224,6 +224,7 @@ export const articleSlugs = [
   "role-manager-proximite-prevention-risques-equipe-leviers-signaux",
   "reception-marchandises-restauration-controles-temperature-dlc-haccp",
   "alarme-incendie-signal-sonore-audibilite-essais-entreprise",
+  "ecoute-collegue-detresse-psychique-premiers-reflexes-pssm",
 ] as const;
 
 /**
@@ -9474,6 +9475,36 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Chaque salarié doit connaître le son du signal, l\'emplacement du déclencheur manuel le plus proche et la conduite à tenir : quitter les lieux sans reprendre ses affaires, rejoindre le point de rassemblement, ne pas utiliser l\'ascenseur. Ces réflexes se transmettent à l\'accueil sécurité des nouveaux arrivants puis se renforcent à chaque exercice. Un salarié qui a déjà entendu le signal en conditions d\'essai réagit plus vite le jour où il retentit pour de vrai." },
       { type: "p", text: "Référence officielle : Code du travail, articles R4227-34 et R4227-38." },
       { type: "cta", text: "Pour former vos équipes à l\'évacuation et aux réflexes en cas d\'alarme,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+
+  "ecoute-collegue-detresse-psychique-premiers-reflexes-pssm": {
+    title:
+      "Collègue en détresse psychique : les premiers réflexes d\'écoute en entreprise",
+    excerpt:
+      "Un salarié semble épuisé, isolé, à bout. Comment l\'aborder, l\'écouter sans jugement et l\'orienter vers une aide adaptée : les étapes de l\'approche PSSM, utiles aux managers et aux RH.",
+    publishedAt: "2026-11-06",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/ecoute-collegue-detresse-psychique-premiers-reflexes-pssm.jpg",
+    content: [
+      { type: "p", text: "Un collègue arrive en retard plusieurs jours de suite, ne déjeune plus avec l\'équipe, répond de façon brusque. Beaucoup hésitent à intervenir par peur de mal faire ou d\'être indiscrets. Pourtant, une simple conversation sincère peut changer la suite. Voici une démarche en cinq étapes, inspirée des Premiers Secours en Santé Mentale (PSSM), pour agir sans se substituer à un professionnel." },
+      { type: "h2", text: "Ce que l\'entreprise doit à ses salariés" },
+      { type: "p", text: "L\'employeur doit prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs (article L.4121-1). Former des personnes capables de repérer une détresse et de réagir fait partie de ces mesures. Le secouriste en santé mentale ne pose pas de diagnostic et ne soigne pas : il ouvre le dialogue et oriente." },
+      { type: "h2", text: "Repérer les changements de comportement" },
+      { type: "p", text: "Le signal tient rarement à un événement isolé. C\'est l\'écart avec les habitudes de la personne qui compte, sur plusieurs jours ou semaines." },
+      { type: "ul", items: ["retraits inhabituels : isolement, absence aux pauses, silence en réunion ;", "irritabilité, larmes, propos découragés ou fatalistes ;", "baisse soudaine de la qualité du travail, oublis répétés ;", "fatigue marquée, retards ou absences à répétition."] },
+      { type: "h2", text: "Approcher et écouter sans juger" },
+      { type: "p", text: "Choisissez un moment calme et un lieu à l\'abri des regards. Formulez une observation plutôt qu\'une interprétation : \"Je t\'ai trouvé fatigué ces derniers jours, comment vas-tu vraiment ?\". Laissez des silences, reformulez ce que vous entendez, évitez les conseils pressés comme \"secoue-toi\" ou \"d\'autres ont pire\". La personne doit sentir qu\'elle n\'est ni jugée ni pressée." },
+      { type: "h3", text: "Poser la question du risque suicidaire" },
+      { type: "p", text: "Si certains propos laissent craindre des idées suicidaires, demandez-le franchement et calmement. Poser la question n\'induit pas le passage à l\'acte. En cas de danger immédiat, restez auprès de la personne et appelez le 15 ou le 112. Le 3114, numéro national de prévention du suicide, est accessible à tout moment pour la personne comme pour son entourage." },
+      { type: "h2", text: "Donner des repères et encourager l\'aide professionnelle" },
+      { type: "p", text: "Rappelez les interlocuteurs disponibles : médecin traitant, service de prévention et de santé au travail, ressources humaines, représentants du personnel. Proposez d\'accompagner la démarche si la personne le souhaite, sans la forcer. Encouragez aussi les soutiens de son entourage. Respectez la confidentialité : ne rapportez à personne ce qui vous a été confié, sauf danger vital." },
+      { type: "ul", items: ["approcher la personne et évaluer l\'urgence ;", "écouter sans jugement ;", "donner des informations et du réconfort ;", "encourager à consulter un professionnel ;", "encourager les autres formes de soutien."] },
+      { type: "h2", text: "Le rôle de l\'encadrement après la discussion" },
+      { type: "p", text: "Un manager qui a ouvert le dialogue peut ensuite regarder la charge de travail, les relations dans l\'équipe et les modalités d\'organisation. La détresse a parfois une origine personnelle, parfois professionnelle : l\'écoute aide à faire la part des choses. Si l\'origine est liée au travail, elle doit être traitée comme un risque à intégrer au DUERP." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; démarche des Premiers Secours en Santé Mentale (PSSM France)." },
+      { type: "cta", text: "Pour former vos équipes à repérer et accompagner une détresse psychique,", label: "découvrez notre formation PSSM", href: "/formations" },
     ],
   },
 };
