@@ -225,6 +225,7 @@ export const articleSlugs = [
   "reception-marchandises-restauration-controles-temperature-dlc-haccp",
   "alarme-incendie-signal-sonore-audibilite-essais-entreprise",
   "ecoute-collegue-detresse-psychique-premiers-reflexes-pssm",
+  "interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir",
 ] as const;
 
 /**
@@ -9505,6 +9506,37 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un manager qui a ouvert le dialogue peut ensuite regarder la charge de travail, les relations dans l\'équipe et les modalités d\'organisation. La détresse a parfois une origine personnelle, parfois professionnelle : l\'écoute aide à faire la part des choses. Si l\'origine est liée au travail, elle doit être traitée comme un risque à intégrer au DUERP." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; démarche des Premiers Secours en Santé Mentale (PSSM France)." },
       { type: "cta", text: "Pour former vos équipes à repérer et accompagner une détresse psychique,", label: "découvrez notre formation PSSM", href: "/formations" },
+    ],
+  },
+
+  "interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir": {
+    title:
+      "Interdiction de fumer et de vapoter au travail : les obligations de l\'employeur",
+    excerpt:
+      "Locaux fermés, véhicules, espaces partagés : où l\'interdiction s\'applique, ce que l\'employeur doit afficher et organiser, et pourquoi fumer reste aussi un risque d\'incendie.",
+    publishedAt: "2026-11-07",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir.jpg",
+    content: [
+      { type: "p", text: "Une pause cigarette sur le quai de chargement, une cigarette électronique au bureau, un fumeur dans le véhicule de service : les situations ambiguës sont fréquentes. Or l\'interdiction de fumer dans les lieux de travail est une règle de santé publique, que l\'employeur doit faire respecter. Voici le cadre, les espaces concernés et les mesures concrètes à mettre en place." },
+      { type: "h2", text: "Le cadre réglementaire" },
+      { type: "p", text: "Le décret 2006-1386 interdit de fumer dans les lieux fermés et couverts accueillant du public ou constituant des lieux de travail. Il vise l\'ensemble des locaux : bureaux, ateliers, salles de réunion, couloirs, sanitaires, cuisines, vestiaires. L\'interdiction vaut pour tous, salariés comme visiteurs, quel que soit le statut de l\'entreprise." },
+      { type: "h2", text: "La cigarette électronique n\'échappe pas à la règle" },
+      { type: "p", text: "Le vapotage est interdit dans les lieux de travail fermés et couverts à usage collectif, selon le décret 2017-633. Un bureau partagé, une salle de pause ou un open space sont donc concernés. Un bureau strictement individuel n\'est pas visé, mais la règle de l\'entreprise peut être plus stricte, notamment si des collègues y entrent régulièrement." },
+      { type: "h2", text: "Ce que l\'employeur doit mettre en place" },
+      { type: "p", text: "L\'employeur est responsable de l\'application de l\'interdiction dans son établissement. Il doit en particulier signaler clairement l\'interdiction par un affichage visible aux entrées et dans les espaces collectifs, et prévoir une information du personnel, par exemple dans le règlement intérieur ou lors de l\'accueil sécurité des nouveaux arrivants." },
+      { type: "ul", items: ["afficher l\'interdiction aux entrées et dans les lieux de passage ;", "rappeler la règle dans le règlement intérieur et le livret d\'accueil ;", "désigner un point de fumeurs à l\'extérieur, à l\'écart des accès et des prises d\'air ;", "traiter les manquements de façon uniforme, avec un rappel écrit si nécessaire."] },
+      { type: "h2", text: "Le fumoir : une option strictement encadrée" },
+      { type: "p", text: "L\'employeur n\'a pas l\'obligation de créer un fumoir. S\'il en aménage un, il doit respecter les conditions fixées par le Code de la santé publique (articles R3512-3 et suivants) : local fermé, ventilé, réservé aux fumeurs, sans activité de travail ni service à l\'intérieur, et à l\'écart des postes de travail. Le nettoyage du fumoir ne doit pas être effectué pendant que des personnes s\'y trouvent. En pratique, beaucoup d\'entreprises préfèrent un espace extérieur." },
+      { type: "h2", text: "Un risque d\'incendie à ne pas sous-estimer" },
+      { type: "p", text: "Au-delà de la santé, les mégots mal éteints sont une cause classique de départ de feu. Prévoyez des cendriers extérieurs en matériau incombustible, à bonne distance des stockages, des poubelles et des zones à atmosphère explosive. Interdisez de fumer dans les zones à risque d\'incendie ou d\'explosion, et appliquez la même règle à la cigarette électronique près des batteries au lithium ou des produits inflammables." },
+      { type: "h3", text: "Les véhicules et les chantiers" },
+      { type: "p", text: "Un véhicule partagé est un espace fermé à usage collectif : l\'interdiction s\'y applique dès que plusieurs salariés l\'utilisent. Sur un chantier ou dans une cour d\'usine, c\'est l\'analyse des risques qui définit les emplacements autorisés, pas l\'habitude du lieu." },
+      { type: "h2", text: "Accompagner plutôt que seulement sanctionner" },
+      { type: "p", text: "Des fumeurs qui s\'absentent plusieurs fois par jour posent la question du temps de pause, à encadrer de façon équitable. L\'employeur peut aussi orienter vers le service de prévention et de santé au travail, qui informe sur le sevrage tabagique. Intégrer ce sujet au DUERP permet de suivre les mesures prises, en lien avec l\'obligation générale de protection de la santé (L.4121-1)." },
+      { type: "p", text: "Référence officielle : décret 2006-1386 ; décret 2017-633 ; Code de la santé publique, articles R3512-3 et suivants ; Code du travail, article L.4121-1." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques d\'incendie,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
