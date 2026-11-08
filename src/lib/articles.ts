@@ -226,6 +226,7 @@ export const articleSlugs = [
   "alarme-incendie-signal-sonore-audibilite-essais-entreprise",
   "ecoute-collegue-detresse-psychique-premiers-reflexes-pssm",
   "interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir",
+  "fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur",
 ] as const;
 
 /**
@@ -9537,6 +9538,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Des fumeurs qui s\'absentent plusieurs fois par jour posent la question du temps de pause, à encadrer de façon équitable. L\'employeur peut aussi orienter vers le service de prévention et de santé au travail, qui informe sur le sevrage tabagique. Intégrer ce sujet au DUERP permet de suivre les mesures prises, en lien avec l\'obligation générale de protection de la santé (L.4121-1)." },
       { type: "p", text: "Référence officielle : décret 2006-1386 ; décret 2017-633 ; Code de la santé publique, articles R3512-3 et suivants ; Code du travail, article L.4121-1." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques d\'incendie,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur": {
+    title: "Fatigue et somnolence au travail : repères légaux et leviers de prévention",
+    excerpt: "Repos quotidien, pause, durées maximales : les seuils du Code du travail qui encadrent la fatigue, les signes à repérer chez un salarié et les actions que l\'employeur peut mener.",
+    publishedAt: "2026-11-08",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur.jpg",
+    content: [
+      { type: "p", text: "Un opérateur qui lutte contre le sommeil devant sa machine, un chauffeur qui somnole en fin de tournée, un employé de bureau qui multiplie les erreurs de saisie : la fatigue est rarement notée dans le registre des accidents, mais elle en est souvent un facteur. Elle relève de l\'évaluation des risques comme tout autre danger." },
+      { type: "h2", text: "Les repères du Code du travail" },
+      { type: "p", text: "Le droit encadre le temps de travail pour préserver la récupération. L.3121-18 limite la durée quotidienne à 10 heures, sauf dérogation. L.3121-20 fixe le plafond hebdomadaire à 48 heures, et L.3121-22 plafonne la moyenne à 44 heures sur douze semaines consécutives. Ces seuils sont des maximums, pas des objectifs." },
+      { type: "p", text: "La récupération est protégée par deux autres règles. L.3131-1 impose un repos quotidien de 11 heures consécutives au minimum. L.3132-2 prévoit un repos hebdomadaire de 24 heures consécutives, auxquelles s\'ajoutent les 11 heures de repos quotidien. Enfin, L.3121-16 accorde une pause d\'au moins 20 minutes dès que le temps de travail atteint 6 heures." },
+      { type: "h2", text: "Reconnaître les signes de fatigue" },
+      { type: "p", text: "La fatigue se lit d\'abord dans le comportement. Un manager de proximité, un collègue ou un secouriste peut repérer des indices concrets, sans poser de diagnostic." },
+      { type: "ul", items: ["bâillements répétés, paupières lourdes, regard fixe ;", "erreurs inhabituelles, oublis, consignes à répéter ;", "irritabilité nouvelle ou baisse de la communication ;", "retards fréquents, micro-sommeils signalés à la conduite."] },
+      { type: "h2", text: "Les postes où la vigilance conditionne la sécurité" },
+      { type: "p", text: "Conduite de véhicules ou d\'engins, utilisation de machines, intervention électrique, surveillance d\'installations : sur ces postes, une baisse de vigilance de quelques secondes suffit à provoquer un accident. Ces situations doivent figurer dans le DUERP avec les mesures prévues pour les limiter." },
+      { type: "h3", text: "Travail de nuit, astreintes et horaires atypiques" },
+      { type: "p", text: "Les horaires décalés perturbent le rythme veille-sommeil et allongent la dette de sommeil. Les astreintes qui interrompent le repos quotidien méritent une attention particulière : un salarié rappelé la nuit doit pouvoir récupérer avant de reprendre un poste exigeant." },
+      { type: "h2", text: "Les leviers de prévention pour l\'employeur" },
+      { type: "p", text: "L.4121-1 oblige l\'employeur à prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs. Appliqué à la fatigue, cela passe par l\'organisation du travail avant les conseils individuels." },
+      { type: "ul", items: ["planifier les plannings avec des repos réellement respectés entre deux postes ;", "limiter les heures supplémentaires et les enchaînements de journées longues ;", "prévoir des pauses effectives sur les postes de vigilance ;", "permettre l\'alerte : un salarié épuisé doit pouvoir le dire sans crainte ;", "associer le médecin du travail aux situations répétées."] },
+      { type: "h2", text: "Que faire face à un salarié qui somnole" },
+      { type: "p", text: "Si un salarié s\'endort ou semble incapable de rester vigilant sur un poste à risque, la priorité est de le retirer de ce poste. Il est ensuite pertinent d\'échanger avec lui, de vérifier qu\'il ne s\'agit pas d\'un malaise et, si besoin, d\'alerter les secours. La reprise se discute avec l\'encadrement." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.3121-16, L.3121-18, L.3121-20, L.3121-22, L.3131-1, L.3132-2 et L.4121-1." },
+      { type: "cta", text: "Pour former vos équipes à repérer les situations à risque,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
