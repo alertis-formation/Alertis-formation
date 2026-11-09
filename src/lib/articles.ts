@@ -227,6 +227,7 @@ export const articleSlugs = [
   "ecoute-collegue-detresse-psychique-premiers-reflexes-pssm",
   "interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir",
   "fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur",
+  "sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise",
 ] as const;
 
 /**
@@ -9566,6 +9567,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Si un salarié s\'endort ou semble incapable de rester vigilant sur un poste à risque, la priorité est de le retirer de ce poste. Il est ensuite pertinent d\'échanger avec lui, de vérifier qu\'il ne s\'agit pas d\'un malaise et, si besoin, d\'alerter les secours. La reprise se discute avec l\'encadrement." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.3121-16, L.3121-18, L.3121-20, L.3121-22, L.3131-1, L.3132-2 et L.4121-1." },
       { type: "cta", text: "Pour former vos équipes à repérer les situations à risque,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise": {
+    title: "Le sauveteur secouriste du travail, acteur de la prévention : repérer et signaler",
+    excerpt: "Le SST ne se limite pas au secours. Il repère les situations dangereuses et en informe les personnes désignées. Voici comment l\'entreprise peut organiser cette remontée d\'informations.",
+    publishedAt: "2026-11-09",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise.jpg",
+    content: [
+      { type: "p", text: "Dans l\'esprit de beaucoup d\'entreprises, le sauveteur secouriste du travail (SST) intervient après l\'accident. C\'est une vision incomplète. La formation prépare aussi à agir avant : un secouriste présent sur le terrain voit chaque jour des situations qui peuvent mal tourner." },
+      { type: "h2", text: "Une double mission : secourir et prévenir" },
+      { type: "p", text: "L\'obligation de former des secouristes figure à l\'article R4224-15 du Code du travail. Le programme de formation SST ne se résume toutefois pas aux gestes d\'urgence. Il comprend un volet prévention : le SST apprend à repérer des dangers dans son environnement de travail et à les signaler aux personnes concernées." },
+      { type: "p", text: "Cette logique rejoint les principes généraux de L.4121-2, qui placent l\'évitement des risques en premier. Un secouriste n\'est pas un préventeur de métier, mais il constitue un capteur utile pour celui qui l\'est." },
+      { type: "h2", text: "Ce qu\'un SST peut repérer au quotidien" },
+      { type: "p", text: "Le SST circule dans l\'entreprise comme n\'importe quel salarié. Sa formation lui donne simplement un regard plus attentif sur ce qui peut provoquer une blessure ou un malaise." },
+      { type: "ul", items: ["sols glissants, passages encombrés, issues de secours obstruées ;", "câbles au sol, rallonges abîmées, armoires électriques ouvertes ;", "postes de travail où les mêmes gestes provoquent des douleurs répétées ;", "équipements de protection absents ou mal portés ;", "trousse de secours incomplète, défibrillateur inaccessible ou signalétique effacée."] },
+      { type: "h2", text: "Organiser la remontée d\'informations" },
+      { type: "p", text: "Un secouriste qui constate un danger doit savoir à qui le dire. Sans circuit défini, l\'information reste dans les couloirs. L\'employeur a donc intérêt à désigner un interlocuteur clair : responsable hygiène sécurité, manager de proximité, référent santé et sécurité ou membre du CSE." },
+      { type: "h3", text: "Un support simple vaut mieux qu\'un outil complexe" },
+      { type: "p", text: "Une fiche de signalement d\'une demi-page suffit : lieu, date, description de la situation, personne informée. Le même document peut servir à tous les salariés. Il doit être accessible et son traitement doit être visible, sinon les signalements cessent rapidement." },
+      { type: "h2", text: "Après un accident, le SST nourrit l\'analyse" },
+      { type: "p", text: "Une fois les secours passés, le SST est souvent le premier témoin des circonstances. Il peut décrire ce qu\'il a vu, l\'état de la victime, le contexte du poste. Ces éléments aident à comprendre ce qui s\'est passé et à décider des mesures correctives, notamment lors de la mise à jour du DUERP (Document Unique d\'Évaluation des Risques)." },
+      { type: "h2", text: "Donner au SST les moyens d\'agir" },
+      { type: "p", text: "Le rôle de prévention ne fonctionne que si l\'entreprise l\'organise. L.4121-1 impose à l\'employeur de prendre les mesures nécessaires pour protéger la santé des travailleurs : cela inclut de traiter les alertes qui lui sont remontées." },
+      { type: "ul", items: ["présenter les SST à l\'ensemble des équipes, avec une liste à jour et affichée ;", "leur indiquer précisément à qui transmettre un danger repéré ;", "répondre aux signalements dans un délai connu de tous ;", "intégrer leurs retours au bilan annuel de prévention."] },
+      { type: "p", text: "Référence officielle : Code du travail, articles R4224-15, L.4121-1 et L.4121-2." },
+      { type: "cta", text: "Pour former vos salariés au secourisme et à la prévention,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
