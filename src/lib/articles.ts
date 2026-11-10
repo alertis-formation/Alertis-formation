@@ -228,6 +228,7 @@ export const articleSlugs = [
   "interdiction-fumer-vapoter-lieux-travail-obligations-employeur-fumoir",
   "fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur",
   "sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise",
+  "visite-information-prevention-vip-nouveau-salarie-obligations-employeur",
 ] as const;
 
 /**
@@ -9595,6 +9596,33 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["présenter les SST à l\'ensemble des équipes, avec une liste à jour et affichée ;", "leur indiquer précisément à qui transmettre un danger repéré ;", "répondre aux signalements dans un délai connu de tous ;", "intégrer leurs retours au bilan annuel de prévention."] },
       { type: "p", text: "Référence officielle : Code du travail, articles R4224-15, L.4121-1 et L.4121-2." },
       { type: "cta", text: "Pour former vos salariés au secourisme et à la prévention,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "visite-information-prevention-vip-nouveau-salarie-obligations-employeur": {
+    title: "Visite d\'information et de prévention : ce que doit organiser l\'employeur pour un nouveau salarié",
+    excerpt: "Tout nouveau salarié doit bénéficier d\'une visite d\'information et de prévention. Délai, professionnel de santé, périodicité : voici les repères pour l\'organiser sans retard.",
+    publishedAt: "2026-11-10",
+    category: "Santé au travail",
+    readingTime: 5,
+    image: "/images/articles/visite-information-prevention-vip-nouveau-salarie-obligations-employeur.jpg",
+    content: [
+      { type: "p", text: "Un salarié embauché passe d\'abord par la signature du contrat, la remise du badge et la présentation de l\'équipe. La visite d\'information et de prévention (VIP), elle, est souvent reportée faute de rendez-vous disponible. Or elle fait partie des obligations liées à l\'embauche et relève de la responsabilité de l\'employeur." },
+      { type: "h2", text: "Une obligation inscrite dans le suivi individuel de l\'état de santé" },
+      { type: "p", text: "Le suivi individuel de l\'état de santé des travailleurs est prévu par L.4624-1. Pour la majorité des salariés, il débute par une visite d\'information et de prévention. Les postes présentant des risques particuliers relèvent d\'un suivi individuel renforcé, avec un examen médical d\'aptitude avant l\'affectation au poste." },
+      { type: "h2", text: "Le délai à respecter après l\'embauche" },
+      { type: "p", text: "Selon R4624-10, la visite doit avoir lieu dans un délai de trois mois à compter de la prise effective du poste de travail. Ce délai court à partir du premier jour travaillé, pas de la date de signature du contrat. L\'employeur gagne à demander le rendez-vous dès la déclaration d\'embauche, car les agendas des services de prévention et de santé au travail se remplissent vite." },
+      { type: "h2", text: "Qui réalise la visite et que s\'y passe-t-il" },
+      { type: "p", text: "La visite est menée par un professionnel de santé du service de prévention et de santé au travail : médecin du travail, collaborateur médecin, interne ou infirmier. Elle ne délivre pas d\'avis d\'aptitude. Elle donne lieu à une attestation de suivi remise au salarié et à l\'employeur." },
+      { type: "ul", items: ["interrogatoire sur l\'état de santé du salarié et sur son poste ;", "information sur les risques éventuels liés à l\'activité ;", "sensibilisation aux moyens de prévention à sa disposition ;", "identification des cas où une orientation vers le médecin du travail est utile ;", "information sur les modalités du suivi de santé et sur la possibilité de demander une visite à tout moment."] },
+      { type: "h2", text: "Ce que l\'employeur prépare en amont" },
+      { type: "p", text: "Le professionnel de santé raisonne à partir du poste réel. Plus les informations transmises sont précises, plus l\'échange est utile pour le salarié. Un poste décrit de façon vague conduit à une visite généraliste." },
+      { type: "p", text: "Avant le rendez-vous, il est pertinent de fournir au service de santé au travail l\'intitulé du poste, les tâches principales et les risques identifiés dans le DUERP (Document Unique d\'Évaluation des Risques). Le salarié doit aussi être libéré sur son temps de travail pour s\'y rendre." },
+      { type: "h2", text: "Périodicité des visites suivantes" },
+      { type: "p", text: "La VIP n\'est pas une visite unique. Le renouvellement est fixé par le professionnel de santé, selon l\'âge, l\'état de santé, les conditions de travail et les risques auxquels le salarié est exposé. Selon R4624-16, l\'intervalle ne peut pas dépasser cinq ans. Certaines situations (travailleurs de nuit, salariés en situation de handicap) appellent un suivi plus rapproché défini par la réglementation." },
+      { type: "h2", text: "Suivre les échéances dans l\'entreprise" },
+      { type: "p", text: "Le service de santé au travail convoque les salariés, mais l\'employeur reste responsable du respect de son obligation de suivi. Un tableau simple suffit : date d\'embauche, date limite de visite, date de réalisation, prochaine échéance. La personne qui gère les arrivées, souvent la fonction RH, en assure la mise à jour." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4624-1, R4624-10 et R4624-16." },
+      { type: "cta", text: "Pour sensibiliser vos équipes aux risques de leur poste,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
