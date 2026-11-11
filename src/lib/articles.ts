@@ -229,6 +229,7 @@ export const articleSlugs = [
   "fatigue-somnolence-travail-temps-de-repos-reperes-prevention-employeur",
   "sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise",
   "visite-information-prevention-vip-nouveau-salarie-obligations-employeur",
+  "lombalgie-travail-prevention-maintien-emploi-employeur",
 ] as const;
 
 /**
@@ -9623,6 +9624,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Le service de santé au travail convoque les salariés, mais l\'employeur reste responsable du respect de son obligation de suivi. Un tableau simple suffit : date d\'embauche, date limite de visite, date de réalisation, prochaine échéance. La personne qui gère les arrivées, souvent la fonction RH, en assure la mise à jour." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4624-1, R4624-10 et R4624-16." },
       { type: "cta", text: "Pour sensibiliser vos équipes aux risques de leur poste,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "lombalgie-travail-prevention-maintien-emploi-employeur": {
+    title: "Lombalgie au travail : prévenir les récidives et préserver l\'emploi du salarié",
+    excerpt: "La lombalgie touche tous les secteurs, du bureau à l\'entrepôt. Voici comment agir sur les causes au poste de travail et organiser le maintien dans l\'emploi d\'un salarié concerné.",
+    publishedAt: "2026-11-11",
+    category: "Ergonomie",
+    readingTime: 5,
+    image: "/images/articles/lombalgie-travail-prevention-maintien-emploi-employeur.jpg",
+    content: [
+      { type: "p", text: "Une lombalgie correspond à une douleur du bas du dos. Elle est fréquente, souvent passagère, mais elle récidive facilement lorsque les conditions de travail restent inchangées. Pour l\'entreprise, le sujet dépasse la question médicale : il touche à l\'organisation des postes, aux absences et au maintien dans l\'emploi." },
+      { type: "h2", text: "Une origine rarement unique" },
+      { type: "p", text: "Une lombalgie ne vient presque jamais d\'un seul geste. Elle résulte d\'une accumulation de facteurs, dont certains sont extérieurs au travail. L\'employeur n\'a pas à les démêler, mais il doit agir sur ceux qui relèvent de l\'activité professionnelle." },
+      { type: "ul", items: ["port et manutention de charges, surtout avec torsion du tronc ;", "postures penchées ou maintenues longtemps, debout comme assis ;", "gestes répétés à cadence élevée ;", "vibrations transmises au corps entier (engins, véhicules) ;", "contraintes d\'organisation : pression sur les délais, faible autonomie, manque de soutien."] },
+      { type: "h2", text: "Évaluer le risque dans le DUERP" },
+      { type: "p", text: "L\'article L.4121-1 du Code du travail impose à l\'employeur de prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs. L\'article L.4121-3 prévoit que les risques soient évalués et consignés dans le DUERP (Document Unique d\'Évaluation des Risques Professionnels)." },
+      { type: "p", text: "Pour les lombalgies, l\'évaluation part de l\'observation du travail réel : ce que fait le salarié, à quelle fréquence, avec quelle charge, à quelle hauteur. Les plaintes des salariés, les déclarations d\'accidents et les remarques du service de santé au travail complètent ce diagnostic." },
+      { type: "h2", text: "Agir d\'abord sur le poste" },
+      { type: "p", text: "Les principes généraux de prévention de L.4121-2 donnent l\'ordre des priorités : éviter le risque, puis le réduire à la source, avant de compter sur le comportement individuel. Apprendre les bons gestes ne suffit donc pas si le poste oblige à se pencher ou à soulever sans cesse." },
+      { type: "p", text: "Les solutions techniques sont souvent simples : table élévatrice, chariot à hauteur réglable, rehausse des charges à mi-cuisse ou à mi-hauteur, répartition du poids en colis plus légers. Le sol, l\'espace de manœuvre et l\'éclairage jouent aussi, car un poste encombré favorise les torsions." },
+      { type: "h2", text: "Organiser le travail et former" },
+      { type: "p", text: "Alterner les tâches, prévoir des temps de récupération et limiter les postures figées réduisent la contrainte cumulée. La formation à la prévention des risques liés à l\'activité physique complète ces mesures : elle apprend à analyser sa situation de travail, à repérer les efforts évitables et à proposer des améliorations." },
+      { type: "h2", text: "Accompagner le retour d\'un salarié lombalgique" },
+      { type: "p", text: "Rester actif aide souvent la récupération, mais la reprise doit être préparée. Le médecin du travail peut proposer, selon L.4624-3, des mesures individuelles d\'aménagement, d\'adaptation ou de transformation du poste. L\'employeur doit justifier par écrit un refus de les appliquer." },
+      { type: "ul", items: ["échanger avec le salarié sur les tâches qui posent difficulté ;", "solliciter le service de prévention et de santé au travail avant la reprise ;", "tester un aménagement temporaire (charges limitées, rotation de tâches) ;", "faire le point après quelques semaines et ajuster."] },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et L.4624-3." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des risques liés à l\'activité physique,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
     ],
   },
 };
