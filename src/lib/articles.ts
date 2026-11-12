@@ -230,6 +230,7 @@ export const articleSlugs = [
   "sst-role-prevention-reperer-signaler-situations-dangereuses-entreprise",
   "visite-information-prevention-vip-nouveau-salarie-obligations-employeur",
   "lombalgie-travail-prevention-maintien-emploi-employeur",
+  "inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur",
 ] as const;
 
 /**
@@ -9651,6 +9652,33 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["échanger avec le salarié sur les tâches qui posent difficulté ;", "solliciter le service de prévention et de santé au travail avant la reprise ;", "tester un aménagement temporaire (charges limitées, rotation de tâches) ;", "faire le point après quelques semaines et ajuster."] },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1, L.4121-2, L.4121-3 et L.4624-3." },
       { type: "cta", text: "Pour former vos équipes à la prévention des risques liés à l\'activité physique,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
+    ],
+  },
+  "inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur": {
+    title: "Contrôle de l\'inspection du travail : se préparer et répondre à une mise en demeure",
+    excerpt: "L\'inspecteur du travail peut se présenter sans prévenir et exiger des mesures sous délai. Voici comment organiser vos documents, tenir l\'échange et traiter une mise en demeure en santé et sécurité.",
+    publishedAt: "2026-11-12",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur.jpg",
+    content: [
+      { type: "p", text: "Un contrôle de l\'inspection du travail n\'est jamais annoncé. Il peut suivre un accident, une plainte, une campagne ciblée ou une simple visite de routine. Les entreprises qui s\'en sortent sereinement ne sont pas celles qui improvisent bien, mais celles dont les documents de prévention sont à jour et accessibles." },
+      { type: "h2", text: "Ce que l\'inspecteur peut faire" },
+      { type: "p", text: "Selon L.8112-1, les agents de contrôle de l\'inspection du travail veillent à l\'application des dispositions du Code du travail, dont celles sur la santé et la sécurité. L.8113-1 leur permet de pénétrer librement dans les établissements, sans avertissement préalable, pendant les heures de travail." },
+      { type: "p", text: "Sur place, l\'inspecteur observe les postes, interroge les salariés et demande la communication des documents. Il peut ensuite adresser des observations écrites, une mise en demeure ou, dans les cas les plus graves, transmettre un procès-verbal au procureur de la République." },
+      { type: "h2", text: "Les documents à pouvoir présenter" },
+      { type: "p", text: "Le contrôle porte d\'abord sur la démarche d\'évaluation des risques. Il vérifie ensuite que les obligations de formation, de vérification et de suivi sont tenues. Un classeur ou un espace partagé unique, connu de plusieurs personnes, évite de chercher dans l\'urgence." },
+      { type: "ul", items: ["le DUERP (Document Unique d\'Évaluation des Risques Professionnels), prévu par L.4121-3, et ses mises à jour ;", "les rapports de vérifications périodiques des équipements et installations ;", "les attestations de formation et les habilitations ou autorisations de conduite ;", "le registre de sécurité, les plans de prévention et les protocoles de sécurité ;", "les comptes rendus du CSE et de sa commission santé, sécurité et conditions de travail, le cas échéant."] },
+      { type: "h2", text: "Tenir l\'échange pendant la visite" },
+      { type: "p", text: "Désignez un interlocuteur connaissant l\'organisation de la sécurité, et informez la direction dès l\'arrivée de l\'inspecteur. Répondez factuellement, sans minimiser ni deviner : si une information manque, indiquez que vous la fournirez ensuite. Notez les points relevés et les documents demandés pour pouvoir les traiter." },
+      { type: "h2", text: "Comprendre la mise en demeure" },
+      { type: "p", text: "Selon L.4721-1, lorsque l\'inspecteur constate une situation dangereuse ou un manquement aux règles de santé et de sécurité, il peut mettre l\'employeur en demeure d\'y remédier. Le courrier précise les faits constatés, les textes concernés et un délai d\'exécution. Ce délai est fixé par l\'inspecteur et doit être respecté." },
+      { type: "p", text: "Une mise en demeure n\'est pas une sanction, mais elle laisse une trace. Si les mesures ne sont pas prises dans le délai, l\'inspecteur peut dresser un procès-verbal. Il est donc préférable de traiter le courrier comme un plan d\'action à échéance ferme." },
+      { type: "h2", text: "Répondre efficacement" },
+      { type: "p", text: "Dès réception, identifiez chaque manquement cité et attribuez-lui un responsable, une action et une date. Si un délai est irréaliste, contactez l\'inspecteur avant son échéance avec des éléments concrets, plutôt qu\'après. Conservez les preuves de la mise en conformité : factures, rapports de vérification, attestations, photographies." },
+      { type: "ul", items: ["répondre par écrit dans le délai, en joignant les justificatifs ;", "intégrer les actions au DUERP et au programme annuel de prévention ;", "informer le CSE des suites données, s\'il existe ;", "vérifier après quelques mois que les mesures tiennent dans la durée."] },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-3, L.4721-1, L.8112-1 et L.8113-1." },
+      { type: "cta", text: "Pour structurer la prévention dans votre entreprise et former vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
