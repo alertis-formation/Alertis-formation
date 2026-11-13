@@ -231,6 +231,7 @@ export const articleSlugs = [
   "visite-information-prevention-vip-nouveau-salarie-obligations-employeur",
   "lombalgie-travail-prevention-maintien-emploi-employeur",
   "inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur",
+  "projection-produit-chimique-peau-travail-conduite-a-tenir-sst",
 ] as const;
 
 /**
@@ -9679,6 +9680,32 @@ export const articles: Record<string, Article> = {
       { type: "ul", items: ["répondre par écrit dans le délai, en joignant les justificatifs ;", "intégrer les actions au DUERP et au programme annuel de prévention ;", "informer le CSE des suites données, s\'il existe ;", "vérifier après quelques mois que les mesures tiennent dans la durée."] },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-3, L.4721-1, L.8112-1 et L.8113-1." },
       { type: "cta", text: "Pour structurer la prévention dans votre entreprise et former vos équipes,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "projection-produit-chimique-peau-travail-conduite-a-tenir-sst": {
+    title: "Projection de produit chimique sur la peau : la conduite à tenir pour le SST",
+    excerpt: "Une éclaboussure d\'acide, de soude ou de solvant agit tant que le produit reste au contact de la peau. Voici l\'ordre des gestes du sauveteur : rincer longtemps, déshabiller, alerter, renseigner.",
+    publishedAt: "2026-11-13",
+    category: "Secourisme",
+    readingTime: 5,
+    image: "/images/articles/projection-produit-chimique-peau-travail-conduite-a-tenir-sst.jpg",
+    content: [
+      { type: "p", text: "Une projection de produit chimique sur la peau paraît parfois anodine : une tache, une rougeur, une légère douleur. Pourtant, le produit continue d\'agir tant qu\'il n\'a pas été éliminé. Certains agents, comme les bases fortes, pénètrent en profondeur avant que la douleur ne devienne intense. Le premier réflexe du sauveteur secouriste du travail est donc de rincer, sans attendre." },
+      { type: "h2", text: "Pourquoi le temps compte" },
+      { type: "p", text: "La gravité d\'une brûlure chimique dépend de la nature du produit, de sa concentration, de la surface touchée et surtout de la durée de contact. Chaque minute passée avec le produit sur la peau aggrave la lésion. Le sauveteur n\'a pas à identifier le produit avant d\'agir : il commence par l\'eau, puis cherche les informations." },
+      { type: "h2", text: "Les gestes à enchaîner" },
+      { type: "p", text: "Le sauveteur se protège d\'abord (gants adaptés, lunettes si risque de nouvelle projection) et fait stopper la source de la projection. Il conduit ensuite la victime vers le point d\'eau le plus proche, douche de sécurité si l\'établissement en dispose, sinon douche ou robinet." },
+      { type: "ul", items: ["rincer abondamment à l\'eau tiède ou fraîche, jet doux, dès les premières secondes ;", "retirer les vêtements, bijoux et chaussures souillés pendant le rinçage, sans attendre de finir ;", "poursuivre le rinçage longtemps, sans l\'interrompre pour chercher des informations ;", "ne pas frotter, ne pas appliquer de pommade, ne pas tenter de neutraliser le produit avec un autre produit."] },
+      { type: "p", text: "Le rinçage dure au moins plusieurs minutes. Pour les produits corrosifs, les consignes des centres antipoison et de la fiche de données de sécurité prévoient souvent une durée plus longue. En cas de doute, le sauveteur continue jusqu\'à ce que les secours ou un médecin lui disent d\'arrêter." },
+      { type: "h2", text: "Alerter et renseigner" },
+      { type: "p", text: "Pendant le rinçage, un collègue appelle le 15 (SAMU) ou le 112, ou le centre antipoison dont le numéro figure sur la fiche de données de sécurité. Il tient à disposition le nom du produit, son étiquette et sa fiche, car le régulateur adapte ses consignes à la substance en cause. La victime est ensuite orientée par la régulation : maintien sur place, transport par les secours ou consultation médicale." },
+      { type: "h3", text: "Ce qui change selon la zone touchée" },
+      { type: "p", text: "Le visage, les yeux, les mains, les plis et les zones génitales imposent une vigilance particulière. Une projection dans l\'œil relève d\'une conduite spécifique : rinçage prolongé à l\'eau, œil ouvert, puis avis médical. Le rinçage ne doit jamais envoyer l\'eau contaminée vers l\'œil sain ou vers une autre partie du corps." },
+      { type: "h2", text: "Après l\'accident, préparer le poste" },
+      { type: "p", text: "Une projection révèle un défaut de prévention : protection individuelle inadaptée, transvasement sans étiquette, point d\'eau trop éloigné. L\'employeur analyse l\'événement, met à jour l\'évaluation des risques chimiques et vérifie que les douches de sécurité sont accessibles, dégagées et testées. L\'étiquetage suit le règlement CLP (CE) n° 1272/2008, dont les pictogrammes renseignent sur la dangerosité du produit." },
+      { type: "p", text: "Une déclaration d\'accident du travail est à faire si la victime a été touchée dans le cadre de son activité, même sans arrêt de travail immédiat. Les symptômes de certaines brûlures chimiques apparaissent avec retard, d\'où l\'intérêt de tracer l\'événement." },
+      { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4224-15 (organisation des premiers secours dans l\'entreprise) ; règlement (CE) n° 1272/2008 (CLP) ; documentation INRS sur le sauveteur secouriste du travail." },
+      { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
     ],
   },
 };
