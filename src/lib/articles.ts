@@ -232,6 +232,7 @@ export const articleSlugs = [
   "lombalgie-travail-prevention-maintien-emploi-employeur",
   "inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur",
   "projection-produit-chimique-peau-travail-conduite-a-tenir-sst",
+  "droit-deconnexion-outils-numeriques-prevention-rps-employeur",
 ] as const;
 
 /**
@@ -9706,6 +9707,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Une déclaration d\'accident du travail est à faire si la victime a été touchée dans le cadre de son activité, même sans arrêt de travail immédiat. Les symptômes de certaines brûlures chimiques apparaissent avec retard, d\'où l\'intérêt de tracer l\'événement." },
       { type: "p", text: "Référence officielle : Code du travail, L.4121-1 (obligation générale de prévention de l\'employeur) ; Code du travail, R.4224-15 (organisation des premiers secours dans l\'entreprise) ; règlement (CE) n° 1272/2008 (CLP) ; documentation INRS sur le sauveteur secouriste du travail." },
       { type: "cta", text: "Pour former vos équipes aux gestes de premiers secours,", label: "découvrez notre formation SST", href: "/formations/sst" },
+    ],
+  },
+  "droit-deconnexion-outils-numeriques-prevention-rps-employeur": {
+    title: "Droit à la déconnexion : encadrer les outils numériques pour prévenir les risques psychosociaux",
+    excerpt: "Messagerie le soir, appels le week-end, notifications en congé : la connexion permanente use les salariés. Voici comment l\'employeur peut encadrer les usages et agir sur la charge de travail.",
+    publishedAt: "2026-11-14",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/droit-deconnexion-outils-numeriques-prevention-rps-employeur.jpg",
+    content: [
+      { type: "p", text: "Un courriel envoyé à 21 heures, un message dans la messagerie instantanée pendant les congés, un appel du manager le dimanche : chacun de ces contacts semble anodin. Répétés, ils empêchent le salarié de décrocher et alimentent la fatigue, l\'irritabilité et le sentiment de ne jamais en avoir fini. Le droit à la déconnexion vise à éviter cette dérive, et il relève de la prévention des risques psychosociaux." },
+      { type: "h2", text: "Ce que recouvre le droit à la déconnexion" },
+      { type: "p", text: "Le droit à la déconnexion est la possibilité, pour le salarié, de ne pas être sollicité par les outils numériques professionnels en dehors de son temps de travail. Il protège le respect des temps de repos et des congés, ainsi que l\'équilibre entre vie professionnelle et vie personnelle. Il s\'applique aux courriels, aux téléphones, aux messageries et aux applications utilisées pour le travail." },
+      { type: "p", text: "Il concerne tous les salariés, pas seulement les télétravailleurs. Les cadres autonomes, les commerciaux itinérants et les équipes en astreinte y sont souvent plus exposés, car leurs horaires sont moins visibles." },
+      { type: "h2", text: "Le cadre légal à connaître" },
+      { type: "p", text: "Selon L.2242-17, la négociation annuelle sur l\'égalité professionnelle et la qualité de vie et des conditions de travail porte sur les modalités du plein exercice par le salarié de son droit à la déconnexion, ainsi que sur la mise en place de dispositifs de régulation de l\'utilisation des outils numériques. À défaut d\'accord, l\'employeur élabore une charte, après avis du comité social et économique, qui définit ces modalités et prévoit des actions de formation et de sensibilisation." },
+      { type: "p", text: "Ce droit s\'appuie aussi sur les règles de temps de repos : L.3131-1 pour le repos quotidien de onze heures consécutives et L.3132-2 pour le repos hebdomadaire. Un salarié qui répond systématiquement le soir ou le week-end voit ces temps de repos entamés dans les faits." },
+      { type: "h2", text: "Pourquoi c\'est un sujet de prévention" },
+      { type: "p", text: "L\'employeur doit prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs, selon L.4121-1, et appliquer les principes généraux de prévention de L.4121-2. La surcharge d\'information, les interruptions constantes et l\'impossibilité de récupérer sont des facteurs de risques psychosociaux à intégrer au DUERP (Document Unique d\'Évaluation des Risques Professionnels), prévu par L.4121-3." },
+      { type: "ul", items: ["des signaux d\'alerte individuels : troubles du sommeil, fatigue persistante, irritabilité, difficultés de concentration ;", "des signaux collectifs : réunions tardives, courriels envoyés hors horaires de façon récurrente, congés interrompus, absentéisme en hausse ;", "des pratiques managériales qui valorisent la réactivité immédiate plutôt que la qualité du travail."] },
+      { type: "h2", text: "Encadrer les usages en pratique" },
+      { type: "p", text: "Une charte ou un accord n\'a d\'effet que si elle change des pratiques concrètes. Les mesures les plus efficaces sont simples et visibles : définir des plages horaires de sollicitation, préciser ce qui relève d\'une vraie urgence et par quel canal on la signale, programmer l\'envoi différé des messages rédigés tard." },
+      { type: "p", text: "Le message d\'absence automatique pendant les congés, qui indique un interlocuteur de remplacement, évite au salarié de consulter sa messagerie par précaution. Dans certaines entreprises, des règles de blocage des serveurs ou de suspension des notifications sur les téléphones professionnels complètent le dispositif. Le choix dépend de l\'activité, notamment pour les services d\'astreinte, qui doivent rester clairement identifiés et organisés." },
+      { type: "h3", text: "Le rôle décisif du manager" },
+      { type: "p", text: "Les règles écrites restent lettre morte si l\'encadrement ne les respecte pas. Un responsable qui écrit le soir crée une attente implicite de réponse, même sans l\'exiger. Former les managers à ces effets, et leur demander de montrer l\'exemple, pèse davantage que la diffusion d\'une note." },
+      { type: "h2", text: "Agir aussi sur la charge de travail" },
+      { type: "p", text: "La déconnexion ne règle pas tout. Si la charge dépasse ce qui peut être traité dans le temps de travail, le salarié se connecte pour rattraper son retard, quelle que soit la charte. L\'employeur vérifie donc la répartition des tâches, les délais annoncés et les effectifs, et suit la charge ressentie lors des entretiens et des échanges avec le CSE. Ce travail rejoint l\'évaluation des facteurs de risques psychosociaux déjà menée dans l\'entreprise." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.2242-17, L.3131-1, L.3132-2, L.4121-1, L.4121-2 et L.4121-3." },
+      { type: "cta", text: "Pour sensibiliser vos équipes et vos managers à la santé mentale au travail,", label: "découvrez notre formation PSSM", href: "/formations" },
     ],
   },
 };
