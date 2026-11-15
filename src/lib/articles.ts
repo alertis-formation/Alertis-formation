@@ -233,6 +233,7 @@ export const articleSlugs = [
   "inspection-du-travail-controle-mise-en-demeure-sante-securite-employeur",
   "projection-produit-chimique-peau-travail-conduite-a-tenir-sst",
   "droit-deconnexion-outils-numeriques-prevention-rps-employeur",
+  "conflit-equipe-travail-intervenir-tot-prevention-rps-manager",
 ] as const;
 
 /**
@@ -9736,6 +9737,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La déconnexion ne règle pas tout. Si la charge dépasse ce qui peut être traité dans le temps de travail, le salarié se connecte pour rattraper son retard, quelle que soit la charte. L\'employeur vérifie donc la répartition des tâches, les délais annoncés et les effectifs, et suit la charge ressentie lors des entretiens et des échanges avec le CSE. Ce travail rejoint l\'évaluation des facteurs de risques psychosociaux déjà menée dans l\'entreprise." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.2242-17, L.3131-1, L.3132-2, L.4121-1, L.4121-2 et L.4121-3." },
       { type: "cta", text: "Pour sensibiliser vos équipes et vos managers à la santé mentale au travail,", label: "découvrez notre formation PSSM", href: "/formations" },
+    ],
+  },
+  "conflit-equipe-travail-intervenir-tot-prevention-rps-manager": {
+    title: "Conflits dans une équipe : intervenir tôt pour éviter l\'escalade",
+    excerpt: "Un désaccord qui s\'installe abîme le climat de travail, puis la santé. Voici comment repérer un conflit, intervenir à temps et le distinguer d\'un harcèlement.",
+    publishedAt: "2026-11-15",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/conflit-equipe-travail-intervenir-tot-prevention-rps-manager.jpg",
+    content: [
+      { type: "p", text: "Un désaccord sur une tâche ou un planning est normal dans une équipe. Il devient un risque quand il dure, se personnalise et que plus personne ne se parle. Le conflit non traité use les relations, la concentration et parfois la santé des salariés concernés. L\'encadrement a un rôle direct pour l\'arrêter avant qu\'il ne s\'enracine." },
+      { type: "h2", text: "Distinguer désaccord, conflit et harcèlement" },
+      { type: "p", text: "Un désaccord porte sur un sujet : une méthode, une priorité. Un conflit touche aux personnes : on évite l\'autre, on se défie, on rapporte. Le harcèlement moral, lui, est défini par L.1152-1 : des agissements répétés ayant pour objet ou pour effet une dégradation des conditions de travail, susceptible de porter atteinte aux droits, à la dignité ou à la santé du salarié." },
+      { type: "p", text: "La frontière n\'est pas toujours nette. Un conflit ignoré pendant des mois peut basculer, d\'où l\'intérêt d\'agir sans attendre qu\'il soit qualifié." },
+      { type: "h2", text: "Les signaux qui doivent alerter" },
+      { type: "p", text: "Un conflit se voit rarement par une dispute ouverte. Il s\'exprime plutôt par des changements discrets dans le fonctionnement du groupe." },
+      { type: "ul", items: ["des échanges qui passent uniquement par écrit ou par un tiers", "des réunions où certains ne prennent plus la parole", "des demandes de changement d\'équipe ou d\'horaires inhabituelles", "une hausse des absences courtes ou des retards", "des erreurs et des oublis de transmission en augmentation"] },
+      { type: "h2", text: "Pourquoi l\'employeur est concerné" },
+      { type: "p", text: "Selon L.4121-1, l\'employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Les principes généraux de L.4121-2 prévoient de planifier la prévention en y intégrant notamment les relations sociales. Les tensions entre salariés entrent donc dans le champ de l\'évaluation des risques, au même titre que la charge de travail." },
+      { type: "h2", text: "Intervenir dans les premiers jours" },
+      { type: "p", text: "Le manager reçoit chaque personne séparément, dans un lieu calme. Il demande des faits précis (quoi, quand, avec quelles conséquences) plutôt que des jugements. Il reformule sans prendre parti et ne promet pas une confidentialité absolue si la santé d\'un salarié est en jeu." },
+      { type: "h3", text: "Organiser ensuite un échange commun" },
+      { type: "p", text: "Si les deux parties y sont prêtes, une rencontre cadrée permet de fixer des règles de collaboration concrètes : qui décide de quoi, comment se transmettent les informations, à quel rythme on se revoit. Un compte rendu bref, validé par chacun, évite les relectures divergentes." },
+      { type: "h2", text: "Quand passer la main" },
+      { type: "p", text: "Si le conflit persiste, si un salarié décrit des agissements répétés ou si sa santé se dégrade, le manager alerte les ressources humaines. Le service de prévention et de santé au travail, le CSE ou une médiation interne ou externe peuvent alors être sollicités. Toute alerte donne lieu à une enquête menée avec impartialité, et le salarié qui alerte ne doit subir aucune représaille." },
+      { type: "h2", text: "Agir sur les causes organisationnelles" },
+      { type: "p", text: "Un conflit répété dans un même service révèle souvent un problème d\'organisation : rôles flous, objectifs contradictoires, charge mal répartie, manque de reconnaissance. Les intégrer au DUERP (Document Unique d\'Évaluation des Risques Professionnels), avec des actions suivies, évite de traiter chaque tension comme un cas isolé." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1, L.4121-2 et L.1152-1." },
+      { type: "cta", text: "Pour sensibiliser vos managers à la prévention des risques psychosociaux,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
