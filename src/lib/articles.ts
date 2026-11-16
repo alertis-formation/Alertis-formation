@@ -234,6 +234,7 @@ export const articleSlugs = [
   "projection-produit-chimique-peau-travail-conduite-a-tenir-sst",
   "droit-deconnexion-outils-numeriques-prevention-rps-employeur",
   "conflit-equipe-travail-intervenir-tot-prevention-rps-manager",
+  "tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur",
 ] as const;
 
 /**
@@ -9766,6 +9767,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un conflit répété dans un même service révèle souvent un problème d\'organisation : rôles flous, objectifs contradictoires, charge mal répartie, manque de reconnaissance. Les intégrer au DUERP (Document Unique d\'Évaluation des Risques Professionnels), avec des actions suivies, évite de traiter chaque tension comme un cas isolé." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1, L.4121-2 et L.1152-1." },
       { type: "cta", text: "Pour sensibiliser vos managers à la prévention des risques psychosociaux,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur": {
+    title: "Tutorat sécurité : transmettre les bons gestes à un nouvel arrivant",
+    excerpt: "Le tuteur transmet les gestes que personne n\'a écrits. Voici comment le choisir, cadrer son rôle et organiser la montée en autonomie d\'un nouvel arrivant sans exposer l\'équipe.",
+    publishedAt: "2026-11-16",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur.jpg",
+    content: [
+      { type: "p", text: "Un nouvel arrivant apprend surtout en regardant ses collègues. Si le geste montré est approximatif, c\'est lui qui sera reproduit. Le tutorat fait donc partie de la prévention : il transforme l\'expérience d\'un salarié en pratiques sûres, ou en habitudes à risque." },
+      { type: "h2", text: "Ce que l\'employeur doit organiser" },
+      { type: "p", text: "Selon L.4121-1, l\'employeur prend les mesures nécessaires pour protéger la santé et la sécurité des travailleurs, ce qui inclut des actions d\'information et de formation. L.4141-2 précise que l\'employeur organise une formation pratique et appropriée à la sécurité, notamment pour les salariés qui arrivent dans l\'entreprise ou changent de poste. Le tutorat complète cette formation, il ne la remplace pas." },
+      { type: "h2", text: "Choisir le bon tuteur" },
+      { type: "p", text: "Le meilleur technicien n\'est pas toujours le meilleur pédagogue. Un tuteur efficace respecte lui-même les consignes, sait expliquer pourquoi une règle existe et accepte de ralentir son rythme. Il doit aussi pouvoir se libérer : un tuteur surchargé transmet des raccourcis." },
+      { type: "ul", items: ["une pratique irréprochable des règles de sécurité du poste", "une ancienneté suffisante pour connaître les situations particulières", "du temps dégagé dans son planning pour accompagner", "la volonté de transmettre, vérifiée avec l\'intéressé"] },
+      { type: "h2", text: "Cadrer le rôle du tuteur" },
+      { type: "p", text: "Le tuteur n\'a pas à improviser. Le manager lui remet la liste des risques du poste issue du DUERP, les consignes à transmettre et les situations où il doit arrêter le travail du nouvel arrivant. Il sait aussi à qui signaler une difficulté, et il n\'est pas tenu pour responsable des carences d\'organisation." },
+      { type: "h2", text: "Progresser par étapes" },
+      { type: "p", text: "La montée en autonomie suit une progression simple : le tuteur montre, le nouvel arrivant fait sous surveillance, puis seul sur des tâches limitées. Chaque palier est validé avant le suivant. Les tâches les plus risquées, comme celles qui exigent une habilitation, une autorisation de conduite ou un équipement spécifique, restent interdites tant que les conditions ne sont pas réunies." },
+      { type: "h3", text: "Faire expliciter plutôt que démontrer" },
+      { type: "p", text: "Demander au nouvel arrivant de reformuler la consigne et d\'expliquer ce qu\'il ferait en cas d\'imprévu révèle les incompréhensions. Un hochement de tête ne prouve rien. Une consigne répétée avec ses propres mots est beaucoup plus fiable." },
+      { type: "h2", text: "Garder une trace et faire le point" },
+      { type: "p", text: "Une fiche de suivi, même simple, liste les points abordés, les dates et les validations. Elle sert de repère au manager et permet de démontrer l\'effort de formation en cas de contrôle ou d\'accident. Un point d\'étape à une semaine, puis à un mois, permet d\'ajuster le parcours." },
+      { type: "ul", items: ["les risques et consignes du poste abordés, avec la date", "les tâches que le nouvel arrivant peut réaliser seul", "les formations et habilitations restant à obtenir", "les questions ou difficultés remontées par l\'intéressé"] },
+      { type: "p", text: "Les remarques du nouvel arrivant sont utiles : il voit le poste avec un regard neuf et repère des situations que l\'équipe ne remarque plus. Elles peuvent alimenter la mise à jour du DUERP." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4141-2." },
+      { type: "cta", text: "Pour structurer l\'accueil et la formation de vos nouveaux salariés,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
