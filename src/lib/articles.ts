@@ -235,6 +235,7 @@ export const articleSlugs = [
   "droit-deconnexion-outils-numeriques-prevention-rps-employeur",
   "conflit-equipe-travail-intervenir-tot-prevention-rps-manager",
   "tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur",
+  "fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte",
 ] as const;
 
 /**
@@ -9795,6 +9796,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les remarques du nouvel arrivant sont utiles : il voit le poste avec un regard neuf et repère des situations que l\'équipe ne remarque plus. Elles peuvent alimenter la mise à jour du DUERP." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4141-2." },
       { type: "cta", text: "Pour structurer l\'accueil et la formation de vos nouveaux salariés,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte": {
+    title: "Fuite de gaz au travail : les réflexes à adopter dès la première odeur",
+    excerpt: "Une odeur de gaz impose d\'agir sans allumer, sans actionner d\'interrupteur et sans rester sur place. Voici l\'ordre des gestes, les erreurs à éviter et les consignes à préparer.",
+    publishedAt: "2026-11-17",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte.jpg",
+    content: [
+      { type: "p", text: "Le gaz naturel et le propane n\'ont pas d\'odeur par eux-mêmes. Les distributeurs y ajoutent un composé odorant pour qu\'une fuite soit perçue avant d\'atteindre une concentration dangereuse. Une odeur de gaz n\'est donc jamais anodine : mélangé à l\'air dans une certaine proportion, le gaz peut s\'enflammer ou exploser à la moindre étincelle." },
+      { type: "h2", text: "Les gestes à faire immédiatement" },
+      { type: "p", text: "Le réflexe est de supprimer toute source d\'ignition, de renouveler l\'air et de mettre les personnes à l\'abri. Chaque action se fait sans précipitation, mais sans délai." },
+      { type: "ul", items: ["ne pas flamber, ne pas fumer, ne pas utiliser de briquet ni d\'allumette", "ne pas actionner d\'interrupteur, de sonnette ni d\'appareil électrique", "ouvrir portes et fenêtres pour créer un courant d\'air, si cela ne retarde pas la sortie", "fermer le robinet d\'arrivée du gaz s\'il est accessible et sans danger", "faire évacuer les personnes présentes vers l\'extérieur"] },
+      { type: "h2", text: "Pourquoi un simple interrupteur est dangereux" },
+      { type: "p", text: "Un interrupteur, une prise ou un appareil qui démarre peut produire une étincelle. Dans un local chargé de gaz, elle suffit à provoquer l\'explosion. Pour la même raison, le téléphone se manipule à l\'extérieur, à distance du bâtiment, et non dans la zone où l\'odeur est perçue. Il est aussi déconseillé de rallumer les lumières ou de relancer une ventilation que l\'on vient d\'arrêter." },
+      { type: "h2", text: "Donner l\'alerte depuis l\'extérieur" },
+      { type: "p", text: "Une fois dehors, il faut alerter les secours : le 18 pour les sapeurs-pompiers ou le 112, numéro d\'urgence européen. Le message précise le lieu exact, la nature de ce qui est constaté (odeur, bruit de fuite, appareil concerné) et le nombre de personnes présentes ou manquantes. Le service d\'urgence du distributeur de gaz peut aussi être appelé pour qu\'un technicien intervienne sur le réseau." },
+      { type: "h3", text: "Ne pas retourner dans le bâtiment" },
+      { type: "p", text: "Personne ne rentre pour récupérer un objet ou vérifier une pièce. Le retour n\'a lieu qu\'avec l\'accord des secours, une fois la fuite maîtrisée et l\'atmosphère contrôlée." },
+      { type: "h2", text: "Si une victime ressent un malaise" },
+      { type: "p", text: "Maux de tête, nausées, vertiges ou somnolence peuvent signaler un manque d\'oxygène ou une intoxication. Le sauveteur secouriste du travail ne s\'expose pas : il ne pénètre dans la zone que si l\'on peut dégager la victime sans risque, sinon il attend les secours. La personne est installée à l\'air libre et surveillée, et le 15 ou le 112 reçoit un message précis sur son état." },
+      { type: "h2", text: "Préparer l\'entreprise en amont" },
+      { type: "p", text: "Une fuite se gère mieux quand les gestes sont connus avant l\'incident. Selon L.4121-1, l\'employeur évalue les risques et prend les mesures nécessaires pour protéger les travailleurs. Les locaux équipés au gaz (cuisines, chaufferies, ateliers) justifient une consigne écrite et un repérage clair des organes de coupure." },
+      { type: "ul", items: ["afficher la localisation du robinet de coupure générale et des vannes d\'arrêt", "intégrer le scénario fuite de gaz dans les exercices d\'évacuation", "faire contrôler et entretenir les installations par des professionnels", "former le personnel exposé aux gestes à tenir et à l\'alerte"] },
+      { type: "p", text: "Un point d\'attention concerne les équipements mobiles. Flexibles, détendeurs et raccords vieillissants sont une cause fréquente de fuite : ils se contrôlent à chaque branchement et se remplacent dès qu\'un défaut apparaît." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1." },
+      { type: "cta", text: "Pour former vos équipes aux réflexes face à une fuite de gaz et à l\'évacuation,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
