@@ -236,6 +236,7 @@ export const articleSlugs = [
   "conflit-equipe-travail-intervenir-tot-prevention-rps-manager",
   "tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur",
   "fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte",
+  "station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste",
 ] as const;
 
 /**
@@ -9824,6 +9825,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Un point d\'attention concerne les équipements mobiles. Flexibles, détendeurs et raccords vieillissants sont une cause fréquente de fuite : ils se contrôlent à chaque branchement et se remplacent dès qu\'un défaut apparaît." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4121-1." },
       { type: "cta", text: "Pour former vos équipes aux réflexes face à une fuite de gaz et à l\'évacuation,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste": {
+    title: "Station debout prolongée au travail : limiter la fatigue des jambes et du dos",
+    excerpt: "Rester debout des heures use les jambes, le dos et la circulation. Voici comment évaluer le poste, alterner les positions et aménager l\'espace pour réduire la fatigue.",
+    publishedAt: "2026-11-18",
+    category: "Prévention",
+    readingTime: 5,
+    image: "/images/articles/station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste.jpg",
+    content: [
+      { type: "p", text: "Caissiers, cuisiniers, opérateurs en atelier, vendeurs ou personnel de laboratoire passent l\'essentiel de leur journée debout. La posture paraît naturelle, mais elle devient pénible quand elle est statique et prolongée. Elle sollicite les jambes, le bas du dos et le système veineux, et elle s\'ajoute aux autres contraintes du poste." },
+      { type: "h2", text: "Une contrainte à intégrer dans l\'évaluation des risques" },
+      { type: "p", text: "Selon L.4121-1, l\'employeur évalue les risques et prend les mesures nécessaires pour protéger la santé des travailleurs. L.4121-2 précise que les principes de prévention incluent l\'adaptation du travail à l\'homme, notamment dans la conception des postes. La station debout prolongée a donc sa place dans le DUERP, au même titre que la manutention ou le bruit." },
+      { type: "h2", text: "Ce que la posture statique provoque" },
+      { type: "p", text: "Debout et immobile, les muscles restent contractés et le sang remonte moins bien des jambes vers le cœur. Les salariés décrivent des jambes lourdes, des douleurs dans les pieds, des gonflements en fin de journée et des tensions lombaires. Ces signaux sont des indicateurs de poste à relever avant qu\'ils ne deviennent des douleurs durables." },
+      { type: "h2", text: "Repérer les situations les plus à risque" },
+      { type: "p", text: "Plusieurs facteurs aggravent la fatigue. Un échange avec les salariés concernés, poste par poste, permet de les identifier rapidement." },
+      { type: "ul", items: ["sol dur et froid, sans revêtement amortissant", "plan de travail trop bas ou trop haut, qui impose de se pencher ou de lever les bras", "absence de repose-pieds ou de possibilité de déplacer son appui", "peu de variété dans les tâches, avec des périodes sans aucun déplacement", "chaussures inadaptées ou non remplacées"] },
+      { type: "h2", text: "Alterner plutôt qu\'imposer une seule position" },
+      { type: "p", text: "La meilleure posture est la prochaine. Le but n\'est pas de supprimer la station debout, mais de la couper : alterner debout, assis et déplacement réduit la fatigue. Quand la tâche le permet, un siège assis-debout ou un tabouret haut offre un appui temporaire. Le salarié doit pouvoir l\'utiliser sans demander l\'autorisation à chaque fois." },
+      { type: "h3", text: "Organiser les tâches" },
+      { type: "p", text: "Regrouper les tâches statiques et les tâches mobiles dans une même journée rompt la monotonie posturale. Une rotation entre deux postes, une pause courte à intervalles réguliers ou un déplacement pour aller chercher le matériel suffisent souvent. Ces ajustements coûtent peu et se décident au niveau du manager." },
+      { type: "h2", text: "Aménager le poste et l\'environnement" },
+      { type: "p", text: "Un tapis anti-fatigue sous le poste de travail améliore le confort sur sol dur. La hauteur du plan de travail se règle selon la taille du salarié et la nature de la tâche : plus basse pour un travail de précision en force, plus haute pour un travail de précision visuelle. Les objets utilisés souvent se placent à portée de main pour éviter les torsions." },
+      { type: "ul", items: ["revêtement de sol amortissant ou tapis anti-fatigue", "plan de travail réglable en hauteur", "repose-pieds ou barre d\'appui pour changer de posture", "chaussures stables, adaptées à la tâche, renouvelées régulièrement"] },
+      { type: "p", text: "La participation des salariés compte beaucoup. Ils savent quel poste fatigue et à quel moment de la journée. Leur retour alimente la mise à jour du DUERP et oriente les achats d\'équipement. En cas de douleurs persistantes, le médecin du travail est un interlocuteur pour adapter le poste." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2." },
+      { type: "cta", text: "Pour sensibiliser vos équipes à la prévention des TMS et à l\'ergonomie du poste,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
