@@ -237,6 +237,7 @@ export const articleSlugs = [
   "tutorat-securite-nouvel-arrivant-transmettre-gestes-prevention-employeur",
   "fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte",
   "station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste",
+  "charge-de-travail-surcharge-prevention-rps-manager-regulation",
 ] as const;
 
 /**
@@ -9853,6 +9854,35 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La participation des salariés compte beaucoup. Ils savent quel poste fatigue et à quel moment de la journée. Leur retour alimente la mise à jour du DUERP et oriente les achats d\'équipement. En cas de douleurs persistantes, le médecin du travail est un interlocuteur pour adapter le poste." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2." },
       { type: "cta", text: "Pour sensibiliser vos équipes à la prévention des TMS et à l\'ergonomie du poste,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "charge-de-travail-surcharge-prevention-rps-manager-regulation": {
+    title: "Charge de travail excessive : repérer la surcharge et réguler dans l\'équipe",
+    excerpt: "Une surcharge durable use les équipes avant de se voir dans les chiffres. Voici comment repérer les signaux, objectiver la charge et rééquilibrer le travail avec les salariés.",
+    publishedAt: "2026-11-19",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/charge-de-travail-surcharge-prevention-rps-manager-regulation.jpg",
+    content: [
+      { type: "p", text: "Une charge de travail trop lourde ne se résume pas à un nombre d\'heures. Elle tient aussi à la quantité de tâches, aux délais, aux interruptions et à la complexité du travail demandé. Quand l\'écart entre ce qui est attendu et les moyens disponibles dure, la fatigue s\'installe et les erreurs augmentent." },
+      { type: "h2", text: "Une obligation de l\'employeur" },
+      { type: "p", text: "Selon L.4121-1, l\'employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs. Ces mesures comprennent des actions de prévention des risques professionnels et l\'adaptation de l\'organisation du travail. La charge de travail relève donc de l\'évaluation des risques et du DUERP, au titre des risques psychosociaux." },
+      { type: "h2", text: "Charge quantitative et charge qualitative" },
+      { type: "p", text: "La brochure INRS ED 6403 sur l\'évaluation des risques psychosociaux place l\'intensité et la complexité du travail parmi les facteurs à examiner. On distingue deux dimensions. La charge quantitative concerne le volume et les délais. La charge qualitative concerne la difficulté des tâches, le manque d\'information, les consignes contradictoires ou les interruptions répétées." },
+      { type: "h2", text: "Les signaux à repérer tôt" },
+      { type: "p", text: "La surcharge apparaît d\'abord dans le quotidien, avant les indicateurs officiels. Un manager attentif relève des changements observables, sans interpréter l\'état de santé de la personne." },
+      { type: "ul", items: ["heures supplémentaires régulières et non prévues", "retards répétés sur des tâches auparavant tenues", "multiplication des erreurs ou des oublis", "pauses sautées et repas pris au poste", "tensions plus fréquentes dans l\'équipe", "absences courtes qui se répètent"] },
+      { type: "h2", text: "Objectiver la charge avec les salariés" },
+      { type: "p", text: "Un ressenti ne suffit pas pour décider, et un tableau de bord seul ne dit pas comment le travail se vit. Le plus fiable est de croiser les deux. On liste avec chaque salarié ses tâches réelles, le temps qu\'elles prennent et ce qui les perturbe. Cet échange révèle souvent du travail invisible : demandes ponctuelles, réunions, dépannage de collègues." },
+      { type: "h3", text: "Questions utiles en entretien" },
+      { type: "p", text: "Quelles tâches prennent plus de temps que prévu ? Qu\'est-ce qui vous interrompt le plus ? Quelles priorités vous semblent contradictoires ? Ces questions ouvertes déplacent la discussion de la performance individuelle vers l\'organisation du travail." },
+      { type: "h2", text: "Réguler concrètement" },
+      { type: "p", text: "Une fois la charge objectivée, le manager agit sur ce qu\'il maîtrise : hiérarchiser, répartir, retarder ou supprimer. Dire quelles tâches passent en second est une décision de management, pas un aveu d\'échec. Si la charge dépasse durablement les ressources de l\'équipe, la question remonte à la direction, avec des faits à l\'appui." },
+      { type: "ul", items: ["redéfinir les priorités et reporter les tâches non urgentes", "rééquilibrer les tâches entre les membres de l\'équipe", "protéger des plages sans interruption pour le travail de fond", "ajuster les délais ou les effectifs quand le besoin est durable"] },
+      { type: "h2", text: "Suivre dans le temps" },
+      { type: "p", text: "Les mesures prises sont inscrites au plan d\'actions du DUERP, avec un responsable et une échéance. Un point régulier avec l\'équipe vérifie si la situation s\'améliore. Le médecin du travail et les représentants du personnel peuvent être associés lorsque la situation touche plusieurs salariés." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; brochure INRS ED 6403." },
+      { type: "cta", text: "Pour aider vos managers à repérer et prévenir les risques psychosociaux,", label: "prenez contact via notre page dédiée", href: "/contact" },
     ],
   },
 };
