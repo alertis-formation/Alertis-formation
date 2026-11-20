@@ -238,6 +238,7 @@ export const articleSlugs = [
   "fuite-de-gaz-travail-odeur-de-gaz-reflexes-evacuation-alerte",
   "station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste",
   "charge-de-travail-surcharge-prevention-rps-manager-regulation",
+  "deces-collegue-travail-accompagner-equipe-prevention-rps-employeur",
 ] as const;
 
 /**
@@ -9883,6 +9884,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les mesures prises sont inscrites au plan d\'actions du DUERP, avec un responsable et une échéance. Un point régulier avec l\'équipe vérifie si la situation s\'améliore. Le médecin du travail et les représentants du personnel peuvent être associés lorsque la situation touche plusieurs salariés." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; brochure INRS ED 6403." },
       { type: "cta", text: "Pour aider vos managers à repérer et prévenir les risques psychosociaux,", label: "prenez contact via notre page dédiée", href: "/contact" },
+    ],
+  },
+  "deces-collegue-travail-accompagner-equipe-prevention-rps-employeur": {
+    title: "Décès d\'un collègue au travail : accompagner l\'équipe dans les premiers jours",
+    excerpt: "Annoncer la nouvelle, maintenir l\'activité sans brusquer, repérer les salariés fragilisés : les repères pour l\'employeur et le manager après le décès d\'un membre de l\'équipe.",
+    publishedAt: "2026-11-20",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/deces-collegue-travail-accompagner-equipe-prevention-rps-employeur.jpg",
+    content: [
+      { type: "p", text: "Le décès d\'un salarié, qu\'il survienne au travail ou en dehors, bouscule toute une équipe. Les managers se sentent souvent démunis : que dire, que décider, faut-il reprendre l\'activité ? Une réponse structurée dans les premiers jours limite les effets sur la santé mentale des collègues et protège la cohésion du collectif." },
+      { type: "h2", text: "Une obligation de protection qui ne s\'arrête pas à l\'événement" },
+      { type: "p", text: "L\'employeur doit prendre les mesures nécessaires pour protéger la santé physique et mentale des travailleurs (L.4121-1). Un décès brutal est un événement susceptible de provoquer choc, sidération ou détresse chez les collègues proches. Il relève donc de la prévention, au même titre que les autres facteurs de risques psychosociaux décrits dans la brochure INRS ED 6403." },
+      { type: "h2", text: "Annoncer la nouvelle à l\'équipe" },
+      { type: "p", text: "La famille doit être informée avant tout le monde, et son accord obtenu sur ce qui peut être dit. L\'annonce à l\'équipe se fait ensuite de vive voix, de préférence par le responsable hiérarchique, dans un lieu calme et sans attendre la rumeur. Évitez le message collectif par courriel pour les collègues proches, et prévenez individuellement les salariés absents ce jour-là." },
+      { type: "h2", text: "Organiser les premiers jours" },
+      { type: "p", text: "Inutile d\'exiger un retour immédiat à la normale. Quelques décisions simples aident le collectif à tenir et évitent des pressions involontaires sur les plus touchés." },
+      { type: "ul", items: ["alléger ou reporter les échéances non urgentes pendant quelques jours ;", "laisser les salariés très affectés s\'absenter ou changer de poste temporairement ;", "éviter d\'affecter immédiatement le poste du défunt à un collègue sans l\'avoir préparé ;", "proposer un temps d\'échange collectif, sans obligation d\'y parler."] },
+      { type: "h2", text: "Repérer les salariés les plus fragilisés" },
+      { type: "p", text: "Tous les collègues ne réagissent pas de la même manière. Les proches du défunt, les témoins d\'un accident ou la personne qui a découvert la situation sont les premiers exposés. Surveillez les changements de comportement : isolement, irritabilité, troubles du sommeil, erreurs inhabituelles, absentéisme. Le décès peut aussi réveiller un deuil ou une fragilité antérieure chez d\'autres salariés." },
+      { type: "h3", text: "Le rôle du manager et des relais internes" },
+      { type: "p", text: "Le manager n\'a pas à jouer le rôle de thérapeute. Il écoute, reconnaît la peine sans la minimiser, et oriente vers les bons interlocuteurs : service de prévention et de santé au travail, médecin du travail, représentants du personnel, dispositif d\'écoute de l\'entreprise s\'il existe. Un salarié formé aux Premiers Secours en Santé Mentale sait aussi repérer une détresse et engager la conversation." },
+      { type: "h2", text: "Marquer le moment sans l\'imposer" },
+      { type: "p", text: "Un temps de recueillement, un registre de condoléances ou la présence d\'une délégation aux obsèques, avec l\'accord de la famille, donnent un cadre à ce que vit l\'équipe. Laissez chacun choisir son niveau de participation. Certains préfèrent reprendre le travail pour garder un repère, d\'autres ont besoin de temps." },
+      { type: "h2", text: "Tirer les enseignements, si le décès est lié au travail" },
+      { type: "p", text: "Si le décès survient dans le cadre du travail, l\'employeur déclare l\'accident, analyse les causes avec le CSE et met à jour le DUERP. Ce travail demande de la prudence dans la communication : il vise à prévenir une récidive, pas à désigner un responsable devant l\'équipe. Il se déroule une fois les premiers jours passés, quand le collectif est en capacité de s\'y associer." },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; brochure INRS ED 6403." },
+      { type: "cta", text: "Pour apprendre à repérer et accompagner un collègue en détresse,", label: "découvrez notre formation PSSM", href: "/formations" },
     ],
   },
 };
