@@ -239,6 +239,7 @@ export const articleSlugs = [
   "station-debout-prolongee-travail-prevention-jambes-dos-amenagement-poste",
   "charge-de-travail-surcharge-prevention-rps-manager-regulation",
   "deces-collegue-travail-accompagner-equipe-prevention-rps-employeur",
+  "travail-repetitif-cadence-tms-membres-superieurs-prevention-poste",
 ] as const;
 
 /**
@@ -9912,6 +9913,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Si le décès survient dans le cadre du travail, l\'employeur déclare l\'accident, analyse les causes avec le CSE et met à jour le DUERP. Ce travail demande de la prudence dans la communication : il vise à prévenir une récidive, pas à désigner un responsable devant l\'équipe. Il se déroule une fois les premiers jours passés, quand le collectif est en capacité de s\'y associer." },
       { type: "p", text: "Référence officielle : Code du travail, article L.4121-1 ; brochure INRS ED 6403." },
       { type: "cta", text: "Pour apprendre à repérer et accompagner un collègue en détresse,", label: "découvrez notre formation PSSM", href: "/formations" },
+    ],
+  },
+  "travail-repetitif-cadence-tms-membres-superieurs-prevention-poste": {
+    title: "Travail répétitif et cadence : prévenir les TMS des membres supérieurs au poste",
+    excerpt: "Épaule, coude, poignet : les gestes répétés à cadence soutenue usent les tendons. Les repères pour analyser un poste, agir sur l\'organisation et limiter les TMS.",
+    publishedAt: "2026-11-21",
+    category: "Ergonomie",
+    readingTime: 5,
+    image: "/images/articles/travail-repetitif-cadence-tms-membres-superieurs-prevention-poste.jpg",
+    content: [
+      { type: "p", text: "Emballer, assembler, trier, scanner, saisir : un même geste répété des centaines de fois par heure sollicite toujours les mêmes tendons. Les douleurs d\'épaule, de coude ou de poignet apparaissent progressivement, souvent ignorées au début. Agir tôt sur le poste et sur le rythme de travail coûte moins cher que gérer une pathologie installée." },
+      { type: "h2", text: "Ce que l\'employeur doit faire" },
+      { type: "p", text: "L\'employeur évalue les risques et prend les mesures nécessaires pour protéger la santé des salariés (L.4121-1). Parmi les principes généraux de prévention figure l\'adaptation du travail à l\'homme, notamment pour atténuer le travail cadencé (L.4121-2). Les TMS du membre supérieur sont reconnus comme maladies professionnelles au tableau 57 du régime général, sous certaines conditions." },
+      { type: "h2", text: "Les facteurs qui font le risque" },
+      { type: "p", text: "Le geste répété n\'est jamais seul en cause. Le risque naît de la combinaison de plusieurs contraintes, d\'où l\'intérêt d\'observer le poste réel plutôt que la fiche de poste." },
+      { type: "ul", items: ["la répétitivité : des cycles courts, enchaînés sans pause", "les postures extrêmes : bras au-dessus des épaules, poignet plié, coude en extension", "l\'effort : serrage, outil lourd, pression prolongée sur une pièce", "l\'absence de récupération : cadence imposée, peu de marges de manœuvre", "les facteurs d\'environnement : froid, vibrations, éclairage insuffisant"] },
+      { type: "h2", text: "Analyser le poste en situation" },
+      { type: "p", text: "Observez un opérateur pendant plusieurs cycles complets et notez les postures, la fréquence des gestes et les efforts. Filmer le poste, avec l\'accord du salarié, permet de revoir la séquence au calme. Associez toujours l\'opérateur : il sait quels gestes font mal, à quel moment de la journée et avec quelles pièces." },
+      { type: "h3", text: "Les signaux à ne pas ignorer" },
+      { type: "p", text: "Fourmillements au réveil, douleur nocturne, perte de force dans la main, gêne qui revient chaque semaine au même poste : ces signes justifient un échange avec le médecin du travail. Plusieurs salariés se plaignant du même poste indiquent un problème de conception, pas de sensibilité individuelle." },
+      { type: "h2", text: "Agir d\'abord sur le poste et l\'organisation" },
+      { type: "p", text: "Les solutions les plus efficaces modifient la situation de travail. Rapprocher les pièces, régler la hauteur du plan de travail à celle des coudes ou fournir un outil adapté à la main réduit les postures contraignantes. Côté organisation, la rotation entre postes sollicitant des articulations différentes répartit la charge, à condition que les postes alternés ne reprennent pas les mêmes gestes." },
+      { type: "ul", items: ["ajuster la hauteur et la profondeur du plan de travail", "placer les pièces et outils dans la zone d\'atteinte confortable", "choisir des outils légers, avec poignées adaptées et effort de serrage réduit", "alterner les tâches et prévoir des micro-pauses réelles", "revoir la cadence quand elle ne laisse aucune marge de récupération"] },
+      { type: "h2", text: "Former et suivre dans le temps" },
+      { type: "p", text: "La formation PRAP apprend aux salariés à repérer les situations à risque et à proposer des améliorations, sans se substituer à la transformation du poste. Les mesures retenues entrent dans le plan d\'actions du DUERP, avec un responsable et une échéance, puis sont vérifiées après quelques semaines auprès des opérateurs concernés." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2 ; tableau 57 des maladies professionnelles du régime général." },
+      { type: "cta", text: "Pour former vos équipes à la prévention des TMS,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
     ],
   },
 };
