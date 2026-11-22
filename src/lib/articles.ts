@@ -240,6 +240,7 @@ export const articleSlugs = [
   "charge-de-travail-surcharge-prevention-rps-manager-regulation",
   "deces-collegue-travail-accompagner-equipe-prevention-rps-employeur",
   "travail-repetitif-cadence-tms-membres-superieurs-prevention-poste",
+  "zones-environnement-electrique-voisinage-habilitation-limites-travaux",
 ] as const;
 
 /**
@@ -9940,6 +9941,33 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "La formation PRAP apprend aux salariés à repérer les situations à risque et à proposer des améliorations, sans se substituer à la transformation du poste. Les mesures retenues entrent dans le plan d\'actions du DUERP, avec un responsable et une échéance, puis sont vérifiées après quelques semaines auprès des opérateurs concernés." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2 ; tableau 57 des maladies professionnelles du régime général." },
       { type: "cta", text: "Pour former vos équipes à la prévention des TMS,", label: "découvrez notre formation PRAP", href: "/formations/prap" },
+    ],
+  },
+  "zones-environnement-electrique-voisinage-habilitation-limites-travaux": {
+    title: "Zones d\'environnement électrique : comprendre le voisinage avant d\'intervenir",
+    excerpt: "Zone 4, voisinage simple, voisinage renforcé : la norme NF C18-510 découpe l\'espace autour des pièces nues sous tension. Ce découpage détermine qui peut intervenir et comment.",
+    publishedAt: "2026-11-22",
+    category: "Habilitation électrique",
+    readingTime: 5,
+    image: "/images/articles/zones-environnement-electrique-voisinage-habilitation-limites-travaux.jpg",
+    content: [
+      { type: "p", text: "Un électricien ne risque pas seulement le contact direct avec un conducteur. Il peut aussi être exposé en s\'approchant trop près d\'une pièce nue sous tension, ou en y portant un outil, une échelle, une longue pièce métallique. Pour encadrer ce risque, la norme découpe l\'espace autour des pièces nues en zones. Comprendre ce découpage aide à choisir l\'habilitation et la méthode de travail adaptées." },
+      { type: "h2", text: "Le cadre réglementaire" },
+      { type: "p", text: "Le Code du travail impose que les opérations sur les installations électriques ou dans leur voisinage soient réalisées par des travailleurs habilités (R.4544-9). La norme NF C18-510 décrit les prescriptions de sécurité qui s\'appliquent, et c\'est elle qui définit les zones d\'environnement. Les distances exactes dépendent du niveau de tension : elles se lisent dans la norme et dans le titre d\'habilitation, pas dans un aide-mémoire approximatif." },
+      { type: "h2", text: "Les zones, de la plus éloignée à la plus proche" },
+      { type: "p", text: "En s\'approchant d\'une pièce nue sous tension, on traverse successivement plusieurs zones. Chacune correspond à un niveau de risque et à des règles de présence différents." },
+      { type: "ul", items: ["hors zone de voisinage : aucune restriction particulière liée à la proximité de la pièce nue, hors mesures générales de prévention ;", "zone de voisinage simple : des personnes non électriciennes peuvent y travailler sous conditions, avec une habilitation adaptée ;", "zone de voisinage renforcé : le risque de contact ou d\'amorçage devient sérieux, seul un personnel habilité qualifié y intervient ;", "zone des travaux sous tension, dite zone 4 : le contact direct est possible, ces travaux relèvent d\'une habilitation spécifique et de méthodes encadrées."] },
+      { type: "h2", text: "Ce que change la zone pour l\'habilitation" },
+      { type: "p", text: "Le niveau d\'habilitation renseigné dans le titre indique le domaine de tension et la nature des opérations autorisées. Un salarié non électricien (B0 ou H0) peut évoluer à proximité sous conditions, sans réaliser d\'opération électrique. À l\'inverse, travailler en voisinage renforcé ou en zone 4 suppose une habilitation d\'électricien, une formation adaptée et un ordre de l\'employeur." },
+      { type: "h3", text: "Un point souvent mal compris" },
+      { type: "p", text: "Les distances de la zone s\'entendent y compris pour les objets que l\'opérateur manipule. Une échelle métallique, un câble ou un outil long peut faire entrer dans une zone plus dangereuse un salarié qui, lui, reste à bonne distance. Le chargé de travaux doit donc raisonner sur l\'emprise totale de l\'opération, pas seulement sur la position du corps." },
+      { type: "h2", text: "Délimiter et matérialiser sur le terrain" },
+      { type: "p", text: "Avant l\'intervention, le chargé de travaux repère les pièces nues sous tension, évalue les distances et choisit la protection adaptée : mise hors tension, consignation, obstacle isolant ou balisage. Le principe reste de supprimer le risque à la source par la consignation électrique lorsque c\'est possible. La zone est ensuite signalée, et les exécutants reçoivent des instructions claires sur ce qu\'ils peuvent faire et ne pas faire." },
+      { type: "ul", items: ["identifier les pièces nues restant sous tension à proximité de la zone de travail ;", "vérifier que chaque intervenant détient l\'habilitation correspondant à la zone ;", "installer écrans, obstacles ou balisage pour matérialiser les limites ;", "rappeler les consignes avant de démarrer, notamment sur le déplacement d\'objets longs."] },
+      { type: "h2", text: "Intégrer ces repères dans la formation et le suivi" },
+      { type: "p", text: "Les zones sont au cœur des formations à l\'habilitation électrique : elles permettent de relier une situation concrète à un niveau d\'habilitation. Un recyclage régulier et des mises en situation sur site fixent ces repères, en particulier pour les équipes de maintenance et les intervenants extérieurs qui découvrent l\'installation." },
+      { type: "p", text: "Référence officielle : Code du travail, article R.4544-9 ; norme NF C18-510." },
+      { type: "cta", text: "Pour former vos équipes à l\'habilitation électrique,", label: "découvrez notre formation dédiée", href: "/formations/habilitation-electrique" },
     ],
   },
 };
