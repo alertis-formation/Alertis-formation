@@ -242,6 +242,7 @@ export const articleSlugs = [
   "travail-repetitif-cadence-tms-membres-superieurs-prevention-poste",
   "zones-environnement-electrique-voisinage-habilitation-limites-travaux",
   "brochures-inrs-ed-6563-6564-6565-evaluation-risques-duerp-actions-prevention",
+  "reconnaissance-au-travail-facteur-rps-pratiques-manager-prevention",
 ] as const;
 
 /**
@@ -9996,6 +9997,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les formations CSE et SSCT, qui incluent l\'étude du DUERP, ainsi que les formations de prévention sur les TMS ou les risques psychosociaux, peuvent s\'appuyer sur ces brochures comme supports de référence gratuits. Elles donnent un vocabulaire commun entre direction, encadrement et représentants du personnel pour structurer l\'évaluation puis le plan d\'action." },
       { type: "p", text: "Référence officielle : INRS, brochures ED 6563, ED 6564 et ED 6565 et dépliant ED 6567, présentés sur inrs.fr dans l\'actualité « Prévention des risques professionnels : les clés pour passer à l\'action » (page mise à jour le 16 novembre 2026)." },
       { type: "cta", text: "Pour former les membres de votre CSE à leurs missions en santé et sécurité au travail,", href: "/formations", label: "consultez notre catalogue de formations" },
+    ],
+  },
+  "reconnaissance-au-travail-facteur-rps-pratiques-manager-prevention": {
+    title: "Reconnaissance au travail : un levier de prévention des risques psychosociaux",
+    excerpt: "Le manque de reconnaissance fait partie des facteurs qui dégradent la santé psychique. Voici comment le repérer et quelles pratiques managériales mettre en place, sans prime ni dispositif lourd.",
+    publishedAt: "2026-11-23",
+    category: "Santé mentale",
+    readingTime: 5,
+    image: "/images/articles/reconnaissance-au-travail-facteur-rps-pratiques-manager-prevention.jpg",
+    content: [
+      { type: "p", text: "Un salarié peut tenir une charge élevée, des horaires chargés, des imprévus. Il tient beaucoup moins bien quand personne ne voit ce qu'il fait. Le manque de reconnaissance est un facteur classique de risques psychosociaux : il pèse sur la motivation, sur la confiance en soi et, à terme, sur la santé. Il se traite pourtant par des pratiques simples, à la portée de tout manager." },
+      { type: "h2", text: "Ce que recouvre la reconnaissance" },
+      { type: "p", text: "La reconnaissance ne se limite ni au salaire ni aux primes. Elle porte d'abord sur le travail réel : l'effort fourni, les difficultés surmontées, la qualité du résultat. Elle passe aussi par l'équité de traitement, la considération dans les échanges quotidiens et la possibilité d'évoluer. Quand l'un de ces registres fait défaut, le salarié peut avoir le sentiment que son travail ne compte pas." },
+      { type: "h2", text: "L'obligation de l'employeur" },
+      { type: "p", text: "Selon L.4121-1, l'employeur prend les mesures nécessaires pour protéger la santé physique et mentale des travailleurs. L.4121-2 fixe les principes généraux de prévention, dont la planification de la prévention en y intégrant l'organisation du travail, les relations sociales et l'influence des facteurs ambiants. La reconnaissance relève donc de l'organisation du travail, pas seulement de la sensibilité de chaque manager." },
+      { type: "h2", text: "Repérer un déficit de reconnaissance" },
+      { type: "p", text: "Le déficit se lit rarement dans une plainte explicite. Il apparaît plutôt dans des changements de comportement et dans des indicateurs que l'entreprise suit déjà." },
+      { type: "ul", items: ["un salarié investi qui cesse de proposer des idées ou de participer aux réunions ;", "des remarques répétées du type « personne ne le remarque » lors des entretiens ;", "un turnover ou un absentéisme qui augmente dans une équipe précise ;", "des écarts de traitement perçus (horaires, primes, formation) que personne n'explique."] },
+      { type: "p", text: "Ces signaux ne prouvent rien isolément. Croisés avec l'évaluation des risques psychosociaux inscrite au document unique, ils indiquent où agir en priorité." },
+      { type: "h2", text: "Des pratiques managériales concrètes" },
+      { type: "p", text: "La reconnaissance efficace est précise, rapide et liée au travail. Un « bon travail » général marque peu. Dire ce qui a été bien fait, pourquoi cela a compté et pour qui, marque davantage. Le retour doit venir peu après l'action, pas lors de l'entretien annuel." },
+      { type: "h3", text: "Reconnaître le travail difficile, pas seulement le résultat" },
+      { type: "p", text: "Un dossier clos sans incident passe inaperçu, alors qu'il a demandé de l'anticipation. Le manager gagne à valoriser aussi les efforts invisibles : le client difficile apaisé, la panne évitée, l'aide apportée à un collègue." },
+      { type: "ul", items: ["donner un retour factuel et rapide après une tâche réussie ;", "citer le travail de chacun lors des points d'équipe plutôt que celui du seul chef de projet ;", "associer les salariés aux décisions qui touchent leur poste ;", "expliquer les critères d'évolution et de rémunération pour limiter le sentiment d'injustice."] },
+      { type: "h2", text: "Ancrer la démarche dans l'organisation" },
+      { type: "p", text: "Pour que la reconnaissance ne dépende pas du bon vouloir de chacun, elle s'intègre aux entretiens, aux réunions d'équipe et au plan d'actions du document unique. Former les managers à donner un retour utile, et suivre quelques indicateurs (turnover, absences, retours des salariés), permet d'ajuster dans la durée." },
+      { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2." },
+      { type: "cta", text: "Pour aller plus loin sur la prévention des risques psychosociaux,", label: "découvrez notre formation PSSM", href: "/formations" },
     ],
   },
 };
