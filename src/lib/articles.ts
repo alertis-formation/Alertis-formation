@@ -241,6 +241,7 @@ export const articleSlugs = [
   "deces-collegue-travail-accompagner-equipe-prevention-rps-employeur",
   "travail-repetitif-cadence-tms-membres-superieurs-prevention-poste",
   "zones-environnement-electrique-voisinage-habilitation-limites-travaux",
+  "brochures-inrs-ed-6563-6564-6565-evaluation-risques-duerp-actions-prevention",
 ] as const;
 
 /**
@@ -278,6 +279,7 @@ export const veilleArticleSlugs = new Set<string>([
   "registre-securite-incendie-erp-decret-2025-1100",
   "loi-2026-534-duerp-amende-administrative-4000-euros-par-salarie",
   "decret-2026-728-referentiel-national-qualite-qualiopi-v10",
+  "brochures-inrs-ed-6563-6564-6565-evaluation-risques-duerp-actions-prevention",
 ]);
 
 export type ArticleBlock =
@@ -9968,6 +9970,32 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "Les zones sont au cœur des formations à l\'habilitation électrique : elles permettent de relier une situation concrète à un niveau d\'habilitation. Un recyclage régulier et des mises en situation sur site fixent ces repères, en particulier pour les équipes de maintenance et les intervenants extérieurs qui découvrent l\'installation." },
       { type: "p", text: "Référence officielle : Code du travail, article R.4544-9 ; norme NF C18-510." },
       { type: "cta", text: "Pour former vos équipes à l\'habilitation électrique,", label: "découvrez notre formation dédiée", href: "/formations/habilitation-electrique" },
+    ],
+  },
+  "brochures-inrs-ed-6563-6564-6565-evaluation-risques-duerp-actions-prevention": {
+    title: "Brochures INRS ED 6563, ED 6564 et ED 6565 : évaluer les risques, rédiger le DUERP, choisir les actions",
+    excerpt: "L\'INRS met en avant une série de brochures sur la démarche de prévention : évaluation des risques (ED 6563), document unique (ED 6564) et actions de prévention (ED 6565), complétées par le dépliant ED 6567.",
+    publishedAt: "2026-11-23",
+    category: "Prévention",
+    readingTime: 4,
+    image: "/images/articles/duerp-guide-pratique-rediger-et-mettre-a-jour-document-unique.jpg",
+    content: [
+      { type: "p", text: "Dans une page d\'actualité mise à jour le 16 novembre 2026, l\'INRS présente un ensemble de publications consacré à la démarche de prévention des risques professionnels : trois brochures, ED 6563, ED 6564 et ED 6565, et un dépliant, ED 6567. Ensemble, elles suivent le fil logique d\'une démarche : évaluer, formaliser, agir." },
+      { type: "h2", text: "Ce que contiennent les publications" },
+      { type: "ul", items: [
+        "ED 6567, dépliant « La prévention des risques professionnels » : les principes d\'une démarche efficace, l\'engagement de la direction, les neuf principes généraux de prévention du Code du travail et l\'importance d\'analyser le travail réel.",
+        "ED 6563, « L\'évaluation des risques professionnels » : méthodes et outils, de l\'observation du travail réel à l\'analyse des accidents du travail, avec l\'association des salariés à l\'identification des risques.",
+        "ED 6564, « Le document unique d\'évaluation des risques professionnels (DUERP) » : le DUERP présenté comme un outil de pilotage et non comme une simple formalité, avec son élaboration, son contenu, sa mise à jour et les acteurs à associer.",
+        "ED 6565, « Les actions de prévention des risques professionnels » : choix d\'actions techniques, organisationnelles, constructives, formatives ou informatives, avec des repères pour fixer échéances, moyens et indicateurs de suivi.",
+      ]},
+      { type: "h2", text: "Qui est concerné ?" },
+      { type: "p", text: "Ces documents s\'adressent à tout employeur, puisque l\'évaluation des risques et sa transcription dans le document unique relèvent de l\'article L.4121-3 du Code du travail, et que les actions de prévention s\'inscrivent dans les principes de l\'article L.4121-2. Ils intéressent aussi les préventeurs, les responsables RH et les membres du CSE, qui participent à la démarche." },
+      { type: "h2", text: "Ce qui est utile en pratique" },
+      { type: "p", text: "L\'ED 6565 apporte un point souvent absent des DUERP : relier chaque risque identifié à une action pilotée, avec une échéance, des moyens et un indicateur pour vérifier son efficacité. L\'ED 6564 rappelle de son côté que le document unique doit servir de base aux actions, ce qui suppose de le mettre à jour et de l\'exploiter." },
+      { type: "h2", text: "Impact sur les formations" },
+      { type: "p", text: "Les formations CSE et SSCT, qui incluent l\'étude du DUERP, ainsi que les formations de prévention sur les TMS ou les risques psychosociaux, peuvent s\'appuyer sur ces brochures comme supports de référence gratuits. Elles donnent un vocabulaire commun entre direction, encadrement et représentants du personnel pour structurer l\'évaluation puis le plan d\'action." },
+      { type: "p", text: "Référence officielle : INRS, brochures ED 6563, ED 6564 et ED 6565 et dépliant ED 6567, présentés sur inrs.fr dans l\'actualité « Prévention des risques professionnels : les clés pour passer à l\'action » (page mise à jour le 16 novembre 2026)." },
+      { type: "cta", text: "Pour former les membres de votre CSE à leurs missions en santé et sécurité au travail,", href: "/formations", label: "consultez notre catalogue de formations" },
     ],
   },
 };
