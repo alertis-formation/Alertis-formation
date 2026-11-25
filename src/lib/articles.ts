@@ -244,6 +244,7 @@ export const articleSlugs = [
   "brochures-inrs-ed-6563-6564-6565-evaluation-risques-duerp-actions-prevention",
   "reconnaissance-au-travail-facteur-rps-pratiques-manager-prevention",
   "autonomie-marges-de-manoeuvre-travail-facteur-rps-prevention-manager",
+  "ronde-fermeture-fin-de-journee-prevention-incendie-locaux",
 ] as const;
 
 /**
@@ -10056,6 +10057,34 @@ export const articles: Record<string, Article> = {
       { type: "p", text: "L'autonomie doit apparaître dans le DUERP (Document Unique d'Évaluation des Risques) au même titre que les autres facteurs de risques psychosociaux. Les entretiens, les échanges avec les représentants du personnel et l'analyse des situations réelles de travail donnent des éléments concrets. Les actions retenues sont ensuite suivies dans le programme annuel de prévention." },
       { type: "p", text: "Référence officielle : Code du travail, articles L.4121-1 et L.4121-2." },
       { type: "cta", text: "Pour aller plus loin sur la prévention des risques psychosociaux,", label: "découvrez nos formations", href: "/formations" },
+    ],
+  },
+  "ronde-fermeture-fin-de-journee-prevention-incendie-locaux": {
+    title: "Ronde de fermeture : le dernier contrôle de la journée contre le risque incendie",
+    excerpt: "Un feu qui démarre quand les locaux sont vides se découvre tard. Une ronde de fermeture courte, tracée et confiée à un référent limite ce risque. Voici comment la construire.",
+    publishedAt: "2026-11-25",
+    category: "Sécurité incendie",
+    readingTime: 5,
+    image: "/images/articles/ronde-fermeture-fin-de-journee-prevention-incendie-locaux.jpg",
+    content: [
+      { type: "p", text: "Un départ de feu en pleine journée est vite repéré. La nuit ou le week-end, personne n'est là pour donner l'alerte et le sinistre prend de l'ampleur avant d'être découvert. La ronde de fermeture, faite juste avant le départ du dernier salarié, réduit ce risque avec quelques minutes de contrôle. Elle ne remplace aucun équipement, mais elle élimine les causes les plus banales." },
+      { type: "h2", text: "Pourquoi la fermeture est un moment sensible" },
+      { type: "p", text: "En fin de journée, chacun est pressé de partir. Un appareil laissé sous tension, une porte coupe-feu calée ouverte ou un chargeur oublié passent inaperçus. Ces situations n'ont rien de spectaculaire, mais elles se retrouvent régulièrement parmi les causes de départs de feu hors des heures d'ouverture." },
+      { type: "p", text: "Selon L.4121-1, l'employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé des travailleurs. Organiser une vérification de fermeture fait partie des mesures d'organisation qu'il peut mettre en place pour prévenir l'incendie." },
+      { type: "h2", text: "Ce que la ronde doit vérifier" },
+      { type: "p", text: "La liste dépend du site, mais quelques points reviennent presque partout. Elle doit tenir sur une page et pouvoir être suivie en moins de dix minutes, sinon elle sera abandonnée au bout de quelques semaines." },
+      { type: "ul", items: ["appareils de chauffage d'appoint, machines à café, bouilloires et autres appareils de cuisson éteints et débranchés ;", "chargeurs de batteries, outils et équipements électroportatifs retirés de la charge quand le chargement est terminé ;", "matériels informatiques et prises multiples hors tension lorsque l'usage le permet ;", "poubelles et déchets combustibles évacués ou placés dans un contenant fermé ;", "mégots éteints et cendriers vidés dans un récipient non combustible, quand fumer est permis dans une zone extérieure."] },
+      { type: "h2", text: "Contrôler aussi les moyens de sécurité" },
+      { type: "p", text: "La ronde sert à repérer les écarts qui se sont créés dans la journée. Les issues de secours doivent rester dégagées, les portes coupe-feu fermées et non calées, les extincteurs accessibles à leur emplacement. Un stock déposé devant un dégagement ou contre un tableau électrique doit être déplacé avant la fermeture." },
+      { type: "h3", text: "Les zones à risque particulier" },
+      { type: "p", text: "Les ateliers, les cuisines, les locaux de stockage et les locaux techniques demandent une attention renforcée. On y contrôle l'arrêt des équipements chauffants, la fermeture des arrivées de gaz et l'absence de chiffons souillés ou de produits inflammables laissés hors de leur rangement." },
+      { type: "h2", text: "Désigner un référent et suppléer son absence" },
+      { type: "p", text: "Une ronde que tout le monde est censé faire n'est faite par personne. Désignez un référent par site ou par zone, avec un suppléant nommé pour les congés et les absences. Le plus simple est de confier la ronde à la dernière personne présente, après une courte explication de ce qu'elle doit regarder." },
+      { type: "h2", text: "Tracer la ronde pour la faire vivre" },
+      { type: "p", text: "Une fiche de contrôle datée et signée, rangée à un endroit connu, donne la preuve que la vérification a eu lieu. Elle permet aussi de repérer les anomalies qui reviennent, comme une prise qui reste branchée ou une porte systématiquement calée, et d'en traiter la cause plutôt que le symptôme." },
+      { type: "ul", items: ["une fiche d'une page, avec une case par point contrôlé ;", "la date, l'heure et le nom de la personne qui a fait la ronde ;", "un espace pour noter l'anomalie constatée et l'action décidée ;", "un point mensuel pour analyser les écarts répétés avec le responsable sécurité."] },
+      { type: "p", text: "Référence officielle : Code du travail, article L.4121-1." },
+      { type: "cta", text: "Pour former vos équipes à la prévention et à la conduite à tenir face à un départ de feu,", label: "découvrez notre formation incendie", href: "/formations/incendie" },
     ],
   },
 };
